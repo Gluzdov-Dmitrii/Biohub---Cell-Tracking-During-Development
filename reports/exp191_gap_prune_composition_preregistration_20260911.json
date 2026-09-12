@@ -1,0 +1,29 @@
+{
+  "experiment": "EXP191",
+  "status": "PREREGISTERED_NOT_STARTED",
+  "evidence_class": "exploratory nested development OOF with sequential researcher selection disclosed",
+  "hypothesis": "Synthetic gap recovery adds edge recall while embryo-specific short-component pruning removes its false-positive fragments; the mechanisms may compose.",
+  "frozen_gap_families": {
+    "gap_primary_forward": "g50_t30",
+    "gap_primary_reverse": "g45_t20",
+    "gap50_forward": "g50_t30",
+    "gap50_reverse": "g50_t30"
+  },
+  "frozen_component_lengths": [1, 2, 3, 6, 8, 10, 12],
+  "primary_protocol": "Generate exact selected-edge caches, verify no-filter cache metrics against their source GPU evaluation, merge base/gap arm families, then select a composition for each held-out movie using only the other 11 movies in that reciprocal direction.",
+  "limitation": "Gap families and component lengths were chosen after EXP186/EXP190. Nested movie exclusion prevents direct held-out parameter leakage, but this remains exploratory and carries researcher degrees of freedom.",
+  "gpu_plan": "One RTX6000 lease; one forward and two reverse evaluations; shared heatmaps within reverse; release after process verification.",
+  "scripts": {
+    "evaluate_synthetic_gap_deepcenter.py": "9a93702994f84e3510329419cdfec8b3f63eb949e1e0c0623f7fad570466dfc9",
+    "evaluate_cached_selected_edge_short_tracks.py": "d411f0c937f12928e6019993b7ea5c42d2594356ea820ec3b9c06fd9cd3c190e",
+    "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "merge_prefixed_oof_arms.py": "96702ab982561435c8f9765127e3a2ddc0d3b081355a5dd8198345533ae9f6b6",
+    "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "validate_cached_arm_reproduction.py": "3ca9fc363f98b95f37c4c5d4bcea7eaba351e04cf723685c41d8dc1520be0278",
+    "run_exp191_gap_prune_composition.sh": "d5d0c7c4c7597a2fe89d61c18c75b7402fc69508ec94aa16e5131ffa570a4f57"
+  },
+  "tests": "7 focused tests and py_compile passed",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

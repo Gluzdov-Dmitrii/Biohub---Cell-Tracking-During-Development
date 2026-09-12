@@ -1,0 +1,77 @@
+{
+  "experiment": "EXP191",
+  "status": "PASS_EXPLORATORY_NESTED_POOLED_GAIN",
+  "evidence_class": "exploratory nested development OOF with sequential researcher selection disclosed",
+  "cache_roundtrip_controls": {
+    "forward_g50_t30_maximum_absolute_error": 0.0,
+    "reverse_g45_t20_maximum_absolute_error": 0.0,
+    "reverse_g50_t30_maximum_absolute_error": 0.0
+  },
+  "true_24_movie_pooled": {
+    "baseline": 0.6761456762872734,
+    "nested_selected": 0.7449899429460727,
+    "delta_from_baseline": 0.06884426665879928,
+    "delta_from_exp190": 0.0019176284161310786,
+    "edge_jaccard": 0.7384436417069736,
+    "node_recall": 0.9176371840324649,
+    "negative_movie_count_vs_baseline": 4
+  },
+  "selection": {
+    "forward": {
+      "base_min8": 9,
+      "base_min10": 3
+    },
+    "reverse": {
+      "gap_primary_min6": 9,
+      "gap50_min6": 3
+    },
+    "reverse_full_data_best_diagnostic_only": {
+      "arm": "gap_primary_min6",
+      "score": 0.7490368047801496
+    }
+  },
+  "stability_vs_baseline": {
+    "paired_stratified_bootstrap_draws": 20000,
+    "probability_positive": 0.9999,
+    "q025": 0.03408790474383001,
+    "median": 0.06956256693270135,
+    "q975": 0.09902280202628824,
+    "direction_delta_forward": 0.07432682246303846,
+    "direction_delta_reverse": 0.04375479203814103,
+    "leave_one_movie_out_min_delta": 0.06346258104276048,
+    "leave_one_movie_out_max_delta": 0.0795928637629626
+  },
+  "stability_vs_exp190": {
+    "observed_delta": 0.0019176284161310786,
+    "paired_stratified_bootstrap_draws": 20000,
+    "probability_positive": 0.94105,
+    "q025": -0.00044768957104460974,
+    "median": 0.0019252639213279688,
+    "q975": 0.004504799608196981,
+    "direction_delta_forward": 0.0,
+    "direction_delta_reverse": 0.010224973455170594,
+    "leave_one_movie_out_min_delta": 0.0011236065936198747,
+    "leave_one_movie_out_max_delta": 0.0022860263175016327,
+    "interpretation": "The numerical frontier improved and every leave-one-movie-out aggregate stayed positive, but the paired bootstrap 95% interval crosses zero. EXP191 is not confirmatory evidence of improvement over EXP190."
+  },
+  "artifacts": {
+    "nested_selection_sha256": "5c6a2f488ea9ffc3bf735a6bb72364a2d501055be12cf9187477e9a40ca3f12e",
+    "stability_vs_baseline_sha256": "b8ab18f12c10685c35d6663510ab391629ca291f3f82d872bcbcd99e424db97f",
+    "stability_vs_exp190_sha256": "9a7d04f213e70fab759f31089ed5d8c1687faf668d3d7cd56fcb97a2b323e001",
+    "forward_cache_control_sha256": "11e17a4d7b1cc7c5763ba5eb22b13c153775761d987e9cdec03e8c9badbef471",
+    "reverse_g45_cache_control_sha256": "11e17a4d7b1cc7c5763ba5eb22b13c153775761d987e9cdec03e8c9badbef471",
+    "reverse_g50_cache_control_sha256": "11e17a4d7b1cc7c5763ba5eb22b13c153775761d987e9cdec03e8c9badbef471"
+  },
+  "resource_and_cleanup": {
+    "gpu": "one RTX6000 lease, released after PID/child verification",
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "removed_reproducible_intermediates": [
+      "runs/exp191_gap_prune_composition_20260911/heatmaps (1.1 GB)",
+      "runs/exp191_gap_prune_composition_20260911/arm_cache (11 MB)",
+      "runs/exp191_gap_prune_composition_20260911/__pycache__",
+      "runs/exp191_gap_prune_composition_20260911/exp191.log (empty)"
+    ],
+    "preserved": "results, scripts, preregistration and launch receipt"
+  },
+  "eligible_for_kaggle_submission": false
+}

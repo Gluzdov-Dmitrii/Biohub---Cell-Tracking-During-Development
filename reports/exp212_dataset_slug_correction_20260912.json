@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP212",
+  "status": "PRE_RUN_DATASET_SLUG_CORRECTION",
+  "corrects": "reports/exp212_exp209_oof_production_preregistration_20260912.json",
+  "requested_dataset_slug": "dmitriigluzdov/biohub-exp209-oof-frontier-models",
+  "actual_dataset_slug": "dmitriigluzdov/biohub-exp209-pooled-oof-frontier-models",
+  "dataset_status": "ready",
+  "remote_file_count": 15,
+  "old_source_sha256": "51c4bbffe66fe1080f927151a7722b2291d1d681f2c43bfe77599e69044b5c47",
+  "corrected_source_sha256": "ab08de413e901669224fae7d434368203fd52b89601c236ac19e36287cbae6e4",
+  "scientific_change": false,
+  "kernel_pushed_before_correction": false,
+  "inference_run_before_correction": false,
+  "tests": "18 passed"
+}

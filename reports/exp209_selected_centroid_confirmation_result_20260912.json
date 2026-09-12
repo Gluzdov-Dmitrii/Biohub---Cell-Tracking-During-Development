@@ -1,0 +1,73 @@
+{
+  "experiment": "EXP209",
+  "date_local": "2026-09-12",
+  "status": "PASS_NEW_POOLED_OOF_FRONTIER",
+  "evidence_grade": "preregistered 175-movie reciprocal embryo-held-out confirmation of source-selected radii; radius family remains development-adapted",
+  "structural_gate": {
+    "status": "PASS_EXP209_ALL_SELECTED_CENTROID_CHUNKS_NO_METRICS",
+    "chunks": 8,
+    "movies": 175,
+    "forward_movies": 116,
+    "reverse_movies": 59
+  },
+  "promoted_policy": {
+    "forward": "intensity centroid radius (3,5,5), minimum track length 8",
+    "reverse": "frozen EXP191 gap-plus-pruning reverse arm",
+    "pooled_oof": 0.6815218332750073,
+    "delta_vs_exp206": 0.0030675361973779847,
+    "delta_vs_raw": 0.07126492572413923,
+    "forward_score": 0.6658905035960894,
+    "reverse_score": 0.7716450342479437,
+    "forward_delta_vs_exp206": 0.0032449048208960107,
+    "reverse_delta_vs_exp206": 0.0020734110344853285,
+    "paired_bootstrap": {
+      "draws": 20000,
+      "seed": 314159,
+      "probability_positive": 1.0,
+      "q025": 0.0014898445239081154,
+      "q975": 0.004628095713171574
+    },
+    "leave_one_movie_out_min_delta": 0.00289736899354609,
+    "leave_one_movie_out_max_delta": 0.0033339233962913495,
+    "negative_movie_count_vs_raw": 24,
+    "edge_tp": 87389,
+    "edge_fp": 15414,
+    "edge_fn": 26967,
+    "edge_jaccard": 0.6734145025814904,
+    "node_recall": 0.8738311372289939,
+    "division_tp": 0,
+    "division_fn": 138
+  },
+  "other_preregistered_policies": {
+    "forward_plus_exp195": {
+      "pooled_oof": 0.6812194522622402,
+      "delta_vs_exp206": 0.0027651551846109568,
+      "bootstrap_q025": 0.0012164432006944975,
+      "bootstrap_q975": 0.004295651908776235
+    },
+    "both_selected_centroid": {
+      "pooled_oof": 0.6802263871309298,
+      "delta_vs_exp206": 0.001772090053300479,
+      "reverse_delta_vs_exp206": -0.006392587263229554,
+      "bootstrap_q025": 0.000010496826406955518,
+      "bootstrap_q975": 0.003543340226845187
+    }
+  },
+  "integrity": {
+    "remote_manifest_verified": true,
+    "local_manifest_verified": true,
+    "manifest_entries": 38,
+    "manifest_sha256": "1d9bd5c800958d9fa0d5de8982fc12afcaf6d9e776ccd995408033f1c67eff8a",
+    "local_artifact_directory": "outputs/research/exp209_selected_centroid_confirmation_20260912",
+    "preserved_bytes": 1314935
+  },
+  "resource": {
+    "host": "nsu-quadro",
+    "pid": 240346,
+    "linux_start_tick": 440181250,
+    "cpu_affinity": "0-7",
+    "gpu_used": false,
+    "cleanup": "No bulk cache was created. Compact verified results are retained remotely and locally as reproducibility evidence."
+  },
+  "kaggle_action": false
+}

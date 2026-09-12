@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP211",
+  "chunk": "forward_00",
+  "date_local": "2026-09-12",
+  "status": "GPU_INFERENCE_COMPLETE_CPU_POSTPROCESS_PACKAGING_FAILURE",
+  "registered_process": {
+    "pid": 245712,
+    "linux_start_tick": 440705525,
+    "parent_absent": true,
+    "gpu_worker_absent": true,
+    "lease_final_state": "RELEASED_CURRENT"
+  },
+  "failure": {
+    "stage": "evaluate_cached_short_track_family.py import",
+    "error": "ModuleNotFoundError: No module named 'evaluate_coordinate_consensus'",
+    "cause": "EXP211 v1 code bundle omitted a transitive local module required by the cached short-track evaluator.",
+    "error_log_sha256": "0010badffb431ea8d30b3f7af3ff0b8904f4ac72c4f84bf18969defb6c61755c",
+    "scientific_metrics_opened": false
+  },
+  "salvageable_frozen_outputs": {
+    "d4_raw_json_sha256": "15aacc29ce5bc4b01dfbacdc8dee439b99ec2d954725929c830940f5faead768",
+    "candidate_cache_files": 24,
+    "failure_snapshot_manifest_sha256": "bf8964e2bbbb9c56a81a4a731485b9a2201cebcb645305e2f07d3ff990ac51e9"
+  },
+  "recovery_policy": "Do not repeat GPU inference. Create a versioned code bundle with the missing pinned dependency, verify the frozen failure manifest, and resume only CPU postprocessing into the same run with a separate receipt.",
+  "kaggle_action": false
+}

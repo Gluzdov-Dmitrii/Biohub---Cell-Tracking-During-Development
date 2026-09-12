@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP212",
+  "status": "V1_PREINFERENCE_DEPENDENCY_FAILURE_V2_PACKAGING_CORRECTION",
+  "kernel_actual_slug": "dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production",
+  "failed_version": 1,
+  "failure_stage": "dependency import before model loading or inference",
+  "failure": "pip dependency resolution installed NumPy 2.4.6, incompatible with the preinstalled SciPy binary",
+  "failure_log_sha256": "9b4205991e244bd1fd07e1cf1ed033c484c50ba46ac941a7b629aaa739276d54",
+  "submission_csv_produced": false,
+  "competition_post_occurred": false,
+  "correction": "add --no-deps to the already offline requirements installation",
+  "scientific_change": false,
+  "previous_source_sha256": "ab08de413e901669224fae7d434368203fd52b89601c236ac19e36287cbae6e4",
+  "v2_source_sha256": "ddd310cb1c2dfacba1fdc463f8a0680b8cdbb9297d8e2c7abc6657f6cbcff093",
+  "local_tests": "18 passed",
+  "source_compiles": true
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP209",
+  "pooled_oof": 0.6815218332750073,
+  "evaluation": "175-movie reciprocal embryo-held-out pooled OOF",
+  "forward": {
+    "training_embryo": "44b6",
+    "held_out_embryo": "6bba",
+    "checkpoint_sha256": "dc06a79401671b2acc7ad36e8db19316f51d11676ba46508c356839df682fdbb",
+    "policy": "positive-intensity centroid radius (3,5,5), registered translation Hungarian, minimum component length 8"
+  },
+  "reverse": {
+    "training_embryo": "6bba",
+    "held_out_embryo": "44b6",
+    "checkpoint_sha256": "5c0f8358389af40a646a0fe3b4e8e88fb1b1c155da12e92efa3c944eeb499366",
+    "deepcenter_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+    "policy": "registered translation Hungarian, one-frame synthetic gap at 4.5 um/step with DeepCenter 0.20 gate for spans >=8.5 um and 5% cap, minimum component length 6"
+  },
+  "deployment_note": "Hidden embryos are disjoint from training. The exact OOF dispatcher is available only for the two evaluated embryos; production uses a frozen label-free continuity selector when the embryo prefix is unseen.",
+  "licenses": {
+    "competition_data": "CC0-1.0",
+    "baseline_code": "BSD-3-Clause"
+  }
+}

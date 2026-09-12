@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP212",
+  "status": "PREREGISTERED_BEFORE_KAGGLE_DATASET_UPLOAD_OR_KERNEL_RUN",
+  "track": "PRIVATE_ROBUST",
+  "daily_slot": 3,
+  "parent": "EXP209",
+  "parent_pooled_oof": 0.6815218332750073,
+  "source": "kaggle_notebooks/exp212_exp209_oof_frontier/exp209_oof_frontier.py",
+  "source_sha256": "51c4bbffe66fe1080f927151a7722b2291d1d681f2c43bfe77599e69044b5c47",
+  "kernel": "dmitriigluzdov/biohub-exp212-exp209-oof-frontier",
+  "model_dataset": "dmitriigluzdov/biohub-exp209-oof-frontier-models",
+  "model_dataset_bytes": 54697405,
+  "internet": false,
+  "gpu": true,
+  "hidden_test_dataflow": "discover runtime competition test/*.zarr; infer with both reciprocal fold models for unseen embryo prefixes; run frozen EXP209 forward and reverse postprocessors; choose by frozen label-free 2um agreement/continuity selector; write one root submission.csv",
+  "oof_scope_warning": "0.6815218332750073 is the 175-movie cross-fit OOF score, not an OOF score for the unseen-embryo selector",
+  "expected_outputs": ["submission.csv", "exp212_runtime_receipt.json"],
+  "local_checks": {
+    "tests": "18 passed",
+    "source_compiles": true,
+    "dataset_sha256sums_verify": true
+  },
+  "promotion_gate": "clean Internet-off COMPLETE run; exact remote source SHA; one root CSV; dynamic ID equality; schema/types/finite/bounds/edge/degree audit; then one guarded-helper POST and full API read; stop on anomaly",
+  "kaggle_dataset_uploaded": false,
+  "kaggle_kernel_run": false,
+  "kaggle_submission_posted": false
+}

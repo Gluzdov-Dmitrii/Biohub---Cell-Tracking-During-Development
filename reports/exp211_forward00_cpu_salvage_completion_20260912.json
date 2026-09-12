@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP211",
+  "date_local": "2026-09-12",
+  "run": "exp211_forward_00_20260912",
+  "status": "PASS_CPU_SALVAGE_AND_CHUNK_STRUCTURE_NO_METRICS",
+  "recovery": {
+    "mode": "cached CPU-only short-track postprocessing",
+    "parent_pid": 246909,
+    "linux_start_tick": 440891298,
+    "cpu_affinity": "0-7",
+    "gpu_inference_repeated": false,
+    "gpu_lease_used": false,
+    "failure_snapshot_manifest_sha256": "bf8964e2bbbb9c56a81a4a731485b9a2201cebcb645305e2f07d3ff990ac51e9"
+  },
+  "verification": {
+    "process_tree_absent_after_completion": true,
+    "exp211_gpu_process_absent_after_completion": true,
+    "tracking_repo_removed": true,
+    "final_manifest_entries": 43,
+    "final_manifest_sha256": "d4479824d0d8a36864d1240c28e1b4e47595075f6c1decf20fba412ddfd3a698",
+    "final_manifest_verified": true,
+    "structure_status": "PASS_EXP211_D4_CHUNK_STRUCTURE_NO_METRICS",
+    "structure_sha256": "75a0e4542cb7ea021577e348746d5026188c17bd8697ea6621fa784767d81faa",
+    "direction": "forward",
+    "movie_count": 24,
+    "candidate_cache_files": 24,
+    "scientific_metrics_emitted": false
+  },
+  "retention": {
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp211_forward_00_20260912",
+    "retained_bytes": 15069872,
+    "reason": "The complete manifest, candidate caches and structural outputs remain required by the preregistered all-eight no-metric gate; the disposable tracking repository was removed after successful filtering."
+  },
+  "next_allowed_step": "Run the remaining seven immutable chunks, then pass the all-eight no-metric gate before opening any 175-movie scientific metric.",
+  "kaggle_action": false
+}

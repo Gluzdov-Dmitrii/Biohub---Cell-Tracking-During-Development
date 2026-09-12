@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP212",
+  "status": "V2_PREINFERENCE_DEPENDENCY_FAILURE_V3_FINAL_PACKAGING_CORRECTION",
+  "failed_version": 2,
+  "failure": "support-pack tracksdata imported against an older Kaggle Polars without pl.Float16",
+  "failure_log_sha256": "83e4b69ed0895eb1727490cca5f0f05b6eb02270304e3c1ca55bd1f7f3b2ce6c",
+  "submission_csv_produced": false,
+  "competition_post_occurred": false,
+  "correction": "force reinstall explicitly listed support wheels with --no-deps and exact matching numpy 2.4.6/scipy 1.18.0 wheels",
+  "scientific_change": false,
+  "previous_source_sha256": "ddd310cb1c2dfacba1fdc463f8a0680b8cdbb9297d8e2c7abc6657f6cbcff093",
+  "v3_source_sha256": "9ebdc1e62494ac29e4178321c1989abefa31f3cf2a56be11dbc42e5a7421566f",
+  "local_tests": "18 passed",
+  "source_compiles": true,
+  "retry_limit": "stop on any further anomaly"
+}

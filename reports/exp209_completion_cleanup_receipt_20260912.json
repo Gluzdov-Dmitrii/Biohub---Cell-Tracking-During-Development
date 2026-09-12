@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP209",
+  "date_local": "2026-09-12",
+  "status": "COMPLETE_VERIFIED_EXPORTED_CLEAN",
+  "process_audit": {
+    "parent_pid": 240346,
+    "linux_start_tick": 440181250,
+    "parent_absent_before_metric_read": true,
+    "worker_absent_before_metric_read": true,
+    "gpu_used": false
+  },
+  "result_integrity": {
+    "remote_sha256sum_entries_verified": 38,
+    "local_sha256sum_entries_verified": 38,
+    "manifest_sha256": "1d9bd5c800958d9fa0d5de8982fc12afcaf6d9e776ccd995408033f1c67eff8a",
+    "structural_gate": "PASS_EXP209_ALL_SELECTED_CENTROID_CHUNKS_NO_METRICS"
+  },
+  "report_hashes": {
+    "reports/EXP209_SELECTED_CENTROID_CONFIRMATION_RESULT_20260912.md": "873a07f945d1138c7ac319ba3f055fbf22b04af4d39a454a6bab3a9df338a098",
+    "reports/exp209_selected_centroid_confirmation_result_20260912.json": "c021e4fb1c901bc46a1c20f83fcd3b32997ddc65b25cc40462a0332c55e0bc6a",
+    "reports/POOLED_OOF_FRONTIER_20260912.md": "aa2f146e68dd5d8fbc97f912677b5f75d9d46fd1689c6384b859a9f82fb26ebf"
+  },
+  "cleanup": {
+    "remote_run_disk_usage": "644 KiB allocated blocks",
+    "bulk_cache_created": false,
+    "temporary_files_found": false,
+    "retained_remote": "compact manifest-backed results required for reproducibility and active frontier provenance",
+    "retained_local": "verified exported results and reports"
+  },
+  "kaggle_action": false
+}

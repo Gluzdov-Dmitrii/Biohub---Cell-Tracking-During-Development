@@ -1,0 +1,49 @@
+{
+  "experiment": "EXP209",
+  "date_local": "2026-09-12",
+  "status": "PREREGISTERED_BEFORE_175_MOVIE_RADIUS_METRICS",
+  "objective": "Test whether the two EXP208 source-selected centroid radii transfer to all 175 reciprocal embryo-held-out movies, and whether the new forward arm improves the confirmed EXP206 frontier when composed with fixed reverse parents.",
+  "evidence_grade": "The radius family is development-adapted, but radius (3,5,5) forward and radius (2,3,3) reverse were selected only on two source checkpoint-validation movies per direction. Neither selected radius has been evaluated on the 175-movie confirmation cohort.",
+  "fixed_policy": {
+    "forward": {
+      "arm": "intensity_centroid_r3_5_5",
+      "minimum_track_length": 8,
+      "movies": 116
+    },
+    "reverse": {
+      "arm": "intensity_centroid_r2_3_3",
+      "minimum_track_length": 3,
+      "movies": 59
+    }
+  },
+  "preregistered_outputs": [
+    "both selected centroid directions versus raw base",
+    "selected forward plus EXP191 reverse versus raw base and EXP206",
+    "selected forward plus EXP195 reverse versus raw base and EXP206"
+  ],
+  "primary_decision": "Promote only a policy above EXP206 pooled OOF 0.6784542970776293 with paired evidence that is not concentrated in a few movies. Directional regression is diagnostic and must be reported even if pooled score rises.",
+  "ordering_gate": "Compute all eight immutable chunk files, then validate exact 116+59 coverage and structure without emitting metrics. Only after PASS_EXP209_ALL_SELECTED_CENTROID_CHUNKS_NO_METRICS may chunks be merged and scientific metrics opened.",
+  "execution": {
+    "host": "nsu-quadro",
+    "resource": "CPU_ONLY",
+    "cpu_threads": 8,
+    "ram_budget_gib": 16,
+    "gpu_lease_required": false,
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "run": "runs/exp209_selected_centroid_confirmation_20260912",
+    "restart_policy": "single atomic launch; reconcile PID/start identity; never restart an ambiguous or partially written run"
+  },
+  "code": {
+    "validator_sha256": "bbffe74bf5633a4fc0d5e52d7a09b097132f87e36d8010738ab544aefbbed2ad",
+    "builder_sha256": "aee8a897c7d502267d3ca4b130b1b9bc4b3edab9b7991faef603d7cf08cfcbe7",
+    "runner_sha256": "bbe7588cb572ce070de328521ddc53cbb18fb917d3e2b10398b93c635a8d0413",
+    "chunk_index_sha256": "87955accbe2c46e678858995b0ef5ba1a411146755177c01804538383073d413",
+    "launcher_sha256": "83f2785ed04c8b3d96cddd3a97e1edebe810cc911dd97277ae33a5a71fcdda59"
+  },
+  "tests": {
+    "status": "PASS",
+    "count": 10,
+    "command_scope": "EXP209 validator, builder, runner/launcher contracts plus reused comparison and relocation verifier tests"
+  },
+  "kaggle_action_authorized": false
+}

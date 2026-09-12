@@ -1,0 +1,37 @@
+{
+  "experiment": "EXP211",
+  "date_local": "2026-09-12",
+  "run": "exp211_forward_01_20260912",
+  "status": "PASS_EXP211_D4_CHUNK_STRUCTURE_NO_METRICS",
+  "queue": {
+    "request_id": "biohub-exp211-d4-forward01-20260912",
+    "owner_token": "49e8af22-5d7c-4f33-a542-1a70f8d87b01",
+    "host": "prepost",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "final_state": "RELEASED",
+    "health": "CURRENT"
+  },
+  "process": {
+    "pid": 247320,
+    "linux_start_tick": 440931198,
+    "process_tree_absent_after_completion": true,
+    "gpu_process_absent_after_completion": true
+  },
+  "verification": {
+    "direction": "forward",
+    "movie_count": 24,
+    "movies_sha256": "6483a378d4f4afc31b9e3ac9e7fd5eb443f039d0fe0b48a90e5daea30e7952c9",
+    "candidate_cache_files": 24,
+    "scientific_metrics_emitted": false,
+    "final_manifest_entries": 40,
+    "final_manifest_sha256": "e50c97254590f4d2571aabf6d3ca8992cdb6fc30bb69ba503090cbc5e5a2bc96",
+    "final_manifest_verified": true,
+    "structure_sha256": "3296f1620642373e410083c8eda763b05cad72c9220afe1c4ad03e41f7c3dc25",
+    "tracking_repo_removed": true
+  },
+  "retention": {
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp211_forward_01_20260912",
+    "reason": "Required by the frozen all-eight no-metric gate."
+  },
+  "kaggle_action": false
+}

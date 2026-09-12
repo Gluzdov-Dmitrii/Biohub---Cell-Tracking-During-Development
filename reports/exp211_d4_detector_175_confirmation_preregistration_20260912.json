@@ -1,0 +1,53 @@
+{
+  "experiment": "EXP211",
+  "date_local": "2026-09-12",
+  "status": "PREREGISTERED_BEFORE_ANY_175_MOVIE_D4_METRIC",
+  "objective": "Confirm whether the fixed eight-view D4 detector improvement from EXP207 transfers to all 175 reciprocal embryo-held-out movies and composes with the EXP209 frontier.",
+  "evidence_context": "EXP207 selected this mechanism on the already-open 24-movie development cohort. No eight-view D4 prediction or metric has been computed on the 175-movie confirmation cohort.",
+  "fixed_inference": {
+    "detector_views": "all eight inverse-aligned D4 XY transforms",
+    "edge_features": "identity-view only; BIOHUB_EDGE_FEATURE_TTA=0",
+    "detector_threshold": 0.985,
+    "edge_threshold": 0.02,
+    "weak_probability_weight": 0.1,
+    "seed": 314159,
+    "forward_checkpoint_sha256": "dc06a79401671b2acc7ad36e8db19316f51d11676ba46508c356839df682fdbb",
+    "reverse_checkpoint_sha256": "5c0f8358389af40a646a0fe3b4e8e88fb1b1c155da12e92efa3c944eeb499366"
+  },
+  "cohort_and_ordering_gate": {
+    "movies": 175,
+    "forward": 116,
+    "reverse": 59,
+    "chunks": 8,
+    "maximum_movies_per_chunk": 24,
+    "rule": "Each immutable chunk must pass PASS_EXP211_D4_CHUNK_STRUCTURE_NO_METRICS and its SHA manifest. No scientific value may be opened until one all-eight exact coverage gate passes."
+  },
+  "preregistered_policies": [
+    "D4 registered min8/min3 versus the exact four-view EXP190 parent",
+    "D4 registered forward min8 plus frozen EXP191 reverse versus the corresponding four-view composition",
+    "D4 intensity-centroid forward radius (3,5,5) min8 plus frozen EXP191 reverse versus the EXP209 frontier"
+  ],
+  "primary_confirmation_gate": "The pure D4 detector policy must have positive pooled delta versus EXP190, nonnegative delta in each embryo direction, paired direction-stratified bootstrap q025 above zero and minimum LOMO above zero.",
+  "frontier_gate": "Promote the frozen composed policy only if it exceeds EXP209 pooled OOF 0.6815218332750073 with paired bootstrap q025 and minimum LOMO above zero. Report all direction, per-movie, edge, adjusted-edge, node and division diagnostics without retuning on these 175 movies.",
+  "code": {
+    "predictor_sha256": "642bb826e54289acee189fdcebef8abc94f25ca06b911a87b30c6664c322f6f7",
+    "runner_sha256": "3105f0a9805c8f84aed4e35a0d54bfc2289f60e74e2c1725b22cf1e73bf4afd2",
+    "launcher_sha256": "01dd0f025762d28be51f5eaf373137e1a47bf09b43c0df539d3961840ada0742",
+    "chunk_validator_sha256": "99a46daeb668c6ac17e7dbfb522f282ded9ddeeaf4c5c23b0cdb6de3850242f4",
+    "all_chunk_validator_sha256": "06e57b69b22055211118eedc7249dead99ef7af9c0abf7579af88766c8abc230",
+    "evaluate_registered_model_sha256": "36e0ce644382be779f527cf18665a816127b299229214a885eb66778989690a8",
+    "evaluate_cached_short_track_family_sha256": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3"
+  },
+  "tests": "8 focused tests pass: six chunk/runner/D4 tests and two all-eight gate tests",
+  "resource_plan": {
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "pool": "quadro",
+    "gpu_count": 1,
+    "cpu": 8,
+    "ram_gib": 32,
+    "per_chunk_minutes": 25,
+    "one_gpu_job_per_project": true,
+    "queue_policy": "Request one bounded chunk at a time and re-check the common queue before the next chunk."
+  },
+  "kaggle_action": false
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP212",
+  "status": "STOPPED_AFTER_FINAL_PREREGISTERED_RETRY",
+  "failed_version": 3,
+  "failure_stage": "SciPy import before model loading or inference",
+  "failure": "NumPy was imported before pip replaced NumPy/SciPy wheel files, producing a mixed module state",
+  "failure_log_sha256": "28f044e41b38fcf65b93d1820f023a0e06ef6d83a167cd60e588f3dfaac628f7",
+  "submission_csv_produced": false,
+  "runtime_receipt_produced": false,
+  "competition_post_occurred": false,
+  "kaggle_versions_attempted": [1, 2, 3],
+  "next_unexecuted_fix": "install offline dependencies before importing numpy/scipy, or force only polars/zarr while preserving Kaggle numpy/scipy",
+  "live_competition_submission_ref": 56177715,
+  "live_competition_submission_status": "PENDING",
+  "live_limits": {"numToday": 1, "numTotal": 84, "numAllowedNow": 4, "limitedByTotal": false}
+}

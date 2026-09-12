@@ -1,0 +1,29 @@
+{
+  "experiment": "EXP211",
+  "date_local": "2026-09-12",
+  "status": "PREREGISTERED_PACKAGING_ONLY_CORRECTION_BEFORE_CPU_SALVAGE",
+  "supersedes_code_bundle": "exp211_d4_detector_v1_20260912",
+  "new_code_bundle": "exp211_d4_detector_v2_20260912",
+  "change": "Add the previously omitted evaluate_coordinate_consensus.py transitive dependency and a snapshot-gated CPU-only resume script. Scientific inference logic and every frozen EXP211 parameter remain unchanged.",
+  "forward_00_recovery": {
+    "failure_snapshot_manifest_sha256": "bf8964e2bbbb9c56a81a4a731485b9a2201cebcb645305e2f07d3ff990ac51e9",
+    "d4_raw_json_sha256": "15aacc29ce5bc4b01dfbacdc8dee439b99ec2d954725929c830940f5faead768",
+    "rule": "Verify the entire failure snapshot, run cached short-track postprocessing only, validate structure, and never invoke evaluate_registered_model.py or a GPU."
+  },
+  "code_sha256": {
+    "runner": "3105f0a9805c8f84aed4e35a0d54bfc2289f60e74e2c1725b22cf1e73bf4afd2",
+    "launcher_v2": "a0cf9bef7191bc8983e077d5328a3ab294983d0d92bc6232b659903398c7cbbd",
+    "cpu_resume": "c58ef661d147dc29e8d7c63100af6f9afcc064f0664929c479aa813df7d4cfbc"
+  },
+  "continued_code_sha256": {
+    "predictor": "642bb826e54289acee189fdcebef8abc94f25ca06b911a87b30c6664c322f6f7",
+    "chunk_validator": "99a46daeb668c6ac17e7dbfb522f282ded9ddeeaf4c5c23b0cdb6de3850242f4",
+    "all_chunk_validator": "06e57b69b22055211118eedc7249dead99ef7af9c0abf7579af88766c8abc230",
+    "evaluate_registered_model": "36e0ce644382be779f527cf18665a816127b299229214a885eb66778989690a8",
+    "evaluate_cached_short_track_family": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "evaluate_coordinate_consensus": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2"
+  },
+  "tests": "9 focused tests pass",
+  "scientific_metrics_opened": false,
+  "kaggle_action": false
+}

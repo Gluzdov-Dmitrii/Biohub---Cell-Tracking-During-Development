@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP212",
+  "status": "LOCAL_CLEANUP_COMPLETE",
+  "removed": [
+    ".pytest_exp212",
+    ".pytest_exp212b",
+    ".pytest_exp212c",
+    ".pytest_exp212d",
+    ".pytest_final",
+    ".tmp/exp212_support_req",
+    "outputs/research/exp212_kaggle_v1_failure/tracking_repo",
+    "outputs/research/exp212_kaggle_v2_failure/tracking_repo",
+    "outputs/research/exp212_kaggle_v3_failure/tracking_repo",
+    "kaggle_notebooks/exp212_exp209_oof_frontier/__pycache__"
+  ],
+  "preserved": [
+    "three compact Kaggle failure logs",
+    "private Kaggle model dataset source and manifests",
+    "exact local checkpoint files needed for dataset recovery",
+    "EXP209 compact result evidence",
+    "EXP211 six staged chunks and two completed chunk manifests"
+  ],
+  "remote_gpu_resources_released": true
+}

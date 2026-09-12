@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP192",
+  "status": "PREREGISTRATION_CORRECTION_BEFORE_ANY_INFERENCE",
+  "corrects": "reports/exp192_honest195_confirmation_preregistration_20260911.json",
+  "error": "The original receipt labelled the EXP180 DeepCenter checkpoints as the reciprocal models. In EXP190/191 they are only synthetic-gap proposal gates; base coordinates come from the frozen scratch detector/linker checkpoints used by EXP152.",
+  "data_effect": "none; the missing-file cohort and all data sizes are unchanged",
+  "score_access_at_correction": "No EXP192 inference or score has run. Only Kaggle file metadata and operational download progress have been observed.",
+  "frozen_stack": {
+    "44b6_source_to_6bba_target": {
+      "base_coordinate_and_edge_candidate_checkpoint_sha256": "dc06a79401671b2acc7ad36e8db19316f51d11676ba46508c356839df682fdbb",
+      "base_inference": "det_threshold=0.985, edge_threshold=0.02, weak_probability_weight=0.1, seed=314159; registered motion-only Hungarian links are reconstructed from coordinates",
+      "EXP190_policy": "base minimum component length 8",
+      "EXP191_policy": "identical to EXP190; no synthetic gap evaluation required"
+    },
+    "6bba_source_to_44b6_target": {
+      "base_coordinate_and_edge_candidate_checkpoint_sha256": "5c0f8358389af40a646a0fe3b4e8e88fb1b1c155da12e92efa3c944eeb499366",
+      "base_inference": "det_threshold=0.985, edge_threshold=0.02, weak_probability_weight=0.1, seed=314159; registered motion-only Hungarian links are reconstructed from coordinates",
+      "deepcenter_gap_gate_checkpoint_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+      "EXP190_policy": "base minimum component length 3",
+      "EXP191_policy": "synthetic gap g45_t20 plus minimum component length 6"
+    }
+  },
+  "unchanged_primary_protocol": "Evaluate the fixed policies once on all 175 previously unopened non-twin movies without inspecting intermediate scores or adapting parameters.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}
