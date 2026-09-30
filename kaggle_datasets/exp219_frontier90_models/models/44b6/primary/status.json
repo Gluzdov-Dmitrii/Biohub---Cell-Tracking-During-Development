@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_SOURCE_REFIT",
+  "epoch": 90,
+  "total_epochs": 90,
+  "invocation_initial_epoch": 60,
+  "checkpoint_sha256": "41fb6b5b29e448a3a97aeb0869dc4f330bebf44b2dbed0b71eb300968548ca38",
+  "best_sha256": "c43c61a136f80ecb0f3727b6e865d0547f9147162102a49f2a9dc599f729af28",
+  "elapsed_seconds": 4957.406865705736,
+  "target_data_opened": false,
+  "contract": {
+    "plan_sha256": "c998254a4654773e318d665f8ea6940630953b4f6c42a8224b7f0e6e7088321f",
+    "trainer_sha256": "40bade02810a7b57a567db17c199ff619cd1bb0eb4b5d88adfd76b2b135bf330",
+    "upstream_sha256": "c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea",
+    "fold": "44b6",
+    "seed": 2026,
+    "benchmark_steps": 0,
+    "precision": "fp32",
+    "window_selection_sha256": "2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02",
+    "image_cache_manifest_sha256": "8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728",
+    "warm_start_sha256": "156a93df4aa75c190b47e932cd3cd599b0fc60601ece83bd98245b341579d564"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "experiment": "EXP143",
+  "status": "PASS_DIRECTIONAL_SIGNAL_REJECT_STRICT_PILOT_GATE",
+  "scope": "seven-movie reciprocal pipeline pilot; not final reciprocal evidence",
+  "split": {
+    "source_embryo": "6bba",
+    "train_movies": ["6bba_05b6850b.zarr", "6bba_05db0fb1.zarr", "6bba_062c8d37.zarr", "6bba_07477033.zarr", "6bba_13f19531.zarr"],
+    "source_validation_movies": ["6bba_20852818.zarr", "6bba_3abfe10a.zarr"],
+    "target_development_movies": ["44b6_0113de3b.zarr", "44b6_0b24845f.zarr", "44b6_0c582fdc.zarr", "44b6_0db75fae.zarr"],
+    "split_sha256": "7b6295adce4210d1525d3e720c8f2aab84635b969e9ce80125e748598a19796d"
+  },
+  "source_selection": {
+    "scratch_best_recall": 0.8831,
+    "scratch_selected_epoch": 4,
+    "zebrahub_best_recall": 0.9007,
+    "zebrahub_selected_epoch": 4,
+    "scratch_checkpoint_sha256": "eb4e04dfddbabc4642344de370ecd31b026a8751f8a5f27ec50bf813f8d84e70",
+    "zebrahub_checkpoint_sha256": "be7136a24e238175d14cb8bc3a211922c356be607bfb45826bc0b52ec442a34b"
+  },
+  "target_registered": {
+    "scratch_score": 0.7851112547031137,
+    "zebrahub_score": 0.8025893908252183,
+    "pooled_delta": 0.01747813612210458,
+    "scratch_node_recall": 0.9250765615297882,
+    "zebrahub_node_recall": 0.9799691115344497,
+    "node_recall_delta": 0.05489255000466142,
+    "per_movie_deltas": [-0.007269910248943412, 0.06122817399303837, -0.029909043102844146, 0.042033332778173116],
+    "positive_movies": 2,
+    "negative_movies": 2,
+    "metric_self_consistency": "PASS_RECOMPUTED_FROM_PER_MOVIE_SUFFICIENT_STATISTICS",
+    "strict_gate_pass": false
+  },
+  "interpretation": "The reverse direction is positive in pooled score and recall, supporting a directional initialization signal. Two negative target movies and incomplete five-movie source training make this insufficient for private promotion; full pre-registered 10+2 EXP137 remains mandatory.",
+  "artifacts": {
+    "scratch_result_sha256": "f67362052905fd3f23ff9b7e93d49c3d07b0f7d57d70c45f44321479b4e49c9e",
+    "zebrahub_result_sha256": "6fc97a8f747b9d34db169989529d7950def2e0c86cdabc9a523ac29ac4483d54",
+    "registered_gate_sha256": "268075dd7b194ef6dcf5ec616c2171d23aa61623935408e8e3b11f3a0b6f91c2",
+    "scratch_train_log_sha256": "95ac7cab96d70852e50ab1c7db61c952d95a7bb642f5f2a7f572abf62f1c9b5f",
+    "zebrahub_train_log_sha256": "5d19dd70f6c55457324f7c16b18581c7a7ae7e02749db7bf53ad75907fb383aa",
+    "scratch_eval_log_sha256": "e64b48a6385c257bbc81265fd95fe1235e38bcb096c65d43e9cbfe05d23bf8eb",
+    "zebrahub_eval_log_sha256": "3200ed8ada5f17361ff7d0739ca9b4fff9953ed2940ccd8d53c78d9034368d22",
+    "launcher_sha256": "e75134afaeefa7e426c8ef171b5ccb6247aef52d3520006ecfad24ece0afa771"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "lease_id": "biohub-exp143-reciprocal-pilot-20260909",
+    "pid": 143143,
+    "pid_start": "418356771",
+    "released_after_verified_stop": true,
+    "post_run_gpu": "5 MiB, 0%"
+  },
+  "cleanup": {
+    "removed": ["17 MiB copied tracking_repo including two supersedable pilot checkpoints", "empty launcher log", "generated local comparator pyc"],
+    "preserved": ["result JSON", "train/eval logs", "registered and weak comparison receipts", "small candidate caches"],
+    "remote_run_size_after_cleanup": "872 KiB"
+  },
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false
+}

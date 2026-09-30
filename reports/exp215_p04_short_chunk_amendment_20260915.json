@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP215",
+  "recorded_at": "2026-09-15",
+  "status": "PASS_OPERATIONAL_AMENDMENT_BEFORE_P04_LAUNCH",
+  "scope": "Shorten only the final source-only p04 continuation chunk and accept epoch >=60 as the preregistered full60 completion gate.",
+  "reason": "p03 completed at epoch57 with target labels still closed. The inherited trainer plan has total epochs 400, while EXP215 only preregistered continuation to at least epoch60. A full 3h p04 chunk would spend unnecessary A100 time after the fixed gate.",
+  "changes": {
+    "reports/exp215_full60_44b6_s2026_p04_config_20260914.json": {
+      "max_seconds": 2200,
+      "lease_minutes": 80,
+      "sha256": "852994A85D9E9B09F8FF13B0B01FC32E38B1B55F968A53E92B34BEFB890F35EE"
+    },
+    "scripts/finish_exp215_full60_source44_training.py": {
+      "change": "Treat CHECKPOINTED_CONTINUATION_REQUIRED with epoch >=60 as COMPLETE_EXP215_SOURCE44_FULL60_MODEL.",
+      "sha256": "8403EF1535A3950FDD916C7F7E6BF88EB0045F61132AB2B04EFC53773E106278"
+    }
+  },
+  "scientific_change": "None. Same FP32 trainer, model architecture, plan, optimizer output, source-only validation selection, data and no target metrics.",
+  "submission_policy": "No Kaggle POST is authorized."
+}

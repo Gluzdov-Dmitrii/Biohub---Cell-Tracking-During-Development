@@ -1,0 +1,50 @@
+{
+  "status": "STAGED_EXP236_TARGET44B6_CHUNK_NO_LABELS",
+  "chunk_index": 2,
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_target44b6_chunk02_v1_20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_target44b6_chunk02_v1_20260927",
+  "lease_id": "exp236-target44b6-chunk02-v1-20260927",
+  "manifest_sha256": "d8bc4465700efbee0ce5ca4ffdd530a9a18b5fee366312ded68b66a43fa59c4f",
+  "plan_sha256": "ebade08f9226e20de55b99d7ca3d6b82ca3a6ff6f11562cc5420d7a7293b69ea",
+  "source_handoff_sha256": "9d8c37c1d3b1d14e2e7589704d3899b678f2398cd16f120d89c09e3e16d9ba07",
+  "checkpoint_sha256": "d043d5e15c8fbe84b097e6e4d8651acd5b102b747c33e655898ae78e2f879813",
+  "movies": [
+    "44b6_3a861e03",
+    "44b6_66f9292d",
+    "44b6_7e557709",
+    "44b6_87bba6c4",
+    "44b6_90724892",
+    "44b6_996155de",
+    "44b6_a21120c2",
+    "44b6_aaf8b0ea",
+    "44b6_c15fded2",
+    "44b6_c50204e0",
+    "44b6_c771cb04",
+    "44b6_cf8fed6b",
+    "44b6_d78e09d9",
+    "44b6_e31261b4",
+    "44b6_eb2880fc"
+  ],
+  "parent": {
+    "status": "PASS_EXP236_TARGET_STAGE_PARENT_PREFLIGHT",
+    "parent_manifest_sha256": "92a9582cbe0f09d34d73865b1d09243971a94815c313a9b2225a7047388db3b2",
+    "parent_plan_sha256": "3633711ba0a3706be43c71907261afa5904db93d26cb1b29fb3dc19294474421",
+    "checkpoint_sha256": "d043d5e15c8fbe84b097e6e4d8651acd5b102b747c33e655898ae78e2f879813"
+  },
+  "staged": {
+    "status": "STAGED_EXP236_TARGET44B6_CHUNK_NO_LABELS",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_target44b6_chunk02_v1_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_target44b6_chunk02_v1_20260927",
+    "manifest_sha256": "d8bc4465700efbee0ce5ca4ffdd530a9a18b5fee366312ded68b66a43fa59c4f",
+    "plan_sha256": "ebade08f9226e20de55b99d7ca3d6b82ca3a6ff6f11562cc5420d7a7293b69ea",
+    "runner_sha256": "f4b62184e03f6229734da2521949fde48bee7bd369842f6cd59dbcd00d49e427",
+    "source_handoff_sha256": "9d8c37c1d3b1d14e2e7589704d3899b678f2398cd16f120d89c09e3e16d9ba07",
+    "source_graph_plan_sha256": "3633711ba0a3706be43c71907261afa5904db93d26cb1b29fb3dc19294474421",
+    "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4"
+  },
+  "local_prepare_sha256": "99f05b432a19993119ae67d190a6549e2e58d9e5ccf2987911a3d444ec9a2c83",
+  "local_bundle_manifest_sha256": "4e19929c6f10fa574148ec62be8e19f7e1d379931c0ffbcc3bcff7222131e5f2",
+  "remote_run_created": false,
+  "gpu_claimed": false,
+  "target_labels_read": false
+}

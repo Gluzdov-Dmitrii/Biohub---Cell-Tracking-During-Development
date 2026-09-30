@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP146",
+  "status": "PREREGISTERED_BEFORE_NEW_TARGET_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "A fixed coordinate consensus between independent scratch seeds reduces seed-specific localization variance without the negative transfer seen in EXP144.",
+  "parent": "Scratch-only five-epoch model in each reciprocal embryo direction.",
+  "only_intended_change": "For mutual-nearest detections below 2.0 um, replace the source-selected seed's coordinates by the 50/50 mean; preserve that seed's registered-motion topology exactly.",
+  "selection": {
+    "topology_seed": "Choose the higher training-time acc*recall on the two source-only checkpoint-selection movies; ties choose seed 314159.",
+    "radius_um": 2.0,
+    "alpha": 0.5,
+    "detector_threshold": 0.985,
+    "linker": "registered_hungarian",
+    "seeds": [314159, 271828]
+  },
+  "data": {
+    "contract_sha256": "775e4fe3d8113ee76a1c721a01136233de5968eeb53f62ea624cd12c2bdc1923",
+    "target_movies_per_direction": 12,
+    "target_movies_total": 24,
+    "warning": "The 16 former locked-audit labels were opened for EXP144. EXP146 is a prospectively frozen candidate-specific full-OOF test, not an untouched locked audit."
+  },
+  "promotion_gate": {
+    "score_delta_each_embryo_direction": "> 0",
+    "pooled_score_delta": "> 0",
+    "node_recall_delta_each_embryo_direction": ">= 0",
+    "nonnegative_movies_each_direction": ">= 8 of 12",
+    "worst_movie_score_delta_each_direction": ">= -0.01",
+    "division_tp_delta_each_direction": ">= 0",
+    "metric_recompute": "Required from per-movie sufficient statistics"
+  },
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

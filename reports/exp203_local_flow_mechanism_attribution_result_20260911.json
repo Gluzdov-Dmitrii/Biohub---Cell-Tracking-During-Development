@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP203",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_POSTHOC_MECHANISM_DIAGNOSTIC",
+  "pooled_sufficient_stat_delta": {"edge_tp": 22, "edge_fp": -26, "edge_fn": -22},
+  "directions": {
+    "forward": {
+      "score_delta": 0.0023690176490250847,
+      "edge_delta": {"edge_tp": 18, "edge_fp": -19, "edge_fn": -18},
+      "movies": {"positive": 8, "negative": 4, "tie": 0},
+      "association_fn_share_correlation": {"pearson": -0.11411479633653684, "spearman": -0.0979020979020979},
+      "correction_magnitude_correlation": {"pearson": 0.4462046093683265, "spearman": 0.27272727272727276},
+      "mutual_pair_count_correlation": {"pearson": 0.6557286248733238, "spearman": 0.4755244755244756},
+      "largest_gain": {"dataset": "6bba_05db0fb1.zarr", "delta": 0.020602188832588353, "public_twin": true}
+    },
+    "reverse": {
+      "score_delta": 0.0029750197465745476,
+      "edge_delta": {"edge_tp": 4, "edge_fp": -7, "edge_fn": -4},
+      "movies": {"positive": 9, "negative": 2, "tie": 1},
+      "association_fn_share_correlation": {"pearson": -0.24085258305178095, "spearman": -0.08406317620060155},
+      "correction_magnitude_correlation": {"pearson": 0.7321392555792844, "spearman": 0.6643356643356644},
+      "mutual_pair_count_correlation": {"pearson": 0.15525035976311283, "spearman": 0.4055944055944056},
+      "largest_gain": {"dataset": "44b6_0b24845f.zarr", "delta": 0.031005917474977718, "public_twin": true}
+    }
+  },
+  "interpretation": "The fixed local-flow mechanism improves both true-edge recovery and false-edge suppression, but its movie-level effect is not concentrated in movies with high pre-existing association-FN share. The stronger correlations with correction magnitude/support are mechanism-consistent but post-hoc and too small-sample for gating. Both directional maximum gains are public twins, requiring explicit non-twin sensitivity and untouched confirmation.",
+  "artifacts": {
+    "result": "outputs/research/exp130_official24_private_first/exp203_local_flow_mechanism_attribution.json",
+    "result_sha256": "dfd596671838160b5c8a4974c067d32f2ac5d1034e556b3c84abc60d6c726851",
+    "script_sha256": "2629d8618c3934938bf7294ac25aa9520bc667c617ec7fc1af1deeb7794f451f",
+    "test_sha256": "247f92fcb4bfefc90162e8cb2b12cd696ce86d47598c58f75afe5cf6e5095a1a",
+    "test": "1 passed"
+  },
+  "policy_effect": "No change to EXP201/202; no new inference-time gate was created.",
+  "eligible_for_kaggle_submission": false
+}

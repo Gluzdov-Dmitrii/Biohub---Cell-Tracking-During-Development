@@ -1,0 +1,57 @@
+{
+  "status": "PREPARED_EXP236_TARGET44B6_SCORER_LOCAL_ONLY",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp236_target44b6_scorer_local_v2_20260927",
+  "local_manifest_sha256": "fda68d3fe0c75997b72c1bd9e62504b85bbc259f0393b76a0803e73d22ff3aa0",
+  "source_hashes": {
+    "assignment.json": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+    "baseline_reference.json": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+    "check_current_organizer_metric_runtime.py": "616d26d5986e312b57f32f39d1fdb90684961c00eb14e1a44df7fe4ba19494c2",
+    "current_official/__init__.py": "de33668aee4fd1822a11989b432a7ba6c4b36fd2993ec8f564a63d427cde05de",
+    "current_official/division_metrics.py": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9",
+    "current_official/metrics.py": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+    "exp223_config.json": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973",
+    "image_scale_audit.json": "7d49f54f6a2bb80c8148cbd2e110c23f24fe8c4dd5fddc363b6755418da87f1c",
+    "score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "score_exp236_target44b6_current.py": "646b81ba6c6bf35fc8821c6c7b8219b46b838d6779a1ebd6093765087b976d82",
+    "source_graph_plan.json": "3633711ba0a3706be43c71907261afa5904db93d26cb1b29fb3dc19294474421",
+    "source_handoff.json": "9d8c37c1d3b1d14e2e7589704d3899b678f2398cd16f120d89c09e3e16d9ba07",
+    "source_score.json": "5b0e87506e6d95a7c8175825b9a122292ee664fa71bc7994e507969b81ac4737",
+    "source_training.json": "266732c9cbbaea76a45ad9a4706b3b025b11d36be0762b00f0838c0d8b8efcdb"
+  },
+  "baseline_metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+  "baseline_target_input_hashes": [
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_00_20260914/output/public/submission.csv",
+      "sha256": "2aab4337e1f59674214bb06e051bb95c4501f53aed2d40cab19aaf9bbfec5ff6",
+      "receipt_sha256": "8e9307a6d2ecc816c0a351ba0a9dff9bdfb6a8a620d5e0673c682c37590f69d9"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_01_20260914/output/public/submission.csv",
+      "sha256": "c358fe448ca9268d748f40a2a3a084289e3b93c26d2c5ba5ce00dd9ff2da3303",
+      "receipt_sha256": "d4450695eeee6bb841df9522041cd6e3fe61024845285a465840d648a63e746f"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_02_20260914/output/public/submission.csv",
+      "sha256": "2e02c221f6fd3c87d6715338274e875b127d65711caeba221d3245a346595414",
+      "receipt_sha256": "b8c153decb6794a310220e170131905f9fb49ceaa4581def33923cec7012ffd4"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_03_20260914/output/public/submission.csv",
+      "sha256": "3b23ddb8a4c212afe36f48b25a8db53990f02510bf63fd596fd9adf1aeb5ab08",
+      "receipt_sha256": "c9d276d8c9f1b5b08f0ff0e1fe8d8c8eda76a4f823f34b9e149dc53c3df8be9e"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_04_20260914/output/public/submission.csv",
+      "sha256": "70cfa98f54cc1bbdcfac80a24fe2db95a49d538b4d45ce81a55808f484baec31",
+      "receipt_sha256": "18f6fc4c16f2bd73aa5f790f3a72d090d105273b726536b5547a15ef53cf39d6"
+    }
+  ],
+  "baseline_target_rows_sha256": "aed7eec804658f57cb8c3a5cbdd37afa06499a038a781184d631a430f4c84493",
+  "tracksdata_commit": "e13cf379b5127deeb8301ce56410fda35b5a3cf9",
+  "target_labels_read": false,
+  "remote_stage_created": false,
+  "remote_run_created": false,
+  "target_score_computed": false,
+  "evidence_class": "leakage-controlled reciprocal evaluation; historically exposed target labels"
+}

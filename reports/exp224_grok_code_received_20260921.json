@@ -1,0 +1,22 @@
+{
+  "job": "work\\cursor\\biohub_hybrid_implementation_compact_20260921",
+  "status": {
+    "sessionID": "e846074e-a315-4d7a-a10d-6667c57186bd",
+    "modelReported": "Cursor Grok 4.6 Extra High",
+    "state": "completed",
+    "modelRequested": "cursor-grok-4.6-xhigh",
+    "jobDir": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\cursor\\biohub_hybrid_implementation_compact_20260921"
+  },
+  "files": [
+    {
+      "path": "scripts\\run_exp224_fixed_nodes.py",
+      "sha256": "a13e9dd26146023f84a74865279db76832272bc9439d03623b2a2fa2c847dcc4",
+      "lines": 308
+    },
+    {
+      "path": "scripts\\score_exp223_official.py",
+      "sha256": "4e135a46aba576ca629949018386b4d59368c3b24ca9a8ed473e9c71df141d05",
+      "lines": 338
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "exit.json": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 551521,
+    "start": "519704973",
+    "finished": 1789978186.8478127
+  },
+  "output/complete.json": {
+    "status": "PASS_NO_LABEL_CHUNK",
+    "mode": "source_benchmark",
+    "records": [
+      {
+        "contract": {
+          "arm": "selected50_20",
+          "dataset": "6bba_07e24132",
+          "fold": 0,
+          "mode": "source_benchmark",
+          "weight_sha256": "8c202a657567309a15e0b254236b2d730b4a4942b54408608d3b1895fc45ff08",
+          "manifest_sha256": "001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4",
+          "decoder_sha256": "6854b15c8facdb7216e8546fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe",
+          "code_sha256": "755836aac39be83d5327f88237d02011d2d394acf935ee3d169a6c1791717092"
+        },
+        "seconds": 139.47372794151306,
+        "csv_sha256": "855ddec86498cc165edf9d1d33daa0e8d1bae46bfef53557a712e465001d3aa1",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ],
+        "peak_cuda_bytes": 999540224,
+        "nodes": 47860,
+        "edges": 46301,
+        "stats": {
+          "raw_nodes": 48579,
+          "raw_edges": 46009,
+          "raw_frames": 100,
+          "dropped_long_edges": 1,
+          "dropped_multi_parent_edges": 0,
+          "motion_fill_relaxed_edges": 230,
+          "motion_fill_frames": 93,
+          "motion_fill_tight_edges": 297,
+          "motion_fill_edges": 527,
+          "gap_close_motion_weight_percent": 50,
+          "gap_close_distance_milli_um": 4750,
+          "gap_density_nodes_scored": 46394,
+          "gap_candidates": 293,
+          "gap_refined_synthetic": 246,
+          "gap_inserted_synthetic": 246,
+          "gap_pairs_selected": 246,
+          "gap_added_edges": 492,
+          "gap_added_nodes": 246,
+          "safe_division_candidates": 23,
+          "safe_divisions_added": 23,
+          "pruned_isolated_nodes": 0,
+          "short_track_dense_length_selected": 1,
+          "short_track_minimum_length": 6,
+          "short_track_nodes_removed": 965,
+          "short_track_edges_removed": 749,
+          "linefit_dense_weight_selected": 1,
+          "linefit_smoothing_weight_percent": 80,
+          "linefit_smoothing_window": 5,
+          "linefit_smoothed_nodes": 47860,
+          "intensity_refine_dense_weight_selected": 1,
+          "intensity_refine_weight_percent": 50,
+          "intensity_refined_nodes": 47860,
+          "clamped_nodes": 6
+        }
+      }
+    ],
+    "seconds": 139.7510883808136
+  },
+  "supervision/complete.json": {
+    "at": 1789978205.1843648,
+    "status": "RELEASED_AFTER_VERIFIED_EXIT",
+    "exit": {
+      "returncode": 0,
+      "hard_timeout": false,
+      "pid": 551521,
+      "start": "519704973",
+      "finished": 1789978186.8478127
+    }
+  },
+  "supervision/control.json": {
+    "at": 1789978205.1649597,
+    "action": "release",
+    "queue": {
+      "id": "exp223-larger-source-benchmark-20260921",
+      "owner": "biohub-agent",
+      "token": "exp223_larger_source_benchmark_20260921",
+      "project": "biohub-cell-tracking-during-development",
+      "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_larger_source_benchmark_20260921",
+      "pool": "a100",
+      "count": 1,
+      "cpu": 8,
+      "ram_gib": 32.0,
+      "disk_gib": 4.0,
+      "minutes": 25,
+      "state": "RELEASED",
+      "created": 1789978039.8409164,
+      "heartbeat": 1789978184.9864972,
+      "gpus": [],
+      "process": {
+        "pid": 551521,
+        "start": "519704973"
+      },
+      "allocated": 1789978039.8409617,
+      "host": "ngpu01",
+      "alias": "nsu-a100",
+      "waiting_ahead": [],
+      "finished": 1789978205.118752,
+      "health": "CURRENT"
+    }
+  }
+}

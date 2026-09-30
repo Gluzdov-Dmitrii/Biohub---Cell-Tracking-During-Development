@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP227_TARGET6BBA_CHUNK",
+  "chunk_index": 7,
+  "lease_id": "exp227-target6bba-chunk07-v2-20260927",
+  "token": "exp227_target6bba_chunk07_v2_20260927",
+  "pool": "a100",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v2_20260927",
+  "max_seconds": 10800,
+  "cpu_affinity": "0-7",
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_growth_gib": 4
+  },
+  "script": "run_exp227_target_chunk.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927/plan.json",
+    "--plan-sha256",
+    "583fdae80ed8145ceca92d2405e69a6093b26700acc8986540a5f0ace6afcbd2"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_24_MOVIE_CHUNK_RUNTIME_FEASIBILITY",
+  "evidence": {
+    "exp152_forward_full_inference_12_movies_approx_minutes": 5.87,
+    "exp152_reverse_full_inference_12_movies_approx_minutes": 7.72,
+    "exp191_cached_gap_or_filter_12_movies_approx_minutes_range": [1.67, 2.77],
+    "source": "Read-only remote filesystem mtimes of preserved logs; no scientific values opened."
+  },
+  "estimate": "A 24-movie forward chunk should remain well below 30 minutes; a reverse base+gap+filter chunk should remain well below 60 minutes under comparable load.",
+  "decision": "Keep the preregistered <=24-movie chunking and 120-minute queue request. No execution-plan correction is needed.",
+  "resource_policy": "One chunk/lease at a time with heartbeat and verified release remains unchanged.",
+  "kaggle_action_authorized": false
+}

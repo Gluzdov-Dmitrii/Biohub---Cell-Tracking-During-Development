@@ -1,0 +1,42 @@
+{
+  "experiment": "EXP206_ON_EXP192",
+  "recorded_at": "2026-09-11T11:39:55Z",
+  "status": "PASS_PREINFERENCE_INTEGRATION",
+  "preconditions": {
+    "remote_code_directory_present": true,
+    "exp192_chunk_sha256sums_absent": true,
+    "exp192_launch_receipts_absent": true,
+    "postprocess_final_absent": true,
+    "postprocess_tmp_absent": true,
+    "untouched_metrics_opened": false,
+    "gpu_computation_started": false
+  },
+  "code_sha256": {
+    "evaluate_cached_intensity_centroid_refinement.py": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b",
+    "build_exp206_centroid_composed_confirmation_result.py": "dc111add2d5db2cf3853afb70cd4dc6a4cb201e5e77a50d51b0643a4e73e1322",
+    "validate_exp206_centroid_chunks_no_metrics.py": "64da6a739fd442feb87f4fbd025ef08e66b7ff6aabfc3d3394ead2df6602e31d",
+    "run_exp192_postprocess.sh": "0180734de9a5c7854d308d94f869b75534e880b353363c7b2419ebf81472118e",
+    "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2"
+  },
+  "test_sha256": {
+    "test_evaluate_cached_intensity_centroid_refinement.py": "1f4088b34763c8832ac39f8febcb885a4b885c5270ccc7638e6588867cef5eac",
+    "test_build_fixed_two_direction_comparison.py": "1f3a73cef7844ccd80915f6ceb6f5298dc04a45e33f7bdb3663f8df13e38adb8",
+    "test_build_exp206_centroid_composed_confirmation_result.py": "1db3d0f0e480e06b080cbd421dcd0a64efd7a6c451d8e2f1212dd1eb27e9d602",
+    "test_validate_exp206_centroid_chunks_no_metrics.py": "5a97fe1b15a0e57ecc705961f12c35a33eee0d24ae344bdfccc24c32c7cad1b0",
+    "test_run_exp192_postprocess_contract.py": "72236c5b086517d0744fa18cd83803ffc989f0011156a5e169ae4de0efe3eb29",
+    "test_exp192_pipeline_integration.py": "69df259089991f4db83ef5ed81cd76eb36399de91ccae2dfc1ce26b8526090b1"
+  },
+  "verification": {
+    "focused_and_integration_tests": "9 passed",
+    "remote_sha_match": true,
+    "remote_bash_syntax": "PASS",
+    "remote_import": "PASS",
+    "remote_interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development"
+  },
+  "diagnostic_note": "The first SHA/import diagnostic used a PowerShell-expanded remote shell variable and therefore addressed root-level nonexistent paths; a second command with literal absolute paths established all hashes. A later import diagnostic had quoting-only SyntaxError; the final literal import passed. Neither failed diagnostic launched inference or changed data/results.",
+  "pipeline_effect": "All eight original GPU chunk commands remain unchanged. EXP206 centroid refinement is CPU-only and can run only after the original all-eight no-metric gate and GPU release, followed by its own five-forward-chunk no-metric gate.",
+  "active_dependency_preserved": "The full archive SCP session remains active and was not restarted; no EXP192 chunk or postprocessor was launched.",
+  "kaggle_action_authorized": false
+}

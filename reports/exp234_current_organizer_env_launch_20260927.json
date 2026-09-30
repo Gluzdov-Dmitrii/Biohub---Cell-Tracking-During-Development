@@ -1,0 +1,18 @@
+{
+  "status": "LAUNCHED_CURRENT_ORGANIZER_ENV_BUILD",
+  "stage_sha256": "1a8720ecb86e8ce5363e3bb94640b15644c53f9c8eadb18f49e1b4b93676ebac",
+  "prepare_sha256": "f0e9e2cfac4a32bccaae89e0ccad6cc93a414f3200cd80a76ff574606aa98eb6",
+  "launch": {
+    "status": "LAUNCHED_CURRENT_ORGANIZER_ENV_BUILD",
+    "pid": 449119,
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_current_organizer_v1_20260927",
+    "env": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1",
+    "build": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_current_organizer_env_build_v1_20260927",
+    "builder_sha256": "f0a5d9c418ea52c055f3cc10518ad432ec4941ac21ea6dbe8a571e07ae3eab97",
+    "started": 1790486244.668211,
+    "target_labels_read": false,
+    "kaggle_post": false
+  },
+  "target_labels_read": false,
+  "kaggle_post": false
+}

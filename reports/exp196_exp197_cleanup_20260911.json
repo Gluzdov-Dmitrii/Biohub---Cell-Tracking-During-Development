@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-09-11",
+  "status": "PASS_CLEANUP",
+  "remote_removed_after_local_sha_verification": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp196_edge_failure_attribution_20260911/development",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp197_constant_velocity_linker_20260911"
+  ],
+  "remote_sizes_before_removal": {
+    "exp196_development": "15K",
+    "exp197": "71K"
+  },
+  "remote_absence_verified": true,
+  "local_removed": "Only owned Python bytecode for the three new EXP196/197 scripts and tests.",
+  "preserved": [
+    "All local SHA-verified EXP196 development JSON results",
+    "All local SHA-verified EXP197 JSON results and SHA256SUMS",
+    "EXP192 active archive transfer",
+    "EXP192 code, manifests, run directories and dependencies"
+  ]
+}

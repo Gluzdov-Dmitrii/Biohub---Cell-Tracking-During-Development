@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP175",
+  "status": "PREREGISTERED",
+  "parent": "EXP174",
+  "feature": "top-pair geometry indices 96:101",
+  "model": "linear, 20 epochs, AdamW, seed 271828",
+  "blend": "0.5 raw rank + 0.5 geometry rank",
+  "split": "same fit/calibration/prospective as EXP174",
+  "threshold": "selected on calibration, applied unchanged to prospective",
+  "gate": "blend prospective precision>=0.50 and recall>=0.20",
+  "source_sha256": "8a0815cc7a1c49b170f489ea3607e88b1195b46b06e1b8bee579ed28803cfed8",
+  "launcher_sha256": "e2e4de529c55bc14e188c3addd793177ad4507a1803708837b5e637a26150477",
+  "competition_data": "closed",
+  "kaggle_slots_reserved": 0
+}
+

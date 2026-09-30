@@ -1,0 +1,19 @@
+{
+  "plan.json": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+  "prepare_exp213_honest_refit.py": "7009f13fd4d192e4a131a98eb2a393a3e8570ffc6e37a995282ab126dd71b861",
+  "train_exp213_detector.py": "a3caae959fbf61fb989529b85701914d9aca7d7310a3822af358faf6d32fb4f3",
+  "stage_exp213_remote.py": "b456cbc0f07ef2ae0834d48cf62a36dd7c813f3b3684d9934543d6730ed93c99",
+  "tracking_repo/src/biohub_tracking/division_metrics.py": "d1cf1e0a43009d02174f1699ce2aa28458a2220ac4b521731d3bcf31cf8c76be",
+  "tracking_repo/src/biohub_tracking/img_proc.py": "00e8ef0adc8b39f1aaaa547ea6197b906bf9e8c009e339d3e95f8f8dbf31be3f",
+  "tracking_repo/src/biohub_tracking/io.py": "efae135b088cecaab463d889f16c885ef6da3ad27b0747327d8ddc28d866b7bd",
+  "tracking_repo/src/biohub_tracking/metrics.py": "31baf45b54c78f68bab4f65dd8f4b38bca702abb644171c6df7c46cdeef55d83",
+  "tracking_repo/src/biohub_tracking/__init__.py": "26a18d8da84e40da73281a48ebc3017d847a2e57431ab63e8629d2109e6e8571",
+  "tracking_repo/src/biohub_tracking/models/simple_node_transformer.py": "b97209edeb03840e80d903e3e2a8c81c520641c8ef343f6ca2904d0f80db064e",
+  "tracking_repo/src/biohub_tracking/models/temporal_unet.py": "d809c35d42f504161074ddeaaa7aee5b407e5bca7f9b4e1d5f9b2ff345666cac",
+  "tracking_repo/src/biohub_tracking/models/__init__.py": "ab7587ef79856bae50d24b62e5805092d0459ee1c586522b763f9ef70c093e1d",
+  "tracking_repo/scripts/augmentations.py": "13db09817bf492f8d0f710a0a4d09776320b262060167055090a303fc6057f4e",
+  "tracking_repo/scripts/dataspec.py": "e69bf952fb985477ac50ff8598a35020c95d20a035a09b81ab4056e655dd311f",
+  "tracking_repo/scripts/evaluate.py": "614813cc51c3581c6ccda4bb20725a19da8ecac4a27620654bfca58319cffa3c",
+  "tracking_repo/scripts/predict_unet_transformer.py": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+  "tracking_repo/scripts/train_unet_transformer.py": "91b49493f957710e6542247623e92d62a0d7aabda08b2a0b8cb4d368aa9f7521"
+}

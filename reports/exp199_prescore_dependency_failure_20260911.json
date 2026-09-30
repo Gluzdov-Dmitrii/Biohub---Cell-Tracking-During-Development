@@ -1,0 +1,11 @@
+{
+  "experiment": "EXP199",
+  "recorded_at": "2026-09-11T09:58:24Z",
+  "status": "FAILED_BEFORE_DATA_OR_SCORE",
+  "failure": "ModuleNotFoundError: No module named 'evaluate_coordinate_consensus'",
+  "cause": "The isolated run directory omitted the evaluator's existing registered_links dependency.",
+  "evidence": "The evaluator failed at top-level import before argument parsing, cache access, label access, graph construction or metric evaluation. forward.json, reverse.json and all score-bearing postprocessing outputs were not created.",
+  "correction": "Copy only scripts/evaluate_coordinate_consensus.py with expected SHA256 426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2 into the existing isolated run directory. Do not change the preregistered evaluator, arms, parameters, selector or gate.",
+  "retry_authorized_by_protocol": true,
+  "kaggle_action_authorized": false
+}

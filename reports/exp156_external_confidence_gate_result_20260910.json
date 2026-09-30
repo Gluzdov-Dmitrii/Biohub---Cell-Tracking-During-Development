@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP156",
+  "status": "REJECT_SOURCE_ONLY_GATE_NO_TARGET_OPENED",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "forward": {
+    "status": "FROZEN_FROM_SOURCE_ONLY_VALIDATION",
+    "selected_probability_floor": 0.8,
+    "selected_bonus_weight": 0.01,
+    "score_delta": 0.0,
+    "recall_delta": 0.0,
+    "selection_sha256": "d4fd06aaadccec05376bf402435466619f8eecd075012cc61383881c5d613e37"
+  },
+  "reverse": {
+    "status": "REJECT_SOURCE_ONLY_GATE",
+    "best_probability_floor": 0.8,
+    "best_bonus_weight": 0.01,
+    "best_score_delta": -0.0015643456939211653,
+    "recall_delta": 0.0,
+    "selection_sha256": "949d068ce3ea863bf13354514321a2d886899a5bf714b999f8bfbee7785f316e"
+  },
+  "decision": "At least one reciprocal direction has no eligible source-only configuration, so no target movie is evaluated.",
+  "interpretation": "Preserving the registered acceptance threshold removes EXP155's forward regression but not the cross-domain association mismatch. External probabilities require retraining or calibration, not a post-hoc bonus sweep.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

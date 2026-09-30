@@ -1,0 +1,68 @@
+{
+  "checked_at": 1789969061.8973067,
+  "jobs": {
+    "exp221-control-44b6-s2026-20260921": {
+      "action": "heartbeat",
+      "queue": {
+        "id": "exp221-control-44b6-s2026-20260921",
+        "owner": "biohub-agent",
+        "token": "exp221_control_44b6_s2026_20260921",
+        "project": "biohub-cell-tracking-during-development",
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921",
+        "pool": "a100",
+        "count": 1,
+        "cpu": 8,
+        "ram_gib": 64.0,
+        "disk_gib": 1.0,
+        "minutes": 180,
+        "state": "RUNNING",
+        "created": 1789968700.1256053,
+        "heartbeat": 1789969061.7455354,
+        "gpus": [
+          "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46"
+        ],
+        "process": {
+          "pid": 546207,
+          "start": "518770939"
+        },
+        "allocated": 1789968700.1256437,
+        "host": "ngpu01",
+        "alias": "nsu-a100",
+        "waiting_ahead": [],
+        "health": "CURRENT"
+      }
+    },
+    "exp221-domain-44b6-s2026-20260921": {
+      "action": "heartbeat",
+      "queue": {
+        "id": "exp221-domain-44b6-s2026-20260921",
+        "owner": "biohub-agent",
+        "token": "exp221_domain_44b6_s2026_20260921",
+        "project": "biohub-cell-tracking-during-development",
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921",
+        "pool": "a100",
+        "count": 1,
+        "cpu": 8,
+        "ram_gib": 64.0,
+        "disk_gib": 1.0,
+        "minutes": 180,
+        "state": "RUNNING",
+        "created": 1789968713.702709,
+        "heartbeat": 1789969061.8687816,
+        "gpus": [
+          "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+        ],
+        "process": {
+          "pid": 546305,
+          "start": "518772295"
+        },
+        "allocated": 1789968713.7027462,
+        "host": "ngpu01",
+        "alias": "nsu-a100",
+        "waiting_ahead": [],
+        "health": "CURRENT"
+      }
+    }
+  },
+  "released": []
+}

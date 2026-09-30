@@ -1,0 +1,21 @@
+{
+  "date_local": "2026-09-12",
+  "status": "PASS_COMMUNITY_EVIDENCE_REFRESH",
+  "query_scope": "Biohub competition discussions and public notebooks mentioning pooled OOF, OOF, CV, validation, or embryo/movie splits",
+  "new_numeric_claim": {
+    "reported_cv": 0.919,
+    "reported_lb": 0.895,
+    "comparable_to_internal_pooled_oof": false,
+    "reason": "The post does not disclose the embryo split, movie cohort, checkpoint selection, pooling definition, or complete graph configuration."
+  },
+  "methodological_evidence": "Complete-movie official scoring and movie-level OOF are explicitly recommended; edge-level random CV is described as misleading.",
+  "internal_frontier_retained": 0.6815218332750073,
+  "report": "reports/COMMUNITY_POOLED_OOF_UPDATE_R2_20260912.md",
+  "report_sha256": "3d3541c5338c3c24b5e9c0f9d2bf45627a370970e66fb879ab36aa2554165eef",
+  "sources": [
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737101",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/728613"
+  ],
+  "scientific_policy_changed": false,
+  "kaggle_action": false
+}

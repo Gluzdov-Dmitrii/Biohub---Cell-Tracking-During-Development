@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP179",
+  "status": "PREREGISTERED_BEFORE_SOURCE_EVALUATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The attributable QRZ density-aware single-frame gap rule can reconnect an already observed isolated middle detection without importing synthetic detections or the correlated public-tuned stack.",
+  "source": {
+    "kernel": "qrz1201/biohub-public-0-941-repro",
+    "version": 1,
+    "source_sha256": "24253cae5a958b83d69e201719388031f5758080c5d01ca1a8e374f3a8225389",
+    "extracted_code_sha256": "5fb5d5b17d207dd111105eef8053c513d7c4ce0f179e0a35872010467f1fbe46"
+  },
+  "frozen_mechanism": {
+    "gap_frames": 1,
+    "gap_close_um_per_step": 5.0,
+    "reuse_existing_um": 3.2,
+    "density_reference_um": 6.5,
+    "density_gain": 0.04,
+    "density_max_step_delta_um": 0.125,
+    "density_neighbors": 3,
+    "synthetic_nodes": false,
+    "deepcenter": false
+  },
+  "arms": [
+    "registered_hungarian",
+    "fixed_observed_gap",
+    "adaptive_observed_gap"
+  ],
+  "data": "Two frozen source-checkpoint-validation movies from each embryo; no target-development, locked-audit or Kaggle test data.",
+  "promotion_gate": "Adaptive must change candidate eligibility, improve score strictly in each source embryo versus registered, be nonnegative on every one of four movies, and be no worse than fixed observed-gap in each embryo.",
+  "next_if_pass": "One frozen reciprocal official-24 evaluation of the adaptive observed-node rule.",
+  "next_if_fail": "Reject before official-24 and do not spend Kaggle quota.",
+  "resource": "CPU-only evaluation on nsu-quadro host; no GPU allocation because all detector coordinates are immutable cached dependencies.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

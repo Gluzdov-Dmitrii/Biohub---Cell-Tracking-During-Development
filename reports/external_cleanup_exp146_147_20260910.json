@@ -1,0 +1,16 @@
+{
+  "stage": "EXP146 and EXP147 completion cleanup",
+  "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "removed": [
+    "runs/exp147_safe_division_20260910/results/g (duplicate gate created by a path typo; hash matched preserved results/gate.json)",
+    "runs/exp137_6bba_to_44b6_20260909/tracking_repo/weights/exp146_scratch_6bba_seed271828/split_1 (temporary symlink to split_0)"
+  ],
+  "preserved": [
+    "EXP146 checkpoint split_0, result JSONs, logs and candidate caches used for future CPU mechanism tests",
+    "EXP147 forward/reverse result JSONs, logs and exact gate",
+    "local copies and SHA receipts"
+  ],
+  "gpu_released": true,
+  "post_run_gpu": "5 MiB, 0%",
+  "verified_absent_after_delete": true
+}

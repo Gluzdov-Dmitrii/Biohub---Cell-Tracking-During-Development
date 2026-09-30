@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP193",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_BEFORE_CORRELATION_ANALYSIS",
+  "evidence_class": "Exploratory analysis of already-opened 24-movie reciprocal development OOF; not untouched confirmation.",
+  "question": "Which previously tested mechanisms have movie-level adjusted-edge deltas least correlated with EXP190 pruning and therefore merit a future graph-level composition test after EXP192?",
+  "baseline": "The exact registered_hungarian rows shared by each input, required to agree at 1e-12.",
+  "mechanisms": {
+    "external_fixed_coordinate_edges": "EXP154 registered_plus_native_guided_division rows; analyze adjusted-edge delta only because its division generation was rejected.",
+    "fixed_synthetic_gap": "EXP185 synthetic_gap_deepcenter rows.",
+    "nested_synthetic_gap": "EXP186 nested selected rows.",
+    "nested_short_component_pruning": "EXP190 nested selected rows.",
+    "nested_gap_plus_pruning": "EXP191 nested selected rows."
+  },
+  "diagnostics": [
+    "pairwise Pearson and Spearman correlation of 24 movie-level adjusted-edge deltas",
+    "sign disagreement count",
+    "each mechanism's positive/negative/zero movie counts",
+    "direction-specific correlations where defined"
+  ],
+  "selection_rule": "For future composition, prefer a mechanism with positive prior pooled evidence and low/negative correlation or meaningful sign disagreement versus EXP190. Do not infer an ensemble gain from score-vector averaging; only a future graph-level implementation under nested selection can establish gain.",
+  "inputs_sha256": {
+    "exp154_forward": "3cfe14d7fda62412c7127e47070db05cd8341ffa09be6a53cb13df746e4e47ee",
+    "exp154_reverse": "2bd816d0a925db911cbc7cd567f4c4930308dca4e3667596a990285cdf1b5377",
+    "exp185_forward": "1dfc9318ad40bf331eaa3b780e61c7029c56bec1743fab3dff30f4db639a6768",
+    "exp185_reverse": "8719c0354f782c3681675584b24754b08e3338fc327049434bc4a3272e313346",
+    "exp186_nested": "5660fad913aa5fe71cfb8a4eed0e64386e1d93b6bacba2ccd77905f9e38e36ae",
+    "exp190_nested": "7f657cf8c0b13de9ed02b4da9e26906e1d6d0f24a3899323c609dbff6183e19c",
+    "exp191_nested": "5c6a2f488ea9ffc3bf735a6bb72364a2d501055be12cf9187477e9a40ca3f12e"
+  },
+  "resource": "CPU-only while the EXP192 archive transfer remains active.",
+  "kaggle_action_authorized": false
+}

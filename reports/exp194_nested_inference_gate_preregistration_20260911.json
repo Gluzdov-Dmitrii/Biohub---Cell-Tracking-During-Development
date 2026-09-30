@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP194",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_BEFORE_GATE_SCORING",
+  "evidence_class": "Exploratory nested 24-movie development OOF motivated by EXP193; sequential family choice disclosed.",
+  "hypothesis": "A simple inference-observable movie-level gate can exploit the low correlation between gap recall and short-component pruning without applying synthetic gaps to movies where they hurt.",
+  "frozen_graph_options": {
+    "forward_6bba_target": {"base": "EXP190 base min8", "gap": "EXP191 g50_t30 plus min8"},
+    "reverse_44b6_target": {"base": "EXP190 base min3", "gap": "EXP191 g45_t20 plus min6"}
+  },
+  "features_available_without_ground_truth": [
+    "synthetic_added / max(base predicted nodes, 1)",
+    "deepcenter_accepted / max(deepcenter_checked, 1)",
+    "endpoint_pairs_selected / max(base predicted nodes, 1)",
+    "base-pruned nodes / max(base predicted nodes, 1)"
+  ],
+  "nested_protocol": "For each held-out movie independently within embryo direction, derive q25/q50/q75 thresholds from the other 11 feature values. Evaluate deterministic rules gap_if_feature_le_threshold and gap_if_feature_gt_threshold plus always_base and always_gap on only those 11 movies using pooled official summarise(score). Select by highest training score with ties preferring always_base, then simpler lexical rule. Apply the selected rule once to the held-out movie. Only 24 held-out rows form the nested pooled result.",
+  "controls": [
+    "all base and gap row coverage must match exactly",
+    "base no-filter rows in EXP190 and gap-source registered rows must match at 1e-12",
+    "every feature must be finite and nonnegative",
+    "fixed always-base result must reproduce EXP190 fixed min8/min3",
+    "no score-vector averaging; each movie selects one complete graph result"
+  ],
+  "promotion_interpretation": "Any gain is exploratory. Retain the gate family only if pooled delta over fixed base is positive, both embryo directions are nonnegative, and a direction-stratified paired bootstrap lower 95% bound is above zero. EXP192 remains unchanged and authoritative confirmation for the currently frozen policies.",
+  "inputs_sha256": {
+    "exp190_forward": "2abb44c27318c49518a3eb3c64c6f3978e5bac5ad8a29a79e239b084c6788892",
+    "exp190_reverse": "9584a1f7fdf25272bd4975c17ce860242caa46de934ab658776bb00f4ed28e56",
+    "gap_forward": "ef90b66328a61e826e4283da8ecb13ae5e470dc29cab316bfce65210c3e4309a",
+    "gap_forward_filtered": "824da6ec8488c37aab52e309d5959ba87cb2e54607e3d40a1722211ad60f2d39",
+    "gap_reverse": "c3e1ec9df51bf0dd58d6802ac7d418310918dce15b194f8b13084d43442b4b2c",
+    "gap_reverse_filtered": "ebb1a43ec5ad6d62d50f67ae9cbcaf4c8077298bd9fcf72befc386c92defaa61"
+  },
+  "resource": "CPU-only during active EXP192 archive transfer.",
+  "kaggle_action_authorized": false
+}

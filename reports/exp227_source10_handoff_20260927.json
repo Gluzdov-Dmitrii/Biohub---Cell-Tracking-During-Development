@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXP227_SOURCE10_NO_LABEL_INFERENCE_LAUNCHED",
+  "lease_id": "exp227-horaz-source-block02-20260927",
+  "training_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_horaz_source_block02_20260927",
+  "source_labels_opened": false,
+  "target_labels_opened": false,
+  "started": 1790446993.1515975,
+  "last_observed": {
+    "queue_state": "RUNNING",
+    "epochs": 9,
+    "complete_status": null
+  },
+  "training_release": {
+    "queue_state": "RELEASED",
+    "observed": {
+      "epochs": 10,
+      "last_epoch": 10,
+      "result_status": "PASS_FULL_SOURCE_BLOCK_10_OF_50",
+      "completed_epochs": 10,
+      "target_data_opened": false,
+      "exit": {
+        "returncode": 0,
+        "hard_timeout": false,
+        "pid": 814629,
+        "start": "566202087",
+        "finished": 1790448258.8082983
+      },
+      "complete_status": "RELEASED_AFTER_VERIFIED_EXIT",
+      "checkpoint10_exists": true
+    }
+  },
+  "prepare_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp227_source10_handoff_prepare_20260927.log",
+  "prepare_returncode": 0,
+  "launch_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp227_source10_handoff_launch_20260927.log",
+  "launch_returncode": 0,
+  "source10_launch_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp227_source_graph10_config_20260927_launch.json",
+  "finished_or_stopped": 1790448330.730466
+}

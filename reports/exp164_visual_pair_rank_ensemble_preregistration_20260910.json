@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP164",
+  "status": "IMPLEMENTATION_AND_CHECKPOINT_IDENTITY_GATE_PASS_BEFORE_GPU",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Equal percentile-rank averaging of scratch-crop and pretrained-feature pair heads can improve high-precision division recall through complementary errors.",
+  "single_candidate": "Exact 0.50/0.50 rank average and unchanged evaluator; no alternate blend. The launcher feature SHA is unit-checked against the immutable EXP160 raw result.",
+  "checkpoint_sha256": {
+    "scratch": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "pretrained_feature": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+    "backbone": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "external_gate": "All 64 external validation shards; proposal ceiling at least 0.90; ensemble precision at least 0.50 and recall at least 0.20; report component and ensemble AP plus correlation.",
+  "competition_gate": "No competition data unless the external gate passes; reciprocal source gate precedes any prospective target pass.",
+  "source_sha256": {
+    "launcher": "835aecaa5380254e94b31ffdf96f9742276d72011506b9cb5348f79859a521ec",
+    "launcher_test": "0cbdcaef542589311d1fcf7fd5839927091d3976d2b03a25134dfa1955a16e22",
+    "evaluator": "847e4d368b1f4ce2448f1a0817f4a2bb433d372693507fb25b34b969f0de3e90"
+  },
+  "implementation_tests": "Four focused launcher and ensemble tests passed. Remote bash -n is mandatory after staging.",
+  "resource": "One RTX6000 through common queue; 8 CPU, 32 GiB RAM, 2 GiB disk, 20 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

@@ -1,0 +1,50 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11T14:52:21Z",
+  "status": "PASS_STAGE_DATA_READY_AND_ARCHIVE_CLEANUP",
+  "stage": {
+    "terminal_marker": "PASS_EXP192_REMOTE_STAGE",
+    "staging_sha256_entries": 5,
+    "staging_sha256_check": "5/5 OK",
+    "catalog": {"archive_members": 24886, "missing": 0, "wrong_size": 0},
+    "extract_44b6": {"status": "PASS_SELECTIVE_EXTRACTION", "files": 7257, "bytes": 28926780255, "already_complete_files": 0},
+    "extract_6bba": {"status": "PASS_SELECTIVE_EXTRACTION", "files": 14268, "bytes": 46118393491, "already_complete_files": 0},
+    "audit": {
+      "status": "PASS_EXP192_DATA_AUDIT",
+      "sha256": "1abde88cb6feea73db1ce78ac6fe0994620e3c74e58bfee46455b691052768de",
+      "manifest_sha256": "ddf71e7f5cf52a0da152ef8fe32a8e1ff505e8534184a084b04e2e1b9a673add",
+      "files": 21525,
+      "bytes": 75045173746,
+      "movies": 175,
+      "movie_counts": {"44b6": 59, "6bba": 116},
+      "zarr_metadata_json_files_parsed": 2975,
+      "content_hashes": 175,
+      "per_movie_records": 175,
+      "public_twins_present": false
+    }
+  },
+  "data_ready": {
+    "status": "PASS_EXP192_DATA_READY_FINALIZATION",
+    "chunks": 8,
+    "summary_sha256": "0d89c5fa89ec46626e624c81c5e9635e738772e5d19a02d51a54a3110a361ba6",
+    "verification_sha256": "7635e420bec8658b05e8f5675b68d3956836ecd0e8e1e1be8d91ab5eceff57f7",
+    "receipt_sha256": {
+      "forward_00": "d71e05fbd917d39448f2979aa6ad7a5275e55e0ab6da303a793cee0e77868f91",
+      "forward_01": "9e67dd0b76bc2ab78b2737c50d9bcc4bd83312d857f30e974efe096c733fe57a",
+      "forward_02": "272c044c7fa7d0804eb2966bc4b760b9c131d1d6f9608e29500784da6017f157",
+      "forward_03": "dc1d648381d11ea6c205e8cb8e42389b7c6c58fc8d0b0f9cc30078a539f7978d",
+      "forward_04": "d1beb6231732cd452faef47783693aa7119a0dfa55893a040123d1f0e9b90358",
+      "reverse_00": "484354e6355c1ee5635550ca126fe82616ca29d0bf577b93449b6bc21daee80f",
+      "reverse_01": "f8efed37224a0a041cd3df5fd43163333598ca845c8d7bbfd4c5a1985cd00ab1",
+      "reverse_02": "b853815a36955755c6cbfae70d505c29fb62fd5801f64b158ae5b43c7f71893f"
+    }
+  },
+  "cleanup": {
+    "deleted": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp192_archive_transfer/biohub-cell-tracking-during-development.zip",
+    "bytes_removed": 87393127165,
+    "absence_verified": true,
+    "recoverability": "The local verified source archive remains outside the remote cleanup target; remote staged data and all receipts are preserved."
+  },
+  "scientific_metric_opened": false,
+  "kaggle_action_authorized": false
+}

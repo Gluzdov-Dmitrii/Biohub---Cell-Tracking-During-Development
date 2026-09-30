@@ -1,0 +1,96 @@
+{
+  "checked_at": 1789979119.1370032,
+  "source8_only": true,
+  "inference_exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 550553,
+    "start": "519603670",
+    "finished": 1789978953.3363268
+  },
+  "prediction_gate": {
+    "status": "PASS_BOTH_SOURCE8_PREDICTIONS_NO_METRICS",
+    "target_labels_read": false
+  },
+  "remote_control": {
+    "checked_at": 1789979040.3356843,
+    "jobs": {
+      "exp221-source-graph8-20260921": {
+        "action": "release",
+        "queue": {
+          "id": "exp221-source-graph8-20260921",
+          "owner": "biohub-agent",
+          "token": "exp221-source-graph8-20260921",
+          "project": "biohub-cell-tracking-during-development",
+          "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921",
+          "pool": "a100",
+          "count": 1,
+          "cpu": 8,
+          "ram_gib": 64.0,
+          "disk_gib": 2.0,
+          "minutes": 70,
+          "state": "RELEASED",
+          "created": 1789977027.25168,
+          "heartbeat": 1789978995.2310274,
+          "gpus": [],
+          "process": {
+            "pid": 550553,
+            "start": "519603670"
+          },
+          "allocated": 1789977027.251714,
+          "host": "ngpu01",
+          "alias": "nsu-a100",
+          "waiting_ahead": [],
+          "finished": 1789979040.322458,
+          "health": "CURRENT"
+        }
+      }
+    },
+    "released": [
+      "exp221-source-graph8-20260921"
+    ]
+  },
+  "score_exit": {
+    "returncode": 0,
+    "at": 1789979066.6585538
+  },
+  "supervision_complete": {
+    "status": "BOTH_RELEASED_AFTER_VERIFIED_EXIT",
+    "checked_at": 1789979066.7046964
+  },
+  "candidate_movies": {
+    "control": 8,
+    "domain": 8
+  },
+  "errors": {},
+  "metrics": {
+    "status": "PASS_SOURCE_VALIDATION_PAIRED_GRAPH8",
+    "scope": "Source-validation development graph diagnostic; not opposite-embryo OOF or private estimate",
+    "summary": {
+      "control": {
+        "n": 8,
+        "edge_jaccard": 0.8002428658166363,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9226764217505261,
+        "adj_edge_jaccard": 0.8080132099136111,
+        "n_adj": 8,
+        "score": 0.8080132099136111
+      },
+      "domain": {
+        "n": 8,
+        "edge_jaccard": 0.8129839189994044,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9613340706415112,
+        "adj_edge_jaccard": 0.808592566606166,
+        "n_adj": 8,
+        "score": 0.808592566606166
+      }
+    }
+  }
+}

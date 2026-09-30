@@ -1,0 +1,79 @@
+{
+  "experiment": "EXP192",
+  "status": "PREREGISTERED_BEFORE_DATA_DOWNLOAD",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "evidence_class": "frozen-policy confirmation on 175 previously unopened non-twin movies, followed by a descriptive 195-movie aggregate",
+  "hypothesis": "Short-component pruning retains a material pooled OOF gain beyond the 24-movie development corpus; synthetic gap recovery adds a smaller benefit on the 44b6 target domain.",
+  "cohort": {
+    "official_train_movies": 199,
+    "public_twins_excluded": [
+      "44b6_0113de3b",
+      "44b6_0b24845f",
+      "6bba_05b6850b",
+      "6bba_05db0fb1"
+    ],
+    "honest_non_twin_movies": 195,
+    "already_opened_non_twin_development_movies": 20,
+    "primary_unopened_confirmation_movies": 175,
+    "primary_unopened_by_target_prefix": {
+      "44b6": 59,
+      "6bba": 116
+    }
+  },
+  "frozen_reciprocal_models": {
+    "44b6_source_to_6bba_target": {
+      "checkpoint_sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+      "source_train_movies": 10,
+      "source_checkpoint_validation_movies": 2
+    },
+    "6bba_source_to_44b6_target": {
+      "checkpoint_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+      "source_train_movies": 10,
+      "source_checkpoint_validation_movies": 2
+    }
+  },
+  "frozen_policies": {
+    "EXP190_simple_reference": {
+      "6bba_target": "base graph plus minimum component length 8",
+      "44b6_target": "base graph plus minimum component length 3"
+    },
+    "EXP191_numerical_frontier": {
+      "6bba_target": "base graph plus minimum component length 8",
+      "44b6_target": "synthetic gap g45_t20 plus minimum component length 6"
+    }
+  },
+  "primary_metric": "official adjusted-edge score pooled from sufficient statistics over only the 175 previously unopened movies",
+  "required_diagnostics": [
+    "pooled score over 175 confirmation movies",
+    "separate target-prefix scores",
+    "per-movie paired deltas and win/loss/tie counts",
+    "edge Jaccard and adjusted-edge score",
+    "node recall and node-count ratio",
+    "division sufficient statistics",
+    "paired bootstrap stratified by target prefix",
+    "leave-one-movie-out influence",
+    "descriptive 195-movie pooled aggregate reported separately"
+  ],
+  "promotion_gate": "EXP190 short-track pruning is confirmed only if its 175-movie pooled delta over the exact no-filter baseline is positive with a paired stratified 95% bootstrap lower bound above zero and neither target-prefix aggregate regresses. EXP191 replaces EXP190 only if its incremental 175-movie delta is positive, the 44b6-target aggregate improves, and the paired 95% lower bound is above zero. Report failures without retuning on these 175 movies.",
+  "anti_adaptation_rule": "Do not inspect intermediate movie scores or change models, thresholds, gap parameters or component lengths until all 175 confirmation predictions and sufficient statistics are complete. Operational file-count/size/hash checks are allowed.",
+  "data_plan": {
+    "official_train_bytes": 85703559720,
+    "honest195_bytes": 83797184170,
+    "already_verified_honest_bytes": 8752010424,
+    "missing_bytes": 75045173746,
+    "missing_44b6_bytes": 28926780255,
+    "missing_6bba_bytes": 46118393491,
+    "staging": "Download by prefix/movie through the authenticated local Kaggle API, verify every official file size, transfer into the registered NSU Kaggle root, verify remote content hashes/structure, then remove local transport material immediately.",
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development"
+  },
+  "artifacts": {
+    "inventory_sha256": "7037c1b05c6468fe24d2b5b255fef6c0a959ae2dd87c2b098ea79258f68275b6",
+    "missing_manifest_sha256": "ddf71e7f5cf52a0da152ef8fe32a8e1ff505e8534184a084b04e2e1b9a673add",
+    "official24_contract_sha256": "775e4fe3d8113ee76a1c721a01136233de5968eeb53f62ea624cd12c2bdc1923",
+    "manifest_builder_sha256": "3937cc075363e64067c32a0ea48227554afabe2fdf2142f94da7da2b38788c29",
+    "downloader_sha256": "30e03c27efb12c1abecf0bb23b6674288d0f7a65df947adefc238485b288fe49"
+  },
+  "gpu_plan": "After verified staging, request one RTX6000 lease and run two reciprocal target passes; cache compact selected-edge data, perform filtering/scoring on CPU, then release and clean reproducible heatmaps.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

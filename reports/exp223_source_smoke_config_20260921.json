@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP223",
+  "lease_id": "exp223-horaz0-source-smoke-20260921",
+  "token": "exp223_horaz0_source_smoke_20260921",
+  "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_v1_20260921",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921",
+  "max_seconds": 900,
+  "cpu_affinity": "8-15",
+  "script": "run_exp223_smoke.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921/output"
+  ],
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_growth_gib": 1
+  },
+  "lease_minutes": 25
+}

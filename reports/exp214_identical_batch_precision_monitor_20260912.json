@@ -1,0 +1,149 @@
+{
+  "launch": {
+    "pid": 174853,
+    "start": "446280638",
+    "command": [
+      "taskset",
+      "-c",
+      "0-7",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_precision_v1_20260912/probe_exp214_precision.py",
+      "--repo",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+      "--plan",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/plan.json",
+      "--selection",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+      "--cache",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+      "--data",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+      "--helpers",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912",
+      "--output",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_identical_batch_precision_20260912/output"
+    ],
+    "started": 1789243798.619659,
+    "config": {
+      "experiment": "EXP214",
+      "lease_id": "biohub-exp214-identical-batch-precision-20260912",
+      "token": "exp214-identical-batch-precision-v1",
+      "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+      "cpu_affinity": "0-7",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_precision_v1_20260912",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_identical_batch_precision_20260912",
+      "script": "probe_exp214_precision.py",
+      "max_seconds": 600,
+      "lease_minutes": 15,
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 16,
+        "disk_growth_gib": 0.1,
+        "gpus": 1
+      },
+      "scope": "Three identical source-only minibatch updates: FP32 repeat and BF16; no OOF/model promotion",
+      "arguments": [
+        "--repo",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+        "--plan",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/plan.json",
+        "--selection",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+        "--cache",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+        "--data",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+        "--helpers",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912",
+        "--output",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_identical_batch_precision_20260912/output"
+      ]
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 174853,
+    "start": "446280638",
+    "finished": 1789243806.9454083
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": {
+    "status": "COMPLETE_IDENTICAL_SOURCE_BATCH_PRECISION_CHECK",
+    "source_movie": "44b6_0113de3b",
+    "source_starts": [
+      27,
+      31,
+      35,
+      39,
+      43,
+      47,
+      51,
+      55
+    ],
+    "augmentation": "disabled in this numerical probe only",
+    "target_labels_read": false,
+    "input_sha256": "eb353103d114de2e6f142770c16625ac1ffbb161f2df57b2a66e1463905165a9",
+    "fp32_repeat_update_cosine": 0.999169111251831,
+    "bf16_update_cosine": 0.9273182153701782,
+    "bf16_relative_loss_difference": 0.0007059260590322867,
+    "passes_previous_numerical_thresholds": true,
+    "records": {
+      "fp32_a": {
+        "edge_loss": 0.0033702824730426073,
+        "detection_loss": 1.0901914834976196,
+        "loss": 1.0935617659706622,
+        "step_seconds_including_warmup": 1.1047188453376293,
+        "input_sha256": "eb353103d114de2e6f142770c16625ac1ffbb161f2df57b2a66e1463905165a9"
+      },
+      "fp32_b": {
+        "edge_loss": 0.0033702824730426073,
+        "detection_loss": 1.0901914834976196,
+        "loss": 1.0935617659706622,
+        "step_seconds_including_warmup": 0.6720461780205369,
+        "input_sha256": "eb353103d114de2e6f142770c16625ac1ffbb161f2df57b2a66e1463905165a9"
+      },
+      "bf16": {
+        "edge_loss": 0.003310056170448661,
+        "detection_loss": 1.0910236835479736,
+        "loss": 1.0943337397184223,
+        "step_seconds_including_warmup": 0.706344885751605,
+        "input_sha256": "eb353103d114de2e6f142770c16625ac1ffbb161f2df57b2a66e1463905165a9"
+      }
+    },
+    "device": "NVIDIA A100 80GB PCIe",
+    "source_sha256": "cde3cf76190670ad4d13e3c3e055f9846e58e11c85c7c393a454e36f5598e17f",
+    "scope": "One source-only numerical probe; not end-to-end training equivalence, epoch speed, or OOF. Main FP32 models unchanged."
+  },
+  "queue": {
+    "id": "biohub-exp214-identical-batch-precision-20260912",
+    "owner": "biohub-agent",
+    "token": "exp214-identical-batch-precision-v1",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_identical_batch_precision_20260912",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 16.0,
+    "disk_gib": 0.1,
+    "minutes": 15,
+    "state": "RELEASED",
+    "created": 1789243797.3207676,
+    "heartbeat": 1789243802.3548133,
+    "gpus": [],
+    "process": {
+      "pid": 174853,
+      "start": "446280638"
+    },
+    "allocated": 1789243797.3207982,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789243849.9686532,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789243849.7763178
+}

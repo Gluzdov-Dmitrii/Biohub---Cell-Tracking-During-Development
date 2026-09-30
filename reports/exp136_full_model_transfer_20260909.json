@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP136",
+  "date": "2026-09-09",
+  "status": "REJECT_FULL_MODEL_DOMAIN_TRANSFER",
+  "compatibility": "136/136 same keys and shapes; runtime 0 missing, 0 unexpected",
+  "trainer_sha256": "38f8f73b9619944da8edc88e807798c876925a53c912047cf6037c57f347fe2c",
+  "initializer_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "source_validation_score": 0.8557,
+  "checkpoint_sha256": "e46d3083e333661173b6b70b47836a68b3f552295821f972e4da2f75ec33a751",
+  "result_sha256": "f262fa664ef725c965634aaa2b37875a9e127089375fbe7b2327c8dadab2c65b",
+  "train_log_sha256": "ae334ff3d7b568b62c383eec0bc30cdc210193ad44f2d1598be207f17fc95b46",
+  "parent_score": 0.6711156817428906,
+  "candidate_score": 0.599428869572597,
+  "pooled_delta": -0.0716868121702936,
+  "per_movie_deltas": [
+    -0.12107885376017824,
+    0.027889885199110398,
+    -0.07971913216044024,
+    -0.13123441314426143
+  ],
+  "node_recall_delta": 0.011258546559901106,
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

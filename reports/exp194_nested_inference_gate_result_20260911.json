@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP194",
+  "recorded_at": "2026-09-11",
+  "status": "REJECT_EXPLORATORY_GATE_STABILITY",
+  "baseline_controls_maximum_absolute_error": 0.0,
+  "pooled": {
+    "fixed_base_min8_min3": 0.7485183130743318,
+    "nested_inference_gate": 0.7499352448440432,
+    "delta": 0.0014169317697113604,
+    "edge_jaccard_delta": 0.001484542282423,
+    "node_recall_delta": 0.0007836565452519
+  },
+  "directions": {"forward_delta": 0.0, "reverse_delta": 0.007570485014380068},
+  "selection": {
+    "forward": {"base": 12, "gap": 0, "dominant_rule": "always_base (12/12)"},
+    "reverse": {"base": 5, "gap": 7, "dominant_rule": "base_pruned_node_fraction_le_q75 (9/12 folds)"}
+  },
+  "stability": {
+    "draws": 20000,
+    "probability_positive": 0.87025,
+    "q025": -0.0009457263202263866,
+    "median": 0.001390744058199389,
+    "q975": 0.004071669273997914,
+    "leave_one_movie_out_min_delta": 0.0006208590891587651
+  },
+  "decision": "Reject as a supported frontier because the preregistered bootstrap lower bound is negative. Preserve the dominant simple reverse rule as a single-rule follow-up hypothesis; do not use the unstable multi-rule selector or alter EXP192.",
+  "artifacts": {
+    "script_sha256": "3e15e296c26c21c5659502ee03ff6fe5d48d0324bd742a8d1a55ee161e2d234e",
+    "result_sha256": "1ef1a1a11ae255423dc0132e794dafa4f6b8df43b518b200cf59be36f6d72338",
+    "stability_sha256": "efd96dbf6323c780f68c63c7349fe69569c9ceb298b29f23d33e151a7dae2327",
+    "tests": "2 passed"
+  },
+  "evidence_class": "Sequentially exploratory 24-movie nested development OOF.",
+  "eligible_for_kaggle_submission": false
+}

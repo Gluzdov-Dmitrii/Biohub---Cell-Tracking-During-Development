@@ -1,0 +1,42 @@
+{
+  "experiment": "EXP206",
+  "recorded_at": "2026-09-11T11:33:00Z",
+  "status": "PREREGISTERED_BEFORE_EXP192_TARGET_INFERENCE",
+  "hypothesis_source": "EXP205 unblinded development ablation: forward centroid refinement +0.0073197123, full fixed composition with EXP195 reverse +0.0059398549, non-twin composition +0.0044613056.",
+  "selection_disclosure": "The forward-only policy was selected after viewing EXP205 development results, including an accidentally early-exposed forward summary. EXP206 is a new, untouched 175-movie confirmation, not a continuation of blinded development evidence.",
+  "preconditions": {
+    "exp192_chunk_sha256sums_found": 0,
+    "exp192_launch_receipts_found": 0,
+    "target_raw_data_staged": false,
+    "existing_honest195_missing_path": "Only the 2,046,077-byte manifest plus directory metadata (2,046,080 bytes total); no raw target volume staged.",
+    "archive_transfer_bytes_at_freeze": 55127769088,
+    "archive_expected_bytes": 87393127165,
+    "target_metrics_opened": false
+  },
+  "frozen_policy": {
+    "forward": "For all 116 non-twin 6bba-target movies, apply exact intensity_centroid_r2_5_5 to EXP190 detector coordinates, recompute registered translation links, then minimum component length 8.",
+    "reverse": "For all 59 non-twin 44b6-target movies, preserve the exact EXP195 q75 inference-only base-vs-gap policy.",
+    "parent": "EXP195_ON_EXP192_CONFIRMATION"
+  },
+  "execution_design": "GPU chunks remain unchanged. After all eight original chunk structures pass the no-metric gate and GPU leases are released, the fail-closed postprocessor runs five CPU-only forward refinements into its atomic temporary directory, validates all five structurally without emitting metrics, merges 116 rows, builds EXP206, and computes paired stability versus EXP195 before atomic publication.",
+  "promotion_gate": "Exact EXP206 translation control versus EXP195 forward min8 within 1e-12; positive incremental pooled and forward deltas; exact zero reverse difference; positive 20,000-draw direction-stratified paired-bootstrap lower bound; positive minimum leave-one-movie-out incremental delta.",
+  "diagnostics": ["pooled and direction scores", "per-movie deltas", "edge TP/FP/FN", "node recall/count adjustment", "centroid shift distribution", "public-twin exclusion is inherent in the 175-movie cohort"],
+  "implementation": {
+    "evaluator": {"path": "scripts/evaluate_cached_intensity_centroid_refinement.py", "sha256": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b"},
+    "builder": {"path": "scripts/build_exp206_centroid_composed_confirmation_result.py", "sha256": "dc111add2d5db2cf3853afb70cd4dc6a4cb201e5e77a50d51b0643a4e73e1322"},
+    "no_metric_validator": {"path": "scripts/validate_exp206_centroid_chunks_no_metrics.py", "sha256": "64da6a739fd442feb87f4fbd025ef08e66b7ff6aabfc3d3394ead2df6602e31d"},
+    "postprocessor": {"path": "scripts/run_exp192_postprocess.sh", "sha256": "0180734de9a5c7854d308d94f869b75534e880b353363c7b2419ebf81472118e"},
+    "tests": {
+      "focused_and_integration": "7 passed",
+      "evaluator_test_sha256": "1f4088b34763c8832ac39f8febcb885a4b885c5270ccc7638e6588867cef5eac",
+      "builder_test_sha256": "1db3d0f0e480e06b080cbd421dcd0a64efd7a6c451d8e2f1212dd1eb27e9d602",
+      "validator_test_sha256": "5a97fe1b15a0e57ecc705961f12c35a33eee0d24ae344bdfccc24c32c7cad1b0",
+      "postprocess_contract_test_sha256": "72236c5b086517d0744fa18cd83803ffc989f0011156a5e169ae4de0efe3eb29",
+      "pipeline_integration_test_sha256": "69df259089991f4db83ef5ed81cd76eb36399de91ccae2dfc1ce26b8526090b1"
+    },
+    "python_compile": "PASS",
+    "remote_deployment": "PENDING"
+  },
+  "effect_on_existing_policies": "EXP190/191/195/201/202 and all eight GPU chunk commands are unchanged. EXP206 is an additional CPU postprocessing confirmation.",
+  "eligible_for_kaggle_submission": false
+}

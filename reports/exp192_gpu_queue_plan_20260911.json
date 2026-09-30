@@ -1,0 +1,29 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "state": "PLANNED_BLOCKED_DATA_AUDIT",
+  "coordinator_host": "nsu-quadro",
+  "queue_helper": "/home/scientists/gluz_d_s/kaggle/_control/resource_queue.py",
+  "project": "biohub-cell-tracking-during-development",
+  "owner": "biohub-exp192-agent",
+  "shared_request": {
+    "pool": "quadro",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_gib": 5,
+    "minutes": 120
+  },
+  "execution_contract": "Request only after PASS_EXP192_DATA_AUDIT. Run exactly one chunk/lease at a time; use the same ID/token/parameters on retries; heartbeat about once per minute; verify PID, descendants, and GPU processes before release; never inspect scientific metrics before all eight chunks merge.",
+  "chunks": [
+    {"id": "exp192-confirm-forward-00-20260911", "token": "2296ec04-941a-4995-9310-5759f7bc2121", "run": "exp192_confirm_forward_00_20260911", "movies_sha256": "fd56684633dc6d9c8631225b60fc7f7f333b972f7ea5c65642667b5c1a6dee82"},
+    {"id": "exp192-confirm-forward-01-20260911", "token": "77d6c90e-6bf5-421c-a6f5-70c60a0952f0", "run": "exp192_confirm_forward_01_20260911", "movies_sha256": "6483a37880b57234458e5d0cf004e98d35d7e599c8bc6be786fc5cf74f0952c9"},
+    {"id": "exp192-confirm-forward-02-20260911", "token": "71f2e044-a328-49cf-8852-bb3240a94b37", "run": "exp192_confirm_forward_02_20260911", "movies_sha256": "a1986066973c283b0196832233fac3596544066f57647b16db8b34de5c964d66"},
+    {"id": "exp192-confirm-forward-03-20260911", "token": "e6bfa189-c835-4fa8-ab27-08471fece226", "run": "exp192_confirm_forward_03_20260911", "movies_sha256": "040d17adb7dde7e44c4aa41782f60128de2e12e7c72ad2ef077d63646c4ba00f"},
+    {"id": "exp192-confirm-forward-04-20260911", "token": "fb6f257c-d7ed-40c0-a38e-b808d7161eaa", "run": "exp192_confirm_forward_04_20260911", "movies_sha256": "33f1ce7a898f76996142176ed2f2cc9ca677ebdf36699efc25203b20927195a"},
+    {"id": "exp192-confirm-reverse-00-20260911", "token": "70b4adf7-f2cd-4f2c-ab73-363c9de0a938", "run": "exp192_confirm_reverse_00_20260911", "movies_sha256": "60b409b18a21a5c6c2edf655c9c301215b888361b9c866dd2bf25e2201e5ca6a"},
+    {"id": "exp192-confirm-reverse-01-20260911", "token": "23fffb4e-8cd0-4d35-af64-93ec4bc79cd3", "run": "exp192_confirm_reverse_01_20260911", "movies_sha256": "9cd9495ba00c2d6e75afcf16245def50303fecfc0bdc3542b49d7570c2388d30"},
+    {"id": "exp192-confirm-reverse-02-20260911", "token": "a5090d4c-8968-4413-a27c-00f610394ac1", "run": "exp192_confirm_reverse_02_20260911", "movies_sha256": "b84bdfcd7686fc6f420c25ed11973d1e174d782088301660df8f76a0967f457"}
+  ],
+  "kaggle_action_authorized": false
+}

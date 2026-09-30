@@ -1,0 +1,63 @@
+{
+  "experiment": "EXP207",
+  "recorded_at": "2026-09-11",
+  "status": "FROZEN_BEFORE_EXP207_GPU_INFERENCE",
+  "evidence_class": "selection-aware reciprocal embryo-disjoint development OOF; not untouched confirmation",
+  "hypotheses": {
+    "primary": "Eight-view inverse-aligned U-Net feature averaging improves the fixed weak learned/motion linker relative to compute-matched eight-view detection with identity-view features.",
+    "secondary_diagnostic": "Expanding detector-logit TTA from the existing four views to the full eight-view D4 group improves the fixed coordinate-only registered policy relative to EXP190. This is reported separately and cannot rescue a failed primary feature-TTA gate."
+  },
+  "source": {
+    "public_notebook": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+    "public_notebook_sha256": "ae8e01a262211045161984e469e8be23e3386bab9140fe12df503dc6a1e010e6",
+    "frozen_parent_predictor_sha256": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+    "d4_optional_feature_predictor_sha256": "642bb826e54289acee189fdcebef8abc94f25ca06b911a87b30c6664c322f6f7",
+    "source_test_sha256": "e405a5ebe1a53f09e82ac1c358acde05c21528cbe824b111eb6a568a1fa90d8f"
+  },
+  "fixed_protocol": {
+    "movies": "All 24 already-open development movies: 12 6bba targets of the 44b6-trained scratch model and 12 44b6 targets of the 6bba-trained scratch model.",
+    "models": "Exact EXP130 deterministic 44b6 scratch checkpoint forward and exact EXP137 seed-314159 6bba scratch checkpoint reverse.",
+    "detector_threshold": 0.985,
+    "native_edge_threshold": 0.02,
+    "weak_probability_weight": 0.1,
+    "registered_gate_um": 7.0,
+    "registered_motion_scale_um": 3.0,
+    "short_track_minimum_nodes": {"forward": 8, "reverse": 3},
+    "seed": 314159,
+    "unet_batch_size": 4,
+    "arms": {
+      "d4_detection_identity_features": "BIOHUB_EDGE_FEATURE_TTA=0",
+      "d4_detection_d4_features": "BIOHUB_EDGE_FEATURE_TTA=1"
+    },
+    "selection": "none; all parameters and both comparisons are fixed before inference"
+  },
+  "mandatory_controls": [
+    "Candidate source differs from the frozen parent only inside the detector/feature TTA block and parses successfully.",
+    "All seven non-identity D4 transforms and inverse maps restore a synthetic non-square grid exactly.",
+    "The cached fixed weak-linker evaluator must reproduce the original registered_weak_hungarian arm at minimum length 1 within 1e-12 before EXP207 inference.",
+    "Within EXP207, feature-off and feature-on caches must have exact coordinate arrays for every movie.",
+    "Coordinate-only registered metrics must be exactly equal between feature-off and feature-on arms.",
+    "At least one learned edge probability or selected weak link must differ, proving the feature arm was active."
+  ],
+  "primary_gate": {
+    "comparison": "d4_detection_d4_features weak_p010 with fixed min8/min3 versus d4_detection_identity_features weak_p010 with the same fixed min8/min3",
+    "requirements": [
+      "positive pooled score delta",
+      "nonnegative score delta in each embryo direction",
+      "20,000-draw paired direction-stratified bootstrap q025 greater than zero",
+      "minimum leave-one-movie-out pooled delta greater than zero",
+      "exact coordinate and coordinate-linker controls"
+    ],
+    "failure": "Reject eight-view feature TTA for the current scratch-model weak-linker family."
+  },
+  "secondary_gate": "Report four-view EXP190 versus eight-view feature-off coordinate policy with the same fixed min8/min3 and the same stability diagnostics; label it separately as D4 detector-TTA development evidence.",
+  "code_sha256": {
+    "evaluate_cached_fixed_weak_linker.py": "397ecd3e9d3e14799ab1c57291b531e702882d50615f6e67f3d4d3b5658ae349",
+    "build_fixed_separate_two_direction_comparison.py": "f9e27bfc9372efe085d43b04d6675009211115c629344788a94b52001353cd8d",
+    "validate_cached_arm_metrics_reproduction.py": "4dcb57c1ab526be37b8b0e81cfefefc9a03a1a74c1881724f353476da17f49c3"
+  },
+  "verification": "Eight focused tests pass; candidate AST parses.",
+  "resource": "One RTX6000 through the common queue, one Biohub GPU job, 8 CPU, 32 GiB RAM, 3 GiB growth, 90 minutes. Do not launch while archive SCP/extraction creates material shared-NFS contention.",
+  "relationship_to_exp192": "EXP192/201/202/206 code, data, chunks and gates remain frozen and untouched. EXP207 uses only the already-open official24 development set.",
+  "kaggle_action_authorized": false
+}

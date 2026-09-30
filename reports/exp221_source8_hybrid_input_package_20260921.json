@@ -1,0 +1,640 @@
+{
+  "status": "PASS_FIXED_SOURCE8_HYBRID_INPUT_EXPORT",
+  "scope": "Source validation development only; no target6bba data",
+  "root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "repo": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+  "python": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+  "data": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+  "source_manifest": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_source_graph_v1_20260921/movies.json",
+    "sha256": "e28f7baa4431dca570602921255add1a907f83277489327d9473a0cf3d9aeb20",
+    "bytes": 136
+  },
+  "control_csv": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/control/submission.csv",
+    "sha256": "5b817f887975fb4d160c78efc53d856458cc535f34c66eacfb1e42e3a71c715f",
+    "bytes": 26736782
+  },
+  "control_receipt": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/control/inference_receipt.json",
+    "sha256": "9d8d9a1cc59805393c01b4f2b7c5ed81fe9933b70d57a448e3c356e4ab75a9c9",
+    "bytes": 4856
+  },
+  "source_graph_metrics": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/score/metrics.json",
+    "sha256": "93aa6d3fd5f20ea927c1747787d7cac59ac3b6a7fb96279d7e3d8637a316b898",
+    "bytes": 9049
+  },
+  "metrics": {
+    "status": "PASS_SOURCE_VALIDATION_PAIRED_GRAPH8",
+    "scope": "Source-validation development graph diagnostic; not opposite-embryo OOF or private estimate",
+    "rows": {
+      "control": [
+        {
+          "dataset": "44b6_53f95252",
+          "edge_tp": 63,
+          "edge_fp": 2,
+          "edge_fn": 5,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 35343,
+          "node_recall": 0.9428571428571428,
+          "total_node_ratio": -0.08709802402169702,
+          "edge_jaccard": 0.9,
+          "adj_edge_jaccard": 0.9078388221619528
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "edge_tp": 180,
+          "edge_fp": 33,
+          "edge_fn": 44,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 51077,
+          "node_recall": 0.8903508771929824,
+          "total_node_ratio": -0.1136619987158797,
+          "edge_jaccard": 0.7003891050583657,
+          "adj_edge_jaccard": 0.7083498676143417
+        },
+        {
+          "dataset": "44b6_aaf8b0ea",
+          "edge_tp": 197,
+          "edge_fp": 1,
+          "edge_fn": 9,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 19989,
+          "node_recall": 0.9665071770334929,
+          "total_node_ratio": -0.09547943345852754,
+          "edge_jaccard": 0.9516908212560387,
+          "adj_edge_jaccard": 0.9607775113001594
+        },
+        {
+          "dataset": "44b6_c771cb04",
+          "edge_tp": 195,
+          "edge_fp": 45,
+          "edge_fn": 28,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 47095,
+          "node_recall": 0.9911894273127754,
+          "total_node_ratio": -0.11716187084075358,
+          "edge_jaccard": 0.7276119402985075,
+          "adj_edge_jaccard": 0.7361367779156519
+        },
+        {
+          "dataset": "44b6_c8e2a523",
+          "edge_tp": 135,
+          "edge_fp": 17,
+          "edge_fn": 29,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 27115,
+          "node_recall": 0.8869047619047619,
+          "total_node_ratio": -0.18190321023412986,
+          "edge_jaccard": 0.7458563535911602,
+          "adj_edge_jaccard": 0.7594237201003355
+        },
+        {
+          "dataset": "44b6_d754aa59",
+          "edge_tp": 65,
+          "edge_fp": 3,
+          "edge_fn": 5,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 6077,
+          "node_recall": 0.9861111111111112,
+          "total_node_ratio": 0.17520789015664281,
+          "edge_jaccard": 0.8904109589041096,
+          "adj_edge_jaccard": 0.8748102563559155
+        },
+        {
+          "dataset": "44b6_d78e09d9",
+          "edge_tp": 395,
+          "edge_fp": 24,
+          "edge_fn": 56,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 21000,
+          "node_recall": 0.9157667386609071,
+          "total_node_ratio": -0.0565613908980637,
+          "edge_jaccard": 0.8315789473684211,
+          "adj_edge_jaccard": 0.8362824735588917
+        },
+        {
+          "dataset": "44b6_e31261b4",
+          "edge_tp": 88,
+          "edge_fp": 3,
+          "edge_fn": 25,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 52270,
+          "node_recall": 0.8017241379310345,
+          "total_node_ratio": -0.2825573734489953,
+          "edge_jaccard": 0.7586206896551724,
+          "adj_edge_jaccard": 0.7800560766064755
+        }
+      ],
+      "domain": [
+        {
+          "dataset": "44b6_53f95252",
+          "edge_tp": 65,
+          "edge_fp": 6,
+          "edge_fn": 3,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 42721,
+          "node_recall": 1.0,
+          "total_node_ratio": 0.10347410564380731,
+          "edge_jaccard": 0.8783783783783784,
+          "adj_edge_jaccard": 0.8692894366664223
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "edge_tp": 194,
+          "edge_fp": 34,
+          "edge_fn": 30,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 63456,
+          "node_recall": 0.9605263157894737,
+          "total_node_ratio": 0.10115050236868135,
+          "edge_jaccard": 0.751937984496124,
+          "adj_edge_jaccard": 0.7443320940079364
+        },
+        {
+          "dataset": "44b6_aaf8b0ea",
+          "edge_tp": 202,
+          "edge_fp": 1,
+          "edge_fn": 4,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 22689,
+          "node_recall": 0.9904306220095693,
+          "total_node_ratio": 0.026698040635322867,
+          "edge_jaccard": 0.9758454106280193,
+          "adj_edge_jaccard": 0.9732400945853453
+        },
+        {
+          "dataset": "44b6_c771cb04",
+          "edge_tp": 190,
+          "edge_fp": 56,
+          "edge_fn": 33,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 58553,
+          "node_recall": 0.9955947136563876,
+          "total_node_ratio": 0.09762864373418315,
+          "edge_jaccard": 0.6810035842293907,
+          "adj_edge_jaccard": 0.6743550385987473
+        },
+        {
+          "dataset": "44b6_c8e2a523",
+          "edge_tp": 149,
+          "edge_fp": 16,
+          "edge_fn": 15,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 30410,
+          "node_recall": 0.9642857142857143,
+          "total_node_ratio": -0.08248853487810766,
+          "edge_jaccard": 0.8277777777777777,
+          "adj_edge_jaccard": 0.8346059953871321
+        },
+        {
+          "dataset": "44b6_d754aa59",
+          "edge_tp": 61,
+          "edge_fp": 1,
+          "edge_fn": 9,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 1,
+          "num_pred_nodes": 5883,
+          "node_recall": 0.9027777777777778,
+          "total_node_ratio": 0.13769096886482304,
+          "edge_jaccard": 0.8591549295774648,
+          "adj_edge_jaccard": 0.8473251421116138
+        },
+        {
+          "dataset": "44b6_d78e09d9",
+          "edge_tp": 404,
+          "edge_fp": 40,
+          "edge_fn": 47,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 23993,
+          "node_recall": 0.9546436285097192,
+          "total_node_ratio": 0.07790107372298845,
+          "edge_jaccard": 0.8228105906313645,
+          "adj_edge_jaccard": 0.8164008077832816
+        },
+        {
+          "dataset": "44b6_e31261b4",
+          "edge_tp": 100,
+          "edge_fp": 6,
+          "edge_fn": 13,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 0,
+          "num_pred_nodes": 69839,
+          "node_recall": 0.9224137931034483,
+          "total_node_ratio": -0.04141045349730976,
+          "edge_jaccard": 0.8403361344537815,
+          "adj_edge_jaccard": 0.8438160044955723
+        }
+      ]
+    },
+    "summary": {
+      "control": {
+        "n": 8,
+        "edge_jaccard": 0.8002428658166363,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9226764217505261,
+        "adj_edge_jaccard": 0.8080132099136111,
+        "n_adj": 8,
+        "score": 0.8080132099136111
+      },
+      "domain": {
+        "n": 8,
+        "edge_jaccard": 0.8129839189994044,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9613340706415112,
+        "adj_edge_jaccard": 0.808592566606166,
+        "n_adj": 8,
+        "score": 0.808592566606166
+      }
+    },
+    "by_embryo": {
+      "control": {
+        "44b6": {
+          "n": 8,
+          "edge_jaccard": 0.8002428658166363,
+          "division_jaccard": 0.0,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 3,
+          "node_recall": 0.9226764217505261,
+          "adj_edge_jaccard": 0.8080132099136111,
+          "n_adj": 8,
+          "score": 0.8080132099136111
+        }
+      },
+      "domain": {
+        "44b6": {
+          "n": 8,
+          "edge_jaccard": 0.8129839189994044,
+          "division_jaccard": 0.0,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 3,
+          "node_recall": 0.9613340706415112,
+          "adj_edge_jaccard": 0.808592566606166,
+          "n_adj": 8,
+          "score": 0.808592566606166
+        }
+      }
+    },
+    "input_hashes": {
+      "control": [
+        {
+          "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/control/submission.csv",
+          "sha256": "5b817f887975fb4d160c78efc53d856458cc535f34c66eacfb1e42e3a71c715f",
+          "receipt_sha256": "9d8d9a1cc59805393c01b4f2b7c5ed81fe9933b70d57a448e3c356e4ab75a9c9"
+        }
+      ],
+      "domain": [
+        {
+          "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/domain/submission.csv",
+          "sha256": "ab49cec35db5d025cbd1ef7dcdc9cf415672a68b78b8dbdf55f88626f2853c49",
+          "receipt_sha256": "8644a853197c5d7d9689bee5f2b88060eff97c6fb1715e822259e602aafeff5e"
+        }
+      ]
+    }
+  },
+  "prediction_gate": {
+    "status": "PASS_BOTH_SOURCE8_PREDICTIONS_NO_METRICS",
+    "target_labels_read": false
+  },
+  "no_metric_gate": {
+    "status": "PASS_ALL_ARMS_COMPLETE_BEFORE_LABEL_ACCESS",
+    "movies": [
+      "44b6_53f95252",
+      "44b6_551a5dba",
+      "44b6_aaf8b0ea",
+      "44b6_c771cb04",
+      "44b6_c8e2a523",
+      "44b6_d754aa59",
+      "44b6_d78e09d9",
+      "44b6_e31261b4"
+    ],
+    "hashes": {
+      "control": [
+        {
+          "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/control/submission.csv",
+          "sha256": "5b817f887975fb4d160c78efc53d856458cc535f34c66eacfb1e42e3a71c715f",
+          "receipt_sha256": "9d8d9a1cc59805393c01b4f2b7c5ed81fe9933b70d57a448e3c356e4ab75a9c9"
+        }
+      ],
+      "domain": [
+        {
+          "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/output/domain/submission.csv",
+          "sha256": "ab49cec35db5d025cbd1ef7dcdc9cf415672a68b78b8dbdf55f88626f2853c49",
+          "receipt_sha256": "8644a853197c5d7d9689bee5f2b88060eff97c6fb1715e822259e602aafeff5e"
+        }
+      ]
+    }
+  },
+  "control_bundle": {
+    "purpose": "STRONG60_PAIRED175_DEVELOPMENT_COMPARISON",
+    "source_embryo": "44b6",
+    "training_plan_sha256": "44bdf3a3282a50b9152e7bae5624abb713827b4ea49b7ccf8756281ba36962e7",
+    "primary": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921/output/edge_predictor_best.pth",
+      "sha256": "e4175019c11105ea8b87324f9f787f3b0710d9e4df5862cd2d03ff8204759b5e",
+      "selected_epoch": 13,
+      "actual_training_plan_sha256": "b7c71e5f4453b859ace4a6b30ee388f6a76fb1653ff8872f720e5e370183b4b0"
+    },
+    "secondary": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_44b6_s314159_p01_20260912/output/edge_predictor_best.pth",
+      "sha256": "ea0b45d2dea2e9b8899889c3e62c44370332423aae470a4b3837210ea4c736c2",
+      "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+      "source_status_sha256": "49fa297129c50f926a13040fcd6145ab804a292b5ac666dcae3568a37654af52",
+      "seed": 314159,
+      "selected_epoch": 44,
+      "source_only_selection": true
+    },
+    "center": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/44b6/best.pt",
+      "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f"
+    },
+    "scope": "Source-validation development graph diagnostic; not opposite-embryo OOF or private estimate",
+    "evaluation_mode": "EXP221_SOURCE_VALIDATION_FIXED8",
+    "source_validation_movies": [
+      "44b6_53f95252",
+      "44b6_551a5dba",
+      "44b6_aaf8b0ea",
+      "44b6_c771cb04",
+      "44b6_c8e2a523",
+      "44b6_d754aa59",
+      "44b6_d78e09d9",
+      "44b6_e31261b4"
+    ],
+    "source_train_movies": [
+      "44b6_0113de3b",
+      "44b6_0b24845f",
+      "44b6_0c582fdc",
+      "44b6_0db75fae",
+      "44b6_12dfb391",
+      "44b6_144b256d",
+      "44b6_1574802b",
+      "44b6_18ced818",
+      "44b6_1d530831",
+      "44b6_24264f12",
+      "44b6_267148e4",
+      "44b6_2a2eff9f",
+      "44b6_2f31fc2f",
+      "44b6_33b596bf",
+      "44b6_341df25f",
+      "44b6_3a861e03",
+      "44b6_3bb3690f",
+      "44b6_40c45f5a",
+      "44b6_415c0a3a",
+      "44b6_5740d24b",
+      "44b6_587a1e22",
+      "44b6_5f15d135",
+      "44b6_668e0cc7",
+      "44b6_66f9292d",
+      "44b6_706092f0",
+      "44b6_71a4179f",
+      "44b6_74d0c52e",
+      "44b6_7a302da0",
+      "44b6_7e557709",
+      "44b6_808952d6",
+      "44b6_81c256f0",
+      "44b6_87bba6c4",
+      "44b6_8cc6506c",
+      "44b6_8f5ab931",
+      "44b6_8f9ecab4",
+      "44b6_90724892",
+      "44b6_949adeb1",
+      "44b6_95029e92",
+      "44b6_97725144",
+      "44b6_996155de",
+      "44b6_9be80b04",
+      "44b6_9bfa6a0a",
+      "44b6_a21120c2",
+      "44b6_a2bb48bb",
+      "44b6_abf82518",
+      "44b6_b2c44266",
+      "44b6_c15fded2",
+      "44b6_c50204e0",
+      "44b6_c96cfa10",
+      "44b6_cf2536e8",
+      "44b6_cf8fed6b",
+      "44b6_d29c9ab2",
+      "44b6_d2f34f90",
+      "44b6_d5e7d891",
+      "44b6_db3c847b",
+      "44b6_ddf577ad",
+      "44b6_deabac95",
+      "44b6_e28840c6",
+      "44b6_e29f0176",
+      "44b6_e35b117d",
+      "44b6_e57ff5c6",
+      "44b6_eb2880fc",
+      "44b6_f28707c6"
+    ]
+  },
+  "source_provenance": {
+    "primary_train_overlap": [],
+    "secondary_train_overlap": [],
+    "center_train_and_selection_overlap": [],
+    "source_validation_movies": [
+      "44b6_53f95252",
+      "44b6_551a5dba",
+      "44b6_aaf8b0ea",
+      "44b6_c771cb04",
+      "44b6_c8e2a523",
+      "44b6_d754aa59",
+      "44b6_d78e09d9",
+      "44b6_e31261b4"
+    ],
+    "primary_plan": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921/plan.json",
+      "sha256": "b7c71e5f4453b859ace4a6b30ee388f6a76fb1653ff8872f720e5e370183b4b0",
+      "bytes": 31089
+    },
+    "secondary_plan": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_strong60_v1_20260912/plan.json",
+      "sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+      "bytes": 30529
+    },
+    "center_split": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/trainer_44b6_source.json",
+      "sha256": "296d307f9ff174ce3d3db9bc77b8b12c2674178b8b09598fed129574c4b458a4",
+      "bytes": 388
+    }
+  },
+  "datasets": {
+    "44b6_53f95252": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_53f95252.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_53f95252.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 38715
+    },
+    "44b6_551a5dba": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_551a5dba.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_551a5dba.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 57627
+    },
+    "44b6_aaf8b0ea": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_aaf8b0ea.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_aaf8b0ea.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 22099
+    },
+    "44b6_c771cb04": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c771cb04.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c771cb04.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 53345
+    },
+    "44b6_c8e2a523": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c8e2a523.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c8e2a523.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 33144
+    },
+    "44b6_d754aa59": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d754aa59.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d754aa59.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 5171
+    },
+    "44b6_d78e09d9": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d78e09d9.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d78e09d9.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 22259
+    },
+    "44b6_e31261b4": {
+      "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_e31261b4.zarr",
+      "geff": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_e31261b4.geff",
+      "shape_tzyx": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "voxel_scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ],
+      "estimated_number_of_nodes": 72856
+    }
+  },
+  "api": {
+    "shape": "zarr.open_group(path, mode=\"r\")[\"0\"].shape is (T,Z,Y,X)",
+    "scale": "biohub_tracking.io._parse_scale(group.attrs) is physical (z,y,x) micrometres per raw voxel",
+    "geometry": "CSV nodes are raw float voxel (t,z,y,x); use exact float coordinates, do not round",
+    "metric": "biohub_tracking.metrics.evaluate(graph, ds.tracks, scale=ds.scale); then per_sample_metrics(metric,estimated_nodes,node_recall) and summarise(rows)",
+    "graph": "predict_unet_transformer.build_graph(coords[N,4], edges[(source_index,target_index,1.0,0.0)]); map original node IDs to array indices",
+    "reader": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_source_graph_v1_20260921/score_exp221_source_graph.py::read_graphs validates exact CSV schema and DAG constraints",
+    "scorer": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_source_graph_v1_20260921/score_exp221_source_graph.py"
+  },
+  "cpu_bounded_helper_local": "scripts/launch_exp220_node_strata.py (reference wrapper; not a generic argument-compatible launcher)",
+  "cpu_gated_wrapper_local": "scripts/migrate_exp221_source_supervision.py (subprocess timeout900s/taskset0-3/OMP4/MKL4/CUDA empty)",
+  "cpu_allocation": "prepost/nsu-quadro; check live aggregate CPU/RAM;4threads, bounded timeout, no GPU lease"
+}

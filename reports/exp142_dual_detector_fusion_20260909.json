@@ -1,0 +1,103 @@
+{
+  "experiment": "EXP142",
+  "status": "REJECT_PRIVATE_DEVELOPMENT_GATE",
+  "arm": "registered_weak_hungarian",
+  "inputs": {
+    "parent": "outputs\\research\\exp130_official24_private_first\\seed271828_zebrahub_registered_result.json",
+    "parent_sha256": "a93a2e068952c98178bf422ae9a9e873d0b25c9246a09e89482935c2aefa849c",
+    "candidate": "outputs\\research\\exp130_official24_private_first\\exp142_remote_artifacts\\target_registered_result.json",
+    "candidate_sha256": "b7ce8ed715e593de147f65685e76170dd40b957d65f0a04f21b46cc4da817c7c"
+  },
+  "dataset_count": 4,
+  "parent_score": 0.6715071138177761,
+  "candidate_score": 0.6436492578689551,
+  "pooled_delta": -0.027857855948820953,
+  "parent_node_recall": 0.9657465452790714,
+  "candidate_node_recall": 0.9695286536983937,
+  "node_recall_delta": 0.00378210841932225,
+  "per_movie": [
+    {
+      "dataset": "6bba_05b6850b.zarr",
+      "parent_score": 0.6493766766466526,
+      "candidate_score": 0.6060131849030087,
+      "delta": -0.043363491743643845,
+      "parent_node_recall": 0.9953542392566783,
+      "candidate_node_recall": 0.9953542392566783
+    },
+    {
+      "dataset": "6bba_05db0fb1.zarr",
+      "parent_score": 0.78116937232403,
+      "candidate_score": 0.7959806287891948,
+      "delta": 0.01481125646516479,
+      "parent_node_recall": 0.9560618388934092,
+      "candidate_node_recall": 0.9707078925956062
+    },
+    {
+      "dataset": "6bba_062c8d37.zarr",
+      "parent_score": 0.5955625973610982,
+      "candidate_score": 0.5836411609498681,
+      "delta": -0.011921436411230113,
+      "parent_node_recall": 0.9344086021505377,
+      "candidate_node_recall": 0.9397849462365592
+    },
+    {
+      "dataset": "6bba_07477033.zarr",
+      "parent_score": 0.6244650579268463,
+      "candidate_score": 0.5327045091420969,
+      "delta": -0.09176054878474937,
+      "parent_node_recall": 0.9771615008156607,
+      "candidate_node_recall": 0.9722675367047309
+    }
+  ],
+  "checks": {
+    "positive_pooled_score": false,
+    "no_negative_movie_delta": false,
+    "no_pooled_node_recall_regression": true
+  },
+  "metric_self_consistency": {
+    "status": "PASS_RECOMPUTED_FROM_PER_MOVIE_SUFFICIENT_STATISTICS",
+    "absolute_tolerance": 1e-12
+  },
+  "source_gate": {
+    "arm": "registered_hungarian",
+    "parent_score": 0.5524158064706544,
+    "candidate_score": 0.6162304930547942,
+    "pooled_delta": 0.0638146865841398,
+    "node_recall_delta": 0.0703703703703703,
+    "per_movie_deltas": [0.10225558583996908, -0.07386189429674084],
+    "result_sha256": "d3487c0dfda7816b0f2d4a16b2dd40c297a618eb5e3c970446472bfa262d544f",
+    "eval_log_sha256": "22fd141a527bad1d64f48b056717de9014adf860867f59e28a904ab1f11a7e03"
+  },
+  "fusion_telemetry": {
+    "source": {"frames": 200, "fallback_frames": 0, "primary_candidates": 38695, "fused_candidates": 47300, "selected_candidates": 47300},
+    "target": {"frames": 400, "fallback_frames": 1, "primary_candidates": 87502, "fused_candidates": 90398, "selected_candidates": 90407},
+    "interpretation": "The one-sided retention guard protects against proposal loss but not proposal excess."
+  },
+  "implementation": {
+    "primary_weights_sha256": "19cc6d0523cf3323210ecc81218368e1e6244dba5a9d2f5e68bb503f12efb69f",
+    "secondary_weights_sha256": "2ec65d049fcb23634060923047607699bf1c64183b523b9c102cbc1b3e44a346",
+    "predictor_sha256": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+    "evaluator_sha256": "77ddfca1ae1d44a307fbbc6cc9cf9638043e3a224074466059828355337e6a22",
+    "source_launcher_sha256": "5d1b5c83a866508083b7aaeaa87b6733b09f7059e5574abb6ec82d1b7a9f0ae8",
+    "target_launcher_sha256": "ff79ac3aaf3a15c36d91f3255d5b2f39918288ae8a89953365179da48d0b2d2d",
+    "target_eval_log_sha256": "001307d51bae04cccc3d8747d013af1bf3400109038d09d69be9a2063c29af62"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "lease_id": "biohub-exp142-dual-detector-target-20260909",
+    "lease_token": "8456b81a-595f-4489-b64f-86366d4aeffb",
+    "pid": 142504,
+    "pid_start": "418185545",
+    "released_after_verified_stop": true,
+    "post_run_gpu": "5 MiB, 0%"
+  },
+  "cleanup": {
+    "removed": ["two empty remote launcher logs", "generated local and remote evaluator/predictor pyc files"],
+    "preserved": ["source and target result JSON", "source and target evaluation logs", "candidate caches"],
+    "completed": true
+  },
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false
+}

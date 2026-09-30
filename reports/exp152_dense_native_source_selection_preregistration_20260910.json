@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP152",
+  "status": "PREREGISTERED_BEFORE_GPU_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "A denser learned edge pool can recover useful second-daughter evidence while source-only threshold selection and add-only geometry gates preserve the strong registered topology.",
+  "model": "Source-selected scratch seed 314159 checkpoint in each reciprocal direction; detector threshold 0.985; four-view detector TTA unchanged.",
+  "edge_pool": "Run predict_video once at softmax threshold 0.02, preserving its probability-sorted max-parent/max-child selection; reconstruct stricter candidate pools by filtering probabilities.",
+  "source_selection": {
+    "threshold_grid": [0.5, 0.2, 0.1, 0.05, 0.02],
+    "movies": "two source checkpoint-validation movies per direction only",
+    "eligibility": "nonnegative official-score and division-TP deltas versus registered parent",
+    "choice": "highest source-validation official score; ties choose the higher threshold"
+  },
+  "target_evaluation": "Only after source-only selection succeeds, run the selected threshold once on all 12 opposite-embryo movies in each direction; write both outputs before comparison.",
+  "promotion_gate": "Positive official score in each target embryo and pooled, positive pooled division-TP gain, nonnegative division-TP per embryo, pooled division precision >=0.25, adjusted-edge delta >=-0.005 and no recall loss per embryo, valid degrees.",
+  "source_sha256": {
+    "gpu_cache_evaluator": "36e0ce644382be779f527cf18665a816127b299229214a885eb66778989690a8",
+    "native_guided_evaluator": "e822b701ca6abc4d919e50e5dc43d62f9e86447a70b82c18b232df2048e5b4a6",
+    "source_selector": "0af458758ba323f38c5dc59e28d1cbd75a8a72be9fb9f4ab9f505e46eefcbd48",
+    "launcher_initial": "2d18807a74553e9cacc1632103b63d350c55863dc0be7e32291f3d427a72c212",
+    "launcher_retry2": "33c12bd84de4f06edceafbee42e082adeab70eeffbbd9e087b585cb7cf854244",
+    "source_validation_6bba": "e82cf1e2add8e7a0356e1d1b4ff6c4b9c56194be89719257d568c52ed956e27"
+  },
+  "resource": "One RTX6000 job for this project via common queue; 8 CPU, 32 GiB RAM, 8 GiB disk, 120 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

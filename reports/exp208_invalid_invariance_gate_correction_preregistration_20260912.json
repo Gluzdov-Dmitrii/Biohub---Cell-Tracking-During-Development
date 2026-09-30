@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP208-CORRECTION",
+  "timestamp_local": "2026-09-12",
+  "status": "PREREGISTERED_POST_FAILURE_ASSEMBLY",
+  "reason": "EXP208 completed both source selections and both target evaluations, then failed a post-target assertion requiring selected and translation arms to retain identical predicted-node counts. That invariant is scientifically invalid for this pipeline because centroid-refined coordinates are re-linked and short-component pruning is rerun independently, which can legitimately change retained node counts.",
+  "failure_evidence": {
+    "cpu_log_sha256": "3bfdaafe80d862585b09b4e6fc6328343cf7377712163a8a26bcf5c8e42da47a",
+    "exception": "AssertionError in the post-target structural heredoc",
+    "forward_movies_with_node_count_difference": 12,
+    "reverse_movies_with_node_count_difference": 12
+  },
+  "frozen_inputs": {
+    "forward_selection_sha256": "bd98ebbc70a37912a1307c1f3c7b5cc285ea4d6838e2391423694bd27023fc42",
+    "forward_target_sha256": "bad75d15048b568d1a4bccce42bdb9b120c1ec1dcb484648482806b2567da719",
+    "reverse_selection_sha256": "ea3640b1df42c2f47e25028a23dbc7dd646c3f2be2298ffd7673a7d65a9f5526",
+    "reverse_target_sha256": "717a6caa3f363d736a35abfb3de3d77a73cb0ea8be0c7fff1300b7a000c41e9c",
+    "selected_forward_arm": "intensity_centroid_r3_5_5",
+    "selected_reverse_arm": "intensity_centroid_r2_3_3"
+  },
+  "allowed_action": "Do not rerun inference. Assemble the already frozen selected target arms against translation with build_fixed_separate_two_direction_comparison.py, then run analyze_nested_pooled_stability.py with 20000 draws and seed 314159 in a separate local correction directory.",
+  "interpretation": "Development evidence only. Target scores were generated after source-only selection, but the 24-movie cohort was used by prior experiments and is not untouched confirmation. The failed node-count invariant must be reported, not silently removed from history.",
+  "kaggle_submission_authorized": false,
+  "gpu_required": false
+}

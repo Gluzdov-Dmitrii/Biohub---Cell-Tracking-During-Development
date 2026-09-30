@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP202",
+  "recorded_at": "2026-09-11T10:40:22Z",
+  "status": "PREREGISTERED_BEFORE_EXP192_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The forward local-flow mechanism from EXP201 and the reverse inference-gated gap/pruning mechanism from EXP195 are direction-specific and additive when composed without any target-dependent selection.",
+  "frozen_policy": {
+    "6bba_target_forward": "EXP201 flow_k32_a050_min8",
+    "44b6_target_reverse": "EXP195 fixed q75 inference gate choosing base min3 or synthetic-gap g45_t20 min6"
+  },
+  "development_diagnostic_only": {
+    "exp195_score": 0.7511992446505737,
+    "composed_score": 0.753123374882967,
+    "incremental_delta": 0.0019241302323932397,
+    "warning": "Sequentially composed after development results; only the 175 untouched confirmation is confirmatory."
+  },
+  "implementation": "No additional inference or chunk output. Reuse EXP201 forward local_flow.json and EXP195 reverse policy outputs, assert the EXP201 translation arm exactly reproduces EXP195 forward min8 at every numeric field, then substitute only the frozen forward graph rows.",
+  "anti_adaptation": "Build only after all eight EXP192 chunks pass the no-metric gate and the EXP195 and EXP201 frozen results are assembled. No target-dependent policy or parameter choice.",
+  "primary_comparison": "EXP202 versus EXP195 on the 175 untouched movies.",
+  "promotion_gate": "Positive incremental pooled delta over EXP195, positive 6bba-target aggregate delta, exact zero reverse-policy difference, positive lower 95 percent bound from 20,000 prefix-stratified paired movie bootstrap draws against EXP195, and positive minimum leave-one-movie-out incremental delta.",
+  "artifacts": {
+    "builder": {"path": "scripts/build_exp202_composed_confirmation_result.py", "sha256": "a0d2ecb4e8b436b2f1e86f9e8c9c8ca2e6f3347c15f9f89783eb793d1aab5d36"},
+    "test": {"path": "tests/test_build_exp202_composed_confirmation_result.py", "sha256": "bfe4b82742fc14f6cd97acc4a4620f5bafe13ed3a19ea1e951ad6556d3d68a3a"},
+    "integration_test_sha256": "d3b955b8d01bfb817a22ab5493e240173bdcba01457acbdeeb1c9cc3ed5ec94d",
+    "verification": "7 passed; compilation PASS"
+  },
+  "effect_on_exp192": "No change to chunk inference, models, EXP190/191/195/201 outputs or resource request. One separately reported post-gate frozen composition.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-08",
+  "host": "nsu-quadro",
+  "remote_host": "prepost",
+  "project_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "run": "zebrahub_pretrain_20260908",
+  "status": "COMPLETE",
+  "preserved_remote_artifact": "models/community_zebrahub_pretrain_20260908/edge_predictor_best.pth",
+  "preserved_checkpoint_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "gpu_after_run": {
+    "model": "Quadro RTX 6000",
+    "memory_used_mib": 5,
+    "utilization_percent": 0
+  },
+  "dispatch_lock_release_check": "LOCK_NOT_OWNED_OR_MISSING",
+  "dispatch_lock_note": "The owned dispatch lock was already absent at the final release check; no active GPU process remained.",
+  "lb_submissions": 1,
+  "lb_submission_ref": 56095320,
+  "preserved_lb_output": "outputs/research/exp027_kernel_v4_audit/submission.csv",
+  "preserved_lb_output_sha256": "f520090009de1064761eaa1576ae50eb532f2af600c68f96f2873e4403aebb46",
+  "deleted_owned_unused_files": [
+    "outputs/research/external_inputs/full_archive/biohub-cell-tracking-during-development.zip",
+    "outputs/research/external_inputs/full_archive/biohub-cell-tracking-during-development.zip.kaggle-partial"
+  ],
+  "deleted_owned_unused_bytes": 13432258634,
+  "pytest_temp_cleanup": "C:/Users/Dmitry/Desktop/Kaggle/Biohub - Cell Tracking During Development/.pytest-tmp-run remained due Windows access denied; no verified result depends on it",
+  "unused_competition_pilot_files_preserved_for_diagnosis": true
+}

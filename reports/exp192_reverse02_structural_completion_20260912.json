@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-12",
+  "chunk": "reverse_02",
+  "queue_id": "exp192-confirm-reverse-02-20260911",
+  "queue_token": "a5090d4c-8968-4413-a27c-00f610394ac1",
+  "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_reverse_02_20260911",
+  "process": {
+    "pid": 234738,
+    "start_tick": "439658740",
+    "initial_worker_pid": 234748,
+    "process_tree_absent_before_release": true,
+    "physical_gpu_idle_before_release": true
+  },
+  "verification": {
+    "sha256sums_check": "PASS",
+    "status": "PASS_EXP192_CHUNK_STRUCTURE_NO_METRICS",
+    "direction": "reverse",
+    "movie_count": 11,
+    "movies_sha256": "b84bdfcd6dc54a5f3b7784fdbc879c09d17ff0caf38ceb8f2416cb34a75ef457",
+    "validated_file_count": 6,
+    "scientific_metrics_emitted": false,
+    "sha256sums_sha256": "f1dbfec794ba9c18fc4b5ee847c4f6d70c4f8b44a1f887fcf8f2b5d0f5cffc30",
+    "structure_validation_sha256": "307c009dff0835f28dee3a79bcf7a3374425f736785e74506016f4d4d08aca15"
+  },
+  "queue_final_state": "RELEASED",
+  "queue_health": "CURRENT",
+  "scientific_output_opened": false,
+  "kaggle_action": false
+}

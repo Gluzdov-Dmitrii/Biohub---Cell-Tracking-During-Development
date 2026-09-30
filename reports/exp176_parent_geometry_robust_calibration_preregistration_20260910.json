@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP176",
+  "status": "PREREGISTERED",
+  "parent": "EXP175",
+  "purpose": "Test threshold transport without the consumed prospective window.",
+  "allowed_data": "64 external calibration shards t476-629",
+  "forbidden_data": "external prospective t650-789 and all competition data",
+  "folds": "four contiguous 16-shard leave-one-block-out folds",
+  "score": "fixed equal percentile-rank blend of raw pair and geometry",
+  "threshold_rule": "one-sided 95% Wilson precision lower bound >=0.50",
+  "gate": "all four held blocks precision>=0.50 and recall>0; micro recall>=0.15",
+  "promotion": "Pass permits one candidate-specific reciprocal official-24 evaluation, not a Kaggle submission.",
+  "checks": "Python compile passed; four focused tests passed; remote SHA and bash parse required.",
+  "resource": "one RTX6000 through common queue; 8 CPU; 24 GiB RAM; 1 GiB disk; 20 minutes",
+  "kaggle_slots_reserved": 0
+}
+

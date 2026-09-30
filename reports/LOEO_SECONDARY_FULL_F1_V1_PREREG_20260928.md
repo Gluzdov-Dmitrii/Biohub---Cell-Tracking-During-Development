@@ -1,0 +1,28 @@
+# LOEO secondary full fold 1 v1 — preregistration, 2026-09-28
+
+**Status at registration:** local design and read-only source `6bba` metadata audit only. No fold-1 training bundle, remote stage, queue request, A100 lease, `44b6` outer image or label read, Kaggle notebook push, or competition POST exists. Unique identity: `loeo-secondary-full-f1-v1-20260928`. This is a reciprocal source-only secondary component refit, not assembled x138 OOF or a 0.9+ claim.
+
+## Pinned split, source data, and sealed outer cohort
+
+The unchanged nested split SHA256 is `2a4b013db53599b33a64dc9b4a03b851c7bafbcc40ee039060845feaf945adb1`. Trainer fold index `1` fits 102 `6bba` movies and selects on 26 disjoint `6bba` source-inner movies. All 71 `44b6` IDs are sealed outer targets. The source-only run receives exactly 128 `6bba` `.zarr`/`.geff` pairs through an isolated view. The approved source symlink parents observed by read-only path inspection are `data/pilot_single_6bba` (12 GEFF pairs) and `data/honest195_missing/train` (116 GEFF pairs). Neither the loader nor checkpoint selection may open a `44b6` image/label or external/pretrained checkpoint.
+
+Exact window counts come from read-only `6bba` Zarr shape and GEFF `t` presence, applying the pinned public trainer's two-frame rule that skips a window when either frame has zero GT nodes: **9,949 fit** and **2,443 inner** windows. Local metadata receipt `work/loeo-secondary-full-f1-v1-20260928/source6_window_metadata.json` SHA256 `584945c1e66b9fd5f7debcae8f5056a52bb5629599ad42b655a64d1b3a2ce1f7` lists all 128 source IDs and per-movie counts and records no `44b6` label read. This is a source-label metadata audit, not an outer score. The public trainer SHA256 is `c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea`; predictor SHA256 is `c44e771ba5980b820f93091e03a303c25dfe8f3232e501f54dc9565731c234b9`; 13-file support manifest SHA256 is `a6f57ca8232e43711253326eb20356ae625ac123ba4e5d52ee4aba87c1c07d5b`.
+
+## Fixed training and selection
+
+- Train from random initialization, never warm-start from fold0 or published x138 weights. Seed Python, NumPy, torch CPU and all CUDA generators with integer `20260929` **before** importing the public trainer or constructing the model. Pass the same seed to its DataLoader. Preserve public augmentation and trainer/model source byte-for-byte.
+- Run 50 complete epochs with all 9,949 fit windows once per epoch in shuffled batches of 8: `ceil(9949/8)=1244` batches, `max_iters=None`, no dropped last batch. Evaluate all 2,443 inner windows after every epoch: `ceil(2443/8)=306` batches. Two DataLoader workers, one A100, no data parallelism, math-only SDPA around the entire public `trainer.train()` call.
+- Public architecture/hyperparameters: UNet layers `[32,64,128]`, 32 output channels, downsample `(1,4,4)`, window size 2, learning rate `1e-4`, detection loss weight `1.0`, negative weight `0.01`, pooling radius 5.0 µm. No pretrained weights or tuning.
+- The unchanged trainer saves `edge_predictor_best.pth` at the maximum source-inner `accuracy × recall`; ties select the latest epoch. Verify 50 finite train/validation rows; per-epoch exact windows/batches; all 128 source IDs; selected epoch/score; checkpoint/config SHA256; and a finite CPU load through the public predictor. No early stop, outer feedback, partial resume, or retry under this identity.
+
+## Resources, queue, and stop conditions
+
+The 9,949 fit windows are about 1.99 times the fold0 fit count. Budget **12–17 A100 hours** plus loading variance; cap the training child at **64,800 seconds (18 hours)** and the lease at **1,110 minutes (18 hours 30 minutes)** including release margin. Reserve at most one A100 with 8 CPU, 32 GiB RAM and 8 GiB disk growth. A timeout fails this fixed attempt. Check the fair queue and physical GPU idleness immediately before reservation and again before launch. Do not request while another project waits, preempt a job, hold multiple Biohub training leases, or auto-requeue. The active secondary fold0 lease `loeo-secondary-full-f0-v1-07911298d0f9` must be released before fold1 stage/launch; refresh that fact at execution time.
+
+Technical success requires exit0/no timeout; all 50 exact fit/inner epochs; 128/128 `6bba` IDs loaded; zero `44b6` IDs and denied accesses; finite metrics; pinned plan/source/config/checkpoint hashes; public predictor CPU compatibility; no surviving run-owned PID/group; a **durable GPU-empty observation at release time**; and a RELEASED queue lease. A later tenant PID must not retroactively fail the released run. A transient SSH/CPU-predictor probe leaves audit inconclusive without a final failure receipt.
+
+**Fixed source-inner quality gate before any outer inference:** selected `accuracy × recall >= 0.80`, `recall >= 0.80`, and `accuracy >= 0.97`. This is a source-inner diagnostic only. A pass permits review of a separate sealed-target inference preregistration; it does not itself authorize target label access, an OOF claim, or a Kaggle POST. The deterministic later one-movie candidate is `44b6_341df25f`, the minimum SHA256 of the ID string among all 71 sealed `44b6` IDs, selected from IDs alone before any outer inspection.
+
+## Preparation boundary
+
+Implement and locally test a unique sealed bundle, parent-operated fair-queue stage/launch/reconcile controller, and independent read-only verifier. Preserve the fold0 corrections: seed before model import; no `__pycache__` inside the seal; release-time rather than post-release GPU emptiness; and transient-safe CPU predictor audit. No SSH mutation, remote stage, lease, GPU launch, target `44b6` label read, or Kaggle action belongs to this preparation.

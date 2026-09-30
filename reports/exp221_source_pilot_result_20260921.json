@@ -1,0 +1,31 @@
+{
+  "status": "PASS_MATCHED_SOURCE_PILOT_COMPLETE_RELEASED",
+  "evidence": "Source-only accuracy*recall proxy; NOT tracking OOF",
+  "arms": {
+    "control": {
+      "selected_epoch": 13,
+      "selected_proxy": 0.9366348671282375,
+      "final_proxy": 0.9363200157575862,
+      "mean_epoch_proxy": 0.9298733615956446,
+      "elapsed_seconds": 1969.9932112451643,
+      "best_sha256": "e4175019c11105ea8b87324f9f787f3b0710d9e4df5862cd2d03ff8204759b5e",
+      "last_sha256": "4365f406270ee6cff0a4ad547fdaa0d45c7357e7f8832acb95641e04d0a3ee5d"
+    },
+    "domain": {
+      "selected_epoch": 23,
+      "selected_proxy": 0.937656053013911,
+      "final_proxy": 0.9321096533465233,
+      "mean_epoch_proxy": 0.9286613538612413,
+      "elapsed_seconds": 2036.3953422475606,
+      "best_sha256": "7de53cee104baebd7d7c380bd41b90c55eaa223c8167b9938bf3f76c8be7dea8",
+      "last_sha256": "4fb265e4a3e40988b8b3040a8456100c62a64ff18611a2c015b07d304c8b95ed"
+    }
+  },
+  "delta_domain_minus_control": {
+    "selected_proxy": 0.001021185885673459,
+    "final_proxy": -0.0042103624110628735,
+    "mean_epoch_proxy": -0.0012120077344033309
+  },
+  "live_receipt_sha256": "78f8b2d05291faa656501b3eab322312403685322cbdfb20ec837052ed54f5af",
+  "decision": "No longer training; bounded fixed source-selected graph validation next. No target scoring or promotion."
+}

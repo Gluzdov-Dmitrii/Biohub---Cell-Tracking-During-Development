@@ -1,3 +1,7 @@
+# CLOSED — 2026-09-30
+
+This competition is conserved. Do not resume historical experiment queues, training or submissions. User has authorized archive and cleanup only. See the newest closeout receipt and postmortem. The historical operating rules follow for evidence.
+
 # Biohub operating rules
 
 Read `reports/RECOVERY_20260831.md`, then the newest section of

@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP160",
+  "status": "EVIDENCE_HASH_CORRECTION",
+  "supersedes_field": "reports/exp160_pretrained_feature_pair_result_20260910.json:raw_result_sha256",
+  "incorrect_recorded_sha256": "96e9d411fe8ed20411972fbb299cc67e7890b08f5779e5f2cab25a372ac280a0",
+  "correct_raw_result_sha256": "886965902989883dbed60ac327fb556885feb37c0ab89cfa0dfa0b5f985de91b",
+  "raw_result_path": "outputs/research/exp130_official24_private_first/exp160_external/external_result.json",
+  "verification": "Get-FileHash -Algorithm SHA256 on the immutable local raw result. The incorrect value is the EXP159 raw-result SHA copied into the EXP160 receipt.",
+  "metric_impact": "none",
+  "checkpoint_sha256_unchanged": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+  "kaggle_slots_used": 0
+}

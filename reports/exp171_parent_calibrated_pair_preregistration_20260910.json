@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP171",
+  "status": "PREREGISTERED_USER_AUTHORIZED_RETRY",
+  "authorization": "User explicitly authorized EXP171 on RTX6000 on 2026-09-10.",
+  "parent": "EXP170",
+  "only_change": "Fresh run directory, launcher name and queue request ID.",
+  "trainer_sha256": "3bcdf3e196ee2e84d96a365bb566123888ac26a3043ce08e444b208273518928",
+  "launcher_sha256": "65f652e6d2b16cbc8b7590e9ad22875ea378b0e8cc4a93e3a3a5833a0d456f44",
+  "split_gate_and_parameters": "Identical to EXP168: time-disjoint pair fit, parent calibration, gaps, and one prospective external evaluation; precision >= 0.50 and recall >= 0.20.",
+  "data_boundary": "External Zebrahub only; no competition data.",
+  "resource": "One RTX6000, 8 CPU, 32 GiB RAM, 4 GiB growth, 45 minutes.",
+  "tests": "9 passed",
+  "kaggle_slots_used": 0
+}

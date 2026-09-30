@@ -1,0 +1,27 @@
+{
+  "cohort": "source44",
+  "labels_read": false,
+  "local": {
+    "manifest_sha256": "05589b389985ba1d297d5ae290a1de05414cc80f07fd9e2b67ef626e11549f02",
+    "plan_sha256": "c0dd159d03c4fd3ccd4f64ceb9f624987075a6a353e03ac54a5bedb0dfb6f2a5"
+  },
+  "preflight": {
+    "labels_read": false,
+    "movies": 8,
+    "new_paths_absent": true,
+    "parent_manifest_sha256": "1f079e658a5dd0b505e469ac2f9251dd4ebc00db9010240742e7a913508832b1",
+    "parent_status_sha256": "d445f1858ca5efe9561667a6e21362d753f047bb5bd7d507c209f076193cde7d",
+    "status": "PASS_EXP238_REMOTE_STAGE_PREFLIGHT_NO_LABELS"
+  },
+  "run_started": false,
+  "stage": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp238_source44_peak_cache_v1_20260927",
+    "labels_read": false,
+    "manifest_sha256": "f2f0046b532423c50198dd1bf5c8b14d7c9c56c05b972e799139b6f9c1d845fd",
+    "movies": 8,
+    "plan_sha256": "c0dd159d03c4fd3ccd4f64ceb9f624987075a6a353e03ac54a5bedb0dfb6f2a5",
+    "runner_sha256": "4d3cba410f7c794db5873e9a0e4ad5c8002c2127f06e5e4a5c486a8cf0c50580",
+    "status": "STAGED_EXP238_SOURCE_PEAK_CACHE_NO_LABELS"
+  },
+  "status": "PREPARED_EXP238_REMOTE_STAGE_NO_LABELS"
+}

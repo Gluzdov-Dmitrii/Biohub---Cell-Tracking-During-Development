@@ -1,0 +1,9 @@
+{
+  "status": "STAGED_PINNED_SCORER_NOT_EXECUTED",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_official_scorer_v1_20260921",
+  "manifest": {
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "score_config.json": "9ba006bb5d3d7d69983678f8e5359bfbc96b9aaa594eb23be5b346b373e34db8"
+  },
+  "target_labels_read": false
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS_FOUR_COMPLETE_CLEAN_REDUCED_REFITS",
+  "training_plan_sha256": "983d2953c915d91d41db33bf8fafa14bd17ed6e5aeefd5f67c0dda8d7759090a",
+  "folds": {
+    "44b6": {
+      "primary": "models/44b6/primary/edge_predictor_best.pth",
+      "secondary": "models/44b6/secondary/edge_predictor_best.pth",
+      "center": "models/44b6/center/best.pt"
+    },
+    "6bba": {
+      "primary": "models/6bba/primary/edge_predictor_best.pth",
+      "secondary": "models/6bba/secondary/edge_predictor_best.pth",
+      "center": "models/6bba/center/best.pt"
+    }
+  },
+  "files": {
+    "models/44b6/primary/edge_predictor_best.pth": "f8e25074a98b651a64740ce9ab013ac957fb8d61462d9c7df982efb4db8e8605",
+    "models/44b6/primary/config.json": "85aad7615ea9cb3a88efb377aa782fad25fddb8f607e6f279c8513d1e55624f3",
+    "models/44b6/primary/status.json": "51d4dff284b769e722210db5ecb078a3ac54bb98a827312e59344d0edde1d58c",
+    "models/44b6/primary/history.json": "5fb5dd0cce502ebe3c1e0378308e4fac9a84e3ca05371f3429bce2be7d625879",
+    "models/44b6/secondary/edge_predictor_best.pth": "6af80254fdab1d4d826833730d37eaa27eb9283fdcf48839e432cca403b52c53",
+    "models/44b6/secondary/config.json": "85aad7615ea9cb3a88efb377aa782fad25fddb8f607e6f279c8513d1e55624f3",
+    "models/44b6/secondary/status.json": "ffe59264880565801976c913c713d656f671131d859a4fae4930ad92b5ee8a15",
+    "models/44b6/secondary/history.json": "a1c72eeafe51e0a596601293e156dcec653d006ad00a48011e3db42d92c52369",
+    "models/44b6/center/best.pt": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+    "models/6bba/primary/edge_predictor_best.pth": "fe929a4935972369c25f516e9895ba57eb515cc403b2e0e24553960aaa620e25",
+    "models/6bba/primary/config.json": "85aad7615ea9cb3a88efb377aa782fad25fddb8f607e6f279c8513d1e55624f3",
+    "models/6bba/primary/status.json": "ffa3eefb36c0cdb7fd34cbc30d7d3e489052d5ca74528ca9a3ecf0efa0761266",
+    "models/6bba/primary/history.json": "69e337e9d5df5c142ca9883d58a6f8dd18cff97a0570edc4c65afa18ae9ac469",
+    "models/6bba/secondary/edge_predictor_best.pth": "5f223d2574bfde7f2612494f2067f87818b29244c0f51db1fe154f8d1efc6bd9",
+    "models/6bba/secondary/config.json": "85aad7615ea9cb3a88efb377aa782fad25fddb8f607e6f279c8513d1e55624f3",
+    "models/6bba/secondary/status.json": "2871b96e3103a0b4e03b48aeeef7c04c7272304f7d8f276d2eb488458e70ac80",
+    "models/6bba/secondary/history.json": "affad5b10e61d48a3dd1241e1669257110b9bed03fc8f8c2618a1f60592a768e",
+    "models/6bba/center/best.pt": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+    "code/exp214_inference_job.py": "1797de1df9cdb8c57c1879541362c31b17c46157ce5fbcb82b3bbd0f936462e2",
+    "code/score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+    "code/run_exp214_local_graph.py": "e23b03a8802c71ecb85a6aa307c234a515772c5f7fa65e9e459e4bbcb31c53d1",
+    "code/evaluate_synthetic_gap_deepcenter.py": "9a93702994f84e3510329419cdfec8b3f63eb949e1e0c0623f7fad570466dfc9",
+    "code/train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "code/evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "code/evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "code/evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "code/evaluate_cached_intensity_centroid_refinement.py": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b",
+    "code/run_exp214_public_fold.py": "679900bd30953201e6783b3bffb754337ba9522331e48ca1749a22edebf0287d",
+    "code/compact47_v20.ipynb": "5389953eb7c2f68b6e3664985ceb252d0eac391b65821b0ced692693003cbcba",
+    "code/compare_exp214_results.py": "17b2bdce99a88ced3392a319cb84172508a6ccd19094ff9a977ba215bfe70b4b",
+    "code/run_exp214_paired_fold.py": "4ce8cd2d8a3914c7782cb21601dc8faa89a88e803693db7db436cb947a8dddc7",
+    "training_plan.json": "983d2953c915d91d41db33bf8fafa14bd17ed6e5aeefd5f67c0dda8d7759090a"
+  },
+  "scope": "12epoch source-only refit; not OOF of public400epoch weights. Center is clean EXP180 full teacher.",
+  "training_input_bytes": 2893336649,
+  "unknown_embryo_selector_oof": null
+}

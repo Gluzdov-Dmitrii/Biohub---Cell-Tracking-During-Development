@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-11T13:16:00Z",
+  "status": "PASS_ATTRIBUTED_COMMUNITY_PROTOCOL_AUDIT",
+  "artifact": "reports/COMMUNITY_POOLED_OOF_AUDIT_20260911.md",
+  "artifact_sha256": "60c638e578f30d1c2aeb62a0d7feffe7c0d2dc2169cb3163116ee8063197d44f",
+  "primary_sources": [
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/730160",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737543",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/734192",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737577",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/733973"
+  ],
+  "finding": "No indexed numerical pooled OOF claim includes enough split, checkpoint and aggregation detail to be directly comparable with the reciprocal embryo-held-out protocol.",
+  "policy_effect": "Community claims remain contextual; internal exact pooled sufficient statistics, paired direction evidence and untouched EXP192 confirmation remain authoritative.",
+  "scientific_metric_opened": false,
+  "kaggle_action_authorized": false
+}

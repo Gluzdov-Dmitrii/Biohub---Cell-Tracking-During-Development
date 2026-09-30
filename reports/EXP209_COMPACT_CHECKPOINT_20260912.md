@@ -1,5 +1,35 @@
 # Biohub compact checkpoint — 2026-09-12
 
+## Update 2026-09-12 07:36 UTC — supersedes production stop below
+
+The user explicitly resumed productionization and requires the actual EXP212
+LB result before further OOF work. V4 fixed early imports but exposed old
+Kaggle Numba versus NumPy 2.4 incompatibility. V5 preserves Kaggle's numerical
+stack and refreshes direct offline support dependencies with `--no-deps`.
+Exact v5 source SHA:
+`921a8ba6250657b8070bd39e7c364aa7298725cd177de2a30497b5a31ad85793`.
+All scientific policies and weights are unchanged. Twenty tests pass.
+
+Kaggle v5 is COMPLETE, Internet off; output audit passes 280726 rows,
+143982 nodes, 136744 edges and one root CSV with runtime ID equality. CSV SHA:
+`5a16f38b68de6d2f1f5d776f7a2c37cec6faee4df6e6a609a204c3099db6a5c7`.
+Exactly one guarded submission was posted: **56181132**, PRIVATE_ROBUST slot 3,
+scriptVersionId **349212853**. Immediate full API read: PENDING, empty score
+and error, zero bytes. Quota 2 used/3 available. This is not an LB result yet.
+Read `reports/exp212_v5_submission_receipt_20260912.json` and live API again;
+do not resubmit or improve OOF while waiting. Ref 56177715 also remains pending.
+
+RTX6000 has identical v5 source and exact model bundle; all three checkpoints
+passed CUDA synthetic-tensor smoke in its existing verified environment.
+This is not another full OOF run. Lease is RELEASED and process absent.
+See `reports/exp212_rtx_sync_completion_20260912.json` for paths and versions.
+EXP211 stays paused. Historical statements below about v1-v3 are preserved as
+history, not current launch instructions.
+
+Shake-up correction: four visible test examples do not establish four public
+LB movies. Do not use old four-movie bootstrap intervals as actual public-LB
+uncertainty. See `reports/BIOHUB_SHAKEUP_ASSESSMENT_20260912.md`.
+
 ## Proven result
 
 - Honest frontier: EXP209 pooled OOF **0.6815218332750073** on 175 reciprocal

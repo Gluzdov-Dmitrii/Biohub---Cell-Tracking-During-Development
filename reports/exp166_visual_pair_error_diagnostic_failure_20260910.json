@@ -1,0 +1,9 @@
+{
+  "experiment": "EXP166",
+  "status": "PRE_METRIC_IMPORT_FAILURE",
+  "error": "ModuleNotFoundError: train_pretrained_feature_daughter_pair",
+  "data_access": "Failed during top-level imports before shard discovery or model loading.",
+  "run_log_sha256": "4d80081b9ff882faee1d6f09f833d05fb438f2d68cfc1e90d17d024737a8720e",
+  "resource_cleanup": "No diagnostic process remained; no GPU compute process was listed; lease released.",
+  "kaggle_slots_used": 0
+}

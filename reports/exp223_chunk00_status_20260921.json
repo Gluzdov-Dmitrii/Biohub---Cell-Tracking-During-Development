@@ -1,0 +1,85 @@
+{
+  "launch.json": {
+    "pid": 551783,
+    "start": "519725971",
+    "command": [
+      "taskset",
+      "-c",
+      "8-15",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/run_exp223_inference.py",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk00.json",
+      "--plan-sha256",
+      "3fcf7273361ec4f65734f5ea2aab6bc2bbde340449e13cdd1397a7c1cab4a72e"
+    ],
+    "started": 1789978251.9524176,
+    "config": {
+      "experiment": "EXP223",
+      "lease_id": "exp223-horaz0-pair-chunk00-20260921",
+      "token": "exp223_horaz0_pair_chunk00_20260921",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921",
+      "max_seconds": 10800,
+      "cpu_affinity": "8-15",
+      "script": "run_exp223_inference.py",
+      "arguments": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk00.json",
+        "--plan-sha256",
+        "3fcf7273361ec4f65734f5ea2aab6bc2bbde340449e13cdd1397a7c1cab4a72e"
+      ],
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "alias": "nsu-a100"
+    }
+  },
+  "exit.json": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 551783,
+    "start": "519725971",
+    "finished": 1789981469.5508988
+  },
+  "supervision/control.json": {
+    "at": 1789981493.4694896,
+    "action": "release",
+    "queue": {
+      "id": "exp223-horaz0-pair-chunk00-20260921",
+      "owner": "biohub-agent",
+      "token": "exp223_horaz0_pair_chunk00_20260921",
+      "project": "biohub-cell-tracking-during-development",
+      "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921",
+      "pool": "a100",
+      "count": 1,
+      "cpu": 8,
+      "ram_gib": 32.0,
+      "disk_gib": 4.0,
+      "minutes": 190,
+      "state": "RELEASED",
+      "created": 1789978249.9808576,
+      "heartbeat": 1789981473.3068686,
+      "gpus": [],
+      "process": {
+        "pid": 551783,
+        "start": "519725971"
+      },
+      "allocated": 1789978249.9809372,
+      "host": "ngpu01",
+      "alias": "nsu-a100",
+      "waiting_ahead": [],
+      "finished": 1789981493.425572,
+      "health": "CURRENT"
+    }
+  },
+  "supervision/complete.json": {
+    "at": 1789981493.480014,
+    "status": "RELEASED_AFTER_VERIFIED_EXIT",
+    "exit": {
+      "returncode": 0,
+      "hard_timeout": false,
+      "pid": 551783,
+      "start": "519725971",
+      "finished": 1789981469.5508988
+    }
+  },
+  "receipt_count": 44,
+  "tail": "fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe\", \"code_sha256\": \"037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd\"}, \"seconds\": 56.87441277503967, \"nodes\": 27489, \"edges\": 26611}\n{\"contract\": {\"arm\": \"fixedlast50_same_decoder\", \"dataset\": \"6bba_d5eae175\", \"fold\": 1, \"mode\": \"heldout\", \"weight_sha256\": \"71cd74068a8a865a7ffb8edeca51f9ccb34e5dcc0815fb0b68c77668874beceb\", \"manifest_sha256\": \"001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4\", \"decoder_sha256\": \"6854b15c8facdb7216e8546fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe\", \"code_sha256\": \"037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd\"}, \"seconds\": 26.290529489517212, \"nodes\": 3945, \"edges\": 3854}\n{\"contract\": {\"arm\": \"fixedlast50_same_decoder\", \"dataset\": \"6bba_ebff6e76\", \"fold\": 1, \"mode\": \"heldout\", \"weight_sha256\": \"71cd74068a8a865a7ffb8edeca51f9ccb34e5dcc0815fb0b68c77668874beceb\", \"manifest_sha256\": \"001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4\", \"decoder_sha256\": \"6854b15c8facdb7216e8546fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe\", \"code_sha256\": \"037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd\"}, \"seconds\": 54.347182512283325, \"nodes\": 25296, \"edges\": 24112}\n{\"contract\": {\"arm\": \"fixedlast50_same_decoder\", \"dataset\": \"6bba_f4ae811c\", \"fold\": 1, \"mode\": \"heldout\", \"weight_sha256\": \"71cd74068a8a865a7ffb8edeca51f9ccb34e5dcc0815fb0b68c77668874beceb\", \"manifest_sha256\": \"001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4\", \"decoder_sha256\": \"6854b15c8facdb7216e8546fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe\", \"code_sha256\": \"037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd\"}, \"seconds\": 33.16558647155762, \"nodes\": 7809, \"edges\": 7504}\n{\"status\": \"PASS_NO_LABEL_CHUNK\", \"records\": 44, \"seconds\": 3212.500955104828}\n"
+}

@@ -1,0 +1,19 @@
+# Biohub explanatory document completed 2026-09-22
+
+Deliverable: `reports/Biohub_Разбор_решений_20260922.docx`, now 15 pages after the user's reference/readability revision. Source and build scripts in `work/biohub_explainer_20260922/`.
+
+Independent Grok4.6 Extra High and DeepSeek v4 Flash max plan reviews complete. Both independently reviewed the entire draft in two supplied parts; complete results in grok_text_1/2 and deepseek_text_1/2. Grok additionally performed bounded technical code analysis. Parent accepted clarity corrections, checked math/source evidence, and rejected incorrect suggested changes: TRA/AOGM substitution, interpreting input1/4/4 as internal pooling, claiming own transformer absent, adding upper clip/absolute value to official node adjustment. Those reviewer errors are not in the document.
+
+Read-only live Kaggle top20 inventory and source pulls confirm first listed Geometric Fusion and verified P26 attach the same Pilkwang three-dataset family. This is not proof of globally strongest weights. Secondary manifest confirms all199 training, selected epoch381 in snapshot400; no exact OOF on those same175 from those fixed weights. Local score remains Horaz0.7949879415 vs EXP2140.7427291486 vs physical0.7409785635. No new training, cluster jobs or submissions launched.
+
+QA: canonical renderer failed due to unavailable bundled Windows LibreOffice; no desktop LibreOffice used. Microsoft Word COM exported PDF, bundled Poppler rendered PNGs. All13pages visually inspected, final changed pages6–13 inspected again; final pages1–5 byte-identical to previously inspected render. No clipping, broken code/table rows or title border. Equations are native Word OMML. PDF/PNGs retained as internal QA only.
+
+All7 external jobs terminal and handled. `work/biohub_explainer_20260922/handled_jobs.json` is authoritative: delayed callback messages require no revalidation, retry or further worker. Latest AGENTS forbids automatic callbacks; no new callbacks will be armed. No recurring timer exists. Next work only from user's new instruction.
+
+## Reference and readability revision completed 2026-09-22
+
+Added a dedicated front-of-document viewing guide: Biohub zebrafish video, Ultrack YouTube, Virtual Embryo Zoo, inTRACKtive demo, iBiology and TrackMate, with 11 clickable reference destinations including their official context pages. Distinguished observed microscopy, reconstructed trajectories, and the actual competition movie needed to diagnose our errors. Rewrote the learning section into three concrete exercises and added one page about accepting LLM experiments: reproduction, evidence of errors, a single controlled change, and measured resource budget. Clarified selected-checkpoint comparisons without changing any scores. The example next task now has an explicit 4-hour CPU limit. These are proposed follow-up tasks, not newly launched work.
+
+Independent built-in agent performed a bounded read-only clarity audit. Applied useful corrections; kept focus on the user's fixed local OOF rather than expanding to new-data generalization. Earlier Grok/DeepSeek reviews remain evidence for the original draft, not a claim they reviewed the new pages.
+
+Final QA: all 15 Microsoft Word-rendered PNGs in `work/biohub_explainer_20260922/render_reference_revision/` visually inspected. No clipping, page spill, broken tables or missing symbols. Checked all 11 expected reference URLs are real external hyperlink relationships in the DOCX; retained 7 native Word equations. Receipt: `work/biohub_explainer_20260922/reference_revision_qa.json`, DOCX SHA256 `e374ace24b90c8722d0ff0cdd77d507abd74019619d607a2cbc8fdfb5ff6860b`. Original 13-page version and source preserved in `before_reference_revision/`. No training, cluster mutations, submissions, timers or external delegation jobs launched.

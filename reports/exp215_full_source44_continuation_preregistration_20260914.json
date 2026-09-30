@@ -1,0 +1,61 @@
+{
+  "experiment": "EXP215",
+  "status": "PREREGISTERED_SOURCE_ONLY_FULL_CACHE_CONTINUATION",
+  "track": "LOCAL_OOF_IMPROVEMENT",
+  "created_utc": "2026-09-14T09:50:00Z",
+  "hypothesis": "The main remaining OOF bottleneck is source44b6 -> target6bba. Full-source training retained more useful detector information than reduced-cache training in the registered data control; continuing the clean full source44b6 seed2026 detector from its retained optimizer checkpoint may improve target6bba enough to justify a full-cache path toward OOF 0.8.",
+  "parent_evidence": {
+    "current_frontier": {
+      "variant": "EXP214 gapfix 90/60 public graph",
+      "oof175": 0.7427291486246141,
+      "target44b6": 0.8052068737218,
+      "target6bba": 0.7318060132031643
+    },
+    "primary90_delta": {
+      "public_90_60_minus_60_60": 0.006577213611843269,
+      "conditional_movie_95_interval": [
+        0.002143446543612684,
+        0.010986196746729434
+      ]
+    },
+    "full_vs_reduced_source_control": {
+      "full12_source_proxy": 0.9428610667397892,
+      "reduced12_source_proxy": 0.9343307612036017,
+      "training_speedup_reduced_vs_full": 5.12552676375133,
+      "tracking_control_note": "On the registered 20-movie target6bba control, reduced60 nearly matched full12 at roughly equal wall time, so full-cache continuation is the credible next detector-strength test."
+    }
+  },
+  "warm_start": {
+    "source_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_refit44b6_s2026_p01_20260912/output",
+    "checkpoint_last_sha256": "77829709d2601115388cacee9675ee001fa09149de1a865622f16e80aee3bd0c",
+    "checkpoint_last_epoch": 13,
+    "edge_predictor_best_sha256": "5e513fe537d680ed8e77df041d9f72cb22abe1d8323a2eea85bd689161c617f4",
+    "history_sha256": "50848162067d38bd419b349d964a9800560b835254150efa968cb0b44b23cff5",
+    "history_best_epoch": 13,
+    "history_best_source_selection_score": 0.9457744601354854,
+    "preservation": "The pinned full12 model receipt remains separate in models/exp214_full_control_12epoch_20260912. This continuation may update the retained optimizer checkpoint output directory."
+  },
+  "source_code": {
+    "plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+    "trainer_sha256": "0158bf4bed2b649be226dea4da1a0c58067720b8b697e719dc51e5d855da253d",
+    "remote_job_sha256": "5e06f6cafed4082c1843799e893ff96ca9c6c7ede8299f085eb7b98704bc6aa8",
+    "code_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp215_full_source44_v1_20260914",
+    "scientific_change": "None. The symlinked immutable code is byte-identical to exp213_honest_refit_v3_20260912; only the queue/run label is new."
+  },
+  "training": {
+    "fold": "44b6",
+    "seed": 2026,
+    "precision": "fp32",
+    "data": "Full source zarr/geff view; no reduced window-selection and no image-cache substitution.",
+    "objective": "Continue source-only training until at least epoch 60 using bounded 3h queue chunks. Checkpoint selection remains source-validation accuracy times node recall, earliest strict maximum. No target labels or target metrics are read during training.",
+    "first_chunk": "reports/exp215_full60_44b6_s2026_p01_config_20260914.json",
+    "resource_policy": "Use at most one A100 while another project is active; do not occupy the second A100 or start a Biohub RTX job under contention."
+  },
+  "evaluation_gate": "After the full-source44 model is frozen, run target6bba public-graph inference and compare to the existing reduced90/60 public graph on the same 116 target6bba movies. Do not open a partial metric before the full target6bba shard set for that comparison is complete. Full175 evaluation requires an explicit follow-up plan for the source6bba fold.",
+  "submission_policy": "No Kaggle POST is authorized by this preregistration.",
+  "limitations": [
+    "This is development-adapted OOF improvement work, not a pristine external holdout.",
+    "Only one source fold is continued first because target6bba is the measured bottleneck.",
+    "The original full checkpoint was a retained interrupted training run; the pinned full12 receipt remains the immutable evidence for the earlier control."
+  ]
+}

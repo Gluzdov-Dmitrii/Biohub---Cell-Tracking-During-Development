@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP150",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "pooled": {
+    "parent_score": 0.6761456762872732,
+    "candidate_score": 0.0021933440854748905,
+    "score_delta": -0.6739523322017983,
+    "division_tp_delta": 0,
+    "division_fp_delta": 3,
+    "division_precision": 0.0,
+    "node_recall_delta": 0.0
+  },
+  "forward_score_delta": -0.6678789663308606,
+  "reverse_score_delta": -0.7016067364620635,
+  "diagnosis": "The cached native ILP graph is valid after geometry filtering but intrinsically extremely sparse: only 2-26 candidate edges per forward movie and 6-124 per reverse movie, versus 4,752-65,161 and 14,899-60,580 registered edges. This follows from the inherited softmax >0.5 candidate threshold; node IDs were verified against predict_video/build_graph and are not the cause.",
+  "correction": "An early ID-mismatch suspicion was disproved by source inspection and edge-count telemetry. The authoritative diagnosis is sparse learned topology, not incompatible IDs.",
+  "forward_sha256": "50b82281ac81c69e859ea3b8ef09e61565a39f0ff9e712ed54a819a37049aa6b",
+  "reverse_sha256": "1d485ece85ac537a90a5aad2fcab2ee5bf476487270b6f4b91052c644ebc5340",
+  "remote_gate_sha256": "db4930a65246635a02598e4e31b6d79501ec812a7ed5765907fe304c55cde300",
+  "metric_self_local_recompute": "Same metrics and decision; path and float-reduction differences change JSON bytes only.",
+  "decision": "Reject. Native edges may only be tested as sparse evidence added to the registered parent, never as a replacement topology.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

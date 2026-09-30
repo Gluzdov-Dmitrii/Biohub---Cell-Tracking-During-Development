@@ -1,0 +1,29 @@
+{
+  "experiment": "EXP183",
+  "status": "FAILED_BEFORE_TARGET_MOVIE_OR_MODEL_ACCESS",
+  "queue_request": "biohub-exp183-synthetic-gap-target-oof-20260911",
+  "process": {
+    "pid": 192371,
+    "start_tick": "431465666",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "confirmed_ended": true,
+    "queue_state": "RELEASED",
+    "released_utc_epoch": 1789095764.2524798
+  },
+  "failure": {
+    "phase": "TARGET_MANIFEST_LOOKUP",
+    "exception": "KeyError: 'source_checkpoint_validation'",
+    "root_cause": "The evaluator default movie key is source_checkpoint_validation, while both frozen all12 target manifests use target_development; the run script omitted explicit --movie-key target_development.",
+    "target_manifest_opened": true,
+    "target_movie_opened": false,
+    "model_checkpoint_opened": false,
+    "scientific_result": "NOT_EVALUATED"
+  },
+  "evidence": {
+    "remote_forward_log_sha256": "518b63db4a26c11664ba779de02e62d91837858645ccdffecaea1a7e39a09313",
+    "remote_launch_receipt_sha256": "bd3e7c6a62f502ef51d64ecc2f486221080b180aa5b032e01dbb8a818c2e979d",
+    "manifest_key_observed": "target_development"
+  },
+  "kaggle_slots_used": 0,
+  "next_action": "Create a separately preregistered config-only retry with explicit movie keys and a data-free validator proving each manifest has 12 entries exactly matching its cache filenames."
+}

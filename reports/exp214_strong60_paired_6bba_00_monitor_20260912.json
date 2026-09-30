@@ -1,0 +1,154 @@
+{
+  "launch": {
+    "pid": 206766,
+    "start": "449837827",
+    "command": [
+      "taskset",
+      "-c",
+      "8-15",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/run_exp214_paired_fold.py",
+      "--notebook",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+      "--repo",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+      "--bundle",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_strong60_evaluation_inputs_20260912/6bba_bundle.json",
+      "--data-dir",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+      "--movies",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/6bba_00_movies.json",
+      "--output",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_00_20260912/output"
+    ],
+    "started": 1789279370.514567,
+    "config": {
+      "experiment": "EXP214",
+      "lease_id": "biohub-exp214-strong60-paired-6bba-00-20260912",
+      "token": "exp214-strong60-paired-6bba_00-v7",
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "cpu_affinity": "8-15",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_00_20260912",
+      "script": "run_exp214_paired_fold.py",
+      "max_seconds": 10800,
+      "lease_minutes": 200,
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 64,
+        "disk_growth_gib": 1,
+        "gpus": 1
+      },
+      "scope": "Fixed60epoch paired175 predictions; no new metrics before every shard/arm complete; deterministic invalid-coordinate repair with raw retention; no POST",
+      "arguments": [
+        "--notebook",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+        "--repo",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+        "--bundle",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_strong60_evaluation_inputs_20260912/6bba_bundle.json",
+        "--data-dir",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+        "--movies",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/6bba_00_movies.json",
+        "--output",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_00_20260912/output"
+      ]
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 206766,
+    "start": "449837827",
+    "finished": 1789281813.5201633
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": {
+    "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS",
+    "target_labels_read": false,
+    "arms": {
+      "public": {
+        "movies": [
+          "44b6_587a1e22",
+          "44b6_a21120c2",
+          "44b6_8f9ecab4",
+          "44b6_24264f12",
+          "44b6_9be80b04",
+          "44b6_c50204e0",
+          "44b6_e29f0176",
+          "44b6_c96cfa10",
+          "44b6_66f9292d",
+          "44b6_d754aa59",
+          "44b6_706092f0",
+          "44b6_8f5ab931",
+          "44b6_d2f34f90",
+          "44b6_90724892",
+          "44b6_74d0c52e",
+          "44b6_87bba6c4",
+          "44b6_cf8fed6b",
+          "44b6_267148e4",
+          "44b6_1574802b",
+          "44b6_c8e2a523"
+        ],
+        "receipt_sha256": "101f7338e21c8e008d051408cf468e39d9c0afa1c84968ee06a492ad7333aa74"
+      },
+      "local": {
+        "movies": [
+          "44b6_587a1e22",
+          "44b6_a21120c2",
+          "44b6_8f9ecab4",
+          "44b6_24264f12",
+          "44b6_9be80b04",
+          "44b6_c50204e0",
+          "44b6_e29f0176",
+          "44b6_c96cfa10",
+          "44b6_66f9292d",
+          "44b6_d754aa59",
+          "44b6_706092f0",
+          "44b6_8f5ab931",
+          "44b6_d2f34f90",
+          "44b6_90724892",
+          "44b6_74d0c52e",
+          "44b6_87bba6c4",
+          "44b6_cf8fed6b",
+          "44b6_267148e4",
+          "44b6_1574802b",
+          "44b6_c8e2a523"
+        ],
+        "receipt_sha256": "23c5b52d72aae7a95c076022bff8f9454c29a15c48944c743da5e6d01521687e"
+      }
+    }
+  },
+  "queue": {
+    "id": "biohub-exp214-strong60-paired-6bba-00-20260912",
+    "owner": "biohub-agent",
+    "token": "exp214-strong60-paired-6bba_00-v7",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_00_20260912",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 1.0,
+    "minutes": 200,
+    "state": "RELEASED",
+    "created": 1789279369.1127777,
+    "heartbeat": 1789281806.9758782,
+    "gpus": [],
+    "process": {
+      "pid": 206766,
+      "start": "449837827"
+    },
+    "allocated": 1789279369.1128292,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789281854.606422,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789281853.9245534
+}

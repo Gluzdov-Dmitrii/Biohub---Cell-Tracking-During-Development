@@ -1,0 +1,10 @@
+{
+  "action": "SIGTERM_OWN_RTX_TRAINER_FOR_A100_RESUME",
+  "pid": 261303,
+  "start": "445777703",
+  "checkpoint_epoch_before_signal": 2,
+  "checkpoint_sha256_before_signal": "bc52d3fd60bc7efc38198cfc1ea4db494c8a008b6746f74731879ac8855e0c82",
+  "target_metrics_read": false,
+  "utc_epoch": 1789240416.9757595,
+  "reason": "Measured737s RTX epoch vs~300s A100, preserve fixed12epoch science and optimizer state"
+}

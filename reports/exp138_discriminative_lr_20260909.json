@@ -1,0 +1,87 @@
+{
+  "experiment": "EXP138",
+  "date": "2026-09-09",
+  "hypothesis": "Preserve independently pretrained visual features by training U-Net parameters at 0.1x the competition-specific head learning rate.",
+  "training": {
+    "seed": 271828,
+    "epochs": 5,
+    "unet_lr": 1e-05,
+    "non_unet_lr": 0.0001,
+    "source_checkpoint_selection_best": 0.8295,
+    "selected_epoch": 0,
+    "trainer_sha256": "91b49493f957710e6542247623e92d62a0d7aabda08b2a0b8cb4d368aa9f7521",
+    "launcher_sha256": "e570d94967cbbab9be74f3595eb7c0f6151dd86b9587dc46a31839e4cc37c744"
+  },
+  "artifacts": {
+    "checkpoint_sha256": "93d09943d075bddb8934902a6abb5e9657531968c70740d883cbdd6c143b9723",
+    "train_log_sha256": "dd2b43486599355c1716adf38882508c74033489ec93f2ecc07455ad85ae311b",
+    "eval_log_sha256": "e212b2a5186dabd4dfa52aefffd6763ad39810cd1c0428f3fe953c27804571f2"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "queue_id": "biohub-exp138-discriminative-lr-20260909",
+    "lease_final_state": "RELEASED",
+    "verified_after_exit": "PID absent; GPU 5 MiB and 0% utilization"
+  },
+  "status": "REJECT_PRIVATE_DEVELOPMENT_GATE",
+  "arm": "registered_hungarian",
+  "inputs": {
+    "parent": "outputs\\research\\exp130_official24_private_first\\seed271828_zebrahub_registered_result.json",
+    "parent_sha256": "a93a2e068952c98178bf422ae9a9e873d0b25c9246a09e89482935c2aefa849c",
+    "candidate": "outputs\\research\\exp130_official24_private_first\\exp138_remote_artifacts\\registered_result.json",
+    "candidate_sha256": "437aee125195f4b693abca06aa44e9a3f589b6cbf174ffbd14193b5ec5225399"
+  },
+  "dataset_count": 4,
+  "parent_score": 0.6711156817428906,
+  "candidate_score": 0.48712324936260354,
+  "pooled_delta": -0.18399243238028706,
+  "parent_node_recall": 0.9657465452790714,
+  "candidate_node_recall": 0.7015841477720283,
+  "node_recall_delta": -0.2641623975070432,
+  "per_movie": [
+    {
+      "dataset": "6bba_05b6850b.zarr",
+      "parent_score": 0.6462614677798283,
+      "candidate_score": 0.4962781783768207,
+      "delta": -0.1499832894030076,
+      "parent_node_recall": 0.9953542392566783,
+      "candidate_node_recall": 0.6887340301974448
+    },
+    {
+      "dataset": "6bba_05db0fb1.zarr",
+      "parent_score": 0.78116937232403,
+      "candidate_score": 0.4326539713195668,
+      "delta": -0.34851540100446327,
+      "parent_node_recall": 0.9560618388934092,
+      "candidate_node_recall": 0.5419039869812856
+    },
+    {
+      "dataset": "6bba_062c8d37.zarr",
+      "parent_score": 0.5955625973610982,
+      "candidate_score": 0.5671205721989572,
+      "delta": -0.028442025162141005,
+      "parent_node_recall": 0.9344086021505377,
+      "candidate_node_recall": 0.8709677419354839
+    },
+    {
+      "dataset": "6bba_07477033.zarr",
+      "parent_score": 0.6266291901242473,
+      "candidate_score": 0.44716055177269226,
+      "delta": -0.17946863835155508,
+      "parent_node_recall": 0.9771615008156607,
+      "candidate_node_recall": 0.7047308319738989
+    }
+  ],
+  "checks": {
+    "positive_pooled_score": false,
+    "no_negative_movie_delta": false,
+    "no_pooled_node_recall_regression": false
+  },
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0,
+  "cleanup": "Rejected checkpoint/config, empty launcher log and generated pyc files removed locally/remotely after SHA capture; result JSON and train/eval logs preserved.",
+  "decision": "Reject. A 0.1x U-Net rate prevents sufficient detector-domain adaptation: all four movies regress and pooled node recall falls by 0.264162. Do not open locked audit or build a Kaggle candidate from this checkpoint."
+}

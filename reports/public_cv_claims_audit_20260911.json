@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-11",
+  "purpose": "Calibrate external pooled/CV claims without importing leaky or non-reproducible numbers into the Biohub OOF ledger.",
+  "discussion_observations": [
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/739352",
+      "claims": [
+        "One participant reports about 0.96 CV and 0.93 public LB.",
+        "Another reports edge-Jaccard CV about 0.013 to 0.020 below public LB.",
+        "An edge-weight model reportedly adds 0.02 to 0.04 on each of five folds but approximately zero public-LB gain."
+      ],
+      "use": "Context only; split definitions, training overlap and aggregation are not sufficiently specified for direct comparison."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/740145",
+      "claims": [
+        "Detection refinement reports 99.45 percent annotated recall and emphasizes edge recall plus one-frame gap filling."
+      ],
+      "use": "Mechanism inspiration only."
+    }
+  ],
+  "notebook_audit": {
+    "url": "https://www.kaggle.com/code/dariushafshar/honest-cv-on-195-volumes-public-lb-is-only-4",
+    "local_source": "outputs/research/open_candidates_20260911/dariush_honest_cv_195/honest-cv-on-195-volumes-public-lb-is-only-4.ipynb",
+    "source_sha256": "6c62cce7c028a4976b2c7f7abb062200a53eae2adb214b33a939acca839d63a0",
+    "metadata_sha256": "4742bb3c9e1efed71349ce904b9f5195177f310bbda23db1c7ce548d1cc3a754",
+    "protocol_claim": "Exclude four public-test twins, group 195 remaining volumes by embryo prefix (69 44b6, 126 6bba).",
+    "reported_parameter_free_score": 0.483130,
+    "reported_public_lb": 0.560,
+    "reported_gap": 0.077,
+    "reproducibility_limit": "The notebook explicitly states that 0.483/0.560 came from private runs and does not ship the predictor/scorer needed to reproduce them.",
+    "accepted_value": "The denylist guard and prefix-split harness are useful reliability patterns; the headline score is external context, not our evidence."
+  },
+  "our_current_instrument": {
+    "movies": 24,
+    "directions": "12 held-out 6bba movies predicted by a model trained on 44b6, and 12 held-out 44b6 movies predicted by a model trained on 6bba",
+    "strength": "Reciprocal embryo-disjoint model training and pooled official metric components.",
+    "limitation": "Only 24 of the reported 195 non-twin train volumes are locally materialized in official raw+GT form; broader coverage remains future reliability work."
+  },
+  "policy": "Never compare external CV magnitudes as if they used our split, scorer revision, pooled weighting, or training exclusion."
+}

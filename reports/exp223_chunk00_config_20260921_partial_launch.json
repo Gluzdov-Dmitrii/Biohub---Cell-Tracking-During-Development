@@ -1,0 +1,48 @@
+{
+  "lease": {
+    "id": "exp223-horaz0-pair-chunk00-20260921",
+    "owner": "biohub-agent",
+    "token": "exp223_horaz0_pair_chunk00_20260921",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 4.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1789978249.9808576,
+    "heartbeat": 1789978249.9809368,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1789978249.9809372,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 551777,
+    "observe": 551778
+  },
+  "config": {
+    "experiment": "EXP223",
+    "lease_id": "exp223-horaz0-pair-chunk00-20260921",
+    "token": "exp223_horaz0_pair_chunk00_20260921",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921",
+    "max_seconds": 10800,
+    "cpu_affinity": "8-15",
+    "script": "run_exp223_inference.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk00.json",
+      "--plan-sha256",
+      "3fcf7273361ec4f65734f5ea2aab6bc2bbde340449e13cdd1397a7c1cab4a72e"
+    ],
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  }
+}

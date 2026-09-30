@@ -1,0 +1,306 @@
+{
+  "fetchedAt": "2026-09-27T04:18:10.6499924+07:00",
+  "source": "kaggle competitions leaderboard biohub-cell-tracking-during-development -s --format json --page-size 50",
+  "rows": [
+    {
+      "rank": 1,
+      "teamName": "yu4u",
+      "score": "0.978",
+      "submissionDate": "2026-09-26T10:47:48.976"
+    },
+    {
+      "rank": 2,
+      "teamName": "Sergio Alvarez",
+      "score": "0.975",
+      "submissionDate": "2026-09-25T23:54:29.61"
+    },
+    {
+      "rank": 3,
+      "teamName": "Gabriel",
+      "score": "0.975",
+      "submissionDate": "2026-09-26T01:46:21.33"
+    },
+    {
+      "rank": 4,
+      "teamName": "ymg_aq",
+      "score": "0.971",
+      "submissionDate": "2026-09-26T00:01:24.736"
+    },
+    {
+      "rank": 5,
+      "teamName": "tatsutaka",
+      "score": "0.971",
+      "submissionDate": "2026-09-24T17:50:35.933"
+    },
+    {
+      "rank": 6,
+      "teamName": "taiseiu",
+      "score": "0.971",
+      "submissionDate": "2026-09-26T02:10:53.496"
+    },
+    {
+      "rank": 7,
+      "teamName": "Tang",
+      "score": "0.971",
+      "submissionDate": "2026-09-26T09:13:29.4"
+    },
+    {
+      "rank": 8,
+      "teamName": "unicellular",
+      "score": "0.969",
+      "submissionDate": "2026-09-26T01:54:33.266"
+    },
+    {
+      "rank": 9,
+      "teamName": "Burhan Ul Tayyab",
+      "score": "0.969",
+      "submissionDate": "2026-09-26T08:58:29.45"
+    },
+    {
+      "rank": 10,
+      "teamName": "z7777",
+      "score": "0.969",
+      "submissionDate": "2026-09-26T09:59:18.046"
+    },
+    {
+      "rank": 11,
+      "teamName": "VOXEL ART",
+      "score": "0.968",
+      "submissionDate": "2026-09-26T13:16:30.906"
+    },
+    {
+      "rank": 12,
+      "teamName": "Soheil Ayati",
+      "score": "0.968",
+      "submissionDate": "2026-09-24T19:08:44.296"
+    },
+    {
+      "rank": 13,
+      "teamName": "slime",
+      "score": "0.968",
+      "submissionDate": "2026-09-26T05:44:47.466"
+    },
+    {
+      "rank": 14,
+      "teamName": "The Boys",
+      "score": "0.968",
+      "submissionDate": "2026-09-26T15:30:53.463"
+    },
+    {
+      "rank": 15,
+      "teamName": "Kayla L.",
+      "score": "0.967",
+      "submissionDate": "2026-09-26T10:56:15.163"
+    },
+    {
+      "rank": 16,
+      "teamName": "Takahiro Katsumata (tkatsuma)",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T08:02:58"
+    },
+    {
+      "rank": 17,
+      "teamName": "Zyy7390",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T00:05:03.373"
+    },
+    {
+      "rank": 18,
+      "teamName": "Bioinformatics is not solution",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T02:37:29.266"
+    },
+    {
+      "rank": 19,
+      "teamName": "Yizhou",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T09:42:41.346"
+    },
+    {
+      "rank": 20,
+      "teamName": "Vibes & Edges Trade-Off",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T13:45:12.996"
+    },
+    {
+      "rank": 21,
+      "teamName": "Ryo Hasegawa",
+      "score": "0.966",
+      "submissionDate": "2026-09-26T01:14:30.64"
+    },
+    {
+      "rank": 22,
+      "teamName": "Corwin",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T08:05:02.08"
+    },
+    {
+      "rank": 23,
+      "teamName": "Shoko",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T01:15:33.593"
+    },
+    {
+      "rank": 24,
+      "teamName": "Syed Asad Ali",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T16:26:16.346"
+    },
+    {
+      "rank": 25,
+      "teamName": "OzanM.",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T11:07:17.75"
+    },
+    {
+      "rank": 26,
+      "teamName": "tomohito shimura",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T01:43:53.503"
+    },
+    {
+      "rank": 27,
+      "teamName": "Yaroslav",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T08:13:00.986"
+    },
+    {
+      "rank": 28,
+      "teamName": "Quantizr",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T10:54:15.653"
+    },
+    {
+      "rank": 29,
+      "teamName": "Ad Space available",
+      "score": "0.965",
+      "submissionDate": "2026-09-26T05:36:11.01"
+    },
+    {
+      "rank": 30,
+      "teamName": "Biomed Foresight",
+      "score": "0.964",
+      "submissionDate": "2026-09-26T12:52:20.753"
+    },
+    {
+      "rank": 31,
+      "teamName": "Samuel Sundararaman ",
+      "score": "0.964",
+      "submissionDate": "2026-09-26T00:03:12.766"
+    },
+    {
+      "rank": 32,
+      "teamName": "SoichiOzaki",
+      "score": "0.964",
+      "submissionDate": "2026-09-26T00:56:03.546"
+    },
+    {
+      "rank": 33,
+      "teamName": "que la cuenten como quieran",
+      "score": "0.964",
+      "submissionDate": "2026-09-26T00:04:13.196"
+    },
+    {
+      "rank": 34,
+      "teamName": "Nabil Hanif",
+      "score": "0.964",
+      "submissionDate": "2026-09-25T19:27:51.043"
+    },
+    {
+      "rank": 35,
+      "teamName": "Zhu Chen 96",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T12:55:15.85"
+    },
+    {
+      "rank": 36,
+      "teamName": "Noah Öksüz",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T08:13:27.763"
+    },
+    {
+      "rank": 37,
+      "teamName": "Ascent",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T02:23:53.633"
+    },
+    {
+      "rank": 38,
+      "teamName": "Jeff Horon",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T00:02:29.073"
+    },
+    {
+      "rank": 39,
+      "teamName": "goh",
+      "score": "0.963",
+      "submissionDate": "2026-09-25T12:03:04.406"
+    },
+    {
+      "rank": 40,
+      "teamName": "LeeDongHyuk",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T00:02:27.716"
+    },
+    {
+      "rank": 41,
+      "teamName": "Makoto Nagatomo",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T12:01:14.923"
+    },
+    {
+      "rank": 42,
+      "teamName": "LIN mimosa",
+      "score": "0.963",
+      "submissionDate": "2026-09-26T11:54:27.79"
+    },
+    {
+      "rank": 43,
+      "teamName": "cheng ren01",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T09:48:41.293"
+    },
+    {
+      "rank": 44,
+      "teamName": "laughingmen",
+      "score": "0.962",
+      "submissionDate": "2026-09-25T15:01:46.683"
+    },
+    {
+      "rank": 45,
+      "teamName": "yuto083",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T11:37:50.866"
+    },
+    {
+      "rank": 46,
+      "teamName": "Roronoa Zoro",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T10:13:35.69"
+    },
+    {
+      "rank": 47,
+      "teamName": "Deniz Özaydın",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T14:03:09.553"
+    },
+    {
+      "rank": 48,
+      "teamName": "rode1234",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T14:25:15.64"
+    },
+    {
+      "rank": 49,
+      "teamName": "Jiman Kwon",
+      "score": "0.962",
+      "submissionDate": "2026-09-26T11:03:52.166"
+    },
+    {
+      "rank": 50,
+      "teamName": "Jivansh",
+      "score": "0.961",
+      "submissionDate": "2026-09-26T05:14:46.57"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP212",
+  "version": 4,
+  "status": "PREREGISTERED_PACKAGING_ONLY_CONTINUATION",
+  "authorization": "User 2026-09-12 explicitly requests synchronize current model RTX6000 and Kaggle and obtain LB before OOF work",
+  "track": "PRIVATE_ROBUST",
+  "daily_slot": 3,
+  "parent": "EXP209",
+  "source": "kaggle_notebooks/exp212_exp209_oof_frontier/exp209_oof_frontier.py",
+  "source_sha256": "920808f932a5711205e9060ed91c56988078b6874c427eea67c680a77e016ca1",
+  "change": "Move NumPy import after offline pip installation; preserve all scientific policy and model bytes",
+  "tests": "19 passed",
+  "internet": false,
+  "kernel": "dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production",
+  "hidden_test_dataflow": "Discover runtime test Zarr, infer reciprocal models, frozen forward centroid/min8 and reverse DeepCenter/min6, unseen embryo selector, one root submission.csv",
+  "expected_output": "submission.csv",
+  "promotion_gate": "Clean COMPLETE v4 exact remote SHA; output audit including runtime IDs, graph, bounds/types, finite values and SHA; guarded helper once; full submission object and quota; stop on anomaly",
+  "rtx_plan": "Stage identical source/model manifest in isolated EXP212 directory, verify hashes and existing dependency imports without changing shared environment; bounded model smoke through common GPU queue if needed",
+  "oof_work": "Paused until LB result",
+  "created_utc": "2026-09-12T07:21:54.277693+00:00"
+}

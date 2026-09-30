@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP208",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_LOCAL_CONTRACT_RECHECK_NOT_LAUNCHED",
+  "tests": {
+    "command_scope": [
+      "tests/test_evaluate_cached_intensity_centroid_family.py",
+      "tests/test_select_source_centroid_radius.py",
+      "tests/test_run_exp208_contract.py"
+    ],
+    "result": "7 passed",
+    "elapsed_seconds": 0.78
+  },
+  "cleanup": {
+    "owned_basetemp_removed": true,
+    "bytecode_writes_disabled": true,
+    "pytest_cache_write": "DENIED_BY_EXISTING_WORKSPACE_PERMISSIONS_NO_CACHE_CREATED"
+  },
+  "launch_decision": "Do not overlap the CPU-only run with EXP192, whose active GPU lease reserves eight CPUs on the same host.",
+  "source_metric_opened": false,
+  "target_metric_opened": false,
+  "gpu_lease_acquired": false,
+  "kaggle_action": false
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP214",
+  "lease_id": "exp214-strong60-44b6-s314159-p01-20260912",
+  "token": "exp214_strong60_44b6_s314159_p01_20260912",
+  "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_strong60_v1_20260912",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_44b6_s314159_p01_20260912",
+  "fold": "44b6",
+  "seed": 314159,
+  "max_seconds": 10800,
+  "cpu_affinity": "0-7",
+  "window_selection": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+  "image_cache": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 1,
+    "gpus": 1
+  },
+  "scope": "Fixed60epoch stronger paired175 comparison; source-only checkpoint choice; no new target metrics until all models/predictions complete; no POST",
+  "retention": "Keep selected/latest weights for OOF/LB comparison; review 2026-09-14",
+  "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+  "warm_start": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s314159_20260912/output/checkpoint_last.pth",
+  "lease_minutes": 240
+}

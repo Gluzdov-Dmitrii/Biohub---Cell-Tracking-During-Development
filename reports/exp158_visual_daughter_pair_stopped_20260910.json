@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP158",
+  "status": "STOPPED_CONTRACT_MISMATCH_BEFORE_COMPETITION_DATA",
+  "reason": "The preregistered candidate representation named future continuation/divergence evidence as a model input, but the verified external shards contain only t and t+1. The implementation correctly used only immediate pair geometry, so the run was stopped rather than relabeled after observing metrics.",
+  "external_partial_history": {
+    "completed_epochs": 4,
+    "epoch_4_pair_average_precision": 0.23006332104456143,
+    "epoch_4_precision": 0.52,
+    "epoch_4_recall": 0.07103825136612021,
+    "proposal_division_recall_ceiling": 0.973404255319149,
+    "external_gate_pass": false
+  },
+  "data_access": "Verified real-Zebrahub 256 train and 64 time-validation shards only; no competition source or target labels were opened.",
+  "log_sha256": "1b36abecd2d89a75272094dc63006e33e6c58231454a00742882c340117b5874",
+  "resource": {
+    "lease_id": "biohub-exp158-visual-daughter-pair-20260910",
+    "pid": 178948,
+    "released": true,
+    "observed_after_stop": "RTX6000 5 MiB, 0%"
+  },
+  "additional_finding": "The log exposed nondeterministic CUDA MaxPool3d backward and missing CUBLAS_WORKSPACE_CONFIG; the corrected successor replaces max pooling with average pooling and sets the required environment before Python starts.",
+  "kaggle_slots_used": 0
+}

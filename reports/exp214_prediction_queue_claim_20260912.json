@@ -1,0 +1,19 @@
+{
+  "started": 1789248854.4444892,
+  "lanes": [
+    [
+      "paired_6bba_01",
+      "paired_6bba_02",
+      "control_full12",
+      "control_reduced12",
+      "control_reduced60"
+    ],
+    [
+      "paired_44b6_01",
+      "paired_44b6_02",
+      "paired_44b6_03",
+      "paired_44b6_04"
+    ]
+  ],
+  "scope": "Only these seven pending inference jobs; no training, scoring, model changes, kernel pushes or submissions"
+}

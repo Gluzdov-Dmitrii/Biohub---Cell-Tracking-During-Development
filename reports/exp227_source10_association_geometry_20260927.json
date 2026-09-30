@@ -1,0 +1,1725 @@
+{
+  "status": "PASS_EXP227_SOURCE10_ASSOCIATION_GEOMETRY_AUDIT",
+  "source_score": 0.8114014924249717,
+  "source_graph_gate": "PASS_EXP227_SOURCE_GRAPH10_BEFORE_LABEL_ACCESS",
+  "rows": [
+    {
+      "dataset": "44b6_996155de",
+      "association_limited_fn": 2,
+      "unmatched_only_cases": 2,
+      "within_5um": 0,
+      "outgoing_unmatched_occupants": 2,
+      "min_occupant_to_target_um": {
+        "min": 8.617863895711048,
+        "q25": 9.034755042333881,
+        "median": 9.451646188956715,
+        "q75": 9.86853733557955,
+        "max": 10.285428482202382
+      },
+      "source_to_matched_target_um": {
+        "min": 6.953879874753374,
+        "q25": 7.4451636498252025,
+        "median": 7.93644742489703,
+        "q75": 8.427731199968857,
+        "max": 8.919014975040685
+      },
+      "source_to_occupant_um": {
+        "min": 1.6750116604071745,
+        "q25": 1.6750116604071745,
+        "median": 1.6750116604071745,
+        "q75": 1.6750116604071745,
+        "max": 1.6750116604071745
+      },
+      "cases": [
+        {
+          "dataset": "44b6_996155de",
+          "gt_source_id": 444000000001,
+          "gt_target_id": 445000000001,
+          "pred_source_id": 1990,
+          "pred_target_id": 2080,
+          "source_t": 25,
+          "matched_target_t": 26,
+          "source_to_matched_target_um": 6.953879874753374,
+          "occupants": [
+            {
+              "pred_node_id": 2073,
+              "occupant_to_matched_target_um": 8.617863895711048,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 2073,
+          "min_occupant_to_matched_target_um": 8.617863895711048,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_996155de",
+          "gt_source_id": 445000000001,
+          "gt_target_id": 446000000001,
+          "pred_source_id": 2080,
+          "pred_target_id": 9518,
+          "source_t": 26,
+          "matched_target_t": 27,
+          "source_to_matched_target_um": 8.919014975040685,
+          "occupants": [
+            {
+              "pred_node_id": 2165,
+              "occupant_to_matched_target_um": 10.285428482202382,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 2165,
+          "min_occupant_to_matched_target_um": 10.285428482202382,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "association_limited_fn": 30,
+      "unmatched_only_cases": 24,
+      "within_5um": 1,
+      "outgoing_unmatched_occupants": 24,
+      "min_occupant_to_target_um": {
+        "min": 4.5420130792964475,
+        "q25": 7.688657308252143,
+        "median": 9.618043053137185,
+        "q75": 10.631377025611082,
+        "max": 16.255077331790826
+      },
+      "source_to_matched_target_um": {
+        "min": 3.494694639736067,
+        "q25": 7.16709030003264,
+        "median": 8.025007596259773,
+        "q75": 10.080486961003576,
+        "max": 15.864569654185392
+      },
+      "source_to_occupant_um": {
+        "min": 0.40625,
+        "q25": 0.9084026158592896,
+        "median": 1.6750116604071745,
+        "q75": 1.86167137607581,
+        "max": 3.494694639736067
+      },
+      "cases": [
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 170000000033,
+          "gt_target_id": 171000000033,
+          "pred_source_id": 10108,
+          "pred_target_id": 10590,
+          "source_t": 27,
+          "matched_target_t": 28,
+          "source_to_matched_target_um": 5.58501412822743,
+          "occupants": [
+            {
+              "pred_node_id": 10577,
+              "occupant_to_matched_target_um": 5.701990469344894,
+              "source_to_occupant_um": 0.5745242597140698
+            }
+          ],
+          "nearest_occupant_pred_id": 10577,
+          "min_occupant_to_matched_target_um": 5.701990469344894,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 179000000043,
+          "gt_target_id": 180000000043,
+          "pred_source_id": 14329,
+          "pred_target_id": 14846,
+          "source_t": 36,
+          "matched_target_t": 37,
+          "source_to_matched_target_um": 8.414378040740742,
+          "occupants": [
+            {
+              "pred_node_id": 14834,
+              "occupant_to_matched_target_um": 9.21032453961314,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 14834,
+          "min_occupant_to_matched_target_um": 9.21032453961314,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 183000000043,
+          "gt_target_id": 184000000043,
+          "pred_source_id": 16476,
+          "pred_target_id": 16942,
+          "source_t": 40,
+          "matched_target_t": 41,
+          "source_to_matched_target_um": 8.983546157420243,
+          "occupants": [
+            {
+              "pred_node_id": 17025,
+              "occupant_to_matched_target_um": 10.41300456460574,
+              "source_to_occupant_um": 2.632800908728193
+            }
+          ],
+          "nearest_occupant_pred_id": 17025,
+          "min_occupant_to_matched_target_um": 10.41300456460574,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 184000000034,
+          "gt_target_id": 185000000034,
+          "pred_source_id": 17201,
+          "pred_target_id": 17787,
+          "source_t": 41,
+          "matched_target_t": 42,
+          "source_to_matched_target_um": 7.10647262184271,
+          "occupants": [
+            {
+              "pred_node_id": 17750,
+              "occupant_to_matched_target_um": 8.492471390149042,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 17750,
+          "min_occupant_to_matched_target_um": 8.492471390149042,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 185000000034,
+          "gt_target_id": 186000000034,
+          "pred_source_id": 17787,
+          "pred_target_id": 18293,
+          "source_t": 42,
+          "matched_target_t": 43,
+          "source_to_matched_target_um": 8.384905522723557,
+          "occupants": [
+            {
+              "pred_node_id": 18331,
+              "occupant_to_matched_target_um": 10.285428482202382,
+              "source_to_occupant_um": 2.03125
+            }
+          ],
+          "nearest_occupant_pred_id": 18331,
+          "min_occupant_to_matched_target_um": 10.285428482202382,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 186000000034,
+          "gt_target_id": 187000000034,
+          "pred_source_id": 18293,
+          "pred_target_id": 18889,
+          "source_t": 43,
+          "matched_target_t": 44,
+          "source_to_matched_target_um": 10.593703908454303,
+          "occupants": [
+            {
+              "pred_node_id": 18832,
+              "occupant_to_matched_target_um": 12.105977345922964,
+              "source_to_occupant_um": 1.625
+            }
+          ],
+          "nearest_occupant_pred_id": 18832,
+          "min_occupant_to_matched_target_um": 12.105977345922964,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 188000000034,
+          "gt_target_id": 189000000034,
+          "pred_source_id": 19430,
+          "pred_target_id": 19941,
+          "source_t": 45,
+          "matched_target_t": 46,
+          "source_to_matched_target_um": 11.892790949247363,
+          "occupants": [
+            {
+              "pred_node_id": 19999,
+              "occupant_to_matched_target_um": 13.644195194294165,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 19999,
+          "min_occupant_to_matched_target_um": 13.644195194294165,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 190000000033,
+          "gt_target_id": 191000000033,
+          "pred_source_id": 20512,
+          "pred_target_id": 21129,
+          "source_t": 47,
+          "matched_target_t": 48,
+          "source_to_matched_target_um": 3.494694639736067,
+          "occupants": [
+            {
+              "pred_node_id": 21100,
+              "occupant_to_matched_target_um": 5.170718337426629,
+              "source_to_occupant_um": 1.8168052317185792
+            }
+          ],
+          "nearest_occupant_pred_id": 21100,
+          "min_occupant_to_matched_target_um": 5.170718337426629,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 193000000033,
+          "gt_target_id": 194000000033,
+          "pred_source_id": 22330,
+          "pred_target_id": 22962,
+          "source_t": 50,
+          "matched_target_t": 51,
+          "source_to_matched_target_um": 7.643548137154629,
+          "occupants": [
+            {
+              "pred_node_id": 22931,
+              "occupant_to_matched_target_um": 6.512682938889317,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 22931,
+          "min_occupant_to_matched_target_um": 6.512682938889317,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 193000000042,
+          "gt_target_id": 194000000042,
+          "pred_source_id": 22084,
+          "pred_target_id": 22714,
+          "source_t": 50,
+          "matched_target_t": 51,
+          "source_to_matched_target_um": 6.563169608695177,
+          "occupants": [
+            {
+              "pred_node_id": 22670,
+              "occupant_to_matched_target_um": 7.981546098657828,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 22670,
+          "min_occupant_to_matched_target_um": 7.981546098657828,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 194000000042,
+          "gt_target_id": 195000000041,
+          "pred_source_id": 22714,
+          "pred_target_id": 23354,
+          "source_t": 51,
+          "matched_target_t": 52,
+          "source_to_matched_target_um": 7.5457588460339755,
+          "occupants": [
+            {
+              "pred_node_id": 23328,
+              "occupant_to_matched_target_um": 6.3066959703556345,
+              "source_to_occupant_um": 1.7235727791422095
+            }
+          ],
+          "nearest_occupant_pred_id": 23328,
+          "min_occupant_to_matched_target_um": 6.3066959703556345,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 212000000041,
+          "gt_target_id": 213000000041,
+          "pred_source_id": 33965,
+          "pred_target_id": 34660,
+          "source_t": 69,
+          "matched_target_t": 70,
+          "source_to_matched_target_um": 10.221043320644913,
+          "occupants": [
+            {
+              "pred_node_id": 34610,
+              "occupant_to_matched_target_um": 11.519175588990732,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 34610,
+          "min_occupant_to_matched_target_um": 11.519175588990732,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 214000000041,
+          "gt_target_id": 215000000041,
+          "pred_source_id": 35328,
+          "pred_target_id": 35935,
+          "source_t": 71,
+          "matched_target_t": 72,
+          "source_to_matched_target_um": 7.187296192762616,
+          "occupants": [
+            {
+              "pred_node_id": 35978,
+              "occupant_to_matched_target_um": 6.809990937035085,
+              "source_to_occupant_um": 0.5745242597140698
+            }
+          ],
+          "nearest_occupant_pred_id": 35978,
+          "min_occupant_to_matched_target_um": 6.809990937035085,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 216000000033,
+          "gt_target_id": 217000000033,
+          "pred_source_id": 36891,
+          "pred_target_id": 37478,
+          "source_t": 73,
+          "matched_target_t": 74,
+          "source_to_matched_target_um": 10.033634841123131,
+          "occupants": [
+            {
+              "pred_node_id": 37529,
+              "occupant_to_matched_target_um": 9.95934117110665,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 37529,
+          "min_occupant_to_matched_target_um": 9.95934117110665,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 216000000034,
+          "gt_target_id": 217000000034,
+          "pred_source_id": 36869,
+          "pred_target_id": 37538,
+          "source_t": 73,
+          "matched_target_t": 74,
+          "source_to_matched_target_um": 4.942244555867304,
+          "occupants": [
+            {
+              "pred_node_id": 37539,
+              "occupant_to_matched_target_um": 4.5420130792964475,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 37539,
+          "min_occupant_to_matched_target_um": 4.5420130792964475,
+          "within_5um": true
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 229000000011,
+          "gt_target_id": 230000000011,
+          "pred_source_id": 45529,
+          "pred_target_id": 46187,
+          "source_t": 86,
+          "matched_target_t": 87,
+          "source_to_matched_target_um": 9.647902945718307,
+          "occupants": [
+            {
+              "pred_node_id": 46215,
+              "occupant_to_matched_target_um": 10.539036438996689,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 46215,
+          "min_occupant_to_matched_target_um": 10.539036438996689,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 231000000011,
+          "gt_target_id": 232000000011,
+          "pred_source_id": 46908,
+          "pred_target_id": 47537,
+          "source_t": 88,
+          "matched_target_t": 89,
+          "source_to_matched_target_um": 11.272980001978182,
+          "occupants": [
+            {
+              "pred_node_id": 47568,
+              "occupant_to_matched_target_um": 10.908398785454262,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 47568,
+          "min_occupant_to_matched_target_um": 10.908398785454262,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 231000000032,
+          "gt_target_id": 232000000032,
+          "pred_source_id": 46809,
+          "pred_target_id": 47545,
+          "source_t": 88,
+          "matched_target_t": 89,
+          "source_to_matched_target_um": 15.864569654185392,
+          "occupants": [
+            {
+              "pred_node_id": 47467,
+              "occupant_to_matched_target_um": 16.255077331790826,
+              "source_to_occupant_um": 1.1490485194281397
+            }
+          ],
+          "nearest_occupant_pred_id": 47467,
+          "min_occupant_to_matched_target_um": 16.255077331790826,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 232000000011,
+          "gt_target_id": 233000000011,
+          "pred_source_id": 47537,
+          "pred_target_id": 48188,
+          "source_t": 89,
+          "matched_target_t": 90,
+          "source_to_matched_target_um": 8.463270828999862,
+          "occupants": [
+            {
+              "pred_node_id": 48231,
+              "occupant_to_matched_target_um": 9.901171805650076,
+              "source_to_occupant_um": 1.8168052317185792
+            }
+          ],
+          "nearest_occupant_pred_id": 48231,
+          "min_occupant_to_matched_target_um": 9.901171805650076,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 233000000032,
+          "gt_target_id": 234000000032,
+          "pred_source_id": 48239,
+          "pred_target_id": 48900,
+          "source_t": 90,
+          "matched_target_t": 91,
+          "source_to_matched_target_um": 7.468815376282908,
+          "occupants": [
+            {
+              "pred_node_id": 48932,
+              "occupant_to_matched_target_um": 9.95105208005666,
+              "source_to_occupant_um": 3.494694639736067
+            }
+          ],
+          "nearest_occupant_pred_id": 48932,
+          "min_occupant_to_matched_target_um": 9.95105208005666,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 234000000032,
+          "gt_target_id": 235000000032,
+          "pred_source_id": 48900,
+          "pred_target_id": 49595,
+          "source_t": 91,
+          "matched_target_t": 92,
+          "source_to_matched_target_um": 7.278567102287373,
+          "occupants": [
+            {
+              "pred_node_id": 49557,
+              "occupant_to_matched_target_um": 8.983546157420243,
+              "source_to_occupant_um": 1.7235727791422095
+            }
+          ],
+          "nearest_occupant_pred_id": 49557,
+          "min_occupant_to_matched_target_um": 8.983546157420243,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 237000000011,
+          "gt_target_id": 238000000011,
+          "pred_source_id": 50967,
+          "pred_target_id": 51562,
+          "source_t": 94,
+          "matched_target_t": 95,
+          "source_to_matched_target_um": 7.001185725468223,
+          "occupants": [
+            {
+              "pred_node_id": 51643,
+              "occupant_to_matched_target_um": 9.334914300624297,
+              "source_to_occupant_um": 2.6012692214570947
+            }
+          ],
+          "nearest_occupant_pred_id": 51643,
+          "min_occupant_to_matched_target_um": 9.334914300624297,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 237000000032,
+          "gt_target_id": 238000000032,
+          "pred_source_id": 50969,
+          "pred_target_id": 51539,
+          "source_t": 94,
+          "matched_target_t": 95,
+          "source_to_matched_target_um": 12.462012590769598,
+          "occupants": [
+            {
+              "pred_node_id": 51628,
+              "occupant_to_matched_target_um": 12.54122109535192,
+              "source_to_occupant_um": 0.5745242597140698
+            }
+          ],
+          "nearest_occupant_pred_id": 51628,
+          "min_occupant_to_matched_target_um": 12.54122109535192,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_source_id": 238000000032,
+          "gt_target_id": 239000000032,
+          "pred_source_id": 51539,
+          "pred_target_id": 52222,
+          "source_t": 95,
+          "matched_target_t": 96,
+          "source_to_matched_target_um": 7.66510966979599,
+          "occupants": [
+            {
+              "pred_node_id": 52163,
+              "occupant_to_matched_target_um": 9.165417765301264,
+              "source_to_occupant_um": 2.03125
+            }
+          ],
+          "nearest_occupant_pred_id": 52163,
+          "min_occupant_to_matched_target_um": 9.165417765301264,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "association_limited_fn": 25,
+      "unmatched_only_cases": 19,
+      "within_5um": 2,
+      "outgoing_unmatched_occupants": 19,
+      "min_occupant_to_target_um": {
+        "min": 3.5648292823780494,
+        "q25": 7.362020900119571,
+        "median": 8.760317577719428,
+        "q75": 10.21854194092521,
+        "max": 15.591745863196333
+      },
+      "source_to_matched_target_um": {
+        "min": 3.494694639736067,
+        "q25": 7.177874891534531,
+        "median": 8.99272709610383,
+        "q75": 9.820165860085247,
+        "max": 13.263922520318037
+      },
+      "source_to_occupant_um": {
+        "min": 0.0,
+        "q25": 0.7414634377866798,
+        "median": 1.4647552056572457,
+        "q75": 1.6750116604071745,
+        "max": 2.4375
+      },
+      "cases": [
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 100000000020,
+          "gt_target_id": 101000000020,
+          "pred_source_id": 5983,
+          "pred_target_id": 6377,
+          "source_t": 17,
+          "matched_target_t": 18,
+          "source_to_matched_target_um": 7.5457588460339755,
+          "occupants": [
+            {
+              "pred_node_id": 6349,
+              "occupant_to_matched_target_um": 7.048174076489598,
+              "source_to_occupant_um": 1.1490485194281397
+            }
+          ],
+          "nearest_occupant_pred_id": 6349,
+          "min_occupant_to_matched_target_um": 7.048174076489598,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 111000000046,
+          "gt_target_id": 112000000046,
+          "pred_source_id": 10036,
+          "pred_target_id": 10358,
+          "source_t": 28,
+          "matched_target_t": 29,
+          "source_to_matched_target_um": 9.992428774452184,
+          "occupants": [
+            {
+              "pred_node_id": 10399,
+              "occupant_to_matched_target_um": 10.756039364584902,
+              "source_to_occupant_um": 2.4375
+            }
+          ],
+          "nearest_occupant_pred_id": 10399,
+          "min_occupant_to_matched_target_um": 10.756039364584902,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 111000000074,
+          "gt_target_id": 112000000074,
+          "pred_source_id": 9975,
+          "pred_target_id": 10294,
+          "source_t": 28,
+          "matched_target_t": 29,
+          "source_to_matched_target_um": 9.647902945718307,
+          "occupants": [
+            {
+              "pred_node_id": 10360,
+              "occupant_to_matched_target_um": 9.992428774452184,
+              "source_to_occupant_um": 1.4647552056572457
+            }
+          ],
+          "nearest_occupant_pred_id": 10360,
+          "min_occupant_to_matched_target_um": 9.992428774452184,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 112000000046,
+          "gt_target_id": 113000000046,
+          "pred_source_id": 10358,
+          "pred_target_id": 10766,
+          "source_t": 29,
+          "matched_target_t": 30,
+          "source_to_matched_target_um": 10.694487847134148,
+          "occupants": [
+            {
+              "pred_node_id": 10710,
+              "occupant_to_matched_target_um": 11.316815475212097,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 10710,
+          "min_occupant_to_matched_target_um": 11.316815475212097,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 114000000046,
+          "gt_target_id": 115000000046,
+          "pred_source_id": 11144,
+          "pred_target_id": 11516,
+          "source_t": 31,
+          "matched_target_t": 32,
+          "source_to_matched_target_um": 6.358818311015027,
+          "occupants": [
+            {
+              "pred_node_id": 11532,
+              "occupant_to_matched_target_um": 5.773897351442957,
+              "source_to_occupant_um": 2.03125
+            }
+          ],
+          "nearest_occupant_pred_id": 11532,
+          "min_occupant_to_matched_target_um": 5.773897351442957,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 137000000048,
+          "gt_target_id": 138000000048,
+          "pred_source_id": 20644,
+          "pred_target_id": 21186,
+          "source_t": 54,
+          "matched_target_t": 55,
+          "source_to_matched_target_um": 13.263922520318037,
+          "occupants": [
+            {
+              "pred_node_id": 45540,
+              "occupant_to_matched_target_um": 15.591745863196333,
+              "source_to_occupant_um": 2.333728575156074
+            }
+          ],
+          "nearest_occupant_pred_id": 45540,
+          "min_occupant_to_matched_target_um": 15.591745863196333,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 138000000023,
+          "gt_target_id": 139000000023,
+          "pred_source_id": 21191,
+          "pred_target_id": 21581,
+          "source_t": 55,
+          "matched_target_t": 56,
+          "source_to_matched_target_um": 8.636993472846903,
+          "occupants": [
+            {
+              "pred_node_id": 21656,
+              "occupant_to_matched_target_um": 8.375058302035873,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 21656,
+          "min_occupant_to_matched_target_um": 8.375058302035873,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 157000000048,
+          "gt_target_id": 158000000048,
+          "pred_source_id": 30678,
+          "pred_target_id": 31144,
+          "source_t": 74,
+          "matched_target_t": 75,
+          "source_to_matched_target_um": 8.99272709610383,
+          "occupants": [
+            {
+              "pred_node_id": 31218,
+              "occupant_to_matched_target_um": 9.120289880261483,
+              "source_to_occupant_um": 0.5745242597140698
+            }
+          ],
+          "nearest_occupant_pred_id": 31218,
+          "min_occupant_to_matched_target_um": 9.120289880261483,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 161000000047,
+          "gt_target_id": 162000000047,
+          "pred_source_id": 32859,
+          "pred_target_id": 33353,
+          "source_t": 78,
+          "matched_target_t": 79,
+          "source_to_matched_target_um": 3.494694639736067,
+          "occupants": [
+            {
+              "pred_node_id": 33424,
+              "occupant_to_matched_target_um": 3.5648292823780494,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 33424,
+          "min_occupant_to_matched_target_um": 3.5648292823780494,
+          "within_5um": true
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 162000000047,
+          "gt_target_id": 163000000047,
+          "pred_source_id": 33353,
+          "pred_target_id": 34010,
+          "source_t": 79,
+          "matched_target_t": 80,
+          "source_to_matched_target_um": 5.202538442914189,
+          "occupants": [
+            {
+              "pred_node_id": 33937,
+              "occupant_to_matched_target_um": 4.908737426772795,
+              "source_to_occupant_um": 1.284675299443404
+            }
+          ],
+          "nearest_occupant_pred_id": 33937,
+          "min_occupant_to_matched_target_um": 4.908737426772795,
+          "within_5um": true
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 164000000023,
+          "gt_target_id": 165000000023,
+          "pred_source_id": 34541,
+          "pred_target_id": 35198,
+          "source_t": 81,
+          "matched_target_t": 82,
+          "source_to_matched_target_um": 6.809990937035085,
+          "occupants": [
+            {
+              "pred_node_id": 35120,
+              "occupant_to_matched_target_um": 8.225935547097363,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 35120,
+          "min_occupant_to_matched_target_um": 8.225935547097363,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 170000000023,
+          "gt_target_id": 171000000023,
+          "pred_source_id": 38143,
+          "pred_target_id": 38693,
+          "source_t": 87,
+          "matched_target_t": 88,
+          "source_to_matched_target_um": 5.525597394173774,
+          "occupants": [
+            {
+              "pred_node_id": 38755,
+              "occupant_to_matched_target_um": 6.9181882111576005,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 38755,
+          "min_occupant_to_matched_target_um": 6.9181882111576005,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 176000000033,
+          "gt_target_id": 177000000033,
+          "pred_source_id": 41570,
+          "pred_target_id": 42130,
+          "source_t": 93,
+          "matched_target_t": 94,
+          "source_to_matched_target_um": 8.919014975040685,
+          "occupants": [
+            {
+              "pred_node_id": 42193,
+              "occupant_to_matched_target_um": 8.760317577719428,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 42193,
+          "min_occupant_to_matched_target_um": 8.760317577719428,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 177000000024,
+          "gt_target_id": 178000000024,
+          "pred_source_id": 42353,
+          "pred_target_id": 42862,
+          "source_t": 94,
+          "matched_target_t": 95,
+          "source_to_matched_target_um": 10.082859837367572,
+          "occupants": [
+            {
+              "pred_node_id": 42961,
+              "occupant_to_matched_target_um": 10.444655107398233,
+              "source_to_occupant_um": 1.21875
+            }
+          ],
+          "nearest_occupant_pred_id": 42961,
+          "min_occupant_to_matched_target_um": 10.444655107398233,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 177000000033,
+          "gt_target_id": 178000000033,
+          "pred_source_id": 42130,
+          "pred_target_id": 42789,
+          "source_t": 94,
+          "matched_target_t": 95,
+          "source_to_matched_target_um": 8.617863895711048,
+          "occupants": [
+            {
+              "pred_node_id": 42740,
+              "occupant_to_matched_target_um": 8.760317577719428,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 42740,
+          "min_occupant_to_matched_target_um": 8.760317577719428,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 178000000024,
+          "gt_target_id": 179000000024,
+          "pred_source_id": 42862,
+          "pred_target_id": 43547,
+          "source_t": 95,
+          "matched_target_t": 96,
+          "source_to_matched_target_um": 10.593703908454303,
+          "occupants": [
+            {
+              "pred_node_id": 43454,
+              "occupant_to_matched_target_um": 12.140011647955697,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 43454,
+          "min_occupant_to_matched_target_um": 12.140011647955697,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 178000000033,
+          "gt_target_id": 179000000033,
+          "pred_source_id": 42789,
+          "pred_target_id": 43339,
+          "source_t": 95,
+          "matched_target_t": 96,
+          "source_to_matched_target_um": 9.084026158592895,
+          "occupants": [
+            {
+              "pred_node_id": 43377,
+              "occupant_to_matched_target_um": 9.084026158592895,
+              "source_to_occupant_um": 0.0
+            }
+          ],
+          "nearest_occupant_pred_id": 43377,
+          "min_occupant_to_matched_target_um": 9.084026158592895,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 179000000033,
+          "gt_target_id": 180000000033,
+          "pred_source_id": 43339,
+          "pred_target_id": 43955,
+          "source_t": 96,
+          "matched_target_t": 97,
+          "source_to_matched_target_um": 9.093105647274752,
+          "occupants": [
+            {
+              "pred_node_id": 43916,
+              "occupant_to_matched_target_um": 7.675867723749543,
+              "source_to_occupant_um": 1.625
+            }
+          ],
+          "nearest_occupant_pred_id": 43916,
+          "min_occupant_to_matched_target_um": 7.675867723749543,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_source_id": 181000000033,
+          "gt_target_id": 182000000033,
+          "pred_source_id": 44507,
+          "pred_target_id": 44988,
+          "source_t": 98,
+          "matched_target_t": 99,
+          "source_to_matched_target_um": 9.484001743067111,
+          "occupants": [
+            {
+              "pred_node_id": 45024,
+              "occupant_to_matched_target_um": 8.125,
+              "source_to_occupant_um": 1.6750116604071745
+            }
+          ],
+          "nearest_occupant_pred_id": 45024,
+          "min_occupant_to_matched_target_um": 8.125,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "association_limited_fn": 20,
+      "unmatched_only_cases": 16,
+      "within_5um": 1,
+      "outgoing_unmatched_occupants": 16,
+      "min_occupant_to_target_um": {
+        "min": 4.375446405796785,
+        "q25": 7.8941761030735424,
+        "median": 9.287737435707234,
+        "q75": 10.58899594032873,
+        "max": 14.987266730878583
+      },
+      "source_to_matched_target_um": {
+        "min": 4.89189779763437,
+        "q25": 8.052096422340304,
+        "median": 9.03847346203394,
+        "q75": 10.575900056134127,
+        "max": 13.528795966844203
+      },
+      "source_to_occupant_um": {
+        "min": 0.40625,
+        "q25": 0.40625,
+        "median": 0.9084026158592896,
+        "q75": 1.5048164042429342,
+        "max": 1.86167137607581
+      },
+      "cases": [
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 269000000004,
+          "gt_target_id": 270000000004,
+          "pred_source_id": 3323,
+          "pred_target_id": 3957,
+          "source_t": 5,
+          "matched_target_t": 6,
+          "source_to_matched_target_um": 10.180595819990105,
+          "occupants": [
+            {
+              "pred_node_id": 3981,
+              "occupant_to_matched_target_um": 9.518741792511236,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 3981,
+          "min_occupant_to_matched_target_um": 9.518741792511236,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 270000000004,
+          "gt_target_id": 271000000004,
+          "pred_source_id": 3957,
+          "pred_target_id": 4632,
+          "source_t": 6,
+          "matched_target_t": 7,
+          "source_to_matched_target_um": 9.020213845164648,
+          "occupants": [
+            {
+              "pred_node_id": 4621,
+              "occupant_to_matched_target_um": 10.017172754824587,
+              "source_to_occupant_um": 1.4647552056572457
+            }
+          ],
+          "nearest_occupant_pred_id": 4621,
+          "min_occupant_to_matched_target_um": 10.017172754824587,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 272000000004,
+          "gt_target_id": 273000000004,
+          "pred_source_id": 5292,
+          "pred_target_id": 5939,
+          "source_t": 8,
+          "matched_target_t": 9,
+          "source_to_matched_target_um": 9.056733078903232,
+          "occupants": [
+            {
+              "pred_node_id": 5940,
+              "occupant_to_matched_target_um": 8.165523942160723,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 5940,
+          "min_occupant_to_matched_target_um": 8.165523942160723,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 276000000005,
+          "gt_target_id": 277000000005,
+          "pred_source_id": 7940,
+          "pred_target_id": 8509,
+          "source_t": 12,
+          "matched_target_t": 13,
+          "source_to_matched_target_um": 10.285428482202382,
+          "occupants": [
+            {
+              "pred_node_id": 8588,
+              "occupant_to_matched_target_um": 10.229113628511515,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 8588,
+          "min_occupant_to_matched_target_um": 10.229113628511515,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 278000000005,
+          "gt_target_id": 279000000005,
+          "pred_source_id": 9144,
+          "pred_target_id": 9782,
+          "source_t": 14,
+          "matched_target_t": 15,
+          "source_to_matched_target_um": 11.604821196382131,
+          "occupants": [
+            {
+              "pred_node_id": 9795,
+              "occupant_to_matched_target_um": 11.668642875780371,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 9795,
+          "min_occupant_to_matched_target_um": 11.668642875780371,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 279000000005,
+          "gt_target_id": 280000000005,
+          "pred_source_id": 9782,
+          "pred_target_id": 10422,
+          "source_t": 15,
+          "matched_target_t": 16,
+          "source_to_matched_target_um": 7.083210783253595,
+          "occupants": [
+            {
+              "pred_node_id": 10433,
+              "occupant_to_matched_target_um": 7.368707591056928,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 10433,
+          "min_occupant_to_matched_target_um": 7.368707591056928,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 284000000021,
+          "gt_target_id": 285000000021,
+          "pred_source_id": 12734,
+          "pred_target_id": 13307,
+          "source_t": 20,
+          "matched_target_t": 21,
+          "source_to_matched_target_um": 9.405367483517058,
+          "occupants": [
+            {
+              "pred_node_id": 13364,
+              "occupant_to_matched_target_um": 8.043339635996977,
+              "source_to_occupant_um": 1.625
+            }
+          ],
+          "nearest_occupant_pred_id": 13364,
+          "min_occupant_to_matched_target_um": 8.043339635996977,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 290000000006,
+          "gt_target_id": 291000000006,
+          "pred_source_id": 16918,
+          "pred_target_id": 17509,
+          "source_t": 26,
+          "matched_target_t": 27,
+          "source_to_matched_target_um": 8.983546157420243,
+          "occupants": [
+            {
+              "pred_node_id": 17565,
+              "occupant_to_matched_target_um": 8.384905522723557,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 17565,
+          "min_occupant_to_matched_target_um": 8.384905522723557,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 292000000007,
+          "gt_target_id": 293000000007,
+          "pred_source_id": 18254,
+          "pred_target_id": 65104,
+          "source_t": 28,
+          "matched_target_t": 29,
+          "source_to_matched_target_um": 4.89189779763437,
+          "occupants": [
+            {
+              "pred_node_id": 18894,
+              "occupant_to_matched_target_um": 4.375446405796785,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 18894,
+          "min_occupant_to_matched_target_um": 4.375446405796785,
+          "within_5um": true
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 303000000006,
+          "gt_target_id": 304000000006,
+          "pred_source_id": 25398,
+          "pred_target_id": 26131,
+          "source_t": 39,
+          "matched_target_t": 40,
+          "source_to_matched_target_um": 8.375058302035873,
+          "occupants": [
+            {
+              "pred_node_id": 26031,
+              "occupant_to_matched_target_um": 9.766912415139188,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 26031,
+          "min_occupant_to_matched_target_um": 9.766912415139188,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 305000000006,
+          "gt_target_id": 306000000006,
+          "pred_source_id": 26778,
+          "pred_target_id": 27316,
+          "source_t": 41,
+          "matched_target_t": 42,
+          "source_to_matched_target_um": 13.528795966844203,
+          "occupants": [
+            {
+              "pred_node_id": 27450,
+              "occupant_to_matched_target_um": 13.51048493300666,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 27450,
+          "min_occupant_to_matched_target_um": 13.51048493300666,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 306000000006,
+          "gt_target_id": 307000000006,
+          "pred_source_id": 27316,
+          "pred_target_id": 28092,
+          "source_t": 42,
+          "matched_target_t": 43,
+          "source_to_matched_target_um": 13.504375737608163,
+          "occupants": [
+            {
+              "pred_node_id": 27976,
+              "occupant_to_matched_target_um": 14.987266730878583,
+              "source_to_occupant_um": 1.7235727791422095
+            }
+          ],
+          "nearest_occupant_pred_id": 27976,
+          "min_occupant_to_matched_target_um": 14.987266730878583,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 309000000006,
+          "gt_target_id": 310000000006,
+          "pred_source_id": 29399,
+          "pred_target_id": 30034,
+          "source_t": 45,
+          "matched_target_t": 46,
+          "source_to_matched_target_um": 6.749131888620936,
+          "occupants": [
+            {
+              "pred_node_id": 30064,
+              "occupant_to_matched_target_um": 6.724634051381532,
+              "source_to_occupant_um": 0.5745242597140698
+            }
+          ],
+          "nearest_occupant_pred_id": 30064,
+          "min_occupant_to_matched_target_um": 6.724634051381532,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 319000000007,
+          "gt_target_id": 320000000007,
+          "pred_source_id": 36051,
+          "pred_target_id": 36717,
+          "source_t": 55,
+          "matched_target_t": 56,
+          "source_to_matched_target_um": 11.447314777929364,
+          "occupants": [
+            {
+              "pred_node_id": 36728,
+              "occupant_to_matched_target_um": 11.668642875780371,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 36728,
+          "min_occupant_to_matched_target_um": 11.668642875780371,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 320000000006,
+          "gt_target_id": 321000000006,
+          "pred_source_id": 36664,
+          "pred_target_id": 37338,
+          "source_t": 56,
+          "matched_target_t": 57,
+          "source_to_matched_target_um": 6.749131888620936,
+          "occupants": [
+            {
+              "pred_node_id": 37335,
+              "occupant_to_matched_target_um": 7.44668550430324,
+              "source_to_occupant_um": 0.8125
+            }
+          ],
+          "nearest_occupant_pred_id": 37335,
+          "min_occupant_to_matched_target_um": 7.44668550430324,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_source_id": 326000000006,
+          "gt_target_id": 327000000006,
+          "pred_source_id": 40672,
+          "pred_target_id": 41368,
+          "source_t": 62,
+          "matched_target_t": 63,
+          "source_to_matched_target_um": 8.900491559458949,
+          "occupants": [
+            {
+              "pred_node_id": 41339,
+              "occupant_to_matched_target_um": 9.056733078903232,
+              "source_to_occupant_um": 0.40625
+            }
+          ],
+          "nearest_occupant_pred_id": 41339,
+          "min_occupant_to_matched_target_um": 9.056733078903232,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_90724892",
+      "association_limited_fn": 5,
+      "unmatched_only_cases": 5,
+      "within_5um": 0,
+      "outgoing_unmatched_occupants": 5,
+      "min_occupant_to_target_um": {
+        "min": 8.063832254269679,
+        "q25": 8.722557412393455,
+        "median": 11.788252229444364,
+        "q75": 11.975764915549236,
+        "max": 12.281925871987667
+      },
+      "source_to_matched_target_um": {
+        "min": 7.198768340834423,
+        "q25": 8.9375,
+        "median": 9.228226061925445,
+        "q75": 11.051194788347548,
+        "max": 13.332181753655325
+      },
+      "source_to_occupant_um": {
+        "min": 1.284675299443404,
+        "q25": 1.86167137607581,
+        "median": 2.03125,
+        "q75": 2.0714766773970688,
+        "max": 3.374565944310468
+      },
+      "cases": [
+        {
+          "dataset": "44b6_90724892",
+          "gt_source_id": 109000000024,
+          "gt_target_id": 110000000024,
+          "pred_source_id": 9413,
+          "pred_target_id": 9698,
+          "source_t": 35,
+          "matched_target_t": 36,
+          "source_to_matched_target_um": 7.198768340834423,
+          "occupants": [
+            {
+              "pred_node_id": 9678,
+              "occupant_to_matched_target_um": 8.722557412393455,
+              "source_to_occupant_um": 1.86167137607581
+            }
+          ],
+          "nearest_occupant_pred_id": 9678,
+          "min_occupant_to_matched_target_um": 8.722557412393455,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_90724892",
+          "gt_source_id": 111000000024,
+          "gt_target_id": 112000000024,
+          "pred_source_id": 9964,
+          "pred_target_id": 10212,
+          "source_t": 37,
+          "matched_target_t": 38,
+          "source_to_matched_target_um": 9.228226061925445,
+          "occupants": [
+            {
+              "pred_node_id": 10232,
+              "occupant_to_matched_target_um": 11.975764915549236,
+              "source_to_occupant_um": 3.374565944310468
+            }
+          ],
+          "nearest_occupant_pred_id": 10232,
+          "min_occupant_to_matched_target_um": 11.975764915549236,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_90724892",
+          "gt_source_id": 112000000024,
+          "gt_target_id": 113000000024,
+          "pred_source_id": 10212,
+          "pred_target_id": 10490,
+          "source_t": 38,
+          "matched_target_t": 39,
+          "source_to_matched_target_um": 13.332181753655325,
+          "occupants": [
+            {
+              "pred_node_id": 10470,
+              "occupant_to_matched_target_um": 11.788252229444364,
+              "source_to_occupant_um": 2.03125
+            }
+          ],
+          "nearest_occupant_pred_id": 10470,
+          "min_occupant_to_matched_target_um": 11.788252229444364,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_90724892",
+          "gt_source_id": 146000000026,
+          "gt_target_id": 147000000026,
+          "pred_source_id": 19171,
+          "pred_target_id": 19390,
+          "source_t": 72,
+          "matched_target_t": 73,
+          "source_to_matched_target_um": 8.9375,
+          "occupants": [
+            {
+              "pred_node_id": 19421,
+              "occupant_to_matched_target_um": 8.063832254269679,
+              "source_to_occupant_um": 1.284675299443404
+            }
+          ],
+          "nearest_occupant_pred_id": 19421,
+          "min_occupant_to_matched_target_um": 8.063832254269679,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_90724892",
+          "gt_source_id": 153000000027,
+          "gt_target_id": 154000000027,
+          "pred_source_id": 20850,
+          "pred_target_id": 21042,
+          "source_t": 79,
+          "matched_target_t": 80,
+          "source_to_matched_target_um": 11.051194788347548,
+          "occupants": [
+            {
+              "pred_node_id": 21102,
+              "occupant_to_matched_target_um": 12.281925871987667,
+              "source_to_occupant_um": 2.0714766773970688
+            }
+          ],
+          "nearest_occupant_pred_id": 21102,
+          "min_occupant_to_matched_target_um": 12.281925871987667,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "association_limited_fn": 1,
+      "unmatched_only_cases": 1,
+      "within_5um": 0,
+      "outgoing_unmatched_occupants": 1,
+      "min_occupant_to_target_um": {
+        "min": 9.81747485354559,
+        "q25": 9.81747485354559,
+        "median": 9.81747485354559,
+        "q75": 9.81747485354559,
+        "max": 9.81747485354559
+      },
+      "source_to_matched_target_um": {
+        "min": 9.917826437783633,
+        "q25": 9.917826437783633,
+        "median": 9.917826437783633,
+        "q75": 9.917826437783633,
+        "max": 9.917826437783633
+      },
+      "source_to_occupant_um": {
+        "min": 1.8168052317185792,
+        "q25": 1.8168052317185792,
+        "median": 1.8168052317185792,
+        "q75": 1.8168052317185792,
+        "max": 1.8168052317185792
+      },
+      "cases": [
+        {
+          "dataset": "44b6_f28707c6",
+          "gt_source_id": 34000000080,
+          "gt_target_id": 35000000080,
+          "pred_source_id": 8291,
+          "pred_target_id": 8591,
+          "source_t": 33,
+          "matched_target_t": 34,
+          "source_to_matched_target_um": 9.917826437783633,
+          "occupants": [
+            {
+              "pred_node_id": 8568,
+              "occupant_to_matched_target_um": 9.81747485354559,
+              "source_to_occupant_um": 1.8168052317185792
+            }
+          ],
+          "nearest_occupant_pred_id": 8568,
+          "min_occupant_to_matched_target_um": 9.81747485354559,
+          "within_5um": false
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "association_limited_fn": 3,
+      "unmatched_only_cases": 2,
+      "within_5um": 1,
+      "outgoing_unmatched_occupants": 2,
+      "min_occupant_to_target_um": {
+        "min": 4.021669817998489,
+        "q25": 5.246006107259038,
+        "median": 6.470342396519587,
+        "q75": 7.694678685780136,
+        "max": 8.919014975040685
+      },
+      "source_to_matched_target_um": {
+        "min": 3.494694639736067,
+        "q25": 4.948110199896813,
+        "median": 6.401525760057559,
+        "q75": 7.854941320218304,
+        "max": 9.30835688037905
+      },
+      "source_to_occupant_um": {
+        "min": 0.9084026158592896,
+        "q25": 1.0875519618944671,
+        "median": 1.2667013079296447,
+        "q75": 1.4458506539648224,
+        "max": 1.625
+      },
+      "cases": [
+        {
+          "dataset": "44b6_deabac95",
+          "gt_source_id": 140000000021,
+          "gt_target_id": 141000000021,
+          "pred_source_id": 8929,
+          "pred_target_id": 9078,
+          "source_t": 48,
+          "matched_target_t": 49,
+          "source_to_matched_target_um": 9.30835688037905,
+          "occupants": [
+            {
+              "pred_node_id": 9084,
+              "occupant_to_matched_target_um": 8.919014975040685,
+              "source_to_occupant_um": 0.9084026158592896
+            }
+          ],
+          "nearest_occupant_pred_id": 9084,
+          "min_occupant_to_matched_target_um": 8.919014975040685,
+          "within_5um": false
+        },
+        {
+          "dataset": "44b6_deabac95",
+          "gt_source_id": 160000000020,
+          "gt_target_id": 161000000020,
+          "pred_source_id": 11587,
+          "pred_target_id": 11708,
+          "source_t": 68,
+          "matched_target_t": 69,
+          "source_to_matched_target_um": 3.494694639736067,
+          "occupants": [
+            {
+              "pred_node_id": 11705,
+              "occupant_to_matched_target_um": 4.021669817998489,
+              "source_to_occupant_um": 1.625
+            }
+          ],
+          "nearest_occupant_pred_id": 11705,
+          "min_occupant_to_matched_target_um": 4.021669817998489,
+          "within_5um": true
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "association_limited_fn": 1,
+      "unmatched_only_cases": 0,
+      "within_5um": 0,
+      "outgoing_unmatched_occupants": 0,
+      "min_occupant_to_target_um": null,
+      "source_to_matched_target_um": null,
+      "source_to_occupant_um": null,
+      "cases": []
+    }
+  ],
+  "totals": {
+    "association_limited_fn": 87,
+    "unmatched_only_cases": 69,
+    "outgoing_unmatched_occupants": 69,
+    "within_5um": 5,
+    "required_within_5um": 35,
+    "plausible_colocation_gate": "FAIL",
+    "min_occupant_to_target_um": {
+      "min": 3.5648292823780494,
+      "q25": 7.981546098657828,
+      "median": 9.120289880261483,
+      "q75": 10.539036438996689,
+      "max": 16.255077331790826
+    },
+    "source_to_matched_target_um": {
+      "min": 3.494694639736067,
+      "q25": 7.187296192762616,
+      "median": 8.9375,
+      "q75": 10.082859837367572,
+      "max": 15.864569654185392
+    },
+    "source_to_occupant_um": {
+      "min": 0.0,
+      "q25": 0.9084026158592896,
+      "median": 1.625,
+      "q75": 1.8168052317185792,
+      "max": 3.494694639736067
+    }
+  },
+  "inputs": [
+    {
+      "dataset": "44b6_996155de",
+      "graph_csv_sha256": "ab4abc463eb91ae299eff5fa5a6031e45c5ffc54408cd7dc9613834d4b62b6b7",
+      "graph_receipt_sha256": "fa84776d80133c92d1725dfadf890c85507a31065d45c1df1b5448b0a5f99516",
+      "gt_geff_tree_sha256": "40d9b02706df6cbe85eee251eb863c8408f8e646c4e00566ae7ad961a2301a7b",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "graph_csv_sha256": "df8d7326de5fd40b8bd6fb2e0fb65c7c937f77ce3495fbb84b550d6f0105aae1",
+      "graph_receipt_sha256": "48921579e0cc78690d462fbfbf1d1dcbcd76651b37a65b11481da8436d43856b",
+      "gt_geff_tree_sha256": "62ea7080d1e477d81b28263f53aecb911f1801332527f4e2bd323f80d877cc69",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "graph_csv_sha256": "7e347384b3bf031bef0785b45f23a1734b90a7ae997a05fea1f3068095e0f7e1",
+      "graph_receipt_sha256": "b593331f8130d2422671ce7dcba5622960b63e2d98124eaad3594a18ab720fd4",
+      "gt_geff_tree_sha256": "5f63c09329563cf53b74f64d283609eab5c88e3d218d90d9c9dab647671b2a13",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "graph_csv_sha256": "57f4f629a43b9f7408a8284dbb0cacee33fa392cec2256b15876df0422c49cd4",
+      "graph_receipt_sha256": "0aee3c19cbc8870a8d39a89fd35777d2351cee45569a48545a4afbbdf6f3cc8f",
+      "gt_geff_tree_sha256": "da705914c3ae0ec9efb8bdeeb2002a1b850401c83eb7beb71909e21f7e38f00f",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_90724892",
+      "graph_csv_sha256": "7292325efcad75ec162fa4dc7983dab6e832fc54dd86c48d4a7024681b456812",
+      "graph_receipt_sha256": "591a4403a73fc06b8c097a660da006de5fff8aae21657501b74a4572cc8e6f60",
+      "gt_geff_tree_sha256": "b967502dc4e4a563733e4868218f6a10cfb9b3dfbfd48dc6086454ec6f648eb0",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "graph_csv_sha256": "a352d1be2bc94cdcc1ba9dbcdde994ab447141583d2a5c5880f60e148777e8a0",
+      "graph_receipt_sha256": "75256035d6cfe74c6fff7cde45d2fc004c1905ba5444640cafe5c2ec7eff005d",
+      "gt_geff_tree_sha256": "5b0eee85fbb8e6772ee94a54d481a905107168686c40eb6eafc8f283d5338ade",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "graph_csv_sha256": "f4c65f93f3633ae83b6593f53321b037acb4c7e63ec173d7aeaed55d2b6e6657",
+      "graph_receipt_sha256": "8fe11441f695c1aeddd66ee055b39b13b49012e5febbcd6414f161fae3a65c5e",
+      "gt_geff_tree_sha256": "b024684791fd972bcb4a6acf0c7a0a5deb7516f5551c665a324d4b5bdcf154eb",
+      "gt_files": 21
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "graph_csv_sha256": "c1dec0829eed7dd6be49938eb871d32cad07f6b6979e5d6d9fe68a86bba6af3a",
+      "graph_receipt_sha256": "1d9fdb1b8861510af204c7055d10a37f17bff6ea6d7b6bd61d80344f2cf4c236",
+      "gt_geff_tree_sha256": "225e560d40b936784575b83ff8dfa3700c020e27f75c85c3d61b1e8b8b7b2e3d",
+      "gt_files": 21
+    }
+  ],
+  "scorer_pins": {
+    "code_manifest_sha256": "9eb0172ad130c693c7c58fd528fdc14c64736cacb9c237158d3ca17221092731",
+    "score_config_sha256": "23c3a19577abddb171332dd3a8354953190098cf90e25f143d6c4874149d173c",
+    "graph_status_sha256": "d445f1858ca5efe9561667a6e21362d753f047bb5bd7d507c209f076193cde7d",
+    "score_result_sha256": "b9b2eacc8995bbcfb405a636698bc4e1be00cc4d2ae8d18b6231d66a7d18f0d4",
+    "score_gate_sha256": "949ed2f7ea1af9c18772650ae67e30917c8d934cdcd6e7ab0bf381c6a0a4f343",
+    "evaluator_config_sha256": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973"
+  },
+  "elapsed_seconds": 18.73816227912903,
+  "target6bba_access": false,
+  "candidate_tuning": false,
+  "limitations": [
+    "Post hoc source-inner epoch10 training monitor; not target OOF.",
+    "Official node matching is conditional on this fixed final graph.",
+    "An unmatched predicted occupant may represent a real cell.",
+    "Distance alone cannot justify reassociation or predict score change.",
+    "Cases cluster by movie; this is not 69 independent embryo replicates."
+  ],
+  "analysis_bundle_sha256": "aeae31e94de66a5fafe1876b3ad36509ec504791e34367931013fe4fad6405e1",
+  "analysis_source_sha256": "ae39f7d75f41fffc7ad0be39d71b12b7d5dab0827837612353e2c426b1162f16",
+  "prior_occupied_receipt_sha256": "7362f5c1ca1f3135828b050a50dc1086dd90b694556c9b3481552e59d656613d",
+  "execution": {
+    "host": "nsu-quadro",
+    "cpu_affinity": "24-27",
+    "cuda_visible_devices": "",
+    "memory_virtual_limit_gib": 16,
+    "timeout_seconds": 1800,
+    "interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python"
+  },
+  "remote_stderr": "{\"done\": \"44b6_996155de\", \"cases\": 2, \"within_5um\": 0}\n{\"done\": \"44b6_c50204e0\", \"cases\": 24, \"within_5um\": 1}\n{\"done\": \"44b6_c96cfa10\", \"cases\": 19, \"within_5um\": 2}\n{\"done\": \"44b6_551a5dba\", \"cases\": 16, \"within_5um\": 1}\n{\"done\": \"44b6_90724892\", \"cases\": 5, \"within_5um\": 0}\n{\"done\": \"44b6_f28707c6\", \"cases\": 1, \"within_5um\": 0}\n{\"done\": \"44b6_deabac95\", \"cases\": 2, \"within_5um\": 1}\n{\"done\": \"44b6_341df25f\", \"cases\": 0, \"within_5um\": 0}\n"
+}

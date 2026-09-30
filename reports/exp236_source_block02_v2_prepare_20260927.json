@@ -1,0 +1,40 @@
+{
+  "status": "PREPARED_EXP236_SOURCE_RESUME_V2_NO_TARGET_ACCESS",
+  "parent_block": 1,
+  "next_block": 2,
+  "preflight": {
+    "status": "PASS_EXP236_RESUME_V2_PARENT_PREFLIGHT",
+    "checkpoint_sha256": "c834f1ad4895ed7e142a9c66ec72e079ca88ca2b05bfb95352019aab47be79e0",
+    "history_sha256": "876f00058b0a83871d3f0763b7cc6ed081c3ccaaab35a98ddc4e3a7ff19ebb47",
+    "result_sha256": "de7f10219d9dd6589672d715f4968e623e3fcd18e7b8201ee21dcd5cdd28d6d7",
+    "duplicate_map_sha256": "d73389f47cc7cbf1c50a01a788827119aa324eebf2fb9222a66243b168ca7d62"
+  },
+  "stage": {
+    "status": "STAGED_EXP236_SOURCE_RESUME_V2",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block02_v2_20260927",
+    "manifest_sha256": "1f14bead43c29ff7ebe245fc2ed8db4854332cea07a9976b3eacc2d4ffafe00c",
+    "plan_sha256": "fe578f909b524c35a1c8d2364282c39c53385ea7191cb07b1fdf704e69a4d1a0",
+    "runner_sha256": "fae6c10850bf58737e09bc9a0a5341859226ba65e60921016ab0f509e88deaaa",
+    "duplicate_map_sha256": "d73389f47cc7cbf1c50a01a788827119aa324eebf2fb9222a66243b168ca7d62"
+  },
+  "source_duplicate_audits": {
+    "raw_sha256": "5809c021723877a804331a7cbc0629565ca98d981dbba4a58385f33f4455db8f",
+    "effective_sha256": "0f2e322a2581fba4f0cd2bca43bea1adf2616893ecce32043e6f3f90fe5298cb",
+    "movies_scanned": 126,
+    "raw_duplicate_pairs": 927,
+    "effective_duplicate_pairs": 927,
+    "inconsistent_sampled_pairs": 43,
+    "excluded_pairs_by_split": {
+      "train": 824,
+      "inner_validation": 103
+    },
+    "removed_sampled_windows_by_split": {
+      "train": 809,
+      "inner_validation": 101
+    },
+    "target_data_opened": false
+  },
+  "source_duplicate_map_sha256": "d73389f47cc7cbf1c50a01a788827119aa324eebf2fb9222a66243b168ca7d62",
+  "parent_prepare_sha256": "fa63f138b9d450035a95f7f0f03435676195b050c6e34c4fa37bceaa595afca0",
+  "target_data_opened": false
+}

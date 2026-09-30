@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED_EXP228_OFFICIAL_DIAGNOSTIC",
+  "result_sha256": "9b9639d6e3d8acc4276080f5f8dd0329fa63108aec258277086ca556956a885d",
+  "gate_sha256": "9f65d2ad1584a4fef427668bd0cb1cd0fb2c7f93a3b1fea2ed833ad819988295",
+  "exit": {
+    "returncode": 0,
+    "timeout": false,
+    "finished": 1790440172.2618003,
+    "pid": 392841,
+    "start": "565880691"
+  },
+  "reference_score": 0.7949879414677348,
+  "candidate_score": 0.7759164900469995,
+  "delta": -0.019071451420735297,
+  "by_embryo": {
+    "44b6": {
+      "score": 0.8367193998767437,
+      "node_recall": 0.9649293103908266,
+      "adj_edge_jaccard": 0.8267193998767437
+    },
+    "6bba": {
+      "score": 0.7648776209268885,
+      "node_recall": 0.8898553616116495,
+      "adj_edge_jaccard": 0.7606818167310843
+    }
+  },
+  "paired_adj_edge_movie_signs": {
+    "44b6": {
+      "positive": 0,
+      "negative": 0,
+      "tie": 59
+    },
+    "6bba": {
+      "positive": 34,
+      "negative": 82,
+      "tie": 0
+    }
+  },
+  "rows": 175
+}

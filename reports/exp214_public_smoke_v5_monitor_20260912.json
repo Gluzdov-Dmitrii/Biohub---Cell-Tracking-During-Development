@@ -1,0 +1,99 @@
+{
+  "launch": {
+    "pid": 166494,
+    "start": "445509512",
+    "command": [
+      "taskset",
+      "-c",
+      "8-15",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v5_20260912/run_exp214_public_fold.py",
+      "--notebook",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v5_20260912/compact47_v20.ipynb",
+      "--repo",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+      "--bundle",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_smoke_bundle_20260912.json",
+      "--data-dir",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+      "--movies",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_smoke_movies_20260912.json",
+      "--output",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v5_20260912/output"
+    ],
+    "started": 1789236087.3662388,
+    "config": {
+      "experiment": "EXP214",
+      "lease_id": "biohub-exp214-public-smoke-v5-20260912",
+      "token": "exp214-public-smoke-v5",
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v5_20260912",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v5_20260912",
+      "cpu_affinity": "8-15",
+      "script": "run_exp214_public_fold.py",
+      "max_seconds": 2400,
+      "lease_minutes": 50,
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 64,
+        "disk_growth_gib": 2,
+        "gpus": 1
+      },
+      "scope": "One no-metric pipeline smoke with duplicated clean control detector; never scored or submitted",
+      "arguments": [
+        "--notebook",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v5_20260912/compact47_v20.ipynb",
+        "--repo",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+        "--bundle",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_smoke_bundle_20260912.json",
+        "--data-dir",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+        "--movies",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_smoke_movies_20260912.json",
+        "--output",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v5_20260912/output"
+      ]
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 166494,
+    "start": "445509512",
+    "finished": 1789236207.3054543
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": null,
+  "queue": {
+    "id": "biohub-exp214-public-smoke-v5-20260912",
+    "owner": "biohub-agent",
+    "token": "exp214-public-smoke-v5",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v5_20260912",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 2.0,
+    "minutes": 50,
+    "state": "RELEASED",
+    "created": 1789236085.7217288,
+    "heartbeat": 1789236187.5484688,
+    "gpus": [],
+    "process": {
+      "pid": 166494,
+      "start": "445509512"
+    },
+    "allocated": 1789236085.721758,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789236235.2896016,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789236235.2200067
+}

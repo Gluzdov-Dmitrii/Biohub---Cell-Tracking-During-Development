@@ -1,0 +1,69 @@
+{
+  "utc": "2026-09-12T21:01:36.985356+00:00",
+  "kernels": {
+    "public": {
+      "kernel": "dmitriigluzdov/biohub-exp214-reduced-public-graph",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "source_sha256": "6ab0f7ab382a2c538a2da2b4cba2a0f7043b5e035fa5827ba0c50a6098355497",
+      "metadata": {
+        "id": 134118189,
+        "ref": "dmitriigluzdov/biohub-exp214-reduced-public-graph",
+        "title": "Biohub EXP214 Reduced Public Graph",
+        "author": "Dmitrii Gluzdov",
+        "slug": "biohub-exp214-reduced-public-graph",
+        "lastRunTime": "2026-09-09T21:01:34.387Z",
+        "language": "python",
+        "kernelType": "script",
+        "isPrivate": true,
+        "enableGpu": true,
+        "enableInternet": false,
+        "categoryIds": [
+          "gpu"
+        ],
+        "datasetDataSources": [
+          "dmitriigluzdov/biohub-exp214-reduced-honest-fold-models",
+          "pilkwang/biohub-tracking-support-pack-50ep-v1"
+        ],
+        "competitionDataSources": [
+          "biohub-cell-tracking-during-development"
+        ],
+        "enableTpu": false,
+        "currentVersionNumber": 2,
+        "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machineShape": "NvidiaTeslaT4"
+      }
+    },
+    "local": {
+      "kernel": "dmitriigluzdov/biohub-exp214-reduced-local-graph",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "source_sha256": "8adef01a0d471f6925bbe8e60f378c463e3b899e9fa587b3bdd5e1d40988d844",
+      "metadata": {
+        "id": 134118290,
+        "ref": "dmitriigluzdov/biohub-exp214-reduced-local-graph",
+        "title": "Biohub EXP214 Reduced Local Graph",
+        "author": "Dmitrii Gluzdov",
+        "slug": "biohub-exp214-reduced-local-graph",
+        "lastRunTime": "2026-09-09T21:01:36.269Z",
+        "language": "python",
+        "kernelType": "script",
+        "isPrivate": true,
+        "enableGpu": true,
+        "enableInternet": false,
+        "categoryIds": [
+          "gpu"
+        ],
+        "datasetDataSources": [
+          "dmitriigluzdov/biohub-exp214-reduced-honest-fold-models",
+          "pilkwang/biohub-tracking-support-pack-50ep-v1"
+        ],
+        "competitionDataSources": [
+          "biohub-cell-tracking-during-development"
+        ],
+        "enableTpu": false,
+        "currentVersionNumber": 2,
+        "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machineShape": "NvidiaTeslaT4"
+      }
+    }
+  }
+}

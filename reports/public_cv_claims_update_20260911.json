@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-09-11",
+  "scope": "Public Kaggle discussion claims used only as external context for the pooled-OOF program.",
+  "claims": [
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737101",
+      "reported": "A participant reports approximately 0.919 CV and 0.895 actual LB for their own edge algorithm.",
+      "methodological_advice": "The first-place participant recommends complete-movie official-scoring validation with movie-level OOF and separating missing endpoint nodes from incorrect associations.",
+      "comparability": "Unknown split membership, training overlap, pooling implementation, and metric version; not numerically comparable to EXP190-192. The complete-movie/movie-level-OOF advice directly supports our protocol."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/735352",
+      "reported": "Participants warn that sub-0.001 public differences and sparse division events can overfit; one reports graph post-processing gains of about 0.03-0.05 across public models and another recommends reliable CV.",
+      "comparability": "No reproducible code, split, or official pooled local score is supplied; mechanism claim only."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/723898",
+      "reported": "A LoG plus multi-frame linear-assignment baseline reports about 0.590 local CV.",
+      "comparability": "Different pipeline and unspecified split/pooling; useful as a lower-complexity physical baseline idea, not a score target."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/738217",
+      "reported": "A participant proposes a separate 3D detector, longer temporal windows for learned linking, and external/synthetic zebrafish data.",
+      "comparability": "Future mechanism candidates only; no honest comparable OOF result is provided."
+    }
+  ],
+  "decision": "Retain EXP192's untouched 175-movie full-movie official pooled confirmation as the authoritative benchmark. Do not target public claims numerically. After confirmation, prioritize node-miss attribution, count calibration, and a physically distinct multi-frame association baseline if evidence identifies those bottlenecks.",
+  "kaggle_action_authorized": false
+}

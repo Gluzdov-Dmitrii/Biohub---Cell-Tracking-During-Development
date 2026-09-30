@@ -1,0 +1,48 @@
+{
+  "experiment": "EXP208",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_BEFORE_SOURCE_OR_TARGET_METRICS",
+  "track": "POOLED_OOF_RESEARCH",
+  "hypothesis": "The positive intensity-centroid mechanism is sensitive to physical crop support, and a radius selected only on checkpoint-validation movies can transfer across embryos better than the single open-source radius.",
+  "parent": "Frozen scratch detector coordinates with registered linking and direction-specific EXP190 short-track pruning.",
+  "fixed_radius_family_zyx_voxels": [
+    [1, 3, 3],
+    [1, 5, 5],
+    [2, 3, 3],
+    [2, 5, 5],
+    [2, 7, 7],
+    [3, 5, 5]
+  ],
+  "selection": {
+    "forward": "Evaluate translation plus all six radii only on the two held-out 44b6 checkpoint-validation movies with min8; choose maximum pooled source score.",
+    "reverse": "Evaluate translation plus all six radii only on the two held-out 6bba checkpoint-validation movies with min3; choose maximum pooled source score.",
+    "tie_break": "translation first, then the listed radius order within absolute score tolerance 1e-12",
+    "target_blinding": "No target-family metric is computed until both source selections are written. Each target direction evaluates only translation and its single selected arm."
+  },
+  "target_evaluation": "Apply the frozen forward arm to all 12 6bba target movies and the frozen reverse arm to all 12 44b6 target movies; create both outputs before the pooled comparison and 20,000-draw stability analysis.",
+  "evidence_grade": "Source-selected cross-embryo mechanism test, but the radius-family idea was motivated after seeing EXP205 on the same 24 target cohort. Treat as cohort-adaptive development evidence; the untouched 175-movie EXP192 cohort is the confirmation.",
+  "promotion_for_untouched_confirmation": "Positive pooled 24-movie delta is primary. Directional deltas, paired bootstrap, leave-one-movie-out, edge/adjusted-edge, node recall/count and division counts are mandatory diagnostics but do not veto a positive pooled result under the corrected objective.",
+  "data_reuse": "Uses existing EXP152 source/target detector caches and existing raw pilot images. No neural inference or new model weights.",
+  "resource_policy": "CPU-only. Do not run until EXP192 archive transfer and exact staging audit finish; do not contend with extraction. No GPU lease.",
+  "source_sha256": {
+    "family_evaluator": "36a7fa07f7d87ee0a8052a52c8fed759615cda6f095ae812cd740c06b9e9e942",
+    "source_selector": "f04c0e6d15f5d32053e783b9e606d29189369e69a374191d798945672c1ff191",
+    "runner": "ce78e9e942cb41dd0cfee9dafce677baca865cb8120f0c65f334f224b87380de",
+    "cpu_launcher": "d6be38d514dc815c8fd7dbf95c5fd9f02fa430358317943ab00ad932cfb45a50",
+    "fixed_centroid_dependency": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b",
+    "registered_linker_dependency": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "short_track_dependency": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "comparison_builder": "4d1a5bb10c4fd46ce3615ed0b196aecfab21cbf8f0fe6a67d41cd3627bbbbd9f",
+    "stability_analyzer": "ad716a032693e349d82edc5b17e2fa6aa66e5bb51018b916b0b6c535376082f0"
+  },
+  "input_contract": {
+    "forward_source_movies_sha256": "44044f26d08e12527bc4e75ddce1fc06ec072413182f4ab6a4f3517cacc58ac8",
+    "reverse_source_movies_sha256": "e82cf1e2add8e7a0356e1d1b4ff6c4b9c56194be897192557d568c52ed956e27",
+    "forward_target_movies_sha256": "6e6ed3dc61b672ef271dee0aa332e675b20adb69ad5865bbc67083564e440991",
+    "reverse_target_movies_sha256": "d3db2a26525e4db6ac487680646e9bd7af052e5b3bd651b0a5bfac4ef5793fb7",
+    "cache_counts": "2/2 source and 12/12 target"
+  },
+  "verification_before_remote_integration": "Ten focused evaluator, selector, runner and atomic CPU-launcher contract tests pass. The target control additionally requires exact per-movie predicted-node-count invariance.",
+  "gpu_inference_authorized": false,
+  "kaggle_action_authorized": false
+}

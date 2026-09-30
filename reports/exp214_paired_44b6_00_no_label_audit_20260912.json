@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FIRST_SHARD_GRAPH_ONLY_NO_LABEL_ACCESS",
+  "target_labels_read": false,
+  "arms": {
+    "public": {
+      "movies": 20,
+      "nodes": 142539,
+      "edges": 135429,
+      "csv_sha256": "f5ed09372b8d3ac357b10babc2b0bdb77f596bca667abf22912ad13c7c6c8c54"
+    },
+    "local": {
+      "movies": 20,
+      "nodes": 261073,
+      "edges": 247412,
+      "csv_sha256": "fefb048d8c8d19f6bf9f3db8993b7e1a6290258b4cf5fb6b53f099dae71c6617"
+    }
+  }
+}

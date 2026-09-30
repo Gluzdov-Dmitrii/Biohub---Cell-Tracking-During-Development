@@ -1,0 +1,142 @@
+{
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_v1_20260921",
+  "manifest_sha256": "1cbd9b80ad3e493c453ea48a6e201c320864010f5a9befd41fbacbecf572a7e9",
+  "weights": [
+    {
+      "arm": "selected",
+      "file": "fold0_selected.pt",
+      "keys": [
+        "model",
+        "model_config",
+        "metadata",
+        "resolved_config"
+      ],
+      "metadata": {
+        "fold": 0,
+        "epoch": 50,
+        "competition_score": 0.7835483489997216,
+        "source_checkpoint": "epoch_050.pt"
+      },
+      "epoch": null,
+      "model_config": {
+        "unet_out_channels": 32,
+        "unet_layers": [
+          32,
+          64,
+          128
+        ],
+        "downsample": [
+          1,
+          4,
+          4
+        ],
+        "window_size": 2
+      },
+      "tensor_count": 136,
+      "finite": true
+    },
+    {
+      "arm": "selected",
+      "file": "fold1_selected.pt",
+      "keys": [
+        "model",
+        "model_config",
+        "metadata",
+        "resolved_config"
+      ],
+      "metadata": {
+        "fold": 1,
+        "epoch": 20,
+        "competition_score": 0.7455038695380761,
+        "source_checkpoint": "epoch_020.pt"
+      },
+      "epoch": null,
+      "model_config": {
+        "unet_out_channels": 32,
+        "unet_layers": [
+          32,
+          64,
+          128
+        ],
+        "downsample": [
+          1,
+          4,
+          4
+        ],
+        "window_size": 2
+      },
+      "tensor_count": 136,
+      "finite": true
+    },
+    {
+      "arm": "fixed_last",
+      "file": "fold0_last.pt",
+      "keys": [
+        "model",
+        "model_config",
+        "optimizer",
+        "epoch",
+        "best_score",
+        "best_epoch",
+        "history",
+        "resolved_config",
+        "rng_state"
+      ],
+      "metadata": null,
+      "epoch": 50,
+      "model_config": {
+        "unet_out_channels": 32,
+        "unet_layers": [
+          32,
+          64,
+          128
+        ],
+        "downsample": [
+          1,
+          4,
+          4
+        ],
+        "window_size": 2
+      },
+      "tensor_count": 136,
+      "finite": true
+    },
+    {
+      "arm": "fixed_last",
+      "file": "fold1_last.pt",
+      "keys": [
+        "model",
+        "model_config",
+        "optimizer",
+        "epoch",
+        "best_score",
+        "best_epoch",
+        "history",
+        "resolved_config",
+        "rng_state"
+      ],
+      "metadata": null,
+      "epoch": 50,
+      "model_config": {
+        "unet_out_channels": 32,
+        "unet_layers": [
+          32,
+          64,
+          128
+        ],
+        "downsample": [
+          1,
+          4,
+          4
+        ],
+        "window_size": 2
+      },
+      "tensor_count": 136,
+      "finite": true
+    }
+  ],
+  "dependency": {
+    "status": "PASS_IMPORT",
+    "torch": "2.6.0+cu124"
+  }
+}

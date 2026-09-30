@@ -1,0 +1,12 @@
+{
+  "status": "STOPPED_EXP236_SOURCE11_HANDOFF",
+  "training_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block04_v2_20260927",
+  "source_graph_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_source_graph10_v2_20260927",
+  "source_score_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_source_graph10_official_v1_20260927",
+  "source_labels_opened_before_graphs": false,
+  "target_data_opened": false,
+  "started": 1790455080.147399,
+  "training_last_snapshot": "{\"status\": \"WAITING_FOR_EXP236_BLOCK01_V2_RELEASE\"}",
+  "error": "TerminalAnomaly('EXP236 training controller stopped: AssertionError()')",
+  "finished_or_stopped": 1790459640.2621243
+}

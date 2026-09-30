@@ -1,0 +1,46 @@
+{
+  "experiment": "EXP181",
+  "status": "PREREGISTERED_BEFORE_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The attributed QRZ synthetic midpoint repair, filtered by leakage-controlled reciprocal DeepCenter models, can recover true one-frame gaps without the false edges produced by an unvetoed repair.",
+  "parent": "Frozen scratch coordinates plus registered-motion Hungarian links.",
+  "mechanism": {
+    "source": "qrz1201/biohub-public-0-941-repro v1",
+    "gap_frames": 1,
+    "gap_close_um_per_step": 5.0,
+    "density_reference_um": 6.5,
+    "density_gain": 0.04,
+    "density_max_step_delta_um": 0.125,
+    "reuse_existing_um": 3.2,
+    "synthetic_max_fraction": 0.05,
+    "synthetic_max_absolute": 2000,
+    "intensity_refine_window_zyx": [1, 3, 3],
+    "intensity_refine_max_shift_um": 3.2,
+    "deepcenter_threshold": 0.25,
+    "deepcenter_confirm_min_span_um": 8.5
+  },
+  "models": {
+    "44b6_best_sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+    "6bba_best_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+    "training_receipt": "reports/exp180_reciprocal_deepcenter_training_result_20260910.json"
+  },
+  "data": "The two held-out source checkpoint-validation movies of each embryo only. No opposite-embryo target or locked-audit movie.",
+  "arms": ["registered_hungarian", "synthetic_gap_no_veto", "synthetic_gap_deepcenter"],
+  "promotion_gate": "DeepCenter must be exercised and add at least one synthetic node in each embryo; gated score must strictly improve each embryo, be nonnegative on every movie and every movie's node recall, and be no worse than no-veto in each embryo.",
+  "next_if_pass": "One frozen reciprocal target OOF evaluation; still no Kaggle authorization.",
+  "next_if_fail": "Reject synthetic gap family before target OOF and Kaggle.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 1 GiB expected growth, 45 minutes.",
+  "source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "select_synthetic_gap_source_gate.py": "e8c43125057aae4e6c28ef619bd8bf673f3ad3a3649941ccaa1593d8065f7c26",
+    "run_exp181_synthetic_gap_source.sh": "2844c785bb5780b1308abade7d4f2bcd9f9607df8bb5a065e75e0f16518007a5",
+    "test_synthetic_gap_deepcenter.py": "dbab206b32d77816ff5fc255fa9aeb930adc111aa1d80909e181a71cbc8f0c71"
+  },
+  "prelaunch_checks": {
+    "focused_tests": "5 passed",
+    "python_compile": "passed",
+    "runtime_scope_audit": "source-validation only; no target, official24, or Kaggle mutation"
+  },
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

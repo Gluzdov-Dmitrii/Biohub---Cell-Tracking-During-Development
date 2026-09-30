@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SYNTHETIC_175_350_GATE_7_TESTS",
+  "target_scoring_executed": false,
+  "staged_remote": false,
+  "checks": [
+    "complete350",
+    "missing_last_arm",
+    "wrong_fold",
+    "code_tamper",
+    "weight_contract_tamper",
+    "not_released",
+    "extra_output"
+  ],
+  "files": {
+    "scripts/score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "tests/test_exp223_official_gate.py": "b675d2a9d40830a6891806822e74db36d16e194478d1bf0973a4735436cd4a5d",
+    "reports/exp223_official_score_config_20260921.json": "9ba006bb5d3d7d69983678f8e5359bfbc96b9aaa594eb23be5b346b373e34db8"
+  }
+}

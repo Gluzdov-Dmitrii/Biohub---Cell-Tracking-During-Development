@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP155",
+  "status": "REJECT_SOURCE_ONLY_GATE_NO_TARGET_OPENED",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "direction": "forward",
+  "source_movies": 2,
+  "parent_score": 0.594713874106588,
+  "candidates": [
+    {
+      "weight": 0.05,
+      "candidate_score": 0.5931691627452722,
+      "score_delta": -0.0015447113613158427,
+      "node_recall_delta": 0.0,
+      "artifact_sha256": "208d9c250df14cfb0ad147f9dcc9412e87a93f3b11d8ba1db8b4360d21bcc8fd"
+    },
+    {
+      "weight": 0.1,
+      "candidate_score": 0.5916324550697662,
+      "score_delta": -0.003081419036821797,
+      "node_recall_delta": 0.0,
+      "artifact_sha256": "92dbddcc20f79b933713bb2b04949c9e665b991b79852d2b836af472efb3e80d"
+    }
+  ],
+  "decision": "Both preregistered weights fail the nonnegative source-score gate. Stop before reverse selection and before all 24 prospective target movies.",
+  "interpretation": "The external score changes strict one-to-one assignments in the wrong direction when applied unconditionally. Any follow-up must gate intervention by registered ambiguity and high external confidence.",
+  "source_sha256": "ab34cee200561a4ee78066f9a42729fb170c4ce6451aac533c8268ddd76cd28a",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

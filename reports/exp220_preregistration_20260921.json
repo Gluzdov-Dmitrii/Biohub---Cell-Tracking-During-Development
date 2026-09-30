@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP220",
+  "status": "PREREGISTERED",
+  "hypothesis": "Frozen missed annotated nodes concentrate by physical neighbor distance, array depth, time, or spatial boundary, motivating source-only data sampling changes.",
+  "evidence": "development-adapted diagnostic; no new OOF/model selection",
+  "resources": {
+    "host": "nsu-quadro",
+    "cpu": 4,
+    "ram_gib": 32,
+    "disk_growth_gib": 0.02,
+    "gpu": 0,
+    "timeout_seconds": 7200
+  },
+  "no_kaggle_post": true,
+  "sources": {
+    "analyze_exp220_node_strata.py": "ce55696d6d20e259d19a17ca63f496b801177cadc362b5396e33078c6d59ed69",
+    "analyze_submission_edge_failure_modes.py": "265b231c9a6d264cbf0fc75fc44ef35ff0bf65bae8c93a4611a080d7347b8104",
+    "analyze_cached_edge_failure_modes.py": "afff505343433a7dd7160a4466ba2ba8d6066219692904754a6d74f65ffc12f7"
+  }
+}

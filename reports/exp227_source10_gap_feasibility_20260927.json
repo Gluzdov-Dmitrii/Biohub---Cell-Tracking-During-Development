@@ -1,0 +1,213 @@
+{
+  "status": "PASS_EXP227_SOURCE10_GAP_FEASIBILITY",
+  "source_score": 0.8114014924249717,
+  "source_graph_gate": "PASS_EXP227_SOURCE_GRAPH10_BEFORE_LABEL_ACCESS",
+  "rows": [
+    {
+      "dataset": "44b6_996155de",
+      "stages": {
+        "unmatched_edge_nodes": 7,
+        "linear_gt_one_frame_gap": 7,
+        "both_gt_anchors_matched": 1,
+        "anchors_supported": 1
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "stages": {
+        "unmatched_edge_nodes": 37,
+        "linear_gt_one_frame_gap": 33,
+        "both_gt_anchors_matched": 9,
+        "anchors_supported": 9
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "stages": {
+        "unmatched_edge_nodes": 30,
+        "linear_gt_one_frame_gap": 26,
+        "both_gt_anchors_matched": 5,
+        "anchors_supported": 5
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "stages": {
+        "unmatched_edge_nodes": 5,
+        "linear_gt_one_frame_gap": 4,
+        "both_gt_anchors_matched": 2,
+        "anchors_supported": 2
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_90724892",
+      "stages": {
+        "unmatched_edge_nodes": 8,
+        "linear_gt_one_frame_gap": 8,
+        "both_gt_anchors_matched": 1,
+        "anchors_supported": 1
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "stages": {
+        "unmatched_edge_nodes": 15,
+        "linear_gt_one_frame_gap": 15
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "stages": {
+        "unmatched_edge_nodes": 3,
+        "linear_gt_one_frame_gap": 2,
+        "both_gt_anchors_matched": 2,
+        "anchors_supported": 2
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "stages": {
+        "unmatched_edge_nodes": 10,
+        "linear_gt_one_frame_gap": 7
+      },
+      "topology_only_max_nodes_one_to_one": 0,
+      "topology_only_edge_fn_upper_bound": 0,
+      "geometry_any_point_max_nodes_one_to_one": 0,
+      "geometry_any_point_edge_fn_upper_bound": 0,
+      "gt_center_proxy_max_nodes_one_to_one": 0,
+      "gt_center_proxy_edge_fn_conditional_ceiling": 0
+    }
+  ],
+  "totals": {
+    "topology_only_max_nodes_one_to_one": 0,
+    "topology_only_edge_fn_upper_bound": 0,
+    "geometry_any_point_max_nodes_one_to_one": 0,
+    "geometry_any_point_edge_fn_upper_bound": 0,
+    "gt_center_proxy_max_nodes_one_to_one": 0,
+    "gt_center_proxy_edge_fn_conditional_ceiling": 0,
+    "stages": {
+      "anchors_supported": 20,
+      "both_gt_anchors_matched": 20,
+      "linear_gt_one_frame_gap": 102,
+      "unmatched_edge_nodes": 115
+    }
+  },
+  "inputs": [
+    {
+      "dataset": "44b6_996155de",
+      "csv_sha256": "ab4abc463eb91ae299eff5fa5a6031e45c5ffc54408cd7dc9613834d4b62b6b7",
+      "receipt_sha256": "fa84776d80133c92d1725dfadf890c85507a31065d45c1df1b5448b0a5f99516",
+      "geff_tree_sha256": "40d9b02706df6cbe85eee251eb863c8408f8e646c4e00566ae7ad961a2301a7b"
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "csv_sha256": "df8d7326de5fd40b8bd6fb2e0fb65c7c937f77ce3495fbb84b550d6f0105aae1",
+      "receipt_sha256": "48921579e0cc78690d462fbfbf1d1dcbcd76651b37a65b11481da8436d43856b",
+      "geff_tree_sha256": "62ea7080d1e477d81b28263f53aecb911f1801332527f4e2bd323f80d877cc69"
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "csv_sha256": "7e347384b3bf031bef0785b45f23a1734b90a7ae997a05fea1f3068095e0f7e1",
+      "receipt_sha256": "b593331f8130d2422671ce7dcba5622960b63e2d98124eaad3594a18ab720fd4",
+      "geff_tree_sha256": "5f63c09329563cf53b74f64d283609eab5c88e3d218d90d9c9dab647671b2a13"
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "csv_sha256": "57f4f629a43b9f7408a8284dbb0cacee33fa392cec2256b15876df0422c49cd4",
+      "receipt_sha256": "0aee3c19cbc8870a8d39a89fd35777d2351cee45569a48545a4afbbdf6f3cc8f",
+      "geff_tree_sha256": "da705914c3ae0ec9efb8bdeeb2002a1b850401c83eb7beb71909e21f7e38f00f"
+    },
+    {
+      "dataset": "44b6_90724892",
+      "csv_sha256": "7292325efcad75ec162fa4dc7983dab6e832fc54dd86c48d4a7024681b456812",
+      "receipt_sha256": "591a4403a73fc06b8c097a660da006de5fff8aae21657501b74a4572cc8e6f60",
+      "geff_tree_sha256": "b967502dc4e4a563733e4868218f6a10cfb9b3dfbfd48dc6086454ec6f648eb0"
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "csv_sha256": "a352d1be2bc94cdcc1ba9dbcdde994ab447141583d2a5c5880f60e148777e8a0",
+      "receipt_sha256": "75256035d6cfe74c6fff7cde45d2fc004c1905ba5444640cafe5c2ec7eff005d",
+      "geff_tree_sha256": "5b0eee85fbb8e6772ee94a54d481a905107168686c40eb6eafc8f283d5338ade"
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "csv_sha256": "f4c65f93f3633ae83b6593f53321b037acb4c7e63ec173d7aeaed55d2b6e6657",
+      "receipt_sha256": "8fe11441f695c1aeddd66ee055b39b13b49012e5febbcd6414f161fae3a65c5e",
+      "geff_tree_sha256": "b024684791fd972bcb4a6acf0c7a0a5deb7516f5551c665a324d4b5bdcf154eb"
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "csv_sha256": "c1dec0829eed7dd6be49938eb871d32cad07f6b6979e5d6d9fe68a86bba6af3a",
+      "receipt_sha256": "1d9fdb1b8861510af204c7055d10a37f17bff6ea6d7b6bd61d80344f2cf4c236",
+      "geff_tree_sha256": "225e560d40b936784575b83ff8dfa3700c020e27f75c85c3d61b1e8b8b7b2e3d"
+    }
+  ],
+  "elapsed_seconds": 19.912023305892944,
+  "target6bba_access": false,
+  "candidate_tuning": false,
+  "definitions": {
+    "topology_upper_bound": "2 FN edges per one-to-one matched supported open GT linear gap; ignores all spatial, reuse and logit gates",
+    "geometry_any_point_upper_bound": "maximum two-sided 7um and official 7um GT-match ball intersection; ignores retained-node reuse and weak-peak/logit availability",
+    "gt_center_proxy": "places ideal weak peak at GT coordinate, requires <=7um to both anchors and >3.2um from all retained nodes at that frame; conditional ceiling, not a general geometric upper bound"
+  },
+  "limitations": [
+    "Post hoc epoch10 source-inner training monitor, not target OOF.",
+    "Weak logit peaks and probabilities were not stored; no candidate availability is measured.",
+    "Final retained graph and official matching do not identify whether a node was missed by detection, assignment or filtering.",
+    "One-to-one matching bounds are per movie; other graph changes could alter official matching and edge counts.",
+    "Even geometrically feasible gaps can be false associations or be removed by later filtering."
+  ],
+  "analysis_bundle_sha256": "f1f8e93330e83f88080142c61873bc5afe92c23dcf5b7cd82210ca5d3ca19884",
+  "analysis_source_sha256": "a04b08563549f862160fed130450df7107d7f9a146b59093a1bd074713134ded",
+  "parent_attribution_receipt_sha256": "d29f559438d14ad89f0ea41319e794927bb035b48d13b2ab0667894812bd8ca7",
+  "execution": {
+    "host": "nsu-quadro",
+    "cpu_affinity": "24-27",
+    "cuda_visible_devices": "",
+    "memory_virtual_limit_gib": 16,
+    "timeout_seconds": 1800,
+    "interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PREPARED_EXP227_TARGET6BBA_CURRENT_SCORER_V3B_LOCAL_ONLY",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp227_target6bba_scorer_local_v3b_20260927",
+  "local_manifest_sha256": "3f7e1bfe3e0127ade5b4aaffd76869e2053ef3248dd5d154acad4bee3b447518",
+  "source_hashes": {
+    "assignment.json": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+    "baseline_reference.json": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+    "check_current_organizer_metric_runtime.py": "616d26d5986e312b57f32f39d1fdb90684961c00eb14e1a44df7fe4ba19494c2",
+    "current_official/__init__.py": "12c8644ecf78b4d44ea5d8c65cd3a5c33cf4c1b24e747321a6bd46eb5b757561",
+    "current_official/division_metrics.py": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9",
+    "current_official/metrics.py": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+    "exp223_config.json": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973",
+    "image_scale_audit.json": "7d49f54f6a2bb80c8148cbd2e110c23f24fe8c4dd5fddc363b6755418da87f1c",
+    "score_current_metric_lightweight.py": "d37e986e59ace5f10e363e058784b0b03ea19919823cd3941707514ad04034b0",
+    "score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "score_exp227_target6bba_current_v3b.py": "58c7e0787fca73bf8bdcc09138d400399be628fb75cc8a2e9a4f2b732fde1c47",
+    "selection.json": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+    "successor_prepare.json": "ff1b87073ca1bd7ecbf48999265a89e2559c2ff85ddc3fdf2f8475cf5aaba910",
+    "successor_stage.json": "498a4cf13537bfffa9a90f601e4f909838583e3f334fc1d8b458c55f33bb3d3e"
+  },
+  "successor_prepare_sha256": "ff1b87073ca1bd7ecbf48999265a89e2559c2ff85ddc3fdf2f8475cf5aaba910",
+  "successor_stage_sha256": "498a4cf13537bfffa9a90f601e4f909838583e3f334fc1d8b458c55f33bb3d3e",
+  "successor_identity": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v2_20260927",
+    "lease_id": "exp227-target6bba-chunk07-v2-20260927",
+    "token": "exp227_target6bba_chunk07_v2_20260927"
+  },
+  "baseline_metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+  "baseline_target_input_hashes": [
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_00_20260914/output/public/submission.csv",
+      "sha256": "7a5a2e7b62a0761513ff255dcc2130eccc78b07d5a2c2db5a3c64ddcf0df37f0",
+      "receipt_sha256": "05d2ad4330f6090bae3ed17836cf401b00f70ca0aed573799cef679552beb3c1"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_01_20260914/output/public/submission.csv",
+      "sha256": "deb5d8991521473fcf805b1c100cacdfb7bc349c04f4959054c55682e47b179a",
+      "receipt_sha256": "b785fc194d98cdad5c82c603bc6d2dc6b4052d2a9844ddebc51c5808fb42f8c7"
+    },
+    {
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_02_20260914/output/public/submission.csv",
+      "sha256": "94a31a65be11ca2618e042c7a711e4e885f2c6dd7a9190faf30a7ffdfb9303d3",
+      "receipt_sha256": "a4bc168ae7715e8dedf46d1f208f70b7c85aa4d68245d8f719fb436586148e95"
+    }
+  ],
+  "baseline_target_rows_sha256": "2c34eea867f7bf71bd0a511dee0a0e0b8bd4cf7a040416c654ede6cdab0a1952",
+  "target_labels_read": false,
+  "remote_stage_created": false,
+  "remote_run_created": false,
+  "target_score_computed": false,
+  "evidence_class": "leakage-controlled reciprocal evaluation; historically exposed target labels"
+}

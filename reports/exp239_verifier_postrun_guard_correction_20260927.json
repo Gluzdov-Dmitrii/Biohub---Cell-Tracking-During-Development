@@ -1,0 +1,30 @@
+{
+  "status": "EXP239_POSTRUN_VERIFIER_SOURCE_CORRECTION_NO_REEXECUTION",
+  "completed_verification": {
+    "receipt": "reports/exp239_division_fn_taxonomy_verified_20260927.json",
+    "receipt_sha256": "ccd78a08822a1bf603cf4e1d9241df9f3ee8eef27f26559a263188195148cc57",
+    "receipt_status": "PASS_EXP239_INDEPENDENT_COMPLETION_VERIFICATION",
+    "executed_verifier_source_sha256": "a0fc65ad95dd65f6c1025aa48ceab6dfd211e1710ebc6b2474ffb1ed7ba40708"
+  },
+  "subsequent_source_correction": {
+    "path": "scripts/verify_exp239_division_fn_taxonomy.py",
+    "sha256": "e07e33a854d91c9db90a8f39b8e5c49fbbd9b4887d62fe25439e329e7f77a600",
+    "executed_to_create_completed_verification_receipt": false,
+    "changes": [
+      "Abort the local verifier at import when Python assertions are disabled by optimization.",
+      "Abort the remote readback when Python assertions are disabled by optimization.",
+      "Set PYTHONOPTIMIZE=0 in the remote readback command."
+    ]
+  },
+  "focused_tests": {
+    "path": "tests/test_verify_exp239_division_fn_taxonomy.py",
+    "sha256": "96d19270fa98c822f1fecf4864f69028b18a782782c939d50a76f77fbcea1036",
+    "result": "10 passed in 1.46s",
+    "optimized_python_import_rejected": true
+  },
+  "interpretation": "The guard is prospective. The completed receipt was created with the earlier verifier source and has not been edited or regenerated. That earlier source did not explicitly record whether assertions were enabled; this correction does not retroactively establish that condition.",
+  "existing_receipt_edited": false,
+  "verifier_rerun": false,
+  "geff_or_target_labels_opened_by_correction": false,
+  "kaggle_post": false
+}

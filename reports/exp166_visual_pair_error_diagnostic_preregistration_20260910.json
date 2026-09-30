@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP166",
+  "status": "PREREGISTERED_CORRECTED_RETRY",
+  "parent": "EXP165",
+  "only_change": "Embed percentile_ranks locally so the isolated run has no missing evaluator-module dependency.",
+  "scope": "Same fixed 64 external valid_*.npz shards only; no competition data.",
+  "scratch_sha256": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+  "feature_sha256": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+  "backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "diagnostic_sha256": "6cc0b3be19d88981650212a53bfc34b1a02593e133339189edffe4ad42eb94c4",
+  "launcher_sha256": "f7d75a1c78c5f12076ea066db57d05d042e5170bda2cdeb34721b2704a59fd0a",
+  "policy": "Diagnostic only; no metric-facing choice, competition evaluation, or Kaggle submission.",
+  "resource": "one RTX6000, 8 CPU, 24 GiB RAM, 1 GiB growth, 30 minutes",
+  "tests": "10 passed",
+  "kaggle_slots_used": 0
+}

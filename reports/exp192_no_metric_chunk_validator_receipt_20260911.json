@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "stage": "pre_inference_operational_validation",
+  "scientific_policy_changed": false,
+  "purpose": "Validate each completed chunk's status, movie membership, arm schema, numeric finiteness, and file hashes without emitting intermediate scientific metric values.",
+  "anti_adaptation": "The validator emits only PASS status, movie count, input hashes, and scientific_metrics_emitted=false. Chunk metrics remain unopened until all eight chunks are complete and merged.",
+  "files": {
+    "scripts/validate_exp192_chunk_structure.py": "9fa658e4f7e180a6f4269066b7bfb8a255ef821691a34c416013b3c11fdf11e6",
+    "scripts/run_exp192_confirmation_chunk.sh": "676a08ae1aa51d2a6e9fd42028997366ce8c141cf471a3f712cb41407f8c00ba",
+    "scripts/launch_exp192_chunk_remote.sh": "a2f077445c3ecc3576d5cb907ac00893b6b03212083cdaffa4812d2a4a68ec29"
+  },
+  "verification": {
+    "local_pytest": "6 passed",
+    "local_diff_check": "PASS",
+    "remote_sha_match": true,
+    "remote_bash_syntax": "PASS",
+    "remote_validator_help": "PASS"
+  },
+  "cleanup": {
+    "removed": [
+      "outputs/research/.pytest_exp192_structure",
+      "EXP192-owned Python bytecode under scripts/__pycache__ and tests/__pycache__"
+    ],
+    "preserved": "source, tests, frozen manifests, receipts, and active dataset download"
+  },
+  "kaggle_action_authorized": false
+}

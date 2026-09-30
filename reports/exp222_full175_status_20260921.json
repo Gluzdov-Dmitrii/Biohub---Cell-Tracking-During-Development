@@ -1,0 +1,13 @@
+{
+  "live_process_group": [],
+  "pid": 358960,
+  "start": "518830517",
+  "elapsed_seconds": 7365.299671173096,
+  "sha256": {
+    "worker.log": "c65100f291cf7c41111b4b33b2903307aa74cfd2a701688b8fdca913c7553966",
+    "launch.json": "b19cdcb7101cfdc8644aa898514d5f71ec8aa2f7b7fbc395e521a9a68fd4a06c",
+    "preregistration.json": "eae11d5c8f10de5bcfa26ab77720c632aaaff553a0886496b87bf3d69affaa41",
+    "no_metric_gate.json": "5732a1877b683ceebb5ff950535e82f1bd5498d5de711929ec1176ffa0bcd62c",
+    "result.json": "ad975a14ad769565770f949c1ae2beec605d6abaf1aba1e5e2871e57e5e8e736"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lease": {
+    "id": "exp228-horaz-ensemble-chunk00-20260923",
+    "owner": "biohub-agent",
+    "token": "exp228_horaz_ensemble_chunk00_20260923",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_chunk00_20260923",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 4.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790097607.617099,
+    "heartbeat": 1790097607.6171474,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790097607.6171477,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "config": {
+    "experiment": "EXP228",
+    "lease_id": "exp228-horaz-ensemble-chunk00-20260923",
+    "token": "exp228_horaz_ensemble_chunk00_20260923",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_v1_20260923",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_chunk00_20260923",
+    "max_seconds": 10800,
+    "cpu_affinity": "8-15",
+    "script": "run_exp228_ensemble.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_v1_20260923/plan_chunk00.json",
+      "--plan-sha256",
+      "e8b0826da38237832ddd98410ccb3cbcd057461613308a879a0f76459db4a2d8"
+    ]
+  }
+}

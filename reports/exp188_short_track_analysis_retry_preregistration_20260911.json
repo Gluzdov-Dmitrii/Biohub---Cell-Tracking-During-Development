@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP188",
+  "registered_at_local": "2026-09-11",
+  "status": "PREREGISTERED_NOT_STARTED",
+  "type": "config-only analysis retry",
+  "failure_being_corrected": "EXP187 validator requested a nonexistent per-movie score field after both scientific evaluations had completed.",
+  "scientific_recomputation": false,
+  "immutable_inputs": {
+    "forward_exp187_sha256": "d68b656ad6c5f595a025e51c879b744d3f4cd150b3bc928ce8c7a8e3532ca45e",
+    "reverse_exp187_sha256": "b401d688bd4234171010c62b49a41756ba4bb9d28ade66e008e73147b239fa43"
+  },
+  "change": "Remove score from exact per-movie comparison because official per_sample_metrics rows expose metric components and adj_edge_jaccard, not a score key.",
+  "unchanged": "All EXP187 arms, movie predictions, metrics, nested selection protocol and control tolerance.",
+  "scripts": {
+    "validate_cached_short_track_control.py": "23e4c47fc89b173801e9a1a517f159d18b756c483f0e090c6343fc22c0c081d9",
+    "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "run_exp188_short_track_analysis_retry.sh": "2ff75f1beed79e918b4799b2806fafa182aa0f265603464972d8836c72f03471"
+  },
+  "gpu_required": false,
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_SOURCE_REFIT",
+  "epoch": 12,
+  "total_epochs": 12,
+  "invocation_initial_epoch": 0,
+  "checkpoint_sha256": "d8826766d2f8497717276018015d9dbae41237188227c935aee9c9c389694864",
+  "best_sha256": "fe929a4935972369c25f516e9895ba57eb515cc403b2e0e24553960aaa620e25",
+  "elapsed_seconds": 3746.405152514577,
+  "target_data_opened": false,
+  "contract": {
+    "plan_sha256": "983d2953c915d91d41db33bf8fafa14bd17ed6e5aeefd5f67c0dda8d7759090a",
+    "trainer_sha256": "4fa4e6758492645b0e81540c4c00ee8a5a1524ec2e60901678a2e27238b0e32f",
+    "upstream_sha256": "c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea",
+    "fold": "6bba",
+    "seed": 2026,
+    "benchmark_steps": 0,
+    "precision": "fp32",
+    "window_selection_sha256": "2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02",
+    "image_cache_manifest_sha256": "8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728"
+  }
+}

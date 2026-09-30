@@ -1,0 +1,7 @@
+{
+  "source_sha256": {
+    "public": "6ab0f7ab382a2c538a2da2b4cba2a0f7043b5e035fa5827ba0c50a6098355497",
+    "local": "8adef01a0d471f6925bbe8e60f378c463e3b899e9fa587b3bdd5e1d40988d844"
+  },
+  "scope": "Concurrent independent source folds on distinct GPUs; numerical/graph/model/routing unchanged; exact v1 submission parity required before POST"
+}

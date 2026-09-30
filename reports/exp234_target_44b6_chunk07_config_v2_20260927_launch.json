@@ -1,0 +1,60 @@
+{
+  "lease": {
+    "id": "exp234-target-44b6-chunk07-v2-20260927",
+    "owner": "biohub-agent",
+    "token": "exp234_target_44b6_chunk07_v2_20260927",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk07_v2_20260927",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 3.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790473917.0575714,
+    "heartbeat": 1790473917.0576208,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790473917.057621,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 883782,
+    "observe": 883783
+  },
+  "config": {
+    "experiment": "EXP234_TARGET_CHUNK",
+    "lease_id": "exp234-target-44b6-chunk07-v2-20260927",
+    "token": "exp234_target_44b6_chunk07_v2_20260927",
+    "pool": "a100",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk07_v2_20260927",
+    "max_seconds": 10800,
+    "cpu_affinity": "0-7",
+    "script": "run_exp234_target_chunk.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/44b6_chunk07_plan.json",
+      "--plan-sha256",
+      "f1cfde07fc8f3aab5ef020f4d29f03a9a2e196989a7b260c4b30ea60a93d1fab"
+    ],
+    "resources": {
+      "cpu": 8,
+      "ram_gib": 64,
+      "disk_growth_gib": 3
+    },
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  },
+  "preflight": {
+    "status": "PASS_EXP234_TARGET_LAUNCH_PREFLIGHT",
+    "plan_sha256": "f1cfde07fc8f3aab5ef020f4d29f03a9a2e196989a7b260c4b30ea60a93d1fab"
+  },
+  "monitor_pid": 32664,
+  "monitor_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_44b6_chunk07_config_v2_20260927_monitor.json"
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "purpose": "Check whether the slow full-archive transfer could safely use a faster route to the same registered NFS root without interrupting the active SCP.",
+  "observations": [
+    {"route": "nsu-a100", "probe_bytes": 57299346, "wall_seconds": 17.6053, "outcome": "slower than active route"},
+    {"route": "nsu-quadro with aes128-gcm", "probe_bytes": 57299346, "wall_seconds": 53.8728, "outcome": "slower under concurrent transfer; no basis to restart"}
+  ],
+  "decision": "Keep the original concrete SCP session. Do not sacrifice verified progress or create a competing archive copy.",
+  "cleanup": {
+    "removed_exact_paths": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp192_archive_transfer/a100_route_probe.whl",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp192_archive_transfer/quadro_aes128_probe.whl"
+    ],
+    "absence_verified": true,
+    "active_archive_preserved": true
+  },
+  "kaggle_action_authorized": false
+}

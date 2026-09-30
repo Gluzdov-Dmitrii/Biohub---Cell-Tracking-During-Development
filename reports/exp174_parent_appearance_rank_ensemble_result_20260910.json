@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP174",
+  "status": "REJECT_EXTERNAL_GATE",
+  "raw_json_internal_label": "EXP173",
+  "raw_result_sha256": "910f337b6879f93823d67905ebdc71c164b8b6b6e337bd2b68c5fe9cbf70dda",
+  "run_log_sha256": "910f337b6879f93823d67905ebdc71c164b8b6b6e337bd2b68c5fe9cbf70dda",
+  "checkpoint_sha256": "1926f99b4b02de75bf8f96c363aae2545c1bced9d4eeea838ccb8c8c2d8e690a",
+  "prospective": {
+    "raw_ap": 0.20873146294839176,
+    "raw_fixed_threshold_precision": 0.4148936170212766,
+    "raw_fixed_threshold_recall": 0.21311475409836064,
+    "appearance_ap": 0.006861680853504951,
+    "blend_ap": 0.04866672359230177,
+    "blend_fixed_threshold_precision": 0.0,
+    "blend_fixed_threshold_recall": 0.0
+  },
+  "conclusion": "The calibration-selected raw threshold does not preserve precision on prospective data. Frozen parent appearance is non-transferable and its equal-rank blend is harmful.",
+  "data_access": "External fit/calibration/prospective shards only; no competition data.",
+  "resource_cleanup": "PID 183437 stopped; RTX6000 observed at 5 MiB/0%; lease released; only checkpoint, result and log retained.",
+  "kaggle_slots_used": 0
+}

@@ -1,0 +1,187 @@
+{
+  "active_run_mutation": false,
+  "augmentation": false,
+  "batch_size_runner": 4,
+  "cached_setup_seconds": 0.002885885536670685,
+  "checksums": {
+    "baseline_zarr_per_sample": [
+      16.167312622070312,
+      16.167312622070312
+    ],
+    "cached_zarr_handle": [
+      16.167312622070312,
+      16.167312622070312
+    ],
+    "preloaded_uint16": [
+      16.167312622070312,
+      16.167312622070312
+    ]
+  },
+  "cpu_affinity": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "cuda_visible_devices": "",
+  "downsampled_shapes": {
+    "44b6_0db75fae": [
+      100,
+      64,
+      64,
+      64
+    ],
+    "44b6_808952d6": [
+      100,
+      64,
+      64,
+      64
+    ]
+  },
+  "elapsed_seconds_per_36_windows": {
+    "baseline_zarr_per_sample": [
+      0.8523503728210926,
+      0.8221397493034601
+    ],
+    "cached_zarr_handle": [
+      1.0071729151532054,
+      0.7601716360077262
+    ],
+    "preloaded_uint16": [
+      0.020139599218964577,
+      0.016983285546302795
+    ]
+  },
+  "equality_checks_per_alternative": 324,
+  "gpu_used": false,
+  "host": "nsu-quadro",
+  "image_tensor_sha256": {
+    "baseline_zarr_per_sample": "146dc94c5065f7c7034312bf3447215386b15b8f3a59f9dea6f2df6b822a0a61",
+    "cached_zarr_handle": "146dc94c5065f7c7034312bf3447215386b15b8f3a59f9dea6f2df6b822a0a61",
+    "preloaded_uint16": "146dc94c5065f7c7034312bf3447215386b15b8f3a59f9dea6f2df6b822a0a61"
+  },
+  "kaggle_post": false,
+  "loader_fields_bitwise_equal": [
+    "coords",
+    "dataset_id",
+    "downsample",
+    "image_shape",
+    "images",
+    "masks",
+    "targets",
+    "time_start",
+    "voxel_size"
+  ],
+  "max_nodes_subset": 2,
+  "memory_mib": {
+    "after_benchmark": {
+      "peak_rss_mib": 779.2578125,
+      "rss_mib": 777.02734375
+    },
+    "after_cached_open": {
+      "peak_rss_mib": 415.48828125,
+      "rss_mib": 415.48828125
+    },
+    "after_preload": {
+      "peak_rss_mib": 724.53125,
+      "rss_mib": 716.16015625
+    },
+    "before_setup": {
+      "peak_rss_mib": 415.48828125,
+      "rss_mib": 415.48828125
+    }
+  },
+  "num_workers_runner": 0,
+  "preload_setup_seconds": 1.026486194692552,
+  "preloaded_bytes": 104857600,
+  "raw_shapes": {
+    "44b6_0db75fae": [
+      100,
+      64,
+      256,
+      256
+    ],
+    "44b6_808952d6": [
+      100,
+      64,
+      256,
+      256
+    ]
+  },
+  "sequence_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    21,
+    34,
+    34,
+    21,
+    13,
+    8,
+    5,
+    3,
+    2,
+    1,
+    0,
+    99,
+    100,
+    101,
+    102,
+    104,
+    107,
+    112,
+    120,
+    133,
+    133,
+    120,
+    112,
+    107,
+    104,
+    102,
+    101,
+    100,
+    99
+  ],
+  "sequence_length": 36,
+  "source44_manifest_sha256": "455cc9d546b1ea0f05e9674f9513800c70bf8faf851f8cb303397d27af1129f5",
+  "source_dataset_ids": [
+    "44b6_808952d6",
+    "44b6_0db75fae"
+  ],
+  "source_paths": [
+    {
+      "dataset_id": "44b6_808952d6",
+      "geff_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_808952d6.geff",
+      "zarr_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_808952d6.zarr"
+    },
+    {
+      "dataset_id": "44b6_0db75fae",
+      "geff_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_0db75fae.geff",
+      "zarr_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_0db75fae.zarr"
+    }
+  ],
+  "source_sha256": {
+    "const.py": "b2178c1794dd2ffad566bffab373fa2aa68c9d23b4b4000efc76b5832b13dbde",
+    "datasets.py": "063fc77e333d615bbb640f8e8062972cca0e25c3c26a95dbf675137263e7b0b3",
+    "utils.py": "c9927b5bab407071961c0dc14d12dfa62f8a5fbc489f73d327b2a7317997353a"
+  },
+  "stage_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_horaz_source_block02_20260927",
+  "stage_manifest_sha256": "c469c62da6cc058b60f0c12ddb800321c37094036b8e68f404ec039df8ec7b26",
+  "status": "PASS_EXP227_HORAZ_LOADER_CPU_MICROBENCH",
+  "target6bba_access": false,
+  "torch_num_threads": 4,
+  "unique_windows": 18,
+  "window_counts": [
+    99,
+    88
+  ],
+  "bundle_sha256": "5807eab592c42ce7f64f9ae78ab04c8bf89babe88e915b7fa608595f9e82e6df",
+  "remote_script_sha256": "399140e8e1bc53e95086712acd78f4afd4f8f8973be0b83703c7587bac149f1d",
+  "source_snapshot_dir": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\horaz_development_20260922\\exp227\\loader_benchmark_snapshot_20260927",
+  "virtual_memory_limit_gib": 32,
+  "timeout_seconds": 600
+}

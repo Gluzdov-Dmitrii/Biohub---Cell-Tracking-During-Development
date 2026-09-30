@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP184",
+  "status": "PREREGISTERED_BEFORE_TARGET_MOVIE_ACCESS_AND_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "parent": "EXP183 config failure before target movie/model access; EXP182 PASS_SOURCE_GATE remains the scientific parent.",
+  "scientific_delta_from_exp183": "NONE",
+  "config_delta": "Pass --movie-key target_development explicitly for both frozen all12 manifests.",
+  "hypothesis": "The source-selected DeepCenter-gated synthetic midpoint mechanism generalizes without per-movie regressions when each model is evaluated only on the opposite embryo.",
+  "frozen_evaluation": {
+    "44b6_model_target": "all 12 6bba target_development movies",
+    "6bba_model_target": "all 12 44b6 target_development movies",
+    "parameters": "Identical to EXP182/EXP183; no target tuning or threshold sweep."
+  },
+  "input_gate": "A separate data-free validator must prove the target_development key contains exactly 12 unique names and exactly matches the 12 NPZ cache stems in each direction.",
+  "promotion_gate": "Exactly the frozen EXP183 target gate: strict per-embryo and pooled score gain, 24-movie coverage, no per-movie score/recall regression, mechanism exercise/addition in each embryo, and gated no worse than no-veto in each embryo.",
+  "source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "select_synthetic_gap_target_gate.py": "745204439720f35cb245e0cdf48efc6b70e61e572ff23b0388babe5b7916311f",
+    "validate_synthetic_gap_target_inputs.py": "af831afdc3f82bd10a7ab8e7475c693bb5e604861320e01082236792be78e9eb",
+    "run_exp184_synthetic_gap_target_oof.sh": "0480a39ed2fdd2ec690514e0864ce5429881e6f85c7d9dc204b13d7cd0d12ea5",
+    "test_validate_synthetic_gap_target_inputs.py": "a04d23f62a09a18b99c09e834c158e079f402543c2416b53b2dc5aa10a7cc81a"
+  },
+  "target_manifest_sha256": {
+    "all12_6bba": "6e6ed3dc61b672ef271dee0aa332e675b20adb69ad5865bbc67083564e440991",
+    "all12_44b6": "d3db2a26525e4db6ac487680646e9bd7af052e5b3bd651b0a5bfac4ef5793fb7"
+  },
+  "tests": "Eight focused tests passed with an explicit workspace basetemp; the initial global-temp errors were infrastructure-only and did not execute validator tests.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 1 GiB expected growth, 45 minutes.",
+  "next_if_pass": "Prepare one hidden-compatible PRIVATE_ROBUST runtime candidate, still subject to clean Kaggle audit and separate POST receipt.",
+  "next_if_fail": "Reject synthetic-gap candidate for Kaggle and retain the target generalization evidence.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

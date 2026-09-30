@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP190",
+  "status": "PREREGISTERED_NOT_STARTED",
+  "evidence_class": "exploratory nested development OOF",
+  "motivation": "EXP189 selected min6 on every forward held-out movie and the forward full-data curve was still increasing at the frozen boundary.",
+  "frozen_lengths": [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 16, 24],
+  "primary_protocol": "For each held-out movie, select minimum length on the other 11 movies in the same reciprocal direction; aggregate only 24 held-out rows by edge mass.",
+  "control_gate": "no_filter must reproduce all EXP152 per-movie fields exactly within 1e-12.",
+  "scripts": {
+    "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "validate_cached_short_track_control.py": "c70693503106313317f35baccfab0f198cbf84be5552e3e1d6759e7ebc0fef47",
+    "run_exp190_extended_short_track_lengths.sh": "0d59044877970739a9bfb48491b2e661007b40e7625327eff89927bfa1303472"
+  },
+  "tests": "4 focused tests and py_compile passed",
+  "gpu_required": false,
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

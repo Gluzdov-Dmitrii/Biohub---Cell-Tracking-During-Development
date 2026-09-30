@@ -1,0 +1,19 @@
+{
+  "stage": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_supervision_v1_20260921",
+    "manifest": {
+      "exp221_remote_supervisor.py": "49abb2e2b1e7e1383379187676f0b12a635ed2686b00cc10be26d0ee6c2e79ea",
+      "monitor_exp213_job.py": "e4ae030b2f1a772cd34ae3595668f9eefa1601d5a040b7c49b5db0e6bb045323",
+      "control.json": "b9e4fbfa3e64749d9ae4582a7099b98590bd7cc3b080a1bf55ea51041ffd248c",
+      "domain.json": "723abcca17ec340bc3279a4cb2d257c00f92ad21d28383ea287b10203bf9d7f9"
+    }
+  },
+  "observe": {
+    "pid": 546712,
+    "mode": "observe"
+  },
+  "control": {
+    "pid": 358751,
+    "mode": "control"
+  }
+}

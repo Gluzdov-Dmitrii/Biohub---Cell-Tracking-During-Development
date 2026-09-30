@@ -1,0 +1,51 @@
+{
+  "experiment": "EXP198",
+  "recorded_at": "2026-09-11",
+  "status": "REJECTED_BY_PREREGISTERED_GATE",
+  "parent": "EXP190 fixed deployable min8 forward / min3 reverse policy",
+  "policy_tested": "For each movie, choose the complete EXP190 component-length graph with the smallest absolute total_node_ratio; ties prefer the registered parent arm.",
+  "evidence_class": "Sequentially exploratory 24-movie development OOF",
+  "results": {
+    "parent_pooled_score": 0.7485183130743318,
+    "candidate_pooled_score": 0.7067272292386854,
+    "pooled_delta": -0.04179108383564645,
+    "forward_delta": -0.04468742745781107,
+    "reverse_delta": -0.029237368725306023,
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 314159,
+    "bootstrap_probability_positive": 0.0008,
+    "bootstrap_q025": -0.0652511613119491,
+    "bootstrap_median": -0.0421058565628617,
+    "bootstrap_q975": -0.015555479617379528,
+    "leave_one_movie_out_min_delta": -0.048900288795018954,
+    "leave_one_movie_out_max_delta": -0.037145767684471864
+  },
+  "gate_evaluation": {
+    "positive_pooled_delta": false,
+    "nonnegative_both_directions": false,
+    "positive_bootstrap_lower_bound": false,
+    "passed": false
+  },
+  "interpretation": "Matching the provided coarse estimated node count by switching among complete component-length graphs is not a valid proxy for edge quality. It increases edge false positives and loses true edges enough to cause a large, stable pooled OOF regression. This rejects exact per-movie count matching, not detector training or uncertainty-aware count calibration.",
+  "effect_on_frozen_confirmation": "EXP192 and EXP195 are unchanged; EXP198 is not eligible for confirmation or Kaggle submission.",
+  "artifacts": {
+    "selector": {
+      "path": "scripts/select_count_calibrated_graph.py",
+      "sha256": "4fd13b905e0f22599ba597742ff7c953134804685bd2dff791667d05ca0fdaa0"
+    },
+    "test": {
+      "path": "tests/test_select_count_calibrated_graph.py",
+      "sha256": "44ba596ffd43c1c0d3dbd44888944f5cd3f9a904b73155d81db93e47a5bb53d7",
+      "result": "2 passed"
+    },
+    "result": {
+      "path": "outputs/research/exp130_official24_private_first/exp198_count_calibrated_graph/result.json",
+      "sha256": "2829c46b763f47711f10117996f3ad1c764f3cb84af0d1f4ef9f92264795431b"
+    },
+    "stability": {
+      "path": "outputs/research/exp130_official24_private_first/exp198_count_calibrated_graph/stability.json",
+      "sha256": "5403d38abc94e4f0be5bee379a4d641e3561d6d05e8ebb1c52f881158f7a801b"
+    }
+  },
+  "eligible_for_kaggle_submission": false
+}

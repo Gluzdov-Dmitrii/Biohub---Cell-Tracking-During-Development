@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP221",
+  "lease_id": "exp221-domain-44b6-s2026-20260921",
+  "token": "exp221_domain_44b6_s2026_20260921",
+  "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921",
+  "fold": "44b6",
+  "seed": 2026,
+  "max_seconds": 7200,
+  "cpu_affinity": "8-15",
+  "window_selection": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+  "image_cache": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 1,
+    "gpus": 1
+  },
+  "scope": "EXP221 fixed12 additional source-only epochs, matched clean epoch12 initialization; no target metrics/POST",
+  "retention": "Keep best and latest optimizer checkpoint; review 2026-09-22; no automatic continuation beyond24epochs",
+  "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+  "warm_start": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/checkpoint_last.pth",
+  "lease_minutes": 180
+}

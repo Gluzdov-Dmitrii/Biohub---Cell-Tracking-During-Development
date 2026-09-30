@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP200",
+  "recorded_at": "2026-09-11T10:11:56Z",
+  "status": "PREREGISTERED_BEFORE_SCORING",
+  "hypothesis": "A bounded local residual-flow field captures spatially heterogeneous tissue motion missed by the global registered translation linker and improves edge associations on frozen detections.",
+  "parent": "EXP190 fixed complete-graph policy: registered translation linker plus minimum component length 8 forward and 3 reverse.",
+  "data_and_protocol": "Existing reciprocal embryo-disjoint 24-movie OOF coordinate caches; CPU-only and no image/model inference.",
+  "candidate_arms": ["translation", "flow_k16_a025", "flow_k16_a050", "flow_k32_a025", "flow_k32_a050"],
+  "flow_definition": "After the exact registered median shift, build mutual-nearest pseudo-correspondences within 4 um. At each source coordinate take the coordinatewise median residual of its 16 or 32 nearest paired sources, clip correction magnitude to 2 um, and blend at alpha .25 or .50. Preserve the 7 um Hungarian gate and 3 um motion scale.",
+  "selection": "Leave-one-movie-out arm selection independently within each embryo direction, using only the other 11 movies. Full-data arm ranking is diagnostic only.",
+  "promotion_gate": "Exact translation control within 1e-12; positive nested pooled delta; nonnegative nested delta in both directions; positive lower 95 percent bound from 20,000 direction-stratified paired movie bootstrap draws.",
+  "interpretation_guard": "Failure rejects this local pseudo-flow family, not learned optical flow or appearance-aware association. Sequential 24-movie evidence cannot modify EXP192 before untouched confirmation.",
+  "implementation": {
+    "evaluator": {"path": "scripts/evaluate_cached_local_flow_linker.py", "sha256": "79c31e00948c8ffc3de4e2620119d8094a833ace26df7b80e0af6a01a0b5a1e7"},
+    "test": {"path": "tests/test_evaluate_cached_local_flow_linker.py", "sha256": "709e2b02ae3eaf0ded26a6dfb47045d6a954c37998b2fd8e537e99a46cf73cb8", "result": "3 passed"},
+    "launcher": {"path": "scripts/run_exp200_local_flow_linker.sh", "sha256": "9f86474751b91f5526a97e60c710defb4a68dddf045082876fe39cd5d2831564"},
+    "frozen_dependencies": {
+      "evaluate_cached_coherent_motion_linker.py": "fac519e1182f31ff33182217e26ffc36c747fe2c8983cdac3e4c69440e82a7b1",
+      "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+      "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+      "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+      "select_nested_pooled_synthetic_gap.py": "0c9bdc68c6b1e80d213948262f15fed8844035f5e535a3c02db8e9134f9afcac",
+      "analyze_nested_pooled_stability.py": "ad716a032693e349d82edc5b17e2fa6aa66e5bb51018b916b0b6c535376082f0"
+    }
+  },
+  "resource": "CPU-only on nsu-quadro inside the registered remote Kaggle root; no GPU lease required.",
+  "eligible_for_kaggle_submission": false
+}

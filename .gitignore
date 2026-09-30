@@ -29,3 +29,14 @@ kaggle.json
 Thumbs.db
 .vscode/
 .idea/
+
+# Conserved local artifacts and research receipts; no raw data in public Git
+local-artifacts/
+work/
+publication/
+goals-log.txt
+*.pt
+*.pth
+*.ckpt
+.closeout-test-temp/
+.tmp/

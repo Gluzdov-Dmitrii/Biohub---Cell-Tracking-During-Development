@@ -1,0 +1,39 @@
+{
+  "experiment": "EXP196-development",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_EXPLORATORY_DEVELOPMENT_ATTRIBUTION",
+  "arm": "EXP190 fixed deployable pruning policy on the 24 already-open development movies",
+  "directional": {
+    "forward": {
+      "endpoint_limited_fn": 1159,
+      "association_limited_fn": 806,
+      "endpoint_limited_fn_fraction": 0.5898218829516539
+    },
+    "reverse": {
+      "endpoint_limited_fn": 215,
+      "association_limited_fn": 214,
+      "endpoint_limited_fn_fraction": 0.5011655011655012
+    }
+  },
+  "pooled": {
+    "endpoint_limited_fn": 1374,
+    "association_limited_fn": 1020,
+    "endpoint_limited_fn_fraction": 0.5739348370927319,
+    "association_limited_fn_fraction": 0.42606516290726815
+  },
+  "movie_stratified_bootstrap": {
+    "draws": 20000,
+    "seed": 314159,
+    "endpoint_fraction_ci95": [0.48350241568229835, 0.6597282083813354],
+    "probability_endpoint_fraction_gt_half": 0.9463
+  },
+  "fp_observation": "Only one valid FP across both directions has both endpoints matched to wrong GT partners; the great majority are one-sided sparse-GT anchors. This makes aggressive relinking especially risky.",
+  "interpretation": "Endpoint errors are the pooled plurality, but the confidence interval crosses one half and reverse is nearly balanced. Pursue detector/count calibration and conservative association as separate mechanisms; do not declare either the sole bottleneck.",
+  "artifacts": {
+    "forward_sha256": "80eed5b2f665c019b5716ce774b9feaac5c02a5e1c499314d48bc2cef8185473",
+    "reverse_sha256": "f4487d6b9d3151281f5b3df27852fc666b3253bcfb0d5dd84450a276dc5e4d3",
+    "summary": "outputs/research/exp130_official24_private_first/exp196_development_base_attribution.json"
+  },
+  "evidence_class": "Exploratory development attribution; untouched 175-movie result remains pending.",
+  "eligible_for_kaggle_submission": false
+}

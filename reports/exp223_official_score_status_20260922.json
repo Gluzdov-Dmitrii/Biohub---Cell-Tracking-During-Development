@@ -1,0 +1,9 @@
+{
+  "hashes": {
+    "launch.json": "47b2a0e6318c3ae1901149258183a37592e2940c4fa5f1b4f7b741da5f5b6cf5",
+    "child.json": "448fb05797c3c6448aaa28f4cc6308a577dc29acbca84559997749d6d8c7e33a",
+    "exit.json": "a68ee7cf4dc4b4fded2d3768fee2adfe3d3b63719a1b1b5c820d8738810a1847"
+  },
+  "live_group": [],
+  "log": "rollout sha mismatch: 230a9dbbf0921a7a8c02c3df96252d9fd1d946d20eb6d72f3924e2692189675c != 28a3d03900e42a3732b5156e47c79e65097396ed6a89e9213895d4f04e47f1ec\n"
+}

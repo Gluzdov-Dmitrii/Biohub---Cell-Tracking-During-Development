@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP208",
+  "recorded_at": "2026-09-11",
+  "status": "REMOTE_CODE_INTEGRATED_NOT_RUN",
+  "remote_code_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp208_source_centroid_family_v1_20260911",
+  "deployed_sha256": {
+    "evaluate_cached_intensity_centroid_family.py": "36a7fa07f7d87ee0a8052a52c8fed759615cda6f095ae812cd740c06b9e9e942",
+    "select_source_centroid_radius.py": "f04c0e6d15f5d32053e783b9e606d29189369e69a374191d798945672c1ff191",
+    "evaluate_cached_intensity_centroid_refinement.py": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "build_fixed_separate_two_direction_comparison.py": "4d1a5bb10c4fd46ce3615ed0b196aecfab21cbf8f0fe6a67d41cd3627bbbbd9f",
+    "analyze_nested_pooled_stability.py": "ad716a032693e349d82edc5b17e2fa6aa66e5bb51018b916b0b6c535376082f0",
+    "run_exp208_source_centroid_family.sh": "ce78e9e942cb41dd0cfee9dafce677baca865cb8120f0c65f334f224b87380de",
+    "launch_exp208_remote.sh": "d6be38d514dc815c8fd7dbf95c5fd9f02fa430358317943ab00ad932cfb45a50"
+  },
+  "verification": {
+    "all_remote_hashes_match_local": true,
+    "bash_syntax": "PASS",
+    "python_source_compile": "PASS",
+    "remote_code_pycache_directories": 0,
+    "remote_run_directory_present": false,
+    "local_tests": "10 passed",
+    "runner_refresh_remote_sha_and_bash_syntax": "PASS"
+  },
+  "local_test_sha256": {
+    "test_evaluate_cached_intensity_centroid_family.py": "db765721846a3b68c0fb615db0f3808c734b007b5790b77bfa51381713470321",
+    "test_select_source_centroid_radius.py": "7569a8f45028441295d137b818e8402f083902665a2a61d272f9faf294c41f2d",
+    "test_run_exp208_contract.py": "66e18e1b6f960c9afe01c7486a46edadb4e487a37dd5e01aa962bbeb8e805627"
+  },
+  "local_owned_pytest_directories_removed": 5,
+  "archive_bytes_observed_during_verification": 72712093696,
+  "archive_transfer_restarted": false,
+  "source_metrics_opened": false,
+  "target_metrics_opened": false,
+  "gpu_lease_acquired": false,
+  "kaggle_action": false
+}

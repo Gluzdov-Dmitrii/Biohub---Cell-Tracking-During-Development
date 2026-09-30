@@ -1,0 +1,77 @@
+{
+  "experiment": "EXP207",
+  "date_local": "2026-09-12",
+  "status": "PRIMARY_REJECT_SECONDARY_PROMOTE_TO_CONFIRMATION",
+  "evidence_class": "fixed reciprocal embryo-disjoint 24-movie development evaluation",
+  "primary_feature_tta": {
+    "decision": "REJECT_GATE_NOT_MET",
+    "base_score": 0.7604184471330219,
+    "candidate_score": 0.760972317117247,
+    "delta": 0.0005538699842251305,
+    "direction_delta": {
+      "forward": 0.0006034784768771395,
+      "reverse": 0.0003325394247793989
+    },
+    "bootstrap_probability_positive": 0.8023,
+    "bootstrap_q025": -0.0006214813220827452,
+    "bootstrap_q975": 0.002018784875484485,
+    "leave_one_movie_out_min_delta": 0.0001231146895060986
+  },
+  "secondary_detector_tta": {
+    "decision": "PROMOTE_TO_175_MOVIE_CONFIRMATION_ONLY",
+    "base_score": 0.7485183130743318,
+    "candidate_score": 0.7604641105214327,
+    "delta": 0.011945797447100892,
+    "candidate_forward_score": 0.766223000953415,
+    "candidate_reverse_score": 0.735869512157221,
+    "direction_delta": {
+      "forward": 0.014705802085228092,
+      "reverse": 0.00037022600096559
+    },
+    "bootstrap_probability_positive": 0.9835,
+    "bootstrap_q025": 0.0009265928775565619,
+    "bootstrap_q975": 0.02288546482885572,
+    "leave_one_movie_out_min_delta": 0.009121658035670999,
+    "leave_one_movie_out_max_delta": 0.015343149866127725
+  },
+  "controls": {
+    "status": "PASS_EXP207_D4_FEATURE_CONTROLS",
+    "movies": 24,
+    "coordinate_maximum_absolute_error": 0.0,
+    "changed_edge_movies": 24
+  },
+  "manifest_recovery": {
+    "status": "PASS_EXP207_MANIFEST_RECOVERY_WITH_SINGLE_SELF_TEMP_BUG",
+    "original_manifest_sha256": "f8bfa61c75f014439bc119d24248d59a74cf8e3047e613f90e8d8a5c5fac9c70",
+    "listed_entries": 110,
+    "verified_existing_entries_before_cleanup": 109,
+    "sole_missing_entry": "results/SHA256SUMS.tmp",
+    "verifier_sha256": "b04a14202b11398eeabea3bcfd0cb3e6d1560548a6ca969fc8349e75421c58d5",
+    "verifier_tests": "4 passed"
+  },
+  "resource": {
+    "pool": "quadro",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "pid": 241019,
+    "linux_start_tick": 440311597,
+    "lease_final_state": "RELEASED_CURRENT"
+  },
+  "export_and_cleanup": {
+    "local_directory": "outputs/research/exp207_d4_feature_tta8_20260912",
+    "exported_top_level_result_files": 34,
+    "local_export_files_total": 37,
+    "local_export_bytes": 334608,
+    "removed": [
+      "off_forward_raw_candidate_cache",
+      "on_forward_raw_candidate_cache",
+      "off_reverse_raw_candidate_cache",
+      "on_reverse_raw_candidate_cache",
+      "gpu/tracking_repo"
+    ],
+    "removed_approx_mib": 98,
+    "remote_preserved_gpu_run": "351 KiB",
+    "remote_recovery": "15 KiB",
+    "post_cleanup_manifest_sha256": "f0fddcc5b1e52bbd1c17a7ac5ff1d590264f362dec30c25c6598c7e38a8bda11"
+  },
+  "kaggle_action": false
+}

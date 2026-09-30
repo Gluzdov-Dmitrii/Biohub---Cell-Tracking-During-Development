@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP185",
+  "observed_utc": "2026-09-11T04:26:47.0358569Z",
+  "status": "READY_FOR_GPU_REQUEST",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp185_synthetic_gap_target_oof_continuation_20260911",
+  "prelaunch_checks": {
+    "eight_focused_tests": "PASS",
+    "test_basetemp_removed": true,
+    "eight_bundle_and_preregistration_hashes": "PASS",
+    "launch_guard_sha256": "00d175ffc4bcde16da901c4a73e014b935162cdee88f2b06c9a55f3ac18823e1",
+    "reused_forward_sha256": "1dfc9318ad40bf331eaa3b780e61c7029c56bec1743fab3dff30f4db639a6768",
+    "reverse_manifest_cache_validator": "PASS_12_EXACT",
+    "shell_syntax": "PASS",
+    "reverse_result_absent": true,
+    "target_manifest_and_checkpoint_hashes": "PINNED_IN_LAUNCH_GUARD"
+  },
+  "request": {
+    "id": "biohub-exp185-synthetic-gap-target-oof-cont-20260911",
+    "owner": "biohub-agent",
+    "token": "exp185-token-f3267390-51af-465a-94d8-fc753b95156e",
+    "pool": "quadro",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_gib": 1,
+    "minutes": 30
+  },
+  "launch_rule": "Fresh RESERVED/CURRENT plus physical idle check; run reverse exactly once and never recompute forward.",
+  "authorized_scope": "Complete reciprocal target OOF and frozen gate only; no Kaggle execution or submission."
+}

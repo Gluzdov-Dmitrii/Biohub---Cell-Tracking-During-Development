@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_EXP236_SOURCE10_OFFICIAL",
+  "source_score": 0.8458659187983504,
+  "result_sha256": "0de2ad75c991e9ef5c0b0e4e0bcfe71612ea2549a309f309d626ce4763220058",
+  "gate_sha256": "c49c229ba63ba3a7c4300b786df9be0192ecebff4897694fe2cb5cb62bcd4b7d",
+  "checkpoint_sha256": "d043d5e15c8fbe84b097e6e4d8651acd5b102b747c33e655898ae78e2f879813",
+  "rows": 11,
+  "evidence_class": "source6bba inner validation used during training monitoring; not target OOF",
+  "prepare_receipt_sha256": "c434c68afe4b0e740e28b2482a7480ed623cdfab70a64ee0096c9fd3c2eae8d4",
+  "launch_receipt_sha256": "e5bff06be8d9a621acc5b87d4c842a5c459b7ed13778f84e228e60c00112f537",
+  "source_labels_read": true,
+  "target_labels_read": false
+}

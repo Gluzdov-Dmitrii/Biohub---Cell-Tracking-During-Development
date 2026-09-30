@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP177",
+  "status": "PREREGISTERED_COMPATIBILITY_ONLY_RETRY",
+  "parent": "EXP176",
+  "contract": "Same 64-shard four-block nested calibration, score, Wilson threshold rule and gate.",
+  "only_change": "Load the already SHA-verified owned EXP175 checkpoint with weights_only=False because it stores NumPy mean/std arrays.",
+  "source_sha256": "c78d4934416433d5bb9f40584a2eac80ef31f91b97513f9b2eb0a6c70e5c2acf",
+  "launcher_sha256": "49a4fcf29f96b164ce34aee311b9e41feeb9dd347f7256a285fb055f7d14a88d",
+  "data": "External calibration only; prospective and competition data closed.",
+  "kaggle_slots_reserved": 0
+}
+

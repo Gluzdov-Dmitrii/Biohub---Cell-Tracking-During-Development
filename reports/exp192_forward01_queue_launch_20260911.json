@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11T15:06:52Z",
+  "status": "RUNNING_VERIFIED_FORWARD_01",
+  "request": {
+    "id": "exp192-confirm-forward-01-20260911",
+    "owner": "biohub-exp192-agent",
+    "token": "77d6c90e-6bf5-421c-a6f5-70c60a0952f0",
+    "pool": "quadro",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "resources": {"count": 1, "cpu": 8, "ram_gib": 32, "disk_gib": 5, "minutes": 120},
+    "reservation_result": "RESERVED_CURRENT",
+    "queue_nonterminal_before_request": 0
+  },
+  "preflight": {
+    "physical_gpu_compute_processes": 0,
+    "movies_sha256": "6483a378d4f4afc31b9e3ac9e7fd5eb443f039d0fe0b48a90e5daea30e7952c9",
+    "data_ready_sha256": "9e67dd0b76bc2ab78b2737c50d9bcc4bd83312d857f30e974efe096c733fe57a",
+    "data_audit_sha256": "1abde88cb6feea73db1ce78ac6fe0994620e3c74e58bfee46455b691052768de",
+    "prior_launch_or_output": false
+  },
+  "process": {
+    "pid": 223585,
+    "start_tick": "435816567",
+    "identity_match": true,
+    "worker_pid": 223591,
+    "queue_state": "RUNNING",
+    "queue_health": "CURRENT",
+    "observed_gpu_worker_pid": 223591
+  },
+  "anti_adaptation": {"chunk_log_read": false, "scientific_metric_opened": false, "final_sha_present_at_live_check": false},
+  "kaggle_action_authorized": false
+}

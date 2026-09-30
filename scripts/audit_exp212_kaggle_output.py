@@ -48,6 +48,9 @@ def main() -> None:
         raise AssertionError(sorted(set(frame["row_type"])))
     if not np.isfinite(frame[["node_id", "t", "z", "y", "x", "source_id", "target_id"]].to_numpy(dtype=float)).all():
         raise AssertionError("non-finite numeric value")
+    for column in ("id", "node_id", "t", "source_id", "target_id"):
+        if not pd.api.types.is_integer_dtype(frame[column].dtype):
+            raise AssertionError(f"noninteger dtype: {column}: {frame[column].dtype}")
     observed_datasets = sorted(frame["dataset"].astype(str).unique())
     if observed_datasets != sorted(runtime["runtime_dataset_ids"]):
         raise AssertionError({"csv": observed_datasets, "runtime": runtime["runtime_dataset_ids"]})
@@ -60,6 +63,10 @@ def main() -> None:
         raise AssertionError("edge sentinel fields")
     if nodes.duplicated(["dataset", "node_id"]).any():
         raise AssertionError("duplicate node id")
+    if (nodes[["node_id", "t", "z", "y", "x"]] < 0).any().any():
+        raise AssertionError("negative node index or coordinate")
+    if edges.duplicated(["dataset", "source_id", "target_id"]).any():
+        raise AssertionError("duplicate edge")
     node_time = {(str(row.dataset), int(row.node_id)): int(row.t) for row in nodes.itertuples()}
     for row in edges.itertuples():
         source = (str(row.dataset), int(row.source_id))

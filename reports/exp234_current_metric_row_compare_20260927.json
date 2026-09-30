@@ -1,0 +1,25 @@
+{
+  "status": "PASS_EXP234_CURRENT_METRIC_ROWS_IDENTICAL_ON_SEALED175",
+  "current_result_sha256": "1360a497a02306d690e03968fc55511152cf05d604b37e75d4a41b6a5f3e3784",
+  "historical_result_sha256": "124541f647432c7b01a9e2223ef76524927ff2587ec95f8609f7b1765e43c07c",
+  "historical_baseline_metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+  "candidate_rows_identical": 175,
+  "baseline_rows_identical": 175,
+  "changed_row_fields": 0,
+  "score": 0.7426705533442897,
+  "baseline": 0.7427291486246141,
+  "candidate_division_totals": {
+    "division_tp": 4,
+    "division_fp": 50,
+    "division_fn": 134
+  },
+  "baseline_division_totals": {
+    "division_tp": 4,
+    "division_fp": 50,
+    "division_fn": 134
+  },
+  "target_labels_read_for_comparison": false,
+  "kaggle_post": false,
+  "verified_receipt_sha256": "04caea78971c9d749e8868036818a38f32d53c28943dd81eccb6269d2b1a009e",
+  "prepare_receipt_sha256": "f0e9e2cfac4a32bccaae89e0ccad6cc93a414f3200cd80a76ff574606aa98eb6"
+}

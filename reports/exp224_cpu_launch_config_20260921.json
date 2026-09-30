@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP224",
+  "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921",
+  "entrypoint": "run_exp224_fixed_nodes.py",
+  "files": {
+    "run_exp224_fixed_nodes.py": "scripts/run_exp224_fixed_nodes.py",
+    "input_package.json": "reports/exp221_source8_hybrid_input_package_20260921.json",
+    "science_config.json": "reports\\exp224_science_config_20260921.json",
+    "score_exp214_paired.py": "scripts/score_exp214_paired.py",
+    "test_exp224_fixed_nodes.py": "tests/test_exp224_fixed_nodes.py"
+  },
+  "arguments": [
+    "--config",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/science_config.json"
+  ],
+  "resources": {
+    "cpu": 4,
+    "ram_gib": 32,
+    "gpus": 0,
+    "timeout_seconds": 7200
+  },
+  "reviewed_sources": {
+    "run_exp224_fixed_nodes.py": "085d5445d4f8f2685487e09354c708e2193b5299dd8b116e5973487ea608ec94",
+    "input_package.json": "c848bc6e24379f3ae3fcfb49d937778efccd732edeadeb842d2de2a6ec819707",
+    "science_config.json": "f1e2d3d8db39ac06b0c7ac492f943da986f975e3d1f7ac28334220a3d3daa2c9",
+    "score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+    "test_exp224_fixed_nodes.py": "469bf9fe85bfd9e99c1e4ee514a4fb26e7e3d1858e9ae797e463a7d9b6a8eee7"
+  },
+  "launch_approved_after_code_review": true,
+  "note": "Grok-generated science reviewed: original IDs/float coords preserved; exact classical anisotropy/isolate/gap/CSV tests4PASS; official evaluator/source pins and baseline replay mandatory."
+}

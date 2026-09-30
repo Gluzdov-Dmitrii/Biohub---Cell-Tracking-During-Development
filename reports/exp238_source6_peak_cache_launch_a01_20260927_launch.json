@@ -1,0 +1,58 @@
+{
+  "cohort": "source6",
+  "config": {
+    "alias": "nsu-a100",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp238_source6_peak_cache_v1_20260927/exp238_plan.json",
+      "--plan-sha256",
+      "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+      "--manifest-sha256",
+      "5e6132f2444c405801fb9a450fdcce94ec6c6768f7f88fa517ff95fbfcd20166"
+    ],
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp238_source6_peak_cache_v1_20260927",
+    "cohort": "source6",
+    "cpu_affinity": "0-7",
+    "experiment": "EXP238",
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "lease_id": "exp238-source6-peak-cache-v1a01-20260927",
+    "max_seconds": 7200,
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp238_source6_peak_cache_v1_20260927",
+    "script": "run_exp238_peak_cache.py",
+    "token": "exp238_source6_peak_cache_v1_20260927"
+  },
+  "control": {
+    "controller_pid": 479237
+  },
+  "launch": {
+    "observe": 930473,
+    "wrapper": 930472
+  },
+  "lease": {
+    "alias": "nsu-a100",
+    "allocated": 1790509229.4736094,
+    "count": 1,
+    "cpu": 8,
+    "created": 1790509229.4735582,
+    "disk_gib": 4.0,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "health": "CURRENT",
+    "heartbeat": 1790509229.4736094,
+    "host": "ngpu01",
+    "id": "exp238-source6-peak-cache-v1a01-20260927",
+    "minutes": 130,
+    "owner": "biohub-agent",
+    "pool": "a100",
+    "process": null,
+    "project": "biohub-cell-tracking-during-development",
+    "ram_gib": 32.0,
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp238_source6_peak_cache_v1_20260927",
+    "state": "RESERVED",
+    "token": "exp238_source6_peak_cache_v1_20260927",
+    "waiting_ahead": []
+  },
+  "source_labels_read": false,
+  "status": "LAUNCHED_EXP238_SOURCE6_PEAK_CACHE_A01",
+  "target_data_opened": false
+}

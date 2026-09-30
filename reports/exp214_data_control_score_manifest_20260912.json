@@ -1,0 +1,17 @@
+{
+  "arms": {
+    "full12_same_single_detector_public_graph": {
+      "receipt": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_full12_20260912/output/inference_receipt.json",
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_full12_20260912/output/submission.csv"
+    },
+    "reduced12_same_single_detector_public_graph": {
+      "receipt": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced12_20260912/output/inference_receipt.json",
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced12_20260912/output/submission.csv"
+    },
+    "reduced60_same_single_detector_public_graph": {
+      "receipt": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced60_20260912/output/inference_receipt.json",
+      "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced60_20260912/output/submission.csv"
+    }
+  },
+  "reduced60_training_status": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_equal_time44b6_s2026_20260912/output/status.json"
+}

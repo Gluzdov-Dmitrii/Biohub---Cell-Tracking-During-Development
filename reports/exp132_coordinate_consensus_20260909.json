@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP132",
+  "date": "2026-09-09",
+  "status": "REJECT_PRIVATE_GATE_ONE_MOVIE_REGRESSION",
+  "mechanism": "mutual-nearest coordinate consensus below 2 um, alpha 0.5, base registered topology preserved",
+  "source_sha256": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+  "result_sha256": "7838dbd9887c1402aa26cf7f927b22ddf180a13d32f67eeffb40e569bb3a4739",
+  "scratch_topology_consensus_score": 0.6293397176737355,
+  "zebrahub_parent_score": 0.6294409207057007,
+  "zebrahub_topology_consensus_score": 0.6315026678809506,
+  "pooled_delta_vs_zebrahub_parent": 0.002061747175249873,
+  "per_movie_deltas_vs_zebrahub_parent": [
+    0.011178052927895754,
+    0.0039022649364779394,
+    0.0030978882992751533,
+    -0.013247795663729689
+  ],
+  "seed271828_replication": {
+    "result_sha256": "8de68211d9880ac8be6df3767c5290f257c4957fed26a973edbe477bbed52b49",
+    "parent_score": 0.6711156817428906,
+    "consensus_score": 0.6746626389178432,
+    "pooled_delta": 0.0035469571749525697,
+    "per_movie_deltas": [
+      0.013178662384916828,
+      -0.002554537135158852,
+      0.0058620730090243045,
+      -0.003836060063336477
+    ]
+  },
+  "gate": "must exceed best parent pooled and be nonnegative on every development movie",
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

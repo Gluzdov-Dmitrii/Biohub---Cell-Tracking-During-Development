@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP199",
+  "recorded_at": "2026-09-11T10:00:05Z",
+  "status": "FAILED_BEFORE_DATA_OR_SCORE_R2",
+  "failure": "ModuleNotFoundError: No module named 'evaluate_cached_short_track_family'",
+  "cause": "The evaluator reached main but failed while importing the existing component filter before loading the movie list or any cache. A static dependency review also found that both frozen postprocessors require select_nested_pooled_synthetic_gap.py.",
+  "evidence": "No target dataset was opened and no forward.json, reverse.json, nested_selection.json or stability.json exists from this invocation.",
+  "correction": {
+    "evaluate_cached_short_track_family.py": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "select_nested_pooled_synthetic_gap.py": "0c9bdc68c6b1e80d213948262f15fed8844035f5e535a3c02db8e9134f9afcac"
+  },
+  "scope": "Dependency-only packaging correction after static transitive-import review; preregistered evaluator, arms, parameters, selector and gate remain unchanged.",
+  "retry_authorized_by_protocol": true,
+  "kaggle_action_authorized": false
+}

@@ -1,0 +1,87 @@
+{
+  "experiment": "EXP140",
+  "date": "2026-09-09",
+  "hypothesis": "Replicate EXP139 source-only detector calibration with independent seed 314159.",
+  "source_selection": {
+    "threshold_grid": [0.95, 0.97, 0.985, 0.99],
+    "source_scores": [0.5816455209922367, 0.6010600119199053, 0.5972359839066589, 0.6045405004426337],
+    "source_node_recalls": [0.9253968253968254, 0.9124338624338624, 0.892063492063492, 0.8772486772486772],
+    "selected_threshold": 0.99,
+    "selection_sha256": "bf29f5ac354ca6c7abcd721d1efeb934faf230c0edfb3b7168920822bd2d9b7d",
+    "target_data_used_for_selection": false
+  },
+  "implementation": {
+    "parent_checkpoint_sha256": "2ec65d049fcb23634060923047607699bf1c64183b523b9c102cbc1b3e44a346",
+    "selector_sha256": "ad198b844899bdb6f23d3fe962990bc10a996d21bddb0127f482279ead2df4c7",
+    "launcher_sha256": "66fbd75b8fc32665a94f17011fcbd9259002ce806e54c28859459d6c2a70d764",
+    "source_movies_sha256": "44044f26d08e12527bc4e75ddce1fc06ec072413182f4ab6a4f3517cacc58ac8",
+    "target_eval_log_sha256": "9b0112daaa070b912690dfa958bdbce133dd5cb9d49b726acc21fcdd32a400ce"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "queue_id": "biohub-exp140-source-threshold-seed314159-20260909",
+    "lease_final_state": "RELEASED",
+    "verified_after_exit": "PID absent; GPU 5 MiB and 0% utilization"
+  },
+  "status": "REJECT_PRIVATE_DEVELOPMENT_GATE",
+  "arm": "registered_hungarian",
+  "inputs": {
+    "parent": "outputs\\research\\exp130_official24_private_first\\zebrahub_registered_result.json",
+    "parent_sha256": "7ef326b3de1e4f6360535105d727f5c9fb2a6be744298764cee00e517cc3a746",
+    "candidate": "outputs\\research\\exp130_official24_private_first\\exp140_remote_artifacts\\target_registered_result.json",
+    "candidate_sha256": "56b44294e99d5eda8e81970e4f09656d82371fb49c1734d1233cae81f59bbaad"
+  },
+  "dataset_count": 4,
+  "parent_score": 0.6294409207057007,
+  "candidate_score": 0.62779109654087,
+  "pooled_delta": -0.0016498241648307266,
+  "parent_node_recall": 0.9713970448410798,
+  "candidate_node_recall": 0.9688222497546233,
+  "node_recall_delta": -0.002574795086456527,
+  "per_movie": [
+    {
+      "dataset": "6bba_05b6850b.zarr",
+      "parent_score": 0.6259709639621617,
+      "candidate_score": 0.6247214150670682,
+      "delta": -0.001249548895093433,
+      "parent_node_recall": 0.9941927990708479,
+      "candidate_node_recall": 0.9941927990708479
+    },
+    {
+      "dataset": "6bba_05db0fb1.zarr",
+      "parent_score": 0.7813032143510334,
+      "candidate_score": 0.7754681566090487,
+      "delta": -0.005835057741984784,
+      "parent_node_recall": 0.9723352318958502,
+      "candidate_node_recall": 0.9690805532953621
+    },
+    {
+      "dataset": "6bba_062c8d37.zarr",
+      "parent_score": 0.5284112327620847,
+      "candidate_score": 0.5319856412382532,
+      "delta": 0.0035744084761685224,
+      "parent_node_recall": 0.9451612903225807,
+      "candidate_node_recall": 0.943010752688172
+    },
+    {
+      "dataset": "6bba_07477033.zarr",
+      "parent_score": 0.5356919490620679,
+      "candidate_score": 0.5318788078550388,
+      "delta": -0.003813141207029025,
+      "parent_node_recall": 0.9738988580750407,
+      "candidate_node_recall": 0.9690048939641109
+    }
+  ],
+  "checks": {
+    "positive_pooled_score": false,
+    "no_negative_movie_delta": false,
+    "no_pooled_node_recall_regression": false
+  },
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0,
+  "cleanup": "Empty remote launcher log removed; source-grid caches, selection, target result and logs preserved as verified evidence.",
+  "decision": "Reject. Independent seed selects the opposite end of the grid (0.99 rather than 0.95), then loses pooled score, pooled node recall, and 3 of 4 movies. Source-threshold calibration is seed-unstable and not private-ready."
+}

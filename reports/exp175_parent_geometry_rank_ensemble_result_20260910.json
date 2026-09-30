@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP175",
+  "status": "REJECT_EXTERNAL_GATE",
+  "raw_result_sha256": "39805adc0d21b8b2df77d218ebd6ba68ded22a07309998aeb1081d4921e06241",
+  "run_log_sha256": "39805adc0d21b8b2df77d218ebd6ba68ded22a07309998aeb1081d4921e06241",
+  "checkpoint_sha256": "52cd08b05f66dd9b59ac4f371c06d4e410909fc1ab5a068a6e63c93897a02dac",
+  "raw": {
+    "calibration_ap": 0.2576149971361082,
+    "prospective_ap": 0.20873146294839176,
+    "prospective_precision": 0.4148936170212766,
+    "prospective_recall": 0.21311475409836064
+  },
+  "geometry": {
+    "calibration_ap": 0.2775895413668313,
+    "prospective_ap": 0.25438503267639034,
+    "prospective_precision": 0.3855421686746988,
+    "prospective_recall": 0.17486338797814208
+  },
+  "blend": {
+    "calibration_ap": 0.2853039461079227,
+    "prospective_ap": 0.24473096255210644,
+    "prospective_precision": 0.4188034188034188,
+    "prospective_recall": 0.2677595628415301
+  },
+  "conclusion": "Geometry adds ranking signal and the blend exceeds the recall target, but calibration-only threshold transport misses the precision gate. Do not retune on the observed prospective window.",
+  "data_access": "External fit/calibration/prospective windows only; no competition data.",
+  "resource_cleanup": "Process verified stopped; RTX6000 observed at 5 MiB and 0%; queue request released. Reproducible temporary bytecode removed locally.",
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining_after_live_account_check": 4
+}

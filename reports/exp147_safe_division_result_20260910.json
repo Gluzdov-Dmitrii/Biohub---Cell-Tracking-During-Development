@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP147",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "parent": "Source-only-selected scratch seed 314159 in both embryo directions",
+  "folds": {
+    "44b6_to_6bba": {"parent_score": 0.6704928064276746, "candidate_score": 0.670759881299798, "delta": 0.0002670748721234073, "division_tp_delta": 0, "division_fp_delta": 34},
+    "6bba_to_44b6": {"parent_score": 0.7019694675732845, "candidate_score": 0.7026955635927967, "delta": 0.0007260960195122346, "division_tp_delta": 0, "division_fp_delta": 9}
+  },
+  "pooled": {"parent_score": 0.6761456762872732, "candidate_score": 0.6764957947438978, "score_delta": 0.00035011845662458185, "node_recall_delta": 0.0, "division_tp_delta": 0, "division_fp_delta": 43, "division_precision": 0.0},
+  "interpretation": "The attributed geometric repair changes edge counts slightly but identifies none of 13 annotated divisions and creates 43 false division parents. Reject; a learned division signal or independently validated veto is required.",
+  "artifacts": {"forward_result_sha256": "25137007118a7aa13e5ff38add8ab7f126f0aa603a382959b8e0387c231eb335", "reverse_result_sha256": "3556d699c32dbe0dbc2c7ccf6235bb3c9c1a35143da28852c746b41aa1deda03", "gate_sha256": "2fa09da681ad85dd21719bcb2342fb0c9c41bd7857a1f278c9acb52c580b65d2", "evaluator_sha256": "f5f02f26b6871f7c055bd6f078fe7abf1cb2c63bb8a427cdd06392ee73310f73", "analyzer_sha256": "1082d5a6c37aaaa470cd2fbe3b5d8b67e6aa5851420b43851b97e26b87f6b9e4"},
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

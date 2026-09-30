@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_EXP234_TARGET175_OFFICIAL",
+  "official_score": 0.7426705533442897,
+  "delta_vs_exp214": -5.859528032448047e-05,
+  "baseline_score": 0.7427291486246141,
+  "baseline_replay": "PASS_1e-12",
+  "result_sha256": "124541f647432c7b01a9e2223ef76524927ff2587ec95f8609f7b1765e43c07c",
+  "gate_sha256": "37b07134c9ff27bf3eaf318d51185fdefb11737cb4721a1bf2fdd390dd94a664",
+  "rows": 175,
+  "target_labels_read_after_graph_gate": true,
+  "prepare_receipt_sha256": "1b4d5cc33f9e1130dd1488ca213df3ad26b6a361e778551e27e04442fce2aec6",
+  "launch_receipt_sha256": "219f874cc788f861a6a3c71330a4a2b70b55fb745cc2c40dffb6184d59b96b88",
+  "coordinator_receipt_sha256": "b2d2e7e7de0b81e21a963182c9e935a50bf4c913f194632ad20fce5f540f1033",
+  "metric_identity": "HISTORICAL_EXP214_SUPPORT_PACK_REPLAY",
+  "historical_exp214_score": 0.7426705533442897,
+  "current_organizer_score": null,
+  "evidence_class": "Exact EXP214-pinned historical evaluator replay; its weak-component division metric is stale relative to the current organizer local-fork metric. Not a current official score or pristine untouched OOF.",
+  "kaggle_post": false,
+  "stopped_handoff_sha256": "336757ebebf325712f22ffc80d432d35a274654a81d5fc60666b8f0cb7ae9bc1",
+  "recovery_reason": "verifier_prediction_hash_token_order"
+}

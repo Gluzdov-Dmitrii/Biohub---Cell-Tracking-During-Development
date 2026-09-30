@@ -1,0 +1,41 @@
+{
+  "experiment": "EXP147",
+  "status": "PREREGISTERED_BEFORE_CANDIDATE_EVALUATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "A conservative geometric second-daughter repair recovers real divisions missed by one-to-one registered Hungarian without materially damaging edge quality.",
+  "attribution": {
+    "source": "qrz1201/biohub-public-0-941-repro v1",
+    "source_sha256": "24253cae5a958b83d69e201719388031f5758080c5d01ca1a8e374f3a8225389",
+    "mechanism": "add_safe_divisions_postlink geometric core; DeepCenter veto is not imported"
+  },
+  "parent": "EXP146 source-only-selected scratch topology seed in each embryo direction; if EXP146 consensus fails, this remains an independent topology ablation on that scratch parent.",
+  "frozen_parameters": {
+    "parent_to_new_daughter_max_um": 4.7,
+    "existing_child_max_um": 7.8,
+    "sister_max_um": 7.2,
+    "require_nearest_orphan_to_existing_child": true,
+    "require_both_daughters_continue_one_frame": true,
+    "minimum_granddaughter_separation_growth_um": 2.25,
+    "frame_fraction_cap": 0.008,
+    "global_edge_fraction_cap": 0.004,
+    "proposal_rank": "parent_distance + 0.15 * sister_distance"
+  },
+  "implementation": {
+    "evaluator_sha256": "f5f02f26b6871f7c055bd6f078fe7abf1cb2c63bb8a427cdd06392ee73310f73",
+    "analyzer_sha256": "1082d5a6c37aaaa470cd2fbe3b5d8b67e6aa5851420b43851b97e26b87f6b9e4",
+    "launcher_sha256": "31c100b53604ceaa3e1a24fd7ebe25538fa767ba9cb20ab7067e2874c3fdee61",
+    "tests": "8 passed before remote staging; evaluator-specific fidelity tests 2 passed after the final ordering correction"
+  },
+  "promotion_gate": {
+    "official_score_delta_each_embryo": "> 0",
+    "pooled_official_score_delta": "> 0",
+    "division_tp_delta_pooled": "> 0",
+    "division_tp_delta_each_embryo": ">= 0",
+    "division_precision_pooled": ">= 0.25",
+    "adjusted_edge_jaccard_delta_each_embryo": ">= -0.005",
+    "node_recall_delta_each_embryo": ">= 0"
+  },
+  "validation_warning": "Prospective candidate-specific full OOF, not an untouched locked audit; all parameters copied before candidate evaluation and no sweep is allowed.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

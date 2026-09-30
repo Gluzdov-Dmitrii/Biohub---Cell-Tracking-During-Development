@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP195_ON_EXP192_CONFIRMATION",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_BEFORE_EXP192_INFERENCE",
+  "relationship_to_exp192": "Adds a third fixed policy evaluation using outputs already required by EXP190/191 confirmation; it does not change the two original policies, models, parameters, cohort, chunks, or GPU work.",
+  "frozen_policy": {
+    "forward_6bba_target": "Always base min8, identical to EXP190 and EXP191.",
+    "reverse_44b6_target_feature": "min3 nodes_removed / max(base no-filter num_pred_nodes, 1)",
+    "reverse_operator": "choose g45_t20+min6 when feature <= 0.08388494131521039; otherwise choose base min3",
+    "threshold_source": "Linear q75 over all 12 previously opened reverse-development movies."
+  },
+  "policy_artifact": {
+    "path": "outputs/research/exp130_official24_private_first/exp195_fixed_reverse_gate/deployable_policy.json",
+    "sha256": "23c9d3553df6239d643be0261beba4bf8338fa123c6ea15a06bfbfdb1d57e439",
+    "freeze_script_sha256": "bc3bf987ab3906245a8898b6d70d902d212e175467a97bd31d5c54cc5da6cb0a"
+  },
+  "primary_evaluation": "Apply once to all 175 untouched EXP192 movies after all chunks pass the no-metric gate; score pooled official sufficient statistics.",
+  "promotion_gate_vs_exp190": "Forward must reproduce exactly; reverse and pooled delta must be positive; direction-stratified paired-bootstrap 95% lower bound must be >0. Report movie selection counts and all standard diagnostics.",
+  "anti_adaptation": "The threshold and rule are frozen now. No target feature distribution, intermediate target graph, target score, or per-movie metric may change them.",
+  "kaggle_action_authorized": false
+}

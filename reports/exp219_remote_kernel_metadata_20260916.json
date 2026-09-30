@@ -1,0 +1,24 @@
+{
+  "id": 134590964,
+  "ref": "dmitriigluzdov/biohub-exp219-frontier90-public",
+  "title": "Biohub EXP219 Frontier90 Public",
+  "author": "Dmitrii Gluzdov",
+  "slug": "biohub-exp219-frontier90-public",
+  "lastRunTime": "2026-09-13T09:58:59.175Z",
+  "language": "python",
+  "kernelType": "script",
+  "isPrivate": true,
+  "enableGpu": true,
+  "enableInternet": false,
+  "datasetDataSources": [
+    "dmitriigluzdov/biohub-exp219-frontier90-models",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1"
+  ],
+  "competitionDataSources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "enableTpu": false,
+  "currentVersionNumber": 1,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machineShape": "NvidiaTeslaT4"
+}

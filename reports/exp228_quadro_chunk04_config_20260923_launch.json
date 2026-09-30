@@ -1,0 +1,52 @@
+{
+  "lease": {
+    "id": "exp228-horaz-quadro-chunk04-20260923",
+    "owner": "biohub-agent",
+    "token": "exp228_horaz_quadro_chunk04_20260923",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk04_20260923",
+    "pool": "quadro",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 4.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790229338.502213,
+    "heartbeat": 1790229338.502252,
+    "gpus": [
+      "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba"
+    ],
+    "process": null,
+    "allocated": 1790229338.502252,
+    "host": "prepost",
+    "alias": "nsu-quadro",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 377149,
+    "observe": 377150
+  },
+  "control": {
+    "controller_pid": 377174
+  },
+  "config": {
+    "experiment": "EXP228",
+    "lease_id": "exp228-horaz-quadro-chunk04-20260923",
+    "token": "exp228_horaz_quadro_chunk04_20260923",
+    "pool": "quadro",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_quadro_v2_20260923",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk04_20260923",
+    "max_seconds": 10800,
+    "cpu_affinity": "8-15",
+    "script": "run_exp228_ensemble.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_quadro_v2_20260923/plan_chunk04.json",
+      "--plan-sha256",
+      "06137176f627b13fe37f21e714d1a32c80fa631cdbba7c3e1aaed8515f498213"
+    ],
+    "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "alias": "nsu-quadro"
+  }
+}

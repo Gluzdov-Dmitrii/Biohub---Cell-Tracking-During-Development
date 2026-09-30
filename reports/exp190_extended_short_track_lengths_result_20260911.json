@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP190",
+  "status": "PASS_NESTED_POOLED_GAIN",
+  "control_maximum_absolute_error": 0.0,
+  "true_24_movie_pooled": {
+    "baseline": 0.6761456762872734,
+    "nested_selected": 0.7430723145299416,
+    "delta_from_baseline": 0.0669266382426682,
+    "delta_from_exp189": 0.0025562984738953,
+    "edge_jaccard": 0.7363485934914507,
+    "node_recall": 0.9161111787626908,
+    "negative_movie_count": 3
+  },
+  "selection": {
+    "forward": {"min8": 9, "min10": 3},
+    "reverse": {"min3": 12}
+  },
+  "stability": {
+    "paired_stratified_bootstrap_draws": 20000,
+    "probability_positive": 0.9999,
+    "q025": 0.03233915820733131,
+    "median": 0.06767642293721937,
+    "q975": 0.09691323521629944,
+    "direction_delta_forward": 0.07432682246303846,
+    "direction_delta_reverse": 0.03352981858297044,
+    "leave_one_movie_out_min_delta": 0.061276500831547454,
+    "leave_one_movie_out_max_delta": 0.07746004839771659
+  },
+  "artifacts": {
+    "nested_selection_sha256": "7f657cf8c0b13de9ed02b4da9e26906e1d6d0f24a3899323c609dbff6183e19c",
+    "control_sha256": "e3bc51cfc58545e37ed19b37e1d34ced548175769600ccfe5a9795e62b92d9d8",
+    "stability_sha256": "d51b6815d0a23af895cb776f51e40bf59cfad6fa82035e36e17a42fe30dbf68f"
+  },
+  "eligible_for_kaggle_submission": false
+}

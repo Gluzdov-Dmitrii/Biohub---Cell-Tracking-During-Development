@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "chunk": "forward_01",
+  "queue_id": "exp192-confirm-forward-01-20260911",
+  "queue_token": "77d6c90e-6bf5-421c-a6f5-70c60a0952f0",
+  "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_01_20260911",
+  "process": {
+    "pid": 223585,
+    "start_tick": "435816567",
+    "worker_pid": 223591,
+    "process_tree_absent_before_release": true,
+    "gpu_worker_absent_before_release": true
+  },
+  "verification": {
+    "sha256sums_check": "PASS",
+    "status": "PASS_EXP192_CHUNK_STRUCTURE_NO_METRICS",
+    "direction": "forward",
+    "movie_count": 24,
+    "movies_sha256": "6483a378d4f4afc31b9e3ac9e7fd5eb443f039d0fe0b48a90e5daea30e7952c9",
+    "validated_file_count": 3,
+    "scientific_metrics_emitted": false,
+    "sha256sums_sha256": "e5b84a8a2bfecb29defaab29ffd09fb939148437c1dc0a73a47b089d213ba2bd",
+    "structure_validation_sha256": "73d5753301f02b784e95af7bdb62ea754a3cdb53f7a41750b19aa9b8c1b3caf0"
+  },
+  "queue_final_state": "RELEASED",
+  "queue_health": "CURRENT",
+  "scientific_output_opened": false,
+  "diagnostic_note": "The first pgrep stop-check matched its own literal run-path command and exited before hash validation or release. The corrected check constructed the run tag from fragments, then proved both recorded PIDs and every matching process absent before validation and release.",
+  "kaggle_action": false
+}

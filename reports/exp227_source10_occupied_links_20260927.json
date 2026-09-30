@@ -1,0 +1,1608 @@
+{
+  "status": "PASS_EXP227_SOURCE10_OCCUPIED_LINKS",
+  "source_score": 0.8114014924249717,
+  "source_graph_gate": "PASS_EXP227_SOURCE_GRAPH10_BEFORE_LABEL_ACCESS",
+  "rows": [
+    {
+      "dataset": "44b6_996155de",
+      "stages": {
+        "unmatched_edge_nodes": 7,
+        "linear_gt_one_frame_gap": 7,
+        "both_gt_anchors_matched": 1,
+        "anchors_supported": 1,
+        "occupied_anchor_gaps": 1
+      },
+      "occupied_patterns": {
+        "source_outgoing_only": 1
+      },
+      "source_outgoing_occupants": {
+        "edges": 1,
+        "matched_other_gt": 0,
+        "unmatched": 1,
+        "within_7um": 0,
+        "over_7um": 1,
+        "median_distance_um": 8.52157189138248
+      },
+      "target_incoming_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_996155de",
+          "gt_node_id": 499000000002,
+          "t": 80,
+          "gt_predecessor": 498000000002,
+          "gt_successor": 500000000002,
+          "pred_source_anchor": 7071,
+          "pred_target_anchor": 7294,
+          "source_outgoing": [
+            {
+              "pred_node_id": 7182,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.52157189138248,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        }
+      ],
+      "association_limited_fn": 2,
+      "association_source_outgoing_classes": {
+        "unmatched_only": 2
+      },
+      "association_distinct_gt_sources": 2,
+      "association_details": [
+        {
+          "gt_source_id": 444000000001,
+          "gt_target_id": 445000000001,
+          "pred_source_id": 1990,
+          "pred_target_id": 2080,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 445000000001,
+          "gt_target_id": 446000000001,
+          "pred_source_id": 2080,
+          "pred_target_id": 9518,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "stages": {
+        "unmatched_edge_nodes": 37,
+        "linear_gt_one_frame_gap": 33,
+        "both_gt_anchors_matched": 9,
+        "anchors_supported": 9,
+        "occupied_anchor_gaps": 9
+      },
+      "occupied_patterns": {
+        "same_intermediate": 3,
+        "different_intermediates": 1,
+        "source_outgoing_only": 4,
+        "target_incoming_only": 1
+      },
+      "source_outgoing_occupants": {
+        "edges": 8,
+        "matched_other_gt": 1,
+        "unmatched": 7,
+        "within_7um": 1,
+        "over_7um": 7,
+        "median_distance_um": 7.272894014580845
+      },
+      "target_incoming_occupants": {
+        "edges": 5,
+        "matched_other_gt": 0,
+        "unmatched": 5,
+        "within_7um": 0,
+        "over_7um": 5,
+        "median_distance_um": 7.278567102287373
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 185000000043,
+          "t": 42,
+          "gt_predecessor": 184000000043,
+          "gt_successor": 186000000043,
+          "pred_source_anchor": 16942,
+          "pred_target_anchor": 18077,
+          "source_outgoing": [
+            {
+              "pred_node_id": 17506,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.094851236107774,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 17506,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.094851236107774,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 17506,
+          "occupancy_pattern": "same_intermediate"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 192000000043,
+          "t": 49,
+          "gt_predecessor": 191000000043,
+          "gt_successor": 193000000043,
+          "pred_source_anchor": 54078,
+          "pred_target_anchor": 22221,
+          "source_outgoing": [
+            {
+              "pred_node_id": 21634,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.053592463149597,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 21653,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.946728190377755,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "different_intermediates"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 195000000042,
+          "t": 52,
+          "gt_predecessor": 194000000043,
+          "gt_successor": 196000000042,
+          "pred_source_anchor": 22827,
+          "pred_target_anchor": 24002,
+          "source_outgoing": [
+            {
+              "pred_node_id": 23440,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.135149910265945,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 206000000041,
+          "t": 63,
+          "gt_predecessor": 205000000041,
+          "gt_successor": 207000000041,
+          "pred_source_anchor": 29555,
+          "pred_target_anchor": 30863,
+          "source_outgoing": [],
+          "target_incoming": [
+            {
+              "pred_node_id": 30247,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.835466243306776,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "target_incoming_only"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 208000000041,
+          "t": 65,
+          "gt_predecessor": 207000000041,
+          "gt_successor": 209000000042,
+          "pred_source_anchor": 30863,
+          "pred_target_anchor": 32085,
+          "source_outgoing": [
+            {
+              "pred_node_id": 31508,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 10.539036438996689,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 209000000034,
+          "t": 66,
+          "gt_predecessor": 208000000033,
+          "gt_successor": 210000000034,
+          "pred_source_anchor": 31681,
+          "pred_target_anchor": 33009,
+          "source_outgoing": [
+            {
+              "pred_node_id": 32327,
+              "match_class": "other_gt",
+              "matched_gt_node_id": 209000000033,
+              "distance_to_missed_gt_um": 6.512682938889317,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 219000000011,
+          "t": 76,
+          "gt_predecessor": 218000000011,
+          "gt_successor": 220000000011,
+          "pred_source_anchor": 38230,
+          "pred_target_anchor": 39519,
+          "source_outgoing": [
+            {
+              "pred_node_id": 38864,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.267220926874317,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 38864,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.267220926874317,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 38864,
+          "occupancy_pattern": "same_intermediate"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 221000000011,
+          "t": 78,
+          "gt_predecessor": 220000000011,
+          "gt_successor": 222000000011,
+          "pred_source_anchor": 39519,
+          "pred_target_anchor": 40809,
+          "source_outgoing": [
+            {
+              "pred_node_id": 40158,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.278567102287373,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 40158,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.278567102287373,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 40158,
+          "occupancy_pattern": "same_intermediate"
+        },
+        {
+          "dataset": "44b6_c50204e0",
+          "gt_node_id": 230000000033,
+          "t": 87,
+          "gt_predecessor": 229000000033,
+          "gt_successor": 231000000033,
+          "pred_source_anchor": 45592,
+          "pred_target_anchor": 46885,
+          "source_outgoing": [
+            {
+              "pred_node_id": 46258,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.129658564756099,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        }
+      ],
+      "association_limited_fn": 30,
+      "association_source_outgoing_classes": {
+        "absent": 5,
+        "unmatched_only": 24,
+        "other_gt_only": 1
+      },
+      "association_distinct_gt_sources": 30,
+      "association_details": [
+        {
+          "gt_source_id": 159000000046,
+          "gt_target_id": 160000000046,
+          "pred_source_id": 5362,
+          "pred_target_id": 5746,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 170000000033,
+          "gt_target_id": 171000000033,
+          "pred_source_id": 10108,
+          "pred_target_id": 10590,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 171000000043,
+          "gt_target_id": 172000000044,
+          "pred_source_id": 10482,
+          "pred_target_id": 10976,
+          "source_outgoing_class": "other_gt_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 179000000043,
+          "gt_target_id": 180000000043,
+          "pred_source_id": 14329,
+          "pred_target_id": 14846,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 183000000043,
+          "gt_target_id": 184000000043,
+          "pred_source_id": 16476,
+          "pred_target_id": 16942,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 184000000034,
+          "gt_target_id": 185000000034,
+          "pred_source_id": 17201,
+          "pred_target_id": 17787,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 185000000034,
+          "gt_target_id": 186000000034,
+          "pred_source_id": 17787,
+          "pred_target_id": 18293,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 186000000034,
+          "gt_target_id": 187000000034,
+          "pred_source_id": 18293,
+          "pred_target_id": 18889,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 188000000034,
+          "gt_target_id": 189000000034,
+          "pred_source_id": 19430,
+          "pred_target_id": 19941,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 190000000033,
+          "gt_target_id": 191000000033,
+          "pred_source_id": 20512,
+          "pred_target_id": 21129,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 193000000033,
+          "gt_target_id": 194000000033,
+          "pred_source_id": 22330,
+          "pred_target_id": 22962,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 193000000042,
+          "gt_target_id": 194000000042,
+          "pred_source_id": 22084,
+          "pred_target_id": 22714,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 194000000042,
+          "gt_target_id": 195000000041,
+          "pred_source_id": 22714,
+          "pred_target_id": 23354,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 212000000041,
+          "gt_target_id": 213000000041,
+          "pred_source_id": 33965,
+          "pred_target_id": 34660,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 214000000041,
+          "gt_target_id": 215000000041,
+          "pred_source_id": 35328,
+          "pred_target_id": 35935,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 216000000033,
+          "gt_target_id": 217000000033,
+          "pred_source_id": 36891,
+          "pred_target_id": 37478,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 216000000034,
+          "gt_target_id": 217000000034,
+          "pred_source_id": 36869,
+          "pred_target_id": 37538,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 228000000034,
+          "gt_target_id": 229000000033,
+          "pred_source_id": 44882,
+          "pred_target_id": 45592,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 229000000011,
+          "gt_target_id": 230000000011,
+          "pred_source_id": 45529,
+          "pred_target_id": 46187,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 230000000011,
+          "gt_target_id": 231000000011,
+          "pred_source_id": 46187,
+          "pred_target_id": 46908,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 231000000011,
+          "gt_target_id": 232000000011,
+          "pred_source_id": 46908,
+          "pred_target_id": 47537,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 231000000032,
+          "gt_target_id": 232000000032,
+          "pred_source_id": 46809,
+          "pred_target_id": 47545,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 232000000011,
+          "gt_target_id": 233000000011,
+          "pred_source_id": 47537,
+          "pred_target_id": 48188,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 233000000032,
+          "gt_target_id": 234000000032,
+          "pred_source_id": 48239,
+          "pred_target_id": 48900,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 234000000010,
+          "gt_target_id": 235000000010,
+          "pred_source_id": 48924,
+          "pred_target_id": 49584,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 234000000032,
+          "gt_target_id": 235000000032,
+          "pred_source_id": 48900,
+          "pred_target_id": 49595,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 237000000011,
+          "gt_target_id": 238000000011,
+          "pred_source_id": 50967,
+          "pred_target_id": 51562,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 237000000032,
+          "gt_target_id": 238000000032,
+          "pred_source_id": 50969,
+          "pred_target_id": 51539,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 238000000032,
+          "gt_target_id": 239000000032,
+          "pred_source_id": 51539,
+          "pred_target_id": 52222,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 240000000010,
+          "gt_target_id": 241000000010,
+          "pred_source_id": 52835,
+          "pred_target_id": 53335,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "stages": {
+        "unmatched_edge_nodes": 30,
+        "linear_gt_one_frame_gap": 26,
+        "both_gt_anchors_matched": 5,
+        "anchors_supported": 5,
+        "occupied_anchor_gaps": 5
+      },
+      "occupied_patterns": {
+        "same_intermediate": 2,
+        "different_intermediates": 1,
+        "target_incoming_only": 1,
+        "source_outgoing_only": 1
+      },
+      "source_outgoing_occupants": {
+        "edges": 5,
+        "matched_other_gt": 0,
+        "unmatched": 5,
+        "within_7um": 0,
+        "over_7um": 5,
+        "median_distance_um": 8.063832254269679
+      },
+      "target_incoming_occupants": {
+        "edges": 4,
+        "matched_other_gt": 0,
+        "unmatched": 4,
+        "within_7um": 0,
+        "over_7um": 4,
+        "median_distance_um": 8.160455357693747
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_node_id": 99000000020,
+          "t": 16,
+          "gt_predecessor": 98000000020,
+          "gt_successor": 100000000020,
+          "pred_source_anchor": 5258,
+          "pred_target_anchor": 5983,
+          "source_outgoing": [
+            {
+              "pred_node_id": 5608,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 10.188698165737367,
+              "synthetic": "unknown_from_serialized_csv"
+            },
+            {
+              "pred_node_id": 5622,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.10647262184271,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 5622,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.10647262184271,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 5622,
+          "occupancy_pattern": "same_intermediate"
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_node_id": 110000000046,
+          "t": 27,
+          "gt_predecessor": 109000000046,
+          "gt_successor": 111000000046,
+          "pred_source_anchor": 9318,
+          "pred_target_anchor": 10036,
+          "source_outgoing": [
+            {
+              "pred_node_id": 9678,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.556686815331174,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 9669,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 9.065839901796192,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "different_intermediates"
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_node_id": 120000000076,
+          "t": 37,
+          "gt_predecessor": 119000000076,
+          "gt_successor": 121000000077,
+          "pred_source_anchor": 12810,
+          "pred_target_anchor": 13655,
+          "source_outgoing": [
+            {
+              "pred_node_id": 13227,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.175623542733605,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 13227,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.175623542733605,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 13227,
+          "occupancy_pattern": "same_intermediate"
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_node_id": 146000000023,
+          "t": 63,
+          "gt_predecessor": 145000000023,
+          "gt_successor": 147000000023,
+          "pred_source_anchor": 24441,
+          "pred_target_anchor": 25413,
+          "source_outgoing": [],
+          "target_incoming": [
+            {
+              "pred_node_id": 24850,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.14528717265389,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "target_incoming_only"
+        },
+        {
+          "dataset": "44b6_c96cfa10",
+          "gt_node_id": 175000000033,
+          "t": 92,
+          "gt_predecessor": 174000000033,
+          "gt_successor": 176000000033,
+          "pred_source_anchor": 40315,
+          "pred_target_anchor": 41570,
+          "source_outgoing": [
+            {
+              "pred_node_id": 40890,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.063832254269679,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        }
+      ],
+      "association_limited_fn": 25,
+      "association_source_outgoing_classes": {
+        "absent": 6,
+        "unmatched_only": 19
+      },
+      "association_distinct_gt_sources": 25,
+      "association_details": [
+        {
+          "gt_source_id": 88000000088,
+          "gt_target_id": 89000000088,
+          "pred_source_id": 1801,
+          "pred_target_id": 2110,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 93000000041,
+          "gt_target_id": 94000000041,
+          "pred_source_id": 3516,
+          "pred_target_id": 3871,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 96000000020,
+          "gt_target_id": 97000000020,
+          "pred_source_id": 4599,
+          "pred_target_id": 4925,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 100000000020,
+          "gt_target_id": 101000000020,
+          "pred_source_id": 5983,
+          "pred_target_id": 6377,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 111000000046,
+          "gt_target_id": 112000000046,
+          "pred_source_id": 10036,
+          "pred_target_id": 10358,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 111000000074,
+          "gt_target_id": 112000000074,
+          "pred_source_id": 9975,
+          "pred_target_id": 10294,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 112000000019,
+          "gt_target_id": 113000000019,
+          "pred_source_id": 10366,
+          "pred_target_id": 10753,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 112000000046,
+          "gt_target_id": 113000000046,
+          "pred_source_id": 10358,
+          "pred_target_id": 10766,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 114000000046,
+          "gt_target_id": 115000000046,
+          "pred_source_id": 11144,
+          "pred_target_id": 11516,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 121000000075,
+          "gt_target_id": 122000000075,
+          "pred_source_id": 13813,
+          "pred_target_id": 14134,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 126000000077,
+          "gt_target_id": 127000000077,
+          "pred_source_id": 15675,
+          "pred_target_id": 16130,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 137000000048,
+          "gt_target_id": 138000000048,
+          "pred_source_id": 20644,
+          "pred_target_id": 21186,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 138000000023,
+          "gt_target_id": 139000000023,
+          "pred_source_id": 21191,
+          "pred_target_id": 21581,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 157000000048,
+          "gt_target_id": 158000000048,
+          "pred_source_id": 30678,
+          "pred_target_id": 31144,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 161000000047,
+          "gt_target_id": 162000000047,
+          "pred_source_id": 32859,
+          "pred_target_id": 33353,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 162000000047,
+          "gt_target_id": 163000000047,
+          "pred_source_id": 33353,
+          "pred_target_id": 34010,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 164000000023,
+          "gt_target_id": 165000000023,
+          "pred_source_id": 34541,
+          "pred_target_id": 35198,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 170000000023,
+          "gt_target_id": 171000000023,
+          "pred_source_id": 38143,
+          "pred_target_id": 38693,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 176000000033,
+          "gt_target_id": 177000000033,
+          "pred_source_id": 41570,
+          "pred_target_id": 42130,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 177000000024,
+          "gt_target_id": 178000000024,
+          "pred_source_id": 42353,
+          "pred_target_id": 42862,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 177000000033,
+          "gt_target_id": 178000000033,
+          "pred_source_id": 42130,
+          "pred_target_id": 42789,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 178000000024,
+          "gt_target_id": 179000000024,
+          "pred_source_id": 42862,
+          "pred_target_id": 43547,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 178000000033,
+          "gt_target_id": 179000000033,
+          "pred_source_id": 42789,
+          "pred_target_id": 43339,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 179000000033,
+          "gt_target_id": 180000000033,
+          "pred_source_id": 43339,
+          "pred_target_id": 43955,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 181000000033,
+          "gt_target_id": 182000000033,
+          "pred_source_id": 44507,
+          "pred_target_id": 44988,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "stages": {
+        "unmatched_edge_nodes": 5,
+        "linear_gt_one_frame_gap": 4,
+        "both_gt_anchors_matched": 2,
+        "anchors_supported": 2,
+        "occupied_anchor_gaps": 2
+      },
+      "occupied_patterns": {
+        "different_intermediates": 1,
+        "target_incoming_only": 1
+      },
+      "source_outgoing_occupants": {
+        "edges": 1,
+        "matched_other_gt": 0,
+        "unmatched": 1,
+        "within_7um": 0,
+        "over_7um": 1,
+        "median_distance_um": 9.352577351992338
+      },
+      "target_incoming_occupants": {
+        "edges": 2,
+        "matched_other_gt": 0,
+        "unmatched": 2,
+        "within_7um": 0,
+        "over_7um": 2,
+        "median_distance_um": 7.180888942770483
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_node_id": 281000000021,
+          "t": 17,
+          "gt_predecessor": 280000000021,
+          "gt_successor": 282000000021,
+          "pred_source_anchor": 10053,
+          "pred_target_anchor": 11455,
+          "source_outgoing": [
+            {
+              "pred_node_id": 10707,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 9.352577351992338,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 10800,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.278567102287373,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "different_intermediates"
+        },
+        {
+          "dataset": "44b6_551a5dba",
+          "gt_node_id": 316000000007,
+          "t": 52,
+          "gt_predecessor": 315000000007,
+          "gt_successor": 317000000007,
+          "pred_source_anchor": 33456,
+          "pred_target_anchor": 34708,
+          "source_outgoing": [],
+          "target_incoming": [
+            {
+              "pred_node_id": 34062,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.083210783253595,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "target_incoming_only"
+        }
+      ],
+      "association_limited_fn": 20,
+      "association_source_outgoing_classes": {
+        "unmatched_only": 16,
+        "absent": 4
+      },
+      "association_distinct_gt_sources": 20,
+      "association_details": [
+        {
+          "gt_source_id": 269000000004,
+          "gt_target_id": 270000000004,
+          "pred_source_id": 3323,
+          "pred_target_id": 3957,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 270000000004,
+          "gt_target_id": 271000000004,
+          "pred_source_id": 3957,
+          "pred_target_id": 4632,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 271000000020,
+          "gt_target_id": 272000000020,
+          "pred_source_id": 4311,
+          "pred_target_id": 4939,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 272000000004,
+          "gt_target_id": 273000000004,
+          "pred_source_id": 5292,
+          "pred_target_id": 5939,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 276000000005,
+          "gt_target_id": 277000000005,
+          "pred_source_id": 7940,
+          "pred_target_id": 8509,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 277000000006,
+          "gt_target_id": 278000000006,
+          "pred_source_id": 8605,
+          "pred_target_id": 9231,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 278000000005,
+          "gt_target_id": 279000000005,
+          "pred_source_id": 9144,
+          "pred_target_id": 9782,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 279000000005,
+          "gt_target_id": 280000000005,
+          "pred_source_id": 9782,
+          "pred_target_id": 10422,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 284000000021,
+          "gt_target_id": 285000000021,
+          "pred_source_id": 12734,
+          "pred_target_id": 13307,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 285000000006,
+          "gt_target_id": 286000000006,
+          "pred_source_id": 13761,
+          "pred_target_id": 14368,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 290000000006,
+          "gt_target_id": 291000000006,
+          "pred_source_id": 16918,
+          "pred_target_id": 17509,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 292000000007,
+          "gt_target_id": 293000000007,
+          "pred_source_id": 18254,
+          "pred_target_id": 65104,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 296000000007,
+          "gt_target_id": 297000000007,
+          "pred_source_id": 20880,
+          "pred_target_id": 21498,
+          "source_outgoing_class": "absent",
+          "source_outgoing_count": 0
+        },
+        {
+          "gt_source_id": 303000000006,
+          "gt_target_id": 304000000006,
+          "pred_source_id": 25398,
+          "pred_target_id": 26131,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 305000000006,
+          "gt_target_id": 306000000006,
+          "pred_source_id": 26778,
+          "pred_target_id": 27316,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 306000000006,
+          "gt_target_id": 307000000006,
+          "pred_source_id": 27316,
+          "pred_target_id": 28092,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 309000000006,
+          "gt_target_id": 310000000006,
+          "pred_source_id": 29399,
+          "pred_target_id": 30034,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 319000000007,
+          "gt_target_id": 320000000007,
+          "pred_source_id": 36051,
+          "pred_target_id": 36717,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 320000000006,
+          "gt_target_id": 321000000006,
+          "pred_source_id": 36664,
+          "pred_target_id": 37338,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 326000000006,
+          "gt_target_id": 327000000006,
+          "pred_source_id": 40672,
+          "pred_target_id": 41368,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_90724892",
+      "stages": {
+        "unmatched_edge_nodes": 8,
+        "linear_gt_one_frame_gap": 8,
+        "both_gt_anchors_matched": 1,
+        "anchors_supported": 1,
+        "occupied_anchor_gaps": 1
+      },
+      "occupied_patterns": {
+        "same_intermediate": 1
+      },
+      "source_outgoing_occupants": {
+        "edges": 1,
+        "matched_other_gt": 0,
+        "unmatched": 1,
+        "within_7um": 0,
+        "over_7um": 1,
+        "median_distance_um": 7.4908798715504705
+      },
+      "target_incoming_occupants": {
+        "edges": 1,
+        "matched_other_gt": 0,
+        "unmatched": 1,
+        "within_7um": 0,
+        "over_7um": 1,
+        "median_distance_um": 7.4908798715504705
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_90724892",
+          "gt_node_id": 134000000026,
+          "t": 60,
+          "gt_predecessor": 133000000026,
+          "gt_successor": 135000000026,
+          "pred_source_anchor": 15861,
+          "pred_target_anchor": 16390,
+          "source_outgoing": [
+            {
+              "pred_node_id": 16132,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.4908798715504705,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [
+            {
+              "pred_node_id": 16132,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.4908798715504705,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "shared_intermediate_pred_node_id": 16132,
+          "occupancy_pattern": "same_intermediate"
+        }
+      ],
+      "association_limited_fn": 5,
+      "association_source_outgoing_classes": {
+        "unmatched_only": 5
+      },
+      "association_distinct_gt_sources": 5,
+      "association_details": [
+        {
+          "gt_source_id": 109000000024,
+          "gt_target_id": 110000000024,
+          "pred_source_id": 9413,
+          "pred_target_id": 9698,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 111000000024,
+          "gt_target_id": 112000000024,
+          "pred_source_id": 9964,
+          "pred_target_id": 10212,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 112000000024,
+          "gt_target_id": 113000000024,
+          "pred_source_id": 10212,
+          "pred_target_id": 10490,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 146000000026,
+          "gt_target_id": 147000000026,
+          "pred_source_id": 19171,
+          "pred_target_id": 19390,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 153000000027,
+          "gt_target_id": 154000000027,
+          "pred_source_id": 20850,
+          "pred_target_id": 21042,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "stages": {
+        "unmatched_edge_nodes": 15,
+        "linear_gt_one_frame_gap": 15
+      },
+      "occupied_patterns": {},
+      "source_outgoing_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "target_incoming_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "occupied_details": [],
+      "association_limited_fn": 1,
+      "association_source_outgoing_classes": {
+        "unmatched_only": 1
+      },
+      "association_distinct_gt_sources": 1,
+      "association_details": [
+        {
+          "gt_source_id": 34000000080,
+          "gt_target_id": 35000000080,
+          "pred_source_id": 8291,
+          "pred_target_id": 8591,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "stages": {
+        "unmatched_edge_nodes": 3,
+        "linear_gt_one_frame_gap": 2,
+        "both_gt_anchors_matched": 2,
+        "anchors_supported": 2,
+        "occupied_anchor_gaps": 2
+      },
+      "occupied_patterns": {
+        "source_outgoing_only": 2
+      },
+      "source_outgoing_occupants": {
+        "edges": 2,
+        "matched_other_gt": 0,
+        "unmatched": 2,
+        "within_7um": 0,
+        "over_7um": 2,
+        "median_distance_um": 8.096150618318642
+      },
+      "target_incoming_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "occupied_details": [
+        {
+          "dataset": "44b6_deabac95",
+          "gt_node_id": 159000000021,
+          "t": 67,
+          "gt_predecessor": 158000000021,
+          "gt_successor": 160000000021,
+          "pred_source_anchor": 11338,
+          "pred_target_anchor": 11581,
+          "source_outgoing": [
+            {
+              "pred_node_id": 11459,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 8.64654239060331,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        },
+        {
+          "dataset": "44b6_deabac95",
+          "gt_node_id": 175000000021,
+          "t": 83,
+          "gt_predecessor": 174000000021,
+          "gt_successor": 176000000021,
+          "pred_source_anchor": 13067,
+          "pred_target_anchor": 13227,
+          "source_outgoing": [
+            {
+              "pred_node_id": 13152,
+              "match_class": "unmatched",
+              "matched_gt_node_id": null,
+              "distance_to_missed_gt_um": 7.5457588460339755,
+              "synthetic": "unknown_from_serialized_csv"
+            }
+          ],
+          "target_incoming": [],
+          "shared_intermediate_pred_node_id": null,
+          "occupancy_pattern": "source_outgoing_only"
+        }
+      ],
+      "association_limited_fn": 3,
+      "association_source_outgoing_classes": {
+        "other_gt_only": 1,
+        "unmatched_only": 2
+      },
+      "association_distinct_gt_sources": 3,
+      "association_details": [
+        {
+          "gt_source_id": 120000000018,
+          "gt_target_id": 121000000019,
+          "pred_source_id": 5493,
+          "pred_target_id": 5674,
+          "source_outgoing_class": "other_gt_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 140000000021,
+          "gt_target_id": 141000000021,
+          "pred_source_id": 8929,
+          "pred_target_id": 9078,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        },
+        {
+          "gt_source_id": 160000000020,
+          "gt_target_id": 161000000020,
+          "pred_source_id": 11587,
+          "pred_target_id": 11708,
+          "source_outgoing_class": "unmatched_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "stages": {
+        "unmatched_edge_nodes": 10,
+        "linear_gt_one_frame_gap": 7
+      },
+      "occupied_patterns": {},
+      "source_outgoing_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "target_incoming_occupants": {
+        "edges": 0,
+        "matched_other_gt": 0,
+        "unmatched": 0,
+        "within_7um": 0,
+        "over_7um": 0,
+        "median_distance_um": null
+      },
+      "occupied_details": [],
+      "association_limited_fn": 1,
+      "association_source_outgoing_classes": {
+        "other_gt_only": 1
+      },
+      "association_distinct_gt_sources": 1,
+      "association_details": [
+        {
+          "gt_source_id": 79000000000,
+          "gt_target_id": 80000000001,
+          "pred_source_id": 349,
+          "pred_target_id": 430,
+          "source_outgoing_class": "other_gt_only",
+          "source_outgoing_count": 1
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "occupied_anchor_gaps": 20,
+    "association_limited_fn": 87,
+    "association_distinct_gt_sources": 87,
+    "occupied_patterns": {
+      "source_outgoing_only": 8,
+      "same_intermediate": 6,
+      "different_intermediates": 3,
+      "target_incoming_only": 3
+    },
+    "association_source_outgoing_classes": {
+      "unmatched_only": 69,
+      "absent": 15,
+      "other_gt_only": 3
+    },
+    "source_outgoing_occupants": {
+      "edges": 18,
+      "matched_other_gt": 1,
+      "unmatched": 17,
+      "within_7um": 1,
+      "over_7um": 17
+    },
+    "target_incoming_occupants": {
+      "edges": 12,
+      "matched_other_gt": 0,
+      "unmatched": 12,
+      "within_7um": 0,
+      "over_7um": 12
+    }
+  },
+  "inputs": [
+    {
+      "dataset": "44b6_996155de",
+      "csv_sha256": "ab4abc463eb91ae299eff5fa5a6031e45c5ffc54408cd7dc9613834d4b62b6b7",
+      "receipt_sha256": "fa84776d80133c92d1725dfadf890c85507a31065d45c1df1b5448b0a5f99516",
+      "geff_tree_sha256": "40d9b02706df6cbe85eee251eb863c8408f8e646c4e00566ae7ad961a2301a7b"
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "csv_sha256": "df8d7326de5fd40b8bd6fb2e0fb65c7c937f77ce3495fbb84b550d6f0105aae1",
+      "receipt_sha256": "48921579e0cc78690d462fbfbf1d1dcbcd76651b37a65b11481da8436d43856b",
+      "geff_tree_sha256": "62ea7080d1e477d81b28263f53aecb911f1801332527f4e2bd323f80d877cc69"
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "csv_sha256": "7e347384b3bf031bef0785b45f23a1734b90a7ae997a05fea1f3068095e0f7e1",
+      "receipt_sha256": "b593331f8130d2422671ce7dcba5622960b63e2d98124eaad3594a18ab720fd4",
+      "geff_tree_sha256": "5f63c09329563cf53b74f64d283609eab5c88e3d218d90d9c9dab647671b2a13"
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "csv_sha256": "57f4f629a43b9f7408a8284dbb0cacee33fa392cec2256b15876df0422c49cd4",
+      "receipt_sha256": "0aee3c19cbc8870a8d39a89fd35777d2351cee45569a48545a4afbbdf6f3cc8f",
+      "geff_tree_sha256": "da705914c3ae0ec9efb8bdeeb2002a1b850401c83eb7beb71909e21f7e38f00f"
+    },
+    {
+      "dataset": "44b6_90724892",
+      "csv_sha256": "7292325efcad75ec162fa4dc7983dab6e832fc54dd86c48d4a7024681b456812",
+      "receipt_sha256": "591a4403a73fc06b8c097a660da006de5fff8aae21657501b74a4572cc8e6f60",
+      "geff_tree_sha256": "b967502dc4e4a563733e4868218f6a10cfb9b3dfbfd48dc6086454ec6f648eb0"
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "csv_sha256": "a352d1be2bc94cdcc1ba9dbcdde994ab447141583d2a5c5880f60e148777e8a0",
+      "receipt_sha256": "75256035d6cfe74c6fff7cde45d2fc004c1905ba5444640cafe5c2ec7eff005d",
+      "geff_tree_sha256": "5b0eee85fbb8e6772ee94a54d481a905107168686c40eb6eafc8f283d5338ade"
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "csv_sha256": "f4c65f93f3633ae83b6593f53321b037acb4c7e63ec173d7aeaed55d2b6e6657",
+      "receipt_sha256": "8fe11441f695c1aeddd66ee055b39b13b49012e5febbcd6414f161fae3a65c5e",
+      "geff_tree_sha256": "b024684791fd972bcb4a6acf0c7a0a5deb7516f5551c665a324d4b5bdcf154eb"
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "csv_sha256": "c1dec0829eed7dd6be49938eb871d32cad07f6b6979e5d6d9fe68a86bba6af3a",
+      "receipt_sha256": "1d9fdb1b8861510af204c7055d10a37f17bff6ea6d7b6bd61d80344f2cf4c236",
+      "geff_tree_sha256": "225e560d40b936784575b83ff8dfa3700c020e27f75c85c3d61b1e8b8b7b2e3d"
+    }
+  ],
+  "elapsed_seconds": 20.34002995491028,
+  "target6bba_access": false,
+  "candidate_tuning": false,
+  "synthetic_node_status": "Unavailable per node: final CSV omits Node.synthetic and graph receipt reports only aggregate synthetic counts.",
+  "limitations": [
+    "Post hoc source-inner epoch10 training monitor, not target OOF.",
+    "Official matching is conditional on the fixed predicted graph and can change after edits.",
+    "An occupied anchor may reflect correct links to another annotated cell; rewiring feasibility and score are not measured.",
+    "Repeated GT edges and shared source anchors are correlated; movie is the replication unit.",
+    "Final CSV does not preserve raw neural logits, ILP candidate probabilities or per-node synthetic flag."
+  ],
+  "analysis_bundle_sha256": "b510b186ebf3b173969d78e6af13057fdb893700381abe0cca6d46acb5349677",
+  "analysis_source_sha256": "906b4b84a167bb99facbcd0ae338031d0b0f8a2cecaa1146debaef78f77f4279",
+  "gap_feasibility_receipt_sha256": "605c7f04129dc3613d582a6b4845bc5d47673af1955042b7d78785f8951d3b8a",
+  "execution": {
+    "host": "nsu-quadro",
+    "cpu_affinity": "24-27",
+    "cuda_visible_devices": "",
+    "memory_virtual_limit_gib": 16,
+    "timeout_seconds": 1800,
+    "interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python"
+  }
+}

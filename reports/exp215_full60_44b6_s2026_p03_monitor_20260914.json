@@ -1,0 +1,114 @@
+{
+  "launch": {
+    "pid": 282444,
+    "start": "462231592",
+    "command": [
+      "taskset",
+      "-c",
+      "0-7",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp215_full_source44_v1_20260914/train_exp213_detector.py",
+      "--plan",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp215_full_source44_v1_20260914/plan.json",
+      "--fold",
+      "44b6",
+      "--seed",
+      "2026",
+      "--repo",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp215_full_source44_v1_20260914/tracking_repo",
+      "--data-dir",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+      "--output",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p03_20260914/output",
+      "--precision",
+      "fp32",
+      "--max-seconds",
+      "10800"
+    ],
+    "started": 1789403308.1596785,
+    "config": {
+      "experiment": "EXP215",
+      "lease_id": "biohub-exp215-full60-44b6-s2026-p03-20260914",
+      "token": "exp215-full60-44b6-s2026-p03",
+      "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+      "cpu_affinity": "0-7",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp215_full_source44_v1_20260914",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p03_20260914",
+      "fold": "44b6",
+      "seed": 2026,
+      "max_seconds": 10800,
+      "lease_minutes": 240,
+      "scope": "EXP215 full-cache source44b6 seed2026 continuation p03; source-only training toward >=60 epochs; no target metrics or POST",
+      "environment": "Shared immutable prepost py3.11 environment; original EXP213 FP32 trainer/plan",
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 64,
+        "disk_growth_gib": 1,
+        "gpus": 1
+      },
+      "resume_output": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_refit44b6_s2026_p01_20260912/output",
+      "requires_released_runs": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p02_20260914"
+      ],
+      "retention": "Keep best and latest optimizer checkpoint; stop only at epoch boundary or hard wrapper timeout; target labels remain closed."
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 282444,
+    "start": "462231592",
+    "finished": 1789414676.643765
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": {
+    "status": "CHECKPOINTED_CONTINUATION_REQUIRED",
+    "epoch": 57,
+    "total_epochs": 400,
+    "invocation_initial_epoch": 42,
+    "checkpoint_sha256": "02659eea84ee84a01682901e5bdfb53588aac79d53506e2809b7c3a232556ace",
+    "best_sha256": "34602d6d38335f9fff2b192dbd87d4a82b02ec2fbff3bd4e88cfa48d3800168d",
+    "elapsed_seconds": 11363.650548473,
+    "target_data_opened": false,
+    "contract": {
+      "plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+      "trainer_sha256": "0158bf4bed2b649be226dea4da1a0c58067720b8b697e719dc51e5d855da253d",
+      "upstream_sha256": "91b49493f957710e6542247623e92d62a0d7aabda08b2a0b8cb4d368aa9f7521",
+      "fold": "44b6",
+      "seed": 2026,
+      "benchmark_steps": 0,
+      "precision": "fp32"
+    }
+  },
+  "queue": {
+    "id": "biohub-exp215-full60-44b6-s2026-p03-20260914",
+    "owner": "biohub-agent",
+    "token": "exp215-full60-44b6-s2026-p03",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p03_20260914",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 1.0,
+    "minutes": 240,
+    "state": "RELEASED",
+    "created": 1789403306.7518106,
+    "heartbeat": 1789441372.6579828,
+    "gpus": [],
+    "process": {
+      "pid": 282444,
+      "start": "462231592"
+    },
+    "allocated": 1789403306.7518458,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789441374.2542152,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789441374.3508542
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_EXP240_LABEL_FREE_CPU_INDEPENDENT_VERIFICATION",
+  "source_manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+  "stage_receipt_sha256": "8ed5c7211f7fd723128a4a19c8e690401594b9d59ddcf506a1905f9f08184c0d",
+  "launch_receipt_sha256": "bc52da0fb5e0214084a5582fbed073c8c8dd9568f88faf13a71ac051d32c58a3",
+  "verifier_source_sha256": "2e00e581dddf1298c7adc48c75be6815f1ab386117967c2b121f23deed86b0f1",
+  "remote": {
+    "status": "PASS_EXP240_INDEPENDENT_READBACK_NO_LABELS",
+    "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+    "launch_sha256": "9ac442f4a129edcb0f4c2a6b424712c8663dc7ee2e2d4af7e0adfc8ac7570875",
+    "exit_sha256": "bb9075b78687946a92f4d01ec9b345a8e4eb9b55fab1bbd232040f8794828e83",
+    "no_label_gate_sha256": "9c0d97a6779f755bc03ec5c45de745d2d2cc0b2e94312a47af7fa9a174a06ff2",
+    "result_sha256": "696c951c11a68817ee45505c98173f1a9d89e200477016de992d4504425961b2",
+    "cohorts": [
+      {
+        "cohort": "source44",
+        "movies": 8,
+        "original_nodes": 243172,
+        "original_edges": 234292,
+        "seed_count": 6982,
+        "peak_count": 318966,
+        "offgraph_peak_count": 39575,
+        "legal_pair_count": 1123,
+        "distinct_legal_seed_count": 854,
+        "selected_conflict_free_chain_count": 835,
+        "feasibility_gate": true
+      },
+      {
+        "cohort": "source6",
+        "movies": 11,
+        "original_nodes": 241443,
+        "original_edges": 232639,
+        "seed_count": 7285,
+        "peak_count": 346919,
+        "offgraph_peak_count": 81327,
+        "legal_pair_count": 416,
+        "distinct_legal_seed_count": 371,
+        "selected_conflict_free_chain_count": 358,
+        "feasibility_gate": true
+      }
+    ],
+    "decision": "PERMIT_ONE_FIXED_SOURCE_CANDIDATE_WITH_SEPARATE_SCORE_PREREG",
+    "child_absent": true,
+    "source_labels_read": false,
+    "target_data_opened": false,
+    "graph_created": false,
+    "gpu_used": false,
+    "kaggle_post": false
+  },
+  "source_labels_read": false,
+  "target_data_opened": false,
+  "gpu_used": false,
+  "kaggle_post": false
+}

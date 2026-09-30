@@ -1,0 +1,95 @@
+{
+  "status": "PASS_CURRENT_ORGANIZER_ISOLATED_PY311_ENV_VERIFIED",
+  "prepare_sha256": "f0e9e2cfac4a32bccaae89e0ccad6cc93a414f3200cd80a76ff574606aa98eb6",
+  "stage_sha256": "1a8720ecb86e8ce5363e3bb94640b15644c53f9c8eadb18f49e1b4b93676ebac",
+  "env_launch_sha256": "d9a8abb6c74639c8f1f5127062e970bb48cd58a0fcdf0742204d2a19af46a59a",
+  "verify": {
+    "status": "PASS_CURRENT_ORGANIZER_ISOLATED_PY311_ENV_VERIFIED",
+    "env_result_sha256": "cdd6bb79f98300f2435dac58ae6706bd6805f1c7f1ebcb60da9505f4e21fe544",
+    "env_launch_sha256": "e4063cd7868ad554ec152cc49c0c7ed280cea588aab7a07e6bb27e480dfab6e0",
+    "builder_sha256": "f0a5d9c418ea52c055f3cc10518ad432ec4941ac21ea6dbe8a571e07ae3eab97",
+    "code_manifest_sha256": "ae071f81ae1886a91d5c882f46b67a7ba949cc11822f6760ba77843206bf3260",
+    "score_config_sha256": "6a7eaca7fa58249c34695788370b0799b616cb0a483a8081d367c570d9757e95",
+    "python": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/bin/python",
+    "pyvenv_cfg_sha256": "cf3c3ff121336c95eef628940210a385dbd877bfdc097b45ddcd06cb9dfabdb2",
+    "runtime": {
+      "profile": "remote_py311",
+      "python": "3.11",
+      "versions": {
+        "tracksdata": "0.1.0rc11",
+        "polars": "1.44.1",
+        "scipy": "1.17.1",
+        "numpy": "2.4.6",
+        "zarr": "3.1.6",
+        "geff": "1.3.1.1.3",
+        "bidict": "0.24.1",
+        "blosc2": "4.12.0",
+        "dask": "2026.8.0",
+        "ilpy": "0.6.0",
+        "imagecodecs": "2026.3.6",
+        "numba": "0.67.0",
+        "numcodecs": "0.15.1",
+        "psygnal": "0.15.1",
+        "pyarrow": "25.0.1",
+        "rich": "15.0.0",
+        "rstar-python": "0.2.0",
+        "rustworkx": "0.18.1",
+        "scikit-image": "0.26.0",
+        "sqlalchemy": "2.0.52",
+        "tqdm": "4.70.0",
+        "typing-extensions": "4.16.0"
+      },
+      "tracksdata_commit": "e13cf379b5127deeb8301ce56410fda35b5a3cf9",
+      "status": "PASS_CURRENT_ORGANIZER_LOCAL_FORK_CONTRACT",
+      "positive_division": [
+        1,
+        0,
+        0
+      ],
+      "remote_weak_component_division": [
+        0,
+        0,
+        1
+      ],
+      "organizer_commit": "075fc5f5a52d11077f9dc2b074644618f26939e2",
+      "metric_sha256": {
+        "metrics.py": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+        "division_metrics.py": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9"
+      }
+    },
+    "isolation": {
+      "prefix": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1",
+      "base_prefix": "/usr",
+      "path": [
+        "",
+        "/usr/lib/python311.zip",
+        "/usr/lib/python3.11",
+        "/usr/lib/python3.11/lib-dynload",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/lib/python3.11/site-packages"
+      ],
+      "sites": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/lib/python3.11/site-packages",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/local/lib/python3.11/dist-packages",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/lib/python3/dist-packages",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/lib/python3.11/dist-packages"
+      ],
+      "torch": false
+    },
+    "adapter_imports": {
+      "biohub_tracking.io": {
+        "imported": false,
+        "error_type": "ModuleNotFoundError",
+        "message": "No module named 'torch'"
+      },
+      "predict_unet_transformer": {
+        "imported": false,
+        "error_type": "ModuleNotFoundError",
+        "message": "No module named 'torch'"
+      }
+    },
+    "target_labels_read": false,
+    "kaggle_post": false
+  },
+  "target_labels_read": false,
+  "kaggle_post": false
+}

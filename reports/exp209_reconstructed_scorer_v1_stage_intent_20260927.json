@@ -1,0 +1,11 @@
+{
+  "bundle_manifest_sha256": "2484dfcacdfb47b2b33d6ab00ff0e9fa58b99943ad23421f5f9de253ff2255fb",
+  "config_sha256": "d9a060b3d115db817f40fb9f81f8793c524fb112d9efb21b5767ad1ea3399335",
+  "labels_read": false,
+  "remote_code_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp209_reconstructed_current_scorer_v1_20260927",
+  "remote_run_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp209_reconstructed_current_scorer_v1_20260927",
+  "remote_stage": "UNATTEMPTED",
+  "stage_source_sha256": "b7c029b0601b112a7a1faa19c95dfb3ea013f19ad79b7ca38982d254fb5c8758",
+  "status": "STAGE_INTENT_EXP209_SCORER_V1_LOCAL",
+  "zip_sha256": "895f9e76725aa194f04d332d43210a9f37ea4f4407c6bcc7dc4c39c57c35826d"
+}

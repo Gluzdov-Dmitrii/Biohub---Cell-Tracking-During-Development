@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_EXP227_SOURCE10_FN_FEATURES",
+  "error": "RuntimeError('remote CPU feature analysis exit 1: Traceback (most recent call last):\\n  File \"<stdin>\", line 557, in <module>\\n  File \"<stdin>\", line 524, in main\\n  File \"<stdin>\", line 323, in _movie_features\\n  File \"<stdin>\", line 323, in <dictcomp>\\nKeyError: \\'id\\'\\n')",
+  "bundle_sha256": "113d617cef7993de4a830185ca1c429eaab3520718a2bda83072180bc37fcb32",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"<stdin>\", line 557, in <module>\n  File \"<stdin>\", line 524, in main\n  File \"<stdin>\", line 323, in _movie_features\n  File \"<stdin>\", line 323, in <dictcomp>\nKeyError: 'id'\n"
+}

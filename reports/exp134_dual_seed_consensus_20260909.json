@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP134",
+  "date": "2026-09-09",
+  "status": "REJECT_STRICT_PER_MOVIE_GATE",
+  "base_selection": "seed 271828 chosen by source-validation 0.8460 over seed 314159 at 0.8399",
+  "mechanism": "mutual-nearest below 2 um, alpha 0.5, selected seed topology preserved",
+  "source_sha256": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+  "result_sha256": "b386f3c5c0bf194882c8ca0d785688cde9d99642167180aef0719edcb7b5679c",
+  "parent_score": 0.6711156817428906,
+  "ensemble_score": 0.6764188959448233,
+  "pooled_delta": 0.005303214201932693,
+  "per_movie_deltas": [
+    -0.0006438457013183685,
+    0.0007673569472731456,
+    0.012472116558055024,
+    0.009574753908497602
+  ],
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

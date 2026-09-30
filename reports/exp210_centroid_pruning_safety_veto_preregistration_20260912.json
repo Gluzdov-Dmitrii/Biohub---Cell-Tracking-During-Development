@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP210",
+  "date_local": "2026-09-12",
+  "status": "PREREGISTERED_BEFORE_116_MOVIE_GATE_SCORE",
+  "parent": "EXP206 forward intensity-centroid radius (2,5,5) plus EXP195 reverse",
+  "hypothesis": "A large increase in nodes removed after centroid re-linking signals destructive component fragmentation.",
+  "fixed_rule": "Use centroid when (centroid_nodes_removed - translation_nodes_removed) / raw_candidate_nodes <= 0.005; otherwise use translation.",
+  "source_cohort": "12 forward development movies",
+  "source_translation_score": 0.751517198868187,
+  "source_centroid_score": 0.7588369111855359,
+  "source_gated_score": 0.7617522786940086,
+  "source_centroid_movies_selected": 11,
+  "confirmation_cohort": "116 EXP206 forward movies plus unchanged EXP195 reverse",
+  "primary_comparison": "EXP210 versus EXP206 with paired stratified bootstrap and leave-one-movie-out",
+  "required_checks": [
+    "exact 116 unique non-public-twin forward movies",
+    "exact reproduction of EXP206 centroid and EXP195 translation rows",
+    "finite telemetry and positive raw candidate node counts",
+    "selection uses only inference-observable filter telemetry",
+    "report direction, per-movie signs, edge/node/division statistics and stability"
+  ],
+  "evidence_grade": "prospective gate evaluation on previously computed target artifacts; arm metrics existed in aggregate but the gate was not evaluated before this freeze",
+  "kaggle_action_authorized": false
+}

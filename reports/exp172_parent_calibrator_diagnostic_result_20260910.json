@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP172",
+  "status": "DIAGNOSTIC_COMPLETE_REJECT_PARENT_MLP",
+  "raw_result_sha256": "9e77638b16560ab877a57ab0c1e84b3794c5ba384cce69240ed1f6efc74f94ab",
+  "run_log_sha256": "9e77638b16560ab877a57ab0c1e84b3794c5ba384cce69240ed1f6efc74f94ab",
+  "checkpoint_sha256": "caae45fd99e5be69f670a473178474414e735d6a5905ed59e79f350112e5fb8d",
+  "calibration": {
+    "raw_parent_ap": 0.2576149971361082,
+    "mlp_parent_ap": 0.1951541428624271,
+    "raw_precision": 0.5,
+    "raw_recall": 0.1934156378600823,
+    "score_correlation": 0.4857790466917737
+  },
+  "prospective": {
+    "raw_parent_ap": 0.20873146294839176,
+    "mlp_parent_ap": 0.1348156034287032,
+    "raw_precision": 0.5142857142857142,
+    "raw_recall": 0.09836065573770492,
+    "score_correlation": 0.4896820682407799
+  },
+  "conclusion": "The flexible parent MLP damages the useful ordering in the frozen pair score. Preserve the raw pair score as a baseline; the next candidate needs genuinely new hidden-compatible parent evidence. Neither score reaches the frozen recall>=0.20 gate on the prospective window.",
+  "data_access": "External time-disjoint calibration and prospective windows only; no competition data.",
+  "resource_cleanup": "PID 182666 verified stopped; RTX6000 observed at 5 MiB and 0%; queue request released. No disposable cache was created.",
+  "kaggle_slots_used": 0
+}

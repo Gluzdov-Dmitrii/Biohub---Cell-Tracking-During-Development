@@ -1,0 +1,134 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "date": "2026-09-07",
+  "plan": "W1 D3; GOLD_PUBLIC slots 1-2, PRIVATE_ROBUST slots 3-5; no cross-track reassignment",
+  "live_state_before_batch": {
+    "quota_used_today": 0,
+    "quota_available": 5,
+    "num_total": 77,
+    "limited_by_total": false,
+    "account_frontier": "0.942",
+    "previous_anomaly": {
+      "experiment": "EXP127",
+      "ref": 56053651,
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": null,
+      "error_description": "Your submission notebook exceeded the allowed runtime. Review the competition's Code Requirements page for the time limits. Note that the hidden dataset can be larger/smaller/different than the public dataset.",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp061-coordinate-frontier-submission?scriptVersionId=347679332",
+      "diagnosis": "The clean source performs a second full detector inference over the four runtime movies and reached about 3449 seconds before packaging; the hidden dataset may be larger or different."
+    }
+  },
+  "shared_checks": {
+    "guard_tests": "14 passed; py_compile PASS; git diff --check PASS",
+    "submission_path": "scripts/submit_code_file_once.py only",
+    "post_gate": "full API object after every POST; stop on error, terminal empty score, zero bytes in terminal state, version mismatch or quota anomaly"
+  },
+  "slots": [
+    {
+      "slot": "D3-S11",
+      "track": "GOLD_PUBLIC",
+      "ordinal": 1,
+      "status": "UNUSED",
+      "candidate": "high-confidence edge consensus",
+      "reason": "Existing diagnostic was rejected by the physical-motion veto; no new hidden-compatible full-inference source is available."
+    },
+    {
+      "slot": "D3-S12",
+      "track": "GOLD_PUBLIC",
+      "ordinal": 2,
+      "status": "UNUSED",
+      "candidate": "one harmonic/edge arm",
+      "reason": "Distinct harmonic/edge sources already have account submissions; a repeat would be a duplicate, not a new arm."
+    },
+    {
+      "slot": "D3-S13",
+      "track": "PRIVATE_ROBUST",
+      "ordinal": 3,
+      "status": "BLOCKED",
+      "candidate": "Kalman/velocity OOF",
+      "reason": "Required reciprocal embryo-level OOF reversal is not available; the submitted EMA velocity source is already accounted for."
+    },
+    {
+      "slot": "D3-S14",
+      "track": "PRIVATE_ROBUST",
+      "ordinal": 4,
+      "status": "POSTED_PENDING",
+      "experiment": "EXP128",
+      "description": "EXP128 W1-D3-S14 PRIVATE_ROBUST weak learned tie-break",
+      "hypothesis": "A fixed 10% learned ambiguity tie-break can improve physical motion assignment without the instability of learned-heavy linking.",
+      "parent": "arnav170/biohub-940e full-inference source; H050 reciprocal OOF mechanism",
+      "kernel": "dmitriigluzdov/biohub-exp128-d3-s14-weak-learned-tiebreak",
+      "version": 1,
+      "script_version_id": null,
+      "source_file": "kaggle_notebooks/exp128_d3_s14_weak_tiebreak/weak_learned_tiebreak.ipynb",
+      "source_sha256": "e5927961866dce793930cc91bb27f676861c662c7aec1074b46d41bbf7dba1af",
+      "remote_normalized_source_sha256": "c7025c80d182b215f3ba05388e3881c65b2e3fa66ed2232d1733403ec93c3635",
+      "hidden_test_dataflow": "dynamic competition test/*.zarr discovery; full detector and edge inference; fixed 7um physical gate with 10% learned ambiguity tie-break; graph postprocessing",
+      "expected_output": "one root submission.csv",
+      "output_sha256": "419b7bcf976664673ba5454ddbb6046b78bd13a27485437b89f2145f773a2eac",
+      "output_bytes": 12093821,
+      "output_rows": 232381,
+      "output_datasets": ["44b6_0113de3b", "44b6_0b24845f", "6bba_05b6850", "6bba_05db0fb1"],
+      "output_nodes": 118534,
+      "output_edges": 113847,
+      "output_divisions": 148,
+      "clean_run": "COMPLETE on NvidiaTeslaT4, Internet off; root output audit PASS with dynamic runtime IDs, max_in_degree=1 and max_out_degree=2",
+      "promotion_gate": "clean Internet-off run, exact remote source/version identity, full output/graph audit, then guarded helper and complete API post-check",
+      "post_submit": {
+        "ref": 56071282,
+        "status": "SubmissionStatus.PENDING",
+        "public_score": null,
+        "private_score": null,
+        "error_description": null,
+        "total_bytes": 0,
+        "url": "/code/dmitriigluzdov/biohub-exp128-d3-s14-weak-learned-tiebreak?scriptVersionId=347884817",
+        "checked_at_utc": "2026-09-07T06:59:36.993000Z",
+        "quota_after": {
+          "quota_used_today": 1,
+          "quota_available": 4,
+          "num_total": 78,
+          "limited_by_total": false
+        }
+      }
+    },
+    {
+      "slot": "D3-S15",
+      "track": "PRIVATE_ROBUST",
+      "ordinal": 5,
+      "status": "UNUSED",
+      "candidate": "min-cost-flow",
+      "reason": "Reciprocal OOF reversal gate is absent; corrected prior EXP068R scored 0.884 and is not a promotion parent."
+    }
+  ],
+  "alternate_hardware_attempts": [
+    {
+      "hardware": "NvidiaTeslaP100",
+      "stage": "kaggle kernels push",
+      "result": "HTTP 403 Forbidden",
+      "quota_consumed": 0,
+      "submission_created": false,
+      "interpretation": "Kaggle did not create the kernel or start a clean run; no LB submission occurred."
+    }
+  ],
+  "post_submit": [
+    {
+      "experiment": "EXP128",
+      "slot": "D3-S14",
+      "ref": 56071282,
+      "status": "SubmissionStatus.PENDING",
+      "public_score": null,
+      "private_score": null,
+      "error_description": null,
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp128-d3-s14-weak-learned-tiebreak?scriptVersionId=347884817",
+      "checked_at_utc": "2026-09-07T06:59:36.993000Z",
+      "quota_after": {
+        "quota_used_today": 1,
+        "quota_available": 4,
+        "num_total": 78,
+        "limited_by_total": false
+      }
+    }
+  ]
+}

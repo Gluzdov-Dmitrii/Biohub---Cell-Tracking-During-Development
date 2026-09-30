@@ -1,0 +1,16 @@
+{
+  "status": "INTENT_EXP241_SCORER_STAGE",
+  "manifest_sha256": "ed8c7ac72c5a3f73d30570d24133f4aff7124b4e7dbf52d9e0a6cfe098424ce1",
+  "config_sha256": "251062a7bbccb65d2219d78ede6d09bb617088d79905b02edd53fb06aea6685c",
+  "v1_failure_receipt_sha256": "8cf1410b6f175b42c97344ad125713136577e68d9e3a84a9a56840333b2deb76",
+  "graph_verified_receipt_sha256": "90d0b3882cdcb53092bdce37f1dd619e3566e5cbd8f1b7e6dbcc4c630947cad4",
+  "preflight": {
+    "status": "PASS_EXP241_STAGE_PREFLIGHT_NO_LABELS",
+    "code_present": false,
+    "run_absent": true,
+    "graph_result_sha256": "488e4fce3944cb87d01bc0dba65be31b9f5a5146e57fef755394935ed919e824",
+    "source_labels_read": false,
+    "target_data_opened": false
+  },
+  "source_labels_read": false
+}

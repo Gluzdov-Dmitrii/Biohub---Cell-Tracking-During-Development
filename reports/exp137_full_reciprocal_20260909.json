@@ -1,0 +1,78 @@
+{
+  "experiment": "EXP137",
+  "status": "PASS_RECIPROCAL_DEVELOPMENT_GATE_LOCKED_AUDIT_AUTHORIZED",
+  "scope": "complete 10-train + 2 source-selection reverse fold pooled with the pre-registered forward fold",
+  "development_gate": {
+    "status": "PASS_RECIPROCAL_DEVELOPMENT_GATE",
+    "gate_pass": true,
+    "folds": {
+      "44b6_to_6bba": {
+        "parent_score": 0.6275335232522803,
+        "candidate_score": 0.6294409207057007,
+        "score_delta": 0.0019073974534203897,
+        "node_recall_delta": 0.008276344472909813,
+        "positive_movies": 2,
+        "negative_movies": 2
+      },
+      "6bba_to_44b6": {
+        "parent_score": 0.7296850951604603,
+        "candidate_score": 0.7891859111301831,
+        "score_delta": 0.05950081596972279,
+        "node_recall_delta": 0.02921343472349025,
+        "positive_movies": 2,
+        "negative_movies": 2
+      }
+    },
+    "pooled": {
+      "parent_score": 0.6352965237423387,
+      "candidate_score": 0.6411938290921109,
+      "delta": {
+        "score": 0.005897305349772175,
+        "node_recall": 0.018744889598199976,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 0
+      }
+    },
+    "worst_candidate_fold_score": 0.6294409207057007,
+    "candidate_fold_score_gap": 0.15974499042448242,
+    "independent_seed_direction_repeated": true,
+    "metric_self_consistency": "PASS_RECOMPUTED_FROM_PER_MOVIE_SUFFICIENT_STATISTICS",
+    "locked_audit_authority": true
+  },
+  "reverse_training": {
+    "source_embryo": "6bba",
+    "train_movies": 10,
+    "source_checkpoint_selection_movies": 2,
+    "seed": 314159,
+    "epochs": 5,
+    "scratch_selected_epoch": 4,
+    "scratch_source_selection_score": 0.9792,
+    "zebrahub_selected_epoch": 1,
+    "zebrahub_source_selection_score": 0.9732
+  },
+  "artifacts": {
+    "reciprocal_gate_sha256": "f0f9330ea28be306c118a160d1444a2e101136fed0493e03d9cc55c6c557eaa0",
+    "scratch_result_sha256": "82b528faba7646b5c8e8f0c2366c6964b936defa1d0c0a3f195a81c2920ddef8",
+    "zebrahub_result_sha256": "c80d36bae3256c253e8e9cc3d79931b6f3f23a7d3c7be9cf23b95f91b869f0d8",
+    "scratch_checkpoint_sha256": "5c0f8358389af40a646a0fe3b4e8e88fb1b1c155da12e92efa3c944eeb499366",
+    "zebrahub_checkpoint_sha256": "48f51b4e7f22f37efb53862bc90a3ae43091935591a88ae58bfe09b54e3b1916",
+    "scratch_train_log_sha256": "d85e60dd4a0ba0a6c723d1c0f029fdbba90bd7323a1fb5ae0875d9915ffecdc8",
+    "zebrahub_train_log_sha256": "2f5e2e9f5eaa765093e6ad74df03a52800a8f2b0a6be46271811b775a7da2ff9",
+    "scratch_eval_log_sha256": "a8f86e8ed77ce0eb53807b0f5fb342360c8ca0cf4ff068745c879f7b6c6b5d3f",
+    "zebrahub_eval_log_sha256": "870916dcb9018f489f340239d64098141b79045d9cbddf2aa2a6fd1ace06db04",
+    "launcher_sha256": "ed684ebf95bef8beccbbe150961221d3564e42e1b8d70fec38035db56cebfa73"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu": "Quadro RTX 6000",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "lease_id": "biohub-exp137-full-reciprocal-20260909",
+    "pid": 145189,
+    "pid_start": "418791409",
+    "released_after_verified_stop": true,
+    "post_run_gpu": "5 MiB, 0%"
+  },
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP164",
+  "status": "REJECT_EXTERNAL_GATE_NO_COMPETITION_EVALUATION",
+  "raw_result_warning": "The immutable evaluator output retains its original internal experiment label EXP161. This receipt binds it to the checksum-corrected EXP164 run and exact versioned launcher.",
+  "raw_result_sha256": "ecc94682b8e91cd6b13a1c6a64640cfbf58c3bdc41ce74c06dad4ecdce9fda74",
+  "launcher_sha256": "835aecaa5380254e94b31ffdf96f9742276d72011506b9cb5348f79859a521ec",
+  "evaluator_sha256": "847e4d368b1f4ce2448f1a0817f4a2bb433d372693507fb25b34b969f0de3e90",
+  "checkpoint_sha256": {
+    "scratch": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "pretrained_feature": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+    "backbone": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "external_validation": {
+    "scratch_pair_ap": 0.23191278984685945,
+    "pretrained_feature_pair_ap": 0.20055104526514142,
+    "rank_ensemble_pair_ap": 0.22945918008854538,
+    "component_score_correlation": 0.7848195782903137,
+    "proposal_division_recall_ceiling": 0.973404255319149,
+    "precision": 0.5,
+    "recall": 0.15300546448087432,
+    "true_positive_parents": 28,
+    "predicted_parents": 56,
+    "external_gate_pass": false
+  },
+  "interpretation": "The fixed rank ensemble improved high-precision recall beyond either selected component operating point but remained below the preregistered 0.20 gate. Correlation 0.785 confirms partial rather than strong independence. Do not open competition folds.",
+  "data_access": "All-parent scoring on 64 external time-validation shards only; no competition source or target data was accessed.",
+  "resource_cleanup": "Evaluator completed before scheduler PID registration; output verified; RTX6000 observed 5 MiB/0%; RESERVED lease released verified-stopped.",
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

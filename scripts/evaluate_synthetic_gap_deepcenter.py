@@ -242,7 +242,10 @@ def close_synthetic_gaps(
             if source_id in outgoing or target_id in used_starts:
                 continue
             midpoint_um = 0.5 * (position_um[source_id] + position_um[target_id])
-            middle_ids = [node for node in isolated.get(t + 1, []) if node not in used_middle]
+            # A node isolated initially may already be an endpoint of an earlier
+            # accepted gap. Reusing it as a middle would create a second parent.
+            middle_ids = [node for node in isolated.get(t + 1, [])
+                          if node not in used_middle and node not in incoming and node not in outgoing]
             middle_id = None
             middle_voxel = None
             if middle_ids:

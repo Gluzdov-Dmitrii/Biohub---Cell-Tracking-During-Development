@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP207",
+  "recorded_at": "2026-09-11",
+  "status": "CORRECTED_BEFORE_EXP207_GPU_INFERENCE",
+  "corrects": "reports/exp207_d4_feature_tta8_preregistration_20260911.json",
+  "original_builder_sha256": "f9e27bfc9372efe085d43b04d6675009211115c629344788a94b52001353cd8d",
+  "corrected_builder_sha256": "4d1a5bb10c4fd46ce3615ed0b196aecfab21cbf8f0fe6a67d41cd3627bbbbd9f",
+  "reason": "The original generic CLI accepted one arm name for both directions, while the frozen forward/reverse minimum-length arms are min8 and min3. The correction adds explicit optional reverse arm names and changes no rows, metric, parameters, models, splits or gates.",
+  "new_control_validator_sha256": "9eb638bf66b965c0c8c3774d9183dba02ae9de801d04a9370bd3c372a186d143",
+  "preaudit_runner_sha256": "263e3099e9bb820b3a4502e1880ec22693ec0ea74d6ebd34b60a6c41df3a8026",
+  "literal_flag_corrected_runner_sha256": "c4ee874c88d41890f769a9a9d23a986d1ba3818b417c555a5a16b370453d3990",
+  "runner_sha256": "384ed4551c4455ff42deccf28098cd9906eb29367bb658b2bf4750a55cc567b9",
+  "launcher_sha256": "e8c16efe5f855c0a7221700cc95825a24f08e8313f9cf983797f67119cbe4b4f",
+  "feature_flag_correction": "A final prelaunch audit found that the human-readable labels off/on were passed directly to BIOHUB_EDGE_FEATURE_TTA, whose implementation treats every value except literal 0 as enabled. The runner now separates output label from literal flag value and fail-closed asserts off=0 and on=1. No inference had started and no metric was exposed.",
+  "bytecode_isolation": "The forward and reverse src/scripts source manifests are identical after excluding generated __pycache__ files. The runner removes copied __pycache__ directories before installing and compiling the candidate predictor.",
+  "runner_contract_test_sha256": "7742974412f4006bb94b043291c5c4654aaf923066773b8c56f00ed7fff647ce",
+  "verification": "Thirteen focused source, inverse-map, evaluator, reproduction, control, comparison and runner-contract tests pass after the literal 0/1 and bytecode-isolation corrections.",
+  "gpu_inference_started": false,
+  "exp192_changed": false,
+  "kaggle_action_authorized": false
+}

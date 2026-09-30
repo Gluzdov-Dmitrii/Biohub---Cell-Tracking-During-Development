@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP207",
+  "recorded_at": "2026-09-11",
+  "status": "REMOTE_CODE_INTEGRATED_NOT_LAUNCHED",
+  "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "remote_code_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp207_d4_feature_tta8_v1_20260911",
+  "runner_sha256": "384ed4551c4455ff42deccf28098cd9906eb29367bb658b2bf4750a55cc567b9",
+  "launcher_sha256": "e8c16efe5f855c0a7221700cc95825a24f08e8313f9cf983797f67119cbe4b4f",
+  "candidate_predictor_sha256": "642bb826e54289acee189fdcebef8abc94f25ca06b911a87b30c6664c322f6f7",
+  "forward_source_manifest_with_generated_bytecode_sha256": "67d807097ed283db566cc7a6d2258c5e6f06e782f58e6bdebeadaef85f1cf6f7",
+  "reverse_source_manifest_with_generated_bytecode_sha256": "8c9a8306513fa3fde88197c0d05c7fb41b2ea2738bbe1e1c4c04b58c50e35d24",
+  "source_manifest_excluding_generated_bytecode_sha256": "8e647444cde7db8e7f1948d912cd9ed5673026878e519ddaa78dd45f3245ba88",
+  "manifest_difference": "Only scripts/__pycache__/predict_unet_transformer.cpython-311.pyc differed. All non-bytecode src/scripts files matched exactly, and copied bytecode is removed in the isolated run tree.",
+  "remote_verification": {
+    "all_twelve_deployed_file_hashes_match_local": true,
+    "runner_bash_syntax": "PASS",
+    "launcher_bash_syntax": "PASS",
+    "python_source_compile": "PASS",
+    "remote_code_pycache_directories": 0,
+    "exp207_process_present": false,
+    "exp207_gpu_directory_present": false
+  },
+  "local_tests": "13 passed",
+  "local_owned_pytest_tree_removed": true,
+  "exp192_archive_bytes_observed_during_verification": 68539908096,
+  "exp192_archive_transfer_restarted": false,
+  "gpu_lease_acquired": false,
+  "gpu_inference_started": false,
+  "metrics_opened": false,
+  "kaggle_action": false
+}

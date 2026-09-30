@@ -1,0 +1,62 @@
+{
+  "experiment": "EXP144",
+  "status": "REJECT_RECIPROCAL_LOCKED_AUDIT",
+  "hypothesis": "Zebrahub U-Net initialization improves scratch after source-only checkpoint selection in both reciprocal embryo directions.",
+  "locked_protocol": {
+    "opened_once_after_development_gate": true,
+    "movies_per_direction": 8,
+    "all_four_arms_completed_before_scores_read": true,
+    "metric_recomputed_from_per_movie_sufficient_statistics": true
+  },
+  "folds": {
+    "44b6_to_6bba": {
+      "scratch_score": 0.6895185035726215,
+      "zebrahub_score": 0.6690003565912839,
+      "score_delta": -0.02051814698133758,
+      "node_recall_delta": 0.003612823420259592,
+      "positive_movies": 1,
+      "negative_movies": 7
+    },
+    "6bba_to_44b6": {
+      "scratch_score": 0.6983565734905699,
+      "zebrahub_score": 0.6720450899894821,
+      "score_delta": -0.026311483501087807,
+      "node_recall_delta": 0.010412970719785197,
+      "positive_movies": 2,
+      "negative_movies": 6
+    }
+  },
+  "pooled": {
+    "scratch_score": 0.6914487212216326,
+    "zebrahub_score": 0.6696641586418005,
+    "score_delta": -0.02178456257983208,
+    "scratch_node_recall": 0.9631293668418437,
+    "zebrahub_node_recall": 0.9701422639118661,
+    "node_recall_delta": 0.007012897070022395,
+    "division_tp": 0,
+    "division_fn": 9
+  },
+  "interpretation": "Initialization raises recall but degrades registered-link edge quality on both locked embryo folds. Development gains do not generalize. Reject as PRIVATE_ROBUST and do not submit.",
+  "artifacts": {
+    "locked_gate_sha256": "d01e02ba126dd767a3dd6bcbe0843adee4eaa89f127f10886653be0242591d98",
+    "forward_scratch_sha256": "5c5a8eaf0104a89142981877c34da39198659962ce7533666d38ae27580fa1b9",
+    "forward_zebrahub_sha256": "a1f6bfd01e70426ce9cf2e9d411e148c677706c79bd291315d895215f4b75120",
+    "reverse_scratch_sha256": "bc2d331d92efb0d446faf67db94b6e06e3e7b52228829542e79316b42e17bd74",
+    "reverse_zebrahub_sha256": "2944d8a9c4747e6b14ded4cc55a681583d362fa4b6d7ac9ed5e90cfb87255848",
+    "launcher_sha256": "c1ae4cb1c61468962e39d8fcef3c645c0a9c3a52455ca3d5038f8950f1cb0673"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "lease_id": "biohub-exp144-locked-reciprocal-20260910",
+    "pid": 147701,
+    "pid_start": "422963758",
+    "released_after_verified_stop": true,
+    "post_run_gpu": "5 MiB, 0%",
+    "pre_python_failed_launches": 2,
+    "failed_launches_opened_data_or_wrote_results": false
+  },
+  "publication_decision": "RETRY_BEFORE_OPENING_AS_AN_IMPROVED_MODEL",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

@@ -1,0 +1,51 @@
+{
+  "experiment": "EXP179",
+  "status": "REJECT_SOURCE_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "source_evidence": {
+    "kernel": "qrz1201/biohub-public-0-941-repro",
+    "version": 1,
+    "source_sha256": "24253cae5a958b83d69e201719388031f5758080c5d01ca1a8e374f3a8225389",
+    "extracted_code_sha256": "5fb5d5b17d207dd111105eef8053c513d7c4ce0f179e0a35872010467f1fbe46"
+  },
+  "source_sha256": {
+    "evaluator": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "selector": "5fa90e71646dbbe4be25287b0c1127e344e238bdecae1cf73d407b87474701e3",
+    "launcher": "a8750bcb84193dcf5c0012cd067aab95666f6120562ff2ffe2e581291a46c8a9"
+  },
+  "results": {
+    "44b6_source": {
+      "registered_score": 0.594713874106588,
+      "fixed_observed_gap_score": 0.594713874106588,
+      "adaptive_observed_gap_score": 0.594713874106588,
+      "adaptive_expanded_endpoint_candidates": 172,
+      "added_edges": 0
+    },
+    "6bba_source": {
+      "registered_score": 0.8866258877967269,
+      "fixed_observed_gap_score": 0.8866258877967269,
+      "adaptive_observed_gap_score": 0.8866258877967269,
+      "adaptive_expanded_endpoint_candidates": 33,
+      "added_edges": 0
+    }
+  },
+  "interpretation": "Density adaptation changed endpoint eligibility but no assigned endpoint pair had an otherwise isolated observed middle-frame detection within 3.2 um. The observed-node-only repair was therefore exactly inert in all four source-validation movies.",
+  "promotion_gate_pass": false,
+  "official24_opened": false,
+  "kaggle_slots_used": 0,
+  "resource": {
+    "host": "prepost",
+    "mode": "CPU_ONLY_NO_GPU_LEASE",
+    "reason": "Immutable coordinate caches made GPU allocation unnecessary.",
+    "rtx6000_after_run": "5 MiB, 0%"
+  },
+  "artifact_sha256": {
+    "forward_json": "8d77afe22016021d00dfc49eae83ad787d64cc599ed1ce8bf21e9c1e61bcd14f",
+    "forward_log": "cf1cb0c80921a8dc093dcb9b912704120107b0ef4f857b62938023a34e3fee77",
+    "reverse_json": "3561add91d5565c3e787468226180d3b5989b3771b85fe4d7c920b04877374bf",
+    "reverse_log": "db475f91db7a3bc38a34bb52d384f3979c19e6e404ca22ecd24a417327ce52aa",
+    "gate_json": "712bc67b63d0de774734d930518cc367d0449855cfc515c4a0964981f6435f06",
+    "gate_log": "712bc67b63d0de774734d930518cc367d0449855cfc515c4a0964981f6435f06"
+  },
+  "cleanup": "No process remained. No GPU lease was created. Only owned Python bytecode is removed; verified code, logs and results are retained."
+}

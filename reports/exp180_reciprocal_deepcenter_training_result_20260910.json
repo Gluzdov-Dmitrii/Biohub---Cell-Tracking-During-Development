@@ -1,0 +1,58 @@
+{
+  "experiment": "EXP180",
+  "status": "PASS_RECIPROCAL_EXPLICIT_SOURCE_TRAINING",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "folds": {
+    "44b6": {
+      "train_movies": 10,
+      "validation_movies": 2,
+      "epoch_1_train_loss": 0.06140106830000877,
+      "epoch_1_validation_loss": 0.025586919548610847,
+      "epoch_2_train_loss": 0.020959684379398824,
+      "epoch_2_validation_loss": 0.015097383332128326,
+      "best_checkpoint_sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+      "best_checkpoint_bytes": 37876450,
+      "last_checkpoint_sha256": "0c30a3c8c67c9c05453c9d547dd0dda4bdeb58bc8dbcb4a5da0d9c9d0acd2ad3",
+      "last_checkpoint_bytes": 37878950
+    },
+    "6bba": {
+      "train_movies": 10,
+      "validation_movies": 2,
+      "epoch_1_train_loss": 0.08605733022093773,
+      "epoch_1_validation_loss": 0.0568264388324072,
+      "epoch_2_train_loss": 0.04538171654939652,
+      "epoch_2_validation_loss": 0.04479828259597222,
+      "best_checkpoint_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+      "best_checkpoint_bytes": 37876450,
+      "last_checkpoint_sha256": "d16ebe63ce24994b49c8b2718a9b972bab93399c799e73da07f32db41cb84a07",
+      "last_checkpoint_bytes": 37878950
+    }
+  },
+  "verifier_result_sha256": "0ac54b53a1f12ab91773bd23d58ce83bddd310ab6a407b1b35c7b15e79e7089e",
+  "data_access": "Each invocation discovered only the 12 movies of its own source embryo and used the preregistered disjoint 10/2 split. Opposite-embryo target data was not opened.",
+  "resource": {
+    "queue_id": "biohub-exp180-reciprocal-deepcenter-20260910",
+    "host": "prepost",
+    "gpu": "Quadro RTX 6000",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "pid": 186234,
+    "process_start_tick": "427719598",
+    "observed_worker_vram_mib": 4598,
+    "final_gpu_state": "5 MiB, 0%",
+    "lease_released": true
+  },
+  "eligibility": {
+    "source_gap_evaluation": true,
+    "official24_target_evaluation": false,
+    "kaggle_submission": false
+  },
+  "kaggle_slots_used": 0,
+  "cleanup_plan": "Retain both best.pt files as EXP181 dependencies. Remove redundant checkpoint_last.pt files after their hashes are recorded; retain compact configs, split manifests, histories, gate summaries and local copies of detailed gate CSVs.",
+  "cleanup_actual": {
+    "remote_bytes_reclaimed": 84859270,
+    "removed": "Two redundant checkpoint_last.pt files and duplicate detailed gate CSVs after hashes/results were preserved.",
+    "retained_remote_dependency": "Both best.pt files, required by preregistered EXP181.",
+    "retained_local_diagnostics": "outputs/research/exp130_official24_private_first/exp180_training",
+    "authoritative_local_verifier": "outputs/research/exp130_official24_private_first/exp180_training_pair.json"
+  }
+}

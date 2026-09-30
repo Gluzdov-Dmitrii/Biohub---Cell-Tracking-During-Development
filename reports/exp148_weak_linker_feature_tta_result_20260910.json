@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP148",
+  "status": "REJECT_RECIPROCAL_DEVELOPMENT_EVIDENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Four-view feature TTA may affect the weak learned-linker arm even though it is inert for coordinate-only registered linking.",
+  "evaluation_scope": "Existing four-movie development folds in both reciprocal embryo directions; no locked audit and no new GPU inference.",
+  "forward": {
+    "pooled_score_delta": 0.0005138452875848021,
+    "nonzero_movies": 1,
+    "movies": 4,
+    "node_recall_delta": 0.0,
+    "gate_sha256": "d66e77c1d2026affd4ec0bfc04922efdb0be5c11e5db9cfbbc75709969ed496e"
+  },
+  "reverse": {
+    "pooled_score_delta": 0.0,
+    "nonzero_movies": 0,
+    "movies": 4,
+    "node_recall_delta": 0.0,
+    "gate_sha256": "17f25096d39a70ecc0a6b25f6e964b3bdb1556379cd04885dbf5bebedb8160af"
+  },
+  "decision": "Reject. The effect is one-movie, one-direction evidence and does not replicate across embryo domains.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

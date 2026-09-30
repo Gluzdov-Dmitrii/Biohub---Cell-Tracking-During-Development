@@ -1,0 +1,9 @@
+{
+  "status": "CORRECTED_EXP238_SOURCE44_VERIFIER_OPTIMIZATION_GUARD",
+  "original_receipt_sha256": "1b27c1db034c8849ed5221c590b3bf40f53a70e96cee96d8ab973558c9ce7695",
+  "unguarded_executed_verifier_sha256": "9640a825cab00263f844fa7aced6b737adf8d199915a4185dbac8cf95f17fd25",
+  "guarded_verifier_sha256": "3b250e490ce460ae75f65913ef6e662e5609290a605f9d32c45f5953a872945b",
+  "guarded_recheck_receipt_sha256": "ca95fc50ac24b4a2ccdc0429e6d6b2fd428e1eaecb85255f7eb7133397e53f7a",
+  "original_receipt_preserved": true,
+  "reason": "The original verifier used assertions without an explicit optimization guard; a distinct guarded read-only recheck matched its full receipt payload."
+}

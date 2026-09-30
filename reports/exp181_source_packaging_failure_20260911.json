@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP181",
+  "status": "FAILED_BEFORE_DATA_OR_MODEL_ACCESS",
+  "observed_utc": "2026-09-11T02:40:44.6789155Z",
+  "queue_request": "biohub-exp181-synthetic-gap-source-r3-20260911",
+  "process": {
+    "pid": 190419,
+    "start_tick": "431333631",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "confirmed_ended": true,
+    "child_processes_remaining": false,
+    "gpu_processes_remaining": false
+  },
+  "failure": {
+    "phase": "PYTHON_IMPORT",
+    "exception": "ModuleNotFoundError: No module named 'evaluate_coordinate_consensus'",
+    "root_cause": "The remote staging bundle omitted three local sibling modules imported by evaluate_synthetic_gap_deepcenter.py; local tests passed because the full scripts directory was on sys.path.",
+    "scientific_result": "NOT_EVALUATED",
+    "source_data_opened": false,
+    "model_checkpoint_opened": false
+  },
+  "evidence": {
+    "remote_forward_log_sha256": "4c5d86f1837e07aafccca594080bf8f4dde0dbdab29d6e9ba00c8f6942101956",
+    "remote_launch_receipt_sha256": "e313ae73819213337031c84095862df3a9bfe5392486ae22b6349fde644fce5e",
+    "traceback_retained": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911/results/forward.log"
+  },
+  "resource_cleanup": {
+    "queue_state": "RELEASED",
+    "released_utc_epoch": 1789094430.1601813,
+    "gpu_after_exit": "5 MiB, 0%",
+    "kaggle_slots_used": 0
+  },
+  "next_action": "Create a separately preregistered immutable packaging repair with every transitive local Python dependency SHA-pinned and a clean isolated remote import test before requesting a GPU."
+}

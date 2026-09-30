@@ -1,0 +1,54 @@
+{
+  "experiment": "EXP181",
+  "status": "WAITING_RESOURCE_CANCELLED_UNLAUNCHED",
+  "queue": {
+    "id": "biohub-exp181-synthetic-gap-source-20260911",
+    "owner": "biohub-agent",
+    "created_utc": "2026-09-10T17:10:35Z",
+    "cancelled_utc": "2026-09-10T18:11:39Z",
+    "wait_seconds": 3664,
+    "final_state": "CANCELLED",
+    "health": "CURRENT",
+    "assigned_gpus": [],
+    "process": null
+  },
+  "blocker": {
+    "project": "rsna-knee-abnormality-detection",
+    "queue_id": "rsna-s24-swin-20260910T1644Z",
+    "pid": 187205,
+    "process_start": "Thu Sep 10 16:46:02 2026",
+    "final_observed_gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "final_observed_vram_mib": 9396,
+    "final_observed_utilization_percent": 99,
+    "action": "No preemption, termination, lease recovery, or alternate-GPU launch was attempted."
+  },
+  "prelaunch_evidence": {
+    "focused_tests": "5 passed",
+    "synthetic_accept_reject_graph_smoke": "passed",
+    "remote_python_compile": "passed",
+    "remote_cuda_import": "torch 2.6.0+cu124, CUDA available",
+    "staged_source_sha_verified": true,
+    "launch_receipt_exists": false,
+    "launch_lock_exists": false,
+    "exp181_process_exists": false
+  },
+  "runtime_source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "select_synthetic_gap_source_gate.py": "e8c43125057aae4e6c28ef619bd8bf673f3ad3a3649941ccaa1593d8065f7c26",
+    "run_exp181_synthetic_gap_source.sh": "2844c785bb5780b1308abade7d4f2bcd9f9607df8bb5a065e75e0f16518007a5",
+    "launch_exp181_remote.sh": "898058275d82a860e224767bfd440ed030fe9033096b598957fb0887fbaaaf1b",
+    "preregistration.json": "93487ce5752a8afe74245937ec7befa78950412f745db63a84b3d497809ce7b5"
+  },
+  "cleanup": {
+    "local_reproducible_bytecode_removed_bytes": 31226,
+    "remote_reproducible_bytecode_removed_bytes": 37758,
+    "partial_outputs": 0,
+    "retained": "Five small SHA-verified staged files plus the two unique EXP180 best checkpoints.",
+    "retention_reason": "Exact ready-to-run dependency set for the next user-authorized RTX6000 retry; no duplicate data or checkpoint was created.",
+    "retention_owner": "biohub-agent",
+    "review_date": "2026-09-12"
+  },
+  "data_opened": "No source movie, target movie, official24 fold, or Kaggle runtime data was opened by EXP181.",
+  "kaggle_slots_used": 0,
+  "next_action": "After RTX6000 is free, use a fresh queue ID/token with the same immutable run path and launch only after RESERVED/CURRENT plus a physical GPU check."
+}

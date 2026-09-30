@@ -1,0 +1,1456 @@
+{
+  "alive": false,
+  "elapsed": 297.1361713409424,
+  "log_tail": "dataset\": \"6bba_df673a83\", \"gt_nodes\": 668, \"missed_nodes\": 9, \"miss_rate\": 0.01347305389221557}\n{\"dataset\": \"6bba_e16ffc58\", \"gt_nodes\": 964, \"missed_nodes\": 40, \"miss_rate\": 0.04149377593360996}\n{\"dataset\": \"6bba_e5e44988\", \"gt_nodes\": 666, \"missed_nodes\": 87, \"miss_rate\": 0.13063063063063063}\n{\"dataset\": \"6bba_ebdf3b34\", \"gt_nodes\": 847, \"missed_nodes\": 60, \"miss_rate\": 0.07083825265643448}\n{\"dataset\": \"6bba_ebff6e76\", \"gt_nodes\": 1318, \"missed_nodes\": 271, \"miss_rate\": 0.20561456752655538}\n{\"dataset\": \"6bba_ed9377fd\", \"gt_nodes\": 531, \"missed_nodes\": 6, \"miss_rate\": 0.011299435028248588}\n{\"dataset\": \"6bba_edf14583\", \"gt_nodes\": 801, \"missed_nodes\": 20, \"miss_rate\": 0.024968789013732832}\n{\"dataset\": \"6bba_eebc57a5\", \"gt_nodes\": 1026, \"missed_nodes\": 51, \"miss_rate\": 0.049707602339181284}\n{\"dataset\": \"6bba_ef7b4f7e\", \"gt_nodes\": 1234, \"missed_nodes\": 1, \"miss_rate\": 0.0008103727714748784}\n{\"dataset\": \"6bba_f17befbc\", \"gt_nodes\": 1078, \"missed_nodes\": 136, \"miss_rate\": 0.1261595547309833}\n{\"dataset\": \"6bba_f1fde7e0\", \"gt_nodes\": 476, \"missed_nodes\": 72, \"miss_rate\": 0.15126050420168066}\n{\"dataset\": \"6bba_f20478e9\", \"gt_nodes\": 1003, \"missed_nodes\": 49, \"miss_rate\": 0.04885343968095713}\n{\"dataset\": \"6bba_f4ae811c\", \"gt_nodes\": 1001, \"missed_nodes\": 28, \"miss_rate\": 0.027972027972027972}\n{\"dataset\": \"6bba_f8ffd5e7\", \"gt_nodes\": 389, \"missed_nodes\": 51, \"miss_rate\": 0.13110539845758354}\n{\"dataset\": \"6bba_fbc898dc\", \"gt_nodes\": 655, \"missed_nodes\": 1, \"miss_rate\": 0.0015267175572519084}\n{\"dataset\": \"6bba_fc516dc6\", \"gt_nodes\": 788, \"missed_nodes\": 24, \"miss_rate\": 0.030456852791878174}\n{\"dataset\": \"6bba_fc5f39dc\", \"gt_nodes\": 471, \"missed_nodes\": 41, \"miss_rate\": 0.0870488322717622}\n{\"dataset\": \"6bba_fc83837d\", \"gt_nodes\": 957, \"missed_nodes\": 160, \"miss_rate\": 0.1671891327063741}\n{\"dataset\": \"6bba_fe670320\", \"gt_nodes\": 716, \"missed_nodes\": 32, \"miss_rate\": 0.0446927374301676}\n{\"status\": \"PASS_FROZEN_OFFICIAL_MATCH_NODE_STRATA\", \"elapsed_seconds\": 262.58933091163635}\n",
+  "result": {
+    "status": "PASS_FROZEN_OFFICIAL_MATCH_NODE_STRATA",
+    "evidence_class": "development-adapted target-label diagnostic, not fresh OOF or improvement evidence",
+    "elapsed_seconds": 262.58933091163635,
+    "metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+    "input_manifest": [
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_00_20260914/output/public/submission.csv",
+        "sha256": "2aab4337e1f59674214bb06e051bb95c4501f53aed2d40cab19aaf9bbfec5ff6"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_01_20260914/output/public/submission.csv",
+        "sha256": "c358fe448ca9268d748f40a2a3a084289e3b93c26d2c5ba5ce00dd9ff2da3303"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_02_20260914/output/public/submission.csv",
+        "sha256": "2e02c221f6fd3c87d6715338274e875b127d65711caeba221d3245a346595414"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_03_20260914/output/public/submission.csv",
+        "sha256": "3b23ddb8a4c212afe36f48b25a8db53990f02510bf63fd596fd9adf1aeb5ab08"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_04_20260914/output/public/submission.csv",
+        "sha256": "70cfa98f54cc1bbdcfac80a24fe2db95a49d538b4d45ce81a55808f484baec31"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_00_20260914/output/public/submission.csv",
+        "sha256": "7a5a2e7b62a0761513ff255dcc2130eccc78b07d5a2c2db5a3c64ddcf0df37f0"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_01_20260914/output/public/submission.csv",
+        "sha256": "deb5d8991521473fcf805b1c100cacdfb7bc349c04f4959054c55682e47b179a"
+      },
+      {
+        "csv": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_02_20260914/output/public/submission.csv",
+        "sha256": "94a31a65be11ca2618e042c7a711e4e885f2c6dd7a9190faf30a7ffdfb9303d3"
+      }
+    ],
+    "movies": [
+      {
+        "dataset": "44b6_12dfb391",
+        "gt_nodes": 788,
+        "missed_nodes": 19,
+        "miss_rate": 0.024111675126903553
+      },
+      {
+        "dataset": "44b6_144b256d",
+        "gt_nodes": 121,
+        "missed_nodes": 1,
+        "miss_rate": 0.008264462809917356
+      },
+      {
+        "dataset": "44b6_1574802b",
+        "gt_nodes": 155,
+        "missed_nodes": 7,
+        "miss_rate": 0.04516129032258064
+      },
+      {
+        "dataset": "44b6_18ced818",
+        "gt_nodes": 100,
+        "missed_nodes": 1,
+        "miss_rate": 0.01
+      },
+      {
+        "dataset": "44b6_1d530831",
+        "gt_nodes": 276,
+        "missed_nodes": 23,
+        "miss_rate": 0.08333333333333333
+      },
+      {
+        "dataset": "44b6_24264f12",
+        "gt_nodes": 230,
+        "missed_nodes": 16,
+        "miss_rate": 0.06956521739130435
+      },
+      {
+        "dataset": "44b6_267148e4",
+        "gt_nodes": 280,
+        "missed_nodes": 45,
+        "miss_rate": 0.16071428571428573
+      },
+      {
+        "dataset": "44b6_2a2eff9f",
+        "gt_nodes": 214,
+        "missed_nodes": 3,
+        "miss_rate": 0.014018691588785047
+      },
+      {
+        "dataset": "44b6_2f31fc2f",
+        "gt_nodes": 89,
+        "missed_nodes": 7,
+        "miss_rate": 0.07865168539325842
+      },
+      {
+        "dataset": "44b6_33b596bf",
+        "gt_nodes": 50,
+        "missed_nodes": 3,
+        "miss_rate": 0.06
+      },
+      {
+        "dataset": "44b6_3a861e03",
+        "gt_nodes": 935,
+        "missed_nodes": 27,
+        "miss_rate": 0.028877005347593583
+      },
+      {
+        "dataset": "44b6_3bb3690f",
+        "gt_nodes": 400,
+        "missed_nodes": 17,
+        "miss_rate": 0.0425
+      },
+      {
+        "dataset": "44b6_40c45f5a",
+        "gt_nodes": 200,
+        "missed_nodes": 9,
+        "miss_rate": 0.045
+      },
+      {
+        "dataset": "44b6_415c0a3a",
+        "gt_nodes": 331,
+        "missed_nodes": 7,
+        "miss_rate": 0.021148036253776436
+      },
+      {
+        "dataset": "44b6_53f95252",
+        "gt_nodes": 70,
+        "missed_nodes": 0,
+        "miss_rate": 0.0
+      },
+      {
+        "dataset": "44b6_551a5dba",
+        "gt_nodes": 228,
+        "missed_nodes": 27,
+        "miss_rate": 0.11842105263157894
+      },
+      {
+        "dataset": "44b6_5740d24b",
+        "gt_nodes": 173,
+        "missed_nodes": 5,
+        "miss_rate": 0.028901734104046242
+      },
+      {
+        "dataset": "44b6_587a1e22",
+        "gt_nodes": 381,
+        "missed_nodes": 27,
+        "miss_rate": 0.07086614173228346
+      },
+      {
+        "dataset": "44b6_5f15d135",
+        "gt_nodes": 278,
+        "missed_nodes": 21,
+        "miss_rate": 0.07553956834532374
+      },
+      {
+        "dataset": "44b6_668e0cc7",
+        "gt_nodes": 643,
+        "missed_nodes": 10,
+        "miss_rate": 0.015552099533437015
+      },
+      {
+        "dataset": "44b6_66f9292d",
+        "gt_nodes": 200,
+        "missed_nodes": 17,
+        "miss_rate": 0.085
+      },
+      {
+        "dataset": "44b6_706092f0",
+        "gt_nodes": 118,
+        "missed_nodes": 3,
+        "miss_rate": 0.025423728813559324
+      },
+      {
+        "dataset": "44b6_71a4179f",
+        "gt_nodes": 121,
+        "missed_nodes": 2,
+        "miss_rate": 0.01652892561983471
+      },
+      {
+        "dataset": "44b6_74d0c52e",
+        "gt_nodes": 140,
+        "missed_nodes": 9,
+        "miss_rate": 0.06428571428571428
+      },
+      {
+        "dataset": "44b6_7a302da0",
+        "gt_nodes": 516,
+        "missed_nodes": 40,
+        "miss_rate": 0.07751937984496124
+      },
+      {
+        "dataset": "44b6_7e557709",
+        "gt_nodes": 570,
+        "missed_nodes": 5,
+        "miss_rate": 0.008771929824561403
+      },
+      {
+        "dataset": "44b6_81c256f0",
+        "gt_nodes": 199,
+        "missed_nodes": 0,
+        "miss_rate": 0.0
+      },
+      {
+        "dataset": "44b6_87bba6c4",
+        "gt_nodes": 153,
+        "missed_nodes": 12,
+        "miss_rate": 0.0784313725490196
+      },
+      {
+        "dataset": "44b6_8f5ab931",
+        "gt_nodes": 616,
+        "missed_nodes": 25,
+        "miss_rate": 0.040584415584415584
+      },
+      {
+        "dataset": "44b6_8f9ecab4",
+        "gt_nodes": 374,
+        "missed_nodes": 16,
+        "miss_rate": 0.0427807486631016
+      },
+      {
+        "dataset": "44b6_90724892",
+        "gt_nodes": 105,
+        "missed_nodes": 5,
+        "miss_rate": 0.047619047619047616
+      },
+      {
+        "dataset": "44b6_95029e92",
+        "gt_nodes": 200,
+        "missed_nodes": 0,
+        "miss_rate": 0.0
+      },
+      {
+        "dataset": "44b6_97725144",
+        "gt_nodes": 225,
+        "missed_nodes": 1,
+        "miss_rate": 0.0044444444444444444
+      },
+      {
+        "dataset": "44b6_996155de",
+        "gt_nodes": 380,
+        "missed_nodes": 11,
+        "miss_rate": 0.02894736842105263
+      },
+      {
+        "dataset": "44b6_9be80b04",
+        "gt_nodes": 222,
+        "missed_nodes": 21,
+        "miss_rate": 0.0945945945945946
+      },
+      {
+        "dataset": "44b6_a21120c2",
+        "gt_nodes": 296,
+        "missed_nodes": 19,
+        "miss_rate": 0.06418918918918919
+      },
+      {
+        "dataset": "44b6_a2bb48bb",
+        "gt_nodes": 416,
+        "missed_nodes": 78,
+        "miss_rate": 0.1875
+      },
+      {
+        "dataset": "44b6_aaf8b0ea",
+        "gt_nodes": 209,
+        "missed_nodes": 11,
+        "miss_rate": 0.05263157894736842
+      },
+      {
+        "dataset": "44b6_abf82518",
+        "gt_nodes": 96,
+        "missed_nodes": 0,
+        "miss_rate": 0.0
+      },
+      {
+        "dataset": "44b6_b2c44266",
+        "gt_nodes": 170,
+        "missed_nodes": 2,
+        "miss_rate": 0.011764705882352941
+      },
+      {
+        "dataset": "44b6_c15fded2",
+        "gt_nodes": 104,
+        "missed_nodes": 15,
+        "miss_rate": 0.14423076923076922
+      },
+      {
+        "dataset": "44b6_c50204e0",
+        "gt_nodes": 333,
+        "missed_nodes": 37,
+        "miss_rate": 0.1111111111111111
+      },
+      {
+        "dataset": "44b6_c771cb04",
+        "gt_nodes": 227,
+        "missed_nodes": 12,
+        "miss_rate": 0.05286343612334802
+      },
+      {
+        "dataset": "44b6_c8e2a523",
+        "gt_nodes": 168,
+        "missed_nodes": 4,
+        "miss_rate": 0.023809523809523808
+      },
+      {
+        "dataset": "44b6_c96cfa10",
+        "gt_nodes": 629,
+        "missed_nodes": 35,
+        "miss_rate": 0.05564387917329094
+      },
+      {
+        "dataset": "44b6_cf2536e8",
+        "gt_nodes": 76,
+        "missed_nodes": 4,
+        "miss_rate": 0.05263157894736842
+      },
+      {
+        "dataset": "44b6_cf8fed6b",
+        "gt_nodes": 191,
+        "missed_nodes": 1,
+        "miss_rate": 0.005235602094240838
+      },
+      {
+        "dataset": "44b6_d29c9ab2",
+        "gt_nodes": 1353,
+        "missed_nodes": 25,
+        "miss_rate": 0.018477457501847747
+      },
+      {
+        "dataset": "44b6_d2f34f90",
+        "gt_nodes": 283,
+        "missed_nodes": 17,
+        "miss_rate": 0.06007067137809187
+      },
+      {
+        "dataset": "44b6_d5e7d891",
+        "gt_nodes": 906,
+        "missed_nodes": 75,
+        "miss_rate": 0.08278145695364239
+      },
+      {
+        "dataset": "44b6_d754aa59",
+        "gt_nodes": 72,
+        "missed_nodes": 5,
+        "miss_rate": 0.06944444444444445
+      },
+      {
+        "dataset": "44b6_d78e09d9",
+        "gt_nodes": 463,
+        "missed_nodes": 20,
+        "miss_rate": 0.04319654427645788
+      },
+      {
+        "dataset": "44b6_db3c847b",
+        "gt_nodes": 165,
+        "missed_nodes": 5,
+        "miss_rate": 0.030303030303030304
+      },
+      {
+        "dataset": "44b6_deabac95",
+        "gt_nodes": 126,
+        "missed_nodes": 3,
+        "miss_rate": 0.023809523809523808
+      },
+      {
+        "dataset": "44b6_e28840c6",
+        "gt_nodes": 311,
+        "missed_nodes": 28,
+        "miss_rate": 0.09003215434083602
+      },
+      {
+        "dataset": "44b6_e29f0176",
+        "gt_nodes": 51,
+        "missed_nodes": 5,
+        "miss_rate": 0.09803921568627451
+      },
+      {
+        "dataset": "44b6_e31261b4",
+        "gt_nodes": 116,
+        "missed_nodes": 1,
+        "miss_rate": 0.008620689655172414
+      },
+      {
+        "dataset": "44b6_e57ff5c6",
+        "gt_nodes": 193,
+        "missed_nodes": 48,
+        "miss_rate": 0.24870466321243523
+      },
+      {
+        "dataset": "44b6_eb2880fc",
+        "gt_nodes": 390,
+        "missed_nodes": 11,
+        "miss_rate": 0.028205128205128206
+      },
+      {
+        "dataset": "6bba_07e24132",
+        "gt_nodes": 359,
+        "missed_nodes": 43,
+        "miss_rate": 0.11977715877437325
+      },
+      {
+        "dataset": "6bba_085bf656",
+        "gt_nodes": 1198,
+        "missed_nodes": 9,
+        "miss_rate": 0.007512520868113523
+      },
+      {
+        "dataset": "6bba_09961292",
+        "gt_nodes": 1950,
+        "missed_nodes": 53,
+        "miss_rate": 0.02717948717948718
+      },
+      {
+        "dataset": "6bba_0c7fa718",
+        "gt_nodes": 704,
+        "missed_nodes": 103,
+        "miss_rate": 0.14630681818181818
+      },
+      {
+        "dataset": "6bba_0e7c0d07",
+        "gt_nodes": 209,
+        "missed_nodes": 14,
+        "miss_rate": 0.06698564593301436
+      },
+      {
+        "dataset": "6bba_12665c0e",
+        "gt_nodes": 1036,
+        "missed_nodes": 27,
+        "miss_rate": 0.026061776061776062
+      },
+      {
+        "dataset": "6bba_15403b9a",
+        "gt_nodes": 758,
+        "missed_nodes": 27,
+        "miss_rate": 0.03562005277044855
+      },
+      {
+        "dataset": "6bba_1d0d8384",
+        "gt_nodes": 1438,
+        "missed_nodes": 196,
+        "miss_rate": 0.13630041724617525
+      },
+      {
+        "dataset": "6bba_1ebfb80d",
+        "gt_nodes": 745,
+        "missed_nodes": 78,
+        "miss_rate": 0.10469798657718121
+      },
+      {
+        "dataset": "6bba_1f58c2f6",
+        "gt_nodes": 317,
+        "missed_nodes": 31,
+        "miss_rate": 0.09779179810725552
+      },
+      {
+        "dataset": "6bba_207c6aaf",
+        "gt_nodes": 475,
+        "missed_nodes": 109,
+        "miss_rate": 0.2294736842105263
+      },
+      {
+        "dataset": "6bba_2312ac41",
+        "gt_nodes": 1156,
+        "missed_nodes": 24,
+        "miss_rate": 0.020761245674740483
+      },
+      {
+        "dataset": "6bba_23af9eeb",
+        "gt_nodes": 513,
+        "missed_nodes": 6,
+        "miss_rate": 0.011695906432748537
+      },
+      {
+        "dataset": "6bba_2540cd90",
+        "gt_nodes": 529,
+        "missed_nodes": 2,
+        "miss_rate": 0.003780718336483932
+      },
+      {
+        "dataset": "6bba_2646afc7",
+        "gt_nodes": 738,
+        "missed_nodes": 3,
+        "miss_rate": 0.0040650406504065045
+      },
+      {
+        "dataset": "6bba_268e1230",
+        "gt_nodes": 641,
+        "missed_nodes": 137,
+        "miss_rate": 0.21372854914196568
+      },
+      {
+        "dataset": "6bba_2819ca14",
+        "gt_nodes": 986,
+        "missed_nodes": 54,
+        "miss_rate": 0.05476673427991886
+      },
+      {
+        "dataset": "6bba_283bf9f1",
+        "gt_nodes": 1342,
+        "missed_nodes": 74,
+        "miss_rate": 0.05514157973174367
+      },
+      {
+        "dataset": "6bba_312f0dc3",
+        "gt_nodes": 520,
+        "missed_nodes": 11,
+        "miss_rate": 0.021153846153846155
+      },
+      {
+        "dataset": "6bba_32db13fc",
+        "gt_nodes": 862,
+        "missed_nodes": 84,
+        "miss_rate": 0.09744779582366589
+      },
+      {
+        "dataset": "6bba_337b1b3a",
+        "gt_nodes": 1272,
+        "missed_nodes": 6,
+        "miss_rate": 0.0047169811320754715
+      },
+      {
+        "dataset": "6bba_372c8cb8",
+        "gt_nodes": 1036,
+        "missed_nodes": 23,
+        "miss_rate": 0.0222007722007722
+      },
+      {
+        "dataset": "6bba_3a1849c2",
+        "gt_nodes": 1173,
+        "missed_nodes": 257,
+        "miss_rate": 0.21909633418584826
+      },
+      {
+        "dataset": "6bba_3c5691b6",
+        "gt_nodes": 765,
+        "missed_nodes": 1,
+        "miss_rate": 0.00130718954248366
+      },
+      {
+        "dataset": "6bba_3db54e20",
+        "gt_nodes": 502,
+        "missed_nodes": 75,
+        "miss_rate": 0.14940239043824702
+      },
+      {
+        "dataset": "6bba_3fda6b25",
+        "gt_nodes": 1207,
+        "missed_nodes": 17,
+        "miss_rate": 0.014084507042253521
+      },
+      {
+        "dataset": "6bba_43fea39d",
+        "gt_nodes": 910,
+        "missed_nodes": 13,
+        "miss_rate": 0.014285714285714285
+      },
+      {
+        "dataset": "6bba_474be664",
+        "gt_nodes": 292,
+        "missed_nodes": 143,
+        "miss_rate": 0.4897260273972603
+      },
+      {
+        "dataset": "6bba_48816121",
+        "gt_nodes": 935,
+        "missed_nodes": 17,
+        "miss_rate": 0.01818181818181818
+      },
+      {
+        "dataset": "6bba_4aa14c89",
+        "gt_nodes": 707,
+        "missed_nodes": 31,
+        "miss_rate": 0.04384724186704385
+      },
+      {
+        "dataset": "6bba_4f99ce20",
+        "gt_nodes": 1057,
+        "missed_nodes": 30,
+        "miss_rate": 0.02838221381267739
+      },
+      {
+        "dataset": "6bba_4ffd3da3",
+        "gt_nodes": 706,
+        "missed_nodes": 49,
+        "miss_rate": 0.06940509915014165
+      },
+      {
+        "dataset": "6bba_55b7eebe",
+        "gt_nodes": 705,
+        "missed_nodes": 14,
+        "miss_rate": 0.019858156028368795
+      },
+      {
+        "dataset": "6bba_55c70843",
+        "gt_nodes": 490,
+        "missed_nodes": 51,
+        "miss_rate": 0.10408163265306122
+      },
+      {
+        "dataset": "6bba_57b7cc1e",
+        "gt_nodes": 1659,
+        "missed_nodes": 234,
+        "miss_rate": 0.1410488245931284
+      },
+      {
+        "dataset": "6bba_5a4d9360",
+        "gt_nodes": 747,
+        "missed_nodes": 95,
+        "miss_rate": 0.12717536813922356
+      },
+      {
+        "dataset": "6bba_5b28472a",
+        "gt_nodes": 737,
+        "missed_nodes": 2,
+        "miss_rate": 0.0027137042062415195
+      },
+      {
+        "dataset": "6bba_5c039895",
+        "gt_nodes": 1174,
+        "missed_nodes": 30,
+        "miss_rate": 0.02555366269165247
+      },
+      {
+        "dataset": "6bba_5c824876",
+        "gt_nodes": 1170,
+        "missed_nodes": 66,
+        "miss_rate": 0.05641025641025641
+      },
+      {
+        "dataset": "6bba_5dfe9ad1",
+        "gt_nodes": 1542,
+        "missed_nodes": 67,
+        "miss_rate": 0.04345006485084306
+      },
+      {
+        "dataset": "6bba_5f89039d",
+        "gt_nodes": 904,
+        "missed_nodes": 25,
+        "miss_rate": 0.02765486725663717
+      },
+      {
+        "dataset": "6bba_61dd1e0d",
+        "gt_nodes": 558,
+        "missed_nodes": 23,
+        "miss_rate": 0.04121863799283154
+      },
+      {
+        "dataset": "6bba_61ecbe65",
+        "gt_nodes": 640,
+        "missed_nodes": 30,
+        "miss_rate": 0.046875
+      },
+      {
+        "dataset": "6bba_6321a359",
+        "gt_nodes": 827,
+        "missed_nodes": 24,
+        "miss_rate": 0.02902055622732769
+      },
+      {
+        "dataset": "6bba_6479435d",
+        "gt_nodes": 617,
+        "missed_nodes": 145,
+        "miss_rate": 0.23500810372771475
+      },
+      {
+        "dataset": "6bba_67ebd073",
+        "gt_nodes": 462,
+        "missed_nodes": 24,
+        "miss_rate": 0.05194805194805195
+      },
+      {
+        "dataset": "6bba_6ca87370",
+        "gt_nodes": 1081,
+        "missed_nodes": 42,
+        "miss_rate": 0.03885291396854764
+      },
+      {
+        "dataset": "6bba_6db0e9b4",
+        "gt_nodes": 449,
+        "missed_nodes": 8,
+        "miss_rate": 0.017817371937639197
+      },
+      {
+        "dataset": "6bba_6feb10f0",
+        "gt_nodes": 1368,
+        "missed_nodes": 1103,
+        "miss_rate": 0.8062865497076024
+      },
+      {
+        "dataset": "6bba_6feeb0b1",
+        "gt_nodes": 1389,
+        "missed_nodes": 72,
+        "miss_rate": 0.05183585313174946
+      },
+      {
+        "dataset": "6bba_705ec2c9",
+        "gt_nodes": 596,
+        "missed_nodes": 50,
+        "miss_rate": 0.08389261744966443
+      },
+      {
+        "dataset": "6bba_718b21f9",
+        "gt_nodes": 661,
+        "missed_nodes": 15,
+        "miss_rate": 0.0226928895612708
+      },
+      {
+        "dataset": "6bba_74686d6a",
+        "gt_nodes": 586,
+        "missed_nodes": 45,
+        "miss_rate": 0.07679180887372014
+      },
+      {
+        "dataset": "6bba_767a1e17",
+        "gt_nodes": 718,
+        "missed_nodes": 113,
+        "miss_rate": 0.1573816155988858
+      },
+      {
+        "dataset": "6bba_76db78c1",
+        "gt_nodes": 617,
+        "missed_nodes": 4,
+        "miss_rate": 0.006482982171799027
+      },
+      {
+        "dataset": "6bba_786893ac",
+        "gt_nodes": 1465,
+        "missed_nodes": 123,
+        "miss_rate": 0.08395904436860069
+      },
+      {
+        "dataset": "6bba_789f8168",
+        "gt_nodes": 713,
+        "missed_nodes": 19,
+        "miss_rate": 0.02664796633941094
+      },
+      {
+        "dataset": "6bba_78a7bd97",
+        "gt_nodes": 886,
+        "missed_nodes": 275,
+        "miss_rate": 0.31038374717832956
+      },
+      {
+        "dataset": "6bba_7af54fde",
+        "gt_nodes": 1131,
+        "missed_nodes": 24,
+        "miss_rate": 0.021220159151193633
+      },
+      {
+        "dataset": "6bba_7f87b3d8",
+        "gt_nodes": 1000,
+        "missed_nodes": 109,
+        "miss_rate": 0.109
+      },
+      {
+        "dataset": "6bba_80d12824",
+        "gt_nodes": 680,
+        "missed_nodes": 28,
+        "miss_rate": 0.041176470588235294
+      },
+      {
+        "dataset": "6bba_825bd1c6",
+        "gt_nodes": 968,
+        "missed_nodes": 29,
+        "miss_rate": 0.029958677685950414
+      },
+      {
+        "dataset": "6bba_87289e13",
+        "gt_nodes": 724,
+        "missed_nodes": 13,
+        "miss_rate": 0.017955801104972375
+      },
+      {
+        "dataset": "6bba_8b7818bf",
+        "gt_nodes": 741,
+        "missed_nodes": 8,
+        "miss_rate": 0.010796221322537112
+      },
+      {
+        "dataset": "6bba_907271db",
+        "gt_nodes": 945,
+        "missed_nodes": 44,
+        "miss_rate": 0.04656084656084656
+      },
+      {
+        "dataset": "6bba_91951b3a",
+        "gt_nodes": 1188,
+        "missed_nodes": 15,
+        "miss_rate": 0.012626262626262626
+      },
+      {
+        "dataset": "6bba_96833384",
+        "gt_nodes": 758,
+        "missed_nodes": 30,
+        "miss_rate": 0.0395778364116095
+      },
+      {
+        "dataset": "6bba_969618f6",
+        "gt_nodes": 679,
+        "missed_nodes": 26,
+        "miss_rate": 0.03829160530191458
+      },
+      {
+        "dataset": "6bba_971fa5e0",
+        "gt_nodes": 792,
+        "missed_nodes": 25,
+        "miss_rate": 0.03156565656565657
+      },
+      {
+        "dataset": "6bba_9a41d029",
+        "gt_nodes": 1401,
+        "missed_nodes": 33,
+        "miss_rate": 0.023554603854389723
+      },
+      {
+        "dataset": "6bba_9e23430b",
+        "gt_nodes": 914,
+        "missed_nodes": 53,
+        "miss_rate": 0.05798687089715536
+      },
+      {
+        "dataset": "6bba_a5e926bb",
+        "gt_nodes": 741,
+        "missed_nodes": 47,
+        "miss_rate": 0.06342780026990553
+      },
+      {
+        "dataset": "6bba_a90a0b9c",
+        "gt_nodes": 1147,
+        "missed_nodes": 183,
+        "miss_rate": 0.15954664341761116
+      },
+      {
+        "dataset": "6bba_ab78413d",
+        "gt_nodes": 1179,
+        "missed_nodes": 715,
+        "miss_rate": 0.6064461407972859
+      },
+      {
+        "dataset": "6bba_acd782a8",
+        "gt_nodes": 356,
+        "missed_nodes": 13,
+        "miss_rate": 0.03651685393258427
+      },
+      {
+        "dataset": "6bba_ae82a791",
+        "gt_nodes": 1495,
+        "missed_nodes": 6,
+        "miss_rate": 0.004013377926421404
+      },
+      {
+        "dataset": "6bba_af149c94",
+        "gt_nodes": 1350,
+        "missed_nodes": 77,
+        "miss_rate": 0.05703703703703704
+      },
+      {
+        "dataset": "6bba_afb141ff",
+        "gt_nodes": 654,
+        "missed_nodes": 25,
+        "miss_rate": 0.0382262996941896
+      },
+      {
+        "dataset": "6bba_b1ae37b9",
+        "gt_nodes": 612,
+        "missed_nodes": 16,
+        "miss_rate": 0.026143790849673203
+      },
+      {
+        "dataset": "6bba_b204cac7",
+        "gt_nodes": 826,
+        "missed_nodes": 42,
+        "miss_rate": 0.05084745762711865
+      },
+      {
+        "dataset": "6bba_b329af44",
+        "gt_nodes": 1316,
+        "missed_nodes": 111,
+        "miss_rate": 0.08434650455927052
+      },
+      {
+        "dataset": "6bba_b693381b",
+        "gt_nodes": 983,
+        "missed_nodes": 36,
+        "miss_rate": 0.03662258392675483
+      },
+      {
+        "dataset": "6bba_bb9f20c3",
+        "gt_nodes": 1925,
+        "missed_nodes": 104,
+        "miss_rate": 0.054025974025974026
+      },
+      {
+        "dataset": "6bba_bbb708ca",
+        "gt_nodes": 892,
+        "missed_nodes": 44,
+        "miss_rate": 0.04932735426008968
+      },
+      {
+        "dataset": "6bba_c27cba08",
+        "gt_nodes": 517,
+        "missed_nodes": 17,
+        "miss_rate": 0.03288201160541586
+      },
+      {
+        "dataset": "6bba_c328f2fd",
+        "gt_nodes": 511,
+        "missed_nodes": 68,
+        "miss_rate": 0.13307240704500978
+      },
+      {
+        "dataset": "6bba_c73a1d11",
+        "gt_nodes": 737,
+        "missed_nodes": 201,
+        "miss_rate": 0.2727272727272727
+      },
+      {
+        "dataset": "6bba_cdcfe533",
+        "gt_nodes": 1419,
+        "missed_nodes": 22,
+        "miss_rate": 0.015503875968992248
+      },
+      {
+        "dataset": "6bba_cf35214c",
+        "gt_nodes": 842,
+        "missed_nodes": 27,
+        "miss_rate": 0.032066508313539195
+      },
+      {
+        "dataset": "6bba_d0fc38b5",
+        "gt_nodes": 835,
+        "missed_nodes": 9,
+        "miss_rate": 0.010778443113772455
+      },
+      {
+        "dataset": "6bba_d1acb6ff",
+        "gt_nodes": 681,
+        "missed_nodes": 68,
+        "miss_rate": 0.09985315712187959
+      },
+      {
+        "dataset": "6bba_d2b9fc0c",
+        "gt_nodes": 944,
+        "missed_nodes": 17,
+        "miss_rate": 0.018008474576271187
+      },
+      {
+        "dataset": "6bba_d3da753b",
+        "gt_nodes": 887,
+        "missed_nodes": 33,
+        "miss_rate": 0.03720405862457723
+      },
+      {
+        "dataset": "6bba_d5eae175",
+        "gt_nodes": 528,
+        "missed_nodes": 1,
+        "miss_rate": 0.001893939393939394
+      },
+      {
+        "dataset": "6bba_d6ecebbb",
+        "gt_nodes": 886,
+        "missed_nodes": 106,
+        "miss_rate": 0.11963882618510158
+      },
+      {
+        "dataset": "6bba_d82a4fc6",
+        "gt_nodes": 545,
+        "missed_nodes": 14,
+        "miss_rate": 0.025688073394495414
+      },
+      {
+        "dataset": "6bba_debd7bfa",
+        "gt_nodes": 766,
+        "missed_nodes": 45,
+        "miss_rate": 0.0587467362924282
+      },
+      {
+        "dataset": "6bba_df673a83",
+        "gt_nodes": 668,
+        "missed_nodes": 9,
+        "miss_rate": 0.01347305389221557
+      },
+      {
+        "dataset": "6bba_e16ffc58",
+        "gt_nodes": 964,
+        "missed_nodes": 40,
+        "miss_rate": 0.04149377593360996
+      },
+      {
+        "dataset": "6bba_e5e44988",
+        "gt_nodes": 666,
+        "missed_nodes": 87,
+        "miss_rate": 0.13063063063063063
+      },
+      {
+        "dataset": "6bba_ebdf3b34",
+        "gt_nodes": 847,
+        "missed_nodes": 60,
+        "miss_rate": 0.07083825265643448
+      },
+      {
+        "dataset": "6bba_ebff6e76",
+        "gt_nodes": 1318,
+        "missed_nodes": 271,
+        "miss_rate": 0.20561456752655538
+      },
+      {
+        "dataset": "6bba_ed9377fd",
+        "gt_nodes": 531,
+        "missed_nodes": 6,
+        "miss_rate": 0.011299435028248588
+      },
+      {
+        "dataset": "6bba_edf14583",
+        "gt_nodes": 801,
+        "missed_nodes": 20,
+        "miss_rate": 0.024968789013732832
+      },
+      {
+        "dataset": "6bba_eebc57a5",
+        "gt_nodes": 1026,
+        "missed_nodes": 51,
+        "miss_rate": 0.049707602339181284
+      },
+      {
+        "dataset": "6bba_ef7b4f7e",
+        "gt_nodes": 1234,
+        "missed_nodes": 1,
+        "miss_rate": 0.0008103727714748784
+      },
+      {
+        "dataset": "6bba_f17befbc",
+        "gt_nodes": 1078,
+        "missed_nodes": 136,
+        "miss_rate": 0.1261595547309833
+      },
+      {
+        "dataset": "6bba_f1fde7e0",
+        "gt_nodes": 476,
+        "missed_nodes": 72,
+        "miss_rate": 0.15126050420168066
+      },
+      {
+        "dataset": "6bba_f20478e9",
+        "gt_nodes": 1003,
+        "missed_nodes": 49,
+        "miss_rate": 0.04885343968095713
+      },
+      {
+        "dataset": "6bba_f4ae811c",
+        "gt_nodes": 1001,
+        "missed_nodes": 28,
+        "miss_rate": 0.027972027972027972
+      },
+      {
+        "dataset": "6bba_f8ffd5e7",
+        "gt_nodes": 389,
+        "missed_nodes": 51,
+        "miss_rate": 0.13110539845758354
+      },
+      {
+        "dataset": "6bba_fbc898dc",
+        "gt_nodes": 655,
+        "missed_nodes": 1,
+        "miss_rate": 0.0015267175572519084
+      },
+      {
+        "dataset": "6bba_fc516dc6",
+        "gt_nodes": 788,
+        "missed_nodes": 24,
+        "miss_rate": 0.030456852791878174
+      },
+      {
+        "dataset": "6bba_fc5f39dc",
+        "gt_nodes": 471,
+        "missed_nodes": 41,
+        "miss_rate": 0.0870488322717622
+      },
+      {
+        "dataset": "6bba_fc83837d",
+        "gt_nodes": 957,
+        "missed_nodes": 160,
+        "miss_rate": 0.1671891327063741
+      },
+      {
+        "dataset": "6bba_fe670320",
+        "gt_nodes": 716,
+        "missed_nodes": 32,
+        "miss_rate": 0.0446927374301676
+      }
+    ],
+    "strata": [
+      {
+        "embryo": "44b6",
+        "feature": "boundary",
+        "value": "ge5um",
+        "gt_nodes": 14922,
+        "missed_nodes": 774,
+        "miss_rate": 0.05186972255729795
+      },
+      {
+        "embryo": "44b6",
+        "feature": "boundary",
+        "value": "lt5um",
+        "gt_nodes": 2503,
+        "missed_nodes": 129,
+        "miss_rate": 0.05153815421494207
+      },
+      {
+        "embryo": "44b6",
+        "feature": "depth_quartile",
+        "value": "0",
+        "gt_nodes": 2591,
+        "missed_nodes": 140,
+        "miss_rate": 0.05403319181783095
+      },
+      {
+        "embryo": "44b6",
+        "feature": "depth_quartile",
+        "value": "1",
+        "gt_nodes": 6155,
+        "missed_nodes": 325,
+        "miss_rate": 0.05280259951259139
+      },
+      {
+        "embryo": "44b6",
+        "feature": "depth_quartile",
+        "value": "2",
+        "gt_nodes": 5780,
+        "missed_nodes": 279,
+        "miss_rate": 0.04826989619377162
+      },
+      {
+        "embryo": "44b6",
+        "feature": "depth_quartile",
+        "value": "3",
+        "gt_nodes": 2899,
+        "missed_nodes": 159,
+        "miss_rate": 0.05484649879268713
+      },
+      {
+        "embryo": "44b6",
+        "feature": "nearest_gt_distance",
+        "value": "3to6um",
+        "gt_nodes": 174,
+        "missed_nodes": 24,
+        "miss_rate": 0.13793103448275862
+      },
+      {
+        "embryo": "44b6",
+        "feature": "nearest_gt_distance",
+        "value": "6to12um",
+        "gt_nodes": 1804,
+        "missed_nodes": 131,
+        "miss_rate": 0.07261640798226164
+      },
+      {
+        "embryo": "44b6",
+        "feature": "nearest_gt_distance",
+        "value": "ge12um",
+        "gt_nodes": 15445,
+        "missed_nodes": 747,
+        "miss_rate": 0.048365166720621564
+      },
+      {
+        "embryo": "44b6",
+        "feature": "nearest_gt_distance",
+        "value": "lt3um",
+        "gt_nodes": 2,
+        "missed_nodes": 1,
+        "miss_rate": 0.5
+      },
+      {
+        "embryo": "44b6",
+        "feature": "time_quartile",
+        "value": "0",
+        "gt_nodes": 4156,
+        "missed_nodes": 167,
+        "miss_rate": 0.04018286814244466
+      },
+      {
+        "embryo": "44b6",
+        "feature": "time_quartile",
+        "value": "1",
+        "gt_nodes": 4855,
+        "missed_nodes": 284,
+        "miss_rate": 0.058496395468589084
+      },
+      {
+        "embryo": "44b6",
+        "feature": "time_quartile",
+        "value": "2",
+        "gt_nodes": 4665,
+        "missed_nodes": 234,
+        "miss_rate": 0.05016077170418006
+      },
+      {
+        "embryo": "44b6",
+        "feature": "time_quartile",
+        "value": "3",
+        "gt_nodes": 3749,
+        "missed_nodes": 218,
+        "miss_rate": 0.05814883969058415
+      },
+      {
+        "embryo": "44b6",
+        "feature": "total",
+        "value": "all",
+        "gt_nodes": 17425,
+        "missed_nodes": 903,
+        "miss_rate": 0.05182209469153515
+      },
+      {
+        "embryo": "6bba",
+        "feature": "boundary",
+        "value": "ge5um",
+        "gt_nodes": 76054,
+        "missed_nodes": 6062,
+        "miss_rate": 0.07970652431167329
+      },
+      {
+        "embryo": "6bba",
+        "feature": "boundary",
+        "value": "lt5um",
+        "gt_nodes": 24829,
+        "missed_nodes": 2007,
+        "miss_rate": 0.08083289701558662
+      },
+      {
+        "embryo": "6bba",
+        "feature": "depth_quartile",
+        "value": "0",
+        "gt_nodes": 24534,
+        "missed_nodes": 2060,
+        "miss_rate": 0.08396510964375968
+      },
+      {
+        "embryo": "6bba",
+        "feature": "depth_quartile",
+        "value": "1",
+        "gt_nodes": 27857,
+        "missed_nodes": 1996,
+        "miss_rate": 0.07165164949563844
+      },
+      {
+        "embryo": "6bba",
+        "feature": "depth_quartile",
+        "value": "2",
+        "gt_nodes": 27077,
+        "missed_nodes": 2256,
+        "miss_rate": 0.08331794511947409
+      },
+      {
+        "embryo": "6bba",
+        "feature": "depth_quartile",
+        "value": "3",
+        "gt_nodes": 21415,
+        "missed_nodes": 1757,
+        "miss_rate": 0.08204529535372403
+      },
+      {
+        "embryo": "6bba",
+        "feature": "nearest_gt_distance",
+        "value": "3to6um",
+        "gt_nodes": 90,
+        "missed_nodes": 12,
+        "miss_rate": 0.13333333333333333
+      },
+      {
+        "embryo": "6bba",
+        "feature": "nearest_gt_distance",
+        "value": "6to12um",
+        "gt_nodes": 3997,
+        "missed_nodes": 339,
+        "miss_rate": 0.08481361020765574
+      },
+      {
+        "embryo": "6bba",
+        "feature": "nearest_gt_distance",
+        "value": "ge12um",
+        "gt_nodes": 96796,
+        "missed_nodes": 7718,
+        "miss_rate": 0.07973469978098269
+      },
+      {
+        "embryo": "6bba",
+        "feature": "time_quartile",
+        "value": "0",
+        "gt_nodes": 24065,
+        "missed_nodes": 1887,
+        "miss_rate": 0.07841263245377103
+      },
+      {
+        "embryo": "6bba",
+        "feature": "time_quartile",
+        "value": "1",
+        "gt_nodes": 26256,
+        "missed_nodes": 2061,
+        "miss_rate": 0.0784963436928702
+      },
+      {
+        "embryo": "6bba",
+        "feature": "time_quartile",
+        "value": "2",
+        "gt_nodes": 25860,
+        "missed_nodes": 2060,
+        "miss_rate": 0.07965970610982212
+      },
+      {
+        "embryo": "6bba",
+        "feature": "time_quartile",
+        "value": "3",
+        "gt_nodes": 24702,
+        "missed_nodes": 2061,
+        "miss_rate": 0.08343453971338353
+      },
+      {
+        "embryo": "6bba",
+        "feature": "total",
+        "value": "all",
+        "gt_nodes": 100883,
+        "missed_nodes": 8069,
+        "miss_rate": 0.07998374354450205
+      },
+      {
+        "embryo": "ALL",
+        "feature": "boundary",
+        "value": "ge5um",
+        "gt_nodes": 90976,
+        "missed_nodes": 6836,
+        "miss_rate": 0.07514069644741471
+      },
+      {
+        "embryo": "ALL",
+        "feature": "boundary",
+        "value": "lt5um",
+        "gt_nodes": 27332,
+        "missed_nodes": 2136,
+        "miss_rate": 0.07815015366603249
+      },
+      {
+        "embryo": "ALL",
+        "feature": "depth_quartile",
+        "value": "0",
+        "gt_nodes": 27125,
+        "missed_nodes": 2200,
+        "miss_rate": 0.08110599078341015
+      },
+      {
+        "embryo": "ALL",
+        "feature": "depth_quartile",
+        "value": "1",
+        "gt_nodes": 34012,
+        "missed_nodes": 2321,
+        "miss_rate": 0.06824062095730918
+      },
+      {
+        "embryo": "ALL",
+        "feature": "depth_quartile",
+        "value": "2",
+        "gt_nodes": 32857,
+        "missed_nodes": 2535,
+        "miss_rate": 0.07715250935873634
+      },
+      {
+        "embryo": "ALL",
+        "feature": "depth_quartile",
+        "value": "3",
+        "gt_nodes": 24314,
+        "missed_nodes": 1916,
+        "miss_rate": 0.07880233610265691
+      },
+      {
+        "embryo": "ALL",
+        "feature": "nearest_gt_distance",
+        "value": "3to6um",
+        "gt_nodes": 264,
+        "missed_nodes": 36,
+        "miss_rate": 0.13636363636363635
+      },
+      {
+        "embryo": "ALL",
+        "feature": "nearest_gt_distance",
+        "value": "6to12um",
+        "gt_nodes": 5801,
+        "missed_nodes": 470,
+        "miss_rate": 0.0810205137045337
+      },
+      {
+        "embryo": "ALL",
+        "feature": "nearest_gt_distance",
+        "value": "ge12um",
+        "gt_nodes": 112241,
+        "missed_nodes": 8465,
+        "miss_rate": 0.07541807360946534
+      },
+      {
+        "embryo": "ALL",
+        "feature": "nearest_gt_distance",
+        "value": "lt3um",
+        "gt_nodes": 2,
+        "missed_nodes": 1,
+        "miss_rate": 0.5
+      },
+      {
+        "embryo": "ALL",
+        "feature": "time_quartile",
+        "value": "0",
+        "gt_nodes": 28221,
+        "missed_nodes": 2054,
+        "miss_rate": 0.07278267956486305
+      },
+      {
+        "embryo": "ALL",
+        "feature": "time_quartile",
+        "value": "1",
+        "gt_nodes": 31111,
+        "missed_nodes": 2345,
+        "miss_rate": 0.07537526919738999
+      },
+      {
+        "embryo": "ALL",
+        "feature": "time_quartile",
+        "value": "2",
+        "gt_nodes": 30525,
+        "missed_nodes": 2294,
+        "miss_rate": 0.07515151515151515
+      },
+      {
+        "embryo": "ALL",
+        "feature": "time_quartile",
+        "value": "3",
+        "gt_nodes": 28451,
+        "missed_nodes": 2279,
+        "miss_rate": 0.0801026325963938
+      },
+      {
+        "embryo": "ALL",
+        "feature": "total",
+        "value": "all",
+        "gt_nodes": 118308,
+        "missed_nodes": 8972,
+        "miss_rate": 0.0758359536126044
+      }
+    ],
+    "limitations": [
+      "No raw-intensity read in this geometry-only pass.",
+      "Node stratification includes all annotated nodes; it is not an edge-metric decomposition.",
+      "Voxel quartiles describe array position, not biological depth."
+    ]
+  }
+}

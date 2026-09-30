@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP195",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_BEFORE_SCORING",
+  "evidence_class": "Sequentially exploratory 24-movie nested development OOF; the rule is motivated by EXP194 and is not untouched.",
+  "hypothesis": "Removing EXP194's per-fold rule selection variance while retaining its dominant physical indicator improves stability.",
+  "frozen_policy": {
+    "forward_6bba_target": "Always EXP190 base min8.",
+    "reverse_44b6_target": "For each held-out movie, calculate q75 of base_pruned_node_fraction on the other 11 reverse movies; choose EXP191 g45_t20+min6 iff held-out fraction <= q75, otherwise choose EXP190 base min3. No ground-truth feature is used."
+  },
+  "primary_comparison": "Nested selected rows versus fixed EXP190 min8/min3 rows.",
+  "promotion_gate": "Positive pooled delta, forward nonnegative, reverse positive, and 20,000-draw direction-stratified paired-bootstrap lower 95% bound > 0. Otherwise reject as unsupported.",
+  "controls": "Same exact input hashes and 1e-12 registered-baseline controls as EXP194; complete graph choice only, no score averaging.",
+  "resource": "CPU-only during active EXP192 archive transfer.",
+  "kaggle_action_authorized": false
+}

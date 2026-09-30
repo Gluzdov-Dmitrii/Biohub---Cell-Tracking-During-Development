@@ -1,0 +1,56 @@
+{
+  "status": "PASS_STATIC_BUILD_NO_INFERENCE_EXECUTED",
+  "upstream_source_sha256": "cf9ab34b35bb5fc3879860eebec6a5173a6d4438945eb5aa8110f1dd1441fd5b",
+  "notebook_sha256": "7d0e905185a01c99d8c35c00c94a4f6ed32a5fbedf53cca4a3bb407b03c2a084",
+  "code_cells": 35,
+  "markdown_cells": 36,
+  "maximum_code_cell_lines": 269,
+  "core_source_parity": {
+    "0": {
+      "byte_text_equal": true,
+      "ast_equal": true,
+      "sha256": "7f6f05192a384063ef4dad96686a19f49a990d48c2c1dc0bf984e49ec15da91d"
+    },
+    "2": {
+      "byte_text_equal": true,
+      "ast_equal": true,
+      "sha256": "77fdadffbd02c87e8f686e55944b6741312be552f34c8dc615e6391a1959a2dc"
+    },
+    "3": {
+      "byte_text_equal": true,
+      "ast_equal": true,
+      "sha256": "0f62c46bbec00a2d3d6bbde0efb89d5713204983d51c9c3cf73df1869cf12f8f"
+    },
+    "4": {
+      "byte_text_equal": true,
+      "ast_equal": true,
+      "sha256": "768bd13fbf10d26731819e0d19f79c11d5a1d0fad7065ec5f5f66c2c5fc3187c"
+    },
+    "5": {
+      "byte_text_equal": false,
+      "ast_equal": false,
+      "changed_functions": [
+        "write_test_submission"
+      ],
+      "all_other_top_level_ast_equal": true,
+      "change": "runtime shape read and clipping of rounded zyx at CSV output only",
+      "sha256": "6790d95e3feb9381dbc7061b8eeb3b2b62e2255af2673fadbe17276e667dbd9e"
+    }
+  },
+  "guard_logic_ast_preserved": true,
+  "runtime_overrides": {
+    "BIOHUB_MOTION_RELINK_TIGHT_UM": "5.5",
+    "BIOHUB_VALIDATOR_ENABLE": "0"
+  },
+  "kernel_id": "dmitriigluzdov/biohub-exp225-p26-research-and-frozen-inference",
+  "serialization_bounds_fix": true,
+  "omitted_reference_cells": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "audit_source_sha256": "1569ea5a36d1c9cb94b5d20dc31ab0371d1ff110c21f926998179f5f13c9b3cc",
+  "inference_executed_locally": false,
+  "candidate_score": null
+}

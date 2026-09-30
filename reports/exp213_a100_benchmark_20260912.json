@@ -1,0 +1,24 @@
+{
+  "status": "PASS_SOURCE_ONLY_TRAINING_BENCHMARK",
+  "scope": "Not OOF; benchmark state never promoted",
+  "contract": {
+    "plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+    "trainer_sha256": "a3caae959fbf61fb989529b85701914d9aca7d7310a3822af358faf6d32fb4f3",
+    "upstream_sha256": "91b49493f957710e6542247623e92d62a0d7aabda08b2a0b8cb4d368aa9f7521",
+    "fold": "44b6",
+    "seed": 2026,
+    "benchmark_steps": 32
+  },
+  "steps": 32,
+  "batch_size": 8,
+  "train_windows": 5643,
+  "validation_windows": 672,
+  "max_nodes": 16,
+  "loading_seconds": 37.09736551810056,
+  "train_seconds": 49.038789415732026,
+  "peak_cuda_bytes": 9338327040,
+  "seconds_per_step": 1.5324621692416258,
+  "estimated_train_only_epoch_seconds": 1081.9182914845878,
+  "device": "NVIDIA A100 80GB PCIe",
+  "target_data_opened": false
+}

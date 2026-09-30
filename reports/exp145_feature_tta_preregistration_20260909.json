@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP145",
+  "status": "PRE_REGISTERED_WAITING_EXP137",
+  "hypothesis": "Inverse-transform averaging of the same four already-computed XY detection-TTA views can make temporal association less orientation-sensitive when those aligned U-Net features, rather than only the logits, are averaged.",
+  "parent": "EXP130/EXP137 Zebrahub-U-Net initialization with registered-motion Hungarian linking",
+  "only_intended_change": "Average primary U-Net association features over identity, flip-X, flip-Y and flip-XY after inverse transforms. Detection logits, number of views, detected coordinates, checkpoint, threshold and linker remain unchanged.",
+  "source_attribution": {
+    "kernel": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+    "snapshot_source_sha256": "ae8e01a262211045161984e469e8be23e3386bab9140fe12df503dc6a1e010e6",
+    "borrowed_mechanism": "inverse-transform spatial averaging of U-Net features consumed by the edge predictor",
+    "adaptation": "Use the parent's existing four XY-flip views, not the source notebook's full D4 eight-view/public-tuned stack."
+  },
+  "source": {
+    "parent_predictor_sha256": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+    "candidate_predictor_sha256": "4b6698ad7cfa8d7bc243107feb8783427ac01a2f76b77096c374e909eec3c4b1",
+    "candidate_compile": "PASS"
+  },
+  "evaluation": {
+    "development_folds": ["44b6_to_6bba", "6bba_to_44b6"],
+    "checkpoint": "source-selected Zebrahub-initialized seed314159 checkpoint in each direction",
+    "det_threshold": 0.985,
+    "linker": "registered_hungarian",
+    "selection": "No target tuning; compare once against stored same-checkpoint detection-only feature parent."
+  },
+  "promotion_gate": {
+    "nonnegative_score_delta_each_embryo": true,
+    "positive_pooled_score_delta": true,
+    "no_node_recall_regression_each_embryo": true,
+    "no_division_tp_loss_each_embryo": true,
+    "locked_audit_requires_development_gate": true
+  },
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false
+}

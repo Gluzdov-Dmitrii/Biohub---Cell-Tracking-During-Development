@@ -1,0 +1,75 @@
+{
+  "launch": {
+    "pid": 550657,
+    "start": "519606776",
+    "command": [
+      "taskset",
+      "-c",
+      "8-15",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_v1_20260921/run_exp223_smoke.py",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921/output"
+    ],
+    "started": 1789977060.0035477,
+    "config": {
+      "experiment": "EXP223",
+      "lease_id": "exp223-horaz0-source-smoke-20260921",
+      "token": "exp223_horaz0_source_smoke_20260921",
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_v1_20260921",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921",
+      "max_seconds": 900,
+      "cpu_affinity": "8-15",
+      "script": "run_exp223_smoke.py",
+      "arguments": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921/output"
+      ],
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 32,
+        "disk_growth_gib": 1
+      },
+      "lease_minutes": 25
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 550657,
+    "start": "519606776",
+    "finished": 1789977070.5515862
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": null,
+  "queue": {
+    "id": "exp223-horaz0-source-smoke-20260921",
+    "owner": "biohub-agent",
+    "token": "exp223_horaz0_source_smoke_20260921",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 1.0,
+    "minutes": 25,
+    "state": "RELEASED",
+    "created": 1789977057.9789724,
+    "heartbeat": 1789977065.089339,
+    "gpus": [],
+    "process": {
+      "pid": 550657,
+      "start": "519606776"
+    },
+    "allocated": 1789977057.9790082,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789977113.531616,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789977113.8216238
+}

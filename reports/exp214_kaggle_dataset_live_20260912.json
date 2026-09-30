@@ -1,0 +1,251 @@
+{
+  "utc": "2026-09-12T20:14:41.852414+00:00",
+  "status": "ready",
+  "dataset": {
+    "id": 11999449,
+    "ref": "dmitriigluzdov/biohub-exp214-reduced-honest-fold-models",
+    "subtitle": "",
+    "creatorName": "Dmitrii Gluzdov",
+    "totalBytes": 109580914,
+    "lastUpdated": "2026-09-12T20:13:18.547Z",
+    "isPrivate": true,
+    "licenseName": "Other (specified in description)",
+    "description": "# EXP214 reduced-data clean fold models\n\nPrivate experiment artifact for Biohub Cell Tracking During Development.\n\nFour scratch detector refits use disjoint source embryos, source-only validation and a fixed 12-epoch budget. Two source-only EXP180 full DeepCenter checkpoints are reused. The detector-training input bundle occupies 2.893 GB; raw original image stores occupy 85.701 GB. See the attached training plan and model status/history files for the exact scope.\n\nThis is a budgeted refit of the public Temporal UNet/transformer family. It is not the original 400-epoch public checkpoint and must not be assigned that checkpoint's 0.946 leaderboard score. Routing for previously unseen embryo prefixes has no matching OOF estimate.\n\nThe runtime uses the public COMPACT47-v20 scientific pipeline, archived as `code/compact47_v20.ipynb`, with explicitly replaced model paths. Public-family provenance includes Pilkwang Kim's Biohub tracking support pack and learned-lineage work. Original third-party code and notebook components retain their respective terms and attribution; this private bundle does not relicense them. New source-only training, compression verification, fold manifests and comparison wrappers are recorded as EXP213/214.\n\n`artifact_manifest.json` verifies every scientific artifact by SHA256. The Kaggle production source uses actual runtime test Zarr data. There are no frozen submission predictions in this model dataset.\n",
+    "ownerName": "Dmitrii Gluzdov",
+    "ownerRef": "dmitriigluzdov",
+    "title": "Biohub EXP214 Reduced Honest Fold Models",
+    "currentVersionNumber": 1,
+    "usabilityRating": 0.5625,
+    "tags": [
+      {
+        "ref": "pre-trained model",
+        "name": "pre-trained model",
+        "description": "",
+        "fullPath": "admin > pre-trained model",
+        "competitionCount": 2,
+        "datasetCount": 525489,
+        "scriptCount": 301,
+        "totalCount": 525792
+      }
+    ],
+    "versions": [
+      {
+        "versionNumber": 1,
+        "creationDate": "2026-09-12T20:13:18.547Z",
+        "creatorName": "Dmitrii Gluzdov",
+        "creatorRef": "biohub-exp214-reduced-honest-fold-models",
+        "versionNotes": "Initial release",
+        "status": "Ready"
+      }
+    ],
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-79.png-34249579/dataset-thumbnail.png"
+  },
+  "files": {
+    "datasetFiles": [
+      {
+        "name": "README.md",
+        "creationDate": "2026-09-12T20:13:19.983Z",
+        "totalBytes": 1448
+      },
+      {
+        "name": "artifact_manifest.json",
+        "creationDate": "2026-09-12T20:13:20.072Z",
+        "totalBytes": 4284
+      },
+      {
+        "name": "code/compact47_v20.ipynb",
+        "creationDate": "2026-09-12T20:13:20.115Z",
+        "totalBytes": 189067
+      },
+      {
+        "name": "code/compare_exp214_results.py",
+        "creationDate": "2026-09-12T20:13:20.135Z",
+        "totalBytes": 3109
+      },
+      {
+        "name": "code/evaluate_cached_intensity_centroid_refinement.py",
+        "creationDate": "2026-09-12T20:13:20.118Z",
+        "totalBytes": 7419
+      },
+      {
+        "name": "code/evaluate_cached_short_track_family.py",
+        "creationDate": "2026-09-12T20:13:20.134Z",
+        "totalBytes": 9259
+      },
+      {
+        "name": "code/evaluate_coordinate_consensus.py",
+        "creationDate": "2026-09-12T20:13:20.177Z",
+        "totalBytes": 7982
+      },
+      {
+        "name": "code/evaluate_observed_gap_close.py",
+        "creationDate": "2026-09-12T20:13:20.138Z",
+        "totalBytes": 10494
+      },
+      {
+        "name": "code/evaluate_synthetic_gap_deepcenter.py",
+        "creationDate": "2026-09-12T20:13:20.132Z",
+        "totalBytes": 21459
+      },
+      {
+        "name": "code/exp214_inference_job.py",
+        "creationDate": "2026-09-12T20:13:20.188Z",
+        "totalBytes": 2339
+      },
+      {
+        "name": "code/run_exp214_local_graph.py",
+        "creationDate": "2026-09-12T20:13:20.132Z",
+        "totalBytes": 3637
+      },
+      {
+        "name": "code/run_exp214_paired_fold.py",
+        "creationDate": "2026-09-12T20:13:20.139Z",
+        "totalBytes": 1648
+      },
+      {
+        "name": "code/run_exp214_public_fold.py",
+        "creationDate": "2026-09-12T20:13:20.160Z",
+        "totalBytes": 6977
+      },
+      {
+        "name": "code/score_exp214_paired.py",
+        "creationDate": "2026-09-12T20:13:20.156Z",
+        "totalBytes": 5875
+      },
+      {
+        "name": "code/train_deepcenter_explicit_split.py",
+        "creationDate": "2026-09-12T20:13:20.179Z",
+        "totalBytes": 45528
+      },
+      {
+        "name": "models/44b6/center/best.pt",
+        "creationDate": "2026-09-12T20:13:22.142Z",
+        "totalBytes": 37876450
+      },
+      {
+        "name": "models/44b6/primary/config.json",
+        "creationDate": "2026-09-12T20:13:21.179Z",
+        "totalBytes": 166
+      },
+      {
+        "name": "models/44b6/primary/edge_predictor_best.pth",
+        "creationDate": "2026-09-12T20:13:21.379Z",
+        "totalBytes": 8363362
+      },
+      {
+        "name": "models/44b6/primary/history.json",
+        "creationDate": "2026-09-12T20:13:21.251Z",
+        "totalBytes": 5153
+      },
+      {
+        "name": "models/44b6/primary/status.json",
+        "creationDate": "2026-09-12T20:13:21.259Z",
+        "totalBytes": 937
+      },
+      {
+        "name": "models/44b6/secondary/config.json",
+        "creationDate": "2026-09-12T20:13:21.256Z",
+        "totalBytes": 166
+      },
+      {
+        "name": "models/44b6/secondary/edge_predictor_best.pth",
+        "creationDate": "2026-09-12T20:13:21.436Z",
+        "totalBytes": 8363362
+      },
+      {
+        "name": "models/44b6/secondary/history.json",
+        "creationDate": "2026-09-12T20:13:21.360Z",
+        "totalBytes": 5150
+      },
+      {
+        "name": "models/44b6/secondary/status.json",
+        "creationDate": "2026-09-12T20:13:21.333Z",
+        "totalBytes": 939
+      },
+      {
+        "name": "models/6bba/center/best.pt",
+        "creationDate": "2026-09-12T20:13:22.347Z",
+        "totalBytes": 37876450
+      },
+      {
+        "name": "models/6bba/primary/config.json",
+        "creationDate": "2026-09-12T20:13:21.634Z",
+        "totalBytes": 166
+      },
+      {
+        "name": "models/6bba/primary/edge_predictor_best.pth",
+        "creationDate": "2026-09-12T20:13:21.885Z",
+        "totalBytes": 8363362
+      },
+      {
+        "name": "models/6bba/primary/history.json",
+        "creationDate": "2026-09-12T20:13:21.716Z",
+        "totalBytes": 5146
+      },
+      {
+        "name": "models/6bba/primary/status.json",
+        "creationDate": "2026-09-12T20:13:21.731Z",
+        "totalBytes": 936
+      },
+      {
+        "name": "models/6bba/secondary/config.json",
+        "creationDate": "2026-09-12T20:13:21.716Z",
+        "totalBytes": 166
+      },
+      {
+        "name": "models/6bba/secondary/edge_predictor_best.pth",
+        "creationDate": "2026-09-12T20:13:21.932Z",
+        "totalBytes": 8363362
+      },
+      {
+        "name": "models/6bba/secondary/history.json",
+        "creationDate": "2026-09-12T20:13:21.805Z",
+        "totalBytes": 5156
+      },
+      {
+        "name": "models/6bba/secondary/status.json",
+        "creationDate": "2026-09-12T20:13:21.798Z",
+        "totalBytes": 938
+      },
+      {
+        "name": "training_plan.json",
+        "creationDate": "2026-09-12T20:13:20.096Z",
+        "totalBytes": 29022
+      }
+    ]
+  },
+  "recent_kernel_statuses": [
+    {
+      "ref": "dmitriigluzdov/knee-mri-private-wide-cache",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/biohub-lite-center-confirmation",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/kaggriculture-a-measured-selling-lead",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/kaggriculture-which-sale-goes-first",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/kaggriculture-combine-before-you-sell",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/kaggriculture-when-the-rival-sells",
+      "status": "KernelWorkerStatus.COMPLETE"
+    },
+    {
+      "ref": "dmitriigluzdov/kaggriculture-a-smaller-market-shock",
+      "status": "KernelWorkerStatus.COMPLETE"
+    }
+  ]
+}

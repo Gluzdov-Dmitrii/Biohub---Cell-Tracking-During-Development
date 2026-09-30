@@ -1,0 +1,63 @@
+{
+  "experiment": "EXP129",
+  "date": "2026-09-09",
+  "status": "PASS_REPRODUCTION_NO_SUBMISSION",
+  "purpose": "Validate the RTX6000 environment and frozen embryo-disjoint 44b6 OOF path before any model change.",
+  "holdout_embryo": "44b6",
+  "training_embryo": "6bba",
+  "audit_movie_count": 4,
+  "audit_movies": [
+    "44b6_0113de3b.zarr",
+    "44b6_0b24845f.zarr",
+    "44b6_0c582fdc.zarr",
+    "44b6_0db75fae.zarr"
+  ],
+  "frozen_threshold": 0.985,
+  "checkpoint": {
+    "bytes": 8357783,
+    "sha256": "eebb8eaa9fe0ca02a9957ac97ab51d84ee8f162fb17a175a04a66d9ef9134382",
+    "integrity_action": "A truncated remote copy was replaced atomically from the verified local artifact before the run."
+  },
+  "source": {
+    "path": "scripts/external_oof_44b6.py",
+    "sha256": "8480545f1cacbf53ba25b8fe4509ae2fb1812ef4a32e9e1222cedc3fea4a83da"
+  },
+  "hardware": "Quadro RTX 6000 24 GB",
+  "attention_backend": "math_sdpa",
+  "lease": {
+    "path": "/home/scientists/gluz_d_s/kaggle/_control/dispatch.lock",
+    "acquired_atomically": true,
+    "released_after_run": true
+  },
+  "result_artifact": {
+    "local_path": "outputs/research/exp129_oof_repro_44b6_20260909/loeo_44b6_model_comparison_result.json",
+    "remote_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp129_oof_repro_44b6_20260909/loeo_44b6_model_comparison_result.json",
+    "bytes": 921400,
+    "sha256": "e778940d79a9ffb84efb5151b731553f496c2073798482a7e2c733b70d6bae1f"
+  },
+  "cache_artifacts": [
+    {"movie": "44b6_0113de3b", "bytes": 231777, "sha256": "85125d0c930beac04f6a8e990d27ade414d0497a82eee45da765c300507d844e"},
+    {"movie": "44b6_0b24845f", "bytes": 424215, "sha256": "cf877821eb97d55e1312efac2fa2ef38fee9ad7dab6f1a7b9ea305a58cb45712"},
+    {"movie": "44b6_0c582fdc", "bytes": 262720, "sha256": "707052fe0d689f7131df7b0da33392208ac333f4854d11765ef6139f1018ded0"},
+    {"movie": "44b6_0db75fae", "bytes": 140069, "sha256": "350604205e001e1d678c866a089ca085e9851a302dc4b6bafc38cd02053e7740"}
+  ],
+  "aggregate": {
+    "registered_hungarian_score": 0.8255500924240929,
+    "registered_weak_hungarian_score": 0.8333342882082565,
+    "weak_minus_registered": 0.007784195784163561,
+    "node_recall_both": 0.961742102420945,
+    "registered_probability_heavy_score": 0.5127817246587133,
+    "ilp_public_score": 0.5353571201244809,
+    "ilp_support_score": 0.619131608548772,
+    "division_events": 0
+  },
+  "reproduction_check": {
+    "registered_per_movie_matches_immutable_exp011": true,
+    "weak_per_movie_matches_immutable_exp050": true,
+    "four_movie_weak_delta": 0.007784195784163561,
+    "full_63_movie_weak_delta": 0.0007339,
+    "interpretation": "The four-movie pilot exaggerates the full-audit effect by about 10.6x and contains no division events; it is an environment/dataflow check, not sufficient private-model selection evidence."
+  },
+  "submission_authorized": false,
+  "kaggle_slots_consumed": 0
+}

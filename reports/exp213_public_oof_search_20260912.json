@@ -1,0 +1,142 @@
+[
+  {
+    "ref": "yaroslavkholmirzayev/biohub-cell-tracking-v4-unet-ilp-reproduction",
+    "title": "Biohub Cell Tracking V4 UNet ILP Reproduction",
+    "author": "Yaroslav kholmirzayev",
+    "lastRunTime": "2026-07-09T10:18:56.190000",
+    "totalVotes": 131
+  },
+  {
+    "ref": "amerhu/biohub-cell-tracking-adaptive-pruning",
+    "title": "\u00a0\ud83e\uddecBiohub Cell Tracking |\u00a0Adaptive Pruning",
+    "author": "Amer",
+    "lastRunTime": "2026-07-11T20:14:37.250000",
+    "totalVotes": 26
+  },
+  {
+    "ref": "rockerritesh/0-926-biohub-divsub",
+    "title": "0.926-biohub-divsub",
+    "author": "Rocker Ritesh",
+    "lastRunTime": "2026-08-23T08:20:17.300000",
+    "totalVotes": 74
+  },
+  {
+    "ref": "indarkarhana/biohub-dual-seed-frame-retention-guard-v1",
+    "title": "Biohub Dual Seed Frame Retention Guard V1",
+    "author": "Indar Karhana",
+    "lastRunTime": "2026-07-28T13:32:04.277000",
+    "totalVotes": 76
+  },
+  {
+    "ref": "lucifer19/celltrack-panther-u-net-ilp-core",
+    "title": "\ud83e\uddec\ud83d\udc08\u200d\u2b1b CellTrack Panther: U-Net ILP Core",
+    "author": "Krizs\u00f3 Gergely",
+    "lastRunTime": "2026-07-10T14:43:38.030000",
+    "totalVotes": 13
+  },
+  {
+    "ref": "andressantossanz/biohub-harness-0926-probe",
+    "title": "Biohub Harness 0926 Probe",
+    "author": "Andr\u00e9s Santos Sanz",
+    "lastRunTime": "2026-08-25T11:08:51.973000",
+    "totalVotes": 10
+  },
+  {
+    "ref": "hugogascon/biohub-cell-tracking-computer-vision",
+    "title": "BioHub Cell Tracking computer vision",
+    "author": "Hugo Gascon",
+    "lastRunTime": "2026-08-26T14:36:39.963000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "beicicc/biohub-exp053-pilkwang-v21-rescue",
+    "title": "Biohub Exp053 Pilkwang V21 Rescue",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-10T16:11:53.267000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "yiyu0716/biohub-official-seed42-bs8-fold0-t4-submit",
+    "title": "biohub-official-seed42-bs8-fold0-t4-submit",
+    "author": "yiyu0716",
+    "lastRunTime": "2026-08-21T00:47:37",
+    "totalVotes": 1
+  },
+  {
+    "ref": "liamob96/validation-strategy",
+    "title": "Validation Strategy",
+    "author": "Liam O\u2019Brien",
+    "lastRunTime": "2026-08-07T12:02:54.213000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "yiyu0716/biohub-synthetic-seed42-bs8-fold0-t4-submit",
+    "title": "biohub-synthetic-seed42-bs8-fold0-t4-submit",
+    "author": "yiyu0716",
+    "lastRunTime": "2026-08-21T00:47:52.630000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "biohack44/biohub-another-approach-v2",
+    "title": "Biohub Another Approach v2",
+    "author": "Emre Cirak",
+    "lastRunTime": "2026-07-16T23:17:50.323000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "dariushafshar/neither-theory-explains-why-venues-pay-more",
+    "title": "Neither Theory Explains Why Venues Pay More",
+    "author": "Dariush Afshar",
+    "lastRunTime": "2026-08-19T17:48:45.280000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "mhough/developmental-cell-tracking-starter-notebook",
+    "title": "Developmental Cell Tracking Starter Notebook",
+    "author": "Morgan Hough",
+    "lastRunTime": "2026-07-22T02:49:49.753000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "sangmoonlee2/biohub-v4-unet-fork",
+    "title": "biohub-v4-unet-fork",
+    "author": "SangMoon Lee2",
+    "lastRunTime": "2026-07-10T03:45:16.543000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "ryosukekurakami/biohub-public400-adaptive-rescue-nonleak",
+    "title": "Biohub Public400 Adaptive Rescue Nonleak",
+    "author": "Ryo",
+    "lastRunTime": "2026-07-10T21:01:20.097000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "kyleslight/biohub-motion-relink-off-v2",
+    "title": "Biohub Motion Relink Off v2",
+    "author": "Kyles Light",
+    "lastRunTime": "2026-07-12T05:43:49.157000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "kyleslight/biohub-public-0900-anchor-v1",
+    "title": "Biohub Public 0900 Anchor v1",
+    "author": "Kyles Light",
+    "lastRunTime": "2026-07-11T20:18:12.753000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "pawanmali/biohub-0926-learned-div-v1",
+    "title": "biohub-0926-learned-div-v1",
+    "author": "Pawan Rama Mali",
+    "lastRunTime": "2026-09-03T11:26:14.263000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "tangai1/biohub-clean-frame-retention-guard-v1",
+    "title": "Biohub Clean Frame Retention Guard V1",
+    "author": "tangaii",
+    "lastRunTime": "2026-08-08T22:10:26.667000",
+    "totalVotes": 0
+  }
+]

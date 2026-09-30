@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_EXP192_INPUT_COVARIATE_AUDIT",
+  "scope": "Aggregate input-only comparison of the 20 non-twin development movies and 175 untouched confirmation movies. No graph, ground-truth metric, score, or per-movie result was read.",
+  "cohorts": {"development": 20, "confirmation": 175, "honest_total": 195},
+  "result": {
+    "all_shapes": "100x64x256x256",
+    "largest_absolute_standardized_difference": 0.26776596780456646,
+    "largest_shift_field": "44b6 image q_0.01",
+    "44b6_log_bytes_standardized_difference": 0.13818224950842864,
+    "6bba_log_bytes_standardized_difference": 0.08117702334962526,
+    "interpretation": "The narrow 20-movie development sample is not grossly shifted from the 175 confirmation movies on available image-size/intensity covariates. It is still too small to substitute for confirmation, and tail variation is materially wider in the larger cohort."
+  },
+  "anti_adaptation": "The frozen EXP192 models, parameters, cohort and promotion gates remain unchanged.",
+  "artifacts": {
+    "script_sha256": "75adf2e13c49c613418ad2a481a23bc917966d6c45120f89252f0dcf8d988f67",
+    "result_sha256": "af787bcb25b43399ec13cf389ca0978d378d5cf2557d36fce848f26b78c078c1",
+    "tests": "2 passed"
+  },
+  "kaggle_action_authorized": false
+}

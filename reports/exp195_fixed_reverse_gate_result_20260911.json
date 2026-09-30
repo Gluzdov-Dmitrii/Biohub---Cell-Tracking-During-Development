@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP195",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_EXPLORATORY_NESTED_STABILITY_GATE",
+  "baseline_controls_maximum_absolute_error": 0.0,
+  "pooled": {
+    "fixed_base_min8_min3": 0.7485183130743318,
+    "nested_fixed_reverse_gate": 0.7511992446505737,
+    "delta": 0.0026809315762419406,
+    "edge_jaccard": 0.7454567704827755,
+    "node_recall": 0.9262221458590668,
+    "node_recall_delta": 0.0035331951732269
+  },
+  "directions": {"forward_delta": 0.0, "reverse_delta": 0.014321430250797906},
+  "selection": {"forward": {"base": 12, "gap": 0}, "reverse": {"base": 4, "gap": 8}},
+  "stability": {
+    "draws": 20000,
+    "probability_positive": 0.9882,
+    "q025": 0.0003278713083956386,
+    "median": 0.0026909073227828206,
+    "q975": 0.005173076169211838,
+    "leave_one_movie_out_min_delta": 0.0018913616982474402
+  },
+  "interpretation": "The single inference-observable reverse gate passes every preregistered incremental criterion and is materially more stable than EXP194's multi-rule selector. It is the new supported exploratory deployable-policy frontier on the 24 development movies, but remains sequentially selected and needs untouched EXP192 confirmation.",
+  "artifacts": {
+    "script_sha256": "1fdc2f71fca50f574d458e2f1f1430c04740c03e46e94f2769cb835ce968c021",
+    "result_sha256": "4a1b988edbf869ab9ecf006676983bbc9f97935029d7d7a35124c6652e84eb9b",
+    "stability_sha256": "324f44edf43c8f0d0227b39fb4964b1c16474328389aeb85b0f1b2a91f465303",
+    "tests": "1 passed"
+  },
+  "eligible_for_kaggle_submission": false
+}

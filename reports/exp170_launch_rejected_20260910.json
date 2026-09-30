@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP170",
+  "status": "NO_LAUNCH_TOOL_SAFETY_REJECTION",
+  "reason": "Generated launch commands had malformed remote paths and were rejected before execution.",
+  "data_access": "none",
+  "process": null,
+  "resource_cleanup": "Lease released without a PID; queue state is RELEASED.",
+  "next_action": "Fresh explicit user approval, fresh request ID, exact verified launcher path.",
+  "kaggle_slots_used": 0
+}

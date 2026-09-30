@@ -1,0 +1,40 @@
+{
+  "experiment": "EXP185",
+  "status": "PREREGISTERED_BEFORE_REVERSE_TARGET_ACCESS_AND_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "scientific_parent": "EXP182 PASS_SOURCE_GATE",
+  "continuation_parent": "EXP184 paused by user after forward completed and before reverse completed.",
+  "hypothesis": "The unchanged source-selected DeepCenter-gated synthetic midpoint mechanism generalizes without per-movie regressions in reciprocal 12+12 embryo OOF.",
+  "reuse": {
+    "artifact": "EXP184 forward 44b6-model -> all12 6bba result",
+    "sha256": "1dfc9318ad40bf331eaa3b780e61c7029c56bec1743fab3dff30f4db639a6768",
+    "score_reviewed_before_freeze": false,
+    "rule": "Copy byte-for-byte into EXP185 results and never recompute forward."
+  },
+  "new_computation": "Exactly one 6bba-model -> all12 44b6 reverse evaluation, then the frozen EXP183 target selector.",
+  "parameters": "Identical to EXP182/EXP184; explicit movie key target_development; no tuning or sweep.",
+  "promotion_gate": "Unchanged EXP183 gate: exact 12+12 coverage; strict per-embryo and pooled parent-score gain; no negative per-movie score or recall delta; DeepCenter exercised and adds nodes in each embryo; gated score no worse than no-veto in each embryo.",
+  "source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "select_synthetic_gap_target_gate.py": "745204439720f35cb245e0cdf48efc6b70e61e572ff23b0388babe5b7916311f",
+    "validate_synthetic_gap_target_inputs.py": "af831afdc3f82bd10a7ab8e7475c693bb5e604861320e01082236792be78e9eb",
+    "run_exp185_synthetic_gap_target_oof_continuation.sh": "51ab308996bcd291a1d7d9f36c95050b959a3287d4a963087f767903668c21c3"
+  },
+  "target_manifest_sha256": {
+    "all12_6bba": "6e6ed3dc61b672ef271dee0aa332e675b20adb69ad5865bbc67083564e440991",
+    "all12_44b6": "d3db2a26525e4db6ac487680646e9bd7af052e5b3bd651b0a5bfac4ef5793fb7"
+  },
+  "models": {
+    "44b6_best_sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+    "6bba_best_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e"
+  },
+  "tests": "Eight focused tests passed before the paused EXP184 launch; EXP185 must repeat them and pass remote isolated validation before allocation.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 1 GiB expected growth, 30 minutes.",
+  "next_if_pass": "Prepare one hidden-compatible PRIVATE_ROBUST runtime candidate, still requiring clean Kaggle audit and separate POST receipt.",
+  "next_if_fail": "Reject the synthetic-gap candidate for Kaggle and retain complete target generalization evidence.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP149",
+  "status": "REJECT_GRAPH_INVARIANT_BEFORE_SCORE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "candidate": "Exact native ILP edges cached by predict_video(use_ilp=True), without post-processing.",
+  "failure": {
+    "direction": "6bba target / forward fold",
+    "movie": "6bba_062c8d37.zarr",
+    "maximum_in_degree": 1,
+    "maximum_out_degree": 3,
+    "exception": "ValueError: 6bba_062c8d37.zarr cached_native_ilp invalid degree 1/3"
+  },
+  "score_interpretation": "None. Evaluation failed closed before a complete fold result existed.",
+  "executed_source_sha256": "5741a166b6c2ceab0e992677ce08003732ae1085093fb9b3aeae98ee5b51d19e",
+  "preserved_log": "outputs/research/exp130_official24_private_first/exp149_forward.log",
+  "preserved_log_sha256": "d91cd730d42c1540d0ac2130eef17651b5a24e055b9b0d308bf1052de8be5f10",
+  "decision": "Reject raw native topology. Any repaired topology is a new prospectively specified experiment.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

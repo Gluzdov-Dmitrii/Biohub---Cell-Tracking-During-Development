@@ -1,0 +1,37 @@
+{
+  "experiment": "EXP153",
+  "status": "PASS_EXTERNAL_SIGNAL_CONTINUE_TRANSFER_ISOLATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "scope": "Teacher-forced GT-node diagnostic on 64 time-disjoint real-Zebrahub validation shards; not competition OOF and not promotion evidence.",
+  "checkpoint_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "true_division_parents": 188,
+  "threshold_0_5": {
+    "edge_recall": 0.963262063943867,
+    "division_parent_recall": 0.4734042553191489,
+    "division_parent_precision": 0.24383561643835616,
+    "division_parent_tp": 89,
+    "false_fork_parents": 276
+  },
+  "threshold_0_2": {
+    "edge_recall": 0.9915933011186867,
+    "division_parent_recall": 0.824468085106383,
+    "division_parent_precision": 0.05081967213114754,
+    "division_parent_tp": 155,
+    "false_fork_parents": 2895
+  },
+  "interpretation": "The external model contains real fork-ranking signal, so blind external retraining is not the next step. Precision collapses when threshold is relaxed, therefore transfer must preserve the robust scratch detector/topology and use an independently validated high-precision veto.",
+  "attempts": {
+    "attempt_1": "Stopped before metrics because NumPy normalization promoted the image tensor to float64; exact log retained remotely.",
+    "attempt_2_source_sha256": "3f67a06480d47fb0d5130ca8c45c0fbfac591f595e11eab3a9013de47917ef78",
+    "attempt_2_result_sha256": "d6b67a2a1acb3781ae7f1e0c12b044fd4cd5d4615c26e22f13f9e492288ca1d8"
+  },
+  "resource": {
+    "gpu": "RTX6000",
+    "queue_request": "biohub-exp153-division-diagnostic-retry-20260910",
+    "terminal_state": "RELEASED",
+    "post_run_gpu_observation": "5 MiB, 0% utilization"
+  },
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

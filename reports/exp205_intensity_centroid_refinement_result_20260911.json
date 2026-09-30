@@ -1,0 +1,60 @@
+{
+  "experiment": "EXP205",
+  "recorded_at": "2026-09-11T11:27:00Z",
+  "status": "POSITIVE_EXPLORATORY_BUT_FAILS_ROBUST_PROMOTION_GATE",
+  "protocol_note": "The candidate had no selection and was frozen before launch, but forward summary was accidentally exposed while reverse was already running. Treat as unblinded exploratory development evidence.",
+  "parent_pooled_score": 0.7485183130743318,
+  "candidate_pooled_score": 0.7542973496999147,
+  "pooled_delta": 0.0057790366255828785,
+  "edge_sufficient_stat_delta": {"edge_tp": 37, "edge_fp": -76, "edge_fn": -37},
+  "direction_delta": {"forward": 0.007319712317348959, "reverse": -0.0007888091016533538},
+  "movie_signs": {
+    "forward": {"positive": 10, "negative": 2, "tie": 0},
+    "reverse": {"positive": 8, "negative": 4, "tie": 0}
+  },
+  "stability": {
+    "draws": 20000,
+    "seed": 314159,
+    "probability_positive": 0.92215,
+    "q025": -0.002600788643840418,
+    "median": 0.0059925265423237395,
+    "q975": 0.012910833784604179,
+    "leave_one_movie_out_min_delta": 0.0037425283910202944,
+    "leave_one_movie_out_max_delta": 0.00872909610920758
+  },
+  "non_twin_sensitivity": {
+    "movies": 20,
+    "parent_score": 0.7438710730276836,
+    "candidate_score": 0.7480241764413305,
+    "delta": 0.00415310341364683
+  },
+  "refinement_telemetry": {
+    "forward": {"mean_movie_mean_shift_um": 0.3250098239536915, "mean_movie_p95_shift_um": 0.7049610263771484, "max_shift_um": 1.6656908992490884, "zero_weight_nodes": 0},
+    "reverse": {"mean_movie_mean_shift_um": 0.3384208762980703, "mean_movie_p95_shift_um": 0.6460001229624427, "max_shift_um": 1.419789766439845, "zero_weight_nodes": 0}
+  },
+  "fixed_composition_hypothesis": {
+    "policy": "EXP205 centroid refinement only forward plus EXP195 fixed reverse gate",
+    "development_score": 0.7571390995166256,
+    "development_delta_vs_exp195": 0.0059398548660518635,
+    "non_twin_delta_vs_exp195": 0.004461305556740847,
+    "warning": "Derived after viewing EXP205 development results; eligible only for separately frozen untouched confirmation before target inference."
+  },
+  "gate": {
+    "exact_parent_reproduction": true,
+    "positive_pooled_delta": true,
+    "nonnegative_both_directions": false,
+    "positive_bootstrap_lower_bound": false,
+    "robust_promotion_passed": false
+  },
+  "artifacts": {
+    "directory": "outputs/research/exp130_official24_private_first/exp205_intensity_centroid_refinement/results",
+    "forward_sha256": "e6869901f4dbdec76e69484da2b571887524e06aca2b8c9dfb1207b62e31fff2",
+    "reverse_sha256": "0084f42265044edc3a8d142d9396602a88650fd3e0451de1cdc95b3af5a8a7dc",
+    "fixed_comparison_sha256": "cfa144f37c185a12506e7a4fa55d7eab614c099ee1b80d2702038c7bbf81c73c",
+    "stability_sha256": "65805ca15efedb7319e837085cec95e3138fcf26a525aa694307974e0d492276",
+    "remote_sha256sum_check": "PASS",
+    "remote_local_hash_match": true
+  },
+  "effect_on_exp192": "No automatic change. The forward-only composition must be separately frozen and integrated before any EXP192 inference to receive untouched status.",
+  "eligible_for_kaggle_submission": false
+}

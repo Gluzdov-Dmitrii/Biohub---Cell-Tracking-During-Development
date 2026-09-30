@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP208",
+  "date_local": "2026-09-12",
+  "status": "FAILED_POST_TARGET_INVALID_INVARIANCE_GATE",
+  "execution": {
+    "host": "nsu-quadro",
+    "device": "CPU_ONLY",
+    "gpu_process_observed": false,
+    "parent_pid": 238883,
+    "linux_start_tick": 439970868,
+    "parent_exit_confirmed": true,
+    "launcher_sha256": "d6be38d514dc815c8fd7dbf95c5fd9f02fa430358317943ab00ad932cfb45a50",
+    "runner_sha256": "ce78e9e942cb41dd0cfee9dafce677baca865cb8120f0c65f334f224b87380de"
+  },
+  "failure": {
+    "cpu_log_sha256": "3bfdaafe80d862585b09b4e6fc6328343cf7377712163a8a26bcf5c8e42da47a",
+    "exception": "AssertionError",
+    "failed_contract": "Per-movie num_pred_nodes must be identical between translation and selected centroid arms.",
+    "diagnosis": "The centroid coordinates are re-linked and minimum-length pruning is rerun, so component membership and the retained node count can legitimately change. The asserted invariant contradicted the intended mechanism.",
+    "manifest_created": false
+  },
+  "preserved_outputs": {
+    "local_directory": "outputs/research/exp208_source_centroid_family_20260911",
+    "remote_directory": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp208_source_centroid_family_20260911",
+    "remote_directory_bytes": 101927,
+    "remote_to_local_hashes_match": true,
+    "forward_selection_sha256": "bd98ebbc70a37912a1307c1f3c7b5cc285ea4d6838e2391423694bd27023fc42",
+    "forward_target_sha256": "bad75d15048b568d1a4bccce42bdb9b120c1ec1dcb484648482806b2567da719",
+    "reverse_selection_sha256": "ea3640b1df42c2f47e25028a23dbc7dd646c3f2be2298ffd7673a7d65a9f5526",
+    "reverse_target_sha256": "717a6caa3f363d736a35abfb3de3d77a73cb0ea8be0c7fff1300b7a000c41e9c"
+  },
+  "cleanup": {
+    "local_owned_empty_tmp_removed": ".tmp",
+    "remote_run_retained": true,
+    "remote_retention_reason": "Only 101927 bytes; preserves the failed-gate evidence and exact frozen source/target outputs for the next full-cohort preregistration. No redundant bulk cache was created by EXP208."
+  },
+  "kaggle_action": false
+}

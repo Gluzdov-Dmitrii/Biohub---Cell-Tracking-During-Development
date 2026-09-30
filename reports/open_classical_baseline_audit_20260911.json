@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-09-11",
+  "source": {
+    "url": "https://www.kaggle.com/code/xiaoleilian/biohub-cell-tracking-classical-baseline",
+    "kaggle_id": "xiaoleilian/biohub-cell-tracking-classical-baseline",
+    "kaggle_numeric_id": 125370497,
+    "title": "Biohub Cell Tracking - Classical Baseline",
+    "notebook_path": "outputs/research/open_candidates_20260911/xiaoleilian_classical_baseline/biohub-cell-tracking-classical-baseline.ipynb",
+    "notebook_sha256": "ef193c8cd86c7faa7f5e9240b4ef72b8e5f3e8fbec3e8ba871ba0d8bd087e088",
+    "metadata_sha256": "ebe4678a6d670b4a666b6641954eb915663e6d3445b5252fd958386c91f60439",
+    "retrieval": "Current public Kaggle source pulled on 2026-09-11; web listing identified it as version 10 of 10 and Apache-2.0 licensed.",
+    "runtime": {"gpu": false, "internet": false}
+  },
+  "static_audit": {
+    "cells": 20,
+    "code_cells": 10,
+    "executed_code_cells_in_downloaded_source": 0,
+    "detector": "XY block-mean x4, Gaussian smoothing, Otsu/robust relative threshold, 3D local maxima, full-resolution intensity-weighted centroid refinement and 4 um physical NMS.",
+    "linker": "Two-pass one-to-one Hungarian: 7 um tight raw-displacement gate, then 11 um full gate for leftovers, with half-weight predecessor velocity in assignment cost.",
+    "topology": "Divisions disabled by default; isolated predicted nodes removed.",
+    "validation": "Optional one picked movie per embryo with a custom proxy and Traccuracy panel; not official pooled embryo-disjoint OOF.",
+    "public_score_context": "The current Kaggle page reports 0.763, but this is not local validation evidence."
+  },
+  "mechanism_mapping": {
+    "count_calibration": "Optional max_nodes_per_frame is disabled in this exact source; exact count-driven graph selection was independently rejected by EXP198.",
+    "motion": "Predecessor velocity is closely related to the EXP197 family, which failed nested pooled validation; the notebook adds a tight-then-full assignment schedule but supplies no honest evidence for it.",
+    "pruning": "Isolated-node/short-component removal overlaps the strongly positive EXP187-190 pruning program already tested with official pooled scoring.",
+    "new_candidate": "Intensity-weighted centroid refinement plus physical NMS is the main not-yet-isolated mechanism. It requires raw-image inference and should be evaluated only after EXP192 endpoint/association attribution, on a frozen rule and identical detections."
+  },
+  "decision": "Archive and attribute; do not copy the full notebook, do not promote its score, and do not add another correlated velocity/count sweep before untouched EXP192 confirmation.",
+  "eligible_for_kaggle_submission": false
+}

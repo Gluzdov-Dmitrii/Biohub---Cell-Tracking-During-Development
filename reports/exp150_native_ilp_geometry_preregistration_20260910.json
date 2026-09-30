@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP150",
+  "status": "PREREGISTERED_BEFORE_EVALUATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The learned native ILP topology may carry useful division signal after enforcing the competition graph contract with an existing source-attributed geometry filter.",
+  "parent": "Source-only-selected scratch seed 314159 registered-motion Hungarian topology in both reciprocal directions.",
+  "candidate": {
+    "input": "Exact cached predict_video(use_ilp=True) edges rejected raw by EXP149.",
+    "ranking": "Descending edge probability, then ascending physical edge distance.",
+    "fork_rule": "For each source with multiple edges, inspect the top two. Keep both only when both target the next frame, maximum parent-daughter distance is at most 10.5 um, and sister distance is at most 8.0 um; otherwise keep only top one.",
+    "maximum_out_degree": 2,
+    "source_attribution": "The division-geometry-filter block already present in the inspected public calibrated graph family; no threshold selected from current OOF labels."
+  },
+  "data": "One prospective pass over all 24 candidate-specific full-OOF movies from existing immutable caches; forward and reverse outputs written before comparison.",
+  "source_sha256": "aab4ba637e461fffaa2538400ff0e5cbb89681aac247cd3505898a24413c0bb4",
+  "tests": "4 passed for native-edge degree and geometry-filter behavior.",
+  "promotion_gate": {
+    "official_score_delta_each_embryo": "> 0",
+    "pooled_official_score_delta": "> 0",
+    "division_tp_delta_pooled": "> 0",
+    "division_tp_delta_each_embryo": ">= 0",
+    "division_precision_pooled": ">= 0.25",
+    "node_recall_delta_each_embryo": ">= 0",
+    "maximum_in_degree": "<= 1",
+    "maximum_out_degree": "<= 2"
+  },
+  "validation_warning": "Candidate-specific full OOF after the original locked labels have been consumed; not a new untouched private audit.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

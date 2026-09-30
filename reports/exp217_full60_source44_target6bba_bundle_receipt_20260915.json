@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXP217_FULL60_SOURCE44_BUNDLE_STAGED",
+  "bundle": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/44b6_bundle.json",
+  "bundle_sha256": "3b020c1911f0c25319d72f1e3f2e6dde529f048378b70d2b369b410dfbf7262f",
+  "parent_bundle_sha256": "b2f49dbfec4df30a2e8c2bbaeee789b4e55326f0e57053a7cfcbebd82e9ba82a",
+  "primary_sha256": "d7bc45e5151842263e0b008bf152adc26105cf6e76b7722c46fe38a8e79ce3b4",
+  "primary_source_status_sha256": "285f6d8dd2c847a90779fc72320079543842c34bcd0190c9482ce86d1df57aa0",
+  "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899",
+  "actual_primary_training_plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+  "target_labels_read": false
+}

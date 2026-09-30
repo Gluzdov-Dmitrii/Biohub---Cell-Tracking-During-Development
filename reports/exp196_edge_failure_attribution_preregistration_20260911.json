@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP196",
+  "recorded_at": "2026-09-11",
+  "status": "PREREGISTERED_NOT_RUN",
+  "purpose": "Use the official evaluator's exact node matching to partition full-movie OOF edge errors into missing-endpoint and association-limited mechanisms.",
+  "timing_guard": "Do not run on EXP192 outputs or inspect any EXP192 scientific value until all eight immutable chunks pass the all-chunk no-metric gate and the frozen EXP190, EXP191 and EXP195 confirmation artifacts have been built.",
+  "primary_arm": "The frozen EXP195 selected whole-graph policy on all 175 EXP192 confirmation movies.",
+  "controls": [
+    "frozen EXP190 pruning-only graph",
+    "frozen EXP191 gap-plus-pruning graph"
+  ],
+  "decomposition": {
+    "fn_endpoint_limited": "At least one endpoint of a GT edge has no node match from the official evaluator.",
+    "fn_association_limited": "Both GT endpoints are officially matched but their corresponding predicted edge is absent.",
+    "fp_wrong_association": "Both predicted endpoints are officially matched but not to a GT edge.",
+    "fp_one_sided_anchor": "Exactly one endpoint supplies the official sparse-GT validity anchor.",
+    "ignored_edges": "Predicted non-TP edges ignored by the official sparse-GT rule."
+  },
+  "integrity_gates": [
+    "Per-movie decomposed TP equals official edge_tp.",
+    "Per-movie endpoint-limited plus association-limited FN equals official edge_fn.",
+    "Per-movie classified valid non-TP edges equals official edge_fp.",
+    "Report pooled counts, embryo direction, movie-level distributions and bootstrap uncertainty; do not optimize a threshold in this diagnostic."
+  ],
+  "decision_rule": "If endpoint-limited FN dominates with stable direction-level evidence, prioritize detector/count calibration. If association-limited FN and wrong-association FP dominate, prioritize a physically distinct or learned linker. Consider joint division assignment only after ordinary-edge attribution and only if division support is adequate.",
+  "implementation": {
+    "path": "scripts/analyze_cached_edge_failure_modes.py",
+    "sha256": "afff505343433a7dd7160a4466ba2ba8d6066219692904754a6d74f65ffc12f7",
+    "test_path": "tests/test_analyze_cached_edge_failure_modes.py",
+    "test_sha256": "9f339c61280613761f8f3732e212760015ea28fdeb0c73f8b9583b997b5a64a1",
+    "tests": "2 passed",
+    "remote_import": "PASS_IMPORT",
+    "remote_sha_matches": true
+  },
+  "eligible_for_kaggle_submission": false
+}

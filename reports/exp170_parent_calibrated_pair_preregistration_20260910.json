@@ -1,0 +1,11 @@
+{
+  "experiment": "EXP170",
+  "status": "PREREGISTERED_QUEUE_PATH_RETRY",
+  "parent": "EXP169",
+  "only_change": "Correct queue run_path and use a fresh terminal-safe request ID.",
+  "trainer_sha256": "3bcdf3e196ee2e84d96a365bb566123888ac26a3043ce08e444b208273518928",
+  "launcher_sha256": "b1b77ad0b9a8f65d3094d566b7b90d5d7f118116468fbbf9d102ce876836e581",
+  "split_gate_and_parameters": "Identical to EXP168 and EXP169.",
+  "data_boundary": "External Zebrahub only; no competition data.",
+  "kaggle_slots_used": 0
+}

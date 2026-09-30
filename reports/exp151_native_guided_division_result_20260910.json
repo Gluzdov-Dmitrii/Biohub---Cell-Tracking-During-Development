@@ -1,0 +1,18 @@
+{
+  "experiment": "EXP151",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "forward_score_delta": 0.0,
+  "reverse_score_delta": 0.0,
+  "pooled_score_delta": 0.0,
+  "accepted_divisions_forward": 0,
+  "accepted_divisions_reverse": 0,
+  "division_tp_delta": 0,
+  "division_fp_delta": 0,
+  "node_recall_delta": 0.0,
+  "forward_sha256": "5d027cdd02d9131f342437f8937804cc16053192eb2970b4366a3441bb68dde4",
+  "reverse_sha256": "165aee8630f0c579b5475b7650e903d3f475980e83449a72dc608c00e728ee74",
+  "gate": "The inherited softmax >0.5 native pool is too sparse to supply even one candidate surviving fixed geometry, continuation and divergence gates.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

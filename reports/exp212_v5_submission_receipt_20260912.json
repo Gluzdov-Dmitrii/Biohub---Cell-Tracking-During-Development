@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP212",
+  "track": "PRIVATE_ROBUST",
+  "daily_slot": 3,
+  "version": 5,
+  "source_sha256": "921a8ba6250657b8070bd39e7c364aa7298725cd177de2a30497b5a31ad85793",
+  "submission": {
+    "ref": 56181132,
+    "date": "2026-09-12 07:36:21.490000",
+    "description": "EXP212 EXP209 FRONTIER PRIVATE_ROBUST SLOT3 v5 20260912",
+    "status": "SubmissionStatus.PENDING",
+    "public_score": "",
+    "private_score": "",
+    "error_description": "",
+    "total_bytes": 0,
+    "url": "/code/dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production?scriptVersionId=349212853"
+  },
+  "quota": {
+    "numToday": 2,
+    "numTotal": 85,
+    "numAllowedNow": 3
+  },
+  "read_utc": "2026-09-12T07:36:31.426348+00:00",
+  "guarded_helper": "scripts/submit_code_file_once.py",
+  "post_count_this_candidate": 1,
+  "full_api_snapshot": "reports/exp212_live_state_20260912.json",
+  "oof_work": "Paused until actual LB result"
+}

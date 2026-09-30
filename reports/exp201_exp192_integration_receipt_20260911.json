@@ -1,0 +1,48 @@
+{
+  "experiment": "EXP201_ON_EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_PREINFERENCE_INTEGRATION",
+  "preconditions": {
+    "all_eight_remote_chunks_unlaunched": true,
+    "launch_receipts_absent": true,
+    "result_sha256sums_absent": true,
+    "exp192_archive_not_staged": true,
+    "scientific_confirmation_metrics_opened": false
+  },
+  "code": {
+    "launch_exp192_chunk_remote.sh": "c2acd7e59d99cb553e377c5c954905cf629055b3e11bae9e1273cc40b83e09f0",
+    "run_exp192_confirmation_chunk.sh": "4d0a16e48c76d1d6c72b06224144f71eb7e1ae17471f317ba034f6006480e9bb",
+    "validate_exp192_chunk_structure.py": "30be89bf51f7e1c12be77049943ece6ff488609fe1eca03148c959f72bcd36b4",
+    "evaluate_cached_fixed_local_flow.py": "5d969e74f5a1f8aa095c89afc3996a0bb9f0b1c52a12aa9bde92b895e6b0ec44",
+    "evaluate_cached_local_flow_linker.py": "79c31e00948c8ffc3de4e2620119d8094a833ace26df7b80e0af6a01a0b5a1e7",
+    "evaluate_cached_coherent_motion_linker.py": "fac519e1182f31ff33182217e26ffc36c747fe2c8983cdac3e4c69440e82a7b1",
+    "build_exp201_confirmation_result.py": "5733d126648b914b557b479badb846cc34df07a9e280e2d78b7f71220b569f04",
+    "mark_exp192_runs_data_ready.py": "0be18408075ffc2525899814081a7186a06dfce3affde939f57ea2b15494e42e"
+  },
+  "verification": {
+    "local_tests": "9 passed for flow/builder/chunk-validator/all-chunk/integration; subsequent data-ready suite 7 passed",
+    "compile": "PASS",
+    "remote_sha_match": true,
+    "remote_bash_syntax": "PASS",
+    "remote_import": "PASS",
+    "eight_remote_run_json_hashes_match_local": true
+  },
+  "run_manifest_sha256": {
+    "forward_00": "f2568c5cef887ad4807cae35ce083d95238192c444ed02227c8cfdf165e98692",
+    "forward_01": "d6df4f1d300c62f47df6503d789c2a8f8f7cc567f4195441871abd74087ab70b",
+    "forward_02": "da2b139f24aecef7cd304514494911498997dbb6314e13997ffeae298710de31",
+    "forward_03": "efe2dd53ba72cf30e4b69e43f9625b299d30e8bf8bd4f4cabdf8980c5c06ce52",
+    "forward_04": "224accdc22eafb5b9fdf45f6a8b33af04bf006dcfd5b29db1341a84720b127df",
+    "reverse_00": "c77487db614990aa92ae38d7e85adf6ae48187aa5fd3c7edbc7f373b70f9d69f",
+    "reverse_01": "7c2b211752763ea97f4de3f4e6bc8eb728404e8be7f5def085eb2d526dd9c6fd",
+    "reverse_02": "588da0f3af6af965919de020c205932680c6a2179afb46bf357573dbf440dc7d"
+  },
+  "cleanup": {
+    "remote_code_pycache_bytes_removed": 145211,
+    "workspace_pytest_basetemps_removed": true,
+    "generated_exp192_exp201_bytecode_removed": true,
+    "active_archive_transfer_preserved": true
+  },
+  "effect_on_existing_policies": "EXP190, EXP191 and EXP195 policies are byte-semantically unchanged; EXP201 is a separately reported frozen comparison.",
+  "kaggle_action_authorized": false
+}

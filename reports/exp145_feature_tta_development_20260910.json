@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP145",
+  "status": "REJECT_INERT_UNDER_REGISTERED_LINKER",
+  "hypothesis": "Four-view inverse-aligned edge-feature TTA improves association while preserving detector TTA.",
+  "development": {
+    "movies": 8,
+    "score_delta_each_movie": 0.0,
+    "pooled_parent_score": 0.6411938290921109,
+    "pooled_candidate_score": 0.6411938290921109,
+    "pooled_delta": 0.0,
+    "node_recall_delta": 0.0,
+    "gate_pass": false
+  },
+  "mechanistic_diagnosis": "The registered_hungarian production arm derives links from coordinates and motion only. Feature TTA changes learned edge representations, but detector coordinates remain fixed, so the final registered graph is identical.",
+  "source_attribution": "reyhanksatria/biohub-cell-tracking-0-946-lb; only the inverse-transform feature-averaging mechanism was adapted.",
+  "artifacts": {
+    "parent_predictor_sha256": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+    "candidate_predictor_sha256": "4b6698ad7cfa8d7bc243107feb8783427ac01a2f76b77096c374e909eec3c4b1",
+    "development_gate_sha256": "af3c907aabd9867450321adbd2bdcc406f82bd684fa85a52326926feca819694",
+    "forward_result_sha256": "40c30b4bf9e27095cbc50ce0e558921edd59d0916eb08933c31686887b5562c9",
+    "reverse_result_sha256": "8c2c28b201fb4898e8d4bdd8f9bdc076579b85ed5f042d840319150efc045f6c"
+  },
+  "locked_audit_opened_for_candidate": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

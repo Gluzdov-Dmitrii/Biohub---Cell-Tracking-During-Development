@@ -1,0 +1,10 @@
+{
+  "title": "Biohub EXP219 Frontier90 Models",
+  "id": "dmitriigluzdov/biohub-exp219-frontier90-models",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "description": "Private clean embryo-fold detector checkpoints, primary90 and secondary60, clean EXP180 centers. Public-family code derives from Pilkwang Kim support pack and COMPACT47 v20; original terms and attribution retained. OOF175 reference0.742729 is development-adapted two-embryo CV, not unseen-routing score. No frozen test predictions."
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "stage": "before_queue_request_and_before_inference",
+  "corrects": "reports/exp192_gpu_queue_plan_20260911.json",
+  "error": "Seven movie-list hashes were manually expanded from abbreviated summary strings instead of copied from authoritative chunk_index.json. Queue IDs, owner tokens, resource parameters, run names, movie files, and remote run directories were unaffected.",
+  "authoritative_source": "outputs/research/exp130_official24_private_first/exp192_honest195_confirmation/chunks/chunk_index.json",
+  "correct_movies_sha256": {
+    "exp192-confirm-forward-00-20260911": "fd56684633dc6d9c8631225b60fc7f7f333b972f7ea5c65642667b5c1a6dee82",
+    "exp192-confirm-forward-01-20260911": "6483a378d4f4afc31b9e3ac9e7fd5eb443f039d0fe0b48a90e5daea30e7952c9",
+    "exp192-confirm-forward-02-20260911": "a19860665fb564ee799ac0e701a8099b8f9a7dd2afdf36d4edd42c0125664d66",
+    "exp192-confirm-forward-03-20260911": "040d17ad85cb803260d64724b203424d2084e1aa3563618305b027cf8839a00f",
+    "exp192-confirm-forward-04-20260911": "33f1ce7aec41e9dd32e8bc80f2c18523a9626708944997c926f65d7526b7195a",
+    "exp192-confirm-reverse-00-20260911": "60b409b1e5ea8f3a3f56a86c02d7c823c091c3ab2352f48b5381c4e03615ca6a",
+    "exp192-confirm-reverse-01-20260911": "9cd9495bfd559e6379f191ce84d2717d0bf648265af5eb0cdc8140ba38148d30",
+    "exp192-confirm-reverse-02-20260911": "b84bdfcd6dc54a5f3b7784fdbc879c09d17ff0caf38ceb8f2416cb34a75ef457"
+  },
+  "gate": "Every queue launch must use these corrected hashes and must independently sha256sum the corresponding remote run/movies.json before spawning.",
+  "scientific_policy_changed": false,
+  "kaggle_action_authorized": false
+}

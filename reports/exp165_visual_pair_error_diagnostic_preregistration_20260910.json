@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP165",
+  "status": "PREREGISTERED_EXTERNAL_DIAGNOSTIC",
+  "objective": "Diagnose pair ranking, parent calibration, and model complementarity before another training run.",
+  "scope": "Read only the 64 frozen external valid_*.npz shards; never read competition data.",
+  "scratch_sha256": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+  "feature_sha256": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+  "backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "diagnostic_sha256": "096f7fb49cda4396618f554173bb9d727b07a0c169d9de01b707539ec32c9b32",
+  "launcher_sha256": "6c2d74e7ab153664165f54acff7c836204918e6d5170e6f3ecfefaadde48f3c3",
+  "policy": "Diagnostic only; no parameter selection, competition evaluation, or Kaggle submission.",
+  "resource": "one RTX6000, 8 CPU, 24 GiB RAM, under 30 minutes",
+  "tests": "10 passed",
+  "kaggle_slots_used": 0
+}

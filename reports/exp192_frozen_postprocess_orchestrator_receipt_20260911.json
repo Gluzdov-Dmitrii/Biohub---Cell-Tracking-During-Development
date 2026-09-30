@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP192_POSTPROCESS_WITH_EXP201_EXP202",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_PREEXECUTION_ORCHESTRATOR_AUDIT",
+  "orchestrator": {
+    "path": "scripts/run_exp192_postprocess.sh",
+    "sha256": "3ff0606492da9eb2e58d8dde0632d022c2974f905bae5a01aad9f682dbcc2b1b",
+    "remote_sha_match": true,
+    "remote_bash_syntax": "PASS"
+  },
+  "ordering_contract": [
+    "Verify every pinned code and policy SHA.",
+    "Acquire an atomic postprocessing lock and require no previous final or temporary output.",
+    "Run the all-eight chunk structural gate without emitting scientific metrics.",
+    "Only after that gate, merge immutable base, gap and local-flow chunk JSON files.",
+    "Assemble frozen EXP190, EXP191, EXP195, EXP201 and EXP202 policies without selection on confirmation scores.",
+    "Compute paired direction-stratified bootstrap and leave-one-movie-out stability, including EXP202 versus EXP195.",
+    "Hash every result/log and atomically rename the temporary output directory to its final path."
+  ],
+  "pinned_dependency_sha_match": true,
+  "verification": {
+    "contract_and_pipeline_tests": "5 passed",
+    "all_existing_frozen_builders_reused": true,
+    "exp201_embedded_control": "translation after the same component filter",
+    "exp202_parent_control_tolerance": 1e-12,
+    "confirmation_metrics_opened": false
+  },
+  "cleanup": "Workspace pytest basetemp and generated EXP192/201/202 bytecode removed; active code, manifests, transfer and future run directories preserved.",
+  "kaggle_action_authorized": false
+}

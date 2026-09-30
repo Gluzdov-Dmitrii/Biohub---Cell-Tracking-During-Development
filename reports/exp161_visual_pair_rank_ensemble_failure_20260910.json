@@ -1,0 +1,9 @@
+{
+  "experiment": "EXP161",
+  "status": "FAIL_PRE_METRIC_CHECKPOINT_SHA_MISMATCH",
+  "cause": "The preregistration transcribed the EXP160 head SHA incorrectly as 3cdc50...; the immutable remote checkpoint and EXP160 raw result both identify 3cdc17023606b8193cd01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb.",
+  "effect": "Evaluator stopped at the checkpoint integrity guard before loading external validation shards; no ensemble metric and no competition data access occurred.",
+  "eval_log_sha256": "11d18fe28e3f1312520c1f2d56d50d7bc3a0ff81c8ce2cb612e0b22450016090",
+  "resource_cleanup": "No running PID remained; lease biohub-exp161-visual-pair-rank-ensemble-20260910 released.",
+  "kaggle_slots_used": 0
+}

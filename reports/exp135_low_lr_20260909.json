@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP135",
+  "date": "2026-09-09",
+  "status": "REJECT_NODE_RECALL_GATE",
+  "only_change": "learning rate 1e-4 to 5e-5",
+  "seed": 271828,
+  "source_validation_score": 0.7351,
+  "checkpoint_sha256": "a79ed6877b2d9a63ec395cbabcfe10151b59ed14764678155adb1a59e1649e79",
+  "result_sha256": "745b166f1db50c8b958428d05a73f5365aa9bcb2fdcdca2d59254906408fbefa",
+  "train_log_sha256": "589850232dcdcb7ab0a12ff0b958df869bf03f03109d8f04a7f888d09b4a47df",
+  "parent_score": 0.6711156817428906,
+  "candidate_score": 0.6908211465711162,
+  "pooled_delta": 0.01970546482822555,
+  "per_movie_deltas": [
+    0.071020966060373,
+    0.0015889342259970407,
+    0.0074690802579368,
+    0.0020160494080889713
+  ],
+  "parent_node_recall": 0.9657465452790714,
+  "candidate_node_recall": 0.9558069955720389,
+  "node_recall_delta": -0.009939549707032591,
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

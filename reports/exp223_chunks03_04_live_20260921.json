@@ -1,0 +1,20 @@
+[
+  {
+    "chunk": 3,
+    "queue": "RUNNING",
+    "health": "CURRENT",
+    "pid": 562433,
+    "start": "521694798",
+    "cpu_affinity": "0-7",
+    "supervised": true
+  },
+  {
+    "chunk": 4,
+    "queue": "RUNNING",
+    "health": "CURRENT",
+    "pid": 562510,
+    "start": "521696596",
+    "cpu_affinity": "8-15",
+    "supervised": true
+  }
+]

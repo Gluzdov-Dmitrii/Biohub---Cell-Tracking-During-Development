@@ -1,0 +1,11 @@
+{
+  "bundle_manifest_sha256": "cdf49fad597f1dcc47e65d841cc894ed2be439f45f4bfe1838e790b390c8a311",
+  "code_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp209_current_metric_reconstruction_v1_20260927",
+  "file_count": 37,
+  "gpu_used": false,
+  "labels_read": false,
+  "local_bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp209_current_metric_reconstruction_v1_local_20260927\\bundle",
+  "remote_action": "code stage only; no reconstruction launch",
+  "stage_script_sha256": "0ff98273c35fcdb7d6af342cf59bea3efbfedd696c040ba4592990f1a0514672",
+  "status": "STAGED_EXP209_RECONSTRUCTION_V1_NO_RUN"
+}

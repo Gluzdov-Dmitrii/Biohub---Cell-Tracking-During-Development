@@ -1,0 +1,93 @@
+--- stage/horaz/src/src/datasets.py
++++ dev/horaz/src/src/datasets.py
+@@ -222,6 +222,8 @@
+         videos: list[tuple[VideoMetadata, list[FrameWindow]]],
+         max_nodes: int,
+         augment: bool,
++        preload_uint16_frames: bool = False,
++        preload_max_bytes: int = 8 * 1024**3,
+     ) -> None:
+         self.samples = [
+             (pad_window(window, max_nodes), metadata)
+@@ -231,6 +233,35 @@
+         self.augment = augment
+         if not self.samples:
+             raise RuntimeError("No labeled frame windows were found")
++        self.preload_uint16_frames = preload_uint16_frames
++        self.preloaded_bytes = 0
++        self._preloaded_frames: dict[Path, np.ndarray] = {}
++        if preload_uint16_frames:
++            metadata_by_path = {metadata.zarr_path: metadata for metadata, _ in videos}
++            estimated_bytes = sum(
++                math.prod(metadata.image_shape) * np.dtype("uint16").itemsize
++                for metadata in metadata_by_path.values()
++            )
++            if estimated_bytes > preload_max_bytes:
++                raise MemoryError(
++                    f"Preload estimate {estimated_bytes} exceeds cap {preload_max_bytes}"
++                )
++            for path, metadata in metadata_by_path.items():
++                dz, dy, dx = metadata.downsample
++                zarr_array = zarr.open(str(path), mode="r")["0"]
++                if np.dtype(zarr_array.dtype) != np.dtype("uint16"):
++                    raise TypeError(f"Expected uint16 source frames: {path}")
++                frames = zarr_array[
++                    : metadata.image_shape[0], ::dz, ::dy, ::dx
++                ]
++                if tuple(frames.shape) != metadata.image_shape:
++                    raise ValueError(f"Unexpected downsampled frame shape: {path}")
++                self._preloaded_frames[path] = np.ascontiguousarray(frames)
++                self.preloaded_bytes += self._preloaded_frames[path].nbytes
++            if self.preloaded_bytes > preload_max_bytes:
++                raise MemoryError(
++                    f"Preload bytes {self.preloaded_bytes} exceed cap {preload_max_bytes}"
++                )
+ 
+     def __len__(self) -> int:
+         return len(self.samples)
+@@ -240,13 +271,18 @@
+         time_start = int(sample["time_start"])
+         frame_count = sample["coords"].shape[0]
+         dz, dy, dx = metadata.downsample
+-        zarr_array = zarr.open(str(metadata.zarr_path), mode="r")["0"]
+-        raw = zarr_array[
+-            time_start : time_start + frame_count,
+-            ::dz,
+-            ::dy,
+-            ::dx,
+-        ].astype(np.float32)
++        if self.preload_uint16_frames:
++            raw = self._preloaded_frames[metadata.zarr_path][
++                time_start : time_start + frame_count
++            ].astype(np.float32)
++        else:
++            zarr_array = zarr.open(str(metadata.zarr_path), mode="r")["0"]
++            raw = zarr_array[
++                time_start : time_start + frame_count,
++                ::dz,
++                ::dy,
++                ::dx,
++            ].astype(np.float32)
+         images = torch.from_numpy(raw)
+         assert_no_consecutive_duplicate_frames(images, metadata.dataset_id, time_start)
+         if tuple(images.shape[1:]) != metadata.image_shape[1:]:
+--- stage/horaz/src/src/train.py
++++ dev/horaz/src/src/train.py
+@@ -121,11 +121,16 @@
+         for window in windows
+     ]
+     max_nodes = max(max(window.node_counts) for window in all_windows)
+-    train_dataset = FrameWindowDataset(train_videos, max_nodes=max_nodes, augment=True)
++    preload_uint16_frames = bool(getattr(cfg, "preload_uint16_frames", False))
++    train_dataset = FrameWindowDataset(
++        train_videos, max_nodes=max_nodes, augment=True,
++        preload_uint16_frames=preload_uint16_frames,
++    )
+     validation_dataset = FrameWindowDataset(
+         validation_videos,
+         max_nodes=max_nodes,
+         augment=False,
++        preload_uint16_frames=preload_uint16_frames,
+     )
+     generator = torch.Generator().manual_seed(int(cfg.seed) + fold)
+     train_loader = DataLoader(

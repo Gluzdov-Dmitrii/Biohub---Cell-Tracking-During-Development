@@ -1,0 +1,56 @@
+{
+  "status": "PREPARED_EXP227_CHUNK07_WAITSAFE_V3_LOCAL_ONLY",
+  "source_stopped_sha256": "8b9123bfb6b75371466fe1605cd31ddde2c630ebe585f18f7295f14a525932b3",
+  "failed_v2_reconciliation_sha256": "5c777467215e6fe4f984cdcf4920070d07a2f704c819144b1cd4896af0981796",
+  "source_v2_local_prepare_sha256": "ff1b87073ca1bd7ecbf48999265a89e2559c2ff85ddc3fdf2f8475cf5aaba910",
+  "source_v2_bundle_manifest_sha256": "c63813871dc002a0b9bcf0c1fc0e19d7f85db68284a5b1cd39cd51a99df42ffa",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp227_target6bba_chunk07_waitsafe_v3_20260927",
+  "bundle_manifest_sha256": "5c87a39c3ea6c3a150b8086731cf7eed6fc7d85ee0362b7f7495efd27c205bc0",
+  "plan_sha256": "9e87d40ad89816f171f32bd888e55421531486c86cde9c8af0ba8d196af8031a",
+  "runner_sha256": "43e0b87893242d2fcf830d514f184ed3da8485ebebf3d32dee7ace370f0cec35",
+  "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+  "selection_sha256": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+  "checkpoint_sha256": "df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79",
+  "movies": [
+    "6bba_085bf656",
+    "6bba_1ebfb80d",
+    "6bba_2312ac41",
+    "6bba_268e1230",
+    "6bba_3db54e20",
+    "6bba_6feeb0b1",
+    "6bba_718b21f9",
+    "6bba_971fa5e0",
+    "6bba_af149c94",
+    "6bba_c73a1d11",
+    "6bba_cdcfe533",
+    "6bba_d82a4fc6",
+    "6bba_ebff6e76",
+    "6bba_ed9377fd"
+  ],
+  "identity": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v3_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v3_20260927",
+    "lease_id": "exp227-target6bba-chunk07-v3-20260927",
+    "token": "exp227_target6bba_chunk07_v3_20260927"
+  },
+  "actual_runner_contract": {
+    "status": "PASS_EXP227_CHUNK07_V3_ACTUAL_VALIDATE_PLAN",
+    "runner_sha256": "43e0b87893242d2fcf830d514f184ed3da8485ebebf3d32dee7ace370f0cec35",
+    "plan_sha256": "9e87d40ad89816f171f32bd888e55421531486c86cde9c8af0ba8d196af8031a",
+    "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+    "selection_sha256": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+    "wrong_v2_code_rejected": true,
+    "wrong_v2_output_rejected": true,
+    "target_labels_read": false
+  },
+  "remote_v3_absence_checked": {
+    "code_absent": true,
+    "run_absent": true
+  },
+  "remote_staged": false,
+  "remote_run_created": false,
+  "gpu_claimed": false,
+  "target_labels_read": false,
+  "target_score_computed": false,
+  "kaggle_post": false
+}

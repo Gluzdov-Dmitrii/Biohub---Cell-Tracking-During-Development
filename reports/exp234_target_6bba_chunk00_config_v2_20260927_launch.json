@@ -1,0 +1,60 @@
+{
+  "lease": {
+    "id": "exp234-target-6bba-chunk00-v2-20260927",
+    "owner": "biohub-agent",
+    "token": "exp234_target_6bba_chunk00_v2_20260927",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk00_v2_20260927",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 3.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790443566.365167,
+    "heartbeat": 1790443566.3652196,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790443566.3652196,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 815894,
+    "observe": 815895
+  },
+  "config": {
+    "experiment": "EXP234_TARGET_CHUNK",
+    "lease_id": "exp234-target-6bba-chunk00-v2-20260927",
+    "token": "exp234_target_6bba_chunk00_v2_20260927",
+    "pool": "a100",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk00_v2_20260927",
+    "max_seconds": 10800,
+    "cpu_affinity": "8-15",
+    "script": "run_exp234_target_chunk.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/6bba_chunk00_plan.json",
+      "--plan-sha256",
+      "0cc5d962ef97e401c6906016a0eccee9fe8c78bb24f1235971dfedff04bd49ff"
+    ],
+    "resources": {
+      "cpu": 8,
+      "ram_gib": 64,
+      "disk_growth_gib": 3
+    },
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  },
+  "preflight": {
+    "status": "PASS_EXP234_TARGET_LAUNCH_PREFLIGHT",
+    "plan_sha256": "0cc5d962ef97e401c6906016a0eccee9fe8c78bb24f1235971dfedff04bd49ff"
+  },
+  "monitor_pid": 26344,
+  "monitor_receipt": "reports\\exp234_target_6bba_chunk00_config_v2_20260927_monitor.json"
+}

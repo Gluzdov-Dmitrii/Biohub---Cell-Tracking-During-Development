@@ -1,0 +1,9 @@
+{
+  "experiment": "EXP163",
+  "status": "FAIL_PRE_METRIC_FEATURE_CHECKPOINT_SHA_MISMATCH",
+  "cause": "The versioned launcher faithfully carried a still-incorrect feature-head SHA assembled from the correct prefix and an unrelated checkpoint suffix. Authoritative checkpoint and raw EXP160 result SHA: 3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38.",
+  "effect": "Evaluator stopped at the feature checkpoint integrity guard before loading external validation shards; no metric or competition data access occurred.",
+  "eval_log_sha256": "162647278f6343b681ec2a843367966427ff1f2eb8f8d32d95d71383fcad1020",
+  "resource_cleanup": "No PID remained; GPU observed idle; lease biohub-exp163-visual-pair-rank-ensemble-20260910 released.",
+  "kaggle_slots_used": 0
+}

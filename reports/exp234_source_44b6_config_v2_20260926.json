@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP234",
+  "lease_id": "exp234-source-44b6-v2-20260926",
+  "token": "exp234_source_44b6_v2_20260926",
+  "pool": "a100",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_source_threshold_v2_20260926",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_v2_20260926",
+  "max_seconds": 10800,
+  "cpu_affinity": "0-7",
+  "script": "run_exp234_source_threshold.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_source_threshold_v2_20260926/44b6_plan.json",
+    "--plan-sha256",
+    "ef096820b9bf5770b9d9cd6879bc3ee19e1e5a8ac37d13defe35a39762f3ede6"
+  ],
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 3
+  },
+  "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+  "alias": "nsu-a100"
+}

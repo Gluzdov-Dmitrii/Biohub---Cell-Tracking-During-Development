@@ -1,0 +1,11 @@
+# EXP214 reduced-data clean fold models
+
+Private experiment artifact for Biohub Cell Tracking During Development.
+
+Four scratch detector refits use disjoint source embryos, source-only validation and a fixed 12-epoch budget. Two source-only EXP180 full DeepCenter checkpoints are reused. The detector-training input bundle occupies 2.893 GB; raw original image stores occupy 85.701 GB. See the attached training plan and model status/history files for the exact scope.
+
+This is a budgeted refit of the public Temporal UNet/transformer family. It is not the original 400-epoch public checkpoint and must not be assigned that checkpoint's 0.946 leaderboard score. Routing for previously unseen embryo prefixes has no matching OOF estimate.
+
+The runtime uses the public COMPACT47-v20 scientific pipeline, archived as `code/compact47_v20.ipynb`, with explicitly replaced model paths. Public-family provenance includes Pilkwang Kim's Biohub tracking support pack and learned-lineage work. Original third-party code and notebook components retain their respective terms and attribution; this private bundle does not relicense them. New source-only training, compression verification, fold manifests and comparison wrappers are recorded as EXP213/214.
+
+`artifact_manifest.json` verifies every scientific artifact by SHA256. The Kaggle production source uses actual runtime test Zarr data. There are no frozen submission predictions in this model dataset.

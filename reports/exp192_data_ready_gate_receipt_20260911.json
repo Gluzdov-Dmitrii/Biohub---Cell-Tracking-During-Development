@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "stage": "before_data_audit_and_inference",
+  "purpose": "Atomically create data_ready.json in all eight run directories only after the exact 21,525-file / 75,045,173,746-byte / 175-content-hash audit passes.",
+  "script_sha256": "d7c92dddd8c9517f8ae14715dbc6a3a98ad8c61f7ba3cdebf32cebc61739608c",
+  "chunk_index_sha256": "87955accbe2c46e678858995b0ef5ba1a411146755177c01804538383073d413",
+  "guards": [
+    "exact audit status and aggregate counts",
+    "175 per-movie content hashes",
+    "exact remote movies.json SHA for every chunk",
+    "no existing launch receipt or result SHA receipt",
+    "no overwrite of an existing data_ready.json",
+    "current run/launcher/chunk-validator source hashes recorded"
+  ],
+  "verification": {"local_tests": "1 passed", "compile": "PASS", "diff_check": "PASS", "remote_sha_match": true, "remote_import": "PASS"},
+  "scientific_policy_changed": false,
+  "kaggle_action_authorized": false
+}

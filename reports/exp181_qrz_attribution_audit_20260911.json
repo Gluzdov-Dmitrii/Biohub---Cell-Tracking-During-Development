@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP181",
+  "status": "PASS_ATTRIBUTION_AND_NORMALIZATION_AUDIT",
+  "source": {
+    "ref": "qrz1201/biohub-public-0-941-repro",
+    "version": 1,
+    "notebook_sha256": "24253cae5a958b83d69e201719388031f5758080c5d01ca1a8e374f3a8225389",
+    "canonical_code_sha256": "5fb5d5b17d207dd111105eef8053c513d7c4ce0f179e0a35872010467f1fbe46",
+    "windows_extracted_file_bytes_sha256": "19d64b8da1f89425bab4c1ef4343cf351da566b0e4c1fd6f3f1113b1a4f0d6f0",
+    "normalization_check": "Decoded extracted_code.py with CRLF normalized to LF exactly equals the canonical notebook-code string."
+  },
+  "exp181_evaluator_sha256": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+  "matched_parameters": {
+    "gap_close_um_per_step": 5.0,
+    "reuse_existing_um": 3.2,
+    "density_reference_um": 6.5,
+    "density_gain": 0.04,
+    "density_max_step_delta_um": 0.125,
+    "synthetic_max_fraction": 0.05,
+    "synthetic_max_absolute": 2000,
+    "refine_window_zyx": [1, 3, 3],
+    "refine_max_shift_um": 3.2,
+    "deepcenter_threshold": 0.25,
+    "deepcenter_confirm_min_span_um": 8.5,
+    "deepcenter_score_window_zyx": [1, 2, 2]
+  },
+  "intentional_differences": [
+    "EXP181 evaluates only the single-frame synthetic-gap submechanism over the registered scratch parent, not the correlated full public preset.",
+    "The public DeepCenter teacher is not used because its manifest includes the held-out 44b6 source-validation movies.",
+    "EXP181 uses the two explicit source-only EXP180 epoch-2 checkpoints and never exposes the opposite embryo during source evaluation.",
+    "The no-veto arm is diagnostic; only the preregistered gated arm can advance."
+  ],
+  "eligibility": {
+    "source_evaluation": true,
+    "reciprocal_target_oof": false,
+    "kaggle_submission": false
+  }
+}

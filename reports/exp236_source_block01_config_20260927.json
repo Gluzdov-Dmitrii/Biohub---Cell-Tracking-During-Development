@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP236",
+  "lease_id": "exp236-horaz-source6bba-block01-20260927",
+  "token": "exp236_horaz_source6bba_block01_20260927",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block01_20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_20260927",
+  "max_seconds": 10800,
+  "cpu_affinity": "0-7",
+  "script": "run_exp236_source_block01.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block01_20260927/plan.json",
+    "--plan-sha256",
+    "d75ffd601e0e8409976fd74a854d704f598f758bd250c4d552d985dda475a1c5"
+  ],
+  "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+  "alias": "nsu-a100"
+}

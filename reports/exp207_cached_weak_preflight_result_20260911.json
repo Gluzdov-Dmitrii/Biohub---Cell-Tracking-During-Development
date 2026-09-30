@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP207",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_CACHED_WEAK_LINKER_PREFLIGHT",
+  "scope": "CPU-only exact reproduction on the already-open 24 reciprocal development movies; no neural inference and no new model selection.",
+  "forward": {
+    "movies": 12,
+    "reference_arm": "registered_weak_hungarian",
+    "cached_arm": "registered_weak_p100_min1",
+    "maximum_absolute_error": 0.0,
+    "reference_sha256": "da27fc6f8c26e410ce2175f2aa634dee80b315edce1848b36d1e06f56226e653",
+    "receipt_sha256": "c5c5ea9996e8a09c417e2d4d58ea5b01b9c2df1d74a58322bd0559b706f25445"
+  },
+  "reverse": {
+    "movies": 12,
+    "reference_arm": "registered_weak_hungarian",
+    "cached_arm": "registered_weak_p100_min1",
+    "maximum_absolute_error": 0.0,
+    "reference_sha256": "3cdcb053a9712ac8c6c2dece478322f34204cc8c3421db4dc041bf5ce50900c4",
+    "receipt_sha256": "ab9f7af5b712cd54f1a150fb3c9364bfe41bc5896c740585615ef3448c47d84c"
+  },
+  "preflight_manifest_sha256": "345983b1c59df412945e1e787467c1ba0ca573408e2f62b6658bf117ef00df9f",
+  "runner_sha256": "5feff34445ced48ca52e6cc75661bb69f1d2b8d14cba1c6f22b7255775cd4251",
+  "resource": "CPU only; no GPU lease acquired.",
+  "retention": "Remote preflight remains a live dependency of the not-yet-launched EXP207 GPU runner and is retained until that run completes or is cancelled.",
+  "exp192_changed": false,
+  "kaggle_action_authorized": false
+}

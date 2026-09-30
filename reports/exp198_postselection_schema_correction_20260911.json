@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP198",
+  "recorded_at": "2026-09-11",
+  "status": "DEPENDENCY_SCHEMA_CORRECTED_AFTER_SELECTION_BEFORE_STABILITY",
+  "failure": "The count-only selection completed and wrote result.json, but the unchanged stability analyzer expected directions.*.selected_rows while the new selector emitted directions.*.nested_selected_rows.",
+  "correction": "Rename only the compatibility key to selected_rows. Policy, selected arm identities, rows, summaries, candidate set and all scientific values are unchanged. Rerun the deterministic selector from the same immutable inputs, then run stability.",
+  "old_source_sha256": "be4d80fcbe86d6b18f953f6432e2fc701882c68f2a677a72838948cdaca7f716",
+  "corrected_source_sha256": "4fd13b905e0f22599ba597742ff7c953134804685bd2dff791667d05ca0fdaa0",
+  "corrected_test_sha256": "44ba596ffd43c1c0d3dbd44888944f5cd3f9a904b73155d81db93e47a5bb53d7",
+  "tests": "2 passed",
+  "scientific_protocol_changed": false
+}

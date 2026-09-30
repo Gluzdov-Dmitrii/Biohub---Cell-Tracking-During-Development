@@ -1,0 +1,28 @@
+{
+  "status": "STOPPED_EXP234_TARGET175_SCORE_HANDOFF",
+  "coordinator_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_recovery_v2_20260927.json",
+  "target_labels_opened_before_graph_gate": false,
+  "kaggle_post": false,
+  "started": 1790460438.2500498,
+  "release_audit": {
+    "chunks": 12,
+    "movies": 175,
+    "original_coordinator_sha256": "241605a7c01c9cffcf244c51ef15fdb34f915fcd2c104867438f7227034354d8",
+    "coordinator_sha256": "b2d2e7e7de0b81e21a963182c9e935a50bf4c913f194632ad20fce5f540f1033"
+  },
+  "prepare_score_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_score_handoff_prepare_score_20260927.log",
+  "prepare_score_returncode": 0,
+  "launch_score_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_score_handoff_launch_score_20260927.log",
+  "launch_score_returncode": 0,
+  "score_exit": {
+    "returncode": 0,
+    "timeout": false,
+    "finished": 1790475415.5637171,
+    "pid": 438842,
+    "start": "569384781"
+  },
+  "verify_score_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_score_handoff_verify_score_20260927.log",
+  "verify_score_returncode": 1,
+  "error": "RuntimeError('verify_score returned 1; see C:\\\\Users\\\\Dmitry\\\\Desktop\\\\Kaggle\\\\Biohub - Cell Tracking During Development\\\\reports\\\\exp234_target_score_handoff_verify_score_20260927.log')",
+  "finished_or_stopped": 1790475489.4386086
+}

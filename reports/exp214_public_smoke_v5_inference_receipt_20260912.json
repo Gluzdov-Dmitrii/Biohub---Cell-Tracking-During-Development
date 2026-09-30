@@ -1,0 +1,30 @@
+{
+  "status": "PASS_FROZEN_PUBLIC_FAMILY_INFERENCE",
+  "notebook_sha256": "5389953eb7c2f68b6e3664985ceb252d0eac391b65821b0ced692693003cbcba",
+  "base_predictor_sha256": "c44e771ba5980b820f93091e03a303c25dfe8f3232e501f54dc9565731c234b9",
+  "patched_predictor_sha256": "69d968370c1e502f777960aed496dd05e498385dbd867661b39441a1140e21d3",
+  "bundle": {
+    "source_embryo": "44b6",
+    "purpose": "SMOKE_ONLY_DUPLICATED_CONTROL_NOT_EVALUATION",
+    "training_plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+    "primary": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/models/exp214_full_control_12epoch_20260912/edge_predictor_best.pth",
+      "sha256": "2d929a856c317208e30056e38f5f74d7ffc91be36b27e217e596ffc210d4dcc4"
+    },
+    "center": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/44b6/best.pt",
+      "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f"
+    },
+    "secondary": {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/models/exp214_full_control_12epoch_20260912/edge_predictor_best.pth",
+      "sha256": "2d929a856c317208e30056e38f5f74d7ffc91be36b27e217e596ffc210d4dcc4"
+    }
+  },
+  "movies": [
+    "6bba_6db0e9b4"
+  ],
+  "submission_sha256": "8145ac53561c3391feab716a614f7638756cd6d5ae256fc210f2b74a5e2818b8",
+  "target_labels_read": false,
+  "presentation_only_change": "Pandas/IPython display replaced by stdlib telemetry CSV",
+  "scope": "Family refit using supplied fold weights; not OOF of published all-train weights."
+}

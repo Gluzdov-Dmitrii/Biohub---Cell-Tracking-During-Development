@@ -1,0 +1,23 @@
+{
+  "id": "dmitriigluzdov/biohub-exp133-private-6bba-pack",
+  "title": "Biohub EXP133 Private 6bba Data Pack",
+  "code_file": "data_pack.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "biology",
+    "data-integrity",
+    "private-oof"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "machine_shape": "Cpu"
+}

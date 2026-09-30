@@ -1,0 +1,150 @@
+{
+  "utc_epoch": 1789241338.3415525,
+  "runs": [
+    {
+      "run": "exp214_equal_time44b6_s2026_20260912",
+      "last_completed_epoch": 17,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_paired_44b6_00_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_reduced44b6_s2026_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 1975.3068118356168,
+        "best_sha256": "f8e25074a98b651a64740ce9ab013ac957fb8d61462d9c7df982efb4db8e8605"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced44b6_s314159_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 1952.7619830714539,
+        "best_sha256": "6af80254fdab1d4d826833730d37eaa27eb9283fdcf48839e432cca403b52c53"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s2026_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 3746.405152514577,
+        "best_sha256": "fe929a4935972369c25f516e9895ba57eb515cc403b2e0e24553960aaa620e25"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s314159_20260912",
+      "exit": {
+        "returncode": -15
+      },
+      "last_completed_epoch": 4,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s314159_resume_20260912",
+      "last_completed_epoch": 4,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    }
+  ],
+  "queue": [
+    {
+      "id": "biohub-exp214-reduced6bba-s314159-resume-20260912",
+      "owner": "biohub-agent",
+      "token": "exp214-reduced6bba-s314159-resume",
+      "project": "biohub-cell-tracking-during-development",
+      "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s314159_resume_20260912",
+      "pool": "a100",
+      "count": 1,
+      "cpu": 8,
+      "ram_gib": 64.0,
+      "disk_gib": 1.0,
+      "minutes": 240,
+      "state": "RUNNING",
+      "created": 1789240475.0979698,
+      "heartbeat": 1789241289.797604,
+      "gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46"
+      ],
+      "process": {
+        "pid": 171477,
+        "start": "445948407"
+      },
+      "allocated": 1789240475.0979974,
+      "host": "ngpu01",
+      "alias": "nsu-a100",
+      "waiting_ahead": [],
+      "health": "CURRENT"
+    },
+    {
+      "id": "biohub-exp214-equal-time44b6-s2026-20260912",
+      "owner": "biohub-agent",
+      "token": "exp214-equal-time44b6-s2026",
+      "project": "biohub-cell-tracking-during-development",
+      "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_equal_time44b6_s2026_20260912",
+      "pool": "a100",
+      "count": 1,
+      "cpu": 8,
+      "ram_gib": 64.0,
+      "disk_gib": 1.0,
+      "minutes": 240,
+      "state": "RUNNING",
+      "created": 1789240484.6894088,
+      "heartbeat": 1789241297.4220111,
+      "gpus": [
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "process": {
+        "pid": 171575,
+        "start": "445949375"
+      },
+      "allocated": 1789240484.689441,
+      "host": "ngpu01",
+      "alias": "nsu-a100",
+      "waiting_ahead": [],
+      "health": "CURRENT"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP186",
+  "status": "PASS_NESTED_POOLED_GAIN",
+  "baseline_reproduction": "PASS_EXACT_EXP185_BASELINE_REPRODUCTION",
+  "true_24_movie_pooled": {
+    "registered_baseline": 0.6761456762872734,
+    "fixed_g50_t25": 0.6825125483914917,
+    "nested_selected": 0.6834318866300774,
+    "nested_minus_baseline": 0.007286210342803967,
+    "nested_minus_fixed_g50_t25": 0.0009193382385857,
+    "node_recall_baseline": 0.9596970466109626,
+    "node_recall_nested": 0.9661055910931173,
+    "negative_movie_count": 8
+  },
+  "selection": {
+    "forward_44b6_to_6bba": "g50_t30 on all 12 leave-one-movie-out selections",
+    "reverse_6bba_to_44b6": "g45_t20 on 10 selections and g50_t30 on 2 selections"
+  },
+  "correction": "EXP185 pooled 0.686231 was an equal-weight mean of two direction summaries, not a 24-movie edge-mass pooled score. The true pooled baseline is 0.676146.",
+  "artifacts": {
+    "remote_nested_sha256": "5660fad913aa5fe71cfb8a4eed0e64386e1d93b6bacba2ccd77905f9e38e36ae",
+    "local_recomputed_sha256": "852c3ff6f00a7d9b9a9dd34a0303c7694711808b3249b6deb6308cf8e66fb145"
+  },
+  "resource_cleanup": "PID and children absent; GPU compute list empty; lease released; 1.4 GB heatmaps, pycache and empty top log removed after result export.",
+  "eligible_for_kaggle_submission": false
+}

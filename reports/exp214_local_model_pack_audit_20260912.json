@@ -1,0 +1,20 @@
+{
+  "status": "PASS_LOCAL_MODEL_PACK_SHA_AUDIT",
+  "archive_sha256": "5c1c44312532fc6198f492be4c688747acfe026fa98778f528808c92c52308eb",
+  "manifest_sha256": "17698d76ddbd6d27df8286f7aac442d9345bd1fabe116df1ac0daf969e7f1bde",
+  "verified_files": 32,
+  "total_local_file_bytes": 109582584,
+  "folds": {
+    "44b6": {
+      "primary": "models/44b6/primary/edge_predictor_best.pth",
+      "secondary": "models/44b6/secondary/edge_predictor_best.pth",
+      "center": "models/44b6/center/best.pt"
+    },
+    "6bba": {
+      "primary": "models/6bba/primary/edge_predictor_best.pth",
+      "secondary": "models/6bba/secondary/edge_predictor_best.pth",
+      "center": "models/6bba/center/best.pt"
+    }
+  },
+  "training_plan_sha256": "983d2953c915d91d41db33bf8fafa14bd17ed6e5aeefd5f67c0dda8d7759090a"
+}

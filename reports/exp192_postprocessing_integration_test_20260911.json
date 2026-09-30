@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP192_POSTPROCESSING_INTEGRATION",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_SYNTHETIC_END_TO_END",
+  "coverage": "Synthetic eight-chunk layout with exact production counts 24/24/24/24/20 forward and 24/24/11 reverse (116/59/175 total).",
+  "verified_sequence": [
+    "per-chunk no-metric structural validation",
+    "all-eight-chunk no-metric coverage gate",
+    "forward and reverse immutable arm merges",
+    "EXP190 frozen confirmation assembly",
+    "EXP191 frozen confirmation assembly",
+    "EXP195 exact-policy-SHA telemetry gate and confirmation assembly"
+  ],
+  "test": "tests/test_exp192_pipeline_integration.py",
+  "test_sha256": "2a3be5773ffbfa4401fd075faccd83c7cc0af11c3587928887439a3ad557c72f",
+  "result": "1 passed",
+  "cleanup": "Synthetic run tree, pytest basetemp and owned bytecode removed after verification.",
+  "scientific_policy_changed": false,
+  "kaggle_action_authorized": false
+}

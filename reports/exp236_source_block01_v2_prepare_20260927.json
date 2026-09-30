@@ -1,0 +1,47 @@
+{
+  "status": "PREPARED_EXP236_SOURCE6BBA_BLOCK01_V2_NO_TARGET_ACCESS",
+  "parent_failure": {
+    "status": "PASS_EXP236_V1_FAILED_AND_RELEASED",
+    "error": "AssertionError('Consecutive duplicate frames in 6bba_7f87b3d8: t=82 and t=83')",
+    "returncode": 1,
+    "hard_timeout": false,
+    "lease_id": "exp236-horaz-source6bba-block01-20260927",
+    "queue_state": "RELEASED",
+    "plan_sha256": "d75ffd601e0e8409976fd74a854d704f598f758bd250c4d552d985dda475a1c5",
+    "code_manifest_sha256": "5419ab1049c7cdf11fc4c6d79f0a0e180b8285ab07fc3331db0d64dbfcd998fb",
+    "target_data_opened": false
+  },
+  "source_duplicate_audits": {
+    "raw_sha256": "5809c021723877a804331a7cbc0629565ca98d981dbba4a58385f33f4455db8f",
+    "effective_sha256": "0f2e322a2581fba4f0cd2bca43bea1adf2616893ecce32043e6f3f90fe5298cb",
+    "movies_scanned": 126,
+    "raw_duplicate_pairs": 927,
+    "effective_duplicate_pairs": 927,
+    "inconsistent_sampled_pairs": 43,
+    "excluded_pairs_by_split": {
+      "train": 824,
+      "inner_validation": 103
+    },
+    "removed_sampled_windows_by_split": {
+      "train": 809,
+      "inner_validation": 101
+    },
+    "target_data_opened": false
+  },
+  "preflight": {
+    "status": "PASS_EXP236_SOURCE6BBA_V2_PREFLIGHT",
+    "bundle_sha256": "90e95a45a4d58a72c18495b48c979de52afdc080b9070892c53e8bf41c2f59b1",
+    "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899"
+  },
+  "stage": {
+    "status": "STAGED_EXP236_SOURCE6BBA_BLOCK01_V2",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block01_v2_20260927",
+    "manifest_sha256": "b594f5ca6e2c644b151d780546cab140208f08558d1b93b24cef7a576a6e5f4a",
+    "plan_sha256": "e525d6f44f45468520fa085836ce4c166f594dbc5d64e79c7e15a10083e5c536",
+    "source_manifest_sha256": "a5c3176ec25d4d75321e6c1fe17b62be2d9e25472ae7fcb677e48fe71478bd87"
+  },
+  "train_movies": 115,
+  "inner_validation_movies": 11,
+  "source_duplicate_policy": "exclude_all_effective_duplicate_windows_v2",
+  "target_data_opened": false
+}

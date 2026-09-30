@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP156",
+  "status": "PREREGISTERED_BEFORE_SOURCE_SCORE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The transferable ordinary-edge signal seen in EXP154 can help only when a high-confidence external edge is allowed to break a registered-motion ambiguity without rescaling the parent score or acceptance threshold.",
+  "parent": "Identical scratch coordinates, 7 um gate, exp(-residual/3) motion score, baseline dummy cost and one-to-one Hungarian topology.",
+  "candidate": "Add bonus_weight * external_probability only where external_probability exceeds a frozen confidence floor; retain every parent motion score, dummy cost, gate and graph constraint exactly.",
+  "source_selection": {
+    "probability_floors": [0.5, 0.8],
+    "bonus_weights": [0.01, 0.03],
+    "movies": "two source checkpoint-validation movies independently in each reciprocal direction",
+    "eligibility": "nonnegative source official-score and node-recall deltas",
+    "choice": "maximum source official score; ties prefer higher confidence floor then lower bonus"
+  },
+  "target_evaluation": "Only if both directions have eligible frozen configurations, evaluate all 12 opposite-embryo movies in both directions and write both outputs before comparison.",
+  "promotion_gate": "Positive score in each embryo and pooled, nonnegative recall in each embryo, at least 8/12 nonnegative movies per embryo, and no movie below -0.01.",
+  "source_sha256": {
+    "evaluator": "8466f620d0bd10bef24d2d4e6f4a87e662d3304f9d3fb6744122842fb079b1f8",
+    "selector": "3a5d6eb4722db5aa006d4668be1f0df2519c011a3cac79696181538d27ccf3ce",
+    "external_checkpoint": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "resource": "CPU-only reuse of immutable EXP154 RTX6000 caches; no new accelerator allocation.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

@@ -1,0 +1,15 @@
+{
+  "status": "EXP227_TARGET116_CURRENT_SCORER_V4_STAGE_INTENT",
+  "coordinator_local_path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp227_target6bba_all116_waitsafe_v3_final_20260927.json",
+  "coordinator_local_sha256": "69f110c302a4a3fed21993f5ce7083e036b345ee2e53e917cc4382c3291effa3",
+  "successor_actual_attempt": 1,
+  "successor_actual_lease_id": "exp227-target6bba-chunk07-v3a01-20260927",
+  "successor_launch_result_sha256": "800c78e010bef37eac0f6f167f9ddb28fca819577b2aa41c6a1092c30599b9bf",
+  "final_graph_hashes_sha256": "c453af31f8a1cc9c118103adb3af7d3fb6410c7ddd4da8953a5c2cec2191a0ac",
+  "local_prepare_sha256": "4d5467ab0acd148a35e0109dcd6b2fd0a69e2dd14e1867f7318a862d46521530",
+  "local_manifest_sha256": "f56ac397e853c93162a418d437b0afec6a1848b728d3af746021bf1fb94b4a40",
+  "score_config_sha256": "b429d7014fb8e401d64caa970445d108a3874889ee54036816c01360ce2b9d77",
+  "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_current_scorer_v4_20260927",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_current116_v4_20260927",
+  "target_labels_read": false
+}

@@ -1,0 +1,24 @@
+# Shared CPU metric runtime for EXP234 and later EXP227, Python 3.11.
+# Pin tracksdata to the exact commit used by the organizer-source contract.
+tracksdata @ git+https://github.com/royerlab/tracksdata.git@e13cf379b5127deeb8301ce56410fda35b5a3cf9
+bidict==0.24.1
+blosc2==4.12.0
+dask==2026.8.0
+ilpy==0.6.0
+imagecodecs==2026.3.6
+numba==0.67.0
+numcodecs==0.15.1
+polars==1.44.1
+scipy==1.17.1
+numpy==2.4.6
+zarr==3.1.6
+geff==1.3.1.1.3
+psygnal==0.15.1
+pyarrow==25.0.1
+rich==15.0.0
+rstar-python==0.2.0
+rustworkx==0.18.1
+scikit-image==0.26.0
+sqlalchemy==2.0.52
+tqdm==4.70.0
+typing-extensions==4.16.0

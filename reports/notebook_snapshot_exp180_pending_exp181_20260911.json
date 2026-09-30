@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP180_WITH_EXP181_PENDING",
+  "status": "RETRY_BEFORE_OPENING",
+  "notebook": "notebooks/biohub_private_first_oof_model_development.ipynb",
+  "notebook_sha256": "987bcb183dca915b9234c0ae2441597aefb6e51d32d567f30c33dfe976a96be3",
+  "notebook_bytes": 27029,
+  "notebook_cells": 33,
+  "builder_sha256": "21b35fa4c4e65e0beb0fdd610852f97d0d5456f4f9a989702eb5c77dd16dd64c",
+  "open_solution_provenance_sha256": "1d7771989ac55a8c757e6804608d8a16e6e5caaa9d5749c55ac26863d7aed122",
+  "exp180_result_sha256": "9c33d5658e5adc042bafdf208e041bf9ed8acbc79be70a81db6c52d08edcd7dc",
+  "exp181_preregistration_sha256": "93487ce5752a8afe74245937ec7befa78950412f745db63a84b3d497809ce7b5",
+  "header_claim": "Post-close PRIVATE leaderboard performance remains the primary target; public LB is only a runtime and gross-regression check.",
+  "publication_decision": "Keep private. EXP180 is reproducible training evidence, but EXP181 source evaluation and any reciprocal target OOF remain pending."
+}

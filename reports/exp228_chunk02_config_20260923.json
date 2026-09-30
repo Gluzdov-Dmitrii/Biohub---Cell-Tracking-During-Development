@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP228",
+  "lease_id": "exp228-horaz-ensemble-chunk02-20260923",
+  "token": "exp228_horaz_ensemble_chunk02_20260923",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_v1_20260923",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_chunk02_20260923",
+  "max_seconds": 10800,
+  "cpu_affinity": "8-15",
+  "script": "run_exp228_ensemble.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_v1_20260923/plan_chunk02.json",
+    "--plan-sha256",
+    "c4ad3f54a3bfcec9fb7d297c5f724b31267bbfac30a50955f08c51cc503aec18"
+  ]
+}

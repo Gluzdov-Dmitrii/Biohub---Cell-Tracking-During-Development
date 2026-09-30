@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-09-12",
+  "status": "PASS_CURRENT_DISCUSSION_REVIEW",
+  "finding": "No directly comparable numerical pooled OOF claim with embryo split, checkpoint selection, movie set and aggregation details was found.",
+  "new_leads": [
+    "segment-derived appearance features for association",
+    "CC0 synthetic division data previously audited locally for EXP024"
+  ],
+  "sources": [
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/739685",
+    "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/732103"
+  ],
+  "report_sha256": "8c799b8f9d5772338016d42f2a04df8e8fbacca358e1b87d999211294c7e7d16",
+  "kaggle_action": false
+}

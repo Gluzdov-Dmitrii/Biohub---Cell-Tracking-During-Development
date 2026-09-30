@@ -1,0 +1,62 @@
+{
+  "status": "PASS_ALL_FOUR_STRONG60_MODELS_FROZEN",
+  "comparison_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+  "bundles": {
+    "44b6": {
+      "purpose": "STRONG60_PAIRED175_DEVELOPMENT_COMPARISON",
+      "source_embryo": "44b6",
+      "training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+      "primary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_equal_time44b6_s2026_20260912/output/edge_predictor_best.pth",
+        "sha256": "6dfa9cbfc5f298c6680a63353314d9bf353466a4aec5756aa188e4e0b2bd8bba",
+        "actual_training_plan_sha256": "9b1fd764a4571669d0ed7c51ea4e8f4a3cdd49d455ae8af957413b45c9e398e3",
+        "source_status_sha256": "80cb19d0e49889537b74698f9d7440c59f2d914e2787ad0af8d447f6c1624581",
+        "seed": 2026,
+        "selected_epoch": 22,
+        "source_only_selection": true
+      },
+      "secondary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_44b6_s314159_p01_20260912/output/edge_predictor_best.pth",
+        "sha256": "ea0b45d2dea2e9b8899889c3e62c44370332423aae470a4b3837210ea4c736c2",
+        "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+        "source_status_sha256": "49fa297129c50f926a13040fcd6145ab804a292b5ac666dcae3568a37654af52",
+        "seed": 314159,
+        "selected_epoch": 44,
+        "source_only_selection": true
+      },
+      "center": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/44b6/best.pt",
+        "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f"
+      },
+      "scope": "All roles clean for the opposite embryo; actual per-role training plans retained, including reused prospective60epoch control. Not exact400epoch public-weight OOF."
+    },
+    "6bba": {
+      "purpose": "STRONG60_PAIRED175_DEVELOPMENT_COMPARISON",
+      "source_embryo": "6bba",
+      "training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+      "primary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s2026_p01_20260912/output/edge_predictor_best.pth",
+        "sha256": "11c738ad722e76000cae5a6b466d1b800c575030ab7f538078e39de0d083b499",
+        "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+        "source_status_sha256": "65b8bde9fac34f417af828d805103d409e826d41dc309ddc2799e347cdefa1b0",
+        "seed": 2026,
+        "selected_epoch": 53,
+        "source_only_selection": true
+      },
+      "secondary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s314159_p01_20260912/output/edge_predictor_best.pth",
+        "sha256": "f71e00a1ec7a1e88740f2aa896ced2041a285103f371cac1e0cb8cc408cf84fa",
+        "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+        "source_status_sha256": "0f57c6decfb18a06d70a91c9cf398453c337a13ab82c4afd54b8d0380bfdba70",
+        "seed": 314159,
+        "selected_epoch": 19,
+        "source_only_selection": true
+      },
+      "center": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/6bba/best.pt",
+        "sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e"
+      },
+      "scope": "All roles clean for the opposite embryo; actual per-role training plans retained, including reused prospective60epoch control. Not exact400epoch public-weight OOF."
+    }
+  }
+}

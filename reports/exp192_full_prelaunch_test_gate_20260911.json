@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP192_WITH_EXP195_201_202_206",
+  "recorded_at": "2026-09-11T14:02:11Z",
+  "status": "PASS_FULL_LOCAL_PRELAUNCH_TEST_GATE",
+  "scope": [
+    "movie-list and chunk construction",
+    "missing-data manifest, archive catalog, extraction and content audit",
+    "persistent stage launcher",
+    "eight-run data-ready marking and final verification",
+    "per-chunk structural validation",
+    "all-eight no-metric gate and merge",
+    "EXP190/191/195/201/202/206 builders",
+    "EXP206 centroid no-metric gate",
+    "postprocess contract and full synthetic pipeline integration"
+  ],
+  "result": "32 passed in 2.59s",
+  "initial_harness_error": {
+    "tests_executed": 0,
+    "cause": "The first manually assembled command referenced nonexistent historical test_build_exp192_run_manifests.py.",
+    "resolution": "Enumerated actual tests with rg --files and reran the complete existing set without changing code or scientific parameters."
+  },
+  "warning": "Pytest could not create its optional workspace .pytest_cache because of Windows permissions; the explicit basetemp worked and all tests passed.",
+  "cleanup": {
+    "removed": [".pytest_exp192_fullgate", ".pytest_exp192_fullgate_r2"],
+    "absence_verified": true
+  },
+  "remote_stage_affected": false,
+  "scientific_metric_opened": false,
+  "gpu_lease_acquired": false,
+  "kaggle_action_authorized": false
+}

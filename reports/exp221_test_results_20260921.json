@@ -1,0 +1,7 @@
+{
+  "unit": {
+    "status": "PASS_SHAPE_FINITE_REPRODUCIBLE_TEMPORAL_LABEL_IMMUTABILITY"
+  },
+  "integration": "PASS_REAL_UPSTREAM_ITEM_AST_PAIRED_RNG_VALIDATION_UNCHANGED",
+  "source_validation_metric": "accuracy*recall selection proxy, not official graph score"
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP210",
+  "date_local": "2026-09-12",
+  "status": "REJECT_NONTRANSFERRED_SAFETY_VETO",
+  "score": 0.678204815304768,
+  "delta_vs_exp206": -0.00024948177286132633,
+  "forward_delta_vs_exp206": -0.00028889715510083125,
+  "centroid_movies": 113,
+  "translation_veto_movies": 3,
+  "bootstrap_probability_positive": 0.081,
+  "bootstrap_q025": -0.0006566859525122509,
+  "bootstrap_q975": 0.000022317947640557157,
+  "leave_one_movie_out_min_delta": -0.00026143548316437393,
+  "leave_one_movie_out_max_delta": -0.00011662725064620627,
+  "failure_mechanism": "The veto correctly avoided one movie with centroid delta -0.0272874, but also rejected two movies with very large positive deltas +0.0744249 and +0.1378786. Added node removal is therefore not a transferable safety proxy.",
+  "decision": "Reject EXP210 and retain unconditional EXP206 centroid refinement.",
+  "artifacts": {
+    "builder_sha256": "90a79864b880553c1a5b77c9e969d67dd3a0515e4834ca69568cc5f00dd03dbd",
+    "test_sha256": "a7eb9a56459bd87e3e4a7a017346683a33847a2d0de7252fa02d40b1f918e065",
+    "confirmation_sha256": "f6d94492f7dd64905ae461294143e5a624ee87fd25d53fb5909e3e5fcaf2af8a",
+    "stability_sha256": "0ef6c228086afbbb10158d5c72586b8a43d13c775654bbd3ac2096bf18eda88d",
+    "tests": "5 passed"
+  },
+  "kaggle_action": false
+}

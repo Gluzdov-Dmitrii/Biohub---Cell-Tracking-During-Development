@@ -1,0 +1,10 @@
+{
+  "status": "EXP236_SOURCE10_OFFICIAL_SCORER_LAUNCHED",
+  "wrapper_pid": 440449,
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_source_graph10_official_v1_20260927",
+  "started": 1790477579.9933178,
+  "cpu": 4,
+  "ram_gib": 32,
+  "max_seconds": 1800,
+  "score_config_sha256": "2baa2b1abf21474c12788122fbe6167cdea7f862baf02d81564d77fce25eea7b"
+}

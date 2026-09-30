@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_EXP236_TARGET59_OFFICIAL",
+  "official_score": 0.816544031149167,
+  "baseline_score": 0.8052068737218,
+  "delta_vs_current_baseline": 0.011337157427366962,
+  "baseline_replay": "PASS_1e-12",
+  "rows": 59,
+  "gate_sha256": "2f7de560ac68d0e7deec2f2ed50285c77d5c9ba977d8e65de1bda5a19973b007",
+  "result_sha256": "f846ee8e6a554551373bc3a853bde14c2e7b3f5fd12a5a13159216de2ce9cae6",
+  "evidence_class": "leakage-controlled reciprocal evaluation; historically exposed target labels",
+  "stage_receipt_sha256": "4d479453de79c8bb95b39be384354e132ed75b71e5a94d10bb0c8c7f58ccb9de",
+  "launch_receipt_sha256": "27c067c60f1c7facf8ede2333a20c7f94efda28225fcc5bbd00ca31169fc8804",
+  "coordinator_local_sha256": "0ccc0b6a10f141ae3e356b9970ff0062242493cb0163f186fea4a11caef7a545",
+  "target_labels_read_after_graph_gate": true,
+  "kaggle_post": false
+}

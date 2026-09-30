@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP204",
+  "recorded_at": "2026-09-11T11:01:00Z",
+  "status": "PASS_OWNED_TEMP_CLEANUP",
+  "deleted": [
+    ".tmp/pytest_exp204",
+    ".tmp/pycache_exp204",
+    ".tmp/pycache_exp204_run"
+  ],
+  "verification": "All exact workspace-contained targets report Exists=False after cleanup.",
+  "preserved": [
+    "scripts/analyze_non_twin_policy_sensitivity.py",
+    "tests/test_analyze_non_twin_policy_sensitivity.py",
+    "outputs/research/exp130_official24_private_first/exp204_non_twin_policy_sensitivity.json",
+    "reports/exp204_non_twin_policy_sensitivity_protocol_20260911.json",
+    "reports/exp204_non_twin_policy_sensitivity_result_20260911.json",
+    "active EXP192 archive transfer and all frozen EXP192/201/202 dependencies"
+  ]
+}

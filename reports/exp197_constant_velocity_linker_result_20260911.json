@@ -1,0 +1,41 @@
+{
+  "experiment": "EXP197",
+  "recorded_at": "2026-09-11",
+  "status": "REJECT_PREREGISTERED_NESTED_STABILITY_GATE",
+  "control": {
+    "alpha_zero_pooled_score": 0.7485183130743318,
+    "exp190_pooled_score": 0.7485183130743318,
+    "reproduces_exactly": true
+  },
+  "full_development_diagnostic": {
+    "alpha_0_25_forward_delta": 0.0001582609822686,
+    "alpha_0_25_reverse_delta": 0.0023760284055109,
+    "warning": "These are full-development ranks and were not the preregistered promotion estimate."
+  },
+  "nested_result": {
+    "base_score": 0.7485183130743318,
+    "selected_score": 0.74509774202979,
+    "delta": -0.0034205710445418536,
+    "negative_movie_count": 8,
+    "forward_delta": -0.003691755482454706,
+    "reverse_delta": -0.0022423896006597,
+    "bootstrap_ci95": [-0.006551681574921428, -0.0004531827908913192],
+    "bootstrap_probability_positive": 0.01155,
+    "leave_one_movie_out_min_delta": -0.003940537899472574,
+    "leave_one_movie_out_max_delta": -0.0027297829791835815
+  },
+  "selection_counts": {
+    "forward": {"velocity_a0.00": 5, "velocity_a0.25": 7},
+    "reverse": {"velocity_a0.25": 10, "velocity_a0.50": 2}
+  },
+  "interpretation": "A small velocity contribution can improve the in-sample aggregate, especially reverse, but the preferred alpha is not stable out of movie. Larger velocity weights are strongly harmful and reduce node recall after component pruning. Reject the mechanism and do not add alpha 0.25 to EXP192 post hoc.",
+  "packaging_incident": "The two directional evaluations completed and were preserved, but the first postprocessing command failed because two selector dependencies were absent from the isolated code directory. Their preregistered SHA-matching files were copied, and only selection/stability was rerun; no directional scoring was repeated.",
+  "artifact_sha256": {
+    "forward": "1197749ba71c0551051b16d067aba13484d08451057eb2ee2c511f8506725eef",
+    "reverse": "c3920468510abdce64aaf1e3318736b8b75604c5eb00ab1575d7697791c5cbea",
+    "nested_selection": "9016cfd51460ce3b1593959091015985e3a62a660579dc0f129db74a2f10410c",
+    "stability": "d88fd40b00fbeda47587f61adb7ab2dfcb9e2e84f67398484d80fc316e92c8a9"
+  },
+  "eligible_for_exp192_confirmation": false,
+  "eligible_for_kaggle_submission": false
+}

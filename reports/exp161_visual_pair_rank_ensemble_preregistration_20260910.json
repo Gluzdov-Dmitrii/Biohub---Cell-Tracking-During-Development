@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP161",
+  "status": "IMPLEMENTATION_GATE_PASS_BEFORE_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The scratch 3D crop head and frozen-pretrained feature head make complementary daughter-pair ranking errors; a fixed equal percentile-rank average can improve high-precision parent recall without calibration sweeps.",
+  "parents": {
+    "scratch_visual_pair_checkpoint_sha256": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "pretrained_feature_pair_checkpoint_sha256": "3cdc50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "frozen_backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "single_candidate": "Compute both scores on the exact same K=4 validation pairs, convert each full candidate vector to stable percentile ranks, and average 0.50/0.50. No alternate weight, probability blend or threshold sweep is admitted.",
+  "external_gate": "On all parents from the 64 external time-validation shards, require proposal recall ceiling at least 0.90, report both parent APs/correlation/ensemble AP, and require ensemble parent precision at least 0.50 with recall at least 0.20.",
+  "competition_gate": "No competition data unless the external gate passes. If it passes, freeze the ensemble and one rank threshold before reciprocal source scoring; both source directions must be nonnegative and graph/division safety must pass before one prospective 24-movie OOF.",
+  "source_sha256": {
+    "evaluator": "847e4d368b1f4ce2448f1a0817f4a2bb433d372693507fb25b34b969f0de3e90",
+    "test": "e36925b75dd0066f69605af942f0e2991be07cf17a96ea9ff51a2b9eb58d0d2d",
+    "scratch_model_library": "5aef10d8aefe8e4e52e51de2218c82ec2f3a11ff390810c8bdc1fff47292e630",
+    "feature_model_library": "25bfa048e5d38a0ebac86e8c207bcb698d0342cb7adf84320b0854816fc5c4bc"
+  },
+  "implementation_tests": "7 passed, including exact daughter-swap invariance for both heads and deterministic monotone percentile ranks.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 2 GiB disk, 20 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

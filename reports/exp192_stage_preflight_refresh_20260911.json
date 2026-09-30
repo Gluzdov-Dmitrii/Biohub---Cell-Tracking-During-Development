@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_STAGE_PREFLIGHT_REFRESH",
+  "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "remote_free_bytes": 7238257213440,
+  "remote_stage_top_level_before_extraction": [
+    "honest195_missing_manifest.json"
+  ],
+  "staging_process_present": false,
+  "exp192_gpu_launch_receipts_present": false,
+  "local_remote_sha_matches": {
+    "stage_exp192_honest195_remote.sh": "1d39c8a3f8e34d56c25ec935759fbfc0f7b147b7a9fb4886309eb27f31615213",
+    "validate_archive_manifest_catalog.py": "607031948ad6562a2a08d8f39557d29fb800b1673613e21ad457c114f8ef96db",
+    "extract_manifest_from_archive.py": "38d4597e1b759b2f80b20ce987f70b8b7cf22485da308a0fa6c70789392bd79e",
+    "audit_honest195_stage.py": "f2a803f83506e69ec862bb3f0ed546a56296c93562c23f8012b84ca62a2be853",
+    "mark_exp192_runs_data_ready.py": "0be18408075ffc2525899814081a7186a06dfce3affde939f57ea2b15494e42e"
+  },
+  "remote_bash_syntax": "PASS",
+  "focused_tests": "3 passed",
+  "initial_test_invocation": "No tests executed because the requested basetemp parent did not exist; the parent was created and the identical command passed.",
+  "owned_test_tree_removed": true,
+  "archive_expected_bytes": 87393127165,
+  "archive_expected_sha256": "538ed8a4d7b6669fa948865f947ed43c23aba7ee006fea8826d6ddd1277dfd19",
+  "archive_bytes_observed_during_preflight": 68539908096,
+  "archive_transfer_session_restarted": false,
+  "data_extracted": false,
+  "gpu_lease_acquired": false,
+  "metrics_opened": false,
+  "scientific_policy_changed": false
+}

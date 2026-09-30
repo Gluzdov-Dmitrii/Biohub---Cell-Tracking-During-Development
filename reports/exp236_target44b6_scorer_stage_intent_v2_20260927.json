@@ -1,0 +1,10 @@
+{
+  "status": "EXP236_TARGET59_SCORER_STAGE_INTENT",
+  "coordinator_local_sha256": "0ccc0b6a10f141ae3e356b9970ff0062242493cb0163f186fea4a11caef7a545",
+  "local_prepare_sha256": "aa3b0f525ddba920b30045488a6a342c9b682a0186d4541e6f59cabc7e228511",
+  "local_manifest_sha256": "fda68d3fe0c75997b72c1bd9e62504b85bbc259f0393b76a0803e73d22ff3aa0",
+  "score_config_sha256": "375915ac31037d065118e2d4ce9fb9f9eefd743b2687a57a3442c85aa0eeea9f",
+  "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_target44b6_current_scorer_v2_20260927",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_target44b6_current59_v2_20260927",
+  "target_labels_read": false
+}

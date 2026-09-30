@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP176",
+  "status": "FAILED_PRE_DATA_CHECKPOINT_DESERIALIZATION",
+  "log_sha256": "ef3b3dcb9f28682cf47351c43802f0ec0c15aa7dfe6c495264346ef0805bbd37",
+  "cause": "EXP175 checkpoint contains NumPy mean/std arrays unsupported by torch weights_only loader.",
+  "data_access": "No shard or competition data read; failure occurred while loading SHA-verified owned checkpoint.",
+  "cleanup": "Process stopped; RTX6000 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}
+

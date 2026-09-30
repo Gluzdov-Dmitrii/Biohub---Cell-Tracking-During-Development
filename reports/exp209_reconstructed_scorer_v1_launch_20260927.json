@@ -1,0 +1,74 @@
+{
+  "bundle_manifest_sha256": "2484dfcacdfb47b2b33d6ab00ff0e9fa58b99943ad23421f5f9de253ff2255fb",
+  "config_sha256": "d9a060b3d115db817f40fb9f81f8793c524fb112d9efb21b5767ad1ea3399335",
+  "control_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/.exp209_reconstructed_current_scorer_v1_20260927.control",
+  "gpu_used": false,
+  "kaggle_post": false,
+  "launcher_geff_opened": false,
+  "launcher_source_sha256": "0afb83744bad9ea18d7157208c55a0466459c6cfc88c8edda4cc1394d42226ee",
+  "launcher_target_metric_executed": false,
+  "local_launch_intent_sha256": "48a50f23b73dfdfd06cea6013d7d3bbc993d39c36cd555d3bb52284c9dd31cc4",
+  "local_stage_receipt_sha256": "1b386b7d454faec04344c93233fd5c01e479953214482671766c8a3ee9e36369",
+  "preflight": {
+    "geff_opened": false,
+    "runtime": {
+      "profile": "remote_py311",
+      "python": "3.11",
+      "tracksdata_commit": "e13cf379b5127deeb8301ce56410fda35b5a3cf9",
+      "versions": {
+        "bidict": "0.24.1",
+        "blosc2": "4.12.0",
+        "dask": "2026.8.0",
+        "geff": "1.3.1.1.3",
+        "ilpy": "0.6.0",
+        "imagecodecs": "2026.3.6",
+        "numba": "0.67.0",
+        "numcodecs": "0.15.1",
+        "numpy": "2.4.6",
+        "polars": "1.44.1",
+        "psygnal": "0.15.1",
+        "pyarrow": "25.0.1",
+        "rich": "15.0.0",
+        "rstar-python": "0.2.0",
+        "rustworkx": "0.18.1",
+        "scikit-image": "0.26.0",
+        "scipy": "1.17.1",
+        "sqlalchemy": "2.0.52",
+        "tqdm": "4.70.0",
+        "tracksdata": "0.1.0rc11",
+        "typing-extensions": "4.16.0",
+        "zarr": "3.1.6"
+      }
+    },
+    "status": "PASS_EXP209_SCORER_CURRENT_ENV_SYNTHETIC_NO_GEFF",
+    "synthetic_contract": {
+      "positive_division": [
+        1,
+        0,
+        0
+      ],
+      "remote_weak_component_division": [
+        0,
+        0,
+        1
+      ],
+      "status": "PASS_CURRENT_ORGANIZER_LOCAL_FORK_CONTRACT"
+    },
+    "target_metric_executed": false
+  },
+  "remote_launch_intent_sha256": "f30f0e1d3c093a80822e8a114071172033da56fab1225a584628a70eed4a5e41",
+  "run_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp209_reconstructed_current_scorer_v1_20260927",
+  "score_result_not_read_by_launcher": true,
+  "status": "STARTED_EXP209_SCORER_V1_CPU_SUPERVISOR",
+  "supervisor_pid": 466787,
+  "supervisor_sha256": "e4831efe7d7d76c28f8e77ad3b6306226984bffae52e8de6fda45a9830f11204",
+  "supervisor_start_tick": 571644896,
+  "worker_pid": 466789,
+  "worker_resources": {
+    "cpu_count": 8,
+    "memory_bytes": 34359738368,
+    "wall_timeout_seconds": 28800
+  },
+  "worker_start_tick": 571644902,
+  "worker_started_sha256": "0449ef9c92f4372c9d8d60bd7b0bcb150ffc14397386a7a2b11945f93f4357bd"
+}

@@ -1,0 +1,162 @@
+{
+  "launch": {
+    "pid": 301233,
+    "start": "466398253",
+    "command": [
+      "taskset",
+      "-c",
+      "8-15",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v8_20260914/run_exp214_paired_fold.py",
+      "--notebook",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+      "--repo",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+      "--bundle",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/44b6_bundle.json",
+      "--data-dir",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+      "--movies",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/44b6_01_movies.json",
+      "--output",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_01_20260915/output"
+    ],
+    "started": 1789444974.7763495,
+    "config": {
+      "experiment": "EXP217",
+      "lease_id": "biohub-exp217-full60-source44-44b6_01-20260915",
+      "token": "exp217-full60-source44-44b6_01",
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "cpu_affinity": "8-15",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v8_20260914",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_01_20260915",
+      "script": "run_exp214_paired_fold.py",
+      "max_seconds": 10800,
+      "lease_minutes": 200,
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 64,
+        "disk_growth_gib": 1,
+        "gpus": 1
+      },
+      "scope": "EXP217 replaces only source44b6 primary with EXP215 full-cache epoch59, target6bba paired predictions only; no metrics or POST.",
+      "arguments": [
+        "--notebook",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+        "--repo",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+        "--bundle",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/44b6_bundle.json",
+        "--data-dir",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+        "--movies",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/44b6_01_movies.json",
+        "--output",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_01_20260915/output"
+      ]
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 301233,
+    "start": "466398253",
+    "finished": 1789446606.8581302
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": {
+    "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS",
+    "target_labels_read": false,
+    "arms": {
+      "public": {
+        "movies": [
+          "6bba_07e24132",
+          "6bba_085bf656",
+          "6bba_0c7fa718",
+          "6bba_0e7c0d07",
+          "6bba_12665c0e",
+          "6bba_15403b9a",
+          "6bba_1ebfb80d",
+          "6bba_1f58c2f6",
+          "6bba_207c6aaf",
+          "6bba_2540cd90",
+          "6bba_2646afc7",
+          "6bba_268e1230",
+          "6bba_2819ca14",
+          "6bba_283bf9f1",
+          "6bba_32db13fc",
+          "6bba_337b1b3a",
+          "6bba_372c8cb8",
+          "6bba_3c5691b6",
+          "6bba_3db54e20",
+          "6bba_3fda6b25",
+          "6bba_43fea39d",
+          "6bba_474be664",
+          "6bba_48816121",
+          "6bba_4aa14c89"
+        ],
+        "receipt_sha256": "5fdeb2ad910a5e7abf9cee471e86108e2ba9806a760d3c326136d50e753ea81e"
+      },
+      "local": {
+        "movies": [
+          "6bba_07e24132",
+          "6bba_085bf656",
+          "6bba_0c7fa718",
+          "6bba_0e7c0d07",
+          "6bba_12665c0e",
+          "6bba_15403b9a",
+          "6bba_1ebfb80d",
+          "6bba_1f58c2f6",
+          "6bba_207c6aaf",
+          "6bba_2540cd90",
+          "6bba_2646afc7",
+          "6bba_268e1230",
+          "6bba_2819ca14",
+          "6bba_283bf9f1",
+          "6bba_32db13fc",
+          "6bba_337b1b3a",
+          "6bba_372c8cb8",
+          "6bba_3c5691b6",
+          "6bba_3db54e20",
+          "6bba_3fda6b25",
+          "6bba_43fea39d",
+          "6bba_474be664",
+          "6bba_48816121",
+          "6bba_4aa14c89"
+        ],
+        "receipt_sha256": "14b28095e8a41e27cabdcffd5b1c030f02d188a147b302cdbbdeb1802554017e"
+      }
+    }
+  },
+  "queue": {
+    "id": "biohub-exp217-full60-source44-44b6_01-20260915",
+    "owner": "biohub-agent",
+    "token": "exp217-full60-source44-44b6_01",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_01_20260915",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 1.0,
+    "minutes": 200,
+    "state": "RELEASED",
+    "created": 1789444973.51405,
+    "heartbeat": 1789446607.425984,
+    "gpus": [],
+    "process": {
+      "pid": 301233,
+      "start": "466398253"
+    },
+    "allocated": 1789444973.5140855,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1789446655.0198615,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1789446655.036707
+}

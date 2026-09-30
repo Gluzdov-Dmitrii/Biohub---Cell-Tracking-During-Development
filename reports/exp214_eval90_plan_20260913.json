@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP214",
+  "stage": "eval90",
+  "hypothesis": "Continuing primary detector60->90 improves paired175 tracking score; secondary60, center, graph and cohort fixed.",
+  "roles": {
+    "primary": {
+      "seed": 2026,
+      "epochs": 90
+    },
+    "secondary": {
+      "seed": 314159,
+      "epochs": 60
+    }
+  },
+  "target_metrics_gate": "All175 both arms predictions and all models frozen before metrics",
+  "scope": "Development-adapted reciprocal two-embryo OOF; not pristine holdout; no POST; no implicit further training",
+  "baseline": "exp214_strong60_score175_20260912",
+  "deadline_utc": "2026-09-14T00:00:00Z"
+}

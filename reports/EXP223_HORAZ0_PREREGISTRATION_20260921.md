@@ -1,0 +1,15 @@
+# EXP223 — immutable Horaz0 reproduction preregistration (2026-09-21)
+
+Parent verified frontier EXP214 full175 official score0.7427291486246141. Hypothesis: published Horaz0 selected50/20 model plus supplied decoder may improve reciprocal embryo graph performance. Author manifest claims0.813559734/199; not adopted as our score.
+
+Package downloaded from immutable version1 of horaz0/biohub-top-cv-0803-artifact and horaz0/biohub-cfg-embryo-cv-last-folds. All4 checkpoint hashes match public manifests; receipt exp223_download_20260921.json. Archive SHA256 a9bdfef55bb09180a18e94d14d9420e840faa335efa65d8fd39e937c001282a8. Remote exact package code/exp223_horaz0_v1_20260921, manifest SHA1cbd9b80ad3e493c453ea48a6e201c320864010f5a9befd41fbacbecf572a7e9. No shared environment changes.
+
+Safe remote CPU torch.load(weights_only=True) passes all4 files,136 finite model tensors each; source dependency imports pass torch2.6.0+cu124. Selected metadata fold0epoch50 score0.7835483489997216, fold1epoch20 score0.7455038695380761. These embedded training-era scores differ from later manifest claim; no contradiction proven because postprocessing changed, but final claimed report remains missing.
+
+First stage: one A100,<=900seconds,8CPU,32GiB, source6bba with fold0 model (trained6bba), deterministic smallest-volume available source movie with>=16frames,16frames only. No GT opened; Python audit hook rejects .geff opens. Record runtime,node/edge counts,peak CUDA memory,CSV hash. This smoke is not an OOF score and cannot promote model.
+
+Before full175: seal exact movie IDs from EXP214 manifest, target44b6->fold0, target6bba->fold1, freeze selected arm source/config; fixed-last control uses same selected-arm source/config and epoch50 weights to isolate weights from decoder. Do NOT use separate old fixed-last config/source if claiming epoch-only effect. Both arms must be declared before any target-label scoring; all configured predictions complete+graph/hash verified before a single official scorer. No mixing complementary folds per target. Preset per-chunk cap<=3h; full launch requires smoke/runtime/route gates and fresh leases. Exact custom metric parity not assumed; evaluate exported graphs with existing official evaluator. Promotion needs paired positive full175 delta and per-embryo/FP/division checks. No Kaggle POST.
+
+Current limitation: selected source smoke only; no full175 run claimed and no runtime estimate before observed smoke. GPU lease requested only through shared queue and release after verified exit/process-group/GPU clearance.
+
+EXP223 follow-on2026-09-21: user explicitly requests comparable full175 OOF. Both prereg arms frozen into8disjoint chunks before target labels. Largest source image-volume100frame benchmarkPASS139.47s, remote release verified. Seven runner gate testsPASS. Chunk00 launched remote3h cap; exact evidence/remaining schedule in reports/EXP223_COMPARABLE_OOF_RUNNING_20260921.md. No target labels and no Kaggle POST.24GPUhour hard rollout cap; no automatic retries. Other7chunks prepared, not running; next heartbeat handles fresh queue capacity.

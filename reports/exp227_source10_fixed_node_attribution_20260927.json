@@ -1,0 +1,410 @@
+{
+  "status": "PASS_EXP227_SOURCE10_FIXED_NODE_ATTRIBUTION",
+  "evidence_class": "post hoc source-inner validation used during training monitoring; diagnostic bound, not target OOF or an achievable policy",
+  "source_score": 0.8114014924249717,
+  "baseline_official": {
+    "n": 8,
+    "edge_jaccard": 0.800979519145147,
+    "division_jaccard": 0.18181818181818182,
+    "division_tp": 2,
+    "division_fp": 6,
+    "division_fn": 3,
+    "node_recall": 0.9270564654659081,
+    "adj_edge_jaccard": 0.7932196742431535,
+    "n_adj": 8,
+    "score": 0.8114014924249717
+  },
+  "pooled": {
+    "gt_edges": 2039,
+    "edge_tp": 1799,
+    "edge_fn": 240,
+    "edge_fp": 207,
+    "endpoint_limited_fn": 153,
+    "association_limited_fn": 87,
+    "association_fp": 207,
+    "division_tp": 2,
+    "division_fp": 6,
+    "division_fn": 3,
+    "mean_node_recall": 0.9270564654659081,
+    "details": {
+      "edge_tp": 1799,
+      "fn_missing_both_endpoints": 64,
+      "fn_missing_source_endpoint": 46,
+      "fn_missing_target_endpoint": 43,
+      "fn_both_endpoints_matched_link_missing": 87,
+      "fp_both_endpoints_matched_wrong_association": 1,
+      "fp_source_anchor_target_unmatched": 106,
+      "fp_target_anchor_source_unmatched": 100,
+      "ignored_pred_edges": 232286
+    }
+  },
+  "optimistic": {
+    "fixed_node_adjusted_edge_ceiling": 0.916028767863141,
+    "official_score_if_division_term_held_observed": 0.9342105860449592,
+    "official_score_with_perfect_division_term": 1.016028767863141,
+    "assumptions": "All GT edges with both endpoints matched become TP, all association FP vanish, endpoint-limited FN and fixed predicted-node count remain; official per-movie node-count penalty and GT-edge weighting retained."
+  },
+  "inputs": {
+    "graph_status_sha256": "d445f1858ca5efe9561667a6e21362d753f047bb5bd7d507c209f076193cde7d",
+    "score_result_sha256": "b9b2eacc8995bbcfb405a636698bc4e1be00cc4d2ae8d18b6231d66a7d18f0d4",
+    "score_gate_sha256": "949ed2f7ea1af9c18772650ae67e30917c8d934cdcd6e7ab0bf381c6a0a4f343",
+    "score_config_sha256": "23c3a19577abddb171332dd3a8354953190098cf90e25f143d6c4874149d173c",
+    "scorer_manifest_sha256": "9eb0172ad130c693c7c58fd528fdc14c64736cacb9c237158d3ca17221092731",
+    "evaluator_config_sha256": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973",
+    "rows": [
+      {
+        "dataset": "44b6_996155de",
+        "graph_csv_sha256": "ab4abc463eb91ae299eff5fa5a6031e45c5ffc54408cd7dc9613834d4b62b6b7",
+        "graph_receipt_sha256": "fa84776d80133c92d1725dfadf890c85507a31065d45c1df1b5448b0a5f99516",
+        "gt_geff_tree_sha256": "40d9b02706df6cbe85eee251eb863c8408f8e646c4e00566ae7ad961a2301a7b",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_c50204e0",
+        "graph_csv_sha256": "df8d7326de5fd40b8bd6fb2e0fb65c7c937f77ce3495fbb84b550d6f0105aae1",
+        "graph_receipt_sha256": "48921579e0cc78690d462fbfbf1d1dcbcd76651b37a65b11481da8436d43856b",
+        "gt_geff_tree_sha256": "62ea7080d1e477d81b28263f53aecb911f1801332527f4e2bd323f80d877cc69",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_c96cfa10",
+        "graph_csv_sha256": "7e347384b3bf031bef0785b45f23a1734b90a7ae997a05fea1f3068095e0f7e1",
+        "graph_receipt_sha256": "b593331f8130d2422671ce7dcba5622960b63e2d98124eaad3594a18ab720fd4",
+        "gt_geff_tree_sha256": "5f63c09329563cf53b74f64d283609eab5c88e3d218d90d9c9dab647671b2a13",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_551a5dba",
+        "graph_csv_sha256": "57f4f629a43b9f7408a8284dbb0cacee33fa392cec2256b15876df0422c49cd4",
+        "graph_receipt_sha256": "0aee3c19cbc8870a8d39a89fd35777d2351cee45569a48545a4afbbdf6f3cc8f",
+        "gt_geff_tree_sha256": "da705914c3ae0ec9efb8bdeeb2002a1b850401c83eb7beb71909e21f7e38f00f",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_90724892",
+        "graph_csv_sha256": "7292325efcad75ec162fa4dc7983dab6e832fc54dd86c48d4a7024681b456812",
+        "graph_receipt_sha256": "591a4403a73fc06b8c097a660da006de5fff8aae21657501b74a4572cc8e6f60",
+        "gt_geff_tree_sha256": "b967502dc4e4a563733e4868218f6a10cfb9b3dfbfd48dc6086454ec6f648eb0",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_f28707c6",
+        "graph_csv_sha256": "a352d1be2bc94cdcc1ba9dbcdde994ab447141583d2a5c5880f60e148777e8a0",
+        "graph_receipt_sha256": "75256035d6cfe74c6fff7cde45d2fc004c1905ba5444640cafe5c2ec7eff005d",
+        "gt_geff_tree_sha256": "5b0eee85fbb8e6772ee94a54d481a905107168686c40eb6eafc8f283d5338ade",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_deabac95",
+        "graph_csv_sha256": "f4c65f93f3633ae83b6593f53321b037acb4c7e63ec173d7aeaed55d2b6e6657",
+        "graph_receipt_sha256": "8fe11441f695c1aeddd66ee055b39b13b49012e5febbcd6414f161fae3a65c5e",
+        "gt_geff_tree_sha256": "b024684791fd972bcb4a6acf0c7a0a5deb7516f5551c665a324d4b5bdcf154eb",
+        "gt_files": 21
+      },
+      {
+        "dataset": "44b6_341df25f",
+        "graph_csv_sha256": "c1dec0829eed7dd6be49938eb871d32cad07f6b6979e5d6d9fe68a86bba6af3a",
+        "graph_receipt_sha256": "1d9fdb1b8861510af204c7055d10a37f17bff6ea6d7b6bd61d80344f2cf4c236",
+        "gt_geff_tree_sha256": "225e560d40b936784575b83ff8dfa3700c020e27f75c85c3d61b1e8b8b7b2e3d",
+        "gt_files": 21
+      }
+    ]
+  },
+  "rows": [
+    {
+      "dataset": "44b6_996155de",
+      "official": {
+        "dataset": "44b6_996155de",
+        "edge_tp": 365,
+        "edge_fp": 6,
+        "edge_fn": 12,
+        "division_tp": 1,
+        "division_fp": 0,
+        "division_fn": 0,
+        "num_pred_nodes": 9542,
+        "node_recall": 0.9815789473684211,
+        "total_node_ratio": 0.2600026409613099,
+        "edge_jaccard": 0.9530026109660574,
+        "adj_edge_jaccard": 0.9282242913966375
+      },
+      "gt_edge_count": 377,
+      "gt_node_count": 380,
+      "matched_gt_nodes": 373,
+      "decomposition": {
+        "edge_tp": 365,
+        "fn_missing_both_endpoints": 4,
+        "fn_missing_source_endpoint": 3,
+        "fn_missing_target_endpoint": 3,
+        "fn_both_endpoints_matched_link_missing": 2,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 3,
+        "fp_target_anchor_source_unmatched": 3,
+        "ignored_pred_edges": 8943
+      },
+      "endpoint_limited_fn": 10,
+      "association_limited_fn": 2,
+      "association_fp": 6,
+      "optimistic_fixed_node_adjusted_edge": 0.9481641991424932
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "official": {
+        "dataset": "44b6_c50204e0",
+        "edge_tp": 243,
+        "edge_fp": 72,
+        "edge_fn": 82,
+        "division_tp": 0,
+        "division_fp": 2,
+        "division_fn": 2,
+        "num_pred_nodes": 54422,
+        "node_recall": 0.8888888888888888,
+        "total_node_ratio": 0.15599643145418243,
+        "edge_jaccard": 0.6120906801007556,
+        "adj_edge_jaccard": 0.6025422839185475
+      },
+      "gt_edge_count": 325,
+      "gt_node_count": 333,
+      "matched_gt_nodes": 296,
+      "decomposition": {
+        "edge_tp": 243,
+        "fn_missing_both_endpoints": 18,
+        "fn_missing_source_endpoint": 17,
+        "fn_missing_target_endpoint": 17,
+        "fn_both_endpoints_matched_link_missing": 30,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 38,
+        "fp_target_anchor_source_unmatched": 34,
+        "ignored_pred_edges": 51726
+      },
+      "endpoint_limited_fn": 52,
+      "association_limited_fn": 30,
+      "association_fp": 72,
+      "optimistic_fixed_node_adjusted_edge": 0.8268962997578486
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "official": {
+        "dataset": "44b6_c96cfa10",
+        "edge_tp": 552,
+        "edge_fp": 61,
+        "edge_fn": 64,
+        "division_tp": 0,
+        "division_fp": 3,
+        "division_fn": 0,
+        "num_pred_nodes": 45696,
+        "node_recall": 0.9523052464228935,
+        "total_node_ratio": -0.011679211004412146,
+        "edge_jaccard": 0.8153618906942393,
+        "adj_edge_jaccard": 0.8163141690508766
+      },
+      "gt_edge_count": 616,
+      "gt_node_count": 629,
+      "matched_gt_nodes": 599,
+      "decomposition": {
+        "edge_tp": 552,
+        "fn_missing_both_endpoints": 17,
+        "fn_missing_source_endpoint": 11,
+        "fn_missing_target_endpoint": 11,
+        "fn_both_endpoints_matched_link_missing": 25,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 31,
+        "fp_target_anchor_source_unmatched": 30,
+        "ignored_pred_edges": 43543
+      },
+      "endpoint_limited_fn": 39,
+      "association_limited_fn": 25,
+      "association_fp": 61,
+      "optimistic_fixed_node_adjusted_edge": 0.9377822897320691
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "official": {
+        "dataset": "44b6_551a5dba",
+        "edge_tp": 196,
+        "edge_fp": 38,
+        "edge_fn": 28,
+        "division_tp": 0,
+        "division_fp": 1,
+        "division_fn": 0,
+        "num_pred_nodes": 65593,
+        "node_recall": 0.9780701754385965,
+        "total_node_ratio": 0.13823381401079354,
+        "edge_jaccard": 0.7480916030534351,
+        "adj_edge_jaccard": 0.7377504475014827
+      },
+      "gt_edge_count": 224,
+      "gt_node_count": 228,
+      "matched_gt_nodes": 223,
+      "decomposition": {
+        "edge_tp": 196,
+        "fn_missing_both_endpoints": 1,
+        "fn_missing_source_endpoint": 4,
+        "fn_missing_target_endpoint": 3,
+        "fn_both_endpoints_matched_link_missing": 20,
+        "fp_both_endpoints_matched_wrong_association": 1,
+        "fp_source_anchor_target_unmatched": 18,
+        "fp_target_anchor_source_unmatched": 19,
+        "ignored_pred_edges": 63042
+      },
+      "endpoint_limited_fn": 8,
+      "association_limited_fn": 20,
+      "association_fp": 38,
+      "optimistic_fixed_node_adjusted_edge": 0.9509560250775306
+    },
+    {
+      "dataset": "44b6_90724892",
+      "official": {
+        "dataset": "44b6_90724892",
+        "edge_tp": 87,
+        "edge_fp": 14,
+        "edge_fn": 16,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 0,
+        "num_pred_nodes": 25395,
+        "node_recall": 0.9238095238095239,
+        "total_node_ratio": -0.005365815447281842,
+        "edge_jaccard": 0.7435897435897436,
+        "adj_edge_jaccard": 0.7439887401230031
+      },
+      "gt_edge_count": 103,
+      "gt_node_count": 105,
+      "matched_gt_nodes": 97,
+      "decomposition": {
+        "edge_tp": 87,
+        "fn_missing_both_endpoints": 5,
+        "fn_missing_source_endpoint": 3,
+        "fn_missing_target_endpoint": 3,
+        "fn_both_endpoints_matched_link_missing": 5,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 7,
+        "fp_target_anchor_source_unmatched": 7,
+        "ignored_pred_edges": 24341
+      },
+      "endpoint_limited_fn": 11,
+      "association_limited_fn": 5,
+      "association_fp": 14,
+      "optimistic_fixed_node_adjusted_edge": 0.8936831602147087
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "official": {
+        "dataset": "44b6_f28707c6",
+        "edge_tp": 41,
+        "edge_fp": 8,
+        "edge_fn": 20,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 0,
+        "num_pred_nodes": 20140,
+        "node_recall": 0.7619047619047619,
+        "total_node_ratio": 0.07954545454545454,
+        "edge_jaccard": 0.5942028985507246,
+        "adj_edge_jaccard": 0.5894762845849802
+      },
+      "gt_edge_count": 61,
+      "gt_node_count": 63,
+      "matched_gt_nodes": 48,
+      "decomposition": {
+        "edge_tp": 41,
+        "fn_missing_both_endpoints": 11,
+        "fn_missing_source_endpoint": 4,
+        "fn_missing_target_endpoint": 4,
+        "fn_both_endpoints_matched_link_missing": 1,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 4,
+        "fp_target_anchor_source_unmatched": 4,
+        "ignored_pred_edges": 19265
+      },
+      "endpoint_limited_fn": 19,
+      "association_limited_fn": 1,
+      "association_fp": 8,
+      "optimistic_fixed_node_adjusted_edge": 0.6830476900149032
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "official": {
+        "dataset": "44b6_deabac95",
+        "edge_tp": 116,
+        "edge_fp": 7,
+        "edge_fn": 8,
+        "division_tp": 1,
+        "division_fp": 0,
+        "division_fn": 0,
+        "num_pred_nodes": 14402,
+        "node_recall": 0.9761904761904762,
+        "total_node_ratio": 0.029523196797483737,
+        "edge_jaccard": 0.8854961832061069,
+        "adj_edge_jaccard": 0.8828819153980854
+      },
+      "gt_edge_count": 124,
+      "gt_node_count": 126,
+      "matched_gt_nodes": 123,
+      "decomposition": {
+        "edge_tp": 116,
+        "fn_missing_both_endpoints": 0,
+        "fn_missing_source_endpoint": 3,
+        "fn_missing_target_endpoint": 2,
+        "fn_both_endpoints_matched_link_missing": 3,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 5,
+        "fp_target_anchor_source_unmatched": 2,
+        "ignored_pred_edges": 13843
+      },
+      "endpoint_limited_fn": 5,
+      "association_limited_fn": 3,
+      "association_fp": 7,
+      "optimistic_fixed_node_adjusted_edge": 0.9568441448234672
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "official": {
+        "dataset": "44b6_341df25f",
+        "edge_tp": 199,
+        "edge_fp": 1,
+        "edge_fn": 10,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 1,
+        "num_pred_nodes": 7982,
+        "node_recall": 0.9537037037037037,
+        "total_node_ratio": 0.07342657342657342,
+        "edge_jaccard": 0.9476190476190476,
+        "adj_edge_jaccard": 0.9406610056610056
+      },
+      "gt_edge_count": 209,
+      "gt_node_count": 216,
+      "matched_gt_nodes": 206,
+      "decomposition": {
+        "edge_tp": 199,
+        "fn_missing_both_endpoints": 8,
+        "fn_missing_source_endpoint": 1,
+        "fn_missing_target_endpoint": 0,
+        "fn_both_endpoints_matched_link_missing": 1,
+        "fp_both_endpoints_matched_wrong_association": 0,
+        "fp_source_anchor_target_unmatched": 0,
+        "fp_target_anchor_source_unmatched": 1,
+        "ignored_pred_edges": 7583
+      },
+      "endpoint_limited_fn": 9,
+      "association_limited_fn": 1,
+      "association_fp": 1,
+      "optimistic_fixed_node_adjusted_edge": 0.9499113326864522
+    }
+  ],
+  "limitations": [
+    "Same eight source44 inner movies were used during training monitoring; not target OOF.",
+    "Perfect association and zero false positive edges may violate graph degree/lineage constraints.",
+    "The score scenarios fix the observed division term or assume a perfect one; association changes can alter division outcomes.",
+    "Fixed predicted nodes and their official matching exclude gains from changed detection or thresholding."
+  ],
+  "target6bba_access": false,
+  "candidate_tuning": false,
+  "analysis_source_sha256": "1303739411b3ea5e3f1fc4dc6f7dbeff7b48ce2e995485f134413f813920a00b",
+  "execution": {
+    "host": "nsu-quadro",
+    "cpu_affinity": "24-27",
+    "cuda_visible_devices": "",
+    "interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python"
+  }
+}

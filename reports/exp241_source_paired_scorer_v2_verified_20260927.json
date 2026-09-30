@@ -1,0 +1,45 @@
+{
+  "status": "PASS_EXP241_SOURCE_PAIRED_INDEPENDENT_VERIFICATION",
+  "manifest_sha256": "ed8c7ac72c5a3f73d30570d24133f4aff7124b4e7dbf52d9e0a6cfe098424ce1",
+  "stage_receipt_sha256": "f542c39a667fd4008fb25009e79d2074b789c42dae318f7ccd95c5c421682a81",
+  "launch_receipt_sha256": "4f3b9823826cb9805ce57c95f43bf7bef393d9ab8a60524f8c184660ca50fe49",
+  "verifier_source_sha256": "006e049d71b2de807319d23623064ade0a8305bc92d7ce90c15eddafbad44961",
+  "remote": {
+    "status": "PASS_EXP241_SOURCE_PAIRED_INDEPENDENT_READBACK",
+    "manifest_sha256": "ed8c7ac72c5a3f73d30570d24133f4aff7124b4e7dbf52d9e0a6cfe098424ce1",
+    "launch_sha256": "d3e60ea95574cc9408f9756cce3bbf12315acb4add52b77439a83e329ca16d5c",
+    "stage_receipt_sha256": "f542c39a667fd4008fb25009e79d2074b789c42dae318f7ccd95c5c421682a81",
+    "launch_receipt_sha256": "4f3b9823826cb9805ce57c95f43bf7bef393d9ab8a60524f8c184660ca50fe49",
+    "exit_sha256": "83c09de4e0ef72f86f6a02fe26338ff5a47ea423ef204a079cdb9ee136958fad",
+    "no_label_gate_sha256": "5d74205c6a501032ef65d8dfe66e069ecb022e349d85047fe46c194aac9779aa",
+    "parent_replay_sha256": "130e8b3602d6ae6471847c75eca96df58fc41559c0d98a4c4301758b77375856",
+    "result_sha256": "0e07e5812336fcc27bce2de023dd5a5fa7399aca021818eb2f30a0be2d31a1b0",
+    "movies": 19,
+    "scores": {
+      "EXP227": {
+        "baseline": 0.8114014924249717,
+        "candidate": 0.8098152528891953
+      },
+      "EXP236": {
+        "baseline": 0.8458659187983504,
+        "candidate": 0.8463747455868348
+      },
+      "pooled19": {
+        "baseline": 0.8432116207330631,
+        "candidate": 0.8433803666483782
+      }
+    },
+    "promotion_gate_pass": false,
+    "decision": "STOP_FIXED_ADDITIVE_REPAIR_FAMILY_NO_RETUNE",
+    "source_gt_hashes_equal": true,
+    "child_absent": true,
+    "source_geff_reopened": false,
+    "target_labels_read": false,
+    "gpu_used": false,
+    "kaggle_post": false
+  },
+  "source_geff_reopened": false,
+  "target_labels_read": false,
+  "gpu_used": false,
+  "kaggle_post": false
+}

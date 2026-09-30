@@ -1,0 +1,32 @@
+{
+  "bundle_manifest_sha256": "2484dfcacdfb47b2b33d6ab00ff0e9fa58b99943ad23421f5f9de253ff2255fb",
+  "completion_sha256": "21275ee3dc02361c9840d61a43081c1f4922d50b696c62ad21cf6447e103536d",
+  "config_sha256": "d9a060b3d115db817f40fb9f81f8793c524fb112d9efb21b5767ad1ea3399335",
+  "current_score": 0.6815218332750073,
+  "direction_counts": {
+    "forward": 116,
+    "reverse": 59
+  },
+  "evidence_class": "leakage-controlled reciprocal evaluation; historically exposed target labels",
+  "geff_read_by_verifier": false,
+  "gpu_used": false,
+  "graph_identity": "new reconstructed graphs; original final graph byte identity unavailable",
+  "historical_replay": "PASS_ALL175_FIELDS_AND_POOLED_SCORE_1E12",
+  "historical_replay_sha256": "a862ed12426678a635b97e61ddbd22fd466a5c86ba3f066866626a3546ccc05f",
+  "historical_score": 0.6815218332750073,
+  "kaggle_post": false,
+  "local_launch_receipt_sha256": "8f09dd93bca396879f30f205cced07e3a1516631f25241e29d82fdf518167566",
+  "local_stage_receipt_sha256": "1b386b7d454faec04344c93233fd5c01e479953214482671766c8a3ee9e36369",
+  "metric_executed_by_verifier": false,
+  "read_only_remote_probe": true,
+  "reconstruction_gate_sha256": "8379ffc4435b01d0a8b7c90087302001b0b7738914e84fdd0286b888e8ff32f1",
+  "result_sha256": "df3282d1290489fe9996a10a20d32d6ca404b474bf56635eb3f933d30ddbb10a",
+  "rows": 175,
+  "scorer_no_metric_gate_sha256": "c0962a83c8f49789502bc863c3f43876775dbaf173983368f72fa377bee2efcf",
+  "status": "VERIFIED_EXP209_RECONSTRUCTED175_CURRENT_ORGANIZER_V1",
+  "supervisor_log_sha256": "5298de26cb767dc675d5f2ec192237d010b9b681be9ee1ada2380e0461205431",
+  "timeout": false,
+  "verifier_source_sha256": "ed690e9b3bf96e8da3ab9529ec1785f18bf3e0ad9fa3dd18ef9e7771f2b3654e",
+  "worker_absent": true,
+  "worker_log_sha256": "2ba3da2ff998c545e1196765e20191934a02468ab3233f0c11442e4668823fe9"
+}

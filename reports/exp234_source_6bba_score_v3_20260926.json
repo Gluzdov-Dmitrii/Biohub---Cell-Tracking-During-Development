@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_EXP234_SOURCE_SELECTION",
+  "source_embryo": "6bba",
+  "selected_threshold": "0.940",
+  "scores": {
+    "0.900": 0.8585554987788961,
+    "0.940": 0.8589431240778006,
+    "0.965": 0.8509313891000782
+  },
+  "result_sha256": "435e4533a66d39ad517a225d31ff92dd0d8351b3f6634c9bf244bb933719cd56",
+  "gate_sha256": "306d9a134ec4917aa1575d2deb2f65f32cac4c013d3a5e36cb57b73f8ba2bb7f",
+  "config_sha256": "0698f89c3ec13b3aadc2fb485211b7f650d74085681d1af5f597a2026b767448",
+  "inference_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_6bba_v2_20260926",
+  "monitor_receipt_sha256": "3f1922b807a269f79110be363e7e72d17c84ab479f47b7b39d0eda6d96ed27a2",
+  "scorer_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_source_6bba_score_v3_20260926.log"
+}

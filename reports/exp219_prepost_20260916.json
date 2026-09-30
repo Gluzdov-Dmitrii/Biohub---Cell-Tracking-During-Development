@@ -1,0 +1,18 @@
+{
+  "status": "PASS_PREPOST",
+  "track": "PRIVATE_ROBUST",
+  "slot": 3,
+  "hypothesis": "Measure LB transfer of strongest clean90/60 OOF frontier with fixed single-route unknown inference",
+  "parent": "EXP214 gapfix90 publicOOF175=0.7427291486246141",
+  "kernel": "dmitriigluzdov/biohub-exp219-frontier90-public",
+  "version": 1,
+  "source_sha256": "dcc140873e155862629f6294f5abdb745cb5d36f11b7b76c861e111134d7ba0a",
+  "submission_sha256": "8c1676fe0e65c418bfabb76870911f25e04ef5d71fc47a2f34856ad85ffb2320",
+  "audit_sha256": "53fcab0bc1e6a3b331d6affbde17da9d0d500223e238fafccd232274d863ad58",
+  "runtime_receipt_sha256": "e3210b3f41e188c720d5c6391fa6ebfe1b6f16d44d5378924e525dc62ddcf8d8",
+  "inventory_sha256": "bfcc53374f498c1b673e2816610c72c1edd3fbf77ecbc8dfb09440370942b4a2",
+  "description": "EXP219 FRONTIER90 SINGLE_ROUTE PRIVATE_ROBUST SLOT3 v1 20260916",
+  "unknown_routing_oof": null,
+  "download_scope": "Complete remote filename inventory and critical CSV/runtime/fold receipts; intermediate model/cache files not redownloaded",
+  "promotion_gate": "Valid nonempty Kaggle score/nonzero bytes/noerror; assess versus prior ownLB0.718 and public0.947, no guaranteed score"
+}

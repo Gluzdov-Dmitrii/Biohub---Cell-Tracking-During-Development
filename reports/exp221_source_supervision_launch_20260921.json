@@ -1,0 +1,13 @@
+{
+  "stage": {
+    "staged": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_source_supervision_v1_20260921"
+  },
+  "observe": {
+    "mode": "observe",
+    "pid": 550814
+  },
+  "control": {
+    "mode": "control",
+    "pid": 359943
+  }
+}

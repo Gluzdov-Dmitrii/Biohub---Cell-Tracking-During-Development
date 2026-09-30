@@ -1,0 +1,11 @@
+# EXP227 target6bba current-metric scorer v3 local preparation
+
+Recorded before any EXP227 target GEFF access or target score. This authorizes **local-only** source preparation of a separate v3 CPU scorer. It does not authorize remote staging, launch, label access, score, GPU claim, or Kaggle POST. The original v2 scorer and the stopped eight-chunk coordinator receipt remain untouched.
+
+The v3 scorer uses the fixed source44b6 epoch10 checkpoint SHA256 `df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79` selected only from source data. The 116 target6bba IDs are the frozen eight direction `44b6` chunks (15/15/15/15/14/14/14/14) from assignment SHA256 `9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4`.
+
+Remote staging is prohibited until a reviewed coordinator receipt reaches `PASS_EXP227_TARGET6BBA_116_GRAPHS_NO_LABELS_RELEASED` with all eight graph/exit/release gates valid. The separate v3 scorer must rerun the complete label-free gate, including exact EXP214 baseline file and all eight input CSV/receipt hashes, current organizer metric and runtime import, synthetic division contract, fresh live queue `RELEASED` rows and target image scales. It must write `no_metric_gate.json` durably before touching any target GEFF. Historical EXP214 rows are replayed to `1e-12` only as an integrity control; the candidate is compared to the EXP214 baseline under the same current metric.
+
+The current metric is pinned to organizer commit `075fc5f5a52d11077f9dc2b074644618f26939e2`, metrics SHA256 `cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444`, division SHA256 `0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9`, tracksdata commit `e13cf379b5127deeb8301ce56410fda35b5a3cf9` and shared verified Python 3.11 interpreter `envs/current-organizer-py311-e13cf-v1/bin/python`. The scorer uses a torch-free tracksdata graph adapter and direct GEFF graph loader after the gate. The target image-scale audit is pinned to SHA256 `7d49f54f6a2bb80c8148cbd2e110c23f24fe8c4dd5fddc363b6755418da87f1c`.
+
+The eventual target score is leakage-controlled reciprocal development evidence with historically exposed labels, not pristine untouched OOF. Source-only checkpoint selection remains separate from target scoring.

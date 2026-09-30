@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP200",
+  "recorded_at": "2026-09-11",
+  "status": "CLEANUP_VERIFIED",
+  "remote_removed": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp200_local_flow_linker_20260911",
+    "bytes": 2330167,
+    "resolved_inside_registered_root": true,
+    "active_worker_absent": true,
+    "absence_verified": true
+  },
+  "preserved": "All result JSONs/logs/SHA256SUMS, source, tests, preregistration and result receipt are local; EXP201 uses source copies in the active EXP192 code directory.",
+  "kaggle_action": "none"
+}

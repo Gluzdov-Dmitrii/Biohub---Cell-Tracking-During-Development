@@ -1,0 +1,27 @@
+{
+  "status": "STOPPED_EXP234_SOURCE20_RELEASE_STARTER",
+  "started": 1790455733.3939042,
+  "source_handoff_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp227_source20_handoff_20260927.json",
+  "source_handoff_expected_pid": 25908,
+  "target_labels_opened_before_graph_gate": false,
+  "kaggle_post": false,
+  "recovery_start_attempted": true,
+  "scorer_start_attempted": false,
+  "source_handoff_pid": 25908,
+  "source_handoff_process_create_time": 1790452300.653525,
+  "source20_release_gate": {
+    "handoff_receipt_sha256": "d01d1b15950ecfff970f076d3cda1c96c2581a498795a87a69dcbddd75202ade",
+    "source_score_receipt_sha256": "4b35cb86d34d27f883d0b9165b634d31cb5d133e277fdbe8ebc959ebcf8e0f54",
+    "graph_lease_state": "RELEASED",
+    "graph_status": "PASS_EXP227_SOURCE_GRAPH20_NO_LABELS",
+    "graph_movies": 8
+  },
+  "original_coordinator_sha256": "241605a7c01c9cffcf244c51ef15fdb34f915fcd2c104867438f7227034354d8",
+  "accepted_chunks": 5,
+  "target_code_manifest_sha256": "0cba3b0e3240d9e5b755d67fdd85a9d7166670fb919a65d4b69f3ccf705c1ee4",
+  "recovery_pid": 17088,
+  "recovery_stdout": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_recovery_v2_20260927.stdout.log",
+  "recovery_stderr": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_target_recovery_v2_20260927.stderr.log",
+  "error": "TerminalAnomaly('EXP234 recovery receipt identity/label gate failed')",
+  "finished_or_stopped": 1790460308.3602026
+}

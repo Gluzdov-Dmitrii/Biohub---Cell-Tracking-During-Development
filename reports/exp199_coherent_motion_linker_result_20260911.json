@@ -1,0 +1,48 @@
+{
+  "experiment": "EXP199",
+  "recorded_at": "2026-09-11",
+  "status": "REJECTED_BY_PREREGISTERED_GATE",
+  "parent_pooled_score": 0.7485183130743318,
+  "nested_candidate_pooled_score": 0.7468690072303674,
+  "nested_pooled_delta": -0.0016493058439643882,
+  "nested_direction_delta": {
+    "forward": -0.0013374254793063756,
+    "reverse": -0.002982693264603431
+  },
+  "selection_counts": {
+    "forward": {"similarity_a025": 10, "translation": 2},
+    "reverse": {"translation": 9, "similarity_a050": 3}
+  },
+  "full_data_diagnostic": {
+    "forward_best": {"arm": "similarity_a025", "score": 0.7522589921689254, "parent": 0.751517198868187},
+    "reverse_best": {"arm": "translation", "score": 0.7354992861562549}
+  },
+  "stability": {
+    "draws": 20000,
+    "seed": 314159,
+    "probability_positive": 0.111,
+    "q025": -0.003960371678126221,
+    "median": -0.0016286262247567906,
+    "q975": 0.0009672650125433713,
+    "leave_one_movie_out_min_delta": -0.0022077494036251144,
+    "leave_one_movie_out_max_delta": -0.0011064847246342602
+  },
+  "gate": {
+    "translation_control_exact": true,
+    "positive_nested_pooled_delta": false,
+    "nonnegative_both_directions": false,
+    "positive_bootstrap_lower_bound": false,
+    "passed": false
+  },
+  "interpretation": "A small forward full-data improvement from the weak similarity arm does not survive leave-one-movie-out arm selection, while reverse does not benefit. Global rigid/similarity embryo motion is rejected as a robust addition to the registered translation linker. This does not test local nonrigid flow or learned association.",
+  "artifacts": {
+    "forward_sha256": "eff300c352946f060762d51d0f2fd99765b1a021ed0ecac057a711757059968d",
+    "reverse_sha256": "59d61b599c2ce2a468ebb818c65e265ce97c61a6aa756e42f90f563a62960e10",
+    "nested_selection_sha256": "ba4a4ec4106a741e3e4e07f0381af552cc3ab342f05e38904d18d4d3636eaa68",
+    "stability_sha256": "589641b0e73fc6216a1c28d368e0cf65fa394aee2f4dc03dd9ea725452439f2f",
+    "sha256sums_sha256": "20bd3f45158488b3bca02186b934156d0627ebcc658c2b72f28ab73484774fbc",
+    "remote_local_hash_match": true
+  },
+  "effect_on_exp192_exp195": "No change; no untouched data were opened.",
+  "eligible_for_kaggle_submission": false
+}

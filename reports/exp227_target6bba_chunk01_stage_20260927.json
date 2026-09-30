@@ -1,0 +1,48 @@
+{
+  "status": "STAGED_EXP227_TARGET6BBA_CHUNK_NO_LABELS",
+  "chunk_index": 1,
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk01_v1_20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk01_v1_20260927",
+  "lease_id": "exp227-target6bba-chunk01-v1-20260927",
+  "manifest_sha256": "830afb870b5b4c02696ce5cc711f91675ee8733cecee564550c1b4fbbd0e5f3f",
+  "plan_sha256": "7084595934ffd8ca97e9eba1690625ccf7cba34f07a9e48407325e66dbaab7d7",
+  "selection_sha256": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+  "checkpoint_sha256": "df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79",
+  "movies": [
+    "6bba_07e24132",
+    "6bba_1d0d8384",
+    "6bba_1f58c2f6",
+    "6bba_2646afc7",
+    "6bba_312f0dc3",
+    "6bba_3a1849c2",
+    "6bba_5a4d9360",
+    "6bba_6db0e9b4",
+    "6bba_6feb10f0",
+    "6bba_76db78c1",
+    "6bba_91951b3a",
+    "6bba_969618f6",
+    "6bba_b1ae37b9",
+    "6bba_d3da753b",
+    "6bba_fbc898dc"
+  ],
+  "parent": {
+    "status": "PASS_EXP227_TARGET_STAGE_PARENT_PREFLIGHT",
+    "parent_manifest_sha256": "1f079e658a5dd0b505e469ac2f9251dd4ebc00db9010240742e7a913508832b1",
+    "checkpoint_sha256": "df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79"
+  },
+  "staged": {
+    "status": "STAGED_EXP227_TARGET6BBA_CHUNK_NO_LABELS",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk01_v1_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk01_v1_20260927",
+    "manifest_sha256": "830afb870b5b4c02696ce5cc711f91675ee8733cecee564550c1b4fbbd0e5f3f",
+    "plan_sha256": "7084595934ffd8ca97e9eba1690625ccf7cba34f07a9e48407325e66dbaab7d7",
+    "runner_sha256": "9d4c257149168525847b31b56897ff5640211d20c06c8ce8dded2bc974e8ea1a",
+    "selection_sha256": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+    "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4"
+  },
+  "local_prepare_sha256": "49b844df23c1ebd8f6c46e906bd7b38c1ce6c7000c7d77d42c15dd865f5fa495",
+  "local_bundle_manifest_sha256": "212b452d6c18fbf5db3fa74f5280cd84621af563d0ba082a2c692a1a84ce0983",
+  "remote_run_created": false,
+  "gpu_claimed": false,
+  "target_labels_read": false
+}

@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP199",
+  "recorded_at": "2026-09-11T09:55:55Z",
+  "status": "PREREGISTERED_BEFORE_SCORING",
+  "hypothesis": "Weak robust rigid or similarity frame-motion correction captures coherent embryo rotation/expansion that the registered global-translation linker misses, improving edge associations without changing frozen detections.",
+  "parent": "EXP190 fixed complete-graph policy: registered translation linker plus minimum component length 8 forward and 3 reverse.",
+  "data_and_protocol": "Existing reciprocal embryo-disjoint 24-movie OOF coordinate caches. No neural inference, image access, threshold retuning or target-label feature construction.",
+  "candidate_arms": {
+    "translation": "Exact registered_links parent control.",
+    "rigid_a025": "25 percent blend from translation prediction toward robust 3D rigid transform.",
+    "rigid_a050": "50 percent blend from translation prediction toward robust 3D rigid transform.",
+    "similarity_a025": "25 percent blend toward robust 3D similarity transform with per-frame scale clipped to [0.97, 1.03].",
+    "similarity_a050": "50 percent blend toward the same guarded similarity transform."
+  },
+  "transform_fit": "Initial registered median shift; mutual nearest pseudo-correspondences within 4 um; proper-rotation SVD fit; one MAD-trimmed refit; unchanged 7 um Hungarian gate and 3 um motion scale.",
+  "selection": "Leave one movie out within each embryo direction. For each held-out movie, choose one arm using only the other 11 movies in that direction. Full-data arm rankings are diagnostic only.",
+  "promotion_gate": "Exact translation reproduction within 1e-12; positive nested pooled delta; nonnegative nested delta in both embryo directions; positive lower 95 percent bound from 20,000 direction-stratified paired movie bootstrap draws.",
+  "interpretation_guard": "A failure rejects these global coherent-transform blends, not local nonrigid flow or learned association. Sequential 24-movie exploration cannot modify EXP192 before untouched confirmation.",
+  "implementation": {
+    "evaluator": {
+      "path": "scripts/evaluate_cached_coherent_motion_linker.py",
+      "sha256": "fac519e1182f31ff33182217e26ffc36c747fe2c8983cdac3e4c69440e82a7b1"
+    },
+    "tests": {
+      "path": "tests/test_evaluate_cached_coherent_motion_linker.py",
+      "sha256": "dac852cd15d1b747953e0fbbba152099aac9b2277407200c754ff9241376a036",
+      "result": "3 passed"
+    },
+    "selector_sha256": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "stability_analyzer_sha256": "ad716a032693e349d82edc5b17e2fa6aa66e5bb51018b916b0b6c535376082f0",
+    "launcher": {
+      "path": "scripts/run_exp199_coherent_motion_linker.sh",
+      "sha256": "fdb85afcc97e47def3896c8d28b5b2af36f93f5b9b131feba15efbb8466c64c3"
+    }
+  },
+  "resource": "CPU-only on nsu-quadro inside the registered remote Kaggle root; no GPU lease required.",
+  "eligible_for_kaggle_submission": false
+}

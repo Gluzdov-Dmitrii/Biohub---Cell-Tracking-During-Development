@@ -1,0 +1,45 @@
+{
+  "experiment": "EXP152",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "source_selection": {
+    "forward_selected_threshold": 0.5,
+    "reverse_selected_threshold": 0.5,
+    "forward_source_score_delta": 0.0,
+    "reverse_source_score_delta": 0.0,
+    "observation": "Every threshold in [0.5, 0.2, 0.1, 0.05, 0.02] was exactly inert on both source-only validation folds; the predeclared conservative tie-break selected 0.5."
+  },
+  "prospective_target_oof": {
+    "forward_parent_score": 0.6704928064276746,
+    "forward_candidate_score": 0.6704928064276746,
+    "forward_score_delta": 0.0,
+    "reverse_parent_score": 0.7019694675732845,
+    "reverse_candidate_score": 0.7019694675732845,
+    "reverse_score_delta": 0.0,
+    "pooled_parent_score": 0.6761456762872732,
+    "pooled_candidate_score": 0.6761456762872732,
+    "pooled_score_delta": 0.0,
+    "division_tp_delta": 0,
+    "division_fp_delta": 0,
+    "node_recall_delta": 0.0,
+    "movies": 24
+  },
+  "interpretation": "Lowering the inherited native-edge threshold by 25x does not produce a usable second-daughter proposal after the fixed geometry, continuation and divergence guards. Further threshold sweeping is not justified; the next experiment must change edge/division training or candidate construction.",
+  "artifacts_sha256": {
+    "forward_result": "20421fa8839f64a7a240d75f6a522a4e8633a391c26998373771ea621018a959",
+    "reverse_result": "5fcd27cbffd121ee5528afe49fb0e81e7156de9338aa224904566c11aaf1fc5a",
+    "gate": "fed68a55f44e47be8d1823898f9861d2eb67bee1597d5f4153266f0195fd2429",
+    "forward_selection": "3c12b83cc667b8f942834be5d470f9a580203cd5341ed77e5af3c0cb42d967a1",
+    "reverse_selection": "391efbbb12397ba8333d135fad2cea0e3cf0810a3d72cb5dd158e63a28cdf04b"
+  },
+  "resource": {
+    "gpu": "RTX6000",
+    "queue_request": "biohub-exp152-dense-native-source-selection-retry2-20260910",
+    "terminal_state": "RELEASED",
+    "post_run_gpu_observation": "5 MiB, 0% utilization"
+  },
+  "launch_failure_provenance": "Two pre-target retries failed before source-score inspection or target inference. Their redirected paths were reused by the successful retry, so exact failure logs were overwritten; this limitation is recorded rather than presenting reconstructed text as an immutable log. Future launchers must use attempt-specific result directories.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

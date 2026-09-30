@@ -1,0 +1,19 @@
+{
+  "experiment": "EXP192",
+  "status": "EXECUTION_PLAN_CORRECTION_BEFORE_ANY_INFERENCE",
+  "corrects": "The original preregistration described one long RTX6000 lease and two monolithic reciprocal passes.",
+  "scientific_change": "none; cohort, models, parameters, policies, metrics, anti-adaptation rule and promotion gates are unchanged",
+  "reason": "A 175-movie monolithic process would exceed the shared-resource policy's preferred approximately two-hour checkpointable chunk and would have poor interruption recovery.",
+  "chunking": {
+    "ordering": "lexicographic within target prefix, frozen before data inference",
+    "maximum_movies_per_chunk": 24,
+    "6bba_target_forward_chunks": 5,
+    "44b6_target_reverse_chunks": 3,
+    "total_gpu_chunks": 8,
+    "policy": "Acquire one RTX6000 lease per ready chunk, run only one Biohub GPU job at a time, release after verified process exit, and rejoin the queue tail under contention."
+  },
+  "anti_adaptation": "Do not open per-movie metrics, chunk summaries or scientific logs until all eight chunks are complete and merged. Operational exit status, file existence, hashes and schema/count validation may be checked.",
+  "resume": "Each chunk has a unique run directory and immutable movie list. Completed chunks are never recomputed; an interrupted chunk may reuse only its own verified caches after diagnosis.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

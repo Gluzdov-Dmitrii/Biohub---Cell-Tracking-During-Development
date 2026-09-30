@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP189",
+  "registered_at_local": "2026-09-11",
+  "status": "PREREGISTERED_NOT_STARTED",
+  "type": "final config-only analysis retry",
+  "prior_failure": "EXP188 validator still listed summary-only division_jaccard.",
+  "scientific_recomputation": false,
+  "immutable_inputs": {
+    "forward_exp187_sha256": "d68b656ad6c5f595a025e51c879b744d3f4cd150b3bc928ce8c7a8e3532ca45e",
+    "reverse_exp187_sha256": "b401d688bd4234171010c62b49a41756ba4bb9d28ade66e008e73147b239fa43"
+  },
+  "change": "Require exact per-movie row key-set equality and compare every numeric field dynamically instead of maintaining a guessed metric list.",
+  "local_preflight": "The corrected validator passed both copied immutable EXP187 JSONs against the copied EXP152 parents with zero maximum absolute error.",
+  "scripts": {
+    "validate_cached_short_track_control.py": "c70693503106313317f35baccfab0f198cbf84be5552e3e1d6759e7ebc0fef47",
+    "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "run_exp189_short_track_analysis_retry.sh": "d35a4672fcb1f587d396d9bb244a8e5fb6c4be99e43609dc4501dabac7c4ccd1"
+  },
+  "gpu_required": false,
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

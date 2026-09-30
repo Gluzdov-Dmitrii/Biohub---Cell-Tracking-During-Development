@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP149",
+  "status": "PREREGISTERED_BEFORE_CACHED_ILP_EVALUATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The scratch model's already-computed native ILP graph recovers division events missed by one-to-one registered Hungarian with acceptable edge-quality cost.",
+  "parent": "Source-only-selected scratch seed 314159 in both embryo directions, registered-motion Hungarian topology.",
+  "candidate": "Use exact cached edges returned by predict_video with PredictConfig(use_ilp=True); detections, checkpoint, threshold and coordinates are unchanged.",
+  "data": "24 prospective candidate-specific full-OOF movies; no parameter tuning or GPU inference.",
+  "promotion_gate": {
+    "official_score_delta_each_embryo": "> 0",
+    "pooled_official_score_delta": "> 0",
+    "division_tp_delta_pooled": "> 0",
+    "division_tp_delta_each_embryo": ">= 0",
+    "division_precision_pooled": ">= 0.25",
+    "node_recall_delta_each_embryo": ">= 0",
+    "maximum_in_degree": "<= 1",
+    "maximum_out_degree": "<= 2"
+  },
+  "validation_warning": "Candidate-specific prospective full OOF, not an untouched locked audit.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

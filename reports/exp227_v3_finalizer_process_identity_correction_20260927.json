@@ -1,0 +1,15 @@
+{
+  "status": "PASS_EXP227_V3_FINALIZER_REAL_QUEUE_PROCESS_IDENTITY_CORRECTION",
+  "old_finalizer_source_sha256": "ac368bdedade09531f7ae7dc0d865792a04b22b44514e4432c307344a4e61dc6",
+  "corrected_finalizer_source_sha256": "e7b5ceaed97c6bfc8df2a939526f30b96a0d1dad25a193ce8a8f1a78e7a5ca09",
+  "corrected_test_source_sha256": "42cf0a7eb77f23cfe7403e266939494ed3d6f4bf975c94a1748e6a39a5d5133f",
+  "cause": "Queue RELEASED process stores only pid/start; the original check compared it to full remote launch metadata.",
+  "change": "Compare exact pid/start identity while separately requiring no live identity/group/matching process/GPU PID.",
+  "focused_tests": "8 passed",
+  "check_only_graph_count": 116,
+  "check_only_graph_hashes_sha256": "c453af31f8a1cc9c118103adb3af7d3fb6410c7ddd4da8953a5c2cec2191a0ac",
+  "final_receipt_sha256": "69f110c302a4a3fed21993f5ce7083e036b345ee2e53e917cc4382c3291effa3",
+  "target_labels_read": false,
+  "target_score_computed": false,
+  "kaggle_post": false
+}

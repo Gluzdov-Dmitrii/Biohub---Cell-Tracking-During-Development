@@ -1,0 +1,37 @@
+{
+  "utc": "2026-09-12T21:05:56.635177+00:00",
+  "experiment": "EXP214",
+  "track": "PRIVATE_ROBUST",
+  "daily_slot": 4,
+  "kernel": "dmitriigluzdov/biohub-exp214-reduced-public-graph",
+  "version": 2,
+  "script_version_id": "349360882",
+  "source_sha256": "6ab0f7ab382a2c538a2da2b4cba2a0f7043b5e035fa5827ba0c50a6098355497",
+  "model_manifest_sha256": "17698d76ddbd6d27df8286f7aac442d9345bd1fabe116df1ac0daf969e7f1bde",
+  "expected_output": "submission.csv",
+  "output_sha256": "74e7481902061a19d6bc2dd29017ce1604b02b88c9ca22460dd576fb7fe83731",
+  "rows": 223176,
+  "exact_clean_v1_csv_sha_parity": true,
+  "parent": [
+    "COMPACT47-v20",
+    "EXP209/EXP212-v5"
+  ],
+  "hypothesis": "Paired public versus EXP209 graph processing on the same clean reduced-data refit detectors",
+  "dataflow": "Infer actual runtime test Zarr; opposite source fold for known prefixes, both source folds plus frozen graph-agreement selector for new prefixes; no frozen prediction replay",
+  "diagnostic40_scores": {
+    "public": 0.6226245859762614,
+    "local": 0.7407216352397502,
+    "EXP209_frozen": 0.7191500617870413
+  },
+  "local_checks": [
+    "Four source-only COMPLETE12 refits and model pack SHA audit",
+    "Both arms/folds40 no-metric coverage gate",
+    "Official finite paired metrics",
+    "Clean Internet-off v2 completion, exact source identity, full downloaded output audit",
+    "Exact v1 final CSV hash parity",
+    "17 guarded submission and output audit tests passed with project-local temporary directory"
+  ],
+  "promotion_gate": "Diagnostic POST only; final promotion requires full175 paired stability and valid LB. No retuning after40.",
+  "runtime_limit_note": "T4 folds now run concurrently; successful four-example run is not a guaranteed runtime bound for larger unseen embryos.",
+  "unknown_selector_oof": null
+}

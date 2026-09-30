@@ -1,0 +1,36 @@
+{
+  "status": "ROOT_REVIEW_EXP209_RECONSTRUCTION175_NO_METRIC_GATE",
+  "reviewed_utc": "2026-09-27T06:48:04.713671+00:00",
+  "run_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp209_current_metric_reconstruction_v1_20260927",
+  "launch_receipt_sha256": "471e65fd05405ba47c2d081364fbcea65b5b76dae9b61e998d7a276e60861ecb",
+  "remote": {
+    "gate_sha256": "8379ffc4435b01d0a8b7c90087302001b0b7738914e84fdd0286b888e8ff32f1",
+    "status": "PASS_EXP209_RECONSTRUCTION175_NO_METRIC_GATE",
+    "movie_count": 175,
+    "direction_counts": {
+      "forward": 116,
+      "reverse": 59
+    },
+    "chunk_count": 8,
+    "unique_ids": 175,
+    "graph_hash_count": 175,
+    "all_exit0_released": true,
+    "labels_read": false,
+    "scientific_metrics_emitted": false,
+    "current_organizer_score": null,
+    "supervisor_status": "ALL_EIGHT_CHUNKS_EXIT0_RELEASED_NO_LABELS",
+    "supervisor_sha256": "d189213c24a4cfccf20d929dd4731d8eec5ae14d6a5799b2158d4daf5ccc3e7f",
+    "verifier_status": "EXIT0",
+    "verifier_exit_code": 0,
+    "verifier_timed_out": false,
+    "verifier_worker_absent": true,
+    "verifier_gate_sha256": "8379ffc4435b01d0a8b7c90087302001b0b7738914e84fdd0286b888e8ff32f1",
+    "verifier_sha256": "21752232eef7d8d412490f235083f91c8b63d25d542c05deba0607a27ee639c9",
+    "supervisor_identity_alive": false
+  },
+  "target_labels_read": false,
+  "metric_authorized_next": true,
+  "metric_run_started": false,
+  "original_graph_byte_identity_proven": false,
+  "kaggle_post": false
+}

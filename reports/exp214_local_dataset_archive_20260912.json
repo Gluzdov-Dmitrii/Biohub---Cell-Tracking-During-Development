@@ -1,0 +1,10 @@
+{
+  "status": "PASS_PORTABLE_REDUCED_DATASET_ARCHIVE",
+  "archive": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\outputs\\datasets\\exp214_reduced_detector_dataset_20260912.tar",
+  "archive_bytes": 2909153280,
+  "sha256": "2449c0725e69f6a0261fc012589344765570553a9bfd205885e2026da85c3eba",
+  "data_file_bytes": 2893336649,
+  "files": 16438,
+  "symlinks": false,
+  "scope": "Detector training representation only; DeepCenter uses a different preprocessing path"
+}

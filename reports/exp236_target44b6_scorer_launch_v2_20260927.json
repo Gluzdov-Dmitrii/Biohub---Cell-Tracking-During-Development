@@ -1,0 +1,13 @@
+{
+  "status": "LAUNCHED_EXP236_TARGET59_OFFICIAL_SCORER",
+  "wrapper_pid": 462636,
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_target44b6_current59_v2_20260927",
+  "started": 1790494752.212494,
+  "cpu": 4,
+  "ram_gib": 32,
+  "max_seconds": 3600,
+  "score_config_sha256": "375915ac31037d065118e2d4ce9fb9f9eefd743b2687a57a3442c85aa0eeea9f",
+  "intent_sha256": "1073fc7bfc41d156d2cc06e69dac6b4391a58448a3e2f690c5339b19a13ac7ff",
+  "stage_receipt_sha256": "4d479453de79c8bb95b39be384354e132ed75b71e5a94d10bb0c8c7f58ccb9de",
+  "target_score_computed": false
+}

@@ -1,0 +1,42 @@
+{
+  "experiment": "EXP173",
+  "registered_at": "2026-09-10T21:20:00+07:00",
+  "kind": "external_time_disjoint_model_and_fixed_ensemble",
+  "hypothesis": "A regularized linear head on frozen parent appearance adds division-propensity evidence distinct from daughter-pair geometry. A fixed equal rank blend may improve prospective high-precision recall without EXP171's flexible-MLP instability.",
+  "parent": "EXP172",
+  "split": {
+    "fit": [10, 449, 182],
+    "gap_1": [451, 473, 10],
+    "calibration": [476, 629, 64],
+    "gap_2": [630, 649],
+    "prospective": [650, 789, 64],
+    "competition_data": "closed"
+  },
+  "model": {
+    "features": "first 32 frozen-backbone parent features only",
+    "head": "one linear layer",
+    "epochs": 20,
+    "optimizer": "AdamW lr=0.001 weight_decay=0.1",
+    "class_weight": "fit-window negative/positive ratio",
+    "seed": 271828
+  },
+  "arms": {
+    "raw": "EXP171 top-pair probability",
+    "appearance": "linear parent-appearance probability",
+    "blend": "0.5 raw percentile rank + 0.5 appearance percentile rank"
+  },
+  "threshold_protocol": "Select one precision>=0.50 threshold per arm on calibration only, then apply it numerically unchanged to prospective. Prospective labels cannot select a threshold or model.",
+  "promotion_gate": "Only the preregistered blend may advance, and only if its fixed threshold yields prospective precision>=0.50 and recall>=0.20.",
+  "integrity": {
+    "source_sha256": "b14c04864dd0ad8406eef58806df0cb3b9591f3e2bb435cd0104c91ad9166aef",
+    "launcher_sha256": "f6a6a646ed3b99da9e336f3d3fe4aee560aa61f985bf5e520ef61ef59671df32",
+    "test_sha256": "2170e27c9603e99728265921112a80b7b21d56424600480d07867e6d8ef6b86a"
+  },
+  "fixed_dependencies": {
+    "exp171_checkpoint_sha256": "caae45fd99e5be69f670a473178474414e735d6a5905ed59e79f350112e5fb8d",
+    "backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "local_checks": "6 passed; Python compile passed; remote bash -n required",
+  "resource": "One RTX6000 through the common queue; release after verified stop.",
+  "kaggle_slots_reserved": 0
+}

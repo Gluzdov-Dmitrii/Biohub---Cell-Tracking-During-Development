@@ -1,0 +1,10 @@
+{
+  "started": 1789382684.580708,
+  "parts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "scope": "EXP215 full-cache source44b6 seed2026 continuation to >=60 epochs; source-only training, no inference, metrics or POST"
+}

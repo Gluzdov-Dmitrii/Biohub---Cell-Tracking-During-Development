@@ -1,0 +1,11 @@
+# EXP223 final official scorer running — 2026-09-22
+
+All350predictions completed, all8GPUchunks exited0 and remotely released. Final42chunk07 hashes and matching receipts verified. Exact official gate passed all350 CSV/contract/graph/heldout checks BEFORE ground-truth access. GateSHA ccdd3606f46b47bb536e3ee88d23ec36bef18ea6d605e725d267c0769384da2a.
+
+Remote boundedCPUrun `/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_official_score175_v2_20260922`; wrapper364220,child364221.4CPU,32GiBRLIMIT_AS,3600s hardtimeout+30s killgrace,CUDA hidden. No local monitoring dependency, no timers added. Latest read:7/175movies officially scored, baseline replay gates passing; stillactive. Allow roughly10–20min total depending moviegraph density, not guaranteed. Do not terminate job or launch duplicate.
+
+Scorer immutableSHA3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4. Remote scorer/config: `code/exp223_official_scorer_v2_20260922/{score_exp223_official.py,score_config.json}`; configSHA45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973. All9official evaluator files pinned beforeimports.
+
+Two execution-tooling failures preserved beforeGT: original wrapper placeholder substitution producedSyntaxError beforechild; corrected separatewrapper. Next scorer refusedrolloutSHA because localWindowsJSON newlinebytes differed. Parsedfullrollout EXACT equal immutable remote; corrected onlyrolloutbyteSHA + newoutputdirectory, model/scorer unchanged. Receipt `reports/exp223_rollout_pin_correction_20260922.json`. Originalfailedrun remains `runs/exp223_official_score175_20260921`.
+
+Exact nextread command: `python scripts/poll_exp223_official_score_v2.py`. It fetches child/exit/gate/result and hashes,checks liveprocessgroup. Result remote `.../runs/exp223_official_score175_v2_20260922/output/result.json`; localdownload `outputs/research/exp223_official_score175_v2_20260922/output/result.json`. Status `reports/exp223_official_score_v2_status_20260922.json`; launch `reports/exp223_official_score_v2_launch_20260922.json`. Accept final onlystatusPASS_EXP223_OFFICIAL_BOTH_ARMS,exit0,noliveprocessgroup,175rowsperarm,baseline_replayPASS_1e-12 and outputhash. No partialaggregate numbers reported.

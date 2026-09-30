@@ -1,0 +1,19 @@
+{
+  "submission": {
+    "ref": 56192907,
+    "date": "2026-09-12 21:06:31.917000",
+    "description": "EXP214 REDUCED12 PUBLIC_GRAPH PRIVATE_ROBUST SLOT4 v2",
+    "status": "SubmissionStatus.PENDING",
+    "public_score": "",
+    "private_score": "",
+    "error_description": "",
+    "total_bytes": 0,
+    "url": "/code/dmitriigluzdov/biohub-exp214-reduced-public-graph?scriptVersionId=349360882"
+  },
+  "quota": {
+    "numToday": 4,
+    "numTotal": 87,
+    "numAllowedNow": 1
+  },
+  "utc": "2026-09-13T04:06:42.71747+07:00"
+}

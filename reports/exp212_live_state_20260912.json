@@ -1,0 +1,259 @@
+{
+  "time_utc": "2026-09-12T21:08:56.442563+00:00",
+  "submissions": [
+    {
+      "ref": 56192924,
+      "date": "2026-09-12 21:08:06.370000",
+      "description": "EXP214 REDUCED12 LOCAL_GRAPH PRIVATE_ROBUST SLOT5 v2",
+      "status": "SubmissionStatus.PENDING",
+      "public_score": "",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp214-reduced-local-graph?scriptVersionId=349360893"
+    },
+    {
+      "ref": 56192907,
+      "date": "2026-09-12 21:06:31.917000",
+      "description": "EXP214 REDUCED12 PUBLIC_GRAPH PRIVATE_ROBUST SLOT4 v2",
+      "status": "SubmissionStatus.PENDING",
+      "public_score": "",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp214-reduced-public-graph?scriptVersionId=349360882"
+    },
+    {
+      "ref": 56187070,
+      "date": "2026-09-12 14:12:55.537000",
+      "description": "PUB-LITE-20260912 SECTTA1 DIV20 GOLD_PUBLIC SLOT2 v21",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.946",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 207585479,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349289021"
+    },
+    {
+      "ref": 56181132,
+      "date": "2026-09-12 07:36:21.490000",
+      "description": "EXP212 EXP209 FRONTIER PRIVATE_ROBUST SLOT3 v5 20260912",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.718",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 255985567,
+      "url": "/code/dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production?scriptVersionId=349212853"
+    },
+    {
+      "ref": 56177715,
+      "date": "2026-09-12 03:35:47.217000",
+      "description": "PUB-LITE-20260912 COMPACT47 GOLD_PUBLIC SLOT1 v20",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.946",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 207569232,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349168544"
+    },
+    {
+      "ref": 56165700,
+      "date": "2026-09-11 12:57:05.517000",
+      "description": "PUB-LITE REPEAT3 GOLD_PUBLIC_USER_EXCEPTION SLOT3 v17",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.943",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204632319,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349031320"
+    },
+    {
+      "ref": 56165686,
+      "date": "2026-09-11 12:56:16.757000",
+      "description": "PUB-LITE REPEAT2 GOLD_PUBLIC SLOT2 v17",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.943",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204632319,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349031320"
+    },
+    {
+      "ref": 56158487,
+      "date": "2026-09-11 04:31:21.687000",
+      "description": "PUB-LITE-20260911 CENTER-TTA GOLD_PUBLIC SLOT1 v14",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.943",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204632319,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=348934432"
+    },
+    {
+      "ref": 56143472,
+      "date": "2026-09-10 11:44:57.280000",
+      "description": "PUB-LITE-20260910-R4 GOLD_PUBLIC SLOT1 factorized center v9",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.942",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204639489,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=348768802"
+    },
+    {
+      "ref": 56095320,
+      "date": "2026-09-08 09:17:24.027000",
+      "description": "EXP027 W1 GOLD_PUBLIC slot 1 Zebrahub-initialized fine-tune full inference",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.616",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 176655593,
+      "url": "/code/dmitriigluzdov/biohub-exp027-zebrahub-gold-public?scriptVersionId=348179069"
+    },
+    {
+      "ref": 56071282,
+      "date": "2026-09-07 06:59:36.993000",
+      "description": "EXP128 W1-D3-S14 PRIVATE_ROBUST weak learned tie-break",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.938",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204043583,
+      "url": "/code/dmitriigluzdov/biohub-exp128-d3-s14-weak-learned-tiebreak?scriptVersionId=347884817"
+    },
+    {
+      "ref": 56053651,
+      "date": "2026-09-06 11:09:16.437000",
+      "description": "EXP127 W1-D2-S01 GOLD_PUBLIC coordinate frontier alpha025",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "",
+      "private_score": "",
+      "error_description": "Your submission notebook exceeded the allowed runtime. Review the competition's Code Requirements page for the time limits. Note that the hidden dataset can be larger/smaller/different than the public dataset.",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp061-coordinate-frontier-submission?scriptVersionId=347679332"
+    },
+    {
+      "ref": 56045360,
+      "date": "2026-09-06 02:58:18.913000",
+      "description": "EXP126 W1-D2-S05 PRIVATE_ROBUST QRZ Gap5 capped dim rescue",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.940",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204643508,
+      "url": "/code/qrz1201/biohub-ablation-gap5-only?scriptVersionId=347362347"
+    },
+    {
+      "ref": 56045327,
+      "date": "2026-09-06 02:56:18.067000",
+      "description": "EXP125 W1-D2-S04 PRIVATE_ROBUST Flex v20 temporal agreement",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.940",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204302276,
+      "url": "/code/flexonafft/biohub-agreement-gated-dual-seed-fusion?scriptVersionId=347436742"
+    },
+    {
+      "ref": 56045303,
+      "date": "2026-09-06 02:54:23.900000",
+      "description": "EXP124 W1-D2-S03 PRIVATE_ROBUST count calibration det090",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.911",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 208969475,
+      "url": "/code/aagneye/biohub-v25-det-090?scriptVersionId=346930642"
+    },
+    {
+      "ref": 56029401,
+      "date": "2026-09-05 09:21:31.363000",
+      "description": "EXP123 W1-D1-S04-ALT PRIVATE_ROBUST QRZ DC025-only",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.942",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204639489,
+      "url": "/code/qrz1201/biohub-ablation-dc025-only?scriptVersionId=347362385"
+    },
+    {
+      "ref": 56028644,
+      "date": "2026-09-05 08:42:05.473000",
+      "description": "EXP122 W1-D1-S05 PRIVATE_ROBUST clean low-overlap grouped confidence",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.941",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204602528,
+      "url": "/code/rishabhr0y/biohub-adaptive-grouped-confidence-dominance-v2?scriptVersionId=347347742"
+    },
+    {
+      "ref": 56028627,
+      "date": "2026-09-05 08:41:05.503000",
+      "description": "EXP121 W1-D1-S03 PRIVATE_ROBUST X54 single-factor",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.938",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 203821074,
+      "url": "/code/anvithpothula/biohub-x54?scriptVersionId=347284486"
+    },
+    {
+      "ref": 56028590,
+      "date": "2026-09-05 08:39:20.443000",
+      "description": "EXP120 W1-D1-S02 GOLD_PUBLIC analytica LB 0.941",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.941",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 204602528,
+      "url": "/code/analyticaobscura/biohub-lb-941?scriptVersionId=347182184"
+    },
+    {
+      "ref": 56028571,
+      "date": "2026-09-05 08:38:15.817000",
+      "description": "EXP119 W1-D1-S01 GOLD_PUBLIC fresh adaptive association",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.941",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 208524454,
+      "url": "/code/rishabhr0y/941-biohub-fresh-adaptive-assoc?scriptVersionId=347093919"
+    }
+  ],
+  "quota": {
+    "numToday": 5,
+    "numTotal": 88
+  },
+  "kernel_status": "KernelWorkerStatus.COMPLETE",
+  "kernel_version": 5,
+  "kernel_source_sha256": "921a8ba6250657b8070bd39e7c364aa7298725cd177de2a30497b5a31ad85793",
+  "kernel_metadata": {
+    "id": 134049051,
+    "ref": "dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production",
+    "title": "Biohub EXP212 EXP209 OOF Frontier Production",
+    "author": "Dmitrii Gluzdov",
+    "slug": "biohub-exp212-exp209-oof-frontier-production",
+    "lastRunTime": "2026-09-09T21:08:56.374Z",
+    "language": "python",
+    "kernelType": "script",
+    "isPrivate": true,
+    "enableGpu": true,
+    "enableInternet": false,
+    "categoryIds": [
+      "gpu"
+    ],
+    "datasetDataSources": [
+      "dmitriigluzdov/biohub-exp209-pooled-oof-frontier-models",
+      "pilkwang/biohub-tracking-support-pack-50ep-v1"
+    ],
+    "competitionDataSources": [
+      "biohub-cell-tracking-during-development"
+    ],
+    "enableTpu": false,
+    "currentVersionNumber": 5,
+    "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machineShape": "NvidiaTeslaT4"
+  }
+}

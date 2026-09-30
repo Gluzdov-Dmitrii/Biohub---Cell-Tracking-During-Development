@@ -1,0 +1,62 @@
+{
+  "status": "PASS_GPU_MODEL_AND_IMPORT_SMOKE",
+  "scope": "Synthetic tensors only; not full runtime inference or OOF",
+  "device": "Quadro RTX 6000",
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.6.0+cu124",
+    "numba": "0.67.0",
+    "llvmlite": "0.49.0",
+    "polars": "1.44.1",
+    "zarr": "3.1.6",
+    "tracksdata": "0.1.0rc9"
+  },
+  "models": {
+    "forward_44b6_model": {
+      "shape": [
+        1,
+        2,
+        32,
+        16,
+        16,
+        16
+      ],
+      "finite": true,
+      "window": 2,
+      "downsample": [
+        1,
+        4,
+        4
+      ]
+    },
+    "reverse_6bba_model": {
+      "shape": [
+        1,
+        2,
+        32,
+        16,
+        16,
+        16
+      ],
+      "finite": true,
+      "window": 2,
+      "downsample": [
+        1,
+        4,
+        4
+      ]
+    },
+    "deepcenter": {
+      "shape": [
+        1,
+        1,
+        16,
+        16,
+        16
+      ],
+      "finite": true
+    }
+  },
+  "all_model_manifest_hashes_match": true
+}

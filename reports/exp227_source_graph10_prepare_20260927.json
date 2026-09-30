@@ -1,0 +1,99 @@
+{
+  "status": "PREPARED_EXP227_SOURCE_GRAPH10_NO_LABELS",
+  "preflight": {
+    "status": "PASS_EXP227_SOURCE10_PARENT_PREFLIGHT",
+    "checkpoint_sha256": "df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79",
+    "training_result_sha256": "9d95a2e91cd8ecdf7e599ec0bf22ed56358685cff5306369cf7a9b5aa22348e6",
+    "movies": [
+      {
+        "dataset": "44b6_996155de",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_996155de.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_c50204e0",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c50204e0.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_c96cfa10",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_c96cfa10.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_551a5dba",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_551a5dba.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_90724892",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_90724892.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_f28707c6",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_f28707c6.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_deabac95",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_deabac95.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      },
+      {
+        "dataset": "44b6_341df25f",
+        "zarr": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_341df25f.zarr",
+        "shape": [
+          100,
+          64,
+          256,
+          256
+        ]
+      }
+    ]
+  },
+  "stage": {
+    "status": "STAGED_EXP227_SOURCE_GRAPH10",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_source_graph10_v1_20260927",
+    "manifest_sha256": "1f079e658a5dd0b505e469ac2f9251dd4ebc00db9010240742e7a913508832b1",
+    "plan_sha256": "de74ddc3526708d657779d64ba3731d7b8b09cf104a344bd83d1313f00c38349",
+    "runner_sha256": "cda55c66d103a665ad05750b0cacda4cbec9bd73ac9f8d4460b6a5db474d8fde"
+  },
+  "movies": 8,
+  "target_labels_read": false
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP214",
+  "lease_id": "biohub-exp214-reduced6bba-s314159-rtx-20260912",
+  "token": "exp214-reduced6bba-s314159-rtx",
+  "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v5_20260912",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s314159_20260912",
+  "fold": "6bba",
+  "seed": 314159,
+  "max_seconds": 10800,
+  "cpu_affinity": "0-7",
+  "window_selection": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+  "image_cache": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 1,
+    "gpus": 1
+  },
+  "scope": "Fixed12epochs, source-only FP32, all image reads from portable 2.889GB cache plus 2.76MB metadata/labels; original image store not accessed.",
+  "retention": "Keep selected/latest weights for OOF/LB comparison; review 2026-09-14",
+  "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+  "pool": "quadro",
+  "alias": "nsu-quadro"
+}

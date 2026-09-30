@@ -1,0 +1,9 @@
+{
+  "experiment": "EXP168",
+  "status": "PRE_METRIC_LAUNCHER_FAILURE",
+  "error": "Line continuations were serialized as literal plus arguments.",
+  "data_access": "No data was scored; no model was trained.",
+  "run_log_sha256": "80ee8a5e73ef79b1310f26f861153a6d661ceb697684f97c1f70c719825fe014",
+  "resource_cleanup": "No process remained; RTX6000 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}

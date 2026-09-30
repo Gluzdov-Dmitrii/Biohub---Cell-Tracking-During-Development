@@ -1,0 +1,46 @@
+{
+  "experiment": "EXP187",
+  "registered_at_local": "2026-09-11",
+  "objective": "Test a physically distinct short-component precision/recall mechanism and maximize honest nested pooled reciprocal OOF.",
+  "status": "PREREGISTERED_NOT_STARTED",
+  "evidence_class": "exploratory nested development OOF",
+  "reason_exploratory": "The mechanism family was chosen after reading competition discussions and an open notebook; absolute public-notebook proxy scores are not imported as evidence.",
+  "dataflow": {
+    "forward": "EXP130 source-44b6 model frozen EXP152 candidate caches evaluated on all 12 held-out 6bba movies",
+    "reverse": "EXP137 source-6bba model frozen EXP152 candidate caches evaluated on all 12 held-out 44b6 movies",
+    "neural_inference": false,
+    "gpu_required": false,
+    "cache_fields": ["coords", "edge_source", "edge_target", "edge_probability", "edge_distance"]
+  },
+  "frozen_arms": {
+    "no_filter": 1,
+    "min2": 2,
+    "min3": 3,
+    "min4": 4,
+    "min5": 5,
+    "min6": 6,
+    "min6_rescue5_p90_d275_cap006": 6
+  },
+  "rescue": {
+    "eligible_component_nodes": 5,
+    "minimum_mean_learned_probability": 0.90,
+    "maximum_mean_physical_edge_distance_um": 2.75,
+    "trigger_removed_fraction": 0.10,
+    "node_budget_fraction": 0.006,
+    "node_budget_absolute": 60,
+    "source": "Yusuke Togashi open notebook mechanism, independently reimplemented on our frozen reciprocal caches"
+  },
+  "primary_protocol": "Within each direction and held-out movie, select an arm using pooled score on the other 11 movies. Aggregate only the 24 held-out selected rows.",
+  "primary_metric": "combined_nested_pooled_score",
+  "control_gate": "The no_filter row for every movie and metric must reproduce EXP152 registered_hungarian within 1e-12.",
+  "interpretation": "A positive nested pooled delta is retained as useful exploratory OOF evidence. Per-movie, per-embryo, node recall, edge and division components remain diagnostics and are not vetoes.",
+  "scripts": {
+    "evaluate_cached_short_track_family.py": "b0822a032ed2b6a6b157524b6170e2d5e811a2731f001be40bf4e7f56904fe9f",
+    "select_nested_pooled_arms.py": "7cc7aae36bf51a212505cca6d41c2e90b0f15659e68d5ff9193ddc8ea604145f",
+    "validate_cached_short_track_control.py": "d4c3c4dc962b7bfa400797208d3de0ac343a5d3d3a96149c135dca7f3058d25e",
+    "run_exp187_nested_short_track_family.sh": "e24fb78eacbe6f4e871aaab4c436441397e65623033292dfb40d62604c1117d3"
+  },
+  "tests": "6 focused tests passed; py_compile passed",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

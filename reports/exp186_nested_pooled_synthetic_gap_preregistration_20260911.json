@@ -1,0 +1,84 @@
+{
+  "experiment": "EXP186",
+  "timestamp_local": "2026-09-11T12:20:00+07:00",
+  "objective": "Maximize reproducible reciprocal pooled OOF; per-movie stability and LB are diagnostics, not local-research vetoes.",
+  "evidence_class": "exploratory_nested_development_oof",
+  "honesty_note": "EXP185 caused this mechanism family to be retained, so EXP186 is not untouched confirmatory OOF. Within the frozen seven-variant grid, each movie is excluded from the parameter-selection score used for that movie.",
+  "parent": {
+    "experiment": "EXP185",
+    "pooled_base": 0.6862311370004796,
+    "pooled_candidate": 0.6996107107617476,
+    "pooled_delta": 0.013379573761268082
+  },
+  "primary_metric": "combined 24-movie leave-one-movie-out selected pooled score",
+  "diagnostics": [
+    "direction scores",
+    "per-movie deltas",
+    "edge TP/FP/FN and adjusted edge Jaccard",
+    "node recall and predicted node count",
+    "division TP/FP/FN/Jaccard",
+    "parameter-selection frequency"
+  ],
+  "protocol": {
+    "directions": ["44b6 model to 12 6bba movies", "6bba model to 12 44b6 movies"],
+    "selection": "For each held-out movie, select the highest pooled score variant on the other 11 movies of the same direction, then aggregate only the 24 selected held-out rows.",
+    "tie_break": "lexicographically greatest frozen label",
+    "baseline_reproduction": "g50_t25 must reproduce every EXP185 per-movie metric within 1e-12 before selection runs",
+    "variants": {
+      "g50_t25": {"gap_close_um": 5.0, "deepcenter_threshold": 0.25},
+      "g50_t10": {"gap_close_um": 5.0, "deepcenter_threshold": 0.10},
+      "g50_t15": {"gap_close_um": 5.0, "deepcenter_threshold": 0.15},
+      "g50_t20": {"gap_close_um": 5.0, "deepcenter_threshold": 0.20},
+      "g50_t30": {"gap_close_um": 5.0, "deepcenter_threshold": 0.30},
+      "g45_t20": {"gap_close_um": 4.5, "deepcenter_threshold": 0.20},
+      "g58_t20": {"gap_close_um": 5.8, "deepcenter_threshold": 0.20}
+    },
+    "fixed": {
+      "deepcenter_confirm_min_span_um": 8.5,
+      "synthetic_max_fraction": 0.05,
+      "gap_density_gain": 0.04,
+      "refine_window_zyx": [1, 3, 3],
+      "seed": 2026
+    }
+  },
+  "efficiency": {
+    "gpu": "one RTX6000 job",
+    "heatmap_policy": "Infer each model/movie/frame heatmap once, then reuse atomic .npy cache for all remaining frozen variants.",
+    "cpu_threads": 8,
+    "ram_gib": 32,
+    "peak_disk_gib": 3,
+    "estimated_minutes": 90,
+    "cleanup": "After verified export, delete reproducible heatmap cache, pyc, empty logs and duplicate selector logs; retain unique metrics, config and launch evidence."
+  },
+  "code": {
+    "scripts/evaluate_synthetic_gap_deepcenter.py": "c88ee2fc76016f6a812f1e484a3d5811adf30cd136c14303fc844a9a47fd10a8",
+    "scripts/evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "scripts/evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "scripts/train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "scripts/select_nested_pooled_synthetic_gap.py": "0c9bdc68c6b1e80d213948262f15fed8844035f5e535a3c02db8e9134f9afcac",
+    "scripts/validate_exp186_baseline_reproduction.py": "52ddb6be21b56094a4a654f29b6b111586dbf26ce434f792df62ae967f5c764d",
+    "scripts/validate_synthetic_gap_target_inputs.py": "af831afdc3f82bd10a7ab8e7475c693bb5e604861320e01082236792be78e9eb",
+    "scripts/run_exp186_nested_pooled_synthetic_gap_sweep.sh": "20261f0ff837e34e296a38d011ce3a90d4436f3be9a10691af539ab432bd9a64"
+  },
+  "public_evidence_audit": {
+    "discussion_cv_gap": {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/739352",
+      "observations": [
+        "One participant reports about 0.96 CV versus 0.93 LB.",
+        "Another reports an edge-weight model gaining about 0.02-0.04 on each of five folds with about zero LB gain.",
+        "Participants recommend decomposing score into edge, adjusted edge, node, count, division and trajectory diagnostics."
+      ]
+    },
+    "yusuketogashi_clean_local_cv": {
+      "notebook_sha256": "b754eaffca194e1b1ebbf5aa6471016996313eea1f18af4ff94316df749a2684",
+      "finding": "Useful short-track-rescue mechanism, but the fixed-8 absolute score is not accepted as honest reciprocal OOF because the attached public support weights may already have seen those training movies."
+    },
+    "evgendvorkin_proxy_09417": {
+      "notebook_sha256": "80a823d99eed7e869a2256ba1b484faeb2db9f020275ff0fcb869d7b9a04083d",
+      "finding": "The 0.9417 proxy is a small selected validation proxy, not comparable to our 24-movie embryo-disjoint OOF. Mechanisms retained for later isolated tests include cached post-processing sweep, short-track rescue and wider division geometry."
+    }
+  },
+  "promotion_rule": "Record any positive nested pooled gain as useful local evidence. Do not require nonnegative per-movie deltas. Kaggle submission remains separately gated by AGENTS.md.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

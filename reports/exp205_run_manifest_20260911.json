@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP205",
+  "agent": "biohub-agent",
+  "task_thread": "01a070a5-30c5-78f0-a970-04fa07ffddd0",
+  "run_id": "exp205_intensity_centroid_refinement_20260911",
+  "state": "PREREGISTERED",
+  "remote_run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp205_intensity_centroid_refinement_20260911",
+  "environment": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+  "resource": {"host": "nsu-quadro", "gpu_count": 0, "cpu_threads": 8, "ram_gib": 16, "disk_growth_gib": 0.1, "estimated_minutes": 45},
+  "inputs": {
+    "forward_raw": "data/pilot_single_6bba",
+    "reverse_raw": "data/pilot_single_44b6",
+    "forward_cache": "runs/exp152_dense_native_source_selection_20260910/results/forward_target_low_candidate_cache",
+    "reverse_cache": "runs/exp152_dense_native_source_selection_20260910/results/reverse_target_low_candidate_cache"
+  },
+  "retention": "Preserve result JSONs, logs, SHA256SUMS and receipts; remove remote run after verified local export."
+}

@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-12T20:34:56.034998+00:00",
+  "kernel": "dmitriigluzdov/biohub-exp214-reduced-public-graph",
+  "status": "KernelWorkerStatus.COMPLETE",
+  "source_sha256": "258a41a6cc61bb8b03c942473c858d320150717f89629705d3e43aaa8761ccc4",
+  "metadata": {
+    "id": 134118189,
+    "ref": "dmitriigluzdov/biohub-exp214-reduced-public-graph",
+    "title": "Biohub EXP214 Reduced Public Graph",
+    "author": "Dmitrii Gluzdov",
+    "slug": "biohub-exp214-reduced-public-graph",
+    "lastRunTime": "2026-09-09T20:34:52.884Z",
+    "language": "python",
+    "kernelType": "script",
+    "isPrivate": true,
+    "enableGpu": true,
+    "enableInternet": false,
+    "categoryIds": [
+      "gpu"
+    ],
+    "datasetDataSources": [
+      "dmitriigluzdov/biohub-exp214-reduced-honest-fold-models",
+      "pilkwang/biohub-tracking-support-pack-50ep-v1"
+    ],
+    "competitionDataSources": [
+      "biohub-cell-tracking-during-development"
+    ],
+    "enableTpu": false,
+    "currentVersionNumber": 1,
+    "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machineShape": "NvidiaTeslaT4"
+  },
+  "files": [
+    "outputs\\kaggle\\exp214_reduced_public_v1_logs\\biohub-exp214-reduced-public-graph.log"
+  ],
+  "output_dir": "outputs\\kaggle\\exp214_reduced_public_v1_logs",
+  "logs_only": true
+}

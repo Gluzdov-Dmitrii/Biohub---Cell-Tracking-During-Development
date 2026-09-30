@@ -1,0 +1,21 @@
+{
+  "status": "PREPARED_EXP227_SOURCE_BLOCK02",
+  "parent": {
+    "status": "PASS_EXP227_BLOCK02_PARENT_PREFLIGHT",
+    "checkpoint_sha256": "c7ecfe2e4ff0f5c039cd4952fe43047e44ff60701016a3ebba3fd932aa543d2e"
+  },
+  "stage": {
+    "status": "STAGED_EXP227_BLOCK02",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_horaz_source_block02_20260927",
+    "manifest_sha256": "c469c62da6cc058b60f0c12ddb800321c37094036b8e68f404ec039df8ec7b26",
+    "plan_sha256": "cfb672acab7bbd3ca2b551b6f688503dbd109457b53ce68bf04ce8267ef03ff1",
+    "runner_sha256": "2b4fa42d7d1fd585f79eb6ad3431301fbf67db552b0f9511d5f4966e947ddbc0"
+  },
+  "train_count": 63,
+  "inner_count": 8,
+  "epochs": [
+    6,
+    10
+  ],
+  "target_labels_opened": false
+}

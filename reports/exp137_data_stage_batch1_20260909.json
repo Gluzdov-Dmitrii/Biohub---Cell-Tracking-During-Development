@@ -1,0 +1,54 @@
+{
+  "experiment": "EXP137",
+  "stage": "6bba reciprocal data staging batch 1",
+  "timestamp_local": "2026-09-09T19:26:23.5003403+07:00",
+  "source": {
+    "kind": "official Kaggle competition API download",
+    "manifest": "outputs/research/external_inputs/pilot_file_manifest_live.json",
+    "manifest_sha256": "afa823b7b1e4f2f0de536107e49188736fd0339089123ff189229196af367aee",
+    "privacy": "competition data kept private; no dataset or kernel publication"
+  },
+  "movies": {
+    "6bba_13f19531": {
+      "zarr_files": 102,
+      "zarr_bytes": 356511511,
+      "geff_files": 21,
+      "geff_bytes": 12431
+    },
+    "6bba_20852818": {
+      "zarr_files": 102,
+      "zarr_bytes": 378925732,
+      "geff_files": 21,
+      "geff_bytes": 13737
+    }
+  },
+  "transport": {
+    "tar_bytes": 735989760,
+    "tar_entries": 896,
+    "tar_sha256_local_and_remote": "72af006f252f37513ee583cb4ded7946d96cf7f8b8a1a19f53a9211dc8060178",
+    "part_bytes": [104857600, 104857600, 104857600, 104857600, 104857600, 104857600, 104857600, 1986560],
+    "part_sha256": [
+      "e11d95722179d44a80c8904d655fc8167a429d52d797e84d608c213c36103bfa",
+      "82c7ebd3931145d2c4c8d7ba49efe9b3a792539f05c2e14528d35a21170f2604",
+      "6ff6f812fa3a0fdd4933aca3e3f645720c8893c763156b3d1d4d03c21d6c54a7",
+      "c0398bbaa685189f36c716cc77d990ed60a811fe34fdc671bef7f27890221556",
+      "521b2caf6a34c09a129fd645fa7745ea0b9a837569800782c9f64d3c7e606e84",
+      "ff2c50fc9957fda52639611c915205a0dc8d5429afbe8f5dbe9dc1b9cc0aff09",
+      "93a3318267389fa767ea7040b618ec0e0e51da1a160a0e5d51d62c08d4c832cf",
+      "6acd75cd1ef8fa059fab21894651eadba3fcaa2d303d1fd20ec72ed1aac8cac5"
+    ]
+  },
+  "remote": {
+    "host": "nsu-quadro",
+    "hostname": "prepost",
+    "registered_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "destination": "data/pilot_single_6bba",
+    "post_extract_file_counts": [102, 21, 102, 21]
+  },
+  "status": "PASS_VERIFIED_INCREMENTAL_STAGE",
+  "limitations": [
+    "The full 24-movie audit remains blocked until all 12 official 6bba movies finish downloading.",
+    "No labels, scores, locked-audit predictions, GPU training, Kaggle kernel, or Kaggle submission were used in this stage."
+  ],
+  "cleanup_policy": "Delete the exact local and remote transport tar/parts after receipt creation and extracted-data verification; preserve extracted official data and this receipt."
+}

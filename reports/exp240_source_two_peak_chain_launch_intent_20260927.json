@@ -1,0 +1,15 @@
+{
+  "status": "INTENT_EXP240_CPU_LAUNCH",
+  "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+  "stage_receipt_sha256": "8ed5c7211f7fd723128a4a19c8e690401594b9d59ddcf506a1905f9f08184c0d",
+  "preflight": {
+    "status": "PASS_EXP240_CPU_LAUNCH_PREFLIGHT_NO_LABELS",
+    "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+    "run_absent": true,
+    "pythonoptimize": "0",
+    "source_labels_read": false,
+    "target_data_opened": false
+  },
+  "pythonoptimize": "0",
+  "source_labels_read": false
+}

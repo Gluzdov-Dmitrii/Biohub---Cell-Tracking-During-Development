@@ -1,0 +1,55 @@
+{
+  "status": "PASS_EXP217_FULL60_SOURCE44_TARGET6BBA_PREPARED",
+  "preregistration_experiment": "EXP217",
+  "bundle": {
+    "status": "PASS_EXP217_FULL60_SOURCE44_BUNDLE_STAGED",
+    "bundle": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/44b6_bundle.json",
+    "bundle_sha256": "3b020c1911f0c25319d72f1e3f2e6dde529f048378b70d2b369b410dfbf7262f",
+    "parent_bundle_sha256": "b2f49dbfec4df30a2e8c2bbaeee789b4e55326f0e57053a7cfcbebd82e9ba82a",
+    "primary_sha256": "d7bc45e5151842263e0b008bf152adc26105cf6e76b7722c46fe38a8e79ce3b4",
+    "primary_source_status_sha256": "285f6d8dd2c847a90779fc72320079543842c34bcd0190c9482ce86d1df57aa0",
+    "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899",
+    "actual_primary_training_plan_sha256": "99258515deb4906af43c0231432adeedfb5819077b1e03460e40b424a121e5fe",
+    "target_labels_read": false
+  },
+  "configs": [
+    {
+      "tag": "44b6_00",
+      "path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_44b6_00_config_20260915.json",
+      "sha256": "409c639e87dd959f6d5dfa1b3393d3defe5e80cc602366920e3948c619eb5260"
+    },
+    {
+      "tag": "44b6_01",
+      "path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_44b6_01_config_20260915.json",
+      "sha256": "b626be110107b1af68b32491e8561ab9166869a027115e8c26915b35dfc52fea"
+    },
+    {
+      "tag": "44b6_02",
+      "path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_44b6_02_config_20260915.json",
+      "sha256": "510c6cb4eebfaf098b8bcdf3c6d14238e99425fd054b6ffdbec570f2ae8e6e5d"
+    },
+    {
+      "tag": "44b6_03",
+      "path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_44b6_03_config_20260915.json",
+      "sha256": "6654fd13c6eea69f9641f82c06fbecac1a21baa4071986b04e0852a981cdcc5d"
+    },
+    {
+      "tag": "44b6_04",
+      "path": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_44b6_04_config_20260915.json",
+      "sha256": "17fdc9036bf0123b1baa7b32e989e520566f738954f82f513879dd80bb716327"
+    }
+  ],
+  "manifest": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp217_full60_source44_target6bba_manifest_20260915.json",
+  "remote_manifest": {
+    "status": "PASS_EXP217_MANIFEST_STAGED",
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/manifest.json",
+    "arms": [
+      "baseline_gapfix90_public",
+      "candidate_full60_source44_public",
+      "baseline_gapfix90_local",
+      "candidate_full60_source44_local"
+    ]
+  },
+  "target_labels_read": false,
+  "kaggle_post": false
+}

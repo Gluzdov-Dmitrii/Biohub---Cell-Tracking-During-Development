@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "chunk": "reverse_00",
+  "queue_id": "exp192-confirm-reverse-00-20260911",
+  "queue_token": "70b4adf7-f2cd-4f2c-ab73-363c9de0a938",
+  "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_reverse_00_20260911",
+  "process": {
+    "pid": 229648,
+    "start_tick": "436194856",
+    "worker_pid": 229658,
+    "process_tree_absent_before_release": true,
+    "gpu_worker_absent_before_release": true
+  },
+  "verification": {
+    "sha256sums_check": "PASS",
+    "status": "PASS_EXP192_CHUNK_STRUCTURE_NO_METRICS",
+    "direction": "reverse",
+    "movie_count": 24,
+    "movies_sha256": "60b409b1e5ea8f3a3f56a86c02d7c823c091c3ab2352f48b5381c4e03615ca6a",
+    "validated_file_count": 6,
+    "scientific_metrics_emitted": false,
+    "sha256sums_sha256": "b8b6f4f158280efb44d4550d3bc23297431bc1b3a86bc83295cdef1095891c23",
+    "structure_validation_sha256": "2d721e400097213f1b79895cacaa6878ffbb8a55649f4106f1ef6ae2683ac8ca"
+  },
+  "queue_final_state": "RELEASED",
+  "queue_health": "CURRENT",
+  "scientific_output_opened": false,
+  "monitor_note": "The original monitor session ended after the remote process; status was re-established from the recorded PID, final manifest and GPU state before validation.",
+  "kaggle_action": false
+}

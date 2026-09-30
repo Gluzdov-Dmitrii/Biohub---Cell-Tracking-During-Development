@@ -1,0 +1,35 @@
+{
+  "experiment": "EXP180",
+  "status": "PREREGISTERED_BEFORE_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Two source-specific DeepCenter models trained on disjoint official embryo folds can provide a leakage-controlled visual confirmation signal for attributed synthetic gap recovery.",
+  "architecture_source": "Pilkwang Kim biohub-deepcenter-unet3d-center-prior-v1, CC0-1.0; training implementation preserved in the support pack.",
+  "training": {
+    "folds": {
+      "44b6": "10 predeclared train movies, 2 predeclared source checkpoint-validation movies",
+      "6bba": "10 predeclared train movies, 2 predeclared source checkpoint-validation movies"
+    },
+    "seed": 2026,
+    "epochs": 2,
+    "batch_size": 8,
+    "pool_factor": 4,
+    "base_channels": 24,
+    "learning_rate": 0.001,
+    "loss": "public positive-unlabelled weighted BCE defaults",
+    "checkpoint_selection": "lowest loss on the two held-out source movies only"
+  },
+  "source_sha256": {
+    "trainer": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "verifier": "59ae461b9b4361a6f6f11b26e170a7170c1a37c593f26c30ca376ea87af99f22",
+    "launcher": "0391a4f61d0dddb5917d09471437fe458a101c135e5712d5be856bc970921499",
+    "remote_launch_guard": "d3976692f280ed1c38c9d2ab971417f9e66b8d58ac3a425ac286a60e6f1375e2",
+    "split_44b6": "296d307f9ff174ce3d3db9bc77b8b12c2674178b8b09598fed129574c4b458a4",
+    "split_6bba": "ab4d8cdbbb763fa3344b4c51b07e0cfb1d0888cd523b6ece8b241d32c63f26c2"
+  },
+  "data_boundary": "Only each model's own source embryo is discoverable during training. No opposite-embryo target-development or locked-audit movie is opened in EXP180.",
+  "success_gate": "Both folds must complete exactly two finite-loss epochs, preserve the exact disjoint 10/2 manifests, and produce SHA-recorded best and last checkpoints.",
+  "next_if_pass": "EXP181 scores the frozen synthetic-gap mechanism on the two held-out source movies of each fold. This does not itself authorize official-24 target evaluation or Kaggle submission.",
+  "resource": "One RTX6000 job through the common queue; 8 CPU threads, 32 GiB RAM, 2 GiB expected growth, 90 minutes. Models run sequentially under one project lease.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

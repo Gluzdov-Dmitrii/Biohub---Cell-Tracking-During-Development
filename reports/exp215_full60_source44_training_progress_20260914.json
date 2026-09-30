@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE_EXP215_SOURCE44_FULL60_MODEL",
+  "updated": 1789443888.8873305,
+  "released_chunks": [
+    {
+      "part": 1,
+      "epoch": 28,
+      "best_sha256": "5e513fe537d680ed8e77df041d9f72cb22abe1d8323a2eea85bd689161c617f4"
+    },
+    {
+      "part": 2,
+      "epoch": 42,
+      "best_sha256": "5e513fe537d680ed8e77df041d9f72cb22abe1d8323a2eea85bd689161c617f4"
+    },
+    {
+      "part": 3,
+      "epoch": 57,
+      "best_sha256": "34602d6d38335f9fff2b192dbd87d4a82b02ec2fbff3bd4e88cfa48d3800168d"
+    },
+    {
+      "part": 4,
+      "epoch": 60,
+      "best_sha256": "d7bc45e5151842263e0b008bf152adc26105cf6e76b7722c46fe38a8e79ce3b4"
+    }
+  ],
+  "best_sha256": "d7bc45e5151842263e0b008bf152adc26105cf6e76b7722c46fe38a8e79ce3b4",
+  "completion_reason": "minimum_epoch_reached"
+}

@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP159",
+  "status": "PREREGISTERED_BEFORE_GPU_RETRY",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "A symmetric visual classifier over a parent and an explicit daughter pair can rank true divisions more precisely than independent edge softmax while leaving the robust one-to-one parent untouched.",
+  "parent": "Reciprocal 24-movie scratch registered-Hungarian result, pooled score 0.6761456762872732.",
+  "candidate_representation": {
+    "model_inputs": "Shared normalized 11^3 crops for the parent and two daughters plus immediate physical geometry: ordered parent-daughter distances, daughter separation, midpoint displacement and radial-distance gap.",
+    "symmetry": "Daughter embeddings enter only through sum and absolute difference; swapping daughters is unit-tested invariant.",
+    "post_classifier_gate": "Future continuation and sister divergence are not model inputs. They remain the already frozen graph-safety gate applied after pair classification on competition movies."
+  },
+  "training": "Eight deterministic epochs on exactly 256 external train shards; all division parents plus a deterministic 5% sample of ordinary parents; nearest four daughter candidates; BCE positive weight 12; AdamW 2e-4. Validation scores all parents in exactly 64 time-disjoint shards.",
+  "external_gate": "Select one epoch and one parent-level threshold on the 64 external validation shards. Proceed only if daughter-pair AP is reported, proposal recall ceiling is at least 0.90, division-parent precision is at least 0.50 and recall is at least 0.20.",
+  "competition_gate": "If and only if the external gate passes, freeze checkpoint/threshold and score the two source-validation movies in each reciprocal direction. Both directions must be nonnegative; a direction with no true division must add zero false forks. Target OOF remains unopened until then.",
+  "prospective_target_gate": "One 24-movie reciprocal pass only after source gates. Require nonnegative score in both embryo directions, positive pooled score, at least one of 13 true divisions recovered, added-division precision at least 0.25 and acceptable leave-one-movie-out stability.",
+  "reproducibility": "AveragePool3d replaces nondeterministic MaxPool3d; launcher sets CUBLAS_WORKSPACE_CONFIG=:4096:8 before Python starts; deterministic algorithms and fixed seed 158031 remain enabled.",
+  "source_sha256": {
+    "trainer": "5aef10d8aefe8e4e52e51de2218c82ec2f3a11ff390810c8bdc1fff47292e630",
+    "implementation_tests": "5a90e32d519518b8ca3aa5336319a55c0584560b7c0e8ac9272fa6408bc12da4"
+  },
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 6 GiB disk, 60 minutes; one GPU job for this project.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

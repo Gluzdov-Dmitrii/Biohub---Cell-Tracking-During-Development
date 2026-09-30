@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-11",
+  "source": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+  "current_snapshot": {
+    "notebook_sha256": "ae8e01a262211045161984e469e8be23e3386bab9140fe12df503dc6a1e010e6",
+    "metadata_sha256": "58d4ea20360bef5fb6b3d6f52acdc9b25c63300c0840255ea852b6db55b91d3a",
+    "last_run_utc": "2026-09-08T12:13:04.900Z",
+    "advertised_public_lb": 0.946,
+    "advertised_score_independently_verified": false
+  },
+  "prior_snapshot": "outputs/research/open_candidates_20260909/reyhanksatria__biohub-cell-tracking-0-946-lb/source_receipt.json",
+  "exact_source_unchanged_from_prior_snapshot": true,
+  "isolated_mechanism": "Use the same eight inverse-aligned D4 views for primary U-Net association features that are already averaged for detection logits.",
+  "important_distinction": "EXP145/148 adapted four views. EXP145 was structurally inert under the coordinate-only linker; EXP148 found a one-movie forward effect and zero reverse effect in only four development movies per direction. Neither tested the notebook's exact eight-view feature mechanism with the scratch reciprocal models on all 24 development movies.",
+  "confounding_control": "EXP207 uses one predictor source for both arms. Both arms use identical eight-view D4 detector-logit averaging; only BIOHUB_EDGE_FEATURE_TTA=0/1 changes association features.",
+  "admission": "Mechanism donor only. The full public-tuned stack and its public score are not OOF evidence.",
+  "duplicate_refresh_copy_cleanup": "The newly downloaded 2026-09-11 copy is byte-identical to the retained 2026-09-09 snapshot and is eligible for immediate removal after this receipt.",
+  "kaggle_action_authorized": false
+}

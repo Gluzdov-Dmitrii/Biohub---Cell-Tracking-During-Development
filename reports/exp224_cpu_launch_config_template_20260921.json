@@ -1,0 +1,15 @@
+{
+  "experiment": "EXP224",
+  "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921",
+  "entrypoint": "run_exp224_fixed_nodes.py",
+  "files": {
+    "run_exp224_fixed_nodes.py": "scripts/run_exp224_fixed_nodes.py",
+    "input_package.json": "reports/exp221_source8_hybrid_input_package_20260921.json"
+  },
+  "arguments": [],
+  "resources": {"cpu": 4, "ram_gib": 32, "gpus": 0, "timeout_seconds": 7200},
+  "reviewed_sources": {},
+  "launch_approved_after_code_review": false,
+  "note": "Template only: parent must set exact Grok CLI arguments/files and reviewed SHA values after review/tests. No automatic launch."
+}

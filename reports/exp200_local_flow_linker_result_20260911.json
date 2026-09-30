@@ -1,0 +1,48 @@
+{
+  "experiment": "EXP200",
+  "recorded_at": "2026-09-11",
+  "status": "POSITIVE_EXPLORATORY_BUT_FAILS_STRICT_STABILITY_GATE",
+  "parent_pooled_score": 0.7485183130743318,
+  "nested_candidate_pooled_score": 0.7498093389845101,
+  "nested_pooled_delta": 0.0012910259101782673,
+  "nested_direction_delta": {"forward": 0.0015903792878506628, "reverse": 0.0000040213138191580455},
+  "nested_selection_counts": {
+    "forward": {"flow_k32_a050": 11, "flow_k32_a025": 1},
+    "reverse": {"flow_k16_a025": 11, "flow_k32_a050": 1}
+  },
+  "stability": {
+    "draws": 20000,
+    "seed": 314159,
+    "probability_positive": 0.83545,
+    "q025": -0.0011955240961358637,
+    "median": 0.0012471077364362149,
+    "q975": 0.004008899189152796,
+    "leave_one_movie_out_min_delta": 0.00033316832070218183,
+    "leave_one_movie_out_max_delta": 0.0017973280289367288
+  },
+  "fixed_followup_policy_diagnostic": {
+    "forward": "flow_k32_a050",
+    "reverse": "flow_k16_a025",
+    "pooled_score": 0.7510028013762143,
+    "pooled_delta": 0.002484488301882526,
+    "warning": "Selected after viewing the 24-movie full-direction diagnostics; not confirmatory evidence. Freeze before untouched EXP192 inference and evaluate only on the 175 confirmation movies."
+  },
+  "gate": {
+    "translation_control_exact": true,
+    "positive_nested_pooled_delta": true,
+    "nonnegative_both_directions": true,
+    "positive_bootstrap_lower_bound": false,
+    "passed": false
+  },
+  "interpretation": "Bounded local residual flow is the first new linker mechanism after EXP195 with positive nested pooled and leave-one-movie-out evidence, but uncertainty still crosses zero. It is not a supported development frontier. A single fixed direction-specific policy is eligible only for preregistered untouched confirmation, without further 24-movie tuning.",
+  "artifacts": {
+    "forward_sha256": "4bd397cff6a157dad5d1f2fcbbf7e6d9b385668fd495b3ed4c1eacd45e9163f2",
+    "reverse_sha256": "01544799274b33b6c737e7c95efd75d0815b0d83bdf9eed0d0f9d016d8b86e2a",
+    "nested_selection_sha256": "5b85a19048561088a83d9773c8152d6812ed322ebbf539add800e40392dfb5bc",
+    "stability_sha256": "5edc67ea181898333decb0aad661e1cf2d16145e4024be92eb29d58228c5d1a7",
+    "sha256sums_sha256": "ac69cd1d8f1e0d98b322ec78e085a361ffb9c0a433aedc656489d9a8363a0dbe",
+    "remote_local_hash_match": true
+  },
+  "effect_on_exp192": "No automatic change; EXP201 must be separately frozen before untouched inference.",
+  "eligible_for_kaggle_submission": false
+}

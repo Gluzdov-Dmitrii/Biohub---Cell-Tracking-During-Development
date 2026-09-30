@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP206_ON_EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "CLEANUP_COMPLETE",
+  "local_removed": [
+    ".tmp/pytest_exp206_final",
+    ".tmp/pytest_exp206",
+    ".tmp/pycache_exp206",
+    ".tmp/pytest_exp206_integration",
+    ".tmp/pycache_exp206_integration",
+    "scripts/__pycache__/build_exp206_centroid_composed_confirmation_result.cpython-312.pyc",
+    "scripts/__pycache__/evaluate_cached_intensity_centroid_refinement.cpython-312.pyc",
+    "scripts/__pycache__/validate_exp206_centroid_chunks_no_metrics.cpython-312.pyc"
+  ],
+  "local_absence_verified": true,
+  "remote_owned_bytecode_found": false,
+  "remote_deletion_required": false,
+  "retained": [
+    "tested source and tests",
+    "preregistration and integration receipts",
+    "amended frozen postprocessor",
+    "active full-archive SCP transfer",
+    "all EXP192/201/202/206 dependencies"
+  ],
+  "gpu_lease_acquired": false,
+  "kaggle_action_authorized": false
+}

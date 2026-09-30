@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP203",
+  "recorded_at": "2026-09-11T10:52:00Z",
+  "status": "PREREGISTERED_DIAGNOSTIC_BEFORE_EXECUTION",
+  "purpose": "Explain the already frozen EXP201 direction-specific local-flow policy without selecting another arm or threshold.",
+  "inputs": [
+    "EXP200 forward and reverse result/telemetry JSONs",
+    "EXP196 official-match edge-failure decompositions for matching EXP190 controls"
+  ],
+  "fixed_arms": {"forward": "flow_k32_a050", "reverse": "flow_k16_a025"},
+  "outputs": [
+    "Pooled and directional edge TP/FP/FN changes",
+    "Per-movie score and node-recall deltas and win/loss/tie counts",
+    "Pearson/Spearman association between score delta and pre-existing association-FN share",
+    "Pearson/Spearman association with inference-only mean correction magnitude and mutual-pair count"
+  ],
+  "guard": "No classifier, gate, threshold, policy or promotion decision may be derived from this 24-movie post-hoc diagnostic. EXP201/202 and EXP192 remain frozen.",
+  "implementation": {
+    "script": {"path": "scripts/analyze_exp200_local_flow_mechanism.py", "sha256": "2629d8618c3934938bf7294ac25aa9520bc667c617ec7fc1af1deeb7794f451f"},
+    "test": {"path": "tests/test_analyze_exp200_local_flow_mechanism.py", "sha256": "247f92fcb4bfefc90162e8cb2b12cd696ce86d47598c58f75afe5cf6e5095a1a", "result": "1 passed"},
+    "compile": "PASS"
+  },
+  "eligible_for_kaggle_submission": false
+}

@@ -1,0 +1,45 @@
+{
+  "note": "Current source pulled read-only after close. Submission scriptVersionIds in live API are immutable references; a current pull alone does not prove source-version equality. Historical exact sources and diffs preserved in work/final-pair-audit-20260929.",
+  "files": [
+    {
+      "path": "final_kernels/arsgorynich__biohub-centered-edge-production/biohub-centered-edge-production.ipynb",
+      "bytes": 253810,
+      "sha256": "a38d86d1e64f56eb825d26ac95a8323fb1e58a8114f104ce063a6f1f90ef5b38"
+    },
+    {
+      "path": "final_kernels/arsgorynich__biohub-centered-edge-production/kernel-metadata.json",
+      "bytes": 909,
+      "sha256": "2902e9270913956c8c9b5ef48d296c2e7a472fed7f019ee7b89e584677535062"
+    },
+    {
+      "path": "final_kernels/arsgorynich__biohub-edge-relink-candidate/biohub-edge-relink-candidate.ipynb",
+      "bytes": 268778,
+      "sha256": "6e95d5559dfc533d63234a5b977a8c6c934656e2e6193514f06a31ea7a773b76"
+    },
+    {
+      "path": "final_kernels/arsgorynich__biohub-edge-relink-candidate/kernel-metadata.json",
+      "bytes": 900,
+      "sha256": "ae9907f398eb4b51a121d731515176bddec91f8616127c04607c543026067c26"
+    },
+    {
+      "path": "final_kernels/dmitriigluzdov__biohub-horaz-full-data-e10/biohub-horaz-full-data-e10.py",
+      "bytes": 11177,
+      "sha256": "66bfaa998d5511c1c95c609cec187d745bf97f8c446e86dabbc594301763448e"
+    },
+    {
+      "path": "final_kernels/dmitriigluzdov__biohub-horaz-full-data-e10/kernel-metadata.json",
+      "bytes": 794,
+      "sha256": "51ac0aa07bb1a518cfca790cd8da06edbd63c09b670e364046c08ed5b2c5996d"
+    },
+    {
+      "path": "final_kernels/dmitriigluzdov__biohub-horaz-full-data-e20/biohub-horaz-full-data-e20.py",
+      "bytes": 11177,
+      "sha256": "3121bf699d2b8bfb41ddce12351621ba0fff92ff2b4eef8ed6fc1b135cd29d76"
+    },
+    {
+      "path": "final_kernels/dmitriigluzdov__biohub-horaz-full-data-e20/kernel-metadata.json",
+      "bytes": 794,
+      "sha256": "1666f8eb56e51d5133d3179db656878bbf03c832b039ca170ddacaed07f6b99a"
+    }
+  ]
+}

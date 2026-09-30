@@ -1,0 +1,28 @@
+{
+  "config": {
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp238_source44_peak_cache_v1_20260927/exp238_plan.json",
+      "--plan-sha256",
+      "c0dd159d03c4fd3ccd4f64ceb9f624987075a6a353e03ac54a5bedb0dfb6f2a5",
+      "--manifest-sha256",
+      "f2f0046b532423c50198dd1bf5c8b14d7c9c56c05b972e799139b6f9c1d845fd"
+    ],
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp238_source44_peak_cache_v1_20260927",
+    "cohort": "source44",
+    "cpu_affinity": "0-7",
+    "experiment": "EXP238",
+    "lease_id": "exp238-source44-peak-cache-v1-20260927",
+    "max_seconds": 3600,
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp238_source44_peak_cache_v1_20260927",
+    "script": "run_exp238_peak_cache.py",
+    "token": "exp238_source44_peak_cache_v1_20260927"
+  },
+  "preflight": {
+    "labels_read": false,
+    "movies": 8,
+    "run_absent": true,
+    "status": "PASS_EXP238_LAUNCH_PREFLIGHT_NO_LABELS"
+  },
+  "stage_receipt_sha256": "2275f8ff5593256197af81b95b25a37c8d077c2ec033304ccea776171308da32",
+  "status": "INTENT_EXP238_A100_REQUEST"
+}

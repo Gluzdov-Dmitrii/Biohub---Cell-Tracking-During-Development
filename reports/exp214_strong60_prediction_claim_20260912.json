@@ -1,0 +1,18 @@
+{
+  "started": 1789257839.1677318,
+  "lanes": [
+    [
+      "44b6_00",
+      "44b6_01",
+      "44b6_02",
+      "44b6_03",
+      "44b6_04"
+    ],
+    [
+      "6bba_00",
+      "6bba_01",
+      "6bba_02"
+    ]
+  ],
+  "scope": "Only eight frozen paired shards after all training/release; no target metrics or POST"
+}

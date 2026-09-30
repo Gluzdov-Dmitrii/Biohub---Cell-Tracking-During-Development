@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP216",
+  "recorded_at": "2026-09-15",
+  "status": "PREREGISTERED_NOT_RUN",
+  "purpose": "Decompose official edge errors on the current EXP214 gapfix paired175 final submission CSV graphs, using the official evaluator matching before choosing the next local-OOF improvement path.",
+  "parent": {
+    "experiment": "EXP214 gapfix",
+    "metrics": "outputs/research/exp214_gapfix_score175_20260914/output/new90/metrics.json",
+    "frontier_public_score": 0.7427291486246141,
+    "frontier_local_score": 0.7132851517671771
+  },
+  "hypothesis": "If final EXP214 errors are endpoint-limited, prioritize detector/data processing and dense pseudo-label routes; if association-limited or valid wrong-association FP dominates, prioritize linker architecture or post-processing. Do not tune thresholds in this diagnostic.",
+  "scope": "Read-only diagnostic on already frozen EXP214 gapfix paired175 predictions; no inference change, no retuning, no Kaggle POST.",
+  "integrity_gates": [
+    "Verify every input CSV SHA against the frozen EXP214 metrics.json input_hashes.",
+    "Rebuild each graph from CSV and run the official evaluator against target labels on the cluster.",
+    "Assert decomposed edge_tp, edge_fn and edge_fp exactly match official evaluator counts and the recorded EXP214 metrics rows.",
+    "Report pooled, by-embryo and top-movie endpoint/association error modes."
+  ],
+  "implementation": {
+    "path": "scripts/analyze_submission_edge_failure_modes.py"
+  },
+  "eligible_for_kaggle_submission": false
+}

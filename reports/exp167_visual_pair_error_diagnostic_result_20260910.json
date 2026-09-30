@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP167",
+  "status": "DIAGNOSTIC_COMPLETE_NO_COMPETITION_EVALUATION",
+  "raw_label_warning": "Raw JSON retains internal EXP165 label; this receipt binds it to EXP167.",
+  "raw_result_sha256": "bfcab7998c78710913659fd25d8526b1c22b520902cdc17d51984407be5b5ab5",
+  "parent_csv_sha256": "81644a40b94bf34ad8802fe6a981a25aeef6b10b4db3249b7dd930366f2e3284",
+  "launcher_sha256": "0cacc02fb175f12076ea066db57d05d042e5170bda2cdeb34721b2704a59fd0a",
+  "covered_division_parents": 183,
+  "top_pair_recall": {
+    "scratch": 0.9234972677595629,
+    "pretrained_feature": 0.9180327868852459,
+    "equal_rank_ensemble": 0.9180327868852459
+  },
+  "operating_points": {
+    "scratch": "17/34",
+    "pretrained_feature": "20/39",
+    "equal_rank_ensemble": "28/56"
+  },
+  "interpretation": "Pair choice is already correct for about 92% of covered true divisions; division-parent propensity/calibration is the dominant failure.",
+  "data_access": "External 64-shard time validation only; no competition data.",
+  "resource_cleanup": "Process completed; RTX6000 at 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}

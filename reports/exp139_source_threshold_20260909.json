@@ -1,0 +1,86 @@
+{
+  "experiment": "EXP139",
+  "date": "2026-09-09",
+  "hypothesis": "Select detector threshold on two source-embryo validation movies, then evaluate it once on target development.",
+  "source_selection": {
+    "threshold_grid": [0.95, 0.97, 0.985, 0.99],
+    "source_scores": [0.5574210797568491, 0.5464361545050102, 0.5524158064706544, 0.5370767213270651],
+    "source_node_recalls": [0.8211640211640212, 0.798941798941799, 0.7896825396825398, 0.7730158730158729],
+    "selected_threshold": 0.95,
+    "selection_sha256": "56f4a0adf6109aabad50523a2306fd0f45c70e1939e3f3e1e0bad6c885070939",
+    "target_data_used_for_selection": false
+  },
+  "implementation": {
+    "selector_sha256": "ad198b844899bdb6f23d3fe962990bc10a996d21bddb0127f482279ead2df4c7",
+    "launcher_sha256": "11d32bf3119eae8c4cf3f388fce949906ed42b18544bd0cc8d554310add810b9",
+    "source_movies_sha256": "44044f26d08e12527bc4e75ddce1fc06ec072413182f4ab6a4f3517cacc58ac8",
+    "target_eval_log_sha256": "3430da76d22478df2e5b15fe8364bdbfbe4023abb23b7e0a08c3f2321a4619d6"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "queue_id": "biohub-exp139-source-threshold-20260909",
+    "lease_final_state": "RELEASED",
+    "verified_after_exit": "PID absent; GPU 5 MiB and 0% utilization"
+  },
+  "status": "REJECT_PRIVATE_DEVELOPMENT_GATE",
+  "arm": "registered_hungarian",
+  "inputs": {
+    "parent": "outputs\\research\\exp130_official24_private_first\\seed271828_zebrahub_registered_result.json",
+    "parent_sha256": "a93a2e068952c98178bf422ae9a9e873d0b25c9246a09e89482935c2aefa849c",
+    "candidate": "outputs\\research\\exp130_official24_private_first\\exp139_remote_artifacts\\target_registered_result.json",
+    "candidate_sha256": "abe9a2c93dd09bc827d86cf8a5b981aac1c47f3731718b04539d9cec304c5b46"
+  },
+  "dataset_count": 4,
+  "parent_score": 0.6711156817428906,
+  "candidate_score": 0.6768015580590282,
+  "pooled_delta": 0.005685876316137595,
+  "parent_node_recall": 0.9657465452790714,
+  "candidate_node_recall": 0.9743460179102683,
+  "node_recall_delta": 0.00859947263119687,
+  "per_movie": [
+    {
+      "dataset": "6bba_05b6850b.zarr",
+      "parent_score": 0.6462614677798283,
+      "candidate_score": 0.6406788819099581,
+      "delta": -0.005582585869870149,
+      "parent_node_recall": 0.9953542392566783,
+      "candidate_node_recall": 0.9953542392566783
+    },
+    {
+      "dataset": "6bba_05db0fb1.zarr",
+      "parent_score": 0.78116937232403,
+      "candidate_score": 0.8042008021160713,
+      "delta": 0.023031429792041203,
+      "parent_node_recall": 0.9560618388934092,
+      "candidate_node_recall": 0.9747762408462164
+    },
+    {
+      "dataset": "6bba_062c8d37.zarr",
+      "parent_score": 0.5955625973610982,
+      "candidate_score": 0.5952372569712342,
+      "delta": -0.0003253403898639817,
+      "parent_node_recall": 0.9344086021505377,
+      "candidate_node_recall": 0.9419354838709677
+    },
+    {
+      "dataset": "6bba_07477033.zarr",
+      "parent_score": 0.6266291901242473,
+      "candidate_score": 0.6280249360223381,
+      "delta": 0.0013957458980907722,
+      "parent_node_recall": 0.9771615008156607,
+      "candidate_node_recall": 0.9853181076672104
+    }
+  ],
+  "checks": {
+    "positive_pooled_score": true,
+    "no_negative_movie_delta": false,
+    "no_pooled_node_recall_regression": true
+  },
+  "gate_pass": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0,
+  "cleanup": "Empty remote launcher log removed; source-grid caches, selection, target result and logs preserved for replication and CPU analysis.",
+  "decision": "Reject strict promotion despite positive pooled score and node recall: 2 of 4 target-development movies regress. Retain source-only calibration as a promising mechanism requiring independent seed and reciprocal-fold evidence."
+}

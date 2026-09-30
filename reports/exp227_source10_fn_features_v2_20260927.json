@@ -1,0 +1,915 @@
+{
+  "status": "PASS_EXP227_SOURCE10_FN_FEATURES",
+  "evidence_class": "post hoc source-inner training monitor, not target OOF or a tuned candidate",
+  "source_score": 0.8114014924249717,
+  "source_graph_gate": "PASS_EXP227_SOURCE_GRAPH10_BEFORE_LABEL_ACCESS",
+  "inputs": [
+    {
+      "dataset": "44b6_996155de",
+      "graph_csv_sha256": "ab4abc463eb91ae299eff5fa5a6031e45c5ffc54408cd7dc9613834d4b62b6b7",
+      "graph_receipt_sha256": "fa84776d80133c92d1725dfadf890c85507a31065d45c1df1b5448b0a5f99516",
+      "gt_geff_tree_sha256": "40d9b02706df6cbe85eee251eb863c8408f8e646c4e00566ae7ad961a2301a7b"
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "graph_csv_sha256": "df8d7326de5fd40b8bd6fb2e0fb65c7c937f77ce3495fbb84b550d6f0105aae1",
+      "graph_receipt_sha256": "48921579e0cc78690d462fbfbf1d1dcbcd76651b37a65b11481da8436d43856b",
+      "gt_geff_tree_sha256": "62ea7080d1e477d81b28263f53aecb911f1801332527f4e2bd323f80d877cc69"
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "graph_csv_sha256": "7e347384b3bf031bef0785b45f23a1734b90a7ae997a05fea1f3068095e0f7e1",
+      "graph_receipt_sha256": "b593331f8130d2422671ce7dcba5622960b63e2d98124eaad3594a18ab720fd4",
+      "gt_geff_tree_sha256": "5f63c09329563cf53b74f64d283609eab5c88e3d218d90d9c9dab647671b2a13"
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "graph_csv_sha256": "57f4f629a43b9f7408a8284dbb0cacee33fa392cec2256b15876df0422c49cd4",
+      "graph_receipt_sha256": "0aee3c19cbc8870a8d39a89fd35777d2351cee45569a48545a4afbbdf6f3cc8f",
+      "gt_geff_tree_sha256": "da705914c3ae0ec9efb8bdeeb2002a1b850401c83eb7beb71909e21f7e38f00f"
+    },
+    {
+      "dataset": "44b6_90724892",
+      "graph_csv_sha256": "7292325efcad75ec162fa4dc7983dab6e832fc54dd86c48d4a7024681b456812",
+      "graph_receipt_sha256": "591a4403a73fc06b8c097a660da006de5fff8aae21657501b74a4572cc8e6f60",
+      "gt_geff_tree_sha256": "b967502dc4e4a563733e4868218f6a10cfb9b3dfbfd48dc6086454ec6f648eb0"
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "graph_csv_sha256": "a352d1be2bc94cdcc1ba9dbcdde994ab447141583d2a5c5880f60e148777e8a0",
+      "graph_receipt_sha256": "75256035d6cfe74c6fff7cde45d2fc004c1905ba5444640cafe5c2ec7eff005d",
+      "gt_geff_tree_sha256": "5b0eee85fbb8e6772ee94a54d481a905107168686c40eb6eafc8f283d5338ade"
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "graph_csv_sha256": "f4c65f93f3633ae83b6593f53321b037acb4c7e63ec173d7aeaed55d2b6e6657",
+      "graph_receipt_sha256": "8fe11441f695c1aeddd66ee055b39b13b49012e5febbcd6414f161fae3a65c5e",
+      "gt_geff_tree_sha256": "b024684791fd972bcb4a6acf0c7a0a5deb7516f5551c665a324d4b5bdcf154eb"
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "graph_csv_sha256": "c1dec0829eed7dd6be49938eb871d32cad07f6b6979e5d6d9fe68a86bba6af3a",
+      "graph_receipt_sha256": "1d9fdb1b8861510af204c7055d10a37f17bff6ea6d7b6bd61d80344f2cf4c236",
+      "gt_geff_tree_sha256": "225e560d40b936784575b83ff8dfa3700c020e27f75c85c3d61b1e8b8b7b2e3d"
+    }
+  ],
+  "movies": [
+    {
+      "dataset": "44b6_996155de",
+      "official_edge_fn": 12,
+      "endpoint_limited_fn": 10,
+      "division_parents": 1,
+      "features": {
+        "eligible_nodes": 380,
+        "endpoint_missed_nodes": 7,
+        "miss_rate": 0.018421052631578946,
+        "center_intensity": {
+          "missed_median": 867.5066666666667,
+          "matched_median": 619.3733333333333
+        },
+        "local_contrast": {
+          "missed_median": 161.50666666666666,
+          "matched_median": 105.5333333333333
+        },
+        "contrast_snr": {
+          "missed_median": 0.8309458410036971,
+          "matched_median": 1.0136143584304311
+        },
+        "nearest_um": {
+          "missed_median": 11.774243606278919,
+          "matched_median": 19.231550615135017
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 15.84375,
+          "matched_median": 25.59375
+        },
+        "time_fraction": {
+          "missed_median": 0.48484848484848486,
+          "matched_median": 0.5252525252525253
+        },
+        "low_intensity_q1": {
+          "threshold": 554.45,
+          "exposed_nodes": 95,
+          "exposed_missed": 0,
+          "other_nodes": 285,
+          "other_missed": 7,
+          "exposed_rate": 0.0,
+          "other_rate": 0.02456140350877193,
+          "risk_difference": -0.02456140350877193
+        },
+        "low_contrast_q1": {
+          "threshold": 84.52666666666667,
+          "exposed_nodes": 95,
+          "exposed_missed": 0,
+          "other_nodes": 285,
+          "other_missed": 7,
+          "exposed_rate": 0.0,
+          "other_rate": 0.02456140350877193,
+          "risk_difference": -0.02456140350877193
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.8919149097153202,
+          "exposed_nodes": 95,
+          "exposed_missed": 4,
+          "other_nodes": 285,
+          "other_missed": 3,
+          "exposed_rate": 0.042105263157894736,
+          "other_rate": 0.010526315789473684,
+          "risk_difference": 0.031578947368421054
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 21,
+          "exposed_missed": 0,
+          "other_nodes": 359,
+          "other_missed": 7,
+          "exposed_rate": 0.0,
+          "other_rate": 0.019498607242339833,
+          "risk_difference": -0.019498607242339833
+        },
+        "late_time_q4": {
+          "exposed_nodes": 100,
+          "exposed_missed": 3,
+          "other_nodes": 280,
+          "other_missed": 4,
+          "exposed_rate": 0.03,
+          "other_rate": 0.014285714285714285,
+          "risk_difference": 0.015714285714285715
+        },
+        "near_division_2frames": {
+          "exposed_nodes": 17,
+          "exposed_missed": 0,
+          "other_nodes": 363,
+          "other_missed": 7,
+          "exposed_rate": 0.0,
+          "other_rate": 0.01928374655647383,
+          "risk_difference": -0.01928374655647383
+        }
+      }
+    },
+    {
+      "dataset": "44b6_c50204e0",
+      "official_edge_fn": 82,
+      "endpoint_limited_fn": 52,
+      "division_parents": 2,
+      "features": {
+        "eligible_nodes": 333,
+        "endpoint_missed_nodes": 37,
+        "miss_rate": 0.1111111111111111,
+        "center_intensity": {
+          "missed_median": 2532.74,
+          "matched_median": 2753.1133333333337
+        },
+        "local_contrast": {
+          "missed_median": 175.30666666666684,
+          "matched_median": 238.51999999999998
+        },
+        "contrast_snr": {
+          "missed_median": 0.6863359015592165,
+          "matched_median": 0.8838582796797463
+        },
+        "nearest_um": {
+          "missed_median": 28.292038688030242,
+          "matched_median": 24.25622101260829
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 10.5625,
+          "matched_median": 11.375
+        },
+        "time_fraction": {
+          "missed_median": 0.6565656565656566,
+          "matched_median": 0.5707070707070707
+        },
+        "low_intensity_q1": {
+          "threshold": 2278.56,
+          "exposed_nodes": 84,
+          "exposed_missed": 6,
+          "other_nodes": 249,
+          "other_missed": 31,
+          "exposed_rate": 0.07142857142857142,
+          "other_rate": 0.12449799196787148,
+          "risk_difference": -0.053069420539300055
+        },
+        "low_contrast_q1": {
+          "threshold": 135.14666666666653,
+          "exposed_nodes": 84,
+          "exposed_missed": 9,
+          "other_nodes": 249,
+          "other_missed": 28,
+          "exposed_rate": 0.10714285714285714,
+          "other_rate": 0.11244979919678715,
+          "risk_difference": -0.005306942053930008
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.5644524586784274,
+          "exposed_nodes": 84,
+          "exposed_missed": 14,
+          "other_nodes": 249,
+          "other_missed": 23,
+          "exposed_rate": 0.16666666666666666,
+          "other_rate": 0.09236947791164658,
+          "risk_difference": 0.07429718875502007
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 84,
+          "exposed_missed": 14,
+          "other_nodes": 249,
+          "other_missed": 23,
+          "exposed_rate": 0.16666666666666666,
+          "other_rate": 0.09236947791164658,
+          "risk_difference": 0.07429718875502007
+        },
+        "late_time_q4": {
+          "exposed_nodes": 102,
+          "exposed_missed": 5,
+          "other_nodes": 231,
+          "other_missed": 32,
+          "exposed_rate": 0.049019607843137254,
+          "other_rate": 0.13852813852813853,
+          "risk_difference": -0.08950853068500128
+        },
+        "near_division_2frames": {
+          "exposed_nodes": 29,
+          "exposed_missed": 6,
+          "other_nodes": 304,
+          "other_missed": 31,
+          "exposed_rate": 0.20689655172413793,
+          "other_rate": 0.10197368421052631,
+          "risk_difference": 0.10492286751361161
+        }
+      }
+    },
+    {
+      "dataset": "44b6_c96cfa10",
+      "official_edge_fn": 64,
+      "endpoint_limited_fn": 39,
+      "division_parents": 0,
+      "features": {
+        "eligible_nodes": 629,
+        "endpoint_missed_nodes": 30,
+        "miss_rate": 0.04769475357710652,
+        "center_intensity": {
+          "missed_median": 1071.2266666666667,
+          "matched_median": 1916.4533333333334
+        },
+        "local_contrast": {
+          "missed_median": 88.59999999999997,
+          "matched_median": 332.69333333333316
+        },
+        "contrast_snr": {
+          "missed_median": 0.7941520454352029,
+          "matched_median": 1.1011540061866603
+        },
+        "nearest_um": {
+          "missed_median": 51.279074845728786,
+          "matched_median": 25.812064917640743
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 0.40625,
+          "matched_median": 20.71875
+        },
+        "time_fraction": {
+          "missed_median": 0.7222222222222222,
+          "matched_median": 0.47474747474747475
+        },
+        "low_intensity_q1": {
+          "threshold": 1654.4133333333334,
+          "exposed_nodes": 158,
+          "exposed_missed": 25,
+          "other_nodes": 471,
+          "other_missed": 5,
+          "exposed_rate": 0.15822784810126583,
+          "other_rate": 0.010615711252653927,
+          "risk_difference": 0.1476121368486119
+        },
+        "low_contrast_q1": {
+          "threshold": 189.23999999999978,
+          "exposed_nodes": 158,
+          "exposed_missed": 26,
+          "other_nodes": 471,
+          "other_missed": 4,
+          "exposed_rate": 0.16455696202531644,
+          "other_rate": 0.008492569002123142,
+          "risk_difference": 0.1560643930231933
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.8254377390153793,
+          "exposed_nodes": 158,
+          "exposed_missed": 16,
+          "other_nodes": 471,
+          "other_missed": 14,
+          "exposed_rate": 0.10126582278481013,
+          "other_rate": 0.029723991507430998,
+          "risk_difference": 0.07154183127737912
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 107,
+          "exposed_missed": 23,
+          "other_nodes": 522,
+          "other_missed": 7,
+          "exposed_rate": 0.21495327102803738,
+          "other_rate": 0.013409961685823755,
+          "risk_difference": 0.20154330934221362
+        },
+        "late_time_q4": {
+          "exposed_nodes": 157,
+          "exposed_missed": 14,
+          "other_nodes": 472,
+          "other_missed": 16,
+          "exposed_rate": 0.08917197452229299,
+          "other_rate": 0.03389830508474576,
+          "risk_difference": 0.055273669437547225
+        },
+        "near_division_2frames": null
+      }
+    },
+    {
+      "dataset": "44b6_551a5dba",
+      "official_edge_fn": 28,
+      "endpoint_limited_fn": 8,
+      "division_parents": 0,
+      "features": {
+        "eligible_nodes": 228,
+        "endpoint_missed_nodes": 5,
+        "miss_rate": 0.021929824561403508,
+        "center_intensity": {
+          "missed_median": 2739.3333333333335,
+          "matched_median": 2736.9466666666667
+        },
+        "local_contrast": {
+          "missed_median": 149.33333333333348,
+          "matched_median": 299.2933333333335
+        },
+        "contrast_snr": {
+          "missed_median": 0.45873998755492773,
+          "matched_median": 0.8384098338636372
+        },
+        "nearest_um": {
+          "missed_median": 18.389264233853947,
+          "matched_median": 17.62394722033064
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 32.5,
+          "matched_median": 37.78125
+        },
+        "time_fraction": {
+          "missed_median": 0.30303030303030304,
+          "matched_median": 0.43434343434343436
+        },
+        "low_intensity_q1": {
+          "threshold": 2511.173333333333,
+          "exposed_nodes": 57,
+          "exposed_missed": 1,
+          "other_nodes": 171,
+          "other_missed": 4,
+          "exposed_rate": 0.017543859649122806,
+          "other_rate": 0.023391812865497075,
+          "risk_difference": -0.005847953216374269
+        },
+        "low_contrast_q1": {
+          "threshold": 223.9433333333335,
+          "exposed_nodes": 57,
+          "exposed_missed": 3,
+          "other_nodes": 171,
+          "other_missed": 2,
+          "exposed_rate": 0.05263157894736842,
+          "other_rate": 0.011695906432748537,
+          "risk_difference": 0.04093567251461988
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.6593049645369817,
+          "exposed_nodes": 57,
+          "exposed_missed": 3,
+          "other_nodes": 171,
+          "other_missed": 2,
+          "exposed_rate": 0.05263157894736842,
+          "other_rate": 0.011695906432748537,
+          "risk_difference": 0.04093567251461988
+        },
+        "crowded_nearest_lt6um": {
+          "exposed_nodes": 34,
+          "exposed_missed": 0,
+          "other_nodes": 194,
+          "other_missed": 5,
+          "exposed_rate": 0.0,
+          "other_rate": 0.02577319587628866,
+          "risk_difference": -0.02577319587628866
+        },
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 9,
+          "exposed_missed": 0,
+          "other_nodes": 219,
+          "other_missed": 5,
+          "exposed_rate": 0.0,
+          "other_rate": 0.0228310502283105,
+          "risk_difference": -0.0228310502283105
+        },
+        "late_time_q4": {
+          "exposed_nodes": 50,
+          "exposed_missed": 0,
+          "other_nodes": 178,
+          "other_missed": 5,
+          "exposed_rate": 0.0,
+          "other_rate": 0.028089887640449437,
+          "risk_difference": -0.028089887640449437
+        },
+        "near_division_2frames": null
+      }
+    },
+    {
+      "dataset": "44b6_90724892",
+      "official_edge_fn": 16,
+      "endpoint_limited_fn": 11,
+      "division_parents": 0,
+      "features": {
+        "eligible_nodes": 105,
+        "endpoint_missed_nodes": 8,
+        "miss_rate": 0.0761904761904762,
+        "center_intensity": {
+          "missed_median": 1906.66,
+          "matched_median": 2215.9733333333334
+        },
+        "local_contrast": {
+          "missed_median": 257.6600000000001,
+          "matched_median": 278.5999999999999
+        },
+        "contrast_snr": {
+          "missed_median": 0.8850156854846827,
+          "matched_median": 0.878779893233613
+        },
+        "nearest_um": {
+          "missed_median": 18.70298652689145,
+          "matched_median": 18.501108497195514
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 28.03125,
+          "matched_median": 23.5625
+        },
+        "time_fraction": {
+          "missed_median": 0.5202020202020202,
+          "matched_median": 0.5757575757575758
+        },
+        "low_intensity_q1": {
+          "threshold": 1803.2,
+          "exposed_nodes": 27,
+          "exposed_missed": 3,
+          "other_nodes": 78,
+          "other_missed": 5,
+          "exposed_rate": 0.1111111111111111,
+          "other_rate": 0.0641025641025641,
+          "risk_difference": 0.04700854700854701
+        },
+        "low_contrast_q1": {
+          "threshold": 181.90666666666675,
+          "exposed_nodes": 27,
+          "exposed_missed": 2,
+          "other_nodes": 78,
+          "other_missed": 6,
+          "exposed_rate": 0.07407407407407407,
+          "other_rate": 0.07692307692307693,
+          "risk_difference": -0.0028490028490028574
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.6736118889005186,
+          "exposed_nodes": 27,
+          "exposed_missed": 1,
+          "other_nodes": 78,
+          "other_missed": 7,
+          "exposed_rate": 0.037037037037037035,
+          "other_rate": 0.08974358974358974,
+          "risk_difference": -0.05270655270655271
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 16,
+          "exposed_missed": 0,
+          "other_nodes": 89,
+          "other_missed": 8,
+          "exposed_rate": 0.0,
+          "other_rate": 0.0898876404494382,
+          "risk_difference": -0.0898876404494382
+        },
+        "late_time_q4": {
+          "exposed_nodes": 17,
+          "exposed_missed": 0,
+          "other_nodes": 88,
+          "other_missed": 8,
+          "exposed_rate": 0.0,
+          "other_rate": 0.09090909090909091,
+          "risk_difference": -0.09090909090909091
+        },
+        "near_division_2frames": null
+      }
+    },
+    {
+      "dataset": "44b6_f28707c6",
+      "official_edge_fn": 20,
+      "endpoint_limited_fn": 19,
+      "division_parents": 0,
+      "features": {
+        "eligible_nodes": 63,
+        "endpoint_missed_nodes": 15,
+        "miss_rate": 0.23809523809523808,
+        "center_intensity": {
+          "missed_median": 1098.32,
+          "matched_median": 1084.7866666666666
+        },
+        "local_contrast": {
+          "missed_median": 134.2933333333333,
+          "matched_median": 151.2249999999999
+        },
+        "contrast_snr": {
+          "missed_median": 0.7670892121818959,
+          "matched_median": 1.1131100072936992
+        },
+        "nearest_um": {
+          "missed_median": 178.72876294297177,
+          "matched_median": 178.72876294297177
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 22.34375,
+          "matched_median": 21.125
+        },
+        "time_fraction": {
+          "missed_median": 0.42424242424242425,
+          "matched_median": 0.3787878787878788
+        },
+        "low_intensity_q1": {
+          "threshold": 1023.9399999999999,
+          "exposed_nodes": 16,
+          "exposed_missed": 6,
+          "other_nodes": 47,
+          "other_missed": 9,
+          "exposed_rate": 0.375,
+          "other_rate": 0.19148936170212766,
+          "risk_difference": 0.18351063829787234
+        },
+        "low_contrast_q1": {
+          "threshold": 109.16499999999996,
+          "exposed_nodes": 16,
+          "exposed_missed": 6,
+          "other_nodes": 47,
+          "other_missed": 9,
+          "exposed_rate": 0.375,
+          "other_rate": 0.19148936170212766,
+          "risk_difference": 0.18351063829787234
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.7751779648866632,
+          "exposed_nodes": 16,
+          "exposed_missed": 8,
+          "other_nodes": 47,
+          "other_missed": 7,
+          "exposed_rate": 0.5,
+          "other_rate": 0.14893617021276595,
+          "risk_difference": 0.35106382978723405
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 12,
+          "exposed_missed": 3,
+          "other_nodes": 51,
+          "other_missed": 12,
+          "exposed_rate": 0.25,
+          "other_rate": 0.23529411764705882,
+          "risk_difference": 0.01470588235294118
+        },
+        "late_time_q4": null,
+        "near_division_2frames": null
+      }
+    },
+    {
+      "dataset": "44b6_deabac95",
+      "official_edge_fn": 8,
+      "endpoint_limited_fn": 5,
+      "division_parents": 1,
+      "features": {
+        "eligible_nodes": 126,
+        "endpoint_missed_nodes": 3,
+        "miss_rate": 0.023809523809523808,
+        "center_intensity": {
+          "missed_median": 1315.0133333333333,
+          "matched_median": 1243.16
+        },
+        "local_contrast": {
+          "missed_median": 124.86666666666656,
+          "matched_median": 237.48000000000002
+        },
+        "contrast_snr": {
+          "missed_median": 0.6897052902490732,
+          "matched_median": 1.1132724351694534
+        },
+        "nearest_um": {
+          "missed_median": 178.72876294297177,
+          "matched_median": 26.167672237180366
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 3.25,
+          "matched_median": 24.375
+        },
+        "time_fraction": {
+          "missed_median": 0.6767676767676768,
+          "matched_median": 0.5252525252525253
+        },
+        "low_intensity_q1": {
+          "threshold": 1105.98,
+          "exposed_nodes": 32,
+          "exposed_missed": 0,
+          "other_nodes": 94,
+          "other_missed": 3,
+          "exposed_rate": 0.0,
+          "other_rate": 0.031914893617021274,
+          "risk_difference": -0.031914893617021274
+        },
+        "low_contrast_q1": {
+          "threshold": 186.47999999999996,
+          "exposed_nodes": 32,
+          "exposed_missed": 2,
+          "other_nodes": 94,
+          "other_missed": 1,
+          "exposed_rate": 0.0625,
+          "other_rate": 0.010638297872340425,
+          "risk_difference": 0.05186170212765957
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 0.9098776083155105,
+          "exposed_nodes": 32,
+          "exposed_missed": 2,
+          "other_nodes": 94,
+          "other_missed": 1,
+          "exposed_rate": 0.0625,
+          "other_rate": 0.010638297872340425,
+          "risk_difference": 0.05186170212765957
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 19,
+          "exposed_missed": 2,
+          "other_nodes": 107,
+          "other_missed": 1,
+          "exposed_rate": 0.10526315789473684,
+          "other_rate": 0.009345794392523364,
+          "risk_difference": 0.09591736350221347
+        },
+        "late_time_q4": {
+          "exposed_nodes": 22,
+          "exposed_missed": 1,
+          "other_nodes": 104,
+          "other_missed": 2,
+          "exposed_rate": 0.045454545454545456,
+          "other_rate": 0.019230769230769232,
+          "risk_difference": 0.026223776223776224
+        },
+        "near_division_2frames": {
+          "exposed_nodes": 7,
+          "exposed_missed": 0,
+          "other_nodes": 119,
+          "other_missed": 3,
+          "exposed_rate": 0.0,
+          "other_rate": 0.025210084033613446,
+          "risk_difference": -0.025210084033613446
+        }
+      }
+    },
+    {
+      "dataset": "44b6_341df25f",
+      "official_edge_fn": 10,
+      "endpoint_limited_fn": 9,
+      "division_parents": 1,
+      "features": {
+        "eligible_nodes": 216,
+        "endpoint_missed_nodes": 10,
+        "miss_rate": 0.046296296296296294,
+        "center_intensity": {
+          "missed_median": 1165.6333333333332,
+          "matched_median": 953.4666666666667
+        },
+        "local_contrast": {
+          "missed_median": 250.5866666666667,
+          "matched_median": 247.09333333333336
+        },
+        "contrast_snr": {
+          "missed_median": 1.250578348042864,
+          "matched_median": 1.3317841875144036
+        },
+        "nearest_um": {
+          "missed_median": 18.84797585611654,
+          "matched_median": 19.55207843534962
+        },
+        "neighbors6": {
+          "missed_median": 0.0,
+          "matched_median": 0.0
+        },
+        "border_um": {
+          "missed_median": 2.640625,
+          "matched_median": 28.4375
+        },
+        "time_fraction": {
+          "missed_median": 0.05555555555555555,
+          "matched_median": 0.48484848484848486
+        },
+        "low_intensity_q1": {
+          "threshold": 865.8333333333334,
+          "exposed_nodes": 54,
+          "exposed_missed": 0,
+          "other_nodes": 162,
+          "other_missed": 10,
+          "exposed_rate": 0.0,
+          "other_rate": 0.06172839506172839,
+          "risk_difference": -0.06172839506172839
+        },
+        "low_contrast_q1": {
+          "threshold": 215.61666666666667,
+          "exposed_nodes": 54,
+          "exposed_missed": 1,
+          "other_nodes": 162,
+          "other_missed": 9,
+          "exposed_rate": 0.018518518518518517,
+          "other_rate": 0.05555555555555555,
+          "risk_difference": -0.037037037037037035
+        },
+        "low_contrast_snr_q1": {
+          "threshold": 1.2087000967707437,
+          "exposed_nodes": 54,
+          "exposed_missed": 3,
+          "other_nodes": 162,
+          "other_missed": 7,
+          "exposed_rate": 0.05555555555555555,
+          "other_rate": 0.043209876543209874,
+          "risk_difference": 0.012345679012345678
+        },
+        "crowded_nearest_lt6um": null,
+        "crowded_neighbors6_ge2": null,
+        "border_lt5um": {
+          "exposed_nodes": 37,
+          "exposed_missed": 10,
+          "other_nodes": 179,
+          "other_missed": 0,
+          "exposed_rate": 0.2702702702702703,
+          "other_rate": 0.0,
+          "risk_difference": 0.2702702702702703
+        },
+        "late_time_q4": {
+          "exposed_nodes": 50,
+          "exposed_missed": 0,
+          "other_nodes": 166,
+          "other_missed": 10,
+          "exposed_rate": 0.0,
+          "other_rate": 0.060240963855421686,
+          "risk_difference": -0.060240963855421686
+        },
+        "near_division_2frames": {
+          "exposed_nodes": 16,
+          "exposed_missed": 4,
+          "other_nodes": 200,
+          "other_missed": 6,
+          "exposed_rate": 0.25,
+          "other_rate": 0.03,
+          "risk_difference": 0.22
+        }
+      }
+    }
+  ],
+  "across_movies": {
+    "low_intensity_q1": {
+      "movies": 8,
+      "higher_miss_rate_movies": 3,
+      "lower_miss_rate_movies": 5,
+      "macro_risk_difference": 0.02512615702647942,
+      "median_risk_difference": -0.0152046783625731,
+      "pooled_exposed": 523,
+      "pooled_exposed_missed": 41,
+      "pooled_other": 1557,
+      "pooled_other_missed": 74
+    },
+    "low_contrast_q1": {
+      "movies": 8,
+      "higher_miss_rate_movies": 4,
+      "lower_miss_rate_movies": 4,
+      "macro_risk_difference": 0.04532725256432541,
+      "median_risk_difference": 0.01904333483280851,
+      "pooled_exposed": 523,
+      "pooled_exposed_missed": 49,
+      "pooled_other": 1557,
+      "pooled_other_missed": 66
+    },
+    "low_contrast_snr_q1": {
+      "movies": 8,
+      "higher_miss_rate_movies": 7,
+      "lower_miss_rate_movies": 1,
+      "macro_risk_difference": 0.07261478726701584,
+      "median_risk_difference": 0.04639868732113973,
+      "pooled_exposed": 523,
+      "pooled_exposed_missed": 51,
+      "pooled_other": 1557,
+      "pooled_other_missed": 64
+    },
+    "crowded_nearest_lt6um": {
+      "movies": 1,
+      "higher_miss_rate_movies": 0,
+      "lower_miss_rate_movies": 1,
+      "macro_risk_difference": -0.02577319587628866,
+      "median_risk_difference": -0.02577319587628866,
+      "pooled_exposed": 34,
+      "pooled_exposed_missed": 0,
+      "pooled_other": 194,
+      "pooled_other_missed": 5
+    },
+    "crowded_neighbors6_ge2": {
+      "movies": 0
+    },
+    "border_lt5um": {
+      "movies": 8,
+      "higher_miss_rate_movies": 5,
+      "lower_miss_rate_movies": 3,
+      "macro_risk_difference": 0.06556458953782127,
+      "median_risk_difference": 0.04450153555398063,
+      "pooled_exposed": 305,
+      "pooled_exposed_missed": 52,
+      "pooled_other": 1775,
+      "pooled_other_missed": 63
+    },
+    "late_time_q4": {
+      "movies": 7,
+      "higher_miss_rate_movies": 3,
+      "lower_miss_rate_movies": 4,
+      "macro_risk_difference": -0.024505248816336308,
+      "median_risk_difference": -0.028089887640449437,
+      "pooled_exposed": 498,
+      "pooled_exposed_missed": 23,
+      "pooled_other": 1519,
+      "pooled_other_missed": 77
+    },
+    "near_division_2frames": {
+      "movies": 4,
+      "higher_miss_rate_movies": 2,
+      "lower_miss_rate_movies": 2,
+      "macro_risk_difference": 0.07010725923088108,
+      "median_risk_difference": 0.04281956047856889,
+      "pooled_exposed": 69,
+      "pooled_exposed_missed": 10,
+      "pooled_other": 986,
+      "pooled_other_missed": 47
+    }
+  },
+  "endpoint_limited_fn": 153,
+  "distinct_endpoint_missed_nodes": 115,
+  "elapsed_seconds": 44.728461027145386,
+  "target6bba_access": false,
+  "candidate_tuning": false,
+  "limitations": [
+    "Same eight source44 inner movies monitored training; no target OOF.",
+    "Official node matches are conditional on the epoch10 prediction graph.",
+    "Node and edge outcomes correlate within movies; eight movies are the unit of replication.",
+    "Raw local intensity and contrast are descriptive, not calibrated detection logits.",
+    "GT division events are sparse; division proximity is descriptive only."
+  ],
+  "analysis_bundle_sha256": "b5a2f5f4ea1c9dbf223b8b5a76c3697fe98b1bf704c124e0d423faf4cce429ee",
+  "analysis_feature_source_sha256": "71be2355b3a3b6b8421d0f876791409033e6a7be910d6f33c3a6c08924ab44bf",
+  "parent_attribution_receipt_sha256": "d29f559438d14ad89f0ea41319e794927bb035b48d13b2ab0667894812bd8ca7",
+  "execution": {
+    "host": "nsu-quadro",
+    "cpu_affinity": "24-27",
+    "cuda_visible_devices": "",
+    "memory_virtual_limit_gib": 16,
+    "timeout_seconds": 2600,
+    "interpreter": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python"
+  }
+}

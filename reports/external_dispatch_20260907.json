@@ -1,0 +1,33 @@
+{
+  "protocol": "Kaggle Agents/external-resources/RESOURCE_POLICY.md",
+  "owner_token": "27af1018-1e36-4306-84d2-8d46974496ae",
+  "dispatcher": "Codex task for Dmitry",
+  "acquired_at_utc": "20260907T122024728Z",
+  "allocation_method": "atomic_dispatch_lock_fallback",
+  "scheduler_status": "Slurm sinfo/squeue timed out; no responsive scheduler authority",
+  "host": "nsu-quadro",
+  "remote_host": "prepost",
+  "project_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "gpu": {
+    "index": 0,
+    "model": "Quadro RTX 6000",
+    "memory_mib": 24576,
+    "driver": "550.54.15",
+    "selection_reason": "smallest compatible GPU; observed idle before lease"
+  },
+  "run_id": "20260907T122024728Z-biohub-oof-pilot",
+  "experiment": "EXP063/EXP064 external OOF candidate-cache pilot",
+  "track": "diagnostic_only_until_full_embryo_disjoint_gate",
+  "queue_index": 0,
+  "limits": {
+    "one_gpu_job_for_project": true,
+    "max_chunk_minutes": 120,
+    "expected_wall_minutes": 120,
+    "cpu_threads": 8,
+    "ram_gib": 32,
+    "disk_gib": 80
+  },
+  "dataflow": "Runtime competition train zarr/geff -> dynamic detector inference -> frozen linker candidate caches -> label-free cache receipt; no Kaggle credentials on remote",
+  "promotion_gate": "No LB POST from pilot alone; only full hidden-compatible clean-Kaggle candidate with verified OOF/receipt may be registered",
+  "status": "LEASE_ACQUIRED_PENDING_ENVIRONMENT_AND_INPUT_TRANSFER"
+}

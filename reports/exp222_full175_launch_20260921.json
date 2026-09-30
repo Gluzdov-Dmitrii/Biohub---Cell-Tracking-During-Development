@@ -1,0 +1,25 @@
+{
+  "pid": 358960,
+  "start": "518830517",
+  "command": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp222_classical_full175_20260921/run_exp222_classical_pilot.py"
+  ],
+  "started": 1789969304.103846,
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp222_classical_full175_20260921",
+  "timeout_seconds": 3600,
+  "host": "prepost",
+  "mem_available_kib": 255620212,
+  "active_allocations": [
+    {
+      "id": "exp221-control-44b6-s2026-20260921",
+      "pool": "a100",
+      "cpu": 8
+    },
+    {
+      "id": "exp221-domain-44b6-s2026-20260921",
+      "pool": "a100",
+      "cpu": 8
+    }
+  ]
+}

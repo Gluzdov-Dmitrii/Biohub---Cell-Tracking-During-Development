@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP154",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "forward_score_delta": 0.0003141754887443504,
+  "reverse_score_delta": 0.00018831041499556278,
+  "pooled_parent_score": 0.6761456762872732,
+  "pooled_candidate_score": 0.6764396508650442,
+  "pooled_score_delta": 0.00029397457777102787,
+  "division_tp_delta": 0,
+  "division_fp_delta": 41,
+  "division_precision": 0.0,
+  "interpretation": "External scoring on fixed scratch coordinates transfers a small ordinary-edge signal in both domains, but treating it as a second-daughter generator creates 41 false forks and recovers none of 13 true divisions. Reuse only as a one-to-one ambiguity tie-break; reject as division repair.",
+  "artifacts_sha256": {
+    "forward": "3cfe14d7fda62412c7127e47070db05cd8341ffa09be6a53cb13df746e4e47ee",
+    "reverse": "2bd816d0a925db911cbc7cd567f4c4930308dca4e3667596a990285cdf1b5377",
+    "gate": "8edbdba44eab5d48cb1f43b105cc06511deee07ec153fabf64784a1bbd9c6518"
+  },
+  "launch_failure": "Attempt 1 stopped before score or target inference because evaluate_coordinate_consensus.py was omitted from the isolated directory; exact log retained and dependency-only retry recorded separately.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

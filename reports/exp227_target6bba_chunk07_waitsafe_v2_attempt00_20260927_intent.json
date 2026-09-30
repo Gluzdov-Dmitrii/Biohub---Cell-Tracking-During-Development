@@ -1,0 +1,53 @@
+{
+  "status": "INTENT_EXP227_CHUNK07_V2_QUEUE_REQUEST",
+  "attempt": 0,
+  "config": {
+    "experiment": "EXP227_TARGET6BBA_CHUNK",
+    "chunk_index": 7,
+    "lease_id": "exp227-target6bba-chunk07-v2-20260927",
+    "token": "exp227_target6bba_chunk07_v2_20260927",
+    "pool": "a100",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v2_20260927",
+    "max_seconds": 10800,
+    "cpu_affinity": "0-7",
+    "resources": {
+      "cpu": 8,
+      "ram_gib": 32,
+      "disk_growth_gib": 4
+    },
+    "script": "run_exp227_target_chunk.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927/plan.json",
+      "--plan-sha256",
+      "583fdae80ed8145ceca92d2405e69a6093b26700acc8986540a5f0ace6afcbd2"
+    ]
+  },
+  "remote_preflight": {
+    "status": "PASS_EXP227_TARGET_CHUNK_LAUNCH_PREFLIGHT",
+    "manifest_sha256": "a828a02ef88bd313a30da12aca8eb2a956337c3641c4dc2851e49e50a203fade",
+    "plan_sha256": "583fdae80ed8145ceca92d2405e69a6093b26700acc8986540a5f0ace6afcbd2",
+    "run_absent": true
+  },
+  "fair": {
+    "status": "FAIR_IDLE_A100_AVAILABLE",
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "queue_snapshot_sha256": "8062b0dd9617bd637814c6aae4f7983376ec3139d59cae2fc7f9a53a58b4ec98",
+    "physical": {
+      "all_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "busy_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46"
+      ],
+      "idle_gpus": [
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ]
+    },
+    "exp236_active_or_waiting": []
+  },
+  "stage_sha256": "498a4cf13537bfffa9a90f601e4f909838583e3f334fc1d8b458c55f33bb3d3e",
+  "target_labels_read": false,
+  "kaggle_post": false
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP193",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_EXPLORATORY_MECHANISM_DIVERSITY_AUDIT",
+  "baseline_control_maximum_absolute_error": 0.0,
+  "key_results": {
+    "fixed_vs_nested_gap_pearson": 0.992419838151999,
+    "fixed_vs_nested_gap_spearman": 0.9678260869565217,
+    "pruning_vs_nested_gap_pearson": -0.14609804364466755,
+    "pruning_vs_nested_gap_spearman": -0.2373913043478261,
+    "pruning_vs_nested_gap_sign_disagreements": 11,
+    "pruning_vs_external_edges_pearson": 0.14298884301347078,
+    "pruning_vs_external_edges_spearman": 0.03961568457748938,
+    "pruning_vs_external_edges_sign_disagreements": 8,
+    "composed_vs_pruning_pearson": 0.8563328610108182,
+    "composed_vs_pruning_spearman": 0.9026086956521739
+  },
+  "interpretation": [
+    "Fixed and nested synthetic-gap variants are effectively the same error family and should not be counted as model diversity.",
+    "Gap recall and short-component pruning precision are genuinely complementary at movie level; their negative pooled correlation and 11 sign disagreements explain why graph-level composition was scientifically justified.",
+    "The existing fixed composition is still dominated by pruning and had weak incremental bootstrap evidence in EXP191. The next defensible ensemble hypothesis is an inference-observable, nested movie-level gate between pruning-only and gap-plus-pruning, not unconditional composition or score averaging.",
+    "External fixed-coordinate edges are decorrelated from pruning but their prior gain is tiny and division generation produced 41 false forks. Revisit only as a strictly one-to-one ambiguity resolver after stronger calibration evidence."
+  ],
+  "next_candidate_after_exp192": "If EXP192 confirms heterogeneous gap benefit, preregister an embryo-aware nested gate using only inference-time telemetry (gap candidate count/rate, short-component mass, node-count ratio proxy, and image covariates) to choose pruning-only versus gap-plus-pruning. Evaluate graph outputs, not averaged score vectors.",
+  "artifacts": {
+    "script_sha256": "85487f23ba1267c5d1e61338256a042ee47a7bfdebaa44e97061b8a5baf6349a",
+    "result_sha256": "101d122e4259dd6e7d0ccf506f025495e39139d8796a0180ac47e20b33800c96",
+    "tests": "2 passed"
+  },
+  "evidence_class": "Exploratory 24-movie development OOF; no untouched claim and no ensemble score claim.",
+  "kaggle_action_authorized": false
+}

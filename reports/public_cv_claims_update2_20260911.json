@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-09-11",
+  "scope": "Public Kaggle discussion claims captured as non-comparable context while EXP192 remains unopened.",
+  "claims": [
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737543",
+      "reported": "A participant describes a public 0.92-0.933 cluster built around learned U-Net detection, node-transformer linking and ILP, while a third-place participant says improvements came from all layers and recommends working in the order detection, linking, division.",
+      "use": "Supports error attribution and detector-first follow-up; it is not pooled OOF evidence because no split, scorer output or reproducible artifact is supplied."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737101",
+      "reported": "A participant reports about 0.919 CV and 0.895 LB for an edge method; the first-place participant recommends complete-movie official scoring, movie-level OOF, and separating missing-endpoint failures from incorrect associations.",
+      "use": "Directly reinforces the frozen EXP192 protocol and motivates post-confirmation node-versus-association attribution. The number is not comparable to our pooled score."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/730160",
+      "reported": "One participant reports public LB roughly ten percent more optimistic than leave-one-embryo-out CV, with movie scores from 0.460 to 0.984 and about 18 percent coefficient of variation.",
+      "use": "Supports embryo-disjoint evaluation, pooled aggregation and movie-resampled uncertainty. Exact comparability is unknown."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737438",
+      "reported": "A participant reports division Jaccard around 0.12 and observes that missed divisions concentrate in crowded frames and commonly fail several independent hand-written checks at once.",
+      "use": "Suggests a future joint assignment/division mechanism only after detection and ordinary-edge attribution; no comparable OOF evidence is present."
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/737896",
+      "reported": "A visibly dim ground-truth node may be an annotation false positive or an interpolated position between labelled frames.",
+      "use": "Warns against treating every missed annotated node as detector failure; future error audits should flag low-evidence/interpolated-looking targets separately rather than tuning directly to them."
+    },
+    {
+      "url": "https://www.kaggle.com/code/pilkwang/biohub-cell-tracking-data-model-eda-baseline",
+      "reported": "A public classical baseline describes generous 3D peak detection, centroid refinement, physical-distance NMS, movie/frame count calibration, conservative physical-distance links and isolated-node pruning; Kaggle reports public score 0.827 for the notebook.",
+      "use": "Count calibration and physical-distance linking are independent mechanism leads. The public score is not local validation and the implementation must be audited before reuse."
+    }
+  ],
+  "decision": "Do not chase the public score claims or alter EXP192. Once all 175 untouched movies are opened, first quantify pooled missing-endpoint versus wrong-association error and embryo/movie heterogeneity. Use that attribution to choose one next mechanism: detector/count calibration if endpoints dominate, physical or learned association if wrong links dominate, and joint division assignment only if division evidence is sufficiently represented.",
+  "kaggle_action_authorized": false
+}

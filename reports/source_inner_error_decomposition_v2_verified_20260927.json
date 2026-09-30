@@ -1,0 +1,44 @@
+{
+  "status": "PASS_SOURCE_INNER_V2_INDEPENDENT_VERIFICATION",
+  "stage_receipt_sha256": "e23604db12b0f87764a89ea78212fb4b7df9bc79a64e1f5e1055cca396fbe59a",
+  "launch_receipt_sha256": "20ee7f1c9bfccdb251127360b2e541c3d0adc8493602fef7aea3bc879236828a",
+  "remote": {
+    "status": "PASS_SOURCE_INNER_V2_INDEPENDENT_READBACK",
+    "stage_manifest_sha256": "3216b95fe675de7b19d0cdb8c592dafa4c84174e26cc9b2b15b5ae3a10a3deec",
+    "launch_sha256": "93ed5fe32e8a54e04ca1b28dc051d448915c3e980a8b2e59f202a68e6b5ede53",
+    "exit_sha256": "c6ad13c32a4349ae7b10ceca7d1f6b8125b1e6c2cf5596cdd9f214277a0333f6",
+    "gate_sha256": "735496f5cf6dca2e24aed7e0649647709b13f58a0f1eb93a357d9c379b7bf52e",
+    "result_sha256": "4dc9035c64691416a070d9a2c67948a13b859ccccf14123e1a6538b2e54f680f",
+    "summaries": [
+      {
+        "experiment": "EXP227",
+        "movies": 8,
+        "score": 0.8114014924249717,
+        "node_recall": 0.9270564654659081,
+        "endpoint_fn": 153,
+        "association_fn": 87,
+        "all_frame_pred_nodes": 243172,
+        "gt_nodes": 2080,
+        "preregistered_detection_signal": false
+      },
+      {
+        "experiment": "EXP236",
+        "movies": 11,
+        "score": 0.8458659187983504,
+        "node_recall": 0.9625506903591479,
+        "endpoint_fn": 514,
+        "association_fn": 406,
+        "all_frame_pred_nodes": 241443,
+        "gt_nodes": 11517,
+        "preregistered_detection_signal": false
+      }
+    ],
+    "child_absent": true,
+    "target_labels_read": false,
+    "gpu_used": false,
+    "kaggle_post": false
+  },
+  "interpretation": "Source-inner only; all-frame prediction count does not estimate detector precision on sparsely annotated frames; preregistered proposal signal false.",
+  "reciprocal_target_score": null,
+  "kaggle_post": false
+}

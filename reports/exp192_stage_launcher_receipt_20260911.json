@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "STAGE_LAUNCHER_PREPARED_NOT_RUN",
+  "launcher": {
+    "path": "scripts/launch_exp192_stage_remote.sh",
+    "sha256": "97967f118392d43792796a9a7f8f2e023da3ef31b737fc6a656a4802ca8a2097"
+  },
+  "runner_sha256": "1d39c8a3f8e34d56c25ec935759fbfc0f7b147b7a9fb4886309eb27f31615213",
+  "archive_contract": {
+    "bytes": 87393127165,
+    "sha256": "538ed8a4d7b6669fa948865f947ed43c23aba7ee006fea8826d6ddd1277dfd19"
+  },
+  "guards": [
+    "exact registered remote root",
+    "exact archive size and caller-supplied pinned SHA",
+    "stage contains only the frozen manifest before launch",
+    "no existing stage audit, launch receipt, lock or process",
+    "atomic lock directory",
+    "nohup persistence with PID and process start tick receipt"
+  ],
+  "tests": "4 passed",
+  "test_sha256": "066dcc8a89c5d288598b9dba68b6ec92c2b01870048f9dbfcceff5dbaf1a0d3f",
+  "remote_sha_match": true,
+  "remote_bash_syntax": "PASS",
+  "remote_stage_process_present": false,
+  "remote_lock_or_receipt_present": false,
+  "owned_test_tree_removed": true,
+  "archive_transfer_complete": false,
+  "stage_started": false,
+  "gpu_lease_acquired": false,
+  "metrics_opened": false,
+  "kaggle_action": false
+}

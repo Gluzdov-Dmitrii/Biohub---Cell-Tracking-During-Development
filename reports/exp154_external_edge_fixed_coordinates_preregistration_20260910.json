@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP154",
+  "status": "PREREGISTERED_BEFORE_GPU_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The real-Zebrahub model's verified fork-ranking signal can add a small number of true second daughters when scored on the robust scratch detector coordinates, without transferring the external detector that caused EXP136 node excess.",
+  "parent": "Source-selected seed-314159 scratch coordinates with registered-motion Hungarian topology in each reciprocal direction.",
+  "candidate": "Keep parent coordinates and topology exactly; run the immutable real-Zebrahub model only as an edge scorer on those coordinates; add second daughters through the frozen EXP151 geometry, continuation, divergence and cap guards.",
+  "source_selection": {
+    "thresholds": [0.5, 0.2],
+    "movies": "two source checkpoint-validation movies per direction only",
+    "eligibility": "nonnegative source official score and division-TP deltas",
+    "choice": "highest source score, conservative higher-threshold tie break"
+  },
+  "target_evaluation": "After source selection freezes, evaluate all 12 opposite-embryo movies in both directions and write both results before comparison.",
+  "promotion_gate": "Positive official score in each embryo and pooled, positive pooled division TP, nonnegative division TP each embryo, pooled division precision >=0.25, adjusted-edge delta >=-0.005 and no recall loss each embryo.",
+  "source_sha256": {
+    "fixed_coordinate_scorer": "0ad136ca186def759fc7a78a0592bb958d556776261a310996ecbf2ac87c19cb",
+    "guided_repair": "e822b701ca6abc4d919e50e5dc43d62f9e86447a70b82c18b232df2048e5b4a6",
+    "source_selector": "0af458758ba323f38c5dc59e28d1cbd75a8a72be9fb9f4ab9f505e46eefcbd48",
+    "launcher": "098baab870275f8e0b3acc33f15f20a53a90c9c11b0b5441e96e4b1be14ad4a9",
+    "external_checkpoint": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "resource": "One RTX6000 via common queue; 8 CPU, 32 GiB RAM, 6 GiB disk, 60 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

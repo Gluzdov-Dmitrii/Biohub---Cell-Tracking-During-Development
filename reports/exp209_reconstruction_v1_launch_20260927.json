@@ -1,0 +1,13 @@
+{
+  "bundle_manifest_sha256": "cdf49fad597f1dcc47e65d841cc894ed2be439f45f4bfe1838e790b390c8a311",
+  "contract_sha256": "3860dce507c02b49386414a26c51071f6ff993e8b49476dc46e2b232973e8dd0",
+  "gpu_used": false,
+  "labels_read": false,
+  "launch_script_sha256": "fa65a0bfd3b4f14c13b6b396d864c557867c93298746aeef3f94c367f2476b09",
+  "pid": 455452,
+  "run_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp209_current_metric_reconstruction_v1_20260927",
+  "start_tick": 570867715,
+  "status": "STARTED_EXP209_RECONSTRUCTION_V1_CPU_ONLY",
+  "target_label_access_authorized": false,
+  "worker": "CPU8, CUDA hidden, 16 GiB worker address-space limit"
+}

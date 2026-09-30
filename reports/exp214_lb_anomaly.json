@@ -1,0 +1,70 @@
+{
+  "utc": "2026-09-13T09:47:34.256075+00:00",
+  "status": "ANOMALY_STOP_NO_FURTHER_POST",
+  "submissions": {
+    "public": {
+      "ref": 56192907,
+      "date": "2026-09-12 21:06:31.917000",
+      "description": "EXP214 REDUCED12 PUBLIC_GRAPH PRIVATE_ROBUST SLOT4 v2",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "",
+      "private_score": "",
+      "error_description": "Your notebook generated a submission file with incorrect format. Some examples causing this are: wrong number of rows or columns, empty values, an incorrect data type for a value, or invalid submission values from what is expected.",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp214-reduced-public-graph?scriptVersionId=349360882"
+    },
+    "local": {
+      "ref": 56192924,
+      "date": "2026-09-12 21:08:06.370000",
+      "description": "EXP214 REDUCED12 LOCAL_GRAPH PRIVATE_ROBUST SLOT5 v2",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "",
+      "private_score": "",
+      "error_description": "Your submission notebook exceeded the allowed runtime. Review the competition's Code Requirements page for the time limits. Note that the hidden dataset can be larger/smaller/different than the public dataset.",
+      "total_bytes": 0,
+      "url": "/code/dmitriigluzdov/biohub-exp214-reduced-local-graph?scriptVersionId=349360893"
+    },
+    "EXP212": {
+      "ref": 56181132,
+      "date": "2026-09-12 07:36:21.490000",
+      "description": "EXP212 EXP209 FRONTIER PRIVATE_ROBUST SLOT3 v5 20260912",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.718",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 255985567,
+      "url": "/code/dmitriigluzdov/biohub-exp212-exp209-oof-frontier-production?scriptVersionId=349212853"
+    },
+    "COMPACT47_v20": {
+      "ref": 56177715,
+      "date": "2026-09-12 03:35:47.217000",
+      "description": "PUB-LITE-20260912 COMPACT47 GOLD_PUBLIC SLOT1 v20",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.946",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 207569232,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349168544"
+    },
+    "COMPACT47_v21": {
+      "ref": 56187070,
+      "date": "2026-09-12 14:12:55.537000",
+      "description": "PUB-LITE-20260912 SECTTA1 DIV20 GOLD_PUBLIC SLOT2 v21",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.946",
+      "private_score": "",
+      "error_description": "",
+      "total_bytes": 207585479,
+      "url": "/code/dmitriigluzdov/biohub-lite-center-confirmation?scriptVersionId=349289021"
+    }
+  },
+  "anomalies": [
+    "public",
+    "local"
+  ],
+  "quota": {
+    "numTotal": 88,
+    "numAllowedNow": 5
+  },
+  "additional_submissions_authorized": false
+}

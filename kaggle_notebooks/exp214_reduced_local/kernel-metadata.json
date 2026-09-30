@@ -1,0 +1,21 @@
+{
+  "id": "dmitriigluzdov/biohub-exp214-reduced-local-graph",
+  "title": "Biohub EXP214 Reduced Local Graph",
+  "code_file": "exp214_runtime.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "pilkwang/biohub-tracking-support-pack-50ep-v1",
+    "dmitriigluzdov/biohub-exp214-reduced-honest-fold-models"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

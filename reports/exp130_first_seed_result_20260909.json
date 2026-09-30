@@ -1,0 +1,77 @@
+{
+  "experiment": "EXP130",
+  "date": "2026-09-09",
+  "status": "HOLD_REPEAT_SEED_REQUIRED_LOCKED_AUDIT_CLOSED",
+  "objective": "Estimate post-close private robustness with embryo-disjoint OOF; public LB is not a selection metric.",
+  "hardware": {
+    "host_alias": "nsu-quadro",
+    "gpu": "Quadro RTX 6000",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "queue_policy": "one GPU process for the project; both leases released after verified process exit"
+  },
+  "data_contract": {
+    "source_embryo": "44b6",
+    "source_train_movies": 10,
+    "source_checkpoint_validation_movies": 2,
+    "target_embryo": "6bba",
+    "target_development_movies": 4,
+    "target_locked_audit_movies": 8,
+    "locked_audit_opened": false,
+    "split_sha256": "dcc6b61289fafdf7bb823742e9519a68d6dae8d7cb2f6e7f51398b4e7bfe9ec9"
+  },
+  "frozen_evaluation": {
+    "det_threshold": 0.985,
+    "det_tta": true,
+    "pool_kernel_um": 3.0,
+    "registered_gate_um": 7.0,
+    "registered_motion_scale_um": 3.0,
+    "weak_probability_weight": 0.1
+  },
+  "scratch": {
+    "source_validation_score": 0.8628,
+    "checkpoint_bytes": 8357362,
+    "checkpoint_sha256": "dc06a79401671b2acc7ad36e8db19316f51d11676ba46508c356839df682fdbb",
+    "registered_target_development_score": 0.6275335232522802,
+    "registered_weak_target_development_score": 0.6272461252567444,
+    "node_recall": 0.96312070036817,
+    "result_sha256": "444543da577d4eba19c847f2e8457baabdbf752ed16d705fbe5a6d079d1aec3f",
+    "train_log_sha256": "60829d369e60b6de2ac65df990b445f45635f336145712ae777a6521a3038966"
+  },
+  "zebrahub_init": {
+    "source_validation_score": 0.8399,
+    "checkpoint_bytes": 8357362,
+    "checkpoint_sha256": "2ec65d049fcb23634060923047607699bf1c64183b523b9c102cbc1b3e44a346",
+    "initializer_sha256": "0aa004c64252e86e115249a75974be93023c859f632e758f4f87294f18bd6037",
+    "initializer_load": "0 missing, 0 unexpected",
+    "registered_target_development_score": 0.6294409207057007,
+    "registered_weak_target_development_score": 0.6300393815449622,
+    "node_recall": 0.9713970448410798,
+    "result_sha256": "7ef326b3de1e4f6360535105d727f5c9fb2a6be744298764cee00e517cc3a746",
+    "train_log_sha256": "df7fe2f20bcb83e3df69d20c0e2e933f18d7533ba9a4b3717d2adfc463339213"
+  },
+  "paired_registered": {
+    "pooled_official_delta": 0.0019073974534205007,
+    "per_movie_deltas": [
+      0.0018234094201571294,
+      -0.006900780216687941,
+      -0.020572637062581167,
+      0.046413132287834225
+    ],
+    "positive_movies": 2,
+    "negative_movies": 2,
+    "conditional_movie_bootstrap_exact_256": {
+      "mean_of_per_movie_delta": 0.0051907811071805615,
+      "q025": -0.014973625441896593,
+      "q975": 0.03308465416170368,
+      "probability_positive": 0.625,
+      "warning": "Conditional on four movies from one target embryo; not a confidence interval for unseen embryos."
+    }
+  },
+  "decision": {
+    "repeat_seed_required": true,
+    "reciprocal_fold_required": true,
+    "locked_audit_open": false,
+    "kaggle_submission_authority": false,
+    "kaggle_slots_consumed": 0
+  }
+}

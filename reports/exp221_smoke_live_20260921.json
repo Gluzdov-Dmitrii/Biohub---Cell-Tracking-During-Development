@@ -1,0 +1,328 @@
+{
+  "control": {
+    "process": {
+      "launch": {
+        "pid": 545827,
+        "start": "518756487",
+        "command": [
+          "taskset",
+          "-c",
+          "0-7",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921/train_exp213_detector.py",
+          "--plan",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921/plan.json",
+          "--fold",
+          "44b6",
+          "--seed",
+          "2026",
+          "--repo",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921/tracking_repo",
+          "--data-dir",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+          "--output",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921_smoke/output",
+          "--precision",
+          "fp32",
+          "--max-seconds",
+          "600",
+          "--benchmark-steps",
+          "2",
+          "--window-selection",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+          "--image-cache",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+          "--warm-start",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/checkpoint_last.pth"
+        ],
+        "started": 1789968557.110776,
+        "config": {
+          "experiment": "EXP221",
+          "lease_id": "exp221-control-44b6-s2026-20260921-smoke",
+          "token": "exp221_control_44b6_s2026_20260921_smoke",
+          "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+          "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921",
+          "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921_smoke",
+          "fold": "44b6",
+          "seed": 2026,
+          "max_seconds": 600,
+          "cpu_affinity": "0-7",
+          "window_selection": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+          "image_cache": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+          "resources": {
+            "cpu": 8,
+            "ram_gib": 64,
+            "disk_growth_gib": 1,
+            "gpus": 1
+          },
+          "scope": "EXP221 two-step GPU finite-loss/shape smoke; benchmark state never promoted",
+          "retention": "Keep best and latest optimizer checkpoint; review 2026-09-22; no automatic continuation beyond24epochs",
+          "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+          "warm_start": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/checkpoint_last.pth",
+          "lease_minutes": 70,
+          "benchmark_steps": 2
+        }
+      },
+      "exit": {
+        "returncode": 0,
+        "hard_timeout": false,
+        "pid": 545827,
+        "start": "518756487",
+        "finished": 1789968617.1142058
+      },
+      "identity_alive": false,
+      "group_alive": false,
+      "gpu_pids": [],
+      "status": null
+    },
+    "outputs": {
+      "benchmark": {
+        "status": "PASS_SOURCE_ONLY_TRAINING_BENCHMARK",
+        "scope": "Not OOF; benchmark state never promoted",
+        "contract": {
+          "plan_sha256": "b7c71e5f4453b859ace4a6b30ee388f6a76fb1653ff8872f720e5e370183b4b0",
+          "trainer_sha256": "16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19",
+          "upstream_sha256": "c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea",
+          "fold": "44b6",
+          "seed": 2026,
+          "benchmark_steps": 2,
+          "precision": "fp32",
+          "window_selection_sha256": "2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02",
+          "image_cache_manifest_sha256": "8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728",
+          "warm_start_sha256": "f8a43239be4136bc0d3d44ff19cfb8d69deb7b852e3abfc39f4a44c54a78a638",
+          "domain_module_sha256": "85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda",
+          "cache_loader_sha256": "6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822"
+        },
+        "steps": 2,
+        "batch_size": 8,
+        "train_windows": 1499,
+        "validation_windows": 672,
+        "max_nodes": 16,
+        "loading_seconds": 22.7037724070251,
+        "train_seconds": 5.892185688950121,
+        "peak_cuda_bytes": 9325915648,
+        "seconds_per_step": 2.9460928444750607,
+        "estimated_train_only_epoch_seconds": 553.8654547613114,
+        "device": "NVIDIA A100 80GB PCIe",
+        "target_data_opened": false,
+        "edge_loss": 0.0004932716547045857,
+        "detection_loss": 0.0099694705568254,
+        "precision_check": null
+      },
+      "log_tail": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/lib/python3.11/site-packages/torch/autograd/graph.py:823: UserWarning: max_pool3d_with_indices_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)",
+        "  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass",
+        "  [timing] data: 0.6s (10%) | forward: 3.6s (62%) | backward: 1.6s (28%) | total: 5.9s",
+        "{\"status\": \"PASS_SOURCE_ONLY_TRAINING_BENCHMARK\", \"scope\": \"Not OOF; benchmark state never promoted\", \"contract\": {\"plan_sha256\": \"b7c71e5f4453b859ace4a6b30ee388f6a76fb1653ff8872f720e5e370183b4b0\", \"trainer_sha256\": \"16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19\", \"upstream_sha256\": \"c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea\", \"fold\": \"44b6\", \"seed\": 2026, \"benchmark_steps\": 2, \"precision\": \"fp32\", \"window_selection_sha256\": \"2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02\", \"image_cache_manifest_sha256\": \"8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728\", \"warm_start_sha256\": \"f8a43239be4136bc0d3d44ff19cfb8d69deb7b852e3abfc39f4a44c54a78a638\", \"domain_module_sha256\": \"85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda\", \"cache_loader_sha256\": \"6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822\"}, \"steps\": 2, \"batch_size\": 8, \"train_windows\": 1499, \"validation_windows\": 672, \"max_nodes\": 16, \"loading_seconds\": 22.7037724070251, \"train_seconds\": 5.892185688950121, \"peak_cuda_bytes\": 9325915648, \"seconds_per_step\": 2.9460928444750607, \"estimated_train_only_epoch_seconds\": 553.8654547613114, \"device\": \"NVIDIA A100 80GB PCIe\", \"target_data_opened\": false, \"edge_loss\": 0.0004932716547045857, \"detection_loss\": 0.0099694705568254, \"precision_check\": null}"
+      ]
+    }
+  },
+  "domain": {
+    "process": {
+      "launch": {
+        "pid": 545897,
+        "start": "518758293",
+        "command": [
+          "taskset",
+          "-c",
+          "8-15",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921/train_exp213_detector.py",
+          "--plan",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921/plan.json",
+          "--fold",
+          "44b6",
+          "--seed",
+          "2026",
+          "--repo",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921/tracking_repo",
+          "--data-dir",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+          "--output",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke/output",
+          "--precision",
+          "fp32",
+          "--max-seconds",
+          "600",
+          "--benchmark-steps",
+          "2",
+          "--window-selection",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+          "--image-cache",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+          "--warm-start",
+          "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/checkpoint_last.pth"
+        ],
+        "started": 1789968575.1718962,
+        "config": {
+          "experiment": "EXP221",
+          "lease_id": "exp221-domain-44b6-s2026-20260921-smoke",
+          "token": "exp221_domain_44b6_s2026_20260921_smoke",
+          "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+          "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921",
+          "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke",
+          "fold": "44b6",
+          "seed": 2026,
+          "max_seconds": 600,
+          "cpu_affinity": "8-15",
+          "window_selection": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/exp213_training_reduction_20260912.json",
+          "image_cache": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_reduced_xy4_cache_20260912",
+          "resources": {
+            "cpu": 8,
+            "ram_gib": 64,
+            "disk_growth_gib": 1,
+            "gpus": 1
+          },
+          "scope": "EXP221 two-step GPU finite-loss/shape smoke; benchmark state never promoted",
+          "retention": "Keep best and latest optimizer checkpoint; review 2026-09-22; no automatic continuation beyond24epochs",
+          "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp214_portable_metadata_20260912",
+          "warm_start": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/checkpoint_last.pth",
+          "lease_minutes": 70,
+          "benchmark_steps": 2
+        }
+      },
+      "exit": {
+        "returncode": 0,
+        "hard_timeout": false,
+        "pid": 545897,
+        "start": "518758293",
+        "finished": 1789968616.999854
+      },
+      "identity_alive": false,
+      "group_alive": false,
+      "gpu_pids": [],
+      "status": null
+    },
+    "outputs": {
+      "benchmark": {
+        "status": "PASS_SOURCE_ONLY_TRAINING_BENCHMARK",
+        "scope": "Not OOF; benchmark state never promoted",
+        "contract": {
+          "plan_sha256": "a5cd5963cb566d88dc57a60c983c35c4c6ea74332bcf593ee3c9ae7df73d694e",
+          "trainer_sha256": "16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19",
+          "upstream_sha256": "c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea",
+          "fold": "44b6",
+          "seed": 2026,
+          "benchmark_steps": 2,
+          "precision": "fp32",
+          "window_selection_sha256": "2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02",
+          "image_cache_manifest_sha256": "8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728",
+          "warm_start_sha256": "f8a43239be4136bc0d3d44ff19cfb8d69deb7b852e3abfc39f4a44c54a78a638",
+          "domain_module_sha256": "85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda",
+          "cache_loader_sha256": "6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822"
+        },
+        "steps": 2,
+        "batch_size": 8,
+        "train_windows": 1499,
+        "validation_windows": 672,
+        "max_nodes": 16,
+        "loading_seconds": 22.211089299991727,
+        "train_seconds": 5.899894245900214,
+        "peak_cuda_bytes": 9325964800,
+        "seconds_per_step": 2.949947122950107,
+        "estimated_train_only_epoch_seconds": 554.5900591146201,
+        "device": "NVIDIA A100 80GB PCIe",
+        "target_data_opened": false,
+        "edge_loss": 0.00038741648313589394,
+        "detection_loss": 0.010605554096400738,
+        "precision_check": null
+      },
+      "log_tail": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/lib/python3.11/site-packages/torch/autograd/graph.py:823: UserWarning: max_pool3d_with_indices_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:92.)",
+        "  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass",
+        "  [timing] data: 0.6s (11%) | forward: 3.6s (61%) | backward: 1.7s (28%) | total: 5.9s",
+        "{\"status\": \"PASS_SOURCE_ONLY_TRAINING_BENCHMARK\", \"scope\": \"Not OOF; benchmark state never promoted\", \"contract\": {\"plan_sha256\": \"a5cd5963cb566d88dc57a60c983c35c4c6ea74332bcf593ee3c9ae7df73d694e\", \"trainer_sha256\": \"16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19\", \"upstream_sha256\": \"c4f6317736bb3bb1ec8f3f6e9a6d935a463e3f0f1f685481b2d13218d35dc9ea\", \"fold\": \"44b6\", \"seed\": 2026, \"benchmark_steps\": 2, \"precision\": \"fp32\", \"window_selection_sha256\": \"2370513a1c0ce00d9caf5b515d41777e00077aff2bb1c69a2d97861df8943a02\", \"image_cache_manifest_sha256\": \"8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728\", \"warm_start_sha256\": \"f8a43239be4136bc0d3d44ff19cfb8d69deb7b852e3abfc39f4a44c54a78a638\", \"domain_module_sha256\": \"85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda\", \"cache_loader_sha256\": \"6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822\"}, \"steps\": 2, \"batch_size\": 8, \"train_windows\": 1499, \"validation_windows\": 672, \"max_nodes\": 16, \"loading_seconds\": 22.211089299991727, \"train_seconds\": 5.899894245900214, \"peak_cuda_bytes\": 9325964800, \"seconds_per_step\": 2.949947122950107, \"estimated_train_only_epoch_seconds\": 554.5900591146201, \"device\": \"NVIDIA A100 80GB PCIe\", \"target_data_opened\": false, \"edge_loss\": 0.00038741648313589394, \"detection_loss\": 0.010605554096400738, \"precision_check\": null}"
+      ]
+    }
+  },
+  "queue": {
+    "pools": {
+      "quadro": {
+        "host": "prepost",
+        "alias": "nsu-quadro",
+        "cpu": 112,
+        "ram_gib": 240,
+        "gpus": [
+          "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba"
+        ]
+      },
+      "a100": {
+        "host": "ngpu01",
+        "alias": "nsu-a100",
+        "cpu": 112,
+        "ram_gib": 240,
+        "gpus": [
+          "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+          "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+        ]
+      },
+      "pc": {
+        "host": "desktop-7t0uo8i",
+        "alias": "nsu-pc",
+        "cpu": 24,
+        "ram_gib": 28,
+        "gpus": [
+          "GPU-fd8208c3-7f94-033a-2ec4-36deff77bc96"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "id": "exp221-control-44b6-s2026-20260921-smoke",
+        "owner": "biohub-agent",
+        "token": "exp221_control_44b6_s2026_20260921_smoke",
+        "project": "biohub-cell-tracking-during-development",
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921_smoke",
+        "pool": "a100",
+        "count": 1,
+        "cpu": 8,
+        "ram_gib": 64.0,
+        "disk_gib": 1.0,
+        "minutes": 70,
+        "state": "RELEASED",
+        "created": 1789968555.366026,
+        "heartbeat": 1789968609.5296657,
+        "gpus": [],
+        "process": {
+          "pid": 545827,
+          "start": "518756487"
+        },
+        "allocated": 1789968555.366075,
+        "host": "ngpu01",
+        "alias": "nsu-a100",
+        "waiting_ahead": [],
+        "finished": 1789968657.4986424,
+        "health": "CURRENT"
+      },
+      {
+        "id": "exp221-domain-44b6-s2026-20260921-smoke",
+        "owner": "biohub-agent",
+        "token": "exp221_domain_44b6_s2026_20260921_smoke",
+        "project": "biohub-cell-tracking-during-development",
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke",
+        "pool": "a100",
+        "count": 1,
+        "cpu": 8,
+        "ram_gib": 64.0,
+        "disk_gib": 1.0,
+        "minutes": 70,
+        "state": "RELEASED",
+        "created": 1789968573.7989435,
+        "heartbeat": 1789968579.5658333,
+        "gpus": [],
+        "process": {
+          "pid": 545897,
+          "start": "518758293"
+        },
+        "allocated": 1789968573.798981,
+        "host": "ngpu01",
+        "alias": "nsu-a100",
+        "waiting_ahead": [],
+        "finished": 1789968627.5770001,
+        "health": "CURRENT"
+      }
+    ],
+    "mode": "DIRECT_USER_AUTHORIZED",
+    "slurm_required": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "STOPPED_EXP236_BLOCK01_V2_FAIR_STARTER",
+  "started": 1790454096.652826,
+  "deadline_seconds": 172800,
+  "block01_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_v2_20260927",
+  "source_only": true,
+  "target_data_opened": false,
+  "launch_attempted": true,
+  "prepare_receipt_sha256": "fa63f138b9d450035a95f7f0f03435676195b050c6e34c4fa37bceaa595afca0",
+  "last_capacity": {
+    "foreign_waiting": [],
+    "queue_free": 1,
+    "physically_idle_queue_free": 1
+  },
+  "remote_stage_gate": {
+    "status": "PASS_EXP236_V2_BLOCK01_STARTER_STAGE_GATE",
+    "manifest_sha256": "b594f5ca6e2c644b151d780546cab140208f08558d1b93b24cef7a576a6e5f4a",
+    "plan_sha256": "e525d6f44f45468520fa085836ce4c166f594dbc5d64e79c7e15a10083e5c536",
+    "run_exists": false
+  },
+  "launch_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp236_block01_v2_fair_starter_launch_20260927.log",
+  "launch_returncode": 0,
+  "error": "AssertionError()",
+  "launch_failure_reconciliation": {
+    "queue_lease_states": [
+      "RUNNING"
+    ],
+    "run_exists": true,
+    "reservation_receipt": true,
+    "partial_launch_receipt": true,
+    "launch_receipt": true,
+    "prelaunch_release_receipt": false
+  },
+  "finished_or_stopped": 1790454112.5681283
+}

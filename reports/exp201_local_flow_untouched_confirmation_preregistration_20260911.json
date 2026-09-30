@@ -1,0 +1,36 @@
+{
+  "experiment": "EXP201",
+  "recorded_at": "2026-09-11T10:26:40Z",
+  "status": "PREREGISTERED_BEFORE_EXP192_DATA_STAGE_OR_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "evidence_class": "Fixed-policy confirmation on the same 175 previously unopened non-twin movies as EXP192",
+  "development_basis": {
+    "experiment": "EXP200",
+    "nested_pooled_delta": 0.0012910259101782673,
+    "nested_direction_delta": {"forward": 0.0015903792878506628, "reverse": 0.0000040213138191580455},
+    "bootstrap_q025": -0.0011955240961358637,
+    "strict_development_gate_passed": false,
+    "fixed_policy_full_development_delta_diagnostic_only": 0.002484488301882526
+  },
+  "frozen_policy": {
+    "6bba_target_forward": "registered translation plus bounded local residual flow with k=32, alpha=.50, then minimum component length 8",
+    "44b6_target_reverse": "registered translation plus bounded local residual flow with k=16, alpha=.25, then minimum component length 3",
+    "shared": "mutual-nearest pseudo-pairs within 4 um, coordinatewise local median residual, correction clipped to 2 um, 7 um Hungarian gate, 3 um motion scale"
+  },
+  "control": "Exact registered translation graph followed by the same direction-specific component length; chunk-local translation rows must merge over exactly 116 forward and 59 reverse movies.",
+  "anti_adaptation": "Compute only the frozen candidate and exact control in each chunk. Do not expose any scientific metric until all eight EXP192 chunks pass the no-metric structure gate. Do not retune k, alpha, radius, clipping, gate or component length on the 175 confirmation movies.",
+  "promotion_gate": "Positive 175-movie pooled delta over its exact translation control, nonnegative aggregate delta in both target prefixes, positive lower 95 percent bound from 20,000 prefix-stratified paired movie bootstrap draws, and positive minimum leave-one-movie-out aggregate delta.",
+  "integration": "Add local_flow.json to each existing EXP192 chunk after the base cache is complete; this is CPU postprocessing within the same one-GPU-per-project job and performs no additional neural inference. Merge only after the all-eight no-metric gate.",
+  "implementation": {
+    "fixed_evaluator": {"path": "scripts/evaluate_cached_fixed_local_flow.py", "sha256": "5d969e74f5a1f8aa095c89afc3996a0bb9f0b1c52a12aa9bde92b895e6b0ec44"},
+    "flow_dependency": "79c31e00948c8ffc3de4e2620119d8094a833ace26df7b80e0af6a01a0b5a1e7",
+    "coherent_motion_dependency": "fac519e1182f31ff33182217e26ffc36c747fe2c8983cdac3e4c69440e82a7b1",
+    "chunk_launcher": "4d0a16e48c76d1d6c72b06224144f71eb7e1ae17471f317ba034f6006480e9bb",
+    "chunk_validator": "30be89bf51f7e1c12be77049943ece6ff488609fe1eca03148c959f72bcd36b4",
+    "confirmation_builder": "5733d126648b914b557b479badb846cc34df07a9e280e2d78b7f71220b569f04",
+    "tests": "9 passed with explicit workspace basetemp; compilation PASS"
+  },
+  "effect_on_exp192": "EXP190, EXP191 and EXP195 frozen policies and outputs are unchanged. EXP201 adds one separately reported fixed confirmation comparison before any target data are staged or inferred.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false
+}

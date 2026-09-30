@@ -1,0 +1,9 @@
+{
+  "stage": "EXP145 completion cleanup",
+  "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "removed": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp145_feature_tta_development_20260910/tracking_repo",
+  "removed_size": "570 KiB",
+  "pre_delete_checks": ["resolved exact expected path", "inside registered remote root", "directory", "not symlink", "candidate rejected and no active dependency"],
+  "preserved": ["forward_feature_tta.json", "reverse_feature_tta.json", "forward_feature_tta.log", "reverse_feature_tta.log", "local candidate source and SHA receipts"],
+  "verified_absent_after_delete": true
+}

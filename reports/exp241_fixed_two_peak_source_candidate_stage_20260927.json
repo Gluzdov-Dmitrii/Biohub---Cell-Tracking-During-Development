@@ -1,0 +1,16 @@
+{
+  "status": "STAGED_EXP241_LABEL_FREE_CPU_GRAPH_BUNDLE",
+  "manifest_sha256": "95e04f9358b629f03d76103761491e3e8ec44a86d55f6c45310842da9453a48f",
+  "config_sha256": "df7d704cbbc6c029c5f5b026efb5e17a827ff818dd87d34f5b8846789f9e21ff",
+  "intent_sha256": "ee40f11724adb5a9e46a38c10776a585d7841ff25d26b40e142b305e07b6de33",
+  "remote": {
+    "status": "STAGED_EXP241_LABEL_FREE_CPU_GRAPH_BUNDLE",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp241_fixed_two_peak_source_candidate_v1_20260927",
+    "manifest_sha256": "95e04f9358b629f03d76103761491e3e8ec44a86d55f6c45310842da9453a48f",
+    "files": 3,
+    "run_absent": true,
+    "source_labels_read": false
+  },
+  "run_started": false,
+  "source_labels_read": false
+}

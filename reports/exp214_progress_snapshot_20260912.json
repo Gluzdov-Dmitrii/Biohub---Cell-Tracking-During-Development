@@ -1,0 +1,231 @@
+{
+  "utc_epoch": 1789255702.0947287,
+  "runs": [
+    {
+      "run": "exp214_control_full12_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_control_reduced12_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_control_reduced60_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_equal_time44b6_s2026_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 60,
+        "total_epochs": 60,
+        "elapsed_seconds": 7808.418833844364,
+        "best_sha256": "6dfa9cbfc5f298c6680a63353314d9bf353466a4aec5756aa188e4e0b2bd8bba"
+      },
+      "last_completed_epoch": 60,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_paired_44b6_00_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_44b6_01_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 24,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_44b6_02_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 24,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_44b6_03_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 24,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_44b6_04_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 24,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_6bba_00_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 20,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_6bba_01_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 24,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_paired_6bba_02_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS"
+      },
+      "candidate_movies": 15,
+      "public_receipt": true,
+      "local_receipt": true
+    },
+    {
+      "run": "exp214_reduced44b6_s2026_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 1975.3068118356168,
+        "best_sha256": "f8e25074a98b651a64740ce9ab013ac957fb8d61462d9c7df982efb4db8e8605"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced44b6_s314159_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 1952.7619830714539,
+        "best_sha256": "6af80254fdab1d4d826833730d37eaa27eb9283fdcf48839e432cca403b52c53"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s2026_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 3746.405152514577,
+        "best_sha256": "fe929a4935972369c25f516e9895ba57eb515cc403b2e0e24553960aaa620e25"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s314159_20260912",
+      "exit": {
+        "returncode": -15
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 3058.153756149113,
+        "best_sha256": "5f223d2574bfde7f2612494f2067f87818b29244c0f51db1fe154f8d1efc6bd9"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    },
+    {
+      "run": "exp214_reduced6bba_s314159_resume_20260912",
+      "exit": {
+        "returncode": 0
+      },
+      "training": {
+        "status": "COMPLETE_SOURCE_REFIT",
+        "epoch": 12,
+        "total_epochs": 12,
+        "elapsed_seconds": 3058.153756149113,
+        "best_sha256": "5f223d2574bfde7f2612494f2067f87818b29244c0f51db1fe154f8d1efc6bd9"
+      },
+      "last_completed_epoch": 12,
+      "candidate_movies": 0,
+      "public_receipt": false,
+      "local_receipt": false
+    }
+  ],
+  "queue": []
+}

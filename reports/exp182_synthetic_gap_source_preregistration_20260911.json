@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP182",
+  "status": "PREREGISTERED_BEFORE_STAGING_AND_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "parent": "EXP181 scientific source and gate, which failed before data/model access due only to an incomplete staged Python bundle.",
+  "hypothesis": "The unchanged attributed QRZ synthetic midpoint repair, filtered by leakage-controlled reciprocal DeepCenter models, can recover true one-frame gaps without the false edges produced by an unvetoed repair.",
+  "scientific_delta_from_exp181": "NONE",
+  "packaging_delta": "Add every transitive local Python import to the isolated run bundle and SHA-pin each file.",
+  "source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "select_synthetic_gap_source_gate.py": "e8c43125057aae4e6c28ef619bd8bf673f3ad3a3649941ccaa1593d8065f7c26",
+    "run_exp182_synthetic_gap_source.sh": "51b48e6e1972b8422f9ccf1c109d6b1c537b0fdc5237cae71121558f4bbe9b91"
+  },
+  "models": {
+    "44b6_best_sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+    "6bba_best_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e"
+  },
+  "data": "The two held-out source checkpoint-validation movies of each embryo only. No opposite-embryo target or locked-audit movie.",
+  "arms": [
+    "registered_hungarian",
+    "synthetic_gap_no_veto",
+    "synthetic_gap_deepcenter"
+  ],
+  "promotion_gate": "DeepCenter must be exercised and add at least one synthetic node in each embryo; gated score must strictly improve each embryo, be nonnegative on every movie and every movie's node recall, and be no worse than no-veto in each embryo.",
+  "prelaunch_gate": "In the isolated remote run directory, exact SHA verification plus `python evaluate_synthetic_gap_deepcenter.py --help` and selector --help must pass before requesting RTX6000.",
+  "next_if_pass": "One separately frozen reciprocal target OOF evaluation; still no Kaggle authorization.",
+  "next_if_fail": "Reject synthetic gap family before target OOF and Kaggle, unless failure is again proven non-scientific infrastructure/packaging.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 1 GiB expected growth, 45 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

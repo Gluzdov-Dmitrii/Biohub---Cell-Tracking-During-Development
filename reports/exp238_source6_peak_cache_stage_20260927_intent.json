@@ -1,0 +1,14 @@
+{
+  "cohort": "source6",
+  "local_bundle_manifest_sha256": "05589b389985ba1d297d5ae290a1de05414cc80f07fd9e2b67ef626e11549f02",
+  "plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+  "preflight": {
+    "labels_read": false,
+    "movies": 11,
+    "new_paths_absent": true,
+    "parent_manifest_sha256": "92a9582cbe0f09d34d73865b1d09243971a94815c313a9b2225a7047388db3b2",
+    "parent_status_sha256": "de1a4ca38f7d9f470eab6a993322e301b016e05f2175a6407559764633537acf",
+    "status": "PASS_EXP238_REMOTE_STAGE_PREFLIGHT_NO_LABELS"
+  },
+  "status": "INTENT_EXP238_REMOTE_STAGE"
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP222",
+  "status": "PREREGISTERED",
+  "movies": [
+    "6bba_6feb10f0",
+    "6bba_ab78413d",
+    "44b6_eb2880fc",
+    "6bba_5c039895"
+  ],
+  "selection": "two prior failure diagnostics plus one SHA256-ranked filename per embryo from EXP214175; representative controls selected without score",
+  "scope": "four complete-movie diagnostic, not full175 or untouchedCV; no parameter selection",
+  "source": "kaggle_notebooks/exp002_rule_based/biohub-rule-based-baseline.py",
+  "source_sha256": "e1edf7b5fc761ff713e818e01ecc5bc45349e8e8509b86d5932411b403294c1e",
+  "config": "exact existing CONFIG_OVERRIDE plus original Config defaults",
+  "label_gate": "all4 predictions plus CSV schema/graph/hash pass before scorer opens labels",
+  "resources": {
+    "host": "nsu-quadro",
+    "cpu": 4,
+    "ram_gib": 32,
+    "timeout_seconds": 3600,
+    "gpu": 0,
+    "disk_growth_gib": 0.1
+  },
+  "kaggle_post": false,
+  "operational_amendment": "Original attempt failed before inference due missing pandas. Retry omits sole pandas import and uses stdlib CSV writer for same unchanged graph_to_rows values. All detection/linking functions and config unchanged. Original exact source SHA still verified. Failed attempt retained."
+}

@@ -1,0 +1,46 @@
+{
+  "experiment": "EXP137",
+  "stage": "6bba reciprocal data staging batch 2",
+  "date": "2026-09-09",
+  "source": {
+    "kind": "official Kaggle competition API download",
+    "manifest": "outputs/research/external_inputs/pilot_file_manifest_live.json",
+    "manifest_sha256": "afa823b7b1e4f2f0de536107e49188736fd0339089123ff189229196af367aee",
+    "privacy": "competition data kept private; no dataset or kernel publication"
+  },
+  "movie": {
+    "id": "6bba_3abfe10a",
+    "zarr_files": 102,
+    "zarr_bytes": 539403678,
+    "geff_files": 21,
+    "geff_bytes": 13841
+  },
+  "transport": {
+    "tar_bytes": 539682304,
+    "tar_entries": 448,
+    "tar_sha256_local_and_remote": "2e7b5771e40d8716fc8a1e6e6299d10869908d7ff591c6f7b483c3842f2eb414",
+    "part_bytes": [104857600, 104857600, 104857600, 104857600, 104857600, 15394304],
+    "part_sha256": [
+      "f301240888416ad2a295a7412700cb54de3a0c3e782f72c3c977171a1a786fc1",
+      "068637545d87b23b083ad2a4cae8a4770bea124e2b4dfa4769b34343e510bd8b",
+      "5793ded3702d45290fdb69e8c856eaffee82b4c02632af9e31027bdf49ee5f9e",
+      "7a31e6b8b5df8309545a776cf72e55f5ba35e5aba0542c4947393579bfd49718",
+      "5ce386e8999e604bbf6302f727d4ca9df54b3d2daacdb92869763b693f902c31",
+      "e1c72681bd7bb64790ec091e2f72f737209c585d64b9c70efef8a270fc22ad08"
+    ]
+  },
+  "remote": {
+    "host": "nsu-quadro",
+    "hostname": "prepost",
+    "registered_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "destination": "data/pilot_single_6bba",
+    "post_extract_file_counts": [102, 21]
+  },
+  "status": "PASS_VERIFIED_INCREMENTAL_STAGE",
+  "limitations": [
+    "The full 24-movie audit remains blocked until all 12 official 6bba movies finish downloading.",
+    "This movie belongs to the frozen target locked audit in the opposite direction; no label or score was read and it is staged only for future reciprocal source training.",
+    "No GPU model used this movie in EXP138, and no Kaggle kernel or submission was created."
+  ],
+  "cleanup_policy": "Delete exact local and remote transport tar/parts after receipt validation; preserve extracted official data and this receipt."
+}

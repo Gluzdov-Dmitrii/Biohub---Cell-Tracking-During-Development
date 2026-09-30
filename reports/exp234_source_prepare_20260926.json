@@ -1,0 +1,90 @@
+{
+  "status": "PREPARED_EXP234_SOURCE_ONLY",
+  "experiment": "EXP234",
+  "staging": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_source_threshold_v1_20260926",
+    "file_count": 13,
+    "manifest_sha256": "163e000d2cffe6c1725624e69a7301816f31702f2af235c85fa9bb9843a305ca"
+  },
+  "selection": {
+    "44b6": {
+      "movies": [
+        "44b6_53f95252",
+        "44b6_551a5dba",
+        "44b6_aaf8b0ea",
+        "44b6_c771cb04",
+        "44b6_c8e2a523",
+        "44b6_d754aa59",
+        "44b6_d78e09d9",
+        "44b6_e31261b4"
+      ],
+      "source_train_count": 63,
+      "center_seen_count": 12,
+      "center_excluded_from_validation": [],
+      "weights": {
+        "primary": {
+          "sha256": "c43c61a136f80ecb0f3727b6e865d0547f9147162102a49f2a9dc599f729af28"
+        },
+        "secondary": {
+          "sha256": "ea0b45d2dea2e9b8899889c3e62c44370332423aae470a4b3837210ea4c736c2"
+        },
+        "center": {
+          "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f"
+        }
+      }
+    },
+    "6bba": {
+      "movies": [
+        "6bba_372c8cb8",
+        "6bba_67ebd073",
+        "6bba_76db78c1",
+        "6bba_786893ac",
+        "6bba_825bd1c6",
+        "6bba_a5e926bb",
+        "6bba_b329af44",
+        "6bba_b693381b",
+        "6bba_bb9f20c3",
+        "6bba_f20478e9",
+        "6bba_f4ae811c"
+      ],
+      "source_train_count": 115,
+      "center_seen_count": 12,
+      "center_excluded_from_validation": [
+        "6bba_05b6850b",
+        "6bba_062c8d37"
+      ],
+      "weights": {
+        "primary": {
+          "sha256": "093cd25eec67d8bd83bab55aa1f780d118bd29d43e70fb765a002f756a89a627"
+        },
+        "secondary": {
+          "sha256": "f71e00a1ec7a1e88740f2aa896ced2041a285103f371cac1e0cb8cc408cf84fa"
+        },
+        "center": {
+          "sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e"
+        }
+      }
+    }
+  },
+  "thresholds": [
+    "0.900",
+    "0.940",
+    "0.965"
+  ],
+  "notebook_sha256": "5389953eb7c2f68b6e3664985ceb252d0eac391b65821b0ced692693003cbcba",
+  "source_file_hashes": {
+    "exp234_source_scope.py": "6e1a487f5105a6862e7bdd79a995353682c35268bdc6117a9cec443c1bb96ee8",
+    "run_exp234_source_threshold.py": "cf6703ae72845c6f6578d6f3d98ae123cb34a3e8bbcad69045e9759ce30461da",
+    "bound_exp214_submission.py": "300929090e11d9de904e2e4e473068a9c8dcebd7add59432f156211712c6f49b",
+    "exp223_supervisor.py": "6e1f4f3217f8a86cafeed87195bddc4522ad794ff8ec4871d405bdddcc922bb4",
+    "monitor_exp213_job.py": "e4ae030b2f1a772cd34ae3595668f9eefa1601d5a040b7c49b5db0e6bb045323",
+    "run_exp214_public_fold.py": "049f28a084333bc358cebe0a1a27e206e713de912fa025556604b5e56ac2f31a",
+    "exp214_inference_job.py": "c53a4688b41e801ea6281fc354ff79ff94d49fa2e91084e12b4901c77ecf2725",
+    "44b6_movies.json": "aff2873f4eed4354b7eb7c8d355fd902564ecd7fec492c90b75307137bb1b1e3",
+    "44b6_bundle.json": "817885a8cfdf7d372e7d9a86071686b4631d1c86cb1412a0d44e5c0ffec71139",
+    "44b6_plan.json": "7b020347fdd46dd3ad361f4c19204e0c4c59f6a010aea501e226be3b0cb72904",
+    "6bba_movies.json": "6bb076e8fe41cc90d7bfe40edbcf151ad7da59062d9912f8636260fa5b7d9ac7",
+    "6bba_bundle.json": "90e95a45a4d58a72c18495b48c979de52afdc080b9070892c53e8bf41c2f59b1",
+    "6bba_plan.json": "0e5805f6ba5b41d1b20ea08a09df7088d5310a201462ecf0f7cc4139af5ea46b"
+  }
+}

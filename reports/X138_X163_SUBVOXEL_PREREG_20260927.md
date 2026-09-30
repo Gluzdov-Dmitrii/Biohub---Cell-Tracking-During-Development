@@ -1,0 +1,24 @@
+# X163 fractional-coordinate output — preregistration, 2026-09-27 13:57 UTC
+
+## Decision before candidate construction
+
+Track `GOLD_PUBLIC`, proposed daily slot 1. Parent is the exact clean, private, Internet-off x162 v1 fork `dmitriigluzdov/biohub-x162-baseline-safe`, local notebook SHA256 `fb8caa0714c212f66f9864005eaa9bac484d819dd3fb264de5e5cdff98f04189`, root output SHA256 `d52a5da2ae5cb0d1b22499f6ca51a00838a6c32ae9a1986ec756ea72e7909e03`. Original x138 actual scored public is 0.953. This file authorizes building and clean-running a diagnostic x163 notebook, not a competition POST.
+
+## New format evidence and correction
+
+The public [Biohub Cell Tracking - Classical Baseline](https://www.kaggle.com/code/xiaoleilian/biohub-cell-tracking-classical-baseline/notebook) shows public score 0.763 for version 10. Pulled source SHA256 `ef193c8cd86c7faa7f5e9240b4ef72b8e5f3e8fbec3e8ba871ba0d8bd087e088` writes `float(c[i])` node coordinates without rounding. Published `submission.csv` SHA256 `877b5e89c7f40c74ea55f7cf8f3dac63de8f632f058cbdc244e419ab219bc0de` has 135,308 rows and 70,903 node rows; every node row has at least one fractional coordinate. Its kernel status is COMPLETE. This is evidence that a scored competition submission can contain fractional coordinates. It does not show fractional coordinates improve x138. It supersedes the earlier negative sample of integer-writing notebooks and the 12:37 decision to avoid a float candidate absent a scored witness.
+
+## Hypothesis and exact intervention
+
+X138's active V1284 head supplies finite subvoxel positions, but the final x162 CSV writer rounds them to integer voxels. Preserve every model, image transform, association, relink, gap/division/linefit setting, graph node/edge, IDs, timing budget, dynamic runtime `/kaggle/input/biohub-cell-tracking-during-development/test.zarr` discovery and four model inputs from x162. Change only the final node `z,y,x` serialization to finite `float` from the graph's pre-round coordinates, clamped independently to actual runtime image `[0, size-1]` bounds. Edge and other columns retain parent values. Adapt only output guards to accept finite numeric node xyz while retaining exact 10-column schema, dynamic dataset IDs, one root `submission.csv`, graph invariants and runtime shape checks. No frozen public submission input, label, ground truth or training validator is allowed in the production run. Source diff and SHA must be recorded before push. Expected output: `/kaggle/working/submission.csv`.
+
+## Fixed quality gate before any competition POST
+
+1. Pinned current-organizer scorer on the same eight TRAIN movies: paired raw pre-round versus exact integer writer score improvement at least +0.002 pooled, and at least +0.001 for each embryo prefix. Existing pinned receipts `work/x138_provenance/official_metric/x150_{raw,serialized}_val_base_official.json` already show pooled 0.9483461443 versus 0.9451931871; prefix scores must be recalculated from the pinned movie rows and recorded. This is in-sample diagnostic evidence only.
+2. Clean x163 Kaggle version must run with Internet off and the exact reviewed source. Independently audit its sole root CSV, one dynamic runtime dataset ID set, exact columns and type semantics, finite numeric bounded xyz against runtime Zarr shapes, graph IDs/time/degree, output SHA, runtime logs, zero repair fallback and zero deadline degradation. Compare node/edge topology with x162 and prove any CSV delta is only bounded xyz serialization. No root ambiguity or anomaly may be waived.
+3. On the four visible training-copy movies, score x163 and byte-pinned x162 outputs using the identical pinned current-organizer metric and GT: require pooled score improvement at least +0.001 and no embryo-prefix score decline greater than 0.002. These are overlapping training labels, not honest OOF or a private-LB estimate. A failing gate ends this branch without POST.
+4. Before a qualifying POST, append a pre-POST receipt with hypothesis, `GOLD_PUBLIC` slot 1, parent, exact local/remote version and SHA, hidden-test dataflow, output filename/SHA, complete quality/technical checks and promotion decision. Run focused guarded-helper tests. Submit only through `scripts/submit_code_file_once.py`, then query the full Kaggle submission API object including `error_description`, status, score, bytes, ref, URL and quota. `COMPLETE` with empty score is failure and stops all submissions that day. A pending score is not a gain; only actual public score strictly above 0.953 fulfills the user's benchmark.
+
+## Private-LB interpretation
+
+Fractional serialization is a low-cost output change, but the existing eight movies share training embryos with x138 weights. A favorable local metric or tiny public gain is insufficient for `PRIVATE_ROBUST`. Keep slots 3–5 unused absent honest embryo-level holdout/OOF or credible mechanism diversity. Report public/private uncertainty explicitly.

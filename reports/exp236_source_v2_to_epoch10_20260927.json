@@ -1,0 +1,53 @@
+{
+  "status": "STOPPED_EXP236_SOURCE_V2_CONTINUATION",
+  "source_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_v2_20260927",
+  "final_epoch": 10,
+  "target_data_opened": false,
+  "started": 1790454246.8115578,
+  "block01_launch_verified": {
+    "launch_receipt": true,
+    "lease_id": "exp236-horaz-source6bba-block01-v2-20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_v2_20260927",
+    "prepare_sha256": "fa63f138b9d450035a95f7f0f03435676195b050c6e34c4fa37bceaa595afca0",
+    "launch_sha256": "5177152fe51ea37053803c751ea7479d1d6d237a8d95dfcbd7e2c022ac3543d5",
+    "manifest_sha256": "b594f5ca6e2c644b151d780546cab140208f08558d1b93b24cef7a576a6e5f4a"
+  },
+  "block01_release_last_snapshot": "{\"queue_state\": \"RUNNING\", \"remote\": {\"complete_status\": null, \"completed_epochs\": 3, \"control_run_matches\": true, \"control_state\": \"RUNNING\", \"epochs\": 3, \"exit\": {\"finished\": 1790459389.566777, \"hard_timeout\": false, \"pid\": 845794, \"returncode\": 0, \"start\": \"567311417\"}, \"last_epoch\": 3, \"result_status\": \"PASS_EXP236_SOURCE_BLOCK_3_OF_50\", \"supervision_exit_matches\": null, \"target_data_opened\": false}}",
+  "block01_release_verified": {
+    "queue_state": "RELEASED",
+    "remote": {
+      "epochs": 3,
+      "last_epoch": 3,
+      "result_status": "PASS_EXP236_SOURCE_BLOCK_3_OF_50",
+      "completed_epochs": 3,
+      "target_data_opened": false,
+      "exit": {
+        "returncode": 0,
+        "hard_timeout": false,
+        "pid": 845794,
+        "start": "567311417",
+        "finished": 1790459389.566777
+      },
+      "complete_status": "RELEASED_AFTER_VERIFIED_EXIT",
+      "supervision_exit_matches": true,
+      "control_state": "RELEASED",
+      "control_run_matches": true
+    }
+  },
+  "block01_audit": {
+    "status": "PASS_EXP236_SOURCE_V2_BLOCK_AUDIT",
+    "block": 1,
+    "completed_epochs": 3,
+    "manifest_sha256": "b594f5ca6e2c644b151d780546cab140208f08558d1b93b24cef7a576a6e5f4a",
+    "plan_sha256": "e525d6f44f45468520fa085836ce4c166f594dbc5d64e79c7e15a10083e5c536",
+    "checkpoint_sha256": "c834f1ad4895ed7e142a9c66ec72e079ca88ca2b05bfb95352019aab47be79e0",
+    "history_sha256": "876f00058b0a83871d3f0763b7cc6ed081c3ccaaab35a98ddc4e3a7ff19ebb47",
+    "result_sha256": "de7f10219d9dd6589672d715f4968e623e3fcd18e7b8201ee21dcd5cdd28d6d7",
+    "exit_sha256": "6d6d79d89db71d986ab686251eabc90a109ad5dc558d74cbcb8b2fdd68ba2ad2",
+    "target_data_opened": false
+  },
+  "prepare_block02_log": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp236_source_v2_to_epoch10_prepare_block02_20260927.log",
+  "prepare_block02_returncode": 0,
+  "error": "AssertionError()",
+  "finished_or_stopped": 1790459529.9374945
+}

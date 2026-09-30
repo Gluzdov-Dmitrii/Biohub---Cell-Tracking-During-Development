@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP184",
+  "observed_utc": "2026-09-11T03:08:03.3464745Z",
+  "status": "READY_FOR_GPU_REQUEST",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp184_synthetic_gap_target_oof_config_repair_20260911",
+  "prelaunch_checks": {
+    "eight_preregistered_bundle_hashes": "PASS",
+    "launch_guard_sha256": "37d4bf598b2c8bb08cfe98b27d40a6b10a7da7e2f9cb3afe6307078bd9b3d357",
+    "shell_syntax": "PASS",
+    "6bba_manifest_cache_validator": "PASS_12_EXACT",
+    "44b6_manifest_cache_validator": "PASS_12_EXACT",
+    "target_manifest_and_checkpoint_hashes": "PINNED_IN_GUARD",
+    "exp183_cleanup": "EMPTY_LOG_AND_107848_BYTES_OF_PYC_REMOVED; TRACEBACK_AND_RECEIPT_RETAINED"
+  },
+  "request": {
+    "id": "biohub-exp184-synthetic-gap-target-oof-20260911",
+    "owner": "biohub-agent",
+    "token": "exp184-token-a1a67515-d952-43cf-800d-9e67e55acfcd",
+    "pool": "quadro",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_gib": 1,
+    "minutes": 45
+  },
+  "launch_rule": "Launch exactly once only after fresh RESERVED/CURRENT and a new physical GPU/process check.",
+  "authorized_scope": "Reciprocal 12+12 target OOF only; no Kaggle execution or submission."
+}

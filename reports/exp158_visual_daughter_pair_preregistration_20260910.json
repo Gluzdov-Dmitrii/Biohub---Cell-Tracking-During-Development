@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP158",
+  "status": "IMPLEMENTATION_GATE_PASS_BEFORE_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "A symmetric visual classifier of one parent and an explicit pair of daughter candidates can transfer division evidence that edge-wise softmax cannot represent, while a high-precision gate prevents the false-fork failure observed in EXP147, EXP154 and EXP157.",
+  "parent": "The reciprocal 24-movie scratch registered-Hungarian result, pooled score 0.6761456762872732. Ordinary one-to-one topology remains unchanged unless the classifier accepts a second daughter.",
+  "candidate_representation": {
+    "visual": "Shared 3D encoder over normalized parent, first-daughter and second-daughter crops; daughter embeddings are aggregated symmetrically so swapping daughters cannot change the score.",
+    "geometry": "Parent-to-daughter distances, daughter separation, midpoint displacement and local continuation/divergence evidence in physical units.",
+    "proposal_pool": "Bounded nearest-neighbour daughter pairs from fixed scratch coordinates; do not require either daughter to pass the transferred edge-softmax threshold."
+  },
+  "training_and_selection": "Train only on the verified 256 real-Zebrahub training shards. Select architecture checkpoint and exactly one probability threshold on the independent 64-shard time validation with the existing 21-frame gap. The primary external metric is daughter-pair average precision; the operational gate requires division-parent precision at least 0.50, recall at least 0.20, and no edge-wise fallback tuning on competition targets.",
+  "competition_source_gate": "Freeze model, threshold, crop size and all geometry limits before competition labels are scored. Evaluate add-only divisions first on the two source checkpoint-validation movies in each reciprocal direction. Both directions must have nonnegative total score, no loss of true division parents, and no more than one additional false division parent per true positive gained. A direction with no true division cannot establish promotion and must show zero false forks.",
+  "prospective_target_gate": "Only after both source directions pass, run one reciprocal 24-movie target evaluation. Promote only if both embryo directions are nonnegative, pooled score improves, at least one of the 13 known target division parents is recovered, pooled added-division precision is at least 0.25, and leave-one-movie-out pooled deltas are not materially unstable.",
+  "resource_plan": "One RTX6000 job through the common queue, estimated 8 CPU, 32 GiB RAM, 6 GiB disk and at most 60 minutes for feature/crop extraction plus training. Reuse immutable data and fixed-coordinate caches; one project GPU job under contention; release the lease and remove reproducible caches after result preservation.",
+  "implementation_gate": "No GPU allocation until unit tests prove daughter-swap invariance, no target-label access in dataset construction, exact shard split enforcement, deterministic proposal enumeration and graph degree safety.",
+  "implementation_evidence": {
+    "trainer_sha256": "e7d9fe5705f278564bfc3109432ee0b15e6823083e0e88ce1520195c32b40505",
+    "test_sha256": "5a90e32d519518b8ca3aa5336319a55c0584560b7c0e8ac9272fa6408bc12da4",
+    "tests": "4 passed: daughter-swap invariance, deterministic pair enumeration and positive construction, external-only shard guard, parent-level operating-point selection"
+  },
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

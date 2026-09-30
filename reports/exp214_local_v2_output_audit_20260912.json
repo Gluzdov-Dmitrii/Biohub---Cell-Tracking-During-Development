@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXP214_CLEAN_KAGGLE_OUTPUT_AUDIT",
+  "submission_sha256": "0c8d165605182ef248809818f09ebf4b6945827af96325c3fe5ac55a5cfeba13",
+  "runtime_receipt_sha256": "371506af45eb571f8011b30d8d075767b673b703ddbf928fad8709154bc22871",
+  "rows": 317092,
+  "nodes": 162706,
+  "edges": 154386,
+  "datasets": [
+    "44b6_0113de3b",
+    "44b6_0b24845f",
+    "6bba_05b6850b",
+    "6bba_05db0fb1"
+  ],
+  "maximum_in_degree": 1,
+  "maximum_out_degree": 1,
+  "one_root_submission": true,
+  "dynamic_runtime_id_equality": true,
+  "finite_and_schema_valid": true
+}

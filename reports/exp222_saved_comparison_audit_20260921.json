@@ -1,0 +1,72 @@
+{
+  "status": "PASS_SAVED_COMPARISON_WITH_PROVENANCE_LIMITS",
+  "checks": {
+    "completed_and_stopped": true,
+    "all_export_hashes": true,
+    "classical_source_identity": true,
+    "gate_hash": true,
+    "prediction_hash_consistent_receipts": true,
+    "exact_175_cohort": true,
+    "both_arms_exact_cohort": true,
+    "all_baseline_per_movie_fields_match": true,
+    "baseline_csv_manifest_match": true,
+    "fixed_classical_configuration": true,
+    "local_wrapper_gate_precedes_gt_access": true,
+    "local_wrapper_fixed_cfg_and_shared_evaluator": true,
+    "official_aggregation_reproduces_scores": true
+  },
+  "scores": {
+    "classical": 0.7409785635193237,
+    "exp214": 0.7427291486246141
+  },
+  "delta_classical_minus_exp214": -0.0017505851052904697,
+  "effective_classical_config": {
+    "detector": "blob",
+    "xy_downsample": 4,
+    "dog_small_um": 1.5,
+    "dog_large_um": 4.0,
+    "dog_scales": [
+      [
+        1.5,
+        4.0
+      ],
+      [
+        2.2,
+        5.5
+      ]
+    ],
+    "rel_threshold": 0.045,
+    "abs_percentile": 50.0,
+    "min_distance_um": 3.2,
+    "max_peaks": 40000,
+    "sigma": 1.0,
+    "percentile": 99.0,
+    "refine": true,
+    "linker": "hungarian",
+    "motion_weight": 0.5,
+    "max_miss": 0,
+    "max_link_um": 8.0,
+    "allow_divisions": false,
+    "division_max_um": 6.0,
+    "close_gaps": true,
+    "max_gap": 1,
+    "gap_dist_um": 6.0,
+    "prune_isolated": true
+  },
+  "source_sha256": "e1edf7b5fc761ff713e818e01ecc5bc45349e8e8509b86d5932411b403294c1e",
+  "local_wrapper_sha256": "b850963ea4bff8d3a17fab688fa99025d75a715c1dd534118660341f6c7ce7dc",
+  "baseline_metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+  "result_sha256": "ad975a14ad769565770f949c1ae2beec605d6abaf1aba1e5e2871e57e5e8e736",
+  "cohort_by_embryo": {
+    "44b6": 59,
+    "6bba": 116
+  },
+  "mismatches": [],
+  "evidence_limits": [
+    "Exact runtime evaluator source SHA and remote wrapper SHA were not saved in the exported completion receipt; same code path is evidenced by local launcher/wrapper and exact baseline replay, not independently proven byte identity.",
+    "Full prediction CSV remains remote; this audit checks agreement of recorded CSV hashes, not a new hash of CSV bytes.",
+    "No learned parameters or target-label fitting in EXP222; image-dependent intensity normalization is inference preprocessing. Historical classical parameter-selection provenance before EXP002 remains incomplete.",
+    "This175movie cohort has been reused for development. Correct label gating does not make it a pristine independent final test.",
+    "Training-fold OOF terminology applies to EXP214 learned checkpoints, not a nontrained classical algorithm. EXP222 is a fixed classical same-cohort heldout benchmark."
+  ]
+}

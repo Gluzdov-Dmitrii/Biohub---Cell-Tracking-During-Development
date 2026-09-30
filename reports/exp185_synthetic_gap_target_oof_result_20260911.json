@@ -1,0 +1,80 @@
+{
+  "experiment": "EXP185",
+  "status": "REJECT_TARGET_OOF_GATE",
+  "eligible_for_private_robust_runtime_candidate": false,
+  "eligible_for_kaggle_submission": false,
+  "queue_request": "biohub-exp185-synthetic-gap-target-oof-cont-20260911",
+  "process": {
+    "pid": 200676,
+    "start_tick": "431990171",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "confirmed_ended": true,
+    "queue_state": "RELEASED",
+    "released_utc_epoch": 1789101133.1023934,
+    "gpu_after_exit": "5 MiB, 0%"
+  },
+  "oof": {
+    "n_movies": 24,
+    "registered_hungarian_score": 0.6862311370004796,
+    "synthetic_gap_deepcenter_score": 0.6996107107617476,
+    "pooled_delta": 0.013379573761268082,
+    "worst_movie_score_delta": -0.014529368633789397,
+    "worst_movie_recall_delta": 0.0,
+    "44b6_to_6bba": {
+      "parent": 0.6704928064276746,
+      "candidate": 0.6730439660300076,
+      "delta": 0.0025511596023329863,
+      "candidate_minus_no_veto": 0.001686341496901056,
+      "positive_movies": 7,
+      "negative_movies": 5,
+      "deepcenter_checked": 908,
+      "synthetic_added": 5583
+    },
+    "6bba_to_44b6": {
+      "parent": 0.7019694675732845,
+      "candidate": 0.726177455493488,
+      "delta": 0.02420798792020351,
+      "candidate_minus_no_veto": 0.0004943599622734274,
+      "positive_movies": 9,
+      "negative_movies": 3,
+      "deepcenter_checked": 2322,
+      "synthetic_added": 14680
+    },
+    "negative_score_movies": [
+      "6bba_062c8d37.zarr",
+      "6bba_13f19531.zarr",
+      "6bba_20852818.zarr",
+      "6bba_7b5d3b2c.zarr",
+      "6bba_aeee7805.zarr",
+      "44b6_0113de3b.zarr",
+      "44b6_0b24845f.zarr",
+      "44b6_808952d6.zarr"
+    ]
+  },
+  "gates": {
+    "exactly_12_movies_each_embryo": true,
+    "model_exercised_each_embryo": true,
+    "synthetic_added_each_embryo": true,
+    "strict_score_gain_each_embryo": true,
+    "strict_pooled_score_gain": true,
+    "nonnegative_score_each_movie": false,
+    "nonnegative_recall_each_movie": true,
+    "veto_not_worse_than_no_veto_each_embryo": true,
+    "local_semantic_reproduction": true
+  },
+  "local_artifacts": {
+    "directory": "outputs/research/exp130_official24_private_first/exp185_target_oof",
+    "forward_json_sha256": "1dfc9318ad40bf331eaa3b780e61c7029c56bec1743fab3dff30f4db639a6768",
+    "reverse_json_sha256": "8719c0354f782c3681675584b24754b08e3338fc327049434bc4a3272e313346",
+    "gate_json_sha256": "3297d058122612c45c322a8ea61d9e72f70f270d11725d9611798490c970ced7",
+    "reverse_log_sha256": "c1019211c2963455a8ffa92503f1c8066e9e159b303969e7239ed28dfa1a03eb",
+    "launch_receipt_sha256": "ce083f732fbb717bc3a068c42a681d36e4ce91bcd764a11ef83d139eca03fbb8"
+  },
+  "cleanup": {
+    "remote_pyc_bytes_removed": 107887,
+    "duplicate_gate_log_bytes_removed_each_copy": 4389,
+    "remote_empty_exp185_log_removed": true,
+    "full_nonduplicate_evidence_retained": true
+  },
+  "decision": "Reject for PRIVATE_ROBUST and do not run or submit on Kaggle. The aggregate gain is useful mechanism evidence but is not robust enough because 8 of 24 movies regress. Any follow-up using these target labels is exploratory and cannot be presented as untouched confirmatory OOF."
+}

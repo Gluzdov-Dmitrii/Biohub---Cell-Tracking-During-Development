@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP214",
+  "lease_id": "biohub-exp214-eval90-44b6_00-20260913",
+  "token": "exp214-eval90-44b6_00",
+  "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+  "cpu_affinity": "0-7",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_eval90_paired_44b6_00_20260913",
+  "script": "run_exp214_paired_fold.py",
+  "max_seconds": 10800,
+  "lease_minutes": 200,
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 1,
+    "gpus": 1
+  },
+  "scope": "Continuing primary detector60->90 improves paired175 tracking score; secondary60, center, graph and cohort fixed.",
+  "arguments": [
+    "--notebook",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+    "--repo",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+    "--bundle",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_eval90_inputs_20260913/44b6_bundle.json",
+    "--data-dir",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+    "--movies",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/44b6_00_movies.json",
+    "--output",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_eval90_paired_44b6_00_20260913/output"
+  ]
+}

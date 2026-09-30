@@ -1,0 +1,69 @@
+{
+  "lease": {
+    "id": "exp236-horaz-source6bba-block02-v2-20260927",
+    "owner": "biohub-agent",
+    "token": "exp236_horaz_source6bba_block02_v2_20260927",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block02_v2_20260927",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 4.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790460069.3468668,
+    "heartbeat": 1790460069.3469133,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790460069.3469136,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 857849,
+    "observe": 857850
+  },
+  "control": {
+    "controller_pid": 423489
+  },
+  "config": {
+    "experiment": "EXP236",
+    "lease_id": "exp236-horaz-source6bba-block02-v2-20260927",
+    "token": "exp236_horaz_source6bba_block02_v2_20260927",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block02_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block02_v2_20260927",
+    "max_seconds": 10800,
+    "cpu_affinity": "0-7",
+    "script": "run_exp236_source_resume_v2.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block02_v2_20260927/plan.json",
+      "--plan-sha256",
+      "fe578f909b524c35a1c8d2364282c39c53385ea7191cb07b1fdf704e69a4d1a0"
+    ],
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  },
+  "source_duplicate_audits": {
+    "raw_sha256": "5809c021723877a804331a7cbc0629565ca98d981dbba4a58385f33f4455db8f",
+    "effective_sha256": "0f2e322a2581fba4f0cd2bca43bea1adf2616893ecce32043e6f3f90fe5298cb",
+    "movies_scanned": 126,
+    "raw_duplicate_pairs": 927,
+    "effective_duplicate_pairs": 927,
+    "inconsistent_sampled_pairs": 43,
+    "excluded_pairs_by_split": {
+      "train": 824,
+      "inner_validation": 103
+    },
+    "removed_sampled_windows_by_split": {
+      "train": 809,
+      "inner_validation": 101
+    },
+    "target_data_opened": false
+  },
+  "source_duplicate_map_sha256": "d73389f47cc7cbf1c50a01a788827119aa324eebf2fb9222a66243b168ca7d62"
+}

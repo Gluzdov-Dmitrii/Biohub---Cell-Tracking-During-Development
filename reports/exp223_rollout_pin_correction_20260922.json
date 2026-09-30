@@ -1,0 +1,6 @@
+{
+  "status": "PASS_ROLLOUT_OBJECT_IDENTITY_NEWLINE_PIN_CORRECTION",
+  "old_local_sha256": "28a3d03900e42a3732b5156e47c79e65097396ed6a89e9213895d4f04e47f1ec",
+  "remote_sha256": "230a9dbbf0921a7a8c02c3df96252d9fd1d946d20eb6d72f3924e2692189675c",
+  "target_labels_read": false
+}

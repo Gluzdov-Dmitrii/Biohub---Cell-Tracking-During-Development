@@ -1,0 +1,60 @@
+{
+  "experiment": "EXP182",
+  "status": "PASS_SOURCE_GATE",
+  "eligible_for_reciprocal_target_oof": true,
+  "eligible_for_kaggle_submission": false,
+  "queue_request": "biohub-exp182-synthetic-gap-source-20260911",
+  "process": {
+    "pid": 191054,
+    "start_tick": "431383403",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "confirmed_ended": true,
+    "queue_state": "RELEASED",
+    "released_utc_epoch": 1789094985.0895324,
+    "gpu_after_exit": "5 MiB, 0%"
+  },
+  "source_results": {
+    "44b6": {
+      "registered_hungarian_score": 0.594713874106588,
+      "synthetic_gap_no_veto_score": 0.6157941682117378,
+      "synthetic_gap_deepcenter_score": 0.6164616406962214,
+      "deepcenter_minus_parent": 0.0217477665896334,
+      "deepcenter_minus_no_veto": 0.0006674724844836222,
+      "deepcenter_checked": 534,
+      "synthetic_added": 2766
+    },
+    "6bba": {
+      "registered_hungarian_score": 0.8866258877967269,
+      "synthetic_gap_no_veto_score": 0.8937038585925036,
+      "synthetic_gap_deepcenter_score": 0.8945568374105546,
+      "deepcenter_minus_parent": 0.007930949613827676,
+      "deepcenter_minus_no_veto": 0.00085297881805102,
+      "deepcenter_checked": 122,
+      "synthetic_added": 785
+    }
+  },
+  "gate_checks": {
+    "model_exercised_each_embryo": true,
+    "synthetic_added_each_embryo": true,
+    "strict_score_gain_each_embryo": true,
+    "nonnegative_score_each_movie": true,
+    "nonnegative_recall_each_movie": true,
+    "veto_not_worse_than_no_veto_each_embryo": true,
+    "local_semantic_reproduction": true
+  },
+  "local_artifacts": {
+    "directory": "outputs/research/exp130_official24_private_first/exp182_source_gate",
+    "forward_json_sha256": "e4cc2f6b4b22e3af2b9e1684cd58b2302da3132ee9cd2f4a5d17bcc821177f76",
+    "reverse_json_sha256": "0d8c2630429db3d09db57f31a542fdb3f811c9dd640981a2bdcedeabd1cc0385",
+    "gate_json_sha256": "8cdbcf9e8f6cb0b45d69fff7f12b6149cd1582bd7b6c9fbc51f7482201355c05",
+    "launch_receipt_sha256": "39c0ae6b54027a4861afaca5042a150199b7f26bcd9a8cdb052c252e11518d25"
+  },
+  "cleanup": {
+    "remote_empty_exp182_log_removed": true,
+    "remote_duplicate_gate_log_removed": true,
+    "local_duplicate_gate_log_removed": true,
+    "bytes_removed": 1644,
+    "retained": "Full forward/reverse JSON and logs, gate JSON, launch receipt, immutable remote bundle, and EXP180 checkpoints for the authorized target OOF dependency."
+  },
+  "decision": "Promote exactly once to a separately preregistered reciprocal 24-movie target OOF. No Kaggle execution or submission is authorized by this result."
+}

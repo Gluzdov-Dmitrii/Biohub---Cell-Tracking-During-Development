@@ -1,0 +1,5 @@
+{
+  "status": "STOPPED_NEEDS_RECONCILIATION_NO_AUTO_POST_RETRY",
+  "utc": "2026-09-16T10:12:26.500569+00:00",
+  "error": "(1, '', 'Traceback (most recent call last):\\n  File \"C:\\\\Users\\\\Dmitry\\\\Desktop\\\\Kaggle\\\\Biohub - Cell Tracking During Development\\\\scripts\\\\submit_code_file_once.py\", line 276, in <module>\\n    main()\\n  File \"C:\\\\Users\\\\Dmitry\\\\Desktop\\\\Kaggle\\\\Biohub - Cell Tracking During Development\\\\scripts\\\\submit_code_file_once.py\", line 222, in main\\n    audit_hidden_compatibility_source(\\n  File \"C:\\\\Users\\\\Dmitry\\\\Desktop\\\\Kaggle\\\\Biohub - Cell Tracking During Development\\\\scripts\\\\submit_code_file_once.py\", line 60, in audit_hidden_compatibility_source\\n    raise RuntimeError(\\nRuntimeError: Hidden-compatibility gate failed: source discovers frozen parent submission.csv artifacts. A Biohub code submission must run on the runtime competition test set, not replay public predictions.\\n')"
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP151",
+  "status": "PREREGISTERED_BEFORE_EVALUATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Sparse high-confidence learned edges may identify a second daughter when used only as an add-only candidate source on top of the strong registered topology.",
+  "parent": "Source-only-selected scratch seed 314159 registered-motion Hungarian topology in both reciprocal directions.",
+  "candidate": "For a registered parent with one child, consider only inherited native softmax>0.5 edges to an orphan second child. Apply the attributed 4.7/7.8/7.2 um parent/existing/sister gates, require both children to continue one frame and separation growth >=2.25 um, then retain the highest native probability per parent under fixed frame 0.008 and global 0.004 caps.",
+  "source_attribution": "Learned edge evidence from the local scratch UNet-transformer; geometric, continuation, divergence and cap logic from qrz1201/biohub-public-0-941-repro v1.",
+  "data": "One prospective cached pass over both 12-movie embryo directions; both outputs before comparison; no new GPU inference and no parameter tuning.",
+  "source_sha256": "f87bd3da7af84465c39024b9a1be2c0f543bc30a0bf0d9750c0ddc9f",
+  "tests": "2 passed for accepted and rejected division paths.",
+  "promotion_gate": {
+    "official_score_delta_each_embryo": "> 0",
+    "pooled_official_score_delta": "> 0",
+    "division_tp_delta_pooled": "> 0",
+    "division_tp_delta_each_embryo": ">= 0",
+    "division_precision_pooled": ">= 0.25",
+    "adjusted_edge_loss_each_embryo": ">= -0.005",
+    "node_recall_delta_each_embryo": ">= 0",
+    "maximum_in_degree": "<= 1",
+    "maximum_out_degree": "<= 2"
+  },
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

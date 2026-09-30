@@ -1,0 +1,702 @@
+[
+  {
+    "ref": "leolin05/biohub-0-935-reproduction-audit-and-validation",
+    "title": "Biohub 0.935 Reproduction Audit and Validation",
+    "author": "Zhibo Lin",
+    "lastRunTime": "2026-09-01T05:18:31.363000",
+    "totalVotes": 13
+  },
+  {
+    "ref": "xiaoleilian/biohub-cell-tracking-classical-baseline",
+    "title": "Biohub Cell Tracking - Classical Baseline",
+    "author": "Xiaolei Lian",
+    "lastRunTime": "2026-07-02T07:26:31.950000",
+    "totalVotes": 74
+  },
+  {
+    "ref": "romanrozen/strong-start-dog-band-pass-lb-0-73",
+    "title": "[STRONG START\ud83d\udd25]: DoG BAND-PASS | LB 0.73+",
+    "author": "Roman Rozen",
+    "lastRunTime": "2026-06-30T18:58:02.770000",
+    "totalVotes": 79
+  },
+  {
+    "ref": "liamob96/eda-complete",
+    "title": "EDA Complete",
+    "author": "Liam O\u2019Brien",
+    "lastRunTime": "2026-08-03T12:53:48.830000",
+    "totalVotes": 60
+  },
+  {
+    "ref": "yusuketogashi/clean-approach-lightweight-local-cv-no-hack",
+    "title": "\ud83e\uddecClean Approach + Lightweight Local CV | No Hack",
+    "author": "Yusuke Togashi",
+    "lastRunTime": "2026-07-23T00:37:05.277000",
+    "totalVotes": 207
+  },
+  {
+    "ref": "flexonafft/data-atlas-validation-research",
+    "title": "Data Atlas + Validation Research",
+    "author": "Igor Zharov",
+    "lastRunTime": "2026-07-13T13:17:27.777000",
+    "totalVotes": 3
+  },
+  {
+    "ref": "jirkaborovec/biohub-celltrack-dog-trackastra-graph-trans",
+    "title": "Biohub\ud83e\uddebCellTrack: DoG & Trackastra Graph Trans",
+    "author": "Jirka",
+    "lastRunTime": "2026-07-04T10:11:12.993000",
+    "totalVotes": 47
+  },
+  {
+    "ref": "salemali7/biohub-cell-tracking-92-6",
+    "title": "Biohub Cell Tracking 92.6% ",
+    "author": "Salem Ali",
+    "lastRunTime": "2026-09-08T09:50:50.823000",
+    "totalVotes": 46
+  },
+  {
+    "ref": "boristown/agi-biohub-cell-tracking",
+    "title": "\u3010\u6697\u9ed1AGI\u3011Biohub Cell Tracking",
+    "author": "\u6697\u9ed1AGI",
+    "lastRunTime": "2026-07-05T09:36:52.503000",
+    "totalVotes": 72
+  },
+  {
+    "ref": "xiaoleilian/biohub-cell-tracking-3d-u-net-training",
+    "title": "Biohub Cell Tracking - 3D U-Net (Training)",
+    "author": "Xiaolei Lian",
+    "lastRunTime": "2026-07-02T12:26:00.953000",
+    "totalVotes": 21
+  },
+  {
+    "ref": "aman5153684/actually-tuning-the-ilp",
+    "title": "Actually Tuning the ILP",
+    "author": "Aman Sharma",
+    "lastRunTime": "2026-06-30T17:20:45.510000",
+    "totalVotes": 19
+  },
+  {
+    "ref": "prvsiyan/biohub-clean-public-frontier-lineage-tracker",
+    "title": "BioHub Clean Public-Frontier Lineage Tracker",
+    "author": "prvsiyan",
+    "lastRunTime": "2026-08-08T14:58:38.620000",
+    "totalVotes": 32
+  },
+  {
+    "ref": "jirkaborovec/biohub-celltrack-eda-w-4d-view-dog-detect",
+    "title": "Biohub\ud83e\uddebCellTrack: EDA w/ 4D view + DoG detect",
+    "author": "Jirka",
+    "lastRunTime": "2026-07-01T19:37:51.407000",
+    "totalVotes": 24
+  },
+  {
+    "ref": "hengck23/cell-point-detector",
+    "title": "cell point detector",
+    "author": "hengck23",
+    "lastRunTime": "2026-09-05T05:34:17.317000",
+    "totalVotes": 23
+  },
+  {
+    "ref": "hosen42/biohub-cell-tracking-during-development-cv6",
+    "title": "Biohub - Cell Tracking During Development CV6",
+    "author": "Md. Hamid Hosen",
+    "lastRunTime": "2026-07-02T17:47:36.723000",
+    "totalVotes": 14
+  },
+  {
+    "ref": "liamob96/validation-strategy",
+    "title": "Validation Strategy",
+    "author": "Liam O\u2019Brien",
+    "lastRunTime": "2026-08-07T12:02:54.213000",
+    "totalVotes": 0
+  },
+  {
+    "ref": "abhijithneilabraham/solution",
+    "title": "solution",
+    "author": "neilan",
+    "lastRunTime": "2026-07-11T05:35:16.910000",
+    "totalVotes": 83
+  },
+  {
+    "ref": "praxel/biohub-0-902-motion-division-calibration",
+    "title": "Biohub 0.902 | Motion + Division Calibration",
+    "author": "Pushpak Teja",
+    "lastRunTime": "2026-07-13T11:59:30.557000",
+    "totalVotes": 62
+  },
+  {
+    "ref": "nilsfl/how-reliable-is-local-validation-a-measurement",
+    "title": "How reliable is local validation? (a measurement)",
+    "author": "Nils",
+    "lastRunTime": "2026-07-17T06:31:39.700000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "rishabhr0y/biohub-937-sdw80",
+    "title": "biohub-937-sdw80",
+    "author": "Rishabh Roy",
+    "lastRunTime": "2026-08-28T14:11:01.817000",
+    "totalVotes": 18
+  },
+  {
+    "ref": "beicicc/biohub-exp073-gap-5-8-public",
+    "title": "Biohub Exp073 Gap 5.8 Public",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-15T00:40:12.333000",
+    "totalVotes": 51
+  },
+  {
+    "ref": "saitejabandaruin/biohub-masterpiece-tracker-version-16",
+    "title": "Biohub Masterpiece Tracker - Version 16",
+    "author": "Sai Teja Bandaru",
+    "lastRunTime": "2026-08-19T12:05:57.320000",
+    "totalVotes": 25
+  },
+  {
+    "ref": "redoctopusk/biohub-942tta",
+    "title": "biohub-942tta",
+    "author": "James Y",
+    "lastRunTime": "2026-09-06T23:07:11.517000",
+    "totalVotes": 105
+  },
+  {
+    "ref": "josefreitasalvesneto/synthetic-3d-microscopy-data-for-cell-tracking",
+    "title": "Synthetic 3D Microscopy Data for Cell Tracking",
+    "author": "Jos\u00e9 Freitas",
+    "lastRunTime": "2026-08-01T16:37:18.217000",
+    "totalVotes": 12
+  },
+  {
+    "ref": "analyticaobscura/biohub-lb-941",
+    "title": "\ud83e\uddec Biohub LB : 941",
+    "author": "OzanM.",
+    "lastRunTime": "2026-09-04T07:05:21.640000",
+    "totalVotes": 92
+  },
+  {
+    "ref": "perseus7/biohub-exploratory-data-analysis",
+    "title": "BioHub Exploratory Data Analysis",
+    "author": "Aryan",
+    "lastRunTime": "2026-06-29T22:27:24.747000",
+    "totalVotes": 12
+  },
+  {
+    "ref": "angantyr/biohub-2026-visualization-and-data-analysis",
+    "title": "Biohub 2026 - visualization and data analysis",
+    "author": "Angantyr",
+    "lastRunTime": "2026-07-11T16:39:30.393000",
+    "totalVotes": 18
+  },
+  {
+    "ref": "amanatar/biohub-cell-tracking-v",
+    "title": "Biohub Cell Tracking v ",
+    "author": "Aman Atar",
+    "lastRunTime": "2026-09-05T10:05:49.257000",
+    "totalVotes": 64
+  },
+  {
+    "ref": "analyticaobscura/biohub-lb-942",
+    "title": "Biohub  LB 942",
+    "author": "OzanM.",
+    "lastRunTime": "2026-09-04T14:06:44.477000",
+    "totalVotes": 69
+  },
+  {
+    "ref": "raunakdey07/biohub-harmonic-fusion-dual-seed-pipeline",
+    "title": "Biohub: Harmonic Fusion & Dual-Seed Pipeline",
+    "author": "Raunak Dey",
+    "lastRunTime": "2026-08-11T06:09:24.563000",
+    "totalVotes": 11
+  },
+  {
+    "ref": "yaroslavkholmirzayev/high-upside-min7-short-track-filter-risk-a-b",
+    "title": "High-Upside Min7 Short-Track Filter | Risk A/B",
+    "author": "Yaroslav kholmirzayev",
+    "lastRunTime": "2026-07-13T22:10:49.770000",
+    "totalVotes": 27
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp001-classical",
+    "title": "Biohub Cell Tracking Exp001 Classical",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-01T03:56:08.150000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "tatyanagrankina/biohub-cell-tracking-during-development",
+    "title": "Biohub - Cell Tracking During Development",
+    "author": "Tatyana Grankina",
+    "lastRunTime": "2026-09-11T09:01:44.267000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "mohit98765/biohub-cell-tracking-v1-baseline",
+    "title": "BioHub Cell Tracking v1 Baseline",
+    "author": "Mohit",
+    "lastRunTime": "2026-09-11T22:00:08.627000",
+    "totalVotes": 8
+  },
+  {
+    "ref": "beicicc/biohub-exp027-v10-thr033-gap55",
+    "title": "Biohub Exp027 V10 Thr033 Gap55",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-04T12:07:44.510000",
+    "totalVotes": 10
+  },
+  {
+    "ref": "busyaprime/biohub-0-942-lb-one-knob-past-the-public-line",
+    "title": "Biohub 0.942 LB, one knob past the public line",
+    "author": "Busya PRIME",
+    "lastRunTime": "2026-09-09T14:52:43.750000",
+    "totalVotes": 42
+  },
+  {
+    "ref": "amanatar/optimized-biohub-max-score",
+    "title": "optimized-biohub-max-score",
+    "author": "Aman Atar",
+    "lastRunTime": "2026-07-27T08:49:28.423000",
+    "totalVotes": 14
+  },
+  {
+    "ref": "tangai1/biohub-c33-public0933-v19-fallback",
+    "title": "Biohub C33 Public0933 V19 Fallback",
+    "author": "tangaii",
+    "lastRunTime": "2026-08-30T19:38:26.657000",
+    "totalVotes": 16
+  },
+  {
+    "ref": "dalloliogm/biohub-exp110-ilp-birth-death-cost",
+    "title": "Biohub Exp110 ILP Birth Death Cost",
+    "author": "Giovanni Marco Dall'Olio",
+    "lastRunTime": "2026-07-19T18:31:38.740000",
+    "totalVotes": 15
+  },
+  {
+    "ref": "anhadmahajan06/biohub-track-your-cells",
+    "title": "Biohub - Track Your Cells",
+    "author": "Anhad Mahajan",
+    "lastRunTime": "2026-09-08T14:48:39.823000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "sleepymegacat/the-metric-decides-your-architecture-8-measured",
+    "title": "The metric decides your architecture \u2014 8 measured ",
+    "author": "SleepyMegaCat",
+    "lastRunTime": "2026-08-31T11:57:31.437000",
+    "totalVotes": 8
+  },
+  {
+    "ref": "nusrati/0-938",
+    "title": "0.938",
+    "author": "nusrati",
+    "lastRunTime": "2026-09-02T21:23:13.907000",
+    "totalVotes": 31
+  },
+  {
+    "ref": "rishabhr0y/941-biohub-fresh-adaptive-assoc",
+    "title": ".941_biohub-fresh-adaptive-assoc",
+    "author": "Rishabh Roy",
+    "lastRunTime": "2026-09-03T20:48:31.943000",
+    "totalVotes": 28
+  },
+  {
+    "ref": "rishabhr0y/biohub-div45-stack",
+    "title": "biohub-div45-stack",
+    "author": "Rishabh Roy",
+    "lastRunTime": "2026-09-01T14:12:16.910000",
+    "totalVotes": 27
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp022-hosen-cv6-gap50",
+    "title": "Biohub Cell Tracking Exp022 Hosen CV6 Gap50",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-03T13:37:55.657000",
+    "totalVotes": 7
+  },
+  {
+    "ref": "beicicc/biohub-exp052-abhijith-v74-d4",
+    "title": "Biohub Exp052 Abhijith V74 D4",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-10T09:16:14.053000",
+    "totalVotes": 17
+  },
+  {
+    "ref": "qrz1201/biohub-v19c-sister14-repro",
+    "title": "Biohub V19C Sister14 Repro",
+    "author": "qr Z1201",
+    "lastRunTime": "2026-09-03T03:04:37.347000",
+    "totalVotes": 27
+  },
+  {
+    "ref": "llccqq624/biohub-cell-tracking-multiscale-dog-hungarian",
+    "title": "biohub-cell-tracking-multiscale-dog-hungarian",
+    "author": "Jiachen Li",
+    "lastRunTime": "2026-07-07T13:36:43.980000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "beicicc/biohub-exp056-division-prior09",
+    "title": "Biohub Exp056 Division Prior09",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-11T06:50:19.563000",
+    "totalVotes": 14
+  },
+  {
+    "ref": "hosen42/biohub-cell-tracking-during-development-av6",
+    "title": "Biohub - Cell Tracking During Development AV6",
+    "author": "Md. Hamid Hosen",
+    "lastRunTime": "2026-07-02T16:17:04.497000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "avikdas567/3d-cell-tracking-scale-space-hungarian-engine",
+    "title": "3D Cell Tracking: Scale-Space & Hungarian Engine",
+    "author": "Avik Das",
+    "lastRunTime": "2026-07-04T06:27:15.930000",
+    "totalVotes": 17
+  },
+  {
+    "ref": "benspectrcydegilbert/notebookf5391491c2",
+    "title": "notebookf5391491c2",
+    "author": "Ben Spectrcyde Gilbert",
+    "lastRunTime": "2026-07-17T04:57:28.787000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp024-yunus-v10-thr032",
+    "title": "Biohub Cell Tracking Exp024 Yunus V10 Thr032",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-04T06:03:30.787000",
+    "totalVotes": 6
+  },
+  {
+    "ref": "reyhanksatria/biohub-cell-tracking-0-946-lb",
+    "title": "Biohub Cell Tracking: 0.946 LB",
+    "author": "Reyhan Ksatria",
+    "lastRunTime": "2026-09-12T13:37:40.710000",
+    "totalVotes": 17
+  },
+  {
+    "ref": "shubhamveer/mathematical-biophysical-foundations-of-3d-cell",
+    "title": "Mathematical Biophysical Foundations of 3D Cell",
+    "author": "Shubham Veer",
+    "lastRunTime": "2026-07-04T18:08:46.567000",
+    "totalVotes": 11
+  },
+  {
+    "ref": "lucifer19/celltrack-panther-u-net-ilp-core",
+    "title": "\ud83e\uddec\ud83d\udc08\u200d\u2b1b CellTrack Panther: U-Net ILP Core",
+    "author": "Krizs\u00f3 Gergely",
+    "lastRunTime": "2026-07-10T14:43:38.030000",
+    "totalVotes": 13
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp021-hosen-cv6-gap525",
+    "title": "Biohub Cell Tracking Exp021 Hosen CV6 Gap525",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-03T12:33:02.487000",
+    "totalVotes": 6
+  },
+  {
+    "ref": "anvithpothula/biohub-clean-silver",
+    "title": "Biohub Clean Silver",
+    "author": "Anvith Pothula",
+    "lastRunTime": "2026-07-20T18:55:07.327000",
+    "totalVotes": 9
+  },
+  {
+    "ref": "ayodejiibrahimlateef/biohub-v4-avg7525-e016-global-final-r4",
+    "title": "Biohub V4 Avg7525 E016 Global Final R4",
+    "author": "Ayodeji",
+    "lastRunTime": "2026-07-26T09:51:33.747000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp017-hosen-cv6-link85",
+    "title": "Biohub Cell Tracking Exp017 Hosen CV6 Link85",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-03T10:06:49.303000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "dynamo14324/biohub-cell-tracking-classical-baseline",
+    "title": "Biohub Cell Tracking Classical Baseline",
+    "author": "Yogesh Jadhav",
+    "lastRunTime": "2026-08-17T07:30:33.430000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "christianrubin/biowerkzx-9",
+    "title": "BiowerkzX.9",
+    "author": "Christian Rubin",
+    "lastRunTime": "2026-07-04T06:12:19.647000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "qiweiyin/focus3d-nuclei-physical-pp-submit",
+    "title": "focus3d-nuclei-physical-pp-submit",
+    "author": "Qiwei",
+    "lastRunTime": "2026-09-01T23:18:11.447000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp016-hosen-cv6",
+    "title": "Biohub Cell Tracking Exp016 Hosen CV6",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-03T08:47:51.440000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "beicicc/biohub-exp026-v10-thr032-gap525",
+    "title": "Biohub Exp026 V10 Thr032 Gap525",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-04T10:19:03.203000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "zhincez/label-eda-two-embryos-151-divisions-199-films",
+    "title": "Label EDA: two embryos, 151 divisions, 199 films",
+    "author": "L\u00ea Quang C\u1ea3nh",
+    "lastRunTime": "2026-09-12T12:00:07.073000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "mige551/biohub-clean-122-det-0-9690",
+    "title": "Biohub Clean 122 det 0.9690",
+    "author": "mige551",
+    "lastRunTime": "2026-07-21T11:46:51.400000",
+    "totalVotes": 6
+  },
+  {
+    "ref": "hitarthpandey/data-understanding",
+    "title": "Data Understanding",
+    "author": "Hitarth Pandey",
+    "lastRunTime": "2026-07-27T04:13:45.093000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "ayodejiibrahimlateef/biohub-v4-hpv0-p4-seed-assoc-p3-final-r1",
+    "title": "Biohub V4 HPV0 P4 Seed Assoc P3 Final R1",
+    "author": "Ayodeji",
+    "lastRunTime": "2026-07-25T16:17:47.877000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "lucifer19/celltrack-nightline-v1-edge-tta-challenger",
+    "title": "\ud83d\udc08\u200d\u2b1b CellTrack NightLine V1 \u2014 Edge-TTA Challenger",
+    "author": "Krizs\u00f3 Gergely",
+    "lastRunTime": "2026-09-06T11:50:50.163000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp018-hosen-cv6-gap55",
+    "title": "Biohub Cell Tracking Exp018 Hosen CV6 Gap55",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-03T11:12:42.147000",
+    "totalVotes": 3
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp025-yunus-v10-thr032-gap55",
+    "title": "Biohub Cell Tracking Exp025 Yunus V10 Thr032 Gap55",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-04T08:28:22.657000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "qrz1201/biohub-v19c-dualwide-9-14-2-25",
+    "title": "biohub-v19c-dualwide-9-14-2-25",
+    "author": "qr Z1201",
+    "lastRunTime": "2026-09-03T14:24:37.807000",
+    "totalVotes": 9
+  },
+  {
+    "ref": "junaid512/exploratory-data-analysis-biohub-cell-trackin",
+    "title": "Exploratory Data Analysis \ud83d\udd2c Biohub \u2014 Cell Trackin",
+    "author": "Muhammad Junaid",
+    "lastRunTime": "2026-07-10T13:40:21.067000",
+    "totalVotes": 3
+  },
+  {
+    "ref": "beicicc/biohub-cell-tracking-exp023-yunus-v10",
+    "title": "Biohub Cell Tracking Exp023 Yunus V10",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-04T03:52:30.147000",
+    "totalVotes": 3
+  },
+  {
+    "ref": "rishabhr0y/940-biohub-sdec12",
+    "title": ".940 biohub-sdec12",
+    "author": "Rishabh Roy",
+    "lastRunTime": "2026-09-03T12:12:29.207000",
+    "totalVotes": 9
+  },
+  {
+    "ref": "hugogascon/biohub-cell-tracking-computer-vision",
+    "title": "BioHub Cell Tracking computer vision",
+    "author": "Hugo Gascon",
+    "lastRunTime": "2026-08-26T14:36:39.963000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "nomannic19/cv-biohub-cell-tracking-temporal-3d-u-net",
+    "title": "[CV] Biohub Cell Tracking - Temporal 3D U-Net",
+    "author": "Nomannic",
+    "lastRunTime": "2026-07-05T09:51:24.607000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "rogerrogerroger3r/what-each-piece-of-this-pipeline-is-worth",
+    "title": "What each piece of this pipeline is worth",
+    "author": "rogerrogerroger3r",
+    "lastRunTime": "2026-09-07T14:07:49.373000",
+    "totalVotes": 8
+  },
+  {
+    "ref": "mtoshidesu/test-biohub-c33-public0933-v19-fallback",
+    "title": "Test Biohub C33 Public0933 V19 Fallback",
+    "author": "m-toshi desu",
+    "lastRunTime": "2026-09-05T16:04:26.797000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "enddl22/biohub-exp084-repro",
+    "title": "biohub-exp084-repro",
+    "author": "enddl22",
+    "lastRunTime": "2026-07-17T03:15:00.767000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "dariushafshar/144-teams-are-tied-at-0-915-bronze-is-inside",
+    "title": "144 teams are tied at 0.915. Bronze is inside.",
+    "author": "Dariush Afshar",
+    "lastRunTime": "2026-08-09T06:01:27.310000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "romanrozen/biohub-unet-transform-ilp-clean",
+    "title": "Biohub: Unet Transform ILP [CLEAN]",
+    "author": "Roman Rozen",
+    "lastRunTime": "2026-07-19T10:01:44.530000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "arnavsalkade/biohub-exp073-gap58-edge-consensus-v1",
+    "title": "Biohub Exp073 Gap58 Edge Consensus V1",
+    "author": "Arnav Salkade",
+    "lastRunTime": "2026-07-15T10:09:33.823000",
+    "totalVotes": 5
+  },
+  {
+    "ref": "dariushafshar/your-0-915-checkpoint-has-no-held-out-data",
+    "title": "Your 0.915 Checkpoint Has No Held-Out Data",
+    "author": "Dariush Afshar",
+    "lastRunTime": "2026-08-18T23:07:24.767000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "ikennauwa123/biohub-cell-tracking-during-development",
+    "title": "Biohub - Cell Tracking During Development",
+    "author": "Ikenna Uwaezuoke",
+    "lastRunTime": "2026-06-30T03:00:59.917000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "beicicc/biohub-exp084-det-0-96875-gap-5-8-public",
+    "title": "Biohub Exp084 Det 0.96875 Gap 5.8 Public",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-16T00:17:33.260000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "josefreitasalvesneto/biohub-synthetic-dataset",
+    "title": "biohub synthetic dataset",
+    "author": "Jos\u00e9 Freitas",
+    "lastRunTime": "2026-08-01T01:39:08.937000",
+    "totalVotes": 10
+  },
+  {
+    "ref": "backtracking/biohub-focus3d-silver-hedge-v1",
+    "title": "Biohub Focus3D silver hedge v1",
+    "author": "Le Trong Hieu",
+    "lastRunTime": "2026-09-09T17:15:02.803000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "rishabhr0y/biohub-adaptive-grouped-confidence-dominance-v2",
+    "title": "Biohub Adaptive Grouped Confidence Dominance V2",
+    "author": "Rishabh Roy",
+    "lastRunTime": "2026-09-05T00:01:05.680000",
+    "totalVotes": 7
+  },
+  {
+    "ref": "zhincez/biohub-what-the-metric-can-see",
+    "title": "biohub-what-the-metric-can-see",
+    "author": "L\u00ea Quang C\u1ea3nh",
+    "lastRunTime": "2026-09-09T12:59:53.477000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "stevenleehans/biohub-baseline-v1-eda-submission",
+    "title": "Biohub Baseline v1 - EDA + Submission",
+    "author": "stevenleehans",
+    "lastRunTime": "2026-07-24T17:06:21.970000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "aliahmadmphil/complete-cell-tracking-pipeline-3d-time",
+    "title": "Complete Cell Tracking Pipeline (3D+Time)",
+    "author": "Ali Ahmad",
+    "lastRunTime": "2026-09-06T07:12:20.510000",
+    "totalVotes": 1
+  },
+  {
+    "ref": "backtracking/biohub-general-v2",
+    "title": "biohub-general-v2",
+    "author": "Le Trong Hieu",
+    "lastRunTime": "2026-08-20T08:13:38.450000",
+    "totalVotes": 7
+  },
+  {
+    "ref": "dedquoc/biohub-pure-gpu-clean-room-baseline",
+    "title": "Biohub - Pure GPU Clean-Room Baseline",
+    "author": "De DQ",
+    "lastRunTime": "2026-07-01T09:18:01.940000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "ravi123a321at/biohub-0-902-motion-division-calibration",
+    "title": "Biohub 0.902 | Motion + Division Calibration",
+    "author": "Ravindra",
+    "lastRunTime": "2026-07-14T01:42:30.930000",
+    "totalVotes": 4
+  },
+  {
+    "ref": "beicicc/biohub-exp051-abhijith-latest",
+    "title": "Biohub Exp051 Abhijith Latest",
+    "author": "Kun Zhang",
+    "lastRunTime": "2026-07-09T22:31:29.233000",
+    "totalVotes": 8
+  },
+  {
+    "ref": "josefkurkedwards/p24-capsid-drug-candidate-results",
+    "title": "p24 capsid drug candidate results",
+    "author": "Josef Kurk Edwards",
+    "lastRunTime": "2026-07-13T14:23:37.160000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "chaitanyajamble/biohub-ctddev",
+    "title": "Biohub- CTDDev",
+    "author": "Chaitanya Jamble",
+    "lastRunTime": "2026-07-22T03:02:37.457000",
+    "totalVotes": 2
+  },
+  {
+    "ref": "pawanmali/biohub-942tta-fork-v1",
+    "title": "biohub-942tta-fork-v1",
+    "author": "Pawan Rama Mali",
+    "lastRunTime": "2026-09-12T00:13:17.213000",
+    "totalVotes": 5
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PORTABLE_REDUCED_CACHE_VS_ORIGINAL_TENSORS",
+  "target_metrics_read": false,
+  "scope": "12 source windows, no augmentations; all retained raw frames separately verified byte-exact",
+  "cache_manifest_sha256": "8631b9bde685f163c324089eb61fff0ce47d1e01a3fee0f6099e256b07a16728",
+  "rows": [
+    {
+      "movie": "44b6_0113de3b",
+      "start": 27,
+      "image_tensor_sha256": "de76865448c519fcfbf824e9000215fcbe3026e791081dcbf42509fe17bf4218"
+    },
+    {
+      "movie": "44b6_0113de3b",
+      "start": 51,
+      "image_tensor_sha256": "5d7c86657580fd16af29214c34fb805c32743ad976f45e1ecc39dcca50e41f6d"
+    },
+    {
+      "movie": "44b6_0113de3b",
+      "start": 71,
+      "image_tensor_sha256": "0cb1f812d2160d9614cdf597efd46f6f5ba81c248fc0fb13acab6046fab1f1ee"
+    },
+    {
+      "movie": "44b6_0b24845f",
+      "start": 11,
+      "image_tensor_sha256": "1131995eaa58884a687a6ae326560beebb96b988ac778183b3afca992005a5ab"
+    },
+    {
+      "movie": "44b6_0b24845f",
+      "start": 31,
+      "image_tensor_sha256": "fc6e7aad16743e10d81ef4e841996d71c3acb92082b70cc674a0b504dacb460b"
+    },
+    {
+      "movie": "44b6_0b24845f",
+      "start": 47,
+      "image_tensor_sha256": "f9d90d8ccac0b82164919eb976554fd1a88409c10063d70194ffbcffa9128121"
+    },
+    {
+      "movie": "6bba_05db0fb1",
+      "start": 0,
+      "image_tensor_sha256": "16bee9d6bfa28b32c703af7145ef7801418f6806cd59c8517d5118522dc280c5"
+    },
+    {
+      "movie": "6bba_05db0fb1",
+      "start": 51,
+      "image_tensor_sha256": "041f682dd23081fd2e460ac2bc15fcf2f633f604b113fcde53c3eeaf9883e026"
+    },
+    {
+      "movie": "6bba_05db0fb1",
+      "start": 96,
+      "image_tensor_sha256": "cf90fcdd1fc011ab484f9c2231c88036d841b244eb5d66e8143200a45d3b37a1"
+    },
+    {
+      "movie": "6bba_07477033",
+      "start": 2,
+      "image_tensor_sha256": "91bda59083b46babfe20a30f4aa28c860863673d36e78881a336f550b594a49a"
+    },
+    {
+      "movie": "6bba_07477033",
+      "start": 50,
+      "image_tensor_sha256": "9883063ca7a860b4f7c0df7f5b004eef93015e876000484001d99720d52e82b7"
+    },
+    {
+      "movie": "6bba_07477033",
+      "start": 98,
+      "image_tensor_sha256": "69c35022083d840b7e496ff4e4aac35656297f38e4c8dcca18ba4295255075e3"
+    }
+  ],
+  "metadata_bytes": 2760102,
+  "original_images_required": false
+}

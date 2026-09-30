@@ -1,0 +1,24 @@
+[
+  {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_control_v1_20260921",
+    "manifest": {
+      "train_exp213_detector.py": "16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19",
+      "exp214_cache_loader.py": "6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822",
+      "prepare_exp213_honest_refit.py": "7009f13fd4d192e4a131a98eb2a393a3e8570ffc6e37a995282ab126dd71b861",
+      "exp221_domain_augmentation.py": "85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda",
+      "exp213_remote_job.py": "b100510c41392c701c37f121108770d53927547f4d93107d4a794da30bb1ee16",
+      "plan.json": "b7c71e5f4453b859ace4a6b30ee388f6a76fb1653ff8872f720e5e370183b4b0"
+    }
+  },
+  {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp221_domain_v1_20260921",
+    "manifest": {
+      "train_exp213_detector.py": "16f3d7d5b95122c06a674c197b785232b31806d6835ce22f332bcbf30805fc19",
+      "exp214_cache_loader.py": "6b70207bf56019a2b9133ceda5f3d17c14c5f8ed4feeb3295c1d13107c216822",
+      "prepare_exp213_honest_refit.py": "7009f13fd4d192e4a131a98eb2a393a3e8570ffc6e37a995282ab126dd71b861",
+      "exp221_domain_augmentation.py": "85c7eda20345448e89198055d87934db5c2599b1629a3280053b67f8ed339dda",
+      "exp213_remote_job.py": "b100510c41392c701c37f121108770d53927547f4d93107d4a794da30bb1ee16",
+      "plan.json": "a5cd5963cb566d88dc57a60c983c35c4c6ea74332bcf593ee3c9ae7df73d694e"
+    }
+  }
+]

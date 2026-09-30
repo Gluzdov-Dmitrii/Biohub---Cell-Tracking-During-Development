@@ -1,0 +1,38 @@
+{
+  "status": "PASS_EXP234_FIXED_NODE_ASSOCIATION_CEILING_DIAGNOSTIC",
+  "evidence_class": "target-label post hoc bound, not new OOF or achievable policy",
+  "formula": "For each movie, set association-limited FN to TP, FP to zero, retain endpoint-limited FN and fixed node-count penalty; average by hypothetical TP+FN.",
+  "inputs": {
+    "outputs\\research\\exp214_gapfix_score175_20260914\\output\\new90\\metrics.json": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+    "outputs\\research\\exp216_submission_failure_attribution_20260915\\gapfix_new90_edge_failure_decomposition.json": "34361b4eefa111e4e886f7bb81e1ba1ccc4a11dd77e092755f99f0d581343e04"
+  },
+  "results": {
+    "44b6": {
+      "gt_edge_weight": 17111,
+      "current_tp": 15151,
+      "endpoint_limited_fn": 1193,
+      "association_limited_fn": 767,
+      "optimistic_adjusted_edge_bound": 0.9225101400149219
+    },
+    "6bba": {
+      "gt_edge_weight": 97245,
+      "current_tp": 81202,
+      "endpoint_limited_fn": 9125,
+      "association_limited_fn": 6918,
+      "optimistic_adjusted_edge_bound": 0.903012482235978
+    },
+    "ALL": {
+      "gt_edge_weight": 114356,
+      "current_tp": 96353,
+      "endpoint_limited_fn": 10318,
+      "association_limited_fn": 7685,
+      "optimistic_adjusted_edge_bound": 0.9059299017177328
+    }
+  },
+  "limitations": [
+    "Allows perfect association and zero FP, even if graph constraints prevent that.",
+    "Holds final matched-node set and total node count fixed.",
+    "Excludes division score.",
+    "Not a bound on retrained or differently thresholded detectors."
+  ]
+}

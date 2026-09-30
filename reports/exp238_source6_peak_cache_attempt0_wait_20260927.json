@@ -1,0 +1,63 @@
+{
+  "gpu_requested_again": false,
+  "intent_sha256": "c579e7096c0688a0837b0733fa24bf6d07c1c64a5cf84441e6618c765317d0f4",
+  "interpretation": "Queue request returned WAITING_RESOURCE; queue_request cancelled the unlaunched request. No reservation, remote run, or worker exists.",
+  "kaggle_post": false,
+  "lease": {
+    "count": 1,
+    "cpu": 8,
+    "created": 1790508218.210543,
+    "disk_gib": 4.0,
+    "finished": 1790508220.134836,
+    "gpus": [],
+    "health": "CURRENT",
+    "heartbeat": 1790508218.210543,
+    "id": "exp238-source6-peak-cache-v1-20260927",
+    "minutes": 130,
+    "owner": "biohub-agent",
+    "pool": "a100",
+    "process": null,
+    "project": "biohub-cell-tracking-during-development",
+    "ram_gib": 32.0,
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp238_source6_peak_cache_v1_20260927",
+    "state": "CANCELLED",
+    "token": "exp238_source6_peak_cache_v1_20260927",
+    "waiting_ahead": []
+  },
+  "local_plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+  "remote_mutation": false,
+  "remote_probes": [
+    {
+      "alias": "nsu-a100",
+      "gpu_matches": [],
+      "labels_read": false,
+      "matched_processes": [],
+      "run_exists": false,
+      "stage_hashes": {
+        "detection_sha256": "9ebd2aa86f95636565a9676e53a7315fde9b4f17dbcc02b29977a928b67b2121",
+        "engine_sha256": "b6925585c79c0b823a3708e381f0be0763b3722712ce48ef7924ae5551d32a13",
+        "manifest_sha256": "5e6132f2444c405801fb9a450fdcce94ec6c6768f7f88fa517ff95fbfcd20166",
+        "plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+        "runner_sha256": "4d3cba410f7c794db5873e9a0e4ad5c8002c2127f06e5e4a5c486a8cf0c50580"
+      }
+    },
+    {
+      "alias": "nsu-quadro",
+      "gpu_matches": [],
+      "labels_read": false,
+      "matched_processes": [],
+      "run_exists": false,
+      "stage_hashes": {
+        "detection_sha256": "9ebd2aa86f95636565a9676e53a7315fde9b4f17dbcc02b29977a928b67b2121",
+        "engine_sha256": "b6925585c79c0b823a3708e381f0be0763b3722712ce48ef7924ae5551d32a13",
+        "manifest_sha256": "5e6132f2444c405801fb9a450fdcce94ec6c6768f7f88fa517ff95fbfcd20166",
+        "plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+        "runner_sha256": "4d3cba410f7c794db5873e9a0e4ad5c8002c2127f06e5e4a5c486a8cf0c50580"
+      }
+    }
+  ],
+  "source_labels_read": false,
+  "stage_receipt_sha256": "50aad2cabfa71c12ce28a701e9a69e960be5800ea3182d13da149508df0d07cf",
+  "status": "WAITING_RESOURCE_CANCELLED_UNLAUNCHED_EXP238_SOURCE6_ATTEMPT0",
+  "target_data_opened": false
+}

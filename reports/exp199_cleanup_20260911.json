@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP199",
+  "recorded_at": "2026-09-11",
+  "status": "CLEANUP_VERIFIED",
+  "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "removed_remote": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp199_coherent_motion_linker_20260911",
+    "bytes_before_removal": 1865900,
+    "resolved_path_verified_inside_registered_root": true,
+    "active_worker_absent": true,
+    "absence_verified_after_removal": true
+  },
+  "removed_local_reproducible_files": [
+    "scripts/__pycache__/evaluate_cached_coherent_motion_linker.cpython-312.pyc",
+    "tests/__pycache__/test_evaluate_cached_coherent_motion_linker.cpython-312-pytest-9.1.1.pyc"
+  ],
+  "preserved": [
+    "source and focused test",
+    "preregistration and failure receipts",
+    "forward/reverse metrics, nested selection, stability, logs and SHA256SUMS under outputs/research/exp130_official24_private_first/exp199_coherent_motion_linker",
+    "active EXP192 archive transfer and every EXP192 dependency"
+  ],
+  "recoverability": "The removed remote directory is not recoverable in place, but every substantive result matched its preserved local SHA and all scripts are preserved locally."
+}

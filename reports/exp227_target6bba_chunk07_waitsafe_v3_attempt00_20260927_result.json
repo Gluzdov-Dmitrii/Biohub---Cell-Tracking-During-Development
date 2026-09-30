@@ -1,0 +1,31 @@
+{
+  "status": "WAITING_FOR_FAIR_A100_NO_REQUEST",
+  "attempt": 0,
+  "lease_id": "exp227-target6bba-chunk07-v3-20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v3_20260927",
+  "remote_preflight": {
+    "status": "PASS_EXP227_TARGET_CHUNK_LAUNCH_PREFLIGHT",
+    "manifest_sha256": "b17d5baf85ddde704b863753bea2eaae9e5684405024c17c39aaf69d1c5d7e06",
+    "plan_sha256": "9e87d40ad89816f171f32bd888e55421531486c86cde9c8af0ba8d196af8031a",
+    "run_absent": true
+  },
+  "fair": {
+    "status": "NO_FAIR_IDLE_A100",
+    "gpu": null,
+    "queue_snapshot_sha256": "b816d431c30855982b222e236aff81dc88c56727ba01b8f17e677f33fcc6309d",
+    "physical": {
+      "all_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "busy_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "idle_gpus": []
+    },
+    "exp236_active_or_waiting": []
+  },
+  "target_labels_read": false,
+  "kaggle_post": false
+}

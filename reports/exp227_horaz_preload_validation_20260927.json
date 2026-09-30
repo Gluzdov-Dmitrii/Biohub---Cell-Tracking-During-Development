@@ -1,0 +1,212 @@
+{
+  "active_run_mutation": false,
+  "augmentation_timed": true,
+  "batch_field_comparisons": 36,
+  "batch_size": 4,
+  "cpu_affinity": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "cuda_visible_devices": "",
+  "dataset_setup_seconds": {
+    "baseline": 0.0071003735065460205,
+    "dev_default": 0.008085042238235474,
+    "preloaded": 1.2312438916414976
+  },
+  "full_one_pass_digest": {
+    "baseline": [
+      "a74ff0cb40dc584a71a6ae91ddade8caf901e64ae0e8c5d5d0d9051746d9975a",
+      37,
+      "7429816289b2e0cec1a3b53ae3b41c1a0980be6f3e983ca4da11e9ce7b3097d2"
+    ],
+    "dev_default": [
+      "a74ff0cb40dc584a71a6ae91ddade8caf901e64ae0e8c5d5d0d9051746d9975a",
+      37,
+      "7429816289b2e0cec1a3b53ae3b41c1a0980be6f3e983ca4da11e9ce7b3097d2"
+    ],
+    "preloaded": [
+      "a74ff0cb40dc584a71a6ae91ddade8caf901e64ae0e8c5d5d0d9051746d9975a",
+      37,
+      "7429816289b2e0cec1a3b53ae3b41c1a0980be6f3e983ca4da11e9ce7b3097d2"
+    ]
+  },
+  "gpu_used": false,
+  "kaggle_post": false,
+  "max_nodes_subset": 16,
+  "memory_mib": {
+    "after_benchmark": {
+      "peak_rss_mib": 904.04296875,
+      "rss_mib": 875.75
+    },
+    "after_preload": {
+      "peak_rss_mib": 755.7734375,
+      "rss_mib": 686.296875
+    },
+    "after_videos": {
+      "peak_rss_mib": 414.6796875,
+      "rss_mib": 414.6796875
+    },
+    "before_preload": {
+      "peak_rss_mib": 416.3984375,
+      "rss_mib": 416.3984375
+    },
+    "before_videos": {
+      "peak_rss_mib": 411.4453125,
+      "rss_mib": 411.4453125
+    }
+  },
+  "num_workers": 0,
+  "one_pass_timings": {
+    "baseline": [
+      {
+        "batches": 37,
+        "checksum": 4.5157470703125,
+        "rss_after_mib": 872.3515625,
+        "seconds": 3.464989743195474
+      },
+      {
+        "batches": 37,
+        "checksum": 5.55126953125,
+        "rss_after_mib": 875.75,
+        "seconds": 3.8103831224143505
+      }
+    ],
+    "dev_default": [
+      {
+        "batches": 37,
+        "checksum": 4.5157470703125,
+        "rss_after_mib": 880.890625,
+        "seconds": 3.448002465069294
+      },
+      {
+        "batches": 37,
+        "checksum": 5.55126953125,
+        "rss_after_mib": 890.78515625,
+        "seconds": 3.5064058415591717
+      }
+    ],
+    "preloaded": [
+      {
+        "batches": 37,
+        "checksum": 4.5157470703125,
+        "rss_after_mib": 880.890625,
+        "seconds": 0.15225141122937202
+      },
+      {
+        "batches": 37,
+        "checksum": 5.55126953125,
+        "rss_after_mib": 880.890625,
+        "seconds": 0.1274370476603508
+      }
+    ]
+  },
+  "preloaded_bytes": 104857600,
+  "raw_frame_checks": [
+    {
+      "dataset_id": "44b6_33b596bf",
+      "sha256": "408d2bef989fa28b92c3b82064922c8c67a9a779f1e0941748f220896f1a6157",
+      "time": 0
+    },
+    {
+      "dataset_id": "44b6_33b596bf",
+      "sha256": "3117d60fac0f49214adf1946ab2ab4ea5a6b70d59835ac532c8181cdfc1f7145",
+      "time": 50
+    },
+    {
+      "dataset_id": "44b6_33b596bf",
+      "sha256": "6124415bb0b2609cb8371349103529cb3074ff2c2c1ab63b6adfda43b278b680",
+      "time": 99
+    },
+    {
+      "dataset_id": "44b6_d29c9ab2",
+      "sha256": "ecfe721fef49277ccde32df108ae2cc8fb19a0161032b89d99299d0ef4207bbf",
+      "time": 0
+    },
+    {
+      "dataset_id": "44b6_d29c9ab2",
+      "sha256": "57adcdcfcddefb9be052d2494bb5dd2b9a37f1ddeb4470132e801e9f4de6f98e",
+      "time": 50
+    },
+    {
+      "dataset_id": "44b6_d29c9ab2",
+      "sha256": "32c1ca3f44c0230dea569972365c0ee4333511bea616426f680acce3986a9763",
+      "time": 99
+    }
+  ],
+  "rng_augmentation_equal": true,
+  "rng_constructor_unchanged": true,
+  "sample_field_comparisons": 1728,
+  "sample_image_hashes_baseline": {
+    "augment=False,seed=0": "ed12dbffd9566650de1cbf7281ab9cf1010df42248086e5e8cab6d75cf10d8ed",
+    "augment=False,seed=209": "ed12dbffd9566650de1cbf7281ab9cf1010df42248086e5e8cab6d75cf10d8ed",
+    "augment=False,seed=3407": "ed12dbffd9566650de1cbf7281ab9cf1010df42248086e5e8cab6d75cf10d8ed",
+    "augment=True,seed=0": "764fef9bad95bd79f25b87eebdf2977c063ac3c90b723ae3ad667168ffd1487b",
+    "augment=True,seed=209": "ed39ebb7a7389e6648661cd4e934794934a424041e90ca51e33a772f398ca458",
+    "augment=True,seed=3407": "c53677e8724e3ff7c238c40285d63bc5f5f82e75d87380f5c19dc5739ded67d0"
+  },
+  "sequence_indices": [
+    0,
+    1,
+    24,
+    47,
+    48,
+    48,
+    0,
+    24,
+    49,
+    50,
+    98,
+    146,
+    147,
+    147,
+    49,
+    98
+  ],
+  "shuffle_timed": true,
+  "source_dataset_ids": [
+    "44b6_33b596bf",
+    "44b6_d29c9ab2"
+  ],
+  "source_manifest_sha256": "455cc9d546b1ea0f05e9674f9513800c70bf8faf851f8cb303397d27af1129f5",
+  "source_records": [
+    {
+      "dataset_id": "44b6_33b596bf",
+      "geff_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_33b596bf.geff",
+      "zarr_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_33b596bf.zarr"
+    },
+    {
+      "dataset_id": "44b6_d29c9ab2",
+      "geff_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d29c9ab2.geff",
+      "zarr_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912/44b6_d29c9ab2.zarr"
+    }
+  ],
+  "source_sha256": {
+    "baseline_datasets": "063fc77e333d615bbb640f8e8062972cca0e25c3c26a95dbf675137263e7b0b3",
+    "const": "b2178c1794dd2ffad566bffab373fa2aa68c9d23b4b4000efc76b5832b13dbde",
+    "dev_datasets": "08cf10054ff8826504b13c67e259f5534d0ac57040dea0195d227cc64e4ebf74",
+    "utils": "c9927b5bab407071961c0dc14d12dfa62f8a5fbc489f73d327b2a7317997353a"
+  },
+  "stage_manifest_sha256": "c469c62da6cc058b60f0c12ddb800321c37094036b8e68f404ec039df8ec7b26",
+  "status": "PASS_EXP227_HORAZ_PRELOAD_CPU_VALIDATION",
+  "target6bba_access": false,
+  "torch_num_threads": 4,
+  "training_run_started": false,
+  "video_setup_seconds": 0.1697696652263403,
+  "window_counts": [
+    49,
+    99
+  ],
+  "dev_manifest_sha256": "ee77a6b79b0cc349d6968425e7aff1c8d9037e6378efe3d481f21afb3f6ba4d9",
+  "dev_changed_file_sha256": {
+    "horaz/src/src/datasets.py": "08cf10054ff8826504b13c67e259f5534d0ac57040dea0195d227cc64e4ebf74",
+    "horaz/src/src/train.py": "3a4a6939582b07f2d9ec0f19f773347328f50f42d6314feb6f293f839b0f76a7"
+  },
+  "selection_receipt_sha256": "3607cc48e5da9625eb4ddfc1b686b1dd0de87e33872f1f83c56968233559e215",
+  "patch_sha256": "0094877d4dd4ad46941395412f7966f129eaa224df4077f5a8fcee5c29ff98d2",
+  "remote_script_sha256": "12bcf382573564aa3b448a0ca6184014240ffbe149447d4db3a7107f273b3f7c",
+  "bundle_sha256": "6d540d42094a6447daff02b2223176130e2ed1ce45a43097ce661ae17ac6bc23",
+  "virtual_memory_limit_gib": 32,
+  "timeout_seconds": 900
+}

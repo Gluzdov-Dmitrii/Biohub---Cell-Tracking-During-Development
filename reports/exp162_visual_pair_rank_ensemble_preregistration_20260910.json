@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP162",
+  "status": "PREREGISTERED_CORRECTED_CHECKSUM_BEFORE_RETRY",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The scratch 3D crop head and frozen-pretrained feature head make complementary daughter-pair ranking errors; one fixed equal percentile-rank average can improve high-precision parent recall without calibration sweeps.",
+  "single_candidate": "Exact EXP161 evaluator and 0.50/0.50 stable percentile-rank average. EXP162 changes only the mistyped feature-head checksum; no metric, weight, threshold or data rule changed.",
+  "parents": [
+    "scratch visual pair checkpoint SHA 167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "pretrained feature pair checkpoint SHA 3cdc17023606b8193cd01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "frozen backbone SHA 3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  ],
+  "external_gate": "On all parents from 64 external time-validation shards: proposal recall ceiling at least 0.90, ensemble precision at least 0.50 and recall at least 0.20; report component APs, ensemble AP and correlation.",
+  "competition_gate": "Competition data remain closed unless external gate passes. Then freeze one rank threshold and require nonnegative reciprocal source results before one 24-movie prospective target pass.",
+  "source_sha256": {
+    "evaluator": "847e4d368b1f4ce2448f1a0817f4a2bb433d372693507fb25b34b969f0de3e90",
+    "scratch_library": "5aef10d8aefe8e4e52e51de2218c82ec2f3a11ff390810c8bdc1fff47292e630",
+    "feature_library": "25bfa048e5d38a0ebac86e8c207bcb698d0342cb7adf84320b0854816fc5c4bc"
+  },
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 2 GiB disk, 20 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

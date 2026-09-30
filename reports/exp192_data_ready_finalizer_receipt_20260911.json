@@ -1,0 +1,55 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11T13:13:00Z",
+  "status": "PASS_PRESTAGE_DATA_READY_FINALIZER_INTEGRATION",
+  "purpose": "Fail closed between the exact 175-movie staging audit and the eight GPU chunk launches without opening scientific metrics.",
+  "correction": {
+    "historical_receipt": "reports/exp192_data_ready_gate_receipt_20260911.json",
+    "historical_mark_script_sha256": "d7c92dddd8c9517f8ae14715dbc6a3a98ad8c61f7ba3cdebf32cebc61739608c",
+    "authoritative_current_mark_script_sha256": "0be18408075ffc2525899814081a7186a06dfce3affde939f57ea2b15494e42e",
+    "supporting_receipts": [
+      "reports/exp192_stage_preflight_refresh_20260911.json",
+      "reports/exp201_exp192_integration_receipt_20260911.json"
+    ],
+    "scientific_policy_changed": false
+  },
+  "artifacts": {
+    "scripts/finalize_exp192_data_ready.sh": "317ba097f9c41596327f7010d1b86911d45dba32c404be4d85336102bf474426",
+    "scripts/verify_exp192_data_ready_receipts.py": "9a8e531210066dcf2d18da3fc0b58272b449110f80c9b2a24df9537916afa42d",
+    "tests/test_finalize_exp192_data_ready_contract.py": "48760bc8b8ac3e52202b41ebdda10f4082f773a74d0b07357174627409ef3a4d",
+    "tests/test_verify_exp192_data_ready_receipts.py": "e4666c623652d44ba2c17e2849c6872c81d94ddbfe8c6ada00495991d7a80cb9"
+  },
+  "gates": [
+    "registered remote root is exact",
+    "current marker, verifier, chunk index and seven chunk-launch dependencies match pinned SHA256 values",
+    "persistent staging launcher receipt and lock exist",
+    "staging process is terminal and stage.log ends with PASS_EXP192_REMOTE_STAGE",
+    "all five STAGING_SHA256SUMS entries verify",
+    "summary, finalization receipt, all eight data_ready markers, launch receipts and chunk outputs are absent",
+    "the current marker validates the exact 175 / 116+59 / 21525 / 75045173746 audit contract",
+    "the verifier checks exact eight-run coverage, payload fields, paths, audit SHA, chunk SHA and code SHA before atomically committing the summary"
+  ],
+  "verification": {
+    "focused_tests": "6 passed",
+    "remote_sha_match": true,
+    "remote_bash_syntax": "PASS",
+    "remote_python_help_import": "PASS_WITH_BYTECODE_DISABLED",
+    "remote_generated_pycache": false,
+    "remote_data_ready_outputs_absent": true
+  },
+  "execution_state": {
+    "finalizer_launched": false,
+    "staging_launched": false,
+    "gpu_lease_acquired": false,
+    "scientific_metric_opened": false,
+    "archive_transfer_session": 63104,
+    "archive_transfer_session_live": true,
+    "remote_archive_bytes_observed": 80313712640,
+    "expected_archive_bytes": 87393127165
+  },
+  "cleanup": {
+    "removed": [".pytest_exp192_finalize", ".pytest_exp192_finalize_r2"],
+    "preserved": ["tested sources", "tests", "receipts", "active archive transfer", "frozen EXP192 dependencies"]
+  },
+  "kaggle_action_authorized": false
+}

@@ -1,0 +1,11 @@
+{
+  "protocol": "Kaggle Agents/external-resources/RESOURCE_POLICY.md",
+  "initialized": true,
+  "dispatcher": "Codex task for Dmitry",
+  "owner_token": "27af1018-1e36-4306-84d2-8d46974496ae",
+  "gpu_launches": "AUTHORIZED_SERIAL_DIRECT_FALLBACK",
+  "reason": "Slurm sinfo/squeue timed out; atomic dispatch.lock and per-run request/lease receipts are active",
+  "host": "prepost",
+  "gpu_policy": "one project GPU job; smallest compatible Quadro RTX 6000 index 0; no preemption; no A100 pooling",
+  "updated_at_utc": "2026-09-07T12:20:24Z"
+}

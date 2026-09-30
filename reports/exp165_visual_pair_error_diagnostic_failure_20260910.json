@@ -1,0 +1,9 @@
+{
+  "experiment": "EXP165",
+  "status": "PRE_METRIC_IMPORT_FAILURE",
+  "error": "ModuleNotFoundError: evaluate_visual_pair_ensemble",
+  "data_access": "Failed during top-level imports before shard discovery or model loading.",
+  "run_log_sha256": "9d7663a4a4b34d3fc5186bd295031cf8823915c4d4a56eb6908e237d340fa29e",
+  "resource_cleanup": "PID 181177 verified stopped; RTX6000 had no compute process; lease released.",
+  "kaggle_slots_used": 0
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS_PAIRED_SHARD_PREDICTIONS_NO_METRICS",
+  "target_labels_read": false,
+  "arms": {
+    "public": {
+      "movies": [
+        "6bba_6db0e9b4",
+        "6bba_b693381b",
+        "6bba_67ebd073",
+        "6bba_cdcfe533",
+        "6bba_bbb708ca",
+        "6bba_ed9377fd",
+        "6bba_969618f6",
+        "6bba_87289e13",
+        "6bba_1d0d8384",
+        "6bba_55b7eebe",
+        "6bba_6479435d",
+        "6bba_23af9eeb",
+        "6bba_df673a83",
+        "6bba_312f0dc3",
+        "6bba_5c039895",
+        "6bba_2312ac41",
+        "6bba_09961292",
+        "6bba_4f99ce20",
+        "6bba_3a1849c2",
+        "6bba_fc83837d"
+      ],
+      "receipt_sha256": "56c9c16e99242533c57f8bb8c761f2c9878003b62998ce398410d3729e2f0068"
+    },
+    "local": {
+      "movies": [
+        "6bba_6db0e9b4",
+        "6bba_b693381b",
+        "6bba_67ebd073",
+        "6bba_cdcfe533",
+        "6bba_bbb708ca",
+        "6bba_ed9377fd",
+        "6bba_969618f6",
+        "6bba_87289e13",
+        "6bba_1d0d8384",
+        "6bba_55b7eebe",
+        "6bba_6479435d",
+        "6bba_23af9eeb",
+        "6bba_df673a83",
+        "6bba_312f0dc3",
+        "6bba_5c039895",
+        "6bba_2312ac41",
+        "6bba_09961292",
+        "6bba_4f99ce20",
+        "6bba_3a1849c2",
+        "6bba_fc83837d"
+      ],
+      "receipt_sha256": "87e130f0a7df18fe399f84c9a7a4077d78c19fe303bad7e4193925b5b91f7118"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS_EXP239_GUARDED_READONLY_RECHECK",
+  "original_receipt_sha256": "ccd78a08822a1bf603cf4e1d9241df9f3ee8eef27f26559a263188195148cc57",
+  "postrun_correction_sha256": "69ed99e85c7dcaf4caff96d7cd399516deececcce5a6c3d57156252586c46088",
+  "executed_guarded_verifier_sha256": "e07e33a854d91c9db90a8f39b8e5c49fbbd9b4887d62fe25439e329e7f77a600",
+  "recheck_script_sha256": "15fe19d36bf82c8af9bf75fb779b2274fd8ef0bc394c7beb20ee94f895c2edd7",
+  "python_assertions_enabled": true,
+  "remote_pythonoptimize": "0",
+  "remote_readback_identical_to_original": true,
+  "remote": {
+    "status": "PASS_EXP239_INDEPENDENT_READBACK",
+    "manifest_sha256": "22e5679b66462bad6662c1e98384e9bec9c4a656e7bfd7caec145b5ac8e3abaf",
+    "launch_sha256": "af8e878a7100cf67910abb8bce2e2f2f8eeca0c9df9345255be1ff144b5f1b7b",
+    "exit_sha256": "7511d8ba51150b5ce378e31401604b2185fbb96da870e4bf6c4ad3142054e9ae",
+    "gate_sha256": "5adbe69e49c72540b982c5403369367db54f7d64032c209d720359484fea178c",
+    "result_sha256": "f6b8859e308862090567af53b5fdd68c59c0c0907aa2f357d54a471e9386cd85",
+    "prior_source_result_sha256": "4dc9035c64691416a070d9a2c67948a13b859ccccf14123e1a6538b2e54f680f",
+    "gate_precedes_result": true,
+    "wrapper_absent": true,
+    "child_absent": true,
+    "source_labels_opened_by_verifier": false,
+    "reciprocal_target_labels_read": false,
+    "gpu_used": false,
+    "kaggle_post": false,
+    "summaries": [
+      {
+        "experiment": "EXP227",
+        "movies": 8,
+        "counts": {
+          "fn": 3,
+          "fp": 6,
+          "tp": 2
+        },
+        "category_counts": {
+          "directed_branch_failure": 0,
+          "fewer_than_two_daughter_lineages": 0,
+          "no_local_fork": 3,
+          "no_parent_side_match": 0,
+          "organizer_veto_or_pairing": 0,
+          "recovered": 2
+        },
+        "label_trees_match_prior": true
+      },
+      {
+        "experiment": "EXP236",
+        "movies": 11,
+        "counts": {
+          "fn": 8,
+          "fp": 9,
+          "tp": 1
+        },
+        "category_counts": {
+          "directed_branch_failure": 0,
+          "fewer_than_two_daughter_lineages": 2,
+          "no_local_fork": 6,
+          "no_parent_side_match": 0,
+          "organizer_veto_or_pairing": 0,
+          "recovered": 1
+        },
+        "label_trees_match_prior": true
+      }
+    ],
+    "source19_label_tree_digest": "79e22b0dbcd7981ab3a589593c24a15d31bd6b6b56991928be053bb5a85e18a0",
+    "source_division_events": 14,
+    "source_division_fns": 11
+  },
+  "source_labels_opened_by_recheck": false,
+  "reciprocal_target_labels_read": false,
+  "remote_mutation": false,
+  "kaggle_post": false,
+  "original_receipt_edited": false
+}

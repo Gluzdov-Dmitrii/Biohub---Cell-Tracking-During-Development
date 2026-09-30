@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP230",
+  "lease_id": "exp230-horaz-warmstart-pilot-20260923",
+  "token": "exp230_horaz_warmstart_pilot_20260923",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp230_horaz_warmstart_pilot_v1_20260923",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp230_horaz_warmstart_pilot_v1_20260923",
+  "max_seconds": 1800,
+  "cpu_affinity": "0-7",
+  "script": "run_exp230_warmstart_pilot.py",
+  "arguments": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp230_horaz_warmstart_pilot_v1_20260923/plan.json",
+    "--plan-sha256",
+    "b840208d4b085d4d2ede0ca6234d2c4b1571e20c0ce19f443f12b9a4cb73676e"
+  ],
+  "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+  "alias": "nsu-a100"
+}

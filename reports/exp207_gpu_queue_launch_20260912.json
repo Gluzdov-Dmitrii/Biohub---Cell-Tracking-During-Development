@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP207",
+  "date_local": "2026-09-12",
+  "status": "RUNNING_CURRENT",
+  "request_id": "biohub-exp207-d4-feature-tta8-20260912",
+  "owner": "biohub-agent",
+  "owner_token": "1ed4811d-6ead-4d47-9102-1801ae5d9efe",
+  "pool": "quadro",
+  "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+  "pid": 241019,
+  "linux_start_tick": 440311597,
+  "worker_pid_observed": 241071,
+  "gpu_memory_mib_observed": 1026,
+  "runner_sha256": "384ed4551c4455ff42deccf28098cd9906eb29367bb658b2bf4750a55cc567b9",
+  "launcher_sha256": "e8c16efe5f855c0a7221700cc95825a24f08e8313f9cf983797f67119cbe4b4f",
+  "queue_state": "RUNNING",
+  "queue_health": "CURRENT",
+  "concurrency": "EXP209 is CPU-only on cores 0-7; host has ample remaining CPU/RAM and no second Biohub GPU job.",
+  "scientific_metrics_opened": false,
+  "kaggle_action": false
+}

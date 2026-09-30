@@ -1,0 +1,68 @@
+{
+  "experiment": "EXP137-DATA-BATCH3",
+  "status": "PASS_COMPLETE_OFFICIAL24_REMOTE_STAGE_AND_CRYPTOGRAPHIC_AUDIT",
+  "date": "2026-09-09",
+  "competition": "biohub-cell-tracking-during-development",
+  "source": {
+    "method": "official Kaggle competition archive download",
+    "archive_bytes": 87402594304,
+    "extracted_scope": [
+      "6bba_784a78c9",
+      "6bba_7b5d3b2c",
+      "6bba_7d3058ae",
+      "6bba_aeee7805",
+      "6bba_cff5865f"
+    ],
+    "local_manifest_files_verified": 1476,
+    "local_manifest_files_expected": 1476
+  },
+  "transport": {
+    "tar_bytes": 1995770368,
+    "tar_sha256_local_and_remote": "25484c7fea853639595576a5d2703f211a684ad56b74b94a444380a00ec8dda7",
+    "parts": 20,
+    "part_size_bytes_except_last": 104857600,
+    "last_part_bytes": 3475968,
+    "all_remote_part_sha256_matched": true
+  },
+  "remote": {
+    "host": "prepost",
+    "kaggle_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "official24_data_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/official24",
+    "movies": 24,
+    "files": 2952,
+    "bytes": 10658385974,
+    "zarr_metadata_json_files_parsed": 408,
+    "per_movie_content_hashes_recorded": 24,
+    "audit_status": "PASS_OFFICIAL_24_SIZE_AND_STRUCTURE_AUDIT"
+  },
+  "artifacts": {
+    "official24_contract_sha256": "775e4fe3d8113ee76a1c721a01136233de5968eeb53f62ea624cd12c2bdc1923",
+    "trainer_6bba_source_sha256": "5eb0c0426c8b2cc5331c4e2ea0b34e79d3caf48e8eef822def89c69da0b11b0b",
+    "official24_audit_log_sha256": "e8852b4176ecf872c1bece1eb8d406cb65c9610f574ebdd91326dc2c6cdd6711",
+    "manifest_file_sha256": "afa823efd77852df073c34a0fea8477b6b603ab71dd1f901304ad3b8da067aee",
+    "relevant_manifest_canonical_sha256": "e99615a8815d653fbb6f32c03405590af12c18dec4ddd86f6f60035139ee1289"
+  },
+  "split_policy": {
+    "status": "FROZEN_OFFICIAL24_PRIVATE_FIRST_SPLIT",
+    "reciprocal_embryo_folds": 2,
+    "train_movies_per_fold": 10,
+    "source_checkpoint_validation_movies_per_fold": 2,
+    "target_development_movies_per_fold": 4,
+    "target_locked_audit_movies_per_fold": 8,
+    "locked_audit_opened": false
+  },
+  "cleanup": {
+    "removed": [
+      "81.4 GiB local competition archive after selective extraction and verification",
+      "local and remote transport tar",
+      "all 20 local and remote transport parts"
+    ],
+    "preserved": [
+      "verified official24 data under the registered remote Kaggle root",
+      "read-only official24 train view",
+      "frozen split contract",
+      "audit log and per-movie content hashes"
+    ]
+  },
+  "submission_authority": false
+}

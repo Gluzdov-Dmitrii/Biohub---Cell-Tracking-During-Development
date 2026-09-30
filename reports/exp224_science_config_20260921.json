@@ -1,0 +1,40 @@
+{
+  "package_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/input_package.json",
+  "package_sha256": "c848bc6e24379f3ae3fcfb49d937778efccd732edeadeb842d2de2a6ec819707",
+  "repo_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+  "data_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+  "control_metrics": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921/score/metrics.json",
+    "sha256": "93aa6d3fd5f20ea927c1747787d7cac59ac3b6a7fb96279d7e3d8637a316b898",
+    "bytes": 9049
+  },
+  "source_movies": [
+    "44b6_53f95252",
+    "44b6_551a5dba",
+    "44b6_aaf8b0ea",
+    "44b6_c771cb04",
+    "44b6_c8e2a523",
+    "44b6_d754aa59",
+    "44b6_d78e09d9",
+    "44b6_e31261b4"
+  ],
+  "classical_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp222_classical_full175_20260921/exp002_exact.py",
+  "classical_sha256": "e1edf7b5fc761ff713e818e01ecc5bc45349e8e8509b86d5932411b403294c1e",
+  "output_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921/output",
+  "analyze_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/score_exp214_paired.py",
+  "analyze_sha256": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+  "evaluator_pins": [
+    {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo/src/biohub_tracking/metrics.py",
+      "sha256": "31baf45b54c78f68bab4f65dd8f4b38bca702abb644171c6df7c46cdeef55d83"
+    },
+    {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo/src/biohub_tracking/io.py",
+      "sha256": "efae135b088cecaab463d889f16c885ef6da3ad27b0747327d8ddc28d866b7bd"
+    },
+    {
+      "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo/scripts/predict_unet_transformer.py",
+      "sha256": "c44e771ba5980b820f93091e03a303c25dfe8f3232e501f54dc9565731c234b9"
+    }
+  ]
+}

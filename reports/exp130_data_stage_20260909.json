@@ -1,0 +1,59 @@
+{
+  "experiment": "EXP130",
+  "date": "2026-09-09",
+  "status": "PASS_DEVELOPMENT_DATA_STAGE_LOCKED_AUDIT_INCOMPLETE",
+  "official_manifest": {
+    "path": "outputs/research/external_inputs/pilot_file_manifest_live.json",
+    "sha256": "afa823efd77852df073c34a0fea8477b6b603ab71dd1f901304ad3b8da067aee",
+    "scope": "2952 official train entries for 12 44b6 and 12 6bba movies"
+  },
+  "downloader": {
+    "path": "scripts/download_competition_manifest.py",
+    "sha256": "30e03c27efb12c1abecf0bb23b6674288d0f7a65df947adefc238485b288fe49",
+    "verification": "Every retained file must match the official manifest byte size; transient API failures are retried with bounded backoff."
+  },
+  "available_verified_data": {
+    "44b6_source": {
+      "movies": 12,
+      "manifest_files": 1476,
+      "manifest_bytes": 5819825510,
+      "per_movie_structure": {"zarr_files": 102, "geff_files": 21},
+      "local_complete": true,
+      "remote_complete": true,
+      "remote_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/pilot_single_44b6"
+    },
+    "6bba_target_development": {
+      "movies": [
+        "6bba_05b6850b",
+        "6bba_05db0fb1",
+        "6bba_062c8d37",
+        "6bba_07477033"
+      ],
+      "manifest_files": 492,
+      "manifest_bytes": 1569231901,
+      "per_movie_structure": {"zarr_files": 102, "geff_files": 21},
+      "local_complete": true,
+      "remote_complete": true,
+      "remote_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/pilot_development_6bba"
+    }
+  },
+  "transport": {
+    "44b6_tail_tar": {"bytes": 2038457344, "sha256": "4e486ce92b42f059c1b92c9f3a7ed3a8671d32fdccba6701cc4401f1e051f157"},
+    "6bba_development_tar": {"bytes": 1570286080, "sha256": "404ec8807cc1fbf8ba342a85f98d6d5bc2f89fd649689baa279bb10338238e28"},
+    "6bba_parts": "15 local/remote parts matched individual SHA-256 and byte sizes before reassembly; full remote tar SHA matched before extraction."
+  },
+  "remaining_6bba": {
+    "complete_locked_movies": ["6bba_13f19531"],
+    "partial_movie": {"name": "6bba_20852818", "zarr_files": 33, "geff_files": 21},
+    "later_movies": "not yet complete",
+    "cause": "Kaggle per-file API sustained HTTP 429; progress retained for bounded-backoff resume.",
+    "gate": "Locked audit remains unopened and cannot be evaluated until all eight locked movies pass the same manifest/structure audit."
+  },
+  "cleanup": {
+    "remote_transport_tars_removed_after_sha_and_structure_audit": true,
+    "remote_chunk_staging_removed_after_reassembly_audit": true,
+    "local_transport_tars_and_chunks_removed_after_remote_audit": true,
+    "partial_81_4_gib_full_competition_archive_removed": true,
+    "recoverability": "Transport artifacts can be rebuilt from retained local or extracted remote dataset trees; official missing files can be resumed from Kaggle."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_STATIC_BUILD_NO_INFERENCE",
+  "kernel": "dmitriigluzdov/biohub-exp233-own-frontier90-notebook",
+  "notebook_sha256": "e33f0863b9a1550a3ff28f3d01e20b89ac24407bc7b168474510f2aa1eee666f",
+  "parent_script_sha256": "dcc140873e155862629f6294f5abdb745cb5d36f11b7b76c861e111134d7ba0a",
+  "model_graph_parity": true,
+  "output_inventory_equivalent": true,
+  "science_policy_changes": false,
+  "code_cells": 9
+}

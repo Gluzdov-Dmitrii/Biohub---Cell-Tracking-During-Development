@@ -1,0 +1,21 @@
+{
+  "preflight": {
+    "ready": {
+      "checked_at": 1789977100.4340785,
+      "queue_read_pass": true,
+      "release_rule": "fresh snapshot AND exit present AND no PID/group/GPU processes",
+      "activation_required": true
+    },
+    "observer_checked_at": 1789977189.1587698,
+    "controller": {
+      "pid": 359943,
+      "host": "prepost",
+      "started": 1789977100.3775165,
+      "start_identity": "519610139"
+    }
+  },
+  "stopped": {
+    "command": "C:\\Users\\Dmitry\\.venvs\\kg\\Scripts\\python.exe \"C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\scripts\\monitor_exp213_job.py\" --config \"C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp221_source_graph8_20260921_config.json\" --receipt \"C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp221_source_graph8_20260921_monitor.json\"",
+    "pid": 20452
+  }
+}

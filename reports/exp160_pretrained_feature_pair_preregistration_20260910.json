@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP160",
+  "status": "IMPLEMENTATION_GATE_PASS_BEFORE_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Frozen real-Zebrahub U-Net node features contain morphology and local context that a small symmetric daughter-pair head can use more efficiently than the scratch crop encoder rejected by EXP159.",
+  "parent": "EXP159 proposal construction and external gate; robust competition parent remains reciprocal scratch registered-Hungarian score 0.6761456762872732.",
+  "single_change": "Replace the scratch 3D crop encoder with frozen 32-channel node features from the independently trained real-Zebrahub checkpoint; train only a symmetric pair MLP. Proposal K=4, external split, negative sampling and precision/recall gate remain fixed.",
+  "training": "Twelve epochs, AdamW 3e-4, BCE positive weight 12, exactly 256 external train shards. Validation scores all parents in the independent 64-shard time split with the existing 21-frame gap.",
+  "external_gate": "Proceed only if proposal recall ceiling is at least 0.90, pair AP is reported, parent precision is at least 0.50 and parent recall is at least 0.20 at one source-selected threshold.",
+  "competition_gate": "No competition inference unless the external gate passes. Then freeze the selected checkpoint and threshold, require nonnegative source score in both reciprocal directions, no true-division loss, and zero false forks in a direction without true divisions before opening one prospective 24-movie target pass.",
+  "reproducibility": "The visual backbone is eval-only/no-grad, so its internal pooling has no backward nondeterminism. The trainable pair head uses deterministic linear/layer-normalization operations with CUBLAS_WORKSPACE_CONFIG=:4096:8 and seed 158031.",
+  "source_sha256": {
+    "trainer": "25bfa048e5d38a0ebac86e8c207bcb698d0342cb7adf84320b0854816fc5c4bc",
+    "proposal_library": "5aef10d8aefe8e4e52e51de2218c82ec2f3a11ff390810c8bdc1fff47292e630",
+    "test": "c8b9bec4622d9ddcc164ad20d8d6966dee7e2136fb61680dcc701bc630bba2b7",
+    "frozen_backbone_checkpoint": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "implementation_tests": "5 passed across proposal construction, external-path guard, parent thresholding, scratch-head symmetry and pretrained-feature-head exact daughter-swap invariance.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 4 GiB disk, 45 minutes; one GPU job for this project.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

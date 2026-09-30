@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP173",
+  "status": "FAILED_PRE_METRIC_CUBLAS_DETERMINISM_CONFIGURATION",
+  "run_log_sha256": "e6fededd8f175a14d7cd2bff5eaefbc96ecee89c957d942357ee60f27456c59d",
+  "cause": "torch deterministic mode rejected the first CuBLAS linear operation because CUBLAS_WORKSPACE_CONFIG was not set before process startup.",
+  "metric_access": "No metric was produced; failure occurred during the first fit-window shard batch.",
+  "competition_data": "not accessed",
+  "resource_cleanup": "Process stopped; RTX6000 observed at 5 MiB and 0%; lease released.",
+  "kaggle_slots_used": 0
+}

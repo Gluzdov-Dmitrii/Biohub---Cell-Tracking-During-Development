@@ -1,0 +1,64 @@
+{
+  "experiment": "EXP157",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "training": {
+    "checkpoint_sha256": "1928ec1a536db45cdcc19e615b1436f7936f2fc0d622045f1b3468790fee4383",
+    "training_receipt_sha256": "24a4a6209b08d1a4026805150f022c169448a2f33ba9285f5b8b41126f8567f1",
+    "train_log_sha256": "df712dd64651da68099a5985ca2e3244998a3567555bda7a1ece8f6342d4f3cc",
+    "external_parent_selection_score": 0.9666307662353465,
+    "external_candidate_selection_score": 0.9666306686727032
+  },
+  "external_gate": {
+    "result_sha256": "73e931c56c433f7d4627153b4bb8632469167c36ac0e2893874c664842c38abc",
+    "threshold": 0.5,
+    "parent_division_f1": 0.3218806509945751,
+    "candidate_division_f1": 0.32330827067669177,
+    "division_f1_delta": 0.0014276196821166875,
+    "edge_recall_delta": -0.003574501886542625,
+    "gate_pass": true
+  },
+  "competition_source_gate": {
+    "forward_score_delta": 0.002564802655088738,
+    "reverse_score_delta": 0.0,
+    "forward_sha256": "1d7687903f9862af9e0082792ba6ec0064fb1630a26fbdd932fb9a3184f72d17",
+    "reverse_sha256": "2d7c41b2f91eb4c4d508bf21532df8d4c847b564a4d273f2a14c1fbb31e11190",
+    "gate_pass": true
+  },
+  "prospective_target_oof": {
+    "forward_score_delta": 0.0003141754887443504,
+    "reverse_score_delta": 0.00018831041499556278,
+    "pooled_parent_score": 0.6761456762872732,
+    "pooled_candidate_score": 0.6764396508650442,
+    "pooled_score_delta": 0.00029397457777102787,
+    "division_tp_delta": 0,
+    "division_fp_delta": 41,
+    "division_precision": 0.0,
+    "forward_sha256": "74972d85fce837732e44e5a67c9b0f492cbb858d2b7c7d7fd477f2c30b200f97",
+    "reverse_sha256": "04535751da6c5f18f26b5f703833bbb48c7fee2ad48fc78198d1990fd5b27ea0",
+    "gate_sha256": "a1ca6262ff3432e7dab2ca3f55fd82d04eff543ab10fcc9ac176c2e7dcc71b9c",
+    "gate_pass": false
+  },
+  "interpretation": "Division-positive transformer-only continuation produced a tiny external F1 improvement but did not change any competition decision at threshold 0.5 relative to EXP154. It still recovered zero of 13 true divisions and introduced 41 false forks. Reject; a useful next model must change candidate representation or use direct division supervision, not only loss weights.",
+  "pre_metric_failures": [
+    {
+      "stage": "external_eval_attempt_1",
+      "cause": "malformed CUDA_VISIBLE_DEVICES token in launcher",
+      "log_sha256": "c9d744551122c64d88133c9106bcf89c4833b328ce6001a1929e891ea38cfd19"
+    },
+    {
+      "stage": "external_eval_attempt_2",
+      "cause": "training repo src omitted from PYTHONPATH",
+      "log_sha256": "1a4f3b0e98a875c0e01d7001296f2d1f3ecc4676b299f3cfe805d438e97604c8"
+    },
+    {
+      "stage": "target_gate_attempt_1",
+      "cause": "compare_registered_candidate.py omitted from isolated directory; both raw target JSONs were already complete and unchanged",
+      "log_sha256": "ab3b35e1c27f91622fb7ff04b56d96b079e2900988ae01db7f6ec6f5d1b44b7e"
+    }
+  ],
+  "resource_cleanup": "All four RTX6000 leases (training, external validation, source scoring and target scoring) were released after observed 5 MiB and 0% utilization. Reproducible candidate caches were removed after local JSON preservation; checkpoint, receipts and logs were retained.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP160",
+  "status": "REJECT_EXTERNAL_GATE_NO_COMPETITION_EVALUATION",
+  "raw_result_sha256": "96e9d411fe8ed20411972fbb299cc67e7890b08f5779e5f2cab25a372ac280a0",
+  "train_log_sha256": "75f77c33d3b1b16a1e04d99930e5735723b2ff99a50ec3be34f5f9ed783099b7",
+  "pre_metric_failure_log_sha256": "6434ae0ca110594dd46ad679e9d4ce9b9571dbffbac41811d9fe5a76c73280eb",
+  "pre_metric_failure": "Initial launcher omitted tracking_repo/src from PYTHONPATH; retry used identical code, data, checkpoint and hyperparameters.",
+  "trainer_sha256": "25bfa048e5d38a0ebac86e8c207bcb698d0342cb7adf84320b0854816fc5c4bc",
+  "frozen_backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "head_checkpoint_sha256": "3cdc17023606b8193cbdfb97f1035a5e8383a17763764b80c2c99ae0f1590d38",
+  "selected_by_pair_ap": {
+    "epoch": 8,
+    "pair_average_precision": 0.20055104526514142,
+    "precision": 0.5128205128205128,
+    "recall": 0.1092896174863388,
+    "true_positive_parents": 20,
+    "predicted_parents": 39
+  },
+  "best_observed_high_precision_recall": {
+    "epoch": 10,
+    "precision": 0.5192307692307693,
+    "recall": 0.14754098360655737,
+    "true_positive_parents": 27,
+    "predicted_parents": 52
+  },
+  "proposal_division_recall_ceiling": 0.973404255319149,
+  "external_gate_pass": false,
+  "data_access": "Verified external 256 train and 64 time-validation shards only; no competition source or target labels were opened.",
+  "resource_cleanup": "PID 179757 completed; RTX6000 observed at 5 MiB/0%; lease biohub-exp160-pretrained-feature-pair-20260910 released; accidental zero-byte train.log.log removed.",
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

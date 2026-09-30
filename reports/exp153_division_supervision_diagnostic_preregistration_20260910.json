@@ -1,0 +1,20 @@
+{
+  "experiment": "EXP153",
+  "status": "PREREGISTERED_DIAGNOSTIC_BEFORE_GPU_INFERENCE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "question": "Does the independently trained real-Zebrahub checkpoint actually encode a fork signal on its time-disjoint external validation set, or did the global accuracy*recall selector hide division failure?",
+  "official_supervision_audit": {
+    "44b6_train_division_parents": 1,
+    "44b6_selection_division_parents": 0,
+    "6bba_train_division_parents": 11,
+    "6bba_selection_division_parents": 1,
+    "implication": "A reciprocal official-only division-weight experiment is underidentified, especially for 44b6-to-6bba."
+  },
+  "diagnostic": "Teacher-forced GT-node edge probabilities on all 64 frozen external validation shards at thresholds [0.5, 0.2, 0.1, 0.05, 0.02]; report edge recall plus division-parent recall and precision.",
+  "checkpoint_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+  "source_sha256": "3a9748e2ef3e1df3c0f577fc7c651f9ca9f2bcc3594242822b3ca39a615613ba",
+  "decision_gate": "If division-parent recall is zero through 0.02, correct the loss/selection and retrain externally. If recall is positive with useful precision, next isolate transfer while preserving the scratch detector; do not repeat full-model transfer unchanged.",
+  "resource": "One short RTX6000 job via the common queue; no training and no Kaggle action.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

@@ -1,0 +1,13 @@
+{
+  "experiment": "EXP146",
+  "status": "FAILED_BEFORE_TRAINING_OR_TARGET_INFERENCE",
+  "cause": "The staged trainer JSON contains one fold at index 0, while launcher v1 requested split 1.",
+  "exception": "IndexError: list index out of range",
+  "pid": 150379,
+  "pid_start": "423237694",
+  "gpu_after_exit": "5 MiB, 0%",
+  "failure_log_sha256": "5368527d5b9f71004dc7f0f439679cd192d04da5c2d609fa043b5d4d20782aaf",
+  "target_results_written": 0,
+  "fix_scope": "Change only --split 1 to --split 0; frozen train/test movie membership, seeds, model, consensus and promotion gate are unchanged.",
+  "kaggle_slots_consumed": 0
+}

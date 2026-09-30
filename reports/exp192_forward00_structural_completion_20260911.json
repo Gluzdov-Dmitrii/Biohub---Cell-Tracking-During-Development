@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11T15:06:52Z",
+  "status": "PASS_FORWARD_00_TERMINAL_STRUCTURAL_GATE",
+  "run": "exp192_confirm_forward_00_20260911",
+  "movies": 24,
+  "movies_sha256": "fd56684633dc6d9c8631225b60fc7f7f333b972f7ea5c65642667b5c1a6dee82",
+  "data_audit_sha256": "1abde88cb6feea73db1ce78ac6fe0994620e3c74e58bfee46455b691052768de",
+  "process": {"pid": 221962, "start_tick": "435724546", "process_tree_stopped": true, "gpu_process_stopped": true},
+  "verification": {
+    "all_sha256sum_entries": "PASS",
+    "sha256sums_sha256": "1feffe57c681e7570c51e55a37392259b64c28ea78293fe9e176a9f6a36a9e21",
+    "structure_validation_sha256": "9712e6849b0f266aa7c4722b3f0280e35b025b3d88613d07150e235b28b37501",
+    "structure_status": "PASS_EXP192_CHUNK_STRUCTURE_NO_METRICS",
+    "validated_metric_files": 3,
+    "scientific_metrics_emitted_by_validator": false
+  },
+  "queue": {"id": "exp192-confirm-forward-00-20260911", "terminal_state": "RELEASED", "health": "CURRENT"},
+  "anti_adaptation": {"chunk_log_read": false, "scientific_metric_opened": false},
+  "cleanup": "Lease released after exact stopped-process and artifact verification; result artifacts retained for the all-eight no-metric gate.",
+  "kaggle_action_authorized": false
+}

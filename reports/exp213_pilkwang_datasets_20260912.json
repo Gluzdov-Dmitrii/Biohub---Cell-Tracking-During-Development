@@ -1,0 +1,47 @@
+[
+  {
+    "ref": "pilkwang/biohub-tracking-support-pack-50ep-v1",
+    "title": "Biohub Tracking Support Pack",
+    "size": 349480810,
+    "lastUpdated": "2026-07-08T22:42:12.497000",
+    "downloadCount": 16501,
+    "voteCount": 35,
+    "usabilityRating": 0.5
+  },
+  {
+    "ref": "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "title": "Biohub DeepCenterUNet3D Center Prior V1",
+    "size": 71261719,
+    "lastUpdated": "2026-07-07T11:53:58.670000",
+    "downloadCount": 5115,
+    "voteCount": 10,
+    "usabilityRating": 0.47058824
+  },
+  {
+    "ref": "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+    "title": "Biohub TemporalUNet3D Seed 314159 V1",
+    "size": 349517719,
+    "lastUpdated": "2026-07-20T08:26:25.767000",
+    "downloadCount": 5697,
+    "voteCount": 7,
+    "usabilityRating": 0.5
+  },
+  {
+    "ref": "pilkwang/biohub-local-association-ranker-unet300-v1",
+    "title": "Biohub Local Association Ranker UNET300 V1",
+    "size": 18994,
+    "lastUpdated": "2026-07-10T01:12:18.183000",
+    "downloadCount": 1096,
+    "voteCount": 1,
+    "usabilityRating": 0.5
+  },
+  {
+    "ref": "pilkwang/biohub-tracking-support-pack-v1",
+    "title": "Biohub Tracking Support Pack V1",
+    "size": 326421598,
+    "lastUpdated": "2026-07-01T00:14:04.117000",
+    "downloadCount": 203,
+    "voteCount": 1,
+    "usabilityRating": 0.4375
+  }
+]

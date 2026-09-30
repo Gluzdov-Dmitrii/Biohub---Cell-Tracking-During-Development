@@ -1,0 +1,37 @@
+{
+  "experiment": "EXP229",
+  "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp229_horaz_physical_v1_20260923",
+  "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp229_horaz_physical_v1_20260923",
+  "resources": {
+    "cpu": 4,
+    "ram_gib": 32,
+    "gpus": 0,
+    "timeout_seconds": 7200
+  },
+  "entrypoint": "run_exp229_pipeline.py",
+  "arguments": [
+    "--config",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp229_horaz_physical_v1_20260923/pipeline_config.json",
+    "--config-sha256",
+    "053277181eeb58e1846667dffd7d5e032e893b808dadf500dc6ba5a87fa3b524"
+  ],
+  "files": {
+    "run_exp229_fixed_nodes.py": "scripts/run_exp229_fixed_nodes.py",
+    "run_exp229_pipeline.py": "scripts/run_exp229_pipeline.py",
+    "run_exp224_fixed_nodes.py": "scripts/run_exp224_fixed_nodes.py",
+    "score_exp223_official.py": "scripts/score_exp223_official.py",
+    "producer_config.json": "work/horaz_parallel_20260923/producer_config.json",
+    "pipeline_config.json": "work/horaz_parallel_20260923/pipeline_config.json",
+    "test_exp229_fixed_nodes.py": "tests/test_exp229_fixed_nodes.py"
+  },
+  "reviewed_sources": {
+    "run_exp229_fixed_nodes.py": "72f70fc928aac912d3385964e393cd19268cc1829a7707df423eb6cc6cdce3f6",
+    "run_exp229_pipeline.py": "82dc032b205b61bf386580f9a57522f3c346c552605d7c1caf88f8818cec9725",
+    "run_exp224_fixed_nodes.py": "085d5445d4f8f2685487e09354c708e2193b5299dd8b116e5973487ea608ec94",
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "producer_config.json": "a141afcf3e64da2d628930860241263ab55d39671a2314a3036e6867af0262b2",
+    "pipeline_config.json": "053277181eeb58e1846667dffd7d5e032e893b808dadf500dc6ba5a87fa3b524",
+    "test_exp229_fixed_nodes.py": "77ac35ea52b67e1bd2ff0832225549b234332d11077e4dbcf263cd7ae16aca67"
+  },
+  "launch_approved_after_code_review": true
+}

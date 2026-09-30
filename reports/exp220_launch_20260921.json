@@ -1,0 +1,19 @@
+{
+  "pid": 357841,
+  "start": "518583681",
+  "command": [
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp220_node_strata_20260921/analyze_exp220_node_strata.py",
+    "--repo",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+    "--data",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+    "--metrics",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_score175_20260914/output/new90/metrics.json",
+    "--output",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp220_node_strata_20260921/result.json"
+  ],
+  "started": 1789966835.7479434,
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp220_node_strata_20260921",
+  "timeout_seconds": 7200
+}

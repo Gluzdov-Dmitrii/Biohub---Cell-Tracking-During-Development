@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import ast
 import json
 from pathlib import Path
 
@@ -9,6 +10,20 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "kaggle_notebooks/exp212_exp209_oof_frontier/exp209_oof_frontier.py"
 METADATA = ROOT / "kaggle_notebooks/exp212_exp209_oof_frontier/kernel-metadata.json"
 DATASET = ROOT / "kaggle_datasets/exp212_exp209_oof_frontier_models"
+
+
+def test_offline_install_precedes_all_third_party_imports() -> None:
+    tree = ast.parse(SOURCE.read_text(encoding="utf-8"))
+    install = next(node for node in tree.body if isinstance(node, ast.Expr)
+                   and isinstance(node.value, ast.Call)
+                   and ast.unparse(node.value.func) == "subprocess.check_call")
+    import sys
+    for node in tree.body:
+        if isinstance(node, (ast.Import, ast.ImportFrom)):
+            modules = [alias.name for alias in node.names] if isinstance(node, ast.Import) else [node.module]
+            for module in modules:
+                if module.split(".")[0] not in sys.stdlib_module_names:
+                    assert node.lineno > install.end_lineno, module
 
 
 def digest(path: Path) -> str:
@@ -23,6 +38,14 @@ def test_source_is_dynamic_and_compiles() -> None:
     assert "submission.csv" in source
     assert "rglob(\"submission.csv\")" not in source
     assert "unexpected_test_names" not in source
+
+
+def test_packaging_preserves_kaggle_numerical_stack() -> None:
+    source = SOURCE.read_text(encoding="utf-8")
+    assert '"--no-deps"' in source
+    assert '"--force-reinstall"' in source
+    assert '"numpy==' not in source and '"scipy==' not in source
+    assert "numerical_versions_before != numerical_versions_after" in source
 
 
 def test_exp209_policy_is_frozen() -> None:

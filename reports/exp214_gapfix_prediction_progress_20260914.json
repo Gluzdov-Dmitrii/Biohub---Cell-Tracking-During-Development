@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_ALL_GAPFIX_PREDICTIONS",
+  "updated": 1789378930.1409116,
+  "completed": [
+    "new90_44b6_00",
+    "new90_44b6_01",
+    "new90_44b6_02",
+    "new90_44b6_03",
+    "new90_44b6_04",
+    "base60_44b6_00",
+    "base60_44b6_01",
+    "base60_44b6_02",
+    "base60_44b6_03",
+    "base60_44b6_04",
+    "new90_6bba_00",
+    "new90_6bba_01",
+    "new90_6bba_02",
+    "base60_6bba_00",
+    "base60_6bba_01",
+    "base60_6bba_02"
+  ],
+  "movies": 175
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP171",
+  "status": "REJECT_EXTERNAL_GATE_NO_COMPETITION_EVALUATION",
+  "raw_result_sha256": "48e54158259d313970c837814b75437f379fb67530ba2978927bc7d082a91539",
+  "run_log_sha256": "18c6247069eb35b1caea60abc23ec49f6755e02f27ca4510be956860edb91f70",
+  "checkpoint_sha256": "caae45fd99e5be69f670a473178474414e735d6a5905ed59e79f350112e5fb8d",
+  "calibration_pair_ap": 0.23732833541262058,
+  "prospective_pair_ap": 0.18371741996823027,
+  "prospective_parent_ap": 0.1348156034287032,
+  "gate_pass": false,
+  "data_access": "External time-disjoint fit/calibration/evaluation only; no competition data.",
+  "resource_cleanup": "PID 182199 stopped; RTX6000 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}

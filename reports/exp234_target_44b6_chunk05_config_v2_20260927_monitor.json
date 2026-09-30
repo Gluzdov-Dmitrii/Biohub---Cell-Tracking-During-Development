@@ -1,0 +1,108 @@
+{
+  "launch": {
+    "pid": 880382,
+    "start": "569100144",
+    "command": [
+      "taskset",
+      "-c",
+      "0-7",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/run_exp234_target_chunk.py",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/44b6_chunk05_plan.json",
+      "--plan-sha256",
+      "ed71a1564ba99ec8d0001b505df2486bd3e776244da32a53085b3fce78784dab"
+    ],
+    "started": 1790471993.685721,
+    "config": {
+      "experiment": "EXP234_TARGET_CHUNK",
+      "lease_id": "exp234-target-44b6-chunk05-v2-20260927",
+      "token": "exp234_target_44b6_chunk05_v2_20260927",
+      "pool": "a100",
+      "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk05_v2_20260927",
+      "max_seconds": 10800,
+      "cpu_affinity": "0-7",
+      "script": "run_exp234_target_chunk.py",
+      "arguments": [
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/44b6_chunk05_plan.json",
+        "--plan-sha256",
+        "ed71a1564ba99ec8d0001b505df2486bd3e776244da32a53085b3fce78784dab"
+      ],
+      "resources": {
+        "cpu": 8,
+        "ram_gib": 64,
+        "disk_growth_gib": 3
+      },
+      "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+      "alias": "nsu-a100"
+    }
+  },
+  "exit": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 880382,
+    "start": "569100144",
+    "finished": 1790472905.8578703
+  },
+  "identity_alive": false,
+  "group_alive": false,
+  "gpu_pids": [],
+  "status": {
+    "status": "PASS_EXP234_TARGET_CHUNK_NO_LABELS",
+    "source_embryo": "44b6",
+    "target_embryo": "6bba",
+    "chunk_index": 5,
+    "movies": [
+      "6bba_12665c0e",
+      "6bba_372c8cb8",
+      "6bba_4f99ce20",
+      "6bba_5b28472a",
+      "6bba_767a1e17",
+      "6bba_7f87b3d8",
+      "6bba_8b7818bf",
+      "6bba_96833384",
+      "6bba_d0fc38b5",
+      "6bba_debd7bfa",
+      "6bba_df673a83",
+      "6bba_edf14583",
+      "6bba_f4ae811c",
+      "6bba_f8ffd5e7"
+    ],
+    "selected_threshold": "0.965",
+    "plan_sha256": "ed71a1564ba99ec8d0001b505df2486bd3e776244da32a53085b3fce78784dab",
+    "source_selection_result_sha256": "0975b715eebb8090e34cdde6016b6fff1344bc2e5201fe850de75ac806969ed5",
+    "csv_sha256": "56374e034e68e63966f1f7d303c842272c7a738230f59a608dcb85b33e5a5fb0",
+    "receipt_sha256": "618b5c07dbb6106853ec4afa670be6b85ac610af1009327cf94cffcc5c307b2d",
+    "target_labels_read": false,
+    "elapsed_seconds": 912.0032007694244
+  },
+  "queue": {
+    "id": "exp234-target-44b6-chunk05-v2-20260927",
+    "owner": "biohub-agent",
+    "token": "exp234_target_44b6_chunk05_v2_20260927",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk05_v2_20260927",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 3.0,
+    "minutes": 190,
+    "state": "RELEASED",
+    "created": 1790471992.2811704,
+    "heartbeat": 1790472900.304156,
+    "gpus": [],
+    "process": {
+      "pid": 880382,
+      "start": "569100144"
+    },
+    "allocated": 1790471992.2812173,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "finished": 1790472947.7177591,
+    "health": "CURRENT"
+  },
+  "monitor_status": "RELEASED_AFTER_VERIFIED_EXIT",
+  "checked_at": 1790472947.8851707
+}

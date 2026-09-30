@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP146",
+  "status": "REJECT_PROSPECTIVE_FULL_OOF_GATE",
+  "topology_selection": {
+    "44b6_to_6bba": {"selected_seed": 314159, "source_scores": {"314159": 0.8628, "271828": 0.8233}},
+    "6bba_to_44b6": {"selected_seed": 314159, "source_scores": {"314159": 0.9792, "271828": 0.9703}}
+  },
+  "folds": {
+    "44b6_to_6bba": {"parent_score": 0.6704928064276746, "candidate_score": 0.6677624905814088, "delta": -0.0027303158462658184, "node_recall_delta": 0.0005773281062912972, "nonnegative_movies": 4, "movies": 12, "worst_movie_delta": -0.02152054338314724},
+    "6bba_to_44b6": {"parent_score": 0.7019694675732845, "candidate_score": 0.6984256520190395, "delta": -0.003543815554244989, "node_recall_delta": -0.0006497643276424103, "nonnegative_movies": 6, "movies": 12, "worst_movie_delta": -0.05166127880524707}
+  },
+  "pooled": {"parent_score": 0.6761456762872733, "candidate_score": 0.6732628781871234, "delta": -0.002882798100149908, "node_recall_delta": -0.00003621811067555658, "division_tp_delta": 0},
+  "uncertainty": {"stratified_movie_bootstrap_draws": 10000, "score_delta_percentile_95": [-0.008012057932591157, 0.0023147336277118975], "probability_delta_positive": 0.1335, "leave_one_movie_out_delta_always_negative": true, "scope": "conditional on observed 44b6/6bba movies, not unseen embryos or private LB"},
+  "artifacts": {
+    "gate_sha256": "0fe85aa0535fb6d780c8f1a590449210ecee1a218fb836f87bd71b21b1d7f534",
+    "forward_consensus_sha256": "33d8fc2b6633f8995de1568de17fa03591572d7afe7ce89ca813c187e159e716",
+    "reverse_consensus_sha256": "df1102469fd6b4cb1d4934afce30b7b6f322eda73de7bdf5237d450f62ae6aba",
+    "reverse_seed271828_checkpoint_sha256": "fa475ca52a1157e77c1cfb64a6ed883d40849afd5c1f83ef051887766cfe435c",
+    "executed_launcher_sha256": "019d72e3f00f619a77409d3841dd5739d23d4e1d6c8abdb7787e73fa683b90c1",
+    "reproducible_launcher_sha256": "73f87a5fa96bf2606ebecc67910552112c972918fc1d4ab1fc2ec953e8abd5c2",
+    "analyzer_sha256": "23e488ad4705f93208cf0de09f164ada1af8911e08ab8d5412c184e92d1df5c5"
+  },
+  "resource": {"host": "prepost", "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba", "pid": 150620, "pid_start": "423274822", "lease_released_after_verified_stop": true, "post_run_gpu": "5 MiB, 0%"},
+  "data_integrity": {"remote_movie_directories": 24, "contract_sha256": "775e4fe3d8113ee76a1c721a01136233de5968eeb53f62ea624cd12c2bdc1923"},
+  "interpretation": "Independent-seed coordinate averaging loses edge quality in both embryo domains. The negative sign is not driven by one movie. Reject and do not submit.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0
+}

@@ -1,0 +1,26 @@
+{
+  "started": 1789353694.0509708,
+  "lanes": [
+    [
+      "new90_44b6_00",
+      "new90_44b6_01",
+      "new90_44b6_02",
+      "new90_44b6_03",
+      "new90_44b6_04",
+      "base60_44b6_00",
+      "base60_44b6_01",
+      "base60_44b6_02",
+      "base60_44b6_03",
+      "base60_44b6_04"
+    ],
+    [
+      "new90_6bba_00",
+      "new90_6bba_01",
+      "new90_6bba_02",
+      "base60_6bba_00",
+      "base60_6bba_01",
+      "base60_6bba_02"
+    ]
+  ],
+  "scope": "Only eight frozen paired shards after all training/release; no target metrics or POST"
+}

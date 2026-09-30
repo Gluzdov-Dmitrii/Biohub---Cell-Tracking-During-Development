@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EXP228_CHUNK_FULL_AUDIT",
+  "chunk": 2,
+  "n_movies": 15,
+  "plan_sha256": "844371f21e3a7f728a7f869baf71603bb024841bce275880d1b8b051a9b3d436",
+  "complete_sha256": "44360c4d756bb82cb5e72a26c1cba329e484ce5866578817e6a55f7de0e72a82",
+  "lease": "RELEASED",
+  "exit": 0
+}

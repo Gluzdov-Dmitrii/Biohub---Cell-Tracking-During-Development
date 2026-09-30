@@ -1,0 +1,46 @@
+{
+  "experiment": "EXP172",
+  "registered_at": "2026-09-10T21:09:02+07:00",
+  "kind": "external_only_post_hoc_diagnostic",
+  "hypothesis": "The flexible parent MLP in EXP171 may damage the ranking already present in the frozen top daughter-pair score. Comparing both scores on the frozen calibration and untouched prospective windows will determine whether the next retry should preserve the raw pair ranking or seek new parent-level evidence.",
+  "parent": "EXP171",
+  "data_contract": {
+    "dataset": "verified external Zebrahub training shards only",
+    "fit": [10, 449, 182],
+    "gap_1": [451, 473, 10],
+    "calibration": [476, 629, 64],
+    "gap_2": [630, 649],
+    "prospective_evaluation": [650, 789, 64],
+    "competition_data": "closed"
+  },
+  "frozen_inputs": {
+    "exp171_checkpoint_sha256": "caae45fd99e5be69f670a473178474414e735d6a5905ed59e79f350112e5fb8d",
+    "backbone_sha256": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+    "evaluator_sha256": "f67693ab1f2b20637ea10a1a407bdbc0f24db683b4f0bb2cdae8f7aefb81e522",
+    "launcher_sha256": "83ab415200ac6e2e6b9713320a114f9c6d33cb154d72bcfe390c1ae6bf6cfb5a"
+  },
+  "fixed_comparison": [
+    "raw score of the highest-ranked candidate daughter pair for each parent",
+    "EXP171 parent-MLP probability for the same parent"
+  ],
+  "reported_metrics": [
+    "candidate-pair average precision",
+    "parent average precision",
+    "precision>=0.50 operating point",
+    "raw-versus-MLP score correlation"
+  ],
+  "interpretation_lock": "Diagnostic only. No hyperparameter, threshold, or model is selected from the prospective window. A subsequent candidate requires a fresh preregistration.",
+  "promotion": "No competition evaluation and no Kaggle submission are permitted from EXP172.",
+  "resource": {
+    "host": "nsu-quadro",
+    "gpu": "RTX6000",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "policy": "common queue; one project GPU job; release after verified process exit"
+  },
+  "local_checks": {
+    "python_compile": "pass",
+    "relevant_pytest": "5 passed",
+    "bash_parse": "not available locally because WSL launch is denied; remote bash -n required before allocation"
+  },
+  "kaggle_slots_reserved": 0
+}

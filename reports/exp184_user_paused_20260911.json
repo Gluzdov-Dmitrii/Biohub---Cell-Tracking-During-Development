@@ -1,0 +1,39 @@
+{
+  "experiment": "EXP184",
+  "status": "PAUSED_BY_USER_AFTER_FORWARD_COMPLETED_DURING_REVERSE",
+  "queue_request": "biohub-exp184-synthetic-gap-target-oof-20260911",
+  "process": {
+    "parent_pid": 192961,
+    "parent_start_tick": "431521878",
+    "active_child_at_stop": 193283,
+    "signal": "SIGTERM",
+    "parent_and_child_confirmed_ended": true,
+    "gpu_processes_remaining": false,
+    "gpu_after_stop": "5 MiB, 0%",
+    "queue_state": "RELEASED",
+    "released_utc_epoch": 1789096386.15146
+  },
+  "partial_state": {
+    "forward_44b6_to_6bba": "COMPLETE_AND_SHA_VERIFIED",
+    "reverse_6bba_to_44b6": "INTERRUPTED_WITHOUT_RESULT_JSON",
+    "target_gate": "NOT_RUN",
+    "forward_score_reviewed_for_decision": false,
+    "kaggle_execution": false,
+    "kaggle_slots_used": 0
+  },
+  "retained_local": {
+    "directory": "outputs/research/exp130_official24_private_first/exp184_paused_target_oof",
+    "forward_json_sha256": "1dfc9318ad40bf331eaa3b780e61c7029c56bec1743fab3dff30f4db639a6768",
+    "forward_log_sha256": "e581f8825006e2c2c2f452d646330f667e9606b839ed98bf3a8cd69bd3b380b6",
+    "launch_receipt_sha256": "af53e1cab9c90d49c3281ba6550d93bcb624aaf214c49e5519feadbcc115effa"
+  },
+  "cleanup": {
+    "remote_pyc_bytes_removed": 107890,
+    "remote_empty_logs_removed": [
+      "exp184.log",
+      "results/reverse.log"
+    ],
+    "verified_forward_result_preserved_remote_and_local": true
+  },
+  "resume_rule": "Do not launch GPU work until the user explicitly resumes it. Then preregister a continuation that reuses the SHA-pinned completed forward JSON, computes reverse exactly once, and applies the frozen EXP183 gate without inspecting/tuning on the forward score first."
+}

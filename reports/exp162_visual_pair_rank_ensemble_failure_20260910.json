@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP162",
+  "status": "FAIL_PRE_METRIC_LAUNCH_ARGUMENT_CHECKSUM_MISMATCH",
+  "cause": "The preregistration contained the correct scratch checkpoint SHA, but the manually assembled remote CLI argument was corrupted with a non-hex suffix.",
+  "effect": "Evaluator stopped at the scratch checkpoint integrity guard before loading external validation shards; no metric was produced and no competition data was accessed.",
+  "eval_log_sha256": "13757e766bda15b5d8464ec3f8e2f4a0849f2f8d0fd67920cf9f8fc0f475562a",
+  "resource_cleanup": "No PID remained; RTX6000 observed at 5 MiB/0%; lease biohub-exp162-visual-pair-rank-ensemble-20260910 released.",
+  "prevention": "Successor uses a versioned launcher file whose checkpoint arguments are unit-tested; no long metric command is transcribed in SSH.",
+  "kaggle_slots_used": 0
+}

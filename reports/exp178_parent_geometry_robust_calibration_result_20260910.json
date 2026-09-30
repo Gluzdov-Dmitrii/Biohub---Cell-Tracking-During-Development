@@ -1,0 +1,37 @@
+{
+  "experiment": "EXP178",
+  "raw_json_internal_label": "EXP177",
+  "status": "REJECT_EXTERNAL_NESTED_GATE",
+  "raw_result_sha256": "ab2b8cc54fc00b4b1a7b458e9160fc31f3638a3f220597121338114be34bab87",
+  "run_log_sha256": "ab2b8cc54fc00b4b1a7b458e9160fc31f3638a3f220597121338114be34bab87",
+  "held_blocks": [
+    {
+      "block": 1,
+      "precision": 0.4375,
+      "recall": 0.11666666666666667
+    },
+    {
+      "block": 2,
+      "precision": 0,
+      "recall": 0
+    },
+    {
+      "block": 3,
+      "precision": 0.38461538461538464,
+      "recall": 0.2222222222222222
+    },
+    {
+      "block": 4,
+      "precision": 0,
+      "recall": 0
+    }
+  ],
+  "final_threshold": 2,
+  "all_calibration_blend_ap": 0.2853039461079227,
+  "gate_pass": false,
+  "conclusion": "No statistically protected threshold exists. Do not open official-24 or Kaggle.",
+  "data_access": "External calibration t476-629 only; prospective and competition data unopened.",
+  "cleanup": "Process stopped; RTX6000 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}
+

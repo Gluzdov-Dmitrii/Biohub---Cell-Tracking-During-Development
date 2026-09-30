@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "RUNNING_VERIFIED_REVERSE_00",
+  "request": {
+    "id": "exp192-confirm-reverse-00-20260911",
+    "owner": "biohub-exp192-agent",
+    "token": "70b4adf7-f2cd-4f2c-ab73-363c9de0a938",
+    "pool": "quadro",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "resources": {"count": 1, "cpu": 8, "ram_gib": 32, "disk_gib": 5, "minutes": 120},
+    "reservation_result": "RESERVED_CURRENT",
+    "queue_nonterminal_before_request": 0
+  },
+  "preflight": {
+    "physical_gpu_compute_processes": 0,
+    "movies_sha256": "60b409b1e5ea8f3a3f56a86c02d7c823c091c3ab2352f48b5381c4e03615ca6a",
+    "data_ready_sha256": "484354e6355c1ee5635550ca126fe82616ca29d0bf577b93449b6bc21daee80f",
+    "data_audit_sha256": "1abde88cb6feea73db1ce78ac6fe0994620e3c74e58bfee46455b691052768de",
+    "prior_launch_or_output": false
+  },
+  "process": {
+    "pid": 229648,
+    "start_tick": "436194856",
+    "identity_match": true,
+    "worker_pid": 229658,
+    "queue_state": "RUNNING",
+    "queue_health": "CURRENT",
+    "observed_gpu_worker_pid": 229658,
+    "observed_gpu_memory_mib": 1028
+  },
+  "anti_adaptation": {"chunk_log_read": false, "scientific_metric_opened": false},
+  "kaggle_action_authorized": false
+}

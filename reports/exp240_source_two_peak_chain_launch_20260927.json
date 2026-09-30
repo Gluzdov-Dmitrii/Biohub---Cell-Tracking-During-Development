@@ -1,0 +1,40 @@
+{
+  "status": "LAUNCHED_EXP240_LABEL_FREE_SOURCE19_CPU_SCREEN",
+  "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+  "stage_receipt_sha256": "8ed5c7211f7fd723128a4a19c8e690401594b9d59ddcf506a1905f9f08184c0d",
+  "intent_sha256": "4c1ffdf3abdb716628729c99c92310515c23e3562a9c13df19ad14b7adcebc98",
+  "remote": {
+    "status": "LAUNCHED_EXP240_LABEL_FREE_SOURCE19_CPU_SCREEN",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp240_source_two_peak_chain_v1_20260927",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp240_source_two_peak_chain_v1_20260927",
+    "wrapper_pid": 483044,
+    "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+    "wrapper_sha256": "828f6e54b8a013f7584da5ec80e98604fff1254aaa90a51129d22c7f4f2e4f25",
+    "command": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/bin/python",
+      "-B",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp240_source_two_peak_chain_v1_20260927/screen_exp240_chains.py",
+      "--bundle-sha256",
+      "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370"
+    ],
+    "cpu_affinity": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "ram_bytes": 17179869184,
+    "max_seconds": 2800,
+    "pythonoptimize": "0",
+    "cuda_visible_devices": "",
+    "source_labels_read": false,
+    "target_data_opened": false,
+    "graph_created": false,
+    "gpu_used": false,
+    "kaggle_post": false,
+    "started": 1790515081.5225031
+  },
+  "source_labels_read": false,
+  "gpu_used": false,
+  "kaggle_post": false
+}

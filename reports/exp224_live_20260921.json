@@ -1,0 +1,159 @@
+{
+  "checked_at": 1789991919.9161055,
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921",
+  "launch.json": {
+    "pid": 361362,
+    "start": "521086508",
+    "started": 1789991864.0057933,
+    "command": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/prepost/py3.11-stdlib-v1/bin/python",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/run_exp224_fixed_nodes.py",
+      "--config",
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/science_config.json"
+    ],
+    "wrapper_pid": 361361,
+    "wrapper_start": "521086502",
+    "config": {
+      "experiment": "EXP224",
+      "remote_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921",
+      "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921",
+      "entrypoint": "run_exp224_fixed_nodes.py",
+      "files": {
+        "run_exp224_fixed_nodes.py": "scripts/run_exp224_fixed_nodes.py",
+        "input_package.json": "reports/exp221_source8_hybrid_input_package_20260921.json",
+        "science_config.json": "reports\\exp224_science_config_20260921.json",
+        "score_exp214_paired.py": "scripts/score_exp214_paired.py",
+        "test_exp224_fixed_nodes.py": "tests/test_exp224_fixed_nodes.py"
+      },
+      "arguments": [
+        "--config",
+        "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/science_config.json"
+      ],
+      "resources": {
+        "cpu": 4,
+        "ram_gib": 32,
+        "gpus": 0,
+        "timeout_seconds": 7200
+      },
+      "reviewed_sources": {
+        "run_exp224_fixed_nodes.py": "085d5445d4f8f2685487e09354c708e2193b5299dd8b116e5973487ea608ec94",
+        "input_package.json": "c848bc6e24379f3ae3fcfb49d937778efccd732edeadeb842d2de2a6ec819707",
+        "science_config.json": "f1e2d3d8db39ac06b0c7ac492f943da986f975e3d1f7ac28334220a3d3daa2c9",
+        "score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+        "test_exp224_fixed_nodes.py": "469bf9fe85bfd9e99c1e4ee514a4fb26e7e3d1858e9ae797e463a7d9b6a8eee7"
+      },
+      "launch_approved_after_code_review": true,
+      "note": "Grok-generated science reviewed: original IDs/float coords preserved; exact classical anisotropy/isolate/gap/CSV tests4PASS; official evaluator/source pins and baseline replay mandatory."
+    }
+  },
+  "exit.json": {
+    "returncode": 0,
+    "hard_timeout": false,
+    "pid": 361362,
+    "start": "521086508",
+    "started": 1789991864.0057933,
+    "finished": 1789991900.2472503,
+    "orphan_group_cleanup": []
+  },
+  "wrapper_launch.json": {
+    "wrapper_pid": 361361,
+    "wrapper_start": "521086502",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921",
+    "at": 1789991863.9530091
+  },
+  "output/no_metric_gate.json": {
+    "status": "PASS_ALL_PREDICTIONS_BEFORE_LABEL_ACCESS",
+    "movies": [
+      "44b6_53f95252",
+      "44b6_551a5dba",
+      "44b6_aaf8b0ea",
+      "44b6_c771cb04",
+      "44b6_c8e2a523",
+      "44b6_d754aa59",
+      "44b6_d78e09d9",
+      "44b6_e31261b4"
+    ],
+    "reference_sha256": "726519bef74c2055187b874e22286460433814de73d43db6b8964531c4e9b481",
+    "physical_sha256": "6d32e2a41901cdc39c8d18082c4af0b6c896271d8947fa0b9e81d783840e1ca8",
+    "node_lock_sha256": "9d1b0c90d17e5b87c02ac8b3de9c941e452efa4740289613c060e5b54b931a71",
+    "control_csv_sha256": "5b817f887975fb4d160c78efc53d856458cc535f34c66eacfb1e42e3a71c715f",
+    "classical_sha256": "e1edf7b5fc761ff713e818e01ecc5bc45349e8e8509b86d5932411b403294c1e",
+    "package_sha256": "c848bc6e24379f3ae3fcfb49d937778efccd732edeadeb842d2de2a6ec819707",
+    "max_link_um": 8.0,
+    "allow_divisions": false
+  },
+  "output/result.json": {
+    "status": "PASS_EXP224_SOURCE8_FIXED_NODES",
+    "elapsed_seconds": 35.40243864059448,
+    "no_metric_gate_sha256": "eec27f827a3464fe84d30ad12fa58204d2388d026d185365c0c1a10fae245566",
+    "node_lock_sha256": "9d1b0c90d17e5b87c02ac8b3de9c941e452efa4740289613c060e5b54b931a71",
+    "summary": {
+      "reference": {
+        "n": 8,
+        "edge_jaccard": 0.8002428658166363,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9226764217505261,
+        "adj_edge_jaccard": 0.8080132099136111,
+        "n_adj": 8,
+        "score": 0.8080132099136111
+      },
+      "physical": {
+        "n": 8,
+        "edge_jaccard": 0.8024316109422492,
+        "division_jaccard": 0.0,
+        "division_tp": 0,
+        "division_fp": 0,
+        "division_fn": 3,
+        "node_recall": 0.9226764217505261,
+        "adj_edge_jaccard": 0.81022175019251,
+        "n_adj": 8,
+        "score": 0.81022175019251
+      }
+    },
+    "summary_by_embryo": {
+      "44b6": {
+        "reference": {
+          "n": 8,
+          "edge_jaccard": 0.8002428658166363,
+          "division_jaccard": 0.0,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 3,
+          "node_recall": 0.9226764217505261,
+          "adj_edge_jaccard": 0.8080132099136111,
+          "n_adj": 8,
+          "score": 0.8080132099136111
+        },
+        "physical": {
+          "n": 8,
+          "edge_jaccard": 0.8024316109422492,
+          "division_jaccard": 0.0,
+          "division_tp": 0,
+          "division_fp": 0,
+          "division_fn": 3,
+          "node_recall": 0.9226764217505261,
+          "adj_edge_jaccard": 0.81022175019251,
+          "n_adj": 8,
+          "score": 0.81022175019251
+        }
+      }
+    },
+    "pins": {
+      "package_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/input_package.json",
+      "package_sha256": "c848bc6e24379f3ae3fcfb49d937778efccd732edeadeb842d2de2a6ec819707",
+      "classical_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp222_classical_full175_20260921/exp002_exact.py",
+      "classical_sha256": "e1edf7b5fc761ff713e818e01ecc5bc45349e8e8509b86d5932411b403294c1e",
+      "output_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp224_fixednodes_source8_20260921/output",
+      "repo_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+      "data_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+      "analyze_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp224_fixednodes_v1_20260921/score_exp214_paired.py",
+      "analyze_sha256": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4"
+    },
+    "note": "development-adapted; source8 only; no 6bba; no embryo-router"
+  },
+  "worker.log": "{\"dataset\": \"44b6_53f95252\", \"nodes\": 35343, \"ref_edges\": 34124, \"phys_edges\": 34145}\n{\"dataset\": \"44b6_551a5dba\", \"nodes\": 51077, \"ref_edges\": 49108, \"phys_edges\": 49224}\n{\"dataset\": \"44b6_aaf8b0ea\", \"nodes\": 19989, \"ref_edges\": 19318, \"phys_edges\": 19324}\n{\"dataset\": \"44b6_c771cb04\", \"nodes\": 47095, \"ref_edges\": 45348, \"phys_edges\": 45394}\n{\"dataset\": \"44b6_c8e2a523\", \"nodes\": 27115, \"ref_edges\": 26316, \"phys_edges\": 26323}\n{\"dataset\": \"44b6_d754aa59\", \"nodes\": 6077, \"ref_edges\": 5778, \"phys_edges\": 5772}\n{\"dataset\": \"44b6_d78e09d9\", \"nodes\": 21000, \"ref_edges\": 20153, \"phys_edges\": 20162}\n{\"dataset\": \"44b6_e31261b4\", \"nodes\": 52270, \"ref_edges\": 50033, \"phys_edges\": 50078}\n{\"status\": \"PASS_EXP224_SOURCE8_FIXED_NODES\", \"summary\": {\"reference\": {\"n\": 8, \"edge_jaccard\": 0.8002428658166363, \"division_jaccard\": 0.0, \"division_tp\": 0, \"division_fp\": 0, \"division_fn\": 3, \"node_recall\": 0.9226764217505261, \"adj_edge_jaccard\": 0.8080132099136111, \"n_adj\": 8, \"score\": 0.8080132099136111}, \"physical\": {\"n\": 8, \"edge_jaccard\": 0.8024316109422492, \"division_jaccard\": 0.0, \"division_tp\": 0, \"division_fp\": 0, \"division_fn\": 3, \"node_recall\": 0.9226764217505261, \"adj_edge_jaccard\": 0.81022175019251, \"n_adj\": 8, \"score\": 0.81022175019251}}, \"node_lock_sha256\": \"9d1b0c90d17e5b87c02ac8b3de9c941e452efa4740289613c060e5b54b931a71\"}\n",
+  "wrapper.log": ""
+}

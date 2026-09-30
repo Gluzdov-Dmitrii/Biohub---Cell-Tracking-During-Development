@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP205",
+  "recorded_at": "2026-09-11T11:20:00Z",
+  "status": "FAILED_BEFORE_DATA_ACCESS_OR_SCORING",
+  "failure": "ModuleNotFoundError: evaluate_cached_short_track_family",
+  "evidence": "Remote forward.log is 609 bytes; no forward/reverse result JSON exists. The exception occurred in the evaluator import block before movie-list loading, cache/raw-image access, graph construction or metrics.",
+  "authorized_correction": {
+    "scope": "Package the single existing transitive dependency evaluate_cached_short_track_family.py and rerun the identical frozen command.",
+    "path": "scripts/evaluate_cached_short_track_family.py",
+    "sha256": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3"
+  },
+  "unchanged": ["candidate rule", "crop radii", "parent", "movie cohort", "component lengths", "metric", "promotion gate"],
+  "eligible_for_kaggle_submission": false
+}

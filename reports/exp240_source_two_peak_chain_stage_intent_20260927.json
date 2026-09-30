@@ -1,0 +1,13 @@
+{
+  "status": "INTENT_EXP240_CPU_STAGE",
+  "manifest_sha256": "5bd3fd540e6df6a9b357965d0fd7c37556fe8afc2844274537cc94fb1873c370",
+  "config_sha256": "555fc2843e5cee813a362ba43064abcabe04ef61e42242224aee2d0059c34e23",
+  "preflight": {
+    "status": "PASS_EXP240_STAGE_PREFLIGHT_NO_LABELS",
+    "code_absent": true,
+    "run_absent": true,
+    "source_labels_read": false,
+    "target_data_opened": false
+  },
+  "source_labels_read": false
+}

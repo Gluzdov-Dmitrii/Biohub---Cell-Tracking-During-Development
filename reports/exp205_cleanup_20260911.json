@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP205",
+  "recorded_at": "2026-09-11T11:30:00Z",
+  "status": "PASS_VERIFIED_CLEANUP",
+  "remote": {
+    "deleted_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp205_intensity_centroid_refinement_20260911",
+    "bytes_before_delete": 191911,
+    "preconditions": ["foreground SSH process exited 0", "remote SHA256SUMS passed", "local export hashes matched", "no EXP205 worker remained"],
+    "postcondition": "exact path absent"
+  },
+  "local_deleted": [
+    ".tmp/pytest_exp205",
+    ".tmp/pycache_exp205",
+    ".tmp/pytest_exp205_all",
+    ".tmp/pycache_exp205_all"
+  ],
+  "preserved": [
+    "EXP205 source and tests",
+    "outputs/research/exp130_official24_private_first/exp205_intensity_centroid_refinement",
+    "EXP205 receipts",
+    "active EXP192 archive transfer and frozen dependencies"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "experiment": "EXP215",
+  "status": "PASS_SOURCE44_FULL60_STAGING_P01_RUNNING",
+  "created_utc": "2026-09-14T10:31:00Z",
+  "scope": "Full-cache source44b6 seed2026 continuation toward epoch >=60; source-only training, no inference, no target metrics, no Kaggle POST.",
+  "active_chunk": {
+    "part": 1,
+    "config": "reports/exp215_full60_44b6_s2026_p01_config_20260914.json",
+    "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p01_20260914",
+    "lease_id": "biohub-exp215-full60-44b6-s2026-p01-20260914",
+    "gpu": "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+    "verified_training_log": {
+      "stage": "ready",
+      "train_windows": 5643,
+      "validation_windows": 672,
+      "max_nodes": 16,
+      "resume_epoch": 13
+    },
+    "monitor": "reports/exp215_full60_44b6_s2026_p01_monitor_20260914.json",
+    "monitor_state_at_receipt": "RUNNING_CURRENT"
+  },
+  "staged_followups": [
+    {
+      "part": 2,
+      "config": "reports/exp215_full60_44b6_s2026_p02_config_20260914.json",
+      "sha256": "119fd5feadf93a41aa57300ea7d13fa069871a87740f957c20515dd6ef36a889",
+      "requires_released_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p01_20260914"
+    },
+    {
+      "part": 3,
+      "config": "reports/exp215_full60_44b6_s2026_p03_config_20260914.json",
+      "sha256": "1e5902e37e6ea17b0c6f9759ff27d538831247714e2733568726425065069dc0",
+      "requires_released_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p02_20260914"
+    },
+    {
+      "part": 4,
+      "config": "reports/exp215_full60_44b6_s2026_p04_config_20260914.json",
+      "sha256": "e62a619e8892089589e18d2b535e5e5b3b549f89ea76560e4e1c3abf17f701b7",
+      "requires_released_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p03_20260914"
+    }
+  ],
+  "operational_code": {
+    "launcher": {
+      "path": "scripts/launch_exp214_job.py",
+      "sha256": "b17f5512fdaa0b2d4a0232676c157cd2a5fe5baa43a4f4ac2a1c583177d4fbb1",
+      "change": "Adds EXP215 path allowance, requires_released_runs guard, and fail-closed cleanup for unlaunched WAITING_RESOURCE/GPU-mismatch queue requests."
+    },
+    "finite_coordinator": {
+      "path": "scripts/finish_exp215_full60_source44_training.py",
+      "sha256": "7afdef65b307af0e2090ea86f7bff4c7b860860116c4d80d6fe6b90a5bdc0187",
+      "change": "Launches only the staged EXP215 source-only training chunks after verified predecessor release; retries transient queue-status SSH reads."
+    }
+  },
+  "guard_check": {
+    "command": "python scripts/launch_exp214_job.py --config reports/exp215_full60_44b6_s2026_p02_config_20260914.json --mode training",
+    "expected_result": "AssertionError before reservation while p01 is active",
+    "observed_error": "Required predecessor has not been released: /home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p01_20260914"
+  },
+  "local_coordinator": {
+    "pid": 29468,
+    "progress": "reports/exp215_full60_source44_training_progress_20260914.json",
+    "stdout": "reports/exp215_full60_source44_training_coordinator_20260914.log",
+    "stderr": "reports/exp215_full60_source44_training_coordinator_20260914.err",
+    "first_progress": {
+      "status": "RUNNING_EXP215_SOURCE44_FULL60_TRAINING",
+      "released_chunks": [],
+      "waiting_or_running": [
+        "biohub-exp215-full60-44b6-s2026-p01-20260914"
+      ],
+      "launched": []
+    }
+  },
+  "submission_policy": "No Kaggle POST is authorized by this receipt."
+}

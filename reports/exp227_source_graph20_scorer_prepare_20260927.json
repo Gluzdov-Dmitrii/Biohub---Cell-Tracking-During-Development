@@ -1,0 +1,116 @@
+{
+  "status": "PREPARED_EXP227_SOURCE20_OFFICIAL_SCORER_NO_LABELS",
+  "preflight": {
+    "status": "PASS_EXP227_SOURCE20_SCORER_PREFLIGHT",
+    "inference_status_sha256": "c33039df92f559d30726665e80dca74c71004f22dc8ad141fdda6a342813a49d",
+    "inference_exit_sha256": "c8844546881bc6ad547289e131e9bf4b966272ee770ac5a28605c05b54e35d9f",
+    "hashes": [
+      {
+        "dataset": "44b6_996155de",
+        "csv_sha256": "dad0973ee9426d4b544a17bcc11654fe0b6a0ad08d3205de3433ccb69081b497",
+        "receipt_sha256": "1aefa6be090dfbec3a0b51decc767b8d25c5fc0c786a4eb40b866027594635b9"
+      },
+      {
+        "dataset": "44b6_c50204e0",
+        "csv_sha256": "87fca7d197150560a732a39197ab19f2d1119595ca2083ed232db1f8e56af5d4",
+        "receipt_sha256": "2b0944c2375d8b5ee0615fee92305de5c32fcb616c0fb8460c1b8dd957a30cb6"
+      },
+      {
+        "dataset": "44b6_c96cfa10",
+        "csv_sha256": "5eb9a5900e94ff2ac951fc0323877f3757ada50b86171c64e724587ab40c1d94",
+        "receipt_sha256": "b0a0c4d974e980d08f6c98b3bcd8e603b0305ad83c268296d5fb0e986d157f60"
+      },
+      {
+        "dataset": "44b6_551a5dba",
+        "csv_sha256": "3e1550753466b66cd025a48d5848a08f63269258634b7800d8a20270f71e6a5e",
+        "receipt_sha256": "07e0cb8f8e3fcbca9089005fa12d48bbb788d115edac11bfc17ce105f6d153b3"
+      },
+      {
+        "dataset": "44b6_90724892",
+        "csv_sha256": "7f0458eae2590e890be07ef00dc45b0c4683ad52218f143c707a592bcf4d446a",
+        "receipt_sha256": "e690c89fab55396c221afd18b7d2c574f37c95c37f8ec9d24dcdbe69497e8422"
+      },
+      {
+        "dataset": "44b6_f28707c6",
+        "csv_sha256": "15b0d7f2b23d02dac574a02807eb3ddfaf049779c4777e5145d78f0495939ac1",
+        "receipt_sha256": "08d2ade6f54ac8eab1ea194df299cfa2cb267526ddcb446276d59e1aa75d205e"
+      },
+      {
+        "dataset": "44b6_deabac95",
+        "csv_sha256": "1e9c0fd2cd8211c05474b4b22101d81b3b4e320184ebea93d52c354c643abff5",
+        "receipt_sha256": "7449bd3d4ee7c665db80095665e367a0b1c1449291b3f035e765472275eb56eb"
+      },
+      {
+        "dataset": "44b6_341df25f",
+        "csv_sha256": "620a859c6a20ad156097789c84c9f5f515d0095c7d116581ca226b46e8a04023",
+        "receipt_sha256": "a3d03497974bcffd8a66bb8c2925c345befb9370f4c7b14586875072dc47ee8f"
+      }
+    ]
+  },
+  "stage": {
+    "status": "STAGED_EXP227_SOURCE20_SCORER",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_source_graph20_scorer_v1_20260927",
+    "manifest_sha256": "4151a39fc4ced56589a060cc1f87c9d13b800b5b63c7cfe179e6490a20f4132c",
+    "score_config_sha256": "a28ad89064ba16504843240a0548aa8c85ef21c95436ef46d43cc0910f5c6c19"
+  },
+  "config": {
+    "experiment": "EXP227_SOURCE_GRAPH20_OFFICIAL",
+    "inference_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_source_graph20_v1_20260927",
+    "inference_manifest_sha256": "67ac145db6bedf2e25b371be1276700ce41a34cab6c8bd693d809efe7c895911",
+    "plan_sha256": "bff5691bdd36a697d0f66b8133a32d9c2040064c2d23f45721c5f37b2812e2ab",
+    "checkpoint_sha256": "a1f0305ebb5fc0e4fcc2788d63122c1477c6ee9b4a5b235598f9b054b93cfd36",
+    "inference_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_source_graph20_v1_20260927",
+    "inference_status_sha256": "c33039df92f559d30726665e80dca74c71004f22dc8ad141fdda6a342813a49d",
+    "inference_exit_sha256": "c8844546881bc6ad547289e131e9bf4b966272ee770ac5a28605c05b54e35d9f",
+    "inference_graph_hashes": [
+      {
+        "dataset": "44b6_996155de",
+        "csv_sha256": "dad0973ee9426d4b544a17bcc11654fe0b6a0ad08d3205de3433ccb69081b497",
+        "receipt_sha256": "1aefa6be090dfbec3a0b51decc767b8d25c5fc0c786a4eb40b866027594635b9"
+      },
+      {
+        "dataset": "44b6_c50204e0",
+        "csv_sha256": "87fca7d197150560a732a39197ab19f2d1119595ca2083ed232db1f8e56af5d4",
+        "receipt_sha256": "2b0944c2375d8b5ee0615fee92305de5c32fcb616c0fb8460c1b8dd957a30cb6"
+      },
+      {
+        "dataset": "44b6_c96cfa10",
+        "csv_sha256": "5eb9a5900e94ff2ac951fc0323877f3757ada50b86171c64e724587ab40c1d94",
+        "receipt_sha256": "b0a0c4d974e980d08f6c98b3bcd8e603b0305ad83c268296d5fb0e986d157f60"
+      },
+      {
+        "dataset": "44b6_551a5dba",
+        "csv_sha256": "3e1550753466b66cd025a48d5848a08f63269258634b7800d8a20270f71e6a5e",
+        "receipt_sha256": "07e0cb8f8e3fcbca9089005fa12d48bbb788d115edac11bfc17ce105f6d153b3"
+      },
+      {
+        "dataset": "44b6_90724892",
+        "csv_sha256": "7f0458eae2590e890be07ef00dc45b0c4683ad52218f143c707a592bcf4d446a",
+        "receipt_sha256": "e690c89fab55396c221afd18b7d2c574f37c95c37f8ec9d24dcdbe69497e8422"
+      },
+      {
+        "dataset": "44b6_f28707c6",
+        "csv_sha256": "15b0d7f2b23d02dac574a02807eb3ddfaf049779c4777e5145d78f0495939ac1",
+        "receipt_sha256": "08d2ade6f54ac8eab1ea194df299cfa2cb267526ddcb446276d59e1aa75d205e"
+      },
+      {
+        "dataset": "44b6_deabac95",
+        "csv_sha256": "1e9c0fd2cd8211c05474b4b22101d81b3b4e320184ebea93d52c354c643abff5",
+        "receipt_sha256": "7449bd3d4ee7c665db80095665e367a0b1c1449291b3f035e765472275eb56eb"
+      },
+      {
+        "dataset": "44b6_341df25f",
+        "csv_sha256": "620a859c6a20ad156097789c84c9f5f515d0095c7d116581ca226b46e8a04023",
+        "receipt_sha256": "a3d03497974bcffd8a66bb8c2925c345befb9370f4c7b14586875072dc47ee8f"
+      }
+    ],
+    "evaluator_config": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_source_graph20_scorer_v1_20260927/exp223_config.json",
+    "evaluator_config_sha256": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973",
+    "repo": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+    "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+    "output": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_source_graph20_official_v1_20260927/output"
+  },
+  "inference_prepare_sha256": "d31198d7f94848bc2befb1f49c6d2aa429f1c82a4818845f05d6720617823aee",
+  "source_labels_read": false,
+  "target_labels_read": false
+}

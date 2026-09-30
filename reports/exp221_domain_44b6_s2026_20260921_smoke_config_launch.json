@@ -1,0 +1,33 @@
+{
+  "lease": {
+    "id": "exp221-domain-44b6-s2026-20260921-smoke",
+    "owner": "biohub-agent",
+    "token": "exp221_domain_44b6_s2026_20260921_smoke",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 1.0,
+    "minutes": 70,
+    "state": "RESERVED",
+    "created": 1789968573.7989435,
+    "heartbeat": 1789968573.798981,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1789968573.798981,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper_pid": 545896,
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke"
+  },
+  "monitor_pid": 8408,
+  "monitor_receipt": "reports\\exp221_domain_44b6_s2026_20260921_smoke_config.json"
+}

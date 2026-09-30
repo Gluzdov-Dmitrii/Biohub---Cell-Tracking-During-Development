@@ -1,0 +1,41 @@
+{
+  "status": "PREPARED_EXP234_TARGET175_NO_LABELS",
+  "stage": {
+    "status": "STAGED_EXP234_TARGET_ROLLOUT",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v1_20260926",
+    "files": 35,
+    "manifest_sha256": "eceecf2e698a28416bcaa8d4f1eb58f12fe7c2f1f34e30427fb89d1b6db02162",
+    "plan_sha256": {
+      "44b6_chunk00_plan.json": "7adab190eb1121439cffd68fb5624ca25cca5db3500fbdf056494be75f359b3d",
+      "44b6_chunk01_plan.json": "f382c013e52244547df8c8afa38dc130ae7b45cf21c8114b7f299e180d8aaf84",
+      "44b6_chunk02_plan.json": "9f2a5f2903905888a69069fdd4224be0ba26ecbe7a9a52ee8b48391d307730f7",
+      "44b6_chunk03_plan.json": "4351d19e1024c396d472a943c6667caa8ddac1e15a7fd5d90cfa50cd31e93fa4",
+      "44b6_chunk04_plan.json": "54609090a852c15e70e75f69009c6a2b066cfe59e67ed88227ddbb469e600b3b",
+      "44b6_chunk05_plan.json": "b6dc5fa033a9d0edf3712d6b2cb3aba4d2cc2a6a864bd7b8fea0df70bc5584d0",
+      "44b6_chunk06_plan.json": "3d886915815d7a5dee3cb0406888566202f2c8b865537b496cccc38db596b3e5",
+      "44b6_chunk07_plan.json": "ed0e90098ce9b667176c8f662a5ed4f10ee11173537285cf63488cf4bfda74ab",
+      "6bba_chunk00_plan.json": "9a8a80a57cf25c977bbd61c0492bc32626a5f928defdd7d01ce650ed5fa6a655",
+      "6bba_chunk01_plan.json": "807914ee56bb0488accb9fe2dab1613327b0a809e4b11109ffab523314d9d865",
+      "6bba_chunk02_plan.json": "d662d4b4346b9bf9ac8502f67dbae1f392b4064f81f056a9fdf476014e3f8e20",
+      "6bba_chunk03_plan.json": "cf3873b5d369882031808204672f205e5bba80f6b758f27cc248a4d4e55cc0e9"
+    }
+  },
+  "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+  "source_choices": {
+    "44b6": {
+      "selected_threshold": "0.965",
+      "result_sha256": "0975b715eebb8090e34cdde6016b6fff1344bc2e5201fe850de75ac806969ed5",
+      "gate_sha256": "f1b8b92901dcab4d99c42e6a0328aa0cf4aab5eaf71e6c8ca763d15e5f0dfef9"
+    },
+    "6bba": {
+      "selected_threshold": "0.940",
+      "result_sha256": "435e4533a66d39ad517a225d31ff92dd0d8351b3f6634c9bf244bb933719cd56",
+      "gate_sha256": "306d9a134ec4917aa1575d2deb2f65f32cac4c013d3a5e36cb57b73f8ba2bb7f"
+    }
+  },
+  "chunks": {
+    "44b6": 8,
+    "6bba": 4
+  },
+  "target_labels_read": false
+}

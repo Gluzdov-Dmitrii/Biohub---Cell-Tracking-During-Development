@@ -1,0 +1,66 @@
+{
+  "lease": {
+    "id": "exp234-source-44b6-20260926",
+    "owner": "biohub-agent",
+    "token": "exp234_source_44b6_20260926",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_20260926",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 64.0,
+    "disk_gib": 3.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790437845.280195,
+    "heartbeat": 1790437845.2802372,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790437845.2802372,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "launch": {
+    "wrapper": 802239,
+    "observe": 802240
+  },
+  "config": {
+    "experiment": "EXP234",
+    "lease_id": "exp234-source-44b6-20260926",
+    "token": "exp234_source_44b6_20260926",
+    "pool": "a100",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_source_threshold_v1_20260926",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_20260926",
+    "max_seconds": 10800,
+    "cpu_affinity": "0-7",
+    "script": "run_exp234_source_threshold.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_source_threshold_v1_20260926/44b6_plan.json",
+      "--plan-sha256",
+      "7b020347fdd46dd3ad361f4c19204e0c4c59f6a010aea501e226be3b0cb72904"
+    ],
+    "resources": {
+      "cpu": 8,
+      "ram_gib": 64,
+      "disk_growth_gib": 3
+    },
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  },
+  "monitor_pid": 3220,
+  "monitor_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp234_source_44b6_monitor_20260926.json",
+  "controller_attempt": "FAILED_CROSS_HOST_RUN_PATH_BEFORE_CONTROLLER_START",
+  "recovered_with_existing_lease": true,
+  "first_monitor_state": {
+    "queue": "RUNNING",
+    "monitor_status": "MONITORING",
+    "identity_alive": true,
+    "gpu_pids": [
+      802266
+    ]
+  }
+}

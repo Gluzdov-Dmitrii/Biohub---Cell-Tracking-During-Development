@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP217",
+  "created_at_utc": "2026-09-15T04:01:24.412468+00:00",
+  "stage": "full60_source44_target6bba",
+  "track": "PRIVATE_ROBUST_DIAGNOSTIC_NO_POST",
+  "parent": {
+    "experiment": "EXP214 gapfix",
+    "arm": "90/60 public graph paired175",
+    "score": 0.7427291486246141,
+    "target6bba_score": 0.7318060132031643,
+    "target44b6_score": 0.8052068737218
+  },
+  "hypothesis": "Replacing only the source44b6 primary detector/linker checkpoint with the EXP215 full-cache source-selected epoch59 checkpoint improves target6bba OOF versus the EXP214 gapfix90 baseline. Target44b6 shards, secondary checkpoints, center checkpoints, candidate graph code and metric code remain fixed.",
+  "source_only_signal": {
+    "exp215_best_sha256": "d7bc45e5151842263e0b008bf152adc26105cf6e76b7722c46fe38a8e79ce3b4",
+    "selected_epoch": 59,
+    "source_selection_score": 0.9480773840263902,
+    "target_labels_opened": false
+  },
+  "candidate_dataflow": "Run paired public/local graph inference for the five source44b6 movie shards only, using runtime zarr images and no target labels. After all five receipts and existing target44b6 baseline receipts pass SHA gates, open labels once through score_exp214_paired.py.",
+  "promotion_gate": "Promote only if the paired full175 score improves without a target6bba regression and without a material target44b6 artifact from the reused baseline side.",
+  "submission_authority": "none"
+}

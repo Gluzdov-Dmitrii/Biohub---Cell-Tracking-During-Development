@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP207",
+  "date_local": "2026-09-12",
+  "status": "PREREGISTERED_BEFORE_SCIENTIFIC_METRIC_READ",
+  "anomaly": "The original immutable manifest lists results/SHA256SUMS.tmp because find observed the output file while xargs sha256sum was writing it; the runner then atomically renamed that temp file to SHA256SUMS.",
+  "preservation": "Do not edit or replace the original manifest. Preserve the completed run and all logs.",
+  "recovery_gate": [
+    "The registered parent PID and all GPU workers are absent and the queue lease is released.",
+    "The original manifest parses exactly and has exactly one missing entry.",
+    "That sole missing entry is the sibling SHA256SUMS.tmp path.",
+    "Every other listed path exists and matches its SHA-256.",
+    "The surviving listed paths exactly cover every current regular file below the frozen code and gpu roots except the original SHA256SUMS itself.",
+    "The verifier emits no scientific metric. Metrics may be opened only after the gate passes."
+  ],
+  "scientific_metrics_opened": false,
+  "kaggle_action": false
+}

@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP208-CORRECTION",
+  "date_local": "2026-09-12",
+  "status": "PASS_POST_FAILURE_ASSEMBLY_FROM_FROZEN_TARGETS",
+  "evidence_grade": "source-selected 24-movie development evidence; target metrics were generated before the invalid post-target assertion, and no inference was rerun",
+  "selected_arms": {
+    "forward": "intensity_centroid_r3_5_5",
+    "reverse": "intensity_centroid_r2_3_3"
+  },
+  "scores": {
+    "translation_base": 0.7485183130743318,
+    "selected": 0.7562142111317995,
+    "delta": 0.007695898057467732,
+    "forward_delta": 0.009729608914362697,
+    "reverse_delta": -0.0010606069331164925
+  },
+  "stability": {
+    "paired_stratified_bootstrap_draws": 20000,
+    "seed": 314159,
+    "probability_positive": 0.99685,
+    "q025": 0.0022073780374393366,
+    "median": 0.007834637480883255,
+    "q975": 0.01311818996790394,
+    "leave_one_movie_out_min_delta": 0.0065376407955355376,
+    "leave_one_movie_out_max_delta": 0.009419575998998786
+  },
+  "artifacts": {
+    "target_comparison": "outputs/research/exp208_post_failure_assembly_20260912/target_comparison.json",
+    "target_comparison_sha256": "c459177f6e7456d688f1d7e0166422dcccc558c1283af3fa84c793ba834b4b9a",
+    "target_stability": "outputs/research/exp208_post_failure_assembly_20260912/target_stability.json",
+    "target_stability_sha256": "e1cd8f78dce283d69ee6e7a476eba61bbeb800daa11bcbb1708f85beb1bf66d1",
+    "comparison_builder_sha256": "4d1a5bb10c4fd46ce3615ed0b196aecfab21cbf8f0fe6a67d41cd3627bbbbd9f",
+    "stability_analyzer_sha256": "ad716a032693e349d82edc5b17e2fa6aa66e5bb51018b916b0b6c535376082f0"
+  },
+  "interpretation": "The pooled development effect is robust, but it is directionally asymmetric and remains slightly below EXP206's previously exposed 24-movie development score. The two newly selected radii are suitable as a preregistered full-cohort transfer hypothesis, not as a replacement for the confirmed EXP206 frontier.",
+  "kaggle_action": false
+}
+

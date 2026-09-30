@@ -1,0 +1,12 @@
+{
+  "date_local": "2026-09-12",
+  "status": "CORRECTION_DUPLICATE_COMMUNITY_EVIDENCE",
+  "corrected_receipt": "reports/community_pooled_oof_update_r2_receipt_20260912.json",
+  "corrected_receipt_sha256": "3522c0d7f510648ae642d25de6abb2f0b84725c57dfe163a59e96041ca602614",
+  "finding": "The refreshed search independently re-found and revalidated the 0.919 CV / 0.895 LB claim and complete-movie movie-level-OOF advice, but these were already recorded on 2026-09-11. They are not new community evidence.",
+  "prior_receipt": "reports/public_cv_claims_update2_20260911.json",
+  "prior_receipt_sha256": "455853151177d47e67db45ca7bcc79112d90ad396f78f498a6e4c3a93fc6ddaa",
+  "net_new_numerical_pooled_oof_claims": 0,
+  "unchanged_decision": "No comparable public embryo-held-out pooled OOF benchmark exists in the reviewed evidence; EXP209 remains the internal frontier.",
+  "kaggle_action": false
+}

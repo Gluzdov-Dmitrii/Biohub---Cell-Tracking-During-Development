@@ -1,0 +1,2083 @@
+{
+  "status": "PARTIAL_EXP227_TARGET_CHUNK_LAUNCH",
+  "chunk_index": 6,
+  "lease_id": "exp227-target6bba-chunk06-v1-20260927",
+  "lease": {
+    "id": "exp227-target6bba-chunk06-v1-20260927",
+    "owner": "biohub-agent",
+    "token": "exp227_target6bba_chunk06_v1_20260927",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk06_v1_20260927",
+    "pool": "a100",
+    "count": 1,
+    "cpu": 8,
+    "ram_gib": 32.0,
+    "disk_gib": 4.0,
+    "minutes": 190,
+    "state": "RESERVED",
+    "created": 1790486461.680304,
+    "heartbeat": 1790486461.6803544,
+    "gpus": [
+      "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+    ],
+    "process": null,
+    "allocated": 1790486461.6803546,
+    "host": "ngpu01",
+    "alias": "nsu-a100",
+    "waiting_ahead": [],
+    "health": "CURRENT"
+  },
+  "config": {
+    "experiment": "EXP227_TARGET6BBA_CHUNK",
+    "chunk_index": 6,
+    "lease_id": "exp227-target6bba-chunk06-v1-20260927",
+    "token": "exp227_target6bba_chunk06_v1_20260927",
+    "pool": "a100",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk06_v1_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk06_v1_20260927",
+    "max_seconds": 10800,
+    "cpu_affinity": "0-7",
+    "resources": {
+      "cpu": 8,
+      "ram_gib": 32,
+      "disk_growth_gib": 4
+    },
+    "script": "run_exp227_target_chunk.py",
+    "arguments": [
+      "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk06_v1_20260927/plan.json",
+      "--plan-sha256",
+      "eb8bd653b3e406663cbb596cfe1fa2271a97ec99195a00cc9692ee7c0d9964a9"
+    ],
+    "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+    "alias": "nsu-a100"
+  },
+  "launch": {
+    "wrapper": 907779,
+    "observe": 907780
+  },
+  "fair_proof": {
+    "queue_preclaim": [
+      {
+        "id": "arc3-p0d-27b-smoke-20260907",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260907T-p0d-27b-smoke"
+      },
+      {
+        "id": "arc3-p0d-27b-smoke-cu124",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260907T-p0d-27b-smoke"
+      },
+      {
+        "id": "arc3-p0d-27b-smoke-cu124b",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260907T-p0d-27b-smoke"
+      },
+      {
+        "id": "arc3-p0d-27b-smoke-hf",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260907T-p0d-27b-smoke"
+      },
+      {
+        "id": "arc3-p0d-27b-smoke-bf16",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260907T-p0d-27b-smoke"
+      },
+      {
+        "id": "arc2-m0-smoke-20260908T0825Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m0-smoke-20260908T0825Z"
+      },
+      {
+        "id": "arc2-m1-sft-20260908T0805Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m1-sft-20260908T0805Z"
+      },
+      {
+        "id": "rsna-s22-cv-20260908T1635Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260908T1635Z-s22-resnet18-25d"
+      },
+      {
+        "id": "arc2-m2-sft-20260909T0605Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m2-sft-20260909T0605Z"
+      },
+      {
+        "id": "rsna-s23-cv-20260909T0635Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260909T0635Z-s23-convnext-tiny-25d"
+      },
+      {
+        "id": "rsna-s22-export-20260909T0735Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260909T0735Z-s22-export"
+      },
+      {
+        "id": "biohub-exp130-scratch44b6-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/scratch"
+      },
+      {
+        "id": "biohub-exp130-scratch44b6-nw0-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/scratch_nw0"
+      },
+      {
+        "id": "biohub-exp130-scratch44b6-det-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/scratch_deterministic"
+      },
+      {
+        "id": "biohub-exp130-zebra44b6-det-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/zebrahub_deterministic"
+      },
+      {
+        "id": "biohub-exp130-devpair-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/development_eval"
+      },
+      {
+        "id": "biohub-exp131-seed271828-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/seed271828"
+      },
+      {
+        "id": "biohub-exp131-seed271828-cont-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/seed271828"
+      },
+      {
+        "id": "biohub-exp135-low-lr-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp135_low_lr"
+      },
+      {
+        "id": "biohub-exp136-full-model-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp136_full_model_init"
+      },
+      {
+        "id": "biohub-exp138-discriminative-lr-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp138_discriminative_lr"
+      },
+      {
+        "id": "biohub-exp139-source-threshold-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp139_source_threshold"
+      },
+      {
+        "id": "biohub-exp140-source-threshold-seed314159-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp140_source_threshold_seed314159"
+      },
+      {
+        "id": "biohub-exp141-unet-soup-source-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp141_unet_soup"
+      },
+      {
+        "id": "biohub-exp142-dual-detector-source-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp142_dual_detector"
+      },
+      {
+        "id": "biohub-exp142-dual-detector-target-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp130_44b6_to_6bba_20260909/exp142_dual_detector"
+      },
+      {
+        "id": "biohub-exp143-reciprocal-pilot-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp143_reciprocal_7movie_pilot_20260909"
+      },
+      {
+        "id": "biohub-exp137-full-reciprocal-20260909",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp137_6bba_to_44b6_20260909"
+      },
+      {
+        "id": "biohub-exp144-locked-reciprocal-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp144_locked_reciprocal_audit_20260910"
+      },
+      {
+        "id": "arc2-m3-sft-20260910T0330Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m3-sft-20260910T0330Z"
+      },
+      {
+        "id": "rsna-s22-reg-20260910T0335Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0335Z-s22-resnet18-reg"
+      },
+      {
+        "id": "arc2-m3-sft-20260910T0338Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m3-sft-20260910T0338Z"
+      },
+      {
+        "id": "biohub-exp145-feature-tta-development-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp145_feature_tta_development_20260910"
+      },
+      {
+        "id": "biohub-exp146-scratch-seed-consensus-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp146_scratch_seed_consensus_20260910"
+      },
+      {
+        "id": "biohub-exp146-scratch-seed-consensus-retry-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp146_scratch_seed_consensus_20260910"
+      },
+      {
+        "id": "rsna-s22-head-20260910T0425Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0425Z-s22-resnet18-head"
+      },
+      {
+        "id": "rsna-s24-20260910T0545Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0545Z-s24-r3d18-9slice"
+      },
+      {
+        "id": "biohub-exp152-dense-native-source-selection-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp152_dense_native_source_selection_20260910"
+      },
+      {
+        "id": "biohub-exp152-dense-native-source-selection-retry-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp152_dense_native_source_selection_20260910"
+      },
+      {
+        "id": "biohub-exp152-dense-native-source-selection-retry2-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp152_dense_native_source_selection_20260910"
+      },
+      {
+        "id": "biohub-exp153-division-diagnostic-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp153_division_training_design_20260910"
+      },
+      {
+        "id": "biohub-exp153-division-diagnostic-retry-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp153_division_training_design_20260910"
+      },
+      {
+        "id": "rsna-s24-r2p-20260910T0745Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0745Z-s24-r2plus1d-9slice"
+      },
+      {
+        "id": "biohub-exp154-external-edge-fixed-coordinates-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp154_external_edge_fixed_coordinates_20260910"
+      },
+      {
+        "id": "biohub-exp154-external-edge-fixed-coordinates-retry-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp154_external_edge_fixed_coordinates_20260910"
+      },
+      {
+        "id": "biohub-pub-lite-20260910T094500Z-pilot",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/pub-lite-20260910T094500Z"
+      },
+      {
+        "id": "rsna-codex-consensus-smoke-20260910",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0913Z-codex-consensus/smoke"
+      },
+      {
+        "id": "rsna-codex-consensus-smoke2-20260910",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0913Z-codex-consensus/smoke2"
+      },
+      {
+        "id": "rsna-codex-consensus-pair-20260910",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0913Z-codex-consensus/pair"
+      },
+      {
+        "id": "biohub-exp157-division-positive-recalibration-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp157_division_positive_recalibration_20260910"
+      },
+      {
+        "id": "rsna-codex-consensus-verified_pair-20260910",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0913Z-codex-consensus/verified_pair"
+      },
+      {
+        "id": "biohub-exp157-division-eval-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp157_division_positive_recalibration_20260910"
+      },
+      {
+        "id": "biohub-pub-lite-r2-20260910",
+        "state": "CANCELLED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/pub-lite-r2-20260910"
+      },
+      {
+        "id": "biohub-exp157-competition-source-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp157_division_positive_recalibration_20260910"
+      },
+      {
+        "id": "biohub-exp157-competition-target-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp157_division_positive_recalibration_20260910"
+      },
+      {
+        "id": "rsna-codex-consensus-full-20260910",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T0913Z-codex-consensus/full"
+      },
+      {
+        "id": "rsna-s24-attn-20260910T1108Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T1108Z-s24-slice-attn"
+      },
+      {
+        "id": "biohub-exp158-visual-daughter-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp158_visual_daughter_pair_20260910"
+      },
+      {
+        "id": "biohub-exp159-visual-daughter-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp159_visual_daughter_pair_20260910"
+      },
+      {
+        "id": "biohub-exp160-pretrained-feature-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp160_pretrained_feature_pair_20260910"
+      },
+      {
+        "id": "biohub-exp161-visual-pair-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp161_visual_pair_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp162-visual-pair-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp162_visual_pair_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp163-visual-pair-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp163_visual_pair_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp164-visual-pair-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp164_visual_pair_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp165-visual-pair-diagnostics-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp165_visual_pair_diagnostics_20260910"
+      },
+      {
+        "id": "biohub-exp166-visual-pair-diagnostics-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp166_visual_pair_diagnostics_20260910"
+      },
+      {
+        "id": "biohub-exp167-visual-pair-diagnostics-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp167_visual_pair_diagnostics_20260910"
+      },
+      {
+        "id": "biohub-exp168-parent-calibrated-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp168_parent_calibrated_pair_20260910"
+      },
+      {
+        "id": "biohub-exp169-parent-calibrated-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp169_parent-calibrated-pair-20260910"
+      },
+      {
+        "id": "biohub-exp170-parent-calibrated-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp170_parent_calibrated_pair_20260910"
+      },
+      {
+        "id": "biohub-exp171-parent-calibrated-pair-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp171_parent_calibrated_pair_20260910"
+      },
+      {
+        "id": "biohub-exp172-parent-calibrator-diagnostic-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp172_parent_calibrator_diagnostic_20260910"
+      },
+      {
+        "id": "biohub-exp173-parent-appearance-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp173_parent_appearance_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp174-parent-appearance-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp174_parent_appearance_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp175-parent-geometry-rank-ensemble-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp175_parent_geometry_rank_ensemble_20260910"
+      },
+      {
+        "id": "biohub-exp176-parent-geometry-robust-calibration-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp176_parent_geometry_robust_calibration_20260910"
+      },
+      {
+        "id": "biohub-exp177-parent-geometry-robust-calibration-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp177_parent_geometry_robust_calibration_20260910"
+      },
+      {
+        "id": "biohub-exp178-parent-geometry-robust-calibration-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp178_parent_geometry_robust_calibration_20260910"
+      },
+      {
+        "id": "biohub-exp180-reciprocal-deepcenter-20260910",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910"
+      },
+      {
+        "id": "rsna-s24-swin-20260910T1643Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T1643Z-s24-swin3d-t"
+      },
+      {
+        "id": "rsna-s24-swin-20260910T1644Z",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260910T1644Z-s24-swin3d-t"
+      },
+      {
+        "id": "biohub-exp181-synthetic-gap-source-20260911",
+        "state": "CANCELLED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911"
+      },
+      {
+        "id": "biohub-exp181-synthetic-gap-source-r2-20260911",
+        "state": "CANCELLED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911"
+      },
+      {
+        "id": "biohub-exp181-synthetic-gap-source-r3-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911"
+      },
+      {
+        "id": "biohub-exp182-synthetic-gap-source-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp182_synthetic_gap_source_packaging_repair_20260911"
+      },
+      {
+        "id": "biohub-exp183-synthetic-gap-target-oof-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp183_synthetic_gap_target_oof_20260911"
+      },
+      {
+        "id": "biohub-exp184-synthetic-gap-target-oof-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp184_synthetic_gap_target_oof_config_repair_20260911"
+      },
+      {
+        "id": "biohub-exp185-synthetic-gap-target-oof-cont-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp185_synthetic_gap_target_oof_continuation_20260911"
+      },
+      {
+        "id": "biohub-exp186-nested-pooled-gap-sweep-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp186_nested_pooled_synthetic_gap_sweep_20260911"
+      },
+      {
+        "id": "biohub-exp191-gap-prune-composition-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp191_gap_prune_composition_20260911"
+      },
+      {
+        "id": "exp192-confirm-forward-00-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_00_20260911"
+      },
+      {
+        "id": "exp192-confirm-forward-01-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_01_20260911"
+      },
+      {
+        "id": "exp192-confirm-forward-02-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_02_20260911"
+      },
+      {
+        "id": "exp192-confirm-forward-03-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_03_20260911"
+      },
+      {
+        "id": "exp192-confirm-forward-04-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_forward_04_20260911"
+      },
+      {
+        "id": "exp192-confirm-reverse-00-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_reverse_00_20260911"
+      },
+      {
+        "id": "exp192-confirm-reverse-01-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_reverse_01_20260911"
+      },
+      {
+        "id": "exp192-confirm-reverse-02-20260911",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp192_confirm_reverse_02_20260911"
+      },
+      {
+        "id": "biohub-exp207-d4-feature-tta8-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp207_d4_feature_tta8_20260911/gpu"
+      },
+      {
+        "id": "biohub-exp211-d4-forward00-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp211_forward_00_20260912"
+      },
+      {
+        "id": "biohub-exp211-d4-forward01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp211_forward_01_20260912"
+      },
+      {
+        "id": "biohub-exp212-rtx-smoke-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp212_rtx_smoke_20260912"
+      },
+      {
+        "id": "biohub-exp213-benchmark-44b6-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_benchmark_44b6_20260912"
+      },
+      {
+        "id": "biohub-exp213-benchmark-a100-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_benchmark_a100_20260912"
+      },
+      {
+        "id": "biohub-exp213-benchmark-bf16-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_benchmark_a100_bf16_20260912"
+      },
+      {
+        "id": "biohub-exp213-benchmark-bf16v3-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_benchmark_a100_bf16_v3_20260912"
+      },
+      {
+        "id": "biohub-exp213-refit44b6-s2026-p01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp213_refit44b6_s2026_p01_20260912"
+      },
+      {
+        "id": "biohub-exp214-reduced44b6-s2026-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912"
+      },
+      {
+        "id": "biohub-exp214-reduced6bba-s2026-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s2026_20260912"
+      },
+      {
+        "id": "biohub-exp214-public-smoke-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_20260912"
+      },
+      {
+        "id": "biohub-exp214-public-smoke-v4-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v4_20260912"
+      },
+      {
+        "id": "biohub-exp214-public-smoke-v5-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_public_smoke_v5_20260912"
+      },
+      {
+        "id": "biohub-exp214-reduced44b6-s314159-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s314159_20260912"
+      },
+      {
+        "id": "rsna-codex-p04-smoke-20260912",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260912-codex-wide-window/smoke"
+      },
+      {
+        "id": "biohub-exp214-reduced6bba-s314159-20260912",
+        "state": "CANCELLED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s314159_20260912"
+      },
+      {
+        "id": "biohub-exp214-reduced6bba-s314159-rtx-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s314159_20260912"
+      },
+      {
+        "id": "rsna-codex-p04-pilot-20260912",
+        "state": "RELEASED",
+        "project": "rsna-knee-abnormality-detection",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/rsna-knee-abnormality-detection/runs/20260912-codex-wide-window/pilot"
+      },
+      {
+        "id": "biohub-exp214-paired-44b6-00-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_44b6_00_20260912"
+      },
+      {
+        "id": "biohub-exp214-reduced6bba-s314159-resume-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced6bba_s314159_resume_20260912"
+      },
+      {
+        "id": "biohub-exp214-equal-time44b6-s2026-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_equal_time44b6_s2026_20260912"
+      },
+      {
+        "id": "biohub-exp214-identical-batch-precision-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_identical_batch_precision_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-6bba-00-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_6bba_00_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-6bba-01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_6bba_01_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-44b6-01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_44b6_01_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-44b6-02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_44b6_02_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-6bba-02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_6bba_02_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-44b6-03-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_44b6_03_20260912"
+      },
+      {
+        "id": "biohub-exp214-control-full12-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_full12_20260912"
+      },
+      {
+        "id": "biohub-exp214-paired-44b6-04-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_paired_44b6_04_20260912"
+      },
+      {
+        "id": "biohub-exp214-control-reduced12-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced12_20260912"
+      },
+      {
+        "id": "biohub-exp214-control-reduced60-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_control_reduced60_20260912"
+      },
+      {
+        "id": "exp214-strong60-44b6-s314159-p01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_44b6_s314159_p01_20260912"
+      },
+      {
+        "id": "exp214-strong60-6bba-s314159-p01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s314159_p01_20260912"
+      },
+      {
+        "id": "exp214-strong60-6bba-s314159-p02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s314159_p02_20260912"
+      },
+      {
+        "id": "exp214-strong60-6bba-s2026-p01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s2026_p01_20260912"
+      },
+      {
+        "id": "exp214-strong60-6bba-s2026-p02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s2026_p02_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-44b6-00-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_44b6_00_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-6bba-00-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_00_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-44b6-01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_44b6_01_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-6bba-01-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_01_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-44b6-02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_44b6_02_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-44b6-03-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_44b6_03_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-6bba-02-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_6bba_02_20260912"
+      },
+      {
+        "id": "biohub-exp214-strong60-paired-44b6-04-20260912",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_paired_44b6_04_20260912"
+      },
+      {
+        "id": "exp214-continue90-44b6-s2026-20260913",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_continue90_44b6_s2026_20260913"
+      },
+      {
+        "id": "exp214-continue90-6bba-s2026-20260913",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_continue90_6bba_s2026_20260913"
+      },
+      {
+        "id": "biohub-exp214-eval90-44b6_00-20260913",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_eval90_paired_44b6_00_20260913"
+      },
+      {
+        "id": "biohub-exp214-eval90-6bba_00-20260913",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_eval90_paired_6bba_00_20260913"
+      },
+      {
+        "id": "biohub-exp214-eval90-44b6_01-20260913",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_eval90_paired_44b6_01_20260913"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_44b6_00",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_00_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_6bba_00",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_00_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_44b6_01",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_01_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_6bba_01",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_01_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_44b6_02",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_02_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_44b6_03",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_03_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_6bba_02",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_6bba_02_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-new90_44b6_04",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_new90_44b6_04_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_6bba_00",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_6bba_00_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_6bba_01",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_6bba_01_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_44b6_00",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_44b6_00_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_6bba_02",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_6bba_02_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_44b6_01",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_44b6_01_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_44b6_02",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_44b6_02_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_44b6_03",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_44b6_03_20260914"
+      },
+      {
+        "id": "biohub-exp214-gapfix-base60_44b6_04",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_paired_base60_44b6_04_20260914"
+      },
+      {
+        "id": "arc2-m8-softaug-20260914T093845Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/sft/arc2-m8-softaug-20260914T093845Z"
+      },
+      {
+        "id": "arc3-fp8-load-smoke-20260914T0945Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260914T-fp8-load-smoke"
+      },
+      {
+        "id": "arc3-fp8-load-smoke-retry1-20260914T0950Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-3",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-3/runs/20260914T-fp8-load-smoke-retry1"
+      },
+      {
+        "id": "biohub-exp215-full60-44b6-s2026-p01-20260914",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p01_20260914"
+      },
+      {
+        "id": "biohub-exp215-full60-44b6-s2026-p02-20260914",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p02_20260914"
+      },
+      {
+        "id": "biohub-exp215-full60-44b6-s2026-p03-20260914",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p03_20260914"
+      },
+      {
+        "id": "biohub-exp215-full60-44b6-s2026-p04-20260914",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp215_full60_44b6_s2026_p04_20260914"
+      },
+      {
+        "id": "biohub-exp217-full60-source44-44b6_00-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_00_20260915"
+      },
+      {
+        "id": "biohub-exp217-full60-source44-44b6_01-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_01_20260915"
+      },
+      {
+        "id": "biohub-exp217-full60-source44-44b6_02-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_02_20260915"
+      },
+      {
+        "id": "biohub-exp217-full60-source44-44b6_03-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_03_20260915"
+      },
+      {
+        "id": "biohub-exp217-full60-source44-44b6_04-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_04_20260915"
+      },
+      {
+        "id": "biohub-exp218-short-track-rescue-44b6_00-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp218_short_track_rescue_44b6_00_20260915"
+      },
+      {
+        "id": "biohub-exp218-short-track-rescue-44b6_01-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp218_short_track_rescue_44b6_01_20260915"
+      },
+      {
+        "id": "biohub-exp218-short-track-rescue-44b6_02-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp218_short_track_rescue_44b6_02_20260915"
+      },
+      {
+        "id": "biohub-exp218-short-track-rescue-44b6_03-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp218_short_track_rescue_44b6_03_20260915"
+      },
+      {
+        "id": "biohub-exp218-short-track-rescue-44b6_04-20260915",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp218_short_track_rescue_44b6_04_20260915"
+      },
+      {
+        "id": "exp221-control-44b6-s2026-20260921-smoke",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921_smoke"
+      },
+      {
+        "id": "exp221-domain-44b6-s2026-20260921-smoke",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921_smoke"
+      },
+      {
+        "id": "exp221-control-44b6-s2026-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_control_44b6_s2026_20260921"
+      },
+      {
+        "id": "exp221-domain-44b6-s2026-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_domain_44b6_s2026_20260921"
+      },
+      {
+        "id": "exp221-source-graph8-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp221_source_graph8_20260921"
+      },
+      {
+        "id": "exp223-horaz0-source-smoke-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_source_smoke_20260921"
+      },
+      {
+        "id": "exp223-larger-source-benchmark-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_larger_source_benchmark_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk00-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk01-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk01_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk02-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk02_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk03-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk03_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk04-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk04_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk05-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk05_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk06-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk06_20260921"
+      },
+      {
+        "id": "exp223-horaz0-pair-chunk07-20260921",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk07_20260921"
+      },
+      {
+        "id": "arc2-foundation-smoke-20260922T122454Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/arc2-foundation-smoke-20260922T122454Z"
+      },
+      {
+        "id": "arc2-foundation-retry-20260922T123459Z",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/arc2-foundation-retry-20260922T123459Z"
+      },
+      {
+        "id": "exp226-horaz-source-pilot-v1-20260922",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp226_horaz_source_pilot_v1_20260922"
+      },
+      {
+        "id": "exp226-horaz-source-pilot-v2-20260922",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp226_horaz_source_pilot_v2_20260922"
+      },
+      {
+        "id": "exp227-horaz-source-block01-20260922",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_horaz_source_block01_20260922"
+      },
+      {
+        "id": "exp228-horaz-ensemble-chunk00-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_chunk00_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk00-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk00_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk01-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk01_20260923"
+      },
+      {
+        "id": "exp230-horaz-warmstart-pilot-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp230_horaz_warmstart_pilot_v1_20260923"
+      },
+      {
+        "id": "exp231-horaz-warmstart-full2-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp231_horaz_warmstart_full2_v1_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk02-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk02_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk03-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk03_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk04-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk04_20260923"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk05-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk05_20260923"
+      },
+      {
+        "id": "arc2-q35-pilot-20260924",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-pilot-20260924"
+      },
+      {
+        "id": "arc2-q35-lora-smoke-20260924",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-lora-smoke-20260924"
+      },
+      {
+        "id": "arc2-q35-lora-full-20260924",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-lora-full-20260924"
+      },
+      {
+        "id": "arc2-q35-lora-eval-20260924",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-lora-eval-20260924"
+      },
+      {
+        "id": "arc2-q35-pair32-20260924",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-pair32-20260924"
+      },
+      {
+        "id": "arc2-q35-27b-smoke-20260925",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-smoke-20260925"
+      },
+      {
+        "id": "arc2-q35-27b-long-20260925",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-long-20260925"
+      },
+      {
+        "id": "arc2-q35-27b-full-20260925",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-full-20260925"
+      },
+      {
+        "id": "arc2-jevk5-quadro-c206d25e",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/jev-size-20260925-quadro"
+      },
+      {
+        "id": "arc2-jev-size-20260925-81f4971d",
+        "state": "CANCELLED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/jev-size-20260925"
+      },
+      {
+        "id": "arc2-jev-size-20260925-5dfd6dff",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/jev-size-20260925"
+      },
+      {
+        "id": "arc2-q35-27b-resume-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-resume-20260926"
+      },
+      {
+        "id": "arc2-openjev-size-20260926-ee75a880",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/openjev-size-20260926"
+      },
+      {
+        "id": "arc2-q35-27b-resume2-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-resume2-20260926"
+      },
+      {
+        "id": "arc2-openjev-size-20260926b-610f32b6",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/openjev-size-20260926b"
+      },
+      {
+        "id": "arc2-q35-27b-pair32-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-pair32-20260926"
+      },
+      {
+        "id": "arc2-q35-27b-vllm32-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-pair32-vllm-20260926"
+      },
+      {
+        "id": "arc2-q35-27b-vllm32b-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-pair32-vllm2-20260926"
+      },
+      {
+        "id": "arc2-q35-27b-vllm32c-20260926",
+        "state": "RELEASED",
+        "project": "arc-prize-2026-arc-agi-2",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/arc-prize-2026-arc-agi-2/runs/qwen35-27b-pair32-vllm3-20260926"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-01",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-02",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-03",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-04",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-05",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "gemma4-smoke-20260926-a100-06",
+        "state": "RELEASED",
+        "project": "gemma-4-developer-agent",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/gemma-4-developer-agent/runs/20260926-baseline-smoke"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk06-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk06_20260923"
+      },
+      {
+        "id": "exp234-source-44b6-20260926",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_20260926"
+      },
+      {
+        "id": "exp228-horaz-quadro-chunk07-20260923",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp228_horaz_ensemble_quadro_chunk07_20260923"
+      },
+      {
+        "id": "exp234-source-44b6-v2-20260926",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_v2_20260926"
+      },
+      {
+        "id": "exp234-source-6bba-v2-20260926",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_6bba_v2_20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-bc1-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-bc1-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-probe1-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-probe1-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-probe2-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-probe2-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-probe3-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-probe3-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-probe4-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-probe4-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-long1-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-long1-20260926"
+      },
+      {
+        "id": "exp227-horaz-source-block02-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_horaz_source_block02_20260927"
+      },
+      {
+        "id": "exp234-target-6bba-chunk00-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk00_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-bc2-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-bc2-20260926"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-long2-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-long2-20260926"
+      },
+      {
+        "id": "exp234-target-6bba-chunk01-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk01_v2_20260927"
+      },
+      {
+        "id": "exp234-target-6bba-chunk02-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk02_v2_20260927"
+      },
+      {
+        "id": "exp227-source-graph10-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_source_graph10_v1_20260927"
+      },
+      {
+        "id": "exp236-horaz-source6bba-block01-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_20260927"
+      },
+      {
+        "id": "exp234-target-6bba-chunk03-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_6bba_chunk03_v2_20260927"
+      },
+      {
+        "id": "exp227-horaz-source-block03-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_horaz_source_block03_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-a100-throughput-20260926",
+        "state": "CANCELLED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-a100-throughput-20260926"
+      },
+      {
+        "id": "exp234-target-44b6-chunk00-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk00_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-recovery-bc1-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-recovery-bc1-20260926"
+      },
+      {
+        "id": "exp236-horaz-source6bba-block01-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block01_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-bc1-20260926",
+        "state": "CANCELLED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-bc1-20260926"
+      },
+      {
+        "id": "exp227-source-graph20-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_source_graph20_v1_20260927"
+      },
+      {
+        "id": "exp236-horaz-source6bba-block02-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block02_v2_20260927"
+      },
+      {
+        "id": "exp234-target-44b6-chunk01-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk01_v2_20260927"
+      },
+      {
+        "id": "exp234-target-44b6-chunk02-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk02_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-long1-c001-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-long1-20260926/chunks/0001"
+      },
+      {
+        "id": "exp234-target-44b6-chunk03-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk03_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-long1-c002-20260926",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-long1-20260926/chunks/0002"
+      },
+      {
+        "id": "exp227-target6bba-chunk00-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk00_v1_20260927"
+      },
+      {
+        "id": "exp236-horaz-source6bba-block03-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block03_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-snapshot-c003-20260927",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-long1-snapshot-20260926/chunks/0003"
+      },
+      {
+        "id": "exp234-target-44b6-chunk04-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk04_v2_20260927"
+      },
+      {
+        "id": "exp234-target-44b6-chunk05-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk05_v2_20260927"
+      },
+      {
+        "id": "exp234-target-44b6-chunk06-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk06_v2_20260927"
+      },
+      {
+        "id": "exp234-target-44b6-chunk07-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_44b6_chunk07_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-snapshot-c004-20260927",
+        "state": "RELEASED",
+        "project": "kaggriculture",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-long1-snapshot-20260926/chunks/0004"
+      },
+      {
+        "id": "exp236-horaz-source6bba-block04-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_horaz_source6bba_block04_v2_20260927"
+      },
+      {
+        "id": "exp236-source-graph10-v2-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp236_source_graph10_v2_20260927"
+      },
+      {
+        "id": "kaggriculture-micro-ppo-spatial-v3-snapshot-c005-20260927",
+        "state": "RUNNING",
+        "project": "kaggriculture",
+        "gpus": [
+          "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46"
+        ],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/kaggriculture/runs/micro-ppo-spatial-v3-long1-snapshot-20260926/chunks/0005"
+      },
+      {
+        "id": "exp227-target6bba-chunk01-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk01_v1_20260927"
+      },
+      {
+        "id": "exp227-target6bba-chunk02-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk02_v1_20260927"
+      },
+      {
+        "id": "exp227-target6bba-chunk03-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk03_v1_20260927"
+      },
+      {
+        "id": "exp227-target6bba-chunk04-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk04_v1_20260927"
+      },
+      {
+        "id": "exp227-target6bba-chunk05-v1-20260927",
+        "state": "RELEASED",
+        "project": "biohub-cell-tracking-during-development",
+        "gpus": [],
+        "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk05_v1_20260927"
+      }
+    ],
+    "physical_preclaim": {
+      "all_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46",
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "busy_gpus": [
+        "GPU-61c0078d-a4a6-37a2-3aba-0378e7794c46"
+      ],
+      "idle_gpus": [
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ]
+    },
+    "first_fair_idle_gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+  },
+  "remote_preflight": {
+    "status": "PASS_EXP227_TARGET_CHUNK_LAUNCH_PREFLIGHT",
+    "manifest_sha256": "9af3020b2f83779aa423ea525019688d7b92edee060614a2c3758a604772d8eb",
+    "plan_sha256": "eb8bd653b3e406663cbb596cfe1fa2271a97ec99195a00cc9692ee7c0d9964a9",
+    "run_absent": true
+  },
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk06_v1_20260927",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk06_v1_20260927",
+  "manifest_sha256": "9af3020b2f83779aa423ea525019688d7b92edee060614a2c3758a604772d8eb",
+  "plan_sha256": "eb8bd653b3e406663cbb596cfe1fa2271a97ec99195a00cc9692ee7c0d9964a9",
+  "target_labels_read": false
+}

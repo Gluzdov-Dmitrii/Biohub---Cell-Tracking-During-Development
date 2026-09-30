@@ -1,0 +1,11 @@
+{
+  "status": "INTENT_EXP241_CPU_STAGE",
+  "manifest_sha256": "95e04f9358b629f03d76103761491e3e8ec44a86d55f6c45310842da9453a48f",
+  "preflight": {
+    "status": "PASS_EXP241_STAGE_PREFLIGHT_NO_LABELS",
+    "code_absent": true,
+    "run_absent": true,
+    "source_labels_read": false
+  },
+  "source_labels_read": false
+}

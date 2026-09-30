@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-09-11",
+  "source": {
+    "url": "https://www.kaggle.com/code/hengck23/cell-point-detector",
+    "kaggle_id": "hengck23/cell-point-detector",
+    "notebook_path": "outputs/research/open_candidates_20260911/hengck23_cell_point_detector/cell-point-detector.ipynb",
+    "notebook_sha256": "ac42811a80c0b3ee78d023e19d780663132cb4b6289cd17703cce7397ea973a2",
+    "metadata_sha256": "34f4fa44fa280d467cca2d293dd13a0800de932d9cb43e74ab79de8445847ada",
+    "license_status": "Public Kaggle notebook; reuse still requires preserving attribution and auditing attached dataset licensing."
+  },
+  "static_audit": {
+    "cells": 8,
+    "code_cells": 5,
+    "executed_code_cells_in_downloaded_source": 0,
+    "fixed_validation_movie": "6bba_337b1b3a",
+    "checkpoint_dependency": "hengck23/hengck23-cell-point-detector-demo/00000030.pth",
+    "checkpoint_bundled_in_notebook_source": false,
+    "training_code_bundled_in_notebook_source": false,
+    "inference": "Three-level 3D U-Net detector, XY downsample by four, 20-frame batches, local-max peak extraction and probability thresholding.",
+    "validation": "One fixed movie, custom Hungarian node-recall diagnostic; not embryo-level OOF and not an official pooled tracking score."
+  },
+  "discussion_claim": "The author reports dense external/FOCUS3D-style pretraining and, separately, edge recall about 0.964 conditional on nodes on one unseen sample, but that claim is not reproduced by the downloaded notebook.",
+  "accepted_value": "A genuinely different detector family and a possible dense-label pretraining lead. It is not a ready ensemble arm and must not be promoted without acquiring/auditing the attached checkpoint or reproducing training, then running reciprocal embryo-disjoint official full-movie OOF.",
+  "decision": "Keep as a post-EXP196 detector candidate only if endpoint-limited FN dominates. Do not spend RTX time on it before attribution.",
+  "eligible_for_kaggle_submission": false
+}

@@ -1,0 +1,11 @@
+{
+  "experiment": "EXP168",
+  "status": "PREREGISTERED_EXTERNAL_MODEL",
+  "split": "fit=182 shards tgap=10 shards; calibrate=64 shards; gap>=21 timepoints; prospectiveprospective eval=64 valid shards",
+  "fixed": "pair head 10 fixed epochs then parent propensity head fixed 30 epochs",
+  "gate": "precision >= 0.50 and recall >= 0.20 over 183 covered divisions",
+  "trainer_sha256": "3bcdf3e196ee2e84d96a365bb566123888ac26a3043ce08e444b208273518928",
+  "launcher_sha256": "89cad521e64f22c5b47ea7a7cc9c4eaf5277ebf83155d1bc0970b65719094cce",
+  "scope": "external Zebrahub onlyno competition datadata; one RTX6000",
+  "kaggle_slots_used": 0
+}

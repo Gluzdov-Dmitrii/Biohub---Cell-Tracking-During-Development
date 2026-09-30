@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SOURCE44_LOADER_MOVIE_SELECTION_METADATA_ONLY",
+  "source_manifest_sha256": "455cc9d546b1ea0f05e9674f9513800c70bf8faf851f8cb303397d27af1129f5",
+  "candidate_count": 63,
+  "selected": [
+    {
+      "dataset_id": "44b6_33b596bf",
+      "node_count": 50,
+      "image_shape": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "image_dtype": "uint16",
+      "mean_nodes_per_frame_upper_proxy": 0.5
+    },
+    {
+      "dataset_id": "44b6_d29c9ab2",
+      "node_count": 1353,
+      "image_shape": [
+        100,
+        64,
+        256,
+        256
+      ],
+      "image_dtype": "uint16",
+      "mean_nodes_per_frame_upper_proxy": 13.53
+    }
+  ],
+  "selected_ids_sparse_then_dense": [
+    "44b6_33b596bf",
+    "44b6_d29c9ab2"
+  ],
+  "estimated_preload_bytes": 104857600,
+  "density_basis": "GEFF nodes/ids shape divided by Zarr time dimension; source44 train metadata only",
+  "target6bba_access": false
+}

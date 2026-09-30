@@ -1,0 +1,41 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11T13:51:09Z",
+  "status": "RUNNING_VERIFIED_EXP192_REMOTE_STAGE",
+  "archive": {
+    "local_expected_bytes": 87393127165,
+    "remote_observed_bytes": 87393127165,
+    "local_expected_sha256": "538ed8a4d7b6669fa948865f947ed43c23aba7ee006fea8826d6ddd1277dfd19",
+    "remote_observed_sha256": "538ed8a4d7b6669fa948865f947ed43c23aba7ee006fea8826d6ddd1277dfd19",
+    "scp_session_id": 63104,
+    "scp_terminal_exit_code": 0
+  },
+  "stage": {
+    "remote_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "launcher": "code/exp192_honest195_confirmation_v1_20260911/launch_exp192_stage_remote.sh",
+    "runner_sha256": "1d39c8a3f8e34d56c25ec935759fbfc0f7b147b7a9fb4886309eb27f31615213",
+    "pid": 220563,
+    "start_tick": "435364238",
+    "observed_start_tick": "435364238",
+    "identity_match": true,
+    "persistent_launch_receipt": "data/exp192_archive_transfer/stage_launch_receipt.txt",
+    "log": "data/exp192_archive_transfer/stage.log",
+    "terminal_result_observed": false
+  },
+  "planned_exact_audit": {
+    "movies": 175,
+    "movie_counts": {"44b6": 59, "6bba": 116},
+    "files": 21525,
+    "bytes": 75045173746,
+    "content_hashed_movies": 175
+  },
+  "resource_state": {
+    "gpu_used": false,
+    "gpu_lease_acquired": false,
+    "common_queue_nonterminal_requests_before_launch": 0,
+    "scientific_metric_opened": false
+  },
+  "next_gate": "Monitor this exact PID/start identity. Only terminal PASS_EXP192_REMOTE_STAGE plus verified STAGING_SHA256SUMS and exact audit fields permits the data-ready finalizer.",
+  "cleanup_deferred": "The verified archive remains an active staging dependency and may be removed only after successful stage, data-ready verification and a cleanup receipt.",
+  "kaggle_action_authorized": false
+}

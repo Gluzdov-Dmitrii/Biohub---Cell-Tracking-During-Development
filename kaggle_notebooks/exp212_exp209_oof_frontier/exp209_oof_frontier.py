@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import gc
 import hashlib
+import importlib.metadata
 import json
 import math
 import random
@@ -12,8 +13,6 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
-
-import numpy as np
 
 SEED = 314159
 COMPETITION = "biohub-cell-tracking-during-development"
@@ -57,6 +56,8 @@ ARTIFACTS = locate_one(
     "EXP209 artifacts",
 )
 
+NUMERICAL_PACKAGES = ("numpy", "scipy", "numba", "llvmlite", "torch")
+numerical_versions_before = {name: importlib.metadata.version(name) for name in NUMERICAL_PACKAGES}
 subprocess.check_call(
     [
         sys.executable,
@@ -71,10 +72,12 @@ subprocess.check_call(
         str(SUPPORT / "wheels"),
         "-r",
         str(SUPPORT / "requirements-unet-ilp-kaggle-predownload.txt"),
-        "numpy==2.4.6",
-        "scipy==1.18.0",
     ]
 )
+numerical_versions_after = {name: importlib.metadata.version(name) for name in NUMERICAL_PACKAGES}
+if numerical_versions_before != numerical_versions_after:
+    raise RuntimeError("Offline support installation changed the preserved numerical stack")
+print(json.dumps({"preserved_numerical_stack": numerical_versions_after}), flush=True)
 
 REPO = WORK / "tracking_repo"
 if REPO.exists():
@@ -82,6 +85,9 @@ if REPO.exists():
 shutil.copytree(SUPPORT / "repo", REPO)
 sys.path[:0] = [str(ARTIFACTS), str(REPO / "src"), str(REPO / "scripts")]
 
+# Import binary packages only after offline installation has completed.
+# Importing NumPy before pip replaces its files caused the v3 mixed-module failure.
+import numpy as np
 import torch
 import zarr
 from scipy.spatial import cKDTree

@@ -1,0 +1,18 @@
+{
+  "experiment": "EXP195_ON_EXP192_CONFIRMATION",
+  "recorded_at": "2026-09-11",
+  "stage": "before_exp192_inference",
+  "builder_sha256": "e69892948038ce54f0f9cb056ec720407bfa25e4fc22c859ec4147263b4fc572",
+  "dependency_sha256": "3e15e296c26c21c5659502ee03ff6fe5d48d0324bd742a8d1a55ee161e2d234e",
+  "policy_sha256": "23c9d3553df6239d643be0261beba4bf8338fa123c6ea15a06bfbfdb1d57e439",
+  "checks": [
+    "exact policy SHA and status",
+    "exact 116 forward and 59 reverse movie coverage",
+    "exact registered baseline reproduction at 1e-12",
+    "unique telemetry and metric rows across three reverse chunks",
+    "complete graph choice using the fixed threshold"
+  ],
+  "verification": {"focused_tests": "4 passed", "compile": "PASS", "diff_check": "PASS", "remote_sha_match": true, "remote_import": "PASS"},
+  "execution_gate": "Run only after all eight chunk structures pass and immutable merges complete; target metrics remain unopened until then.",
+  "kaggle_action_authorized": false
+}

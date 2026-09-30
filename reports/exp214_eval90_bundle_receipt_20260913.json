@@ -1,0 +1,64 @@
+{
+  "status": "PASS_FROZEN_90_60_MODELS",
+  "plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899",
+  "bundles": {
+    "44b6": {
+      "purpose": "CONTROLLED_PRIMARY90_SECONDARY60_PAIRED175",
+      "source_embryo": "44b6",
+      "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899",
+      "primary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_continue90_44b6_s2026_20260913/output/edge_predictor_best.pth",
+        "sha256": "c43c61a136f80ecb0f3727b6e865d0547f9147162102a49f2a9dc599f729af28",
+        "actual_training_plan_sha256": "c998254a4654773e318d665f8ea6940630953b4f6c42a8224b7f0e6e7088321f",
+        "source_status_sha256": "145c7672eba18962742d0627379d8bc0f335f848bc7000528e23345339cffe81",
+        "seed": 2026,
+        "selected_epoch": 77,
+        "source_only_selection": true,
+        "total_epochs": 90
+      },
+      "secondary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_44b6_s314159_p01_20260912/output/edge_predictor_best.pth",
+        "sha256": "ea0b45d2dea2e9b8899889c3e62c44370332423aae470a4b3837210ea4c736c2",
+        "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+        "source_status_sha256": "49fa297129c50f926a13040fcd6145ab804a292b5ac666dcae3568a37654af52",
+        "seed": 314159,
+        "selected_epoch": 44,
+        "source_only_selection": true
+      },
+      "center": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/44b6/best.pt",
+        "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f"
+      },
+      "scope": "Only primary detector advanced60->90; secondary60 and clean center unchanged. Two embryos, development-adapted."
+    },
+    "6bba": {
+      "purpose": "CONTROLLED_PRIMARY90_SECONDARY60_PAIRED175",
+      "source_embryo": "6bba",
+      "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899",
+      "primary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_continue90_6bba_s2026_20260913/output/edge_predictor_best.pth",
+        "sha256": "093cd25eec67d8bd83bab55aa1f780d118bd29d43e70fb765a002f756a89a627",
+        "actual_training_plan_sha256": "a2febb4affb26c46d23c16a4983e82392b264601c0a13894c512ad36ff54e1c6",
+        "source_status_sha256": "ec23cec10a05200d9c40b58d267606ab89f56996d487a6334510b9279da93c90",
+        "seed": 2026,
+        "selected_epoch": 77,
+        "source_only_selection": true,
+        "total_epochs": 90
+      },
+      "secondary": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_strong60_6bba_s314159_p01_20260912/output/edge_predictor_best.pth",
+        "sha256": "f71e00a1ec7a1e88740f2aa896ced2041a285103f371cac1e0cb8cc408cf84fa",
+        "actual_training_plan_sha256": "44f507d749bc1885e4aa9349e2e611f3359ebfc1e439d94c9823f62eab3495ee",
+        "source_status_sha256": "0f57c6decfb18a06d70a91c9cf398453c337a13ab82c4afd54b8d0380bfdba70",
+        "seed": 314159,
+        "selected_epoch": 19,
+        "source_only_selection": true
+      },
+      "center": {
+        "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/6bba/best.pt",
+        "sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e"
+      },
+      "scope": "Only primary detector advanced60->90; secondary60 and clean center unchanged. Two embryos, development-adapted."
+    }
+  }
+}

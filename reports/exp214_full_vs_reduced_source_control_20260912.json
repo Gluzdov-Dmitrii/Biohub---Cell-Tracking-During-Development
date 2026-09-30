@@ -1,0 +1,18 @@
+{
+  "scope": "Internal source-validation proxy, not official tracking CV; identical12epoch cap but independent unseeded public augmentation streams",
+  "full": {
+    "epoch": 11,
+    "proxy": 0.9428610667397892,
+    "train_seconds": 9007.68612667825,
+    "epoch_seconds": 9510.751591262408
+  },
+  "reduced": {
+    "epoch": 9,
+    "proxy": 0.9343307612036017,
+    "train_seconds": 1757.416660153307,
+    "epoch_seconds": 1944.248219145462
+  },
+  "speedup_train": 5.12552676375133,
+  "speedup_including_validation": 4.8917373294252435,
+  "proxy_delta": -0.008530305536187499
+}

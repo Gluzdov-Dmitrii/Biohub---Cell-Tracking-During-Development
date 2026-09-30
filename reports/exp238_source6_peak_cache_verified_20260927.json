@@ -1,0 +1,170 @@
+{
+  "status": "PASS_EXP238_SOURCE_PEAK_CACHE_INDEPENDENT_VERIFICATION",
+  "cohort": "source6",
+  "stage_receipt_sha256": "50aad2cabfa71c12ce28a701e9a69e960be5800ea3182d13da149508df0d07cf",
+  "launch_receipt_sha256": "5708cb91e5224fa421a1d3ef2ae7c5bf0682080c7a92880fabe5a3b770a5e4e8",
+  "launch_receipt": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\reports\\exp238_source6_peak_cache_launch_a01_20260927_launch.json",
+  "local_bundle_manifest_sha256": "05589b389985ba1d297d5ae290a1de05414cc80f07fd9e2b67ef626e11549f02",
+  "exit0": true,
+  "released": true,
+  "all_graph_hashes_exact": true,
+  "source_only": true,
+  "labels_read": false,
+  "status_sha256": "b9ceccae4fe5537daf0dc5ee945c0b3f48ceb6581c945aebdee00765fac3eb8f",
+  "plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+  "manifest_sha256": "5e6132f2444c405801fb9a450fdcce94ec6c6768f7f88fa517ff95fbfcd20166",
+  "ordered_ids": [
+    "6bba_372c8cb8",
+    "6bba_67ebd073",
+    "6bba_76db78c1",
+    "6bba_786893ac",
+    "6bba_825bd1c6",
+    "6bba_a5e926bb",
+    "6bba_b329af44",
+    "6bba_b693381b",
+    "6bba_bb9f20c3",
+    "6bba_f20478e9",
+    "6bba_f4ae811c"
+  ],
+  "queue_release": {
+    "id": "exp238-source6-peak-cache-v1a01-20260927",
+    "state": "RELEASED",
+    "process": {
+      "pid": 930477,
+      "start": "572824030"
+    },
+    "gpus": []
+  },
+  "remote": {
+    "status": "PASS_EXP238_PEAK_CACHE_COMPLETION_NO_LABELS",
+    "cohort": "source6",
+    "movie_count": 11,
+    "peak_count": 346919,
+    "peak_payload_bytes": 4163028,
+    "rows": [
+      {
+        "dataset": "6bba_372c8cb8",
+        "graph_csv_sha256": "8f36d95700b970ed29cc5d39013765af952a78a91efb61675e5e0d4bc521c35d",
+        "record_sha256": "24fb9c83e348126629d621a65bc145dfc45fb14b032ba60ca3150a5331ab36bb",
+        "peak_npy_sha256": "c46b4c9a2a56c96d65e209ec7c52a8041467b16031ba3e933bb6c49e32675f8b",
+        "peak_metadata_sha256": "5fcd6d3df88bd299ccbf0b5ed521bc41c518d353ed479b5d7c2ad07e473eba1b",
+        "peak_count": 16691,
+        "peak_payload_bytes": 200292
+      },
+      {
+        "dataset": "6bba_67ebd073",
+        "graph_csv_sha256": "6c134acab5b18c586bac4fbeb479d29304bb6046a5969822fd862ed3e6ea5cbd",
+        "record_sha256": "c09aa3e6301ed62fee96eb57ba4751a31ae8b25b7d261a632a5a9c40972b1473",
+        "peak_npy_sha256": "48ec53726d2a8015f47010e7edd2de15e523c1955ede18369a3b835621e6768e",
+        "peak_metadata_sha256": "d033e584854d1dc229ce00306dc98235c642aa671b9d932087e5af2c9577594e",
+        "peak_count": 25812,
+        "peak_payload_bytes": 309744
+      },
+      {
+        "dataset": "6bba_76db78c1",
+        "graph_csv_sha256": "4910d5eae29f05999937aab868c7945f666a06975fc2455b50a8f2d7fa7ac9d8",
+        "record_sha256": "edfb181bd829f02c77245a35829b4b24cafa90cee19beb5edea3f009333573c3",
+        "peak_npy_sha256": "bb403730a9ae146f2156c4b894ab69ea6454799fcc529fb51431b5aae389660c",
+        "peak_metadata_sha256": "d18e9d8e0e74217478cc3835af71b86b396741a9cfa9d455350a178f466313df",
+        "peak_count": 9929,
+        "peak_payload_bytes": 119148
+      },
+      {
+        "dataset": "6bba_786893ac",
+        "graph_csv_sha256": "d19a614a96f8f934daf9ab64da001be6a23601859f1bda80a5c27863a16985c9",
+        "record_sha256": "0cff35aa8c7ddb82717f375aa84b3b97e995eaab368e91daa24ebe78dafce1e3",
+        "peak_npy_sha256": "fee182f68047368d281cb69bfe09257a106111b6d39ed345b6fbc1a1e24b4f2a",
+        "peak_metadata_sha256": "d92ef7d218ea7bc921a541a3f6d1ec70e269bed79b5802d1def1cb4c4dce20e7",
+        "peak_count": 97291,
+        "peak_payload_bytes": 1167492
+      },
+      {
+        "dataset": "6bba_825bd1c6",
+        "graph_csv_sha256": "c3a3ccb9bbc3afcbb5e8b01cb21dc6d8cee093faa5e55adde334f05959cd9363",
+        "record_sha256": "198264e21119c0244e380e8845e6e10f622c943d2d60434cdfd07905e399ac61",
+        "peak_npy_sha256": "9542fb1cb12552c61c1f3ab52af3550c2a061d63d251b60ca2f1ec3720abf2ca",
+        "peak_metadata_sha256": "f1213a14649c3b6f09403f67d44d914cda22fd6caf91c0d70e0752761576ea49",
+        "peak_count": 14689,
+        "peak_payload_bytes": 176268
+      },
+      {
+        "dataset": "6bba_a5e926bb",
+        "graph_csv_sha256": "7cf3ea31449764f5695f9d6ff7cc524197b2f9661ecd65382950f41cef9c6f0f",
+        "record_sha256": "4c4dd6a4a418acb294bf5bdfbacbd501b8d925a7dfaa4be95fb06cd3476575a7",
+        "peak_npy_sha256": "d0003e8ebe9ac5245075ee3644e5771f376280574ed824d8cdbada96e226d7eb",
+        "peak_metadata_sha256": "e5453713168d14389c27b3c64aa16b2a371a20b4e7c0fe8c4d1d84f234592ed1",
+        "peak_count": 14804,
+        "peak_payload_bytes": 177648
+      },
+      {
+        "dataset": "6bba_b329af44",
+        "graph_csv_sha256": "a377ac183c75d6aff3464419cf0522e9d6a4e33a324f8cb3d22b7f5e65d6c47c",
+        "record_sha256": "a78ae09a1c1a39ef77325104ff3a6921f396b8d7899bfcc21bc0d33715c05a96",
+        "peak_npy_sha256": "b89066e2b9c96f79d591f5a726d4e667577b18d53d711dea6c3fd3fe9584e7e8",
+        "peak_metadata_sha256": "89323e63c0d9c2b9d142fa87897aeb9b5ff18a9916acead28a7f9ff436b98f8f",
+        "peak_count": 80837,
+        "peak_payload_bytes": 970044
+      },
+      {
+        "dataset": "6bba_b693381b",
+        "graph_csv_sha256": "9141e962f5fd6b9c398b85726ed5d7ad8e5d61290c597142c594c14a78f85c21",
+        "record_sha256": "452edb352488b803169822aee860918fed1c8ebf0be14ec3b7a4e26e78dc59bd",
+        "peak_npy_sha256": "fc3298f4c897f8719baa441fe1302aa6b56c8dadd6853b678e30af6591722f69",
+        "peak_metadata_sha256": "c4b160d2e0614d6c31cca1c1124c49829869aaa4a1de1797de49ccfc94ff76ba",
+        "peak_count": 10228,
+        "peak_payload_bytes": 122736
+      },
+      {
+        "dataset": "6bba_bb9f20c3",
+        "graph_csv_sha256": "26ef306df1fc756fe29dc5dc7d5ae36b20546f144e2a861e25d3b72160bebf33",
+        "record_sha256": "99afd8cccd97e0edfd305b69682c727a74c436963e04883941ff7f020e6f4a7f",
+        "peak_npy_sha256": "91847ea2e741ad81b6190b124df949525b4d86ca7d70afc6200294f8a1ae467b",
+        "peak_metadata_sha256": "7b2de00e026691a5734fe3403258fc6e44fd670b63b393b601b1856748b369e5",
+        "peak_count": 32841,
+        "peak_payload_bytes": 394092
+      },
+      {
+        "dataset": "6bba_f20478e9",
+        "graph_csv_sha256": "22f481d924c29cdb33197359806d39918d1e60621da0dc39032e88849a5b36a1",
+        "record_sha256": "2fd8c5be51c028c59ed03edbadb4df9c4be4cf5273221ca0f27d4fe96f1acc9a",
+        "peak_npy_sha256": "d0fd146b5e0b4e25abb39c2c0a0b5a985609ed535d81b8ce1df71a1933a3787e",
+        "peak_metadata_sha256": "63f1796c4bd302d4918fc2e9da344b2d39f7d35ac9c32d532af91941bb238873",
+        "peak_count": 28016,
+        "peak_payload_bytes": 336192
+      },
+      {
+        "dataset": "6bba_f4ae811c",
+        "graph_csv_sha256": "20473459c9955db6185a8cf1b44755778fb20439dd4cf5df52d3122a83282b3d",
+        "record_sha256": "a27794cb53e48f10389c4634485395aed96bb616c65338e073df70e27aed789a",
+        "peak_npy_sha256": "2e4f0cb15f58115240a0623c0d1f05ce1c9dc70b73aaf879537ac8f71387ea64",
+        "peak_metadata_sha256": "328cc3a5b419701a532cfd33a4d08cbe8896e406e25a5becc411c448f8029bca",
+        "peak_count": 15781,
+        "peak_payload_bytes": 189372
+      }
+    ],
+    "code_manifest_sha256": "5e6132f2444c405801fb9a450fdcce94ec6c6768f7f88fa517ff95fbfcd20166",
+    "plan_sha256": "ae920bb9dc217ef058692084137ab4313ac7ef140302f862246452b6b8994aaf",
+    "parent_status_sha256": "de1a4ca38f7d9f470eab6a993322e301b016e05f2175a6407559764633537acf",
+    "status_sha256": "b9ceccae4fe5537daf0dc5ee945c0b3f48ceb6581c945aebdee00765fac3eb8f",
+    "exit_sha256": "23b380f19d7f832ce61fc0eb6b84edfa7aac0b10f8624039954c7cb6ea879f4b",
+    "supervision_sha256": "d114ae8fec40475fa0ee7f33d03ca214d7d2422288c9c75d6582f54044a4fd36",
+    "control_sha256": "71c3df9702a4fdbca67a4292b261086ab9de07867b13e9de3def203129299497",
+    "remote_launch_sha256": "bb54576690c9e21d5679184342f8dbd83db58fb5e27554beacf6f990b6d7b4df",
+    "worker_process": {
+      "pid": 930477,
+      "start": "572824030"
+    },
+    "source_labels_read": false,
+    "target_data_opened": false,
+    "identity_alive": false,
+    "group_alive": false,
+    "matching_processes": [],
+    "worker_gpu_pids": []
+  },
+  "graph_hashes_sha256": "72c4191ef41be94f5365966e8ce8d9c086cb3491d7d3e52cb3bb43a4d4ea12d2",
+  "peak_artifact_hashes_sha256": "1357dd4e86e4142e86219e34bf9dd751d31a23d3c8b2f59d0d83bd7ea28c7507",
+  "source_labels_read": false,
+  "target_data_opened": false,
+  "source_score_computed": false,
+  "kaggle_post": false
+}

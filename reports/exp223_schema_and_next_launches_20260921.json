@@ -1,0 +1,107 @@
+{
+  "status": "PASS44_CSV_SHA_RECHECK",
+  "count": 44,
+  "columns": [
+    "id",
+    "dataset",
+    "row_type",
+    "node_id",
+    "t",
+    "z",
+    "y",
+    "x",
+    "source_id",
+    "target_id"
+  ],
+  "sample_receipt": {
+    "contract": {
+      "arm": "selected50_20",
+      "dataset": "44b6_12dfb391",
+      "fold": 0,
+      "mode": "heldout",
+      "weight_sha256": "8c202a657567309a15e0b254236b2d730b4a4942b54408608d3b1895fc45ff08",
+      "manifest_sha256": "001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4",
+      "decoder_sha256": "6854b15c8facdb7216e8546fe8f461d2c673770b032fdab6a4e5bbc3b6d508fe",
+      "code_sha256": "037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd"
+    },
+    "seconds": 199.41442131996155,
+    "csv_sha256": "509adc67d447c800dfc48b7cd99ed5e3058aab4d1961fa55d29aca0e67324abb",
+    "shape": [
+      100,
+      64,
+      256,
+      256
+    ],
+    "peak_cuda_bytes": 1001041920,
+    "nodes": 59434,
+    "edges": 57858,
+    "stats": {
+      "raw_nodes": 60189,
+      "raw_edges": 57749,
+      "raw_frames": 100,
+      "dropped_long_edges": 1,
+      "dropped_multi_parent_edges": 0,
+      "motion_fill_frames": 95,
+      "motion_fill_relaxed_edges": 122,
+      "motion_fill_tight_edges": 111,
+      "motion_fill_edges": 233,
+      "gap_close_motion_weight_percent": 50,
+      "gap_close_distance_milli_um": 4750,
+      "gap_density_nodes_scored": 57900,
+      "gap_candidates": 348,
+      "gap_refined_synthetic": 312,
+      "gap_inserted_synthetic": 312,
+      "gap_pairs_selected": 312,
+      "gap_added_edges": 624,
+      "gap_added_nodes": 312,
+      "safe_division_candidates": 46,
+      "safe_divisions_added": 45,
+      "pruned_isolated_nodes": 1,
+      "short_track_dense_length_selected": 1,
+      "short_track_minimum_length": 6,
+      "short_track_nodes_removed": 1066,
+      "short_track_edges_removed": 792,
+      "linefit_dense_weight_selected": 1,
+      "linefit_smoothing_weight_percent": 80,
+      "linefit_smoothing_window": 5,
+      "linefit_smoothed_nodes": 59434,
+      "intensity_refine_dense_weight_selected": 1,
+      "intensity_refine_weight_percent": 50,
+      "intensity_refined_nodes": 59434,
+      "clamped_nodes": 48
+    }
+  },
+  "code_manifest_sha256": "037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd",
+  "chunk02_supervision": {
+    "at": 1789990796.7643404,
+    "action": "heartbeat",
+    "queue": {
+      "id": "exp223-horaz0-pair-chunk02-20260921",
+      "owner": "biohub-agent",
+      "token": "exp223_horaz0_pair_chunk02_20260921",
+      "project": "biohub-cell-tracking-during-development",
+      "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk02_20260921",
+      "pool": "a100",
+      "count": 1,
+      "cpu": 8,
+      "ram_gib": 32.0,
+      "disk_gib": 4.0,
+      "minutes": 190,
+      "state": "RUNNING",
+      "created": 1789990752.6307206,
+      "heartbeat": 1789990796.6991248,
+      "gpus": [
+        "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002"
+      ],
+      "process": {
+        "pid": 557927,
+        "start": "520976232"
+      },
+      "allocated": 1789990752.6307614,
+      "host": "ngpu01",
+      "alias": "nsu-a100",
+      "waiting_ahead": [],
+      "health": "CURRENT"
+    }
+  }
+}

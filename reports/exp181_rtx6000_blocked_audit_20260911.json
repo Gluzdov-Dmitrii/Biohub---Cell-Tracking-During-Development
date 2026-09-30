@@ -1,0 +1,47 @@
+{
+  "experiment": "EXP181",
+  "status": "BLOCKED_EXTERNAL_RESOURCE_AFTER_THREE_GOAL_TURNS",
+  "observed_utc": "2026-09-10T18:35:08Z",
+  "resource": {
+    "host": "prepost",
+    "gpu": "Quadro RTX 6000",
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "memory_used_mib": 9396,
+    "utilization_percent": 99
+  },
+  "blocking_job": {
+    "project": "rsna-knee-abnormality-detection",
+    "queue_id": "rsna-s24-swin-20260910T1644Z",
+    "pid": 187205,
+    "process_start_tick": "427776461",
+    "process_start_display": "Thu Sep 10 16:46:02 2026",
+    "queue_state": "RUNNING",
+    "queue_health": "CURRENT",
+    "heartbeat_was_fresh": true
+  },
+  "biohub_state": {
+    "source_gate": "PREREGISTERED_AND_STAGED_NOT_RUN",
+    "first_request": "CANCELLED_UNLAUNCHED",
+    "second_request": "CANCELLED_UNLAUNCHED",
+    "active_waiting_request": false,
+    "assigned_gpu": false,
+    "pid": null,
+    "source_or_target_data_opened": false,
+    "partial_outputs": 0,
+    "kaggle_slots_used": 0
+  },
+  "completed_while_waiting": [
+    "EXP181 source, gate, launcher and preregistration SHA verification",
+    "Five focused tests plus synthetic accept/reject graph smoke test",
+    "Publication notebook update and six claim checks",
+    "QRZ canonical-code and CRLF normalization attribution audit",
+    "EXP180 cleanup completion and evidence preservation"
+  ],
+  "why_no_alternative": "The user and active objective select RTX6000, GPU sharing is prohibited, the registered job is live, and target OOF/Kaggle are forbidden until the EXP181 source gate passes.",
+  "retained_dependencies": {
+    "remote_run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911",
+    "exp180_checkpoints": "Two unique SHA-verified best.pt files",
+    "review_date": "2026-09-12"
+  },
+  "resume_condition": "RTX6000 owner process has ended and its common queue lease has been released; then create one fresh EXP181 request and revalidate physical GPU state before launch."
+}

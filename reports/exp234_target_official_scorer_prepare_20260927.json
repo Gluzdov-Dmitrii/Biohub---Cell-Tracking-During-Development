@@ -1,0 +1,51 @@
+{
+  "status": "PREPARED_EXP234_OFFICIAL_TARGET175_SCORER_NO_LABELS",
+  "preflight": {
+    "status": "PASS_EXP234_OFFICIAL_STAGE_PREFLIGHT"
+  },
+  "stage": {
+    "status": "STAGED_EXP234_OFFICIAL_SCORER",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_official_scorer_v1_20260927",
+    "manifest_sha256": "58f42f9b7640680739092025e106fe755da7c53df4fdccf496f9fd3f36e90e80",
+    "score_config_sha256": "45c9a8931e8e8ff243c0e8f09840ee0530a5855fa42b1d26eb91430ab31055a3",
+    "release_manifest_sha256": "017ce93049a4cfcbf983d9265b641a42a1266fbcfa9c7c1125f7643979f19b04"
+  },
+  "config": {
+    "experiment": "EXP234_OFFICIAL_TARGET175",
+    "inference_code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927",
+    "inference_manifest_sha256": "0cba3b0e3240d9e5b755d67fdd85a9d7166670fb919a65d4b69f3ccf705c1ee4",
+    "assignment": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_rollout_v2_20260927/assignment.json",
+    "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+    "cohort": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp228_horaz_ensemble_quadro_v2_20260923/heldout175_manifest.json",
+    "cohort_sha256": "001c07019077794c1c33706cba5d0178f464aad07cf985650b2d55c3ebaa72d4",
+    "release_manifest": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_official_scorer_v1_20260927/release_manifest.json",
+    "release_manifest_sha256": "017ce93049a4cfcbf983d9265b641a42a1266fbcfa9c7c1125f7643979f19b04",
+    "source_selection": {
+      "44b6": {
+        "result": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_v2_20260926/score/result.json",
+        "result_sha256": "0975b715eebb8090e34cdde6016b6fff1344bc2e5201fe850de75ac806969ed5",
+        "gate": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_44b6_v2_20260926/score/no_metric_gate.json",
+        "gate_sha256": "f1b8b92901dcab4d99c42e6a0328aa0cf4aab5eaf71e6c8ca763d15e5f0dfef9",
+        "selected_threshold": "0.965"
+      },
+      "6bba": {
+        "result": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_6bba_v2_20260926/score/result.json",
+        "result_sha256": "435e4533a66d39ad517a225d31ff92dd0d8351b3f6634c9bf244bb933719cd56",
+        "gate": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_source_6bba_v2_20260926/score/no_metric_gate.json",
+        "gate_sha256": "306d9a134ec4917aa1575d2deb2f65f32cac4c013d3a5e36cb57b73f8ba2bb7f",
+        "selected_threshold": "0.940"
+      }
+    },
+    "baseline_metrics": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_gapfix_score175_20260914/output/new90/metrics.json",
+    "baseline_metrics_sha256": "c2746b182d061fede4a255056cf177a245ad365485f46ba9f376cd240013b2e5",
+    "notebook_sha256": "5389953eb7c2f68b6e3664985ceb252d0eac391b65821b0ced692693003cbcba",
+    "evaluator_config": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_target_official_scorer_v1_20260927/exp223_config.json",
+    "repo": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+    "data_dir": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+    "output": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_target_official_score175_20260927/output"
+  },
+  "release_manifest_local_sha256": "017ce93049a4cfcbf983d9265b641a42a1266fbcfa9c7c1125f7643979f19b04",
+  "coordinator_receipt_sha256": "b2d2e7e7de0b81e21a963182c9e935a50bf4c913f194632ad20fce5f540f1033",
+  "original_coordinator_receipt_sha256": "241605a7c01c9cffcf244c51ef15fdb34f915fcd2c104867438f7227034354d8",
+  "target_labels_read": false
+}

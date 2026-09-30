@@ -1,0 +1,67 @@
+{
+  "experiment": "EXP027",
+  "track": "GOLD_PUBLIC",
+  "daily_slot": 1,
+  "competition": "biohub-cell-tracking-during-development",
+  "kernel": "dmitriigluzdov/biohub-exp027-zebrahub-gold-public",
+  "kernel_version": 4,
+  "script_version_id": 348179069,
+  "source_file": "kaggle_notebooks/exp027_zebrahub_gold_public/zebrahub_gold_public.ipynb",
+  "source_sha256": "67ac3428724e0e57a76ede0219adf9737a5d2ec0a45d49acb06bbd67ea8ed52e",
+  "weight_sha256": "082d3882ad183892b3bb7541ecbb1383670eef5ba474d110afb58ffef7f77583",
+  "output_file": "outputs/research/exp027_kernel_v4_audit/submission.csv",
+  "output_sha256": "f520090009de1064761eaa1576ae50eb532f2af600c68f96f2873e4403aebb46",
+  "output_bytes": 9969725,
+  "output_rows": 192399,
+  "nodes": 97951,
+  "edges": 94448,
+  "division_sources": 336,
+  "datasets": [
+    "44b6_0113de3b",
+    "44b6_0b24845f",
+    "6bba_05b6850b",
+    "6bba_05db0fb1"
+  ],
+  "max_in_degree": 1,
+  "max_out_degree": 2,
+  "runtime": {
+    "status": "COMPLETE",
+    "internet": false,
+    "gpu": true,
+    "dynamic_competition_test_inference": true,
+    "runtime_minutes": 10.87
+  },
+  "guarded_post": {
+    "helper": "scripts/submit_code_file_once.py",
+    "ref": 56095320,
+    "date_utc": "2026-09-08T09:17:24.027000Z",
+    "status": "SubmissionStatus.PENDING",
+    "error_description": null,
+    "public_score": null,
+    "private_score": null,
+    "total_bytes": 0,
+    "file_name": "submission.csv",
+    "url": "/code/dmitriigluzdov/biohub-exp027-zebrahub-gold-public?scriptVersionId=348179069"
+  },
+  "latest_api_refresh": {
+    "checked_utc": "2026-09-09T05:59:52.8306863Z",
+    "status": "SubmissionStatus.COMPLETE",
+    "error_description": null,
+    "public_score": "0.616",
+    "private_score": null,
+    "total_bytes": 176655593,
+    "url": "/code/dmitriigluzdov/biohub-exp027-zebrahub-gold-public?scriptVersionId=348179069"
+  },
+  "quota_after_post": {
+    "num_today": 1,
+    "num_total": 79,
+    "num_allowed_now": 4,
+    "limited_by_total": false
+  },
+  "dataset_status": "ready",
+  "notes": [
+    "Initial helper attempt stopped before POST on local-vs-remote JSON formatting mismatch; builder was corrected to reproduce Kaggle canonical serialization.",
+    "Second helper attempt stopped before POST because an optional cover-cell dataset reference was not attached; v4 added the explicit read-only attachment and reran cleanly.",
+    "The candidate is public-track evidence only. Missing reciprocal 6bba download means no PRIVATE_ROBUST or honest embryo-disjoint OOF claim is made."
+  ]
+}

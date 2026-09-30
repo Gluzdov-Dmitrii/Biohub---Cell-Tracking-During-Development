@@ -1,0 +1,29 @@
+{
+  "id": "dmitriigluzdov/biohub-exp027-zebrahub-gold-public",
+  "title": "Biohub EXP027 Zebrahub GOLD PUBLIC",
+  "code_file": "zebrahub_gold_public.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "biology",
+    "gpu",
+    "independent-pretraining"
+  ],
+  "dataset_sources": [
+    "dmitriigluzdov/biohub-exp027-zebrahub-finetuned-44b6-v1",
+    "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+    "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "muhanqiu/biohub-ft-weights-v1",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

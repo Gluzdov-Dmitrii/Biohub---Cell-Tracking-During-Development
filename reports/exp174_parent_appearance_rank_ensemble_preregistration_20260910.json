@@ -1,0 +1,11 @@
+{
+  "experiment": "EXP174",
+  "parent": "EXP173",
+  "status": "PREREGISTERED_CONFIGURATION_ONLY_RETRY",
+  "contract": "Identical model, data split, seed, epochs, arms, calibration-only thresholds and promotion gate as EXP173.",
+  "only_change": "Launcher exports CUBLAS_WORKSPACE_CONFIG=:4096:8 before Python startup.",
+  "source_sha256": "b14c04864dd0ad8406eef58806df0cb3b9591f3e2bb435cd0104c91ad9166aef",
+  "launcher_sha256": "24785ae18a3cf2978933a4b825b6dd57a07a250912516424dd59d6aa4a7a1b96",
+  "competition_data": "closed",
+  "kaggle_slots_reserved": 0
+}

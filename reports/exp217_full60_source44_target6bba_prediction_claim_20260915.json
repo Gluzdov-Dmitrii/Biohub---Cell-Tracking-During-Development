@@ -1,0 +1,15 @@
+{
+  "started": 1789444964.6270478,
+  "lanes": [
+    [
+      "44b6_00",
+      "44b6_02",
+      "44b6_04"
+    ],
+    [
+      "44b6_01",
+      "44b6_03"
+    ]
+  ],
+  "scope": "Five EXP217 source44b6 target6bba paired shards only; no target metrics or POST"
+}

@@ -1,0 +1,23 @@
+{
+  "started": 1789453517.400733,
+  "lanes": [
+    [
+      "44b6_00",
+      "44b6_02",
+      "44b6_04"
+    ],
+    [
+      "44b6_01",
+      "44b6_03"
+    ]
+  ],
+  "scope": "Five EXP218 source44b6 target6bba public shards only; no target metrics or POST",
+  "overrides": [
+    "BIOHUB_ADAPTIVE_SHORT_TRACK_RESCUE=1",
+    "BIOHUB_SHORT_TRACK_RESCUE_MIN_LEN=4",
+    "BIOHUB_SHORT_TRACK_RESCUE_MIN_MEAN_EDGE_PROB=0.88",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_MEAN_EDGE_DIST_UM=3.0",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_NODES_FRAC=0.012",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_NODES_ABS=120"
+  ]
+}

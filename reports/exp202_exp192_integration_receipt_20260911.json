@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP202_ON_EXP192",
+  "recorded_at": "2026-09-11",
+  "status": "PASS_PREINFERENCE_INTEGRATION",
+  "builder_sha256": "a0d2ecb4e8b436b2f1e86f9e8c9c8ca2e6f3347c15f9f89783eb793d1aab5d36",
+  "test_sha256": "bfe4b82742fc14f6cd97acc4a4620f5bafe13ed3a19ea1e951ad6556d3d68a3a",
+  "integration_test_sha256": "d3b955b8d01bfb817a22ab5493e240173bdcba01457acbdeeb1c9cc3ed5ec94d",
+  "verification": {
+    "tests": "7 passed",
+    "compile": "PASS",
+    "remote_sha_match": true,
+    "remote_import": "PASS",
+    "synthetic_forward_parent_control": 0.0,
+    "untouched_metrics_opened": false
+  },
+  "cleanup": {
+    "remote_import_pycache_bytes_removed": 58790,
+    "remote_absence_verified": true,
+    "workspace_basetemp_removed": true,
+    "generated_bytecode_removed": true
+  },
+  "active_dependency_preserved": "Builder source in EXP192 code directory; active archive transfer and all chunk inputs unchanged.",
+  "kaggle_action_authorized": false
+}

@@ -1,0 +1,63 @@
+{
+  "experiment": "EXP209",
+  "checked_at_utc": "2026-09-27 05:11:47 UTC",
+  "method": "read-only SSH stat/SHA256 of exact historical paths; no source run, label read, GPU claim or remote write",
+  "remote_project_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+  "original_selected_result_archive": {
+    "local_and_remote_manifest_sha256": "1d9bd5c800958d9fa0d5de8982fc12afcaf6d9e776ccd995408033f1c67eff8a",
+    "result_entries": 38,
+    "sealed_final_graph_files": 0,
+    "original_final_graph_sha256_receipts": 0
+  },
+  "surviving_prefinal_inputs": {
+    "exp192_raw_candidate_caches": {
+      "movie_count": 175,
+      "all_sha256_match_exp209_chunk_input_cache_manifests": true,
+      "total_bytes": 328921296,
+      "manifest_source": "outputs/research/exp209_selected_centroid_confirmation_20260912/exp209_{forward_00..04,reverse_00..02}.json"
+    },
+    "exp192_reverse_gap_selected_edge_caches": {
+      "movie_count": 59,
+      "all_sha256_match_remote_gap_filtered_input_cache_manifests": true,
+      "total_bytes": 24328164,
+      "remote_gap_filtered_json_sha256": {
+        "reverse_00": "ead5422db13c823013e0f070a3e1f148e990afcdb213b057043eeb30f95067b2",
+        "reverse_01": "288bbc330373c7807f7e79df06f05f27ea32ea73f7a1166670b222cab035a6f7",
+        "reverse_02": "fc8670f827f4a4bfc3eab4a53ca0d649431572be182e1a23d853508baa66a82c"
+      }
+    },
+    "exp192_image_zarrs": {
+      "movie_directory_count": 175,
+      "image_array_path_exists_count": 175,
+      "content_rehashed_now": false,
+      "historical_data_audit_sha256": "1abde88cb6feea73db1ce78ac6fe0994620e3c74e58bfee46455b691052768de",
+      "historical_data_manifest_sha256": "ddf71e7f5cf52a0da152ef8fe32a8e1ff505e8534184a084b04e2e1b9a673add",
+      "historically_content_hashed_movies": 175
+    },
+    "checkpoints": {
+      "forward_detector_sha256": "dc06a79401671b2acc7ad36e8db19316f51d11676ba46508c356839df682fdbb",
+      "reverse_detector_sha256": "5c0f8358389af40a646a0fe3b4e8e88fb1b1c155da12e92efa3c944eeb499366",
+      "reverse_deepcenter_sha256": "ea0b53cb95c0bfd3cee6f7a73bcf2e32f07912fbee567f8fb38901c8627b118e",
+      "all_exist_and_sha256_match": true,
+      "needed_for_reconstruction_from_cached_candidates": false
+    }
+  },
+  "historical_code_sha256": {
+    "exp209_centroid_family": "36a7fa07f7d87ee0a8052a52c8fed759615cda6f095ae812cd740c06b9e9e942",
+    "centroid_refine": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b",
+    "short_track_filter": "a9156bbbe9f57239eedb45908f018b4f3c31b9d6d811ea788c4f7e454c5bbba3",
+    "registered_link": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "exp192_selected_edge_filter": "d411f0c937f12928e6019993b7ea5c42d2594356ea820ec3b9c06fd9cd3c190e",
+    "graph_builder_both_repos": "f698f97c6b00ec92e41aec032bf24d317d565d4f14bab56610f7d4697c441d70",
+    "legacy_metrics_both_repos": "31baf45b54c78f68bab4f65dd8f4b38bca702abb644171c6df7c46cdeef55d83"
+  },
+  "historical_cpu_resource": {
+    "cpu_affinity": "0-7",
+    "ram_budget_gib": 16,
+    "gpu_used": false,
+    "observed_result_mtime_interval_minutes_from_first_forward_chunk_to_last_reverse_chunk": 27.98,
+    "new_current_metric_runtime_measured": false
+  },
+  "conclusion": "CPU-only graph reconstruction appears feasible from surviving prefinal inputs, but cannot be described as exact sealed EXP209 graph replay without original final graph bytes and per-graph hashes.",
+  "rescore_authorized": false
+}

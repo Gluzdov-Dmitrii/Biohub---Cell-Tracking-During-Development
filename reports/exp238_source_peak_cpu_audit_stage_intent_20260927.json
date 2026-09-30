@@ -1,0 +1,12 @@
+{
+  "status": "INTENT_EXP238_CPU_STAGE",
+  "manifest_sha256": "0685ebb77ccd6ad5d43c2ba4385c74984181d000b4749227a0affa24366b00b4",
+  "config_sha256": "6cc55fb28b283263db115dec86e8c321231037dbe8e88454ba459bf3857e2730",
+  "preflight": {
+    "status": "PASS_EXP238_CPU_STAGE_PREFLIGHT_NO_LABELS",
+    "code_absent": true,
+    "run_absent": true,
+    "labels_read": false
+  },
+  "labels_read": false
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "EXP155",
+  "status": "PREREGISTERED_BEFORE_SOURCE_SCORE",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The cross-domain external edge scorer improves ordinary associations, but must be constrained to one-to-one Hungarian linking so it cannot create the 41 false forks observed in EXP154.",
+  "parent": "Identical scratch coordinates and registered-motion Hungarian topology.",
+  "candidate": "Use cached real-Zebrahub probabilities above 0.02 only as an additive ambiguity tie-break in the one-to-one Hungarian cost; no node, coordinate, division or gap-close changes.",
+  "source_selection": {
+    "weights": [0.05, 0.1],
+    "movies": "two source checkpoint-validation movies per direction",
+    "choice": "highest source official score; ties choose lower weight",
+    "eligibility": "nonnegative source score and node-recall deltas"
+  },
+  "target_gate": "Positive score in each embryo and pooled, nonnegative recall in each embryo, at least 8/12 nonnegative movies per embryo and no movie below -0.01.",
+  "source_sha256": "ab34cee200561a4ee78066f9a42729fb170c4ce6451aac533c8268ddd76cd28a",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

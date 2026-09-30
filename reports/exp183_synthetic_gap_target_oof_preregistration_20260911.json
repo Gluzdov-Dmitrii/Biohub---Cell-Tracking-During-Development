@@ -1,0 +1,45 @@
+{
+  "experiment": "EXP183",
+  "status": "PREREGISTERED_BEFORE_TARGET_DATA_ACCESS_AND_GPU_ALLOCATION",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "parent": "EXP182 PASS_SOURCE_GATE, gate SHA-256 8cdbcf9e8f6cb0b45d69fff7f12b6149cd1582bd7b6c9fbc51f7482201355c05.",
+  "hypothesis": "The source-selected DeepCenter-gated synthetic midpoint mechanism generalizes without per-movie regressions when each model is evaluated only on the opposite embryo.",
+  "frozen_evaluation": {
+    "44b6_model_target": "all 12 6bba movies",
+    "6bba_model_target": "all 12 44b6 movies",
+    "arms": [
+      "registered_hungarian",
+      "synthetic_gap_no_veto",
+      "synthetic_gap_deepcenter"
+    ],
+    "parameters": "Identical to EXP182/EXP181; no target tuning or threshold sweep."
+  },
+  "target_manifests": {
+    "all12_6bba_sha256": "6e6ed3dc61b672ef271dee0aa332e675b20adb69ad5865bbc67083564e440991",
+    "all12_44b6_sha256": "d3db2a26525e4db6ac487680646e9bd7af052e5b3bd651b0a5bfac4ef5793fb7",
+    "forward_cache_files": 12,
+    "reverse_cache_files": 12,
+    "cache_origin": "Frozen EXP152 target low-candidate caches; one NPZ per manifest movie."
+  },
+  "promotion_gate": {
+    "coverage": "Exactly 12 movies in each embryo and 24 pooled.",
+    "aggregate": "DeepCenter score must strictly exceed registered Hungarian in each embryo and pooled.",
+    "stability": "Every one of 24 movies must have nonnegative score delta and nonnegative node-recall delta.",
+    "mechanism": "DeepCenter must be exercised and add nodes in each embryo, and gated score must be no worse than no-veto in each embryo."
+  },
+  "source_sha256": {
+    "evaluate_synthetic_gap_deepcenter.py": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "evaluate_coordinate_consensus.py": "426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2",
+    "evaluate_observed_gap_close.py": "3c382148606f92c1da1601fe501e2e4a8a028b0253afcf97bd7f8cd6a1588939",
+    "train_deepcenter_explicit_split.py": "6314efc742acbf67e3fce66033f1e3736a9d0f88de72ebe630b7bba12d5f7425",
+    "select_synthetic_gap_target_gate.py": "745204439720f35cb245e0cdf48efc6b70e61e572ff23b0388babe5b7916311f",
+    "run_exp183_synthetic_gap_target_oof.sh": "5ad9d6c5a33c4a421b9064ddfdcf223f5a49e4bb1f62139c6b30d141db8bdfa5",
+    "test_synthetic_gap_target_gate.py": "7e6c93fc3fbb3a5c2cf647773e2a22e0e01e6785d6cc1557259f5a20509fb9a1"
+  },
+  "tests": "Five focused synthetic-gap and target-gate tests passed.",
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 1 GiB expected growth, 45 minutes.",
+  "next_if_pass": "Build and clean-run one hidden-compatible PRIVATE_ROBUST notebook candidate; Kaggle POST still requires a separate receipt and full runtime audit.",
+  "next_if_fail": "Reject this synthetic-gap candidate for Kaggle and record target generalization failure.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

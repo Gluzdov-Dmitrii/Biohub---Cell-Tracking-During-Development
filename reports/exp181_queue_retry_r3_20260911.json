@@ -1,0 +1,41 @@
+{
+  "experiment": "EXP181",
+  "stage": "SOURCE_ONLY_SYNTHETIC_GAP_GATE",
+  "created_utc": "2026-09-11T02:34:22.2248636Z",
+  "request": {
+    "id": "biohub-exp181-synthetic-gap-source-r3-20260911",
+    "owner": "biohub-agent",
+    "token": "exp181-r3-token-223702c4-99f4-4913-b493-b47f0d54fd60",
+    "project": "biohub-cell-tracking-during-development",
+    "run_path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp181_synthetic_gap_source_20260911",
+    "pool": "quadro",
+    "gpu_count": 1,
+    "cpu": 8,
+    "ram_gib": 32,
+    "disk_gib": 1,
+    "minutes": 45
+  },
+  "readiness": {
+    "runtime_source_sha256": "83a7d5ad451fab041473fb0f6e9a139b094759516bf56beeea29f20442c65c70",
+    "selector_sha256": "e8c43125057aae4e6c28ef619bd8bf673f3ad3a3649941ccaa1593d8065f7c26",
+    "run_script_sha256": "2844c785bb5780b1308abade7d4f2bcd9f9607df8bb5a065e75e0f16518007a5",
+    "preregistration_sha256": "93487ce5752a8afe74245937ec7befa78950412f745db63a84b3d497809ce7b5",
+    "launch_guard_sha256": "898058275d82a860e224767bfd440ed030fe9033096b598957fb0887fbaaaf1b",
+    "focused_tests": "PASS_5_PLUS_SYNTHETIC_GRAPH_SMOKE",
+    "staging": "PRESENT_IN_REGISTERED_REMOTE_KAGGLE_ROOT",
+    "disk": "6.7T_AVAILABLE_ON_SHARED_HOME_SNAPSHOT"
+  },
+  "pre_request_observation": {
+    "gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "memory_used_mib": 5,
+    "utilization_percent": 0,
+    "compute_process_count": 0,
+    "blocking_request": "rsna-s24-swin-20260910T1644Z",
+    "blocking_state": "RUNNING_UNKNOWN_STALE_STILL_RESERVED",
+    "blocking_pid": 187205,
+    "blocking_pid_exists": false,
+    "owner_contacted_for_reconciliation": true
+  },
+  "launch_rule": "Do not launch until this exact request returns fresh RESERVED/CURRENT and physical GPU state is revalidated.",
+  "authorized_scope": "Source-only EXP181 gate; no target OOF and no Kaggle slot."
+}

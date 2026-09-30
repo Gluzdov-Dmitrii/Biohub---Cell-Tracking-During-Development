@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP157",
+  "status": "PREREGISTERED_BEFORE_GPU_TRAINING",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "The real-Zebrahub edge head ranks daughters but its original loss gives division rows unit weight; a conservative transformer-only continuation that upweights true daughter edges can improve division precision/recall without changing the detector.",
+  "parent": "Real-Zebrahub full checkpoint SHA 3300ccd2 with verified 256-train/64-valid time split and 21-frame gap.",
+  "candidate": "Resume all weights; freeze U-Net and detection head in eval mode; train only SimpleNodeTransformer for one epoch at 2e-5. Weight a division row 2x and its two positive daughter cells 8x in the existing focal BCE.",
+  "selection": "Compare candidate to parent on the same external validation shards using teacher-forced GT-node thresholds [0.5,0.2,0.1,0.05,0.02]. Proceed to untouched competition source folds only if division-parent F1 at 0.5 improves and overall edge recall at 0.5 does not fall by more than 0.01.",
+  "competition_gate": "If external gate passes, score fixed scratch coordinates on the two source-validation movies in each reciprocal direction; target OOF remains unopened until both directions have a nonnegative source score/recall selection.",
+  "source_sha256": {
+    "runner": "d6d14667afc94b4d911084285a2ae9ded91cb036677ce703465cb16f638d29ef",
+    "base_pretrain_program": "060d1b8ad5abdd6823fee463650da32967199497dec473f68e0eba5d2f4612eb",
+    "base_training_data_receipt": "56f0cdca0028fab3ea480231e26f56195e701165f63494e107c5f96784ce8743",
+    "initializer": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e",
+    "competition_source_launcher": "34de29fda6bfedde6be3338bfccba39797722896ebc45039c767a0b6589222be",
+    "competition_target_launcher": "92af194c01c9624f02184f27b479ebbbe394eae1da901ac201735da334dda2fb"
+  },
+  "resource": "One RTX6000 through the common queue; 8 CPU, 32 GiB RAM, 4 GiB disk, 45 minutes. One GPU job for this project.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

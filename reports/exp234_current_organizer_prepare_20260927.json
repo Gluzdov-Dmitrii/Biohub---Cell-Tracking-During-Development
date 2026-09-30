@@ -1,0 +1,37 @@
+{
+  "status": "PREPARED_EXP234_CURRENT_ORGANIZER_TARGET175_NO_LABELS_LOCAL_ONLY",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp234_current_organizer_v1",
+  "remote_code_intended": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp234_current_organizer_v1_20260927",
+  "remote_run_intended": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp234_current_organizer_score175_v1_20260927",
+  "interpreter_intended": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/envs/current-organizer-py311-e13cf-v1/bin/python",
+  "code_manifest_sha256": "ae071f81ae1886a91d5c882f46b67a7ba949cc11822f6760ba77843206bf3260",
+  "score_config_sha256": "6a7eaca7fa58249c34695788370b0799b616cb0a483a8081d367c570d9757e95",
+  "source_hashes": {
+    "score_exp234_current_organizer.py": "130f663ffc86280764fbb18b159202fe679601ddb97973bff52b06f23d7f6a6f",
+    "check_current_organizer_metric_runtime.py": "616d26d5986e312b57f32f39d1fdb90684961c00eb14e1a44df7fe4ba19494c2",
+    "requirements_current_organizer_py311.txt": "51de8615b706eb63c55eedfab61242d266405b47e96829b840f78714d1294e1e",
+    "tracking_cellmot_official/__init__.py": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "tracking_cellmot_official/metrics.py": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+    "tracking_cellmot_official/division_metrics.py": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9"
+  },
+  "prerequisite_local_sha256": {
+    "reports/exp234_target_score_handoff_20260927.json": "336757ebebf325712f22ffc80d432d35a274654a81d5fc60666b8f0cb7ae9bc1",
+    "reports/exp234_target_official_scorer_prepare_20260927.json": "1b4d5cc33f9e1130dd1488ca213df3ad26b6a361e778551e27e04442fce2aec6",
+    "reports/exp234_target_official_scorer_launch_20260927.json": "219f874cc788f861a6a3c71330a4a2b70b55fb745cc2c40dffb6184d59b96b88",
+    "reports/exp234_target_release_manifest_v2_20260927.json": "017ce93049a4cfcbf983d9265b641a42a1266fbcfa9c7c1125f7643979f19b04",
+    "reports/exp234_target_recovery_v2_20260927.json": "b2d2e7e7de0b81e21a963182c9e935a50bf4c913f194632ad20fce5f540f1033",
+    "scripts/score_exp234_target_official.py": "64cc0fe20c0a7b14eb18d2170470ada1cd1e04a0e196ad3d82e67f7957409877"
+  },
+  "historical_gate_sha256": "37b07134c9ff27bf3eaf318d51185fdefb11737cb4721a1bf2fdd390dd94a664",
+  "historical_result_sha256": "124541f647432c7b01a9e2223ef76524927ff2587ec95f8609f7b1765e43c07c",
+  "organizer_commit": "075fc5f5a52d11077f9dc2b074644618f26939e2",
+  "metric_sha256": {
+    "metrics.py": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+    "division_metrics.py": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9"
+  },
+  "tracksdata_commit": "e13cf379b5127deeb8301ce56410fda35b5a3cf9",
+  "target_labels_read": false,
+  "remote_staged": false,
+  "scorer_launched": false,
+  "kaggle_post": false
+}

@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP179",
+  "status": "RETRY_BEFORE_OPENING",
+  "notebook": "notebooks/biohub_private_first_oof_model_development.ipynb",
+  "notebook_sha256": "1284a31b863a069ac475d815fdb115ef93cdd7ea11abc15686a706a9b9915e8b",
+  "builder_sha256": "418b4cf48b07c742210f4ef9423b8afbcf06f420b43a2f2dadff558e5b98dbd3",
+  "open_solution_provenance_sha256": "02c1d3d03157627927f77084201696565bddc490bad8237229ac8dc098897107",
+  "exp179_result_sha256": "013757229ea08ac091c28c0537c91874ff17ed9e2fad3a0bb254a022536a2b54",
+  "publication_decision": "Keep private. The notebook is a reproducible negative-result artifact, but no candidate has passed the private-first promotion gate."
+}

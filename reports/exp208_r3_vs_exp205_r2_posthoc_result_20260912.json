@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP208-vs-EXP205-forward-radius",
+  "date_local": "2026-09-12",
+  "status": "PASS_POSTHOC_DEVELOPMENT_COMPARISON",
+  "comparison": "forward centroid radius (3,5,5) versus (2,5,5), with identical reverse translation rows",
+  "pooled_delta": 0.0019625268535051754,
+  "forward_delta": 0.0024098965970138497,
+  "bootstrap_probability_positive": 0.72255,
+  "bootstrap_q025": -0.0029565024475805557,
+  "bootstrap_q975": 0.008708359156723494,
+  "leave_one_movie_out_min_delta": -0.000585468972540637,
+  "interpretation": "Radius (3,5,5) is positive on the 12 development target movies but is not robustly better than the confirmed (2,5,5) radius. EXP209 remains valuable because its radius was selected on source and its 175-movie transfer metrics are still unopened, but promotion requires the full paired result.",
+  "comparison_sha256": "294aacf8f1144b5464252118ba38f9db941f192a073a808056f497fa241f79ca",
+  "stability_sha256": "e445862fd8f658963f14b7f2e06b39f08c89b27cfb2de58dcbfb4f7b2537885e",
+  "kaggle_action": false
+}

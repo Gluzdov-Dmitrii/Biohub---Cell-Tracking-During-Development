@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP177",
+  "status": "FAILED_PRE_DATA_IMPORT",
+  "log_sha256": "6561f5109e65863d45df89d93ca66a0ac48c80b669c2118e1b66a8497159cb18",
+  "cause": "Isolated run omitted train_parent_geometry_rank_ensemble.py.",
+  "data_access": "Top-level import failure; no checkpoint, shard, or competition data read.",
+  "cleanup": "Process stopped; RTX6000 5 MiB/0%; lease released.",
+  "kaggle_slots_used": 0
+}
+

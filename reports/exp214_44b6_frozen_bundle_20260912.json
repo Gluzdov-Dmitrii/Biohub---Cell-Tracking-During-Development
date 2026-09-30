@@ -1,0 +1,24 @@
+{
+  "purpose": "EVALUATION",
+  "source_embryo": "44b6",
+  "training_plan_sha256": "983d2953c915d91d41db33bf8fafa14bd17ed6e5aeefd5f67c0dda8d7759090a",
+  "primary": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s2026_20260912/output/edge_predictor_best.pth",
+    "sha256": "f8e25074a98b651a64740ce9ab013ac957fb8d61462d9c7df982efb4db8e8605",
+    "training_status_sha256": "51d4dff284b769e722210db5ecb078a3ac54bb98a827312e59344d0edde1d58c",
+    "seed": 2026,
+    "epochs": 12
+  },
+  "secondary": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp214_reduced44b6_s314159_20260912/output/edge_predictor_best.pth",
+    "sha256": "6af80254fdab1d4d826833730d37eaa27eb9283fdcf48839e432cca403b52c53",
+    "training_status_sha256": "ffe59264880565801976c913c713d656f671131d859a4fae4930ad92b5ee8a15",
+    "seed": 314159,
+    "epochs": 12
+  },
+  "center": {
+    "path": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp180_reciprocal_deepcenter_training_20260910/output/44b6/best.pt",
+    "sha256": "ac6e8ef8784f4eff3d0673accb77f8a0724a1f4dff585dd723666ed051dab91f",
+    "provenance": "EXP180 source-only teacher"
+  }
+}

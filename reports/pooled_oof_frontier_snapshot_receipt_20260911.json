@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-09-11",
+  "status": "PASS_COMPARABLE_COHORT_FRONTIER_SNAPSHOT",
+  "snapshot": {
+    "path": "reports/POOLED_OOF_FRONTIER_20260911.md",
+    "sha256": "614b888c8f20995fad5f0b4bee74a6d88b7e10fd6fac1b3f2ab55cf802f00f4f"
+  },
+  "authoritative_input_sha256": {
+    "exp190_extended_short_track_lengths_result_20260911.json": "cb1dd155518908f3565f4ac3f22acde4c01337665cd1e4d7cb8c71984479538d",
+    "exp195_fixed_reverse_gate_result_20260911.json": "110de12922ac827525cb43d546e9c91275f9f25920061b445fa2208fafe9d7e9",
+    "exp200_local_flow_linker_result_20260911.json": "2e77960ab5f2cd218f3b3846348125efed94b3378ce5d6dcc98dbde288a5afdf",
+    "exp202_composed_untouched_confirmation_preregistration_20260911.json": "d8b0301ee3fab37acbf2c66ca0be0bfc741117e7b50f8121250bfed4ad2eb996",
+    "exp205_intensity_centroid_refinement_result_20260911.json": "5f382674b8715af4f8d782aa1f00b57922025f9aacccdf3618d493ae10abea42",
+    "exp206_centroid_untouched_confirmation_preregistration_20260911.json": "85c4c67ba7ebbb138ce898b66a88d60f7922064209c233edb10b003bd1429e09",
+    "exp207_d4_feature_tta8_preregistration_20260911.json": "5f751f2c72349d85599004a0300811821bf0ca5ba5e3e193ce5e6cfb55508eb4",
+    "exp208_source_centroid_family_preregistration_20260911.json": "38145f1a5f4bc2756f7d9d1fc26ad4d896f948317e22c71471c64b27b1925a24"
+  },
+  "scope": "Same 24 reciprocal scratch-model target movies only, with pending 175-movie confirmation explicitly excluded from observed scores.",
+  "highest_supported_exploratory_score": 0.7511992446505737,
+  "highest_exact_postselected_hypothesis_score": 0.7571390995166256,
+  "untouched_175_movie_score_available": false,
+  "kaggle_action": false
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "EXP141",
+  "date": "2026-09-09",
+  "status": "REJECT_SOURCE_GATE_TARGET_NOT_RUN",
+  "hypothesis": "Average aligned floating U-Net tensors from two fine-tune seeds while preserving the source-selected seed-271828 tracking head.",
+  "build": {
+    "donor_weight": 0.5,
+    "total_tensors": 136,
+    "averaged_floating_unet_tensors": 64,
+    "copied_nonfloating_unet_buffers": 10,
+    "copied_primary_non_unet_tensors": 62,
+    "primary_checkpoint_sha256": "19cc6d0523cf3323210ecc81218368e1e6244dba5a9d2f5e68bb503f12efb69f",
+    "donor_checkpoint_sha256": "2ec65d049fcb23634060923047607699bf1c64183b523b9c102cbc1b3e44a346",
+    "soup_checkpoint_sha256": "406fba7e74e2d1c3d76a059c0aa16f1bf8b9184398cbafbd7dfe3f51b6a33dcb",
+    "builder_sha256": "db46e5da13b484166a2b59e9ec43792b2b18d72bb3ebe18105408aa292631237",
+    "build_receipt_sha256": "2037c516aeda47f014e91f1066788a5684bf8006f2b557a8467cd73d979eb598"
+  },
+  "source_gate": {
+    "movies": ["44b6_e35b117d.zarr", "44b6_f28707c6.zarr"],
+    "threshold": 0.985,
+    "parent_score": 0.5524158064706544,
+    "soup_score": 0.0,
+    "soup_node_recall": 0.0,
+    "result_sha256": "974f4950404d27804e68deac14d1a62cbf60a0ed5169a57b680f53701f38eeeb",
+    "eval_log_sha256": "d6caafb9bd126745caf91676f394b08d2d7dfdc46cbf3d2533cb8d23a8810ea4",
+    "pass": false
+  },
+  "implementation": {
+    "source_launcher_sha256": "5e0ce2c879c6182d0c722aeae2a452799e0354f321e0ebf1497597380b57e49d"
+  },
+  "resource": {
+    "host": "prepost",
+    "gpu": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "queue_id": "biohub-exp141-unet-soup-source-20260909",
+    "lease_final_state": "RELEASED",
+    "verified_after_exit": "PID absent; GPU 5 MiB and 0% utilization"
+  },
+  "target_development_run": false,
+  "locked_audit_opened": false,
+  "kaggle_submission_authority": false,
+  "kaggle_slots_consumed": 0,
+  "decision": "Reject before target. Same-initializer fine-tune weights are not safely linearly compatible; prefer prediction/coordinate-level ensembles over naive weight-space averaging.",
+  "cleanup": "Soup checkpoint, its tiny empty-detection caches, empty launcher log and generated pyc are removed after SHA capture; build/source receipts and source log are preserved."
+}

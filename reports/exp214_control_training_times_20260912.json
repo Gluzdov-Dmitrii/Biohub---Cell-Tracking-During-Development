@@ -1,0 +1,18 @@
+{
+  "full12": {
+    "epochs": 12,
+    "selected_epoch": 11,
+    "seconds_including_validation": 9510.751591262408
+  },
+  "reduced12": {
+    "epochs": 12,
+    "selected_epoch": 9,
+    "seconds_including_validation": 1944.248219145462
+  },
+  "reduced60": {
+    "epochs": 60,
+    "selected_epoch": 22,
+    "seconds_including_validation": 9719.357100734487
+  },
+  "scope": "Training times only; no target/control metrics. All60epochs included."
+}

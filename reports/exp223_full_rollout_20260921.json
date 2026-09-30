@@ -1,0 +1,72 @@
+{
+  "experiment": "EXP223",
+  "arms": [
+    "selected50_20",
+    "fixedlast50_same_decoder"
+  ],
+  "movies": 175,
+  "predictions": 350,
+  "chunks": [
+    {
+      "chunk": 0,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk00.json",
+      "sha256": "3fcf7273361ec4f65734f5ea2aab6bc2bbde340449e13cdd1397a7c1cab4a72e",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk00_20260921"
+    },
+    {
+      "chunk": 1,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk01.json",
+      "sha256": "6deb2816c0f561c0d7e6b06b2eb40adcddf6e6a2df9086f20f97565ffc335ee0",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk01_20260921"
+    },
+    {
+      "chunk": 2,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk02.json",
+      "sha256": "108cf7f20627535f7b1422b0d8e9502ae60728ad1708c65803e8f1608ce6b54a",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk02_20260921"
+    },
+    {
+      "chunk": 3,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk03.json",
+      "sha256": "be66c1f79ffe7874aae831607a6d85df777429894539c9191e01bc8ff4b7861f",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk03_20260921"
+    },
+    {
+      "chunk": 4,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk04.json",
+      "sha256": "5d2756cf526ac8c5d721525f14b96b1f8eb52dd990be940629b60a0af3db1914",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk04_20260921"
+    },
+    {
+      "chunk": 5,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk05.json",
+      "sha256": "8b8d6d036db27d2ab9b42e56e725b9eee6db09be1471e4a619876bf9f0d2bb5a",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk05_20260921"
+    },
+    {
+      "chunk": 6,
+      "n_movies": 22,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk06.json",
+      "sha256": "a158e5dd476fb3f71eb64b6ea1829cf6c90b34e2c6b9da66a0ac24e719b7a7e3",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk06_20260921"
+    },
+    {
+      "chunk": 7,
+      "n_movies": 21,
+      "plan": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp223_horaz0_inference_v3_20260921/plan_chunk07.json",
+      "sha256": "1818259aab31a30efd36cb88d4057711ab63a4f661b70c2ba5f1d7732af41194",
+      "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp223_horaz0_pair_chunk07_20260921"
+    }
+  ],
+  "max_seconds_each": 10800,
+  "total_hard_cap_gpu_hours": 24,
+  "no_auto_retry": true,
+  "score_gate": "ALL350_RECEIPTS_BEFORE_ANY_LABEL_ACCESS",
+  "code_manifest_sha256": "037dc7fb367948cd1253f7ac44dab95f2c23c686e259462b8b446f2ea37da8cd"
+}

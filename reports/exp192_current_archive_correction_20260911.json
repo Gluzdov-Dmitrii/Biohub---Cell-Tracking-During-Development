@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "stage": "before_data_transfer_and_before_inference",
+  "observation": "The live official Kaggle competition download completed successfully but differs in byte length from the archived 2026-09-09 download receipt.",
+  "previous_archive_bytes": 87402594304,
+  "current_archive_bytes": 87393127165,
+  "current_archive_sha256": "538ed8a4d7b6669fa948865f947ed43c23aba7ee006fea8826d6ddd1277dfd19",
+  "validation": {
+    "download_exit_code": 0,
+    "archive_members": 24886,
+    "frozen_manifest_files": 21525,
+    "frozen_manifest_bytes": 75045173746,
+    "missing_manifest_files": 0,
+    "wrong_size_manifest_files": 0,
+    "catalog_validator_tests": "2 passed"
+  },
+  "interpretation": "This is a current official archive version, not the byte-identical 2026-09-09 archive. Every frozen EXP192 file path and uncompressed size from the current live API inventory is present in its ZIP central directory. Selective extraction will additionally verify ZIP CRC and a full per-movie content hash before inference.",
+  "scientific_policy_changed": false,
+  "kaggle_action_authorized": false
+}

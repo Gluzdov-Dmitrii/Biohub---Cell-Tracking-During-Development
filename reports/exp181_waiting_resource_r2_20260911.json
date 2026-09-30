@@ -1,0 +1,45 @@
+{
+  "experiment": "EXP181",
+  "status": "WAITING_RESOURCE_CANCELLED_UNLAUNCHED",
+  "queue": {
+    "id": "biohub-exp181-synthetic-gap-source-r2-20260911",
+    "owner": "biohub-agent",
+    "created_utc": "2026-09-10T18:15:21Z",
+    "cancelled_utc": "2026-09-10T18:33:10Z",
+    "wait_seconds": 1069,
+    "final_state": "CANCELLED",
+    "health": "CURRENT",
+    "assigned_gpus": [],
+    "process": null
+  },
+  "blocker": {
+    "project": "rsna-knee-abnormality-detection",
+    "queue_id": "rsna-s24-swin-20260910T1644Z",
+    "pid": 187205,
+    "process_start": "Thu Sep 10 16:46:02 2026",
+    "final_observed_gpu_uuid": "GPU-a4b01714-3774-ca39-a9d9-2f30429e84ba",
+    "final_observed_vram_mib": 9396,
+    "final_observed_utilization_percent": 100,
+    "action": "No preemption, stale-lease recovery, GPU sharing, or alternate-GPU launch was attempted."
+  },
+  "useful_cpu_progress": {
+    "publication_notebook_snapshot": "reports/notebook_snapshot_exp180_pending_exp181_20260911.json",
+    "notebook_sha256": "987bcb183dca915b9234c0ae2441597aefb6e51d32d567f30c33dfe976a96be3",
+    "attribution_audit": "reports/exp181_qrz_attribution_audit_20260911.json",
+    "attribution_audit_sha256": "b4c8732569ea86d7295744aaf78cdbb5ffc9ea8ebdba78975df4080a24af4304",
+    "notebook_claim_checks": "6 of 6 passed"
+  },
+  "runtime_state": {
+    "source_changed": false,
+    "launch_receipt_exists": false,
+    "exp181_process_started": false,
+    "source_or_target_data_opened": false,
+    "partial_outputs": 0
+  },
+  "cleanup": {
+    "new_disposable_files_remaining": 0,
+    "retained": "The same five small staged files and two unique EXP180 best checkpoints under the existing 2026-09-12 review pin."
+  },
+  "kaggle_slots_used": 0,
+  "next_action": "Retry the immutable source gate on RTX6000 only after the current registered job ends and a fresh lease is granted."
+}

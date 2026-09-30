@@ -1,0 +1,33 @@
+{
+  "experiment": "EXP217",
+  "lease_id": "biohub-exp217-full60-source44-44b6_03-20260915",
+  "token": "exp217-full60-source44-44b6_03",
+  "gpu": "GPU-04efb7bd-1f45-38cd-4a13-c79b6aeaa002",
+  "cpu_affinity": "8-15",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v8_20260914",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_03_20260915",
+  "script": "run_exp214_paired_fold.py",
+  "max_seconds": 10800,
+  "lease_minutes": 200,
+  "resources": {
+    "cpu": 8,
+    "ram_gib": 64,
+    "disk_growth_gib": 1,
+    "gpus": 1
+  },
+  "scope": "EXP217 replaces only source44b6 primary with EXP215 full-cache epoch59, target6bba paired predictions only; no metrics or POST.",
+  "arguments": [
+    "--notebook",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_inference_v7_20260912/compact47_v20.ipynb",
+    "--repo",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_honest_refit_v4_20260912/tracking_repo",
+    "--bundle",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp217_full60_source44_target6bba_inputs_20260915/44b6_bundle.json",
+    "--data-dir",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/data/exp213_source_view_20260912",
+    "--movies",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp214_evaluation_inputs_20260912/44b6_03_movies.json",
+    "--output",
+    "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp217_full60_source44_target6bba_44b6_03_20260915/output"
+  ]
+}

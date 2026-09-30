@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_EXP236_SOURCE6BBA_BLOCK01_NO_TARGET_ACCESS",
+  "preflight": {
+    "status": "PASS_EXP236_SOURCE6BBA_PREFLIGHT",
+    "bundle_sha256": "90e95a45a4d58a72c18495b48c979de52afdc080b9070892c53e8bf41c2f59b1",
+    "training_plan_sha256": "cba8b54042cdb701fa7945f4521eb3ed335f5fc186fa32e803bbaef6ee6ad899"
+  },
+  "stage": {
+    "status": "STAGED_EXP236_SOURCE6BBA_BLOCK01",
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp236_horaz_source6bba_block01_20260927",
+    "manifest_sha256": "5419ab1049c7cdf11fc4c6d79f0a0e180b8285ab07fc3331db0d64dbfcd998fb",
+    "plan_sha256": "d75ffd601e0e8409976fd74a854d704f598f758bd250c4d552d985dda475a1c5",
+    "source_manifest_sha256": "a5c3176ec25d4d75321e6c1fe17b62be2d9e25472ae7fcb677e48fe71478bd87"
+  },
+  "train_movies": 115,
+  "inner_validation_movies": 11,
+  "target_data_opened": false
+}

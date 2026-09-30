@@ -1,0 +1,27 @@
+{
+  "experiment": "EXP159",
+  "status": "REJECT_EXTERNAL_GATE_NO_COMPETITION_EVALUATION",
+  "raw_result_warning": "The immutable raw external_result.json contains a stale hard-coded experiment field EXP158. This correcting receipt binds that raw artifact to the EXP159 run path without modifying it.",
+  "raw_result_sha256": "96e9d411fe8ed20411972fbb299cc67e7890b08f5779e5f2cab25a372ac280a0",
+  "train_log_sha256": "cf702093fd97e9297d9f25405442fbf0486c4974ca5cb1894f3837c62be3f408",
+  "trainer_sha256": "5aef10d8aefe8e4e52e51de2218c82ec2f3a11ff390810c8bdc1fff47292e630",
+  "checkpoint_sha256": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+  "selected_epoch": 3,
+  "external_validation": {
+    "pair_average_precision": 0.23191278984685945,
+    "proposal_division_recall_ceiling": 0.973404255319149,
+    "division_parents": 188,
+    "covered_true_pairs": 183,
+    "operating_threshold": 0.9334129095077515,
+    "precision": 0.5,
+    "recall": 0.09289617486338798,
+    "true_positive_parents": 17,
+    "predicted_parents": 34,
+    "external_gate_pass": false
+  },
+  "reproducibility_warning": "CUBLAS_WORKSPACE_CONFIG removed the prior CuBLAS warning, but AvgPool3d backward remained nondeterministic on this CUDA build. The negative gate result is retained; the model is not promoted or claimed bitwise reproducible.",
+  "data_access": "Verified external 256 train and 64 time-validation shards only; no competition source or target labels were opened.",
+  "resource_cleanup": "PID 179204 completed; RTX6000 observed at 5 MiB/0%; lease biohub-exp159-visual-daughter-pair-20260910 released.",
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining": 5
+}

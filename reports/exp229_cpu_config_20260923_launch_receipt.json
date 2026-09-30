@@ -1,0 +1,31 @@
+{
+  "stage": "PASS_IMMUTABLE_SOURCE_INPUT_HASHES",
+  "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp229_horaz_physical_v1_20260923",
+  "manifest": {
+    "run_exp229_fixed_nodes.py": "72f70fc928aac912d3385964e393cd19268cc1829a7707df423eb6cc6cdce3f6",
+    "run_exp229_pipeline.py": "82dc032b205b61bf386580f9a57522f3c346c552605d7c1caf88f8818cec9725",
+    "run_exp224_fixed_nodes.py": "085d5445d4f8f2685487e09354c708e2193b5299dd8b116e5973487ea608ec94",
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "producer_config.json": "a141afcf3e64da2d628930860241263ab55d39671a2314a3036e6867af0262b2",
+    "pipeline_config.json": "053277181eeb58e1846667dffd7d5e032e893b808dadf500dc6ba5a87fa3b524",
+    "test_exp229_fixed_nodes.py": "77ac35ea52b67e1bd2ff0832225549b234332d11077e4dbcf263cd7ae16aca67",
+    "exp229_cpu_wrapper.py": "0aa63eb13d2d84ce135306e5908b3a614b4a276bfaa9afc369f6485badc74fc6",
+    "config.json": "cc671b60bbee8d53fb4d0fc784edda00359ea2b9189aca79c59af9c082353c51"
+  },
+  "cpu_policy": "CPU-only actual host preflight; GPU queue read-only, no fake GPU lease",
+  "mem_available": 259787386880,
+  "active_prepost_leases": [
+    "exp228-horaz-quadro-chunk00-20260923"
+  ],
+  "load": [
+    1.6396484375,
+    0.90869140625,
+    0.40185546875
+  ],
+  "launch": {
+    "wrapper_pid": 367516,
+    "wrapper_start": "531735991",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp229_horaz_physical_v1_20260923",
+    "at": 1790098358.8448384
+  }
+}

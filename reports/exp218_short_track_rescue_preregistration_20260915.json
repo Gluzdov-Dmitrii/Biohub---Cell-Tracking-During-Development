@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP218",
+  "created_at_utc": "2026-09-15T06:23:27.190488+00:00",
+  "stage": "short_track_rescue_target6bba",
+  "track": "PRIVATE_ROBUST_DIAGNOSTIC_NO_POST",
+  "parent": {
+    "experiment": "EXP214 gapfix",
+    "arm": "90/60 public graph paired175",
+    "score": 0.7427291486246141,
+    "target6bba_score": 0.7318060132031643,
+    "target44b6_score": 0.8052068737218
+  },
+  "evidence": {
+    "exp216_public_endpoint_fraction": 0.573127,
+    "exp216_public_target6bba_edge_fn": 16043,
+    "exp216_public_target6bba_endpoint_fraction": 0.568784,
+    "exp217_full_source44_regressed": true
+  },
+  "hypothesis": "A conservative adaptive short-track rescue can recover high-confidence target6bba endpoint components removed by the public graph's short-track filter, while strict mean edge probability, distance, and node-count caps avoid the coarse-count regression seen in EXP198.",
+  "overrides": [
+    "BIOHUB_ADAPTIVE_SHORT_TRACK_RESCUE=1",
+    "BIOHUB_SHORT_TRACK_RESCUE_MIN_LEN=4",
+    "BIOHUB_SHORT_TRACK_RESCUE_MIN_MEAN_EDGE_PROB=0.88",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_MEAN_EDGE_DIST_UM=3.0",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_NODES_FRAC=0.012",
+    "BIOHUB_SHORT_TRACK_RESCUE_MAX_NODES_ABS=120"
+  ],
+  "candidate_dataflow": "Run five source44b6 -> target6bba public inference shards from runtime zarr images without target labels. Reuse the frozen EXP214 target44b6 public shards. Only after all candidate receipts pass no-metric gates, open labels once through score_exp214_paired.py on the exact 175 movies.",
+  "promotion_gate": "Promote only if full175 candidate-baseline delta is positive, target6bba improves, edge FP does not grow enough to dominate endpoint FN reductions, and no graph/hash gate fails.",
+  "submission_authority": "none"
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP163",
+  "status": "PREREGISTERED_VERSIONED_LAUNCHER_BEFORE_GPU_REQUEST",
+  "track": "PRIVATE_ROBUST_RESEARCH",
+  "hypothesis": "Unchanged from EXP161/162: a fixed equal percentile-rank average of scratch-crop and pretrained-feature pair heads can improve high-precision division-parent recall.",
+  "single_candidate": "Exact evaluator SHA 847e4d... and fixed 0.50/0.50 rank average. The only operational change from EXP162 is moving all exact paths and three checkpoint hashes into a versioned, unit-tested launcher.",
+  "checkpoint_sha256": {
+    "scratch": "167f50a77587571bc9d01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "pretrained_feature": "3cdc17023606b8193cd01f1da645deb2a3de1e56bb8608f39d3f0ebd587427fb",
+    "backbone": "3300ccd2187af54644a9110c81ee954d34f261d000e767d61a176691d1ee4f0e"
+  },
+  "external_gate": "All 64 external validation shards; proposal ceiling >=0.90; ensemble precision >=0.50 and recall >=0.20; report component/ensemble AP and correlation.",
+  "competition_gate": "No competition data unless external gate passes; reciprocal source gate precedes any prospective target pass.",
+  "source_sha256": {
+    "launcher": "7482e8de04b59bfe9df498d7c51fd6b9dde7308706690fdb14c8a8e830bc8ec5",
+    "evaluator": "847e4d368b1f4ce2448f1a0817f4a2bb433d372693507fb25b34b969f0de3e90"
+  },
+  "implementation_tests": "9 pytest checks passed. Local bash -n was unavailable due Windows Bash service access; remote bash -n is mandatory after staging and before lease request.",
+  "resource": "One RTX6000 through common queue; 8 CPU, 32 GiB RAM, 2 GiB disk, 20 minutes.",
+  "kaggle_submission_authority": false,
+  "kaggle_slots_reserved": 0
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PREPARED_EXP227_CHUNK07_WAITSAFE_V2_LOCAL_ONLY",
+  "source_stopped_sha256": "8b9123bfb6b75371466fe1605cd31ddde2c630ebe585f18f7295f14a525932b3",
+  "successor_audit_sha256": "ed9755fdfeb1b19846845c9858ab05e825902011350bc43abe19f1f3afba0d3f",
+  "source_prepare_sha256": "8a8450c58be4a8692b0d8c9c7836ef983b9eb04623a3ed25807cea71d0e46aa3",
+  "source_stage_sha256": "26def087b9164509ca1aa8bf6934d96b4350bf7a934364683f269c0e11ff040c",
+  "source_bundle_manifest_sha256": "3a58de1ca681f72900fb054e8b7c1bc5f133c4f517b98ed20edac2e40b7022a9",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp227_target6bba_chunk07_waitsafe_v2_20260927",
+  "bundle_manifest_sha256": "c63813871dc002a0b9bcf0c1fc0e19d7f85db68284a5b1cd39cd51a99df42ffa",
+  "plan_sha256": "583fdae80ed8145ceca92d2405e69a6093b26700acc8986540a5f0ace6afcbd2",
+  "assignment_sha256": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+  "selection_sha256": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647",
+  "checkpoint_sha256": "df4ffd355201ae263bf3dfa57593daf9736eda89d5f7f24e9ef142790ba6bd79",
+  "movies": [
+    "6bba_085bf656",
+    "6bba_1ebfb80d",
+    "6bba_2312ac41",
+    "6bba_268e1230",
+    "6bba_3db54e20",
+    "6bba_6feeb0b1",
+    "6bba_718b21f9",
+    "6bba_971fa5e0",
+    "6bba_af149c94",
+    "6bba_c73a1d11",
+    "6bba_cdcfe533",
+    "6bba_d82a4fc6",
+    "6bba_ebff6e76",
+    "6bba_ed9377fd"
+  ],
+  "identity": {
+    "code": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/code/exp227_target6bba_chunk07_v2_20260927",
+    "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/exp227_target6bba_chunk07_v2_20260927",
+    "lease_id": "exp227-target6bba-chunk07-v2-20260927",
+    "token": "exp227_target6bba_chunk07_v2_20260927"
+  },
+  "remote_v2_absence_checked": {
+    "code_absent": true,
+    "run_absent": true
+  },
+  "remote_staged": false,
+  "remote_run_created": false,
+  "gpu_claimed": false,
+  "target_labels_read": false,
+  "target_score_computed": false,
+  "kaggle_post": false
+}

@@ -1,0 +1,39 @@
+{
+  "experiment": "EXP204",
+  "recorded_at": "2026-09-11T11:00:00Z",
+  "status": "PASS_POSTHOC_NON_TWIN_SENSITIVITY",
+  "scope": {
+    "movie_count": 20,
+    "movies_per_direction": 10,
+    "excluded_public_twins": [
+      "44b6_0113de3b.zarr",
+      "44b6_0b24845f.zarr",
+      "6bba_05b6850b.zarr",
+      "6bba_05db0fb1.zarr"
+    ]
+  },
+  "scores": {
+    "exp190_fixed_base": 0.7438710730276836,
+    "exp201_fixed_local_flow": 0.7449905953989711,
+    "exp195_fixed_reverse_gate": 0.7471471452315529,
+    "exp202_composed": 0.7477351873390712
+  },
+  "deltas": {
+    "exp201_vs_exp190": 0.0011195223712874292,
+    "exp195_vs_exp190": 0.0032760722038692736,
+    "exp202_vs_exp195": 0.0005880421075182829,
+    "forward_local_flow_vs_translation": 0.0007457757540719756,
+    "reverse_local_flow_vs_translation": 0.002502813159239503
+  },
+  "interpretation": "All fixed-policy deltas remain positive after removing public twins, but the EXP201 and EXP202 gains shrink materially. This supports mechanism plausibility while leaving transferability unresolved; the frozen 175-movie EXP192 confirmation remains decisive.",
+  "artifacts": {
+    "result": "outputs/research/exp130_official24_private_first/exp204_non_twin_policy_sensitivity.json",
+    "result_sha256": "e038173050f13ff4505dfadcb2f5779403c751c6d5ea1918554f790695f4732e",
+    "script_sha256": "4355b9796fd5ff83f6845042cbd27a67f6e6c7f68fcb02bfb4ae29447ab77518",
+    "test_sha256": "b4d1b03d68e895cf609cb753e5ee7f9d301725f2c2e3b7749c66a5e977388c00",
+    "test": "1 passed",
+    "compile": "PASS"
+  },
+  "policy_effect": "No change to EXP192/201/202; no new selector or gate.",
+  "eligible_for_kaggle_submission": false
+}

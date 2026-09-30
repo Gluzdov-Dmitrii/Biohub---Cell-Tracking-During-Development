@@ -1,0 +1,10 @@
+{
+  "status": "EXP236_TARGET59_SCORER_LAUNCH_INTENT",
+  "stage_receipt_sha256": "4d479453de79c8bb95b39be384354e132ed75b71e5a94d10bb0c8c7f58ccb9de",
+  "coordinator_local_sha256": "0ccc0b6a10f141ae3e356b9970ff0062242493cb0163f186fea4a11caef7a545",
+  "gate_only": {
+    "status": "PASS_EXP236_ALL_59_GRAPHS_BEFORE_LABEL_ACCESS",
+    "score": null
+  },
+  "target_labels_read": false
+}

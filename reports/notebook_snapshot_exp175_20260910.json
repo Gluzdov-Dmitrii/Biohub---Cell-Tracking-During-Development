@@ -1,0 +1,12 @@
+{
+  "snapshot": "EXP175",
+  "status": "RETRY_BEFORE_OPENING",
+  "builder_sha256": "8e50a710f03cd296e25b00fcbb56ded530670e09d955bfbe1588860bb48ad3b6",
+  "notebook_sha256": "4fe15f50e58ca8866ce4b228212b3f93dfced30914ef2e151dd09e0e642b5d53",
+  "notebook": "notebooks/biohub_private_first_oof_model_development.ipynb",
+  "header_contract": "Post-close PRIVATE performance is primary and unobservable before close; reciprocal OOF is the current proxy.",
+  "new_evidence": "EXP171-175 document parent-calibration failure, honest threshold transport, non-transferable appearance, useful geometry, and the remaining precision shift.",
+  "opening_decision": "Do not open yet as an improved model. It is publication-ready as an auditable negative-result/protocol notebook, but a fresh-fold calibrated candidate and hidden-compatible runtime notebook are still required for a model claim.",
+  "kaggle_slots_used": 0,
+  "kaggle_slots_remaining_after_live_account_check": 4
+}

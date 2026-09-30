@@ -1,0 +1,39 @@
+{
+  "timestamp_local": "2026-09-11T11:38:11.6501097+07:00",
+  "artifact": "notebooks/biohub_private_first_oof_model_development.ipynb",
+  "artifact_sha256": "ddadfeba1f21292794007135cedbb532d97fbc99b30611799a6e394f4597b5cc",
+  "artifact_bytes": 28079,
+  "cell_count": 33,
+  "builder": "scripts/build_private_first_public_notebook.py",
+  "builder_sha256": "7a9da277490687351d30becbc5aab18319d01e084bb7c10eb55bc36d09e22ab5",
+  "provenance": "reports/OPEN_SOLUTION_PROVENANCE.md",
+  "provenance_sha256": "73adc6b6c857f62493394b060e6d8914c035d68767d5f497476617950ca712b4",
+  "evidence": {
+    "exp182_source_receipt": "reports/exp182_synthetic_gap_source_result_20260911.json",
+    "exp182_source_receipt_sha256": "b475f6f8fd58106a33276827fa6639d8b87d2f0a8e152342a34d42e4a13edd75",
+    "exp185_target_receipt": "reports/exp185_synthetic_gap_target_oof_result_20260911.json",
+    "exp185_target_receipt_sha256": "9ae5fce456ad67a0c9ce4dab908d4851535d06973939f8e678cf5b6c2bed9244"
+  },
+  "reported_result": {
+    "source_gate": "PASS_SOURCE_GATE",
+    "target_gate": "REJECT_TARGET_OOF_GATE",
+    "pooled_base": 0.6862311370004796,
+    "pooled_candidate": 0.6996107107617476,
+    "pooled_delta": 0.013379573761268082,
+    "negative_movie_count": 8,
+    "movie_count": 24,
+    "worst_movie_delta": -0.014529368633789397,
+    "private_score_observable": false
+  },
+  "publication_decision": "Useful reproducible negative-result report, but retry before opening as an improved-model solution.",
+  "kaggle_runtime_authorized": false,
+  "kaggle_submission_authorized": false,
+  "validation": {
+    "json_parse": true,
+    "contains_source_pass": true,
+    "contains_target_reject": true,
+    "contains_movie_stability_failure": true,
+    "contains_no_submission_decision": true,
+    "stale_exp181_pending_claim_absent": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP187 scientific evaluation plus EXP189 validated analysis",
+  "status": "PASS_NESTED_POOLED_GAIN",
+  "control": {
+    "status": "PASS_EXACT_EXP152_CONTROL_REPRODUCTION",
+    "movies": 24,
+    "maximum_absolute_error": 0.0,
+    "sha256": "e3bc51cfc58545e37ed19b37e1d34ced548175769600ccfe5a9795e62b92d9d8"
+  },
+  "true_24_movie_pooled": {
+    "no_filter": 0.6761456762872734,
+    "nested_selected": 0.7405160160560463,
+    "delta": 0.06437033976877293,
+    "node_recall_no_filter": 0.9596970466109626,
+    "node_recall_nested": 0.9375634707769002,
+    "negative_movie_count": 2
+  },
+  "selection": {
+    "forward_44b6_to_6bba": "min6 on all 12 held-out selections; rescue label wins only a score tie",
+    "reverse_6bba_to_44b6": "min3 on all 12 held-out selections"
+  },
+  "rescue_audit": {
+    "triggered_movies_forward": 7,
+    "triggered_movies_reverse": 9,
+    "components_rescued": 0,
+    "nodes_rescued": 0,
+    "interpretation": "The gain is from short-component pruning, not public-notebook rescue."
+  },
+  "nested_selection_sha256": "914a6efab3cb11795cd0d3b85b4109458dc2b382f8025964245f582801c7b068",
+  "eligible_for_kaggle_submission": false
+}

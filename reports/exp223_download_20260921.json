@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "horaz0/biohub-top-cv-0803-artifact/1",
+    "file": "fold0_selected.pt",
+    "sha256": "8c202a657567309a15e0b254236b2d730b4a4942b54408608d3b1895fc45ff08",
+    "bytes": 8363061
+  },
+  {
+    "dataset": "horaz0/biohub-top-cv-0803-artifact/1",
+    "file": "fold1_selected.pt",
+    "sha256": "009c105cc3d745c3fa7e90fdf4c81d041627235274a37003631085c3c929ec53",
+    "bytes": 8363061
+  },
+  {
+    "dataset": "horaz0/biohub-cfg-embryo-cv-last-folds/1",
+    "file": "fold0_last.pt",
+    "sha256": "efc13436c66b096b2e6b8c087a3fdad7342a227ce8823032e3ca1c414dd1f1fc",
+    "bytes": 25139835
+  },
+  {
+    "dataset": "horaz0/biohub-cfg-embryo-cv-last-folds/1",
+    "file": "fold1_last.pt",
+    "sha256": "71cd74068a8a865a7ffb8edeca51f9ccb34e5dcc0815fb0b68c77668874beceb",
+    "bytes": 25139899
+  }
+]

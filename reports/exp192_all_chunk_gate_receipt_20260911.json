@@ -1,0 +1,18 @@
+{
+  "experiment": "EXP192",
+  "recorded_at": "2026-09-11",
+  "stage": "before_inference",
+  "purpose": "Require eight complete, structurally valid chunks and exact 116/59/175 frozen coverage before any scientific metric is emitted or aggregation is allowed.",
+  "script": "scripts/validate_exp192_all_chunks_no_metrics.py",
+  "script_sha256": "426c1e5f3b8fba6469cef86aeaf145d49b971a8002d1fe8d85abb70f0c33ab6f",
+  "verification": {
+    "local_tests_with_chunk_validator": "4 passed",
+    "local_compile": "PASS",
+    "local_diff_check": "PASS",
+    "remote_sha_match": true,
+    "remote_import": "PASS"
+  },
+  "output_contract": "Only status, counts, input/result hashes, and scientific_metrics_emitted=false; no score or component value.",
+  "scientific_policy_changed": false,
+  "kaggle_action_authorized": false
+}

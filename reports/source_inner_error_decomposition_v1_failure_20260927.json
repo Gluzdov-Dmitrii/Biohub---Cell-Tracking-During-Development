@@ -1,0 +1,25 @@
+{
+  "status": "STOPPED_V1_BEFORE_SOURCE_GEFF_OR_OUTPUT",
+  "observed_utc": "2026-09-27 08:15:01 UTC",
+  "source_manifest_sha256": "17f7ee386ade78237574e17fde616c7ffb2acab24c31c19f3926c673439a018e",
+  "run": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development/runs/source_inner_error_decomposition_v1_20260927",
+  "remote_exit_sha256": "e7c282edfbb9ab474deedb615d79ba25f4cbe3a1d7c73265da85779f2d162352",
+  "remote_worker_log_sha256": "356cccbcbfd8f4291f56dd32ecc468cc1d82cee7fb0881a8ef45a867fc8382a0",
+  "remote_launch_sha256": "6b0e3202c0d65d477915fe5568cbc0d5627e768864ba13bbf9c33099c4e21f06",
+  "remote_child_sha256": "7f9e9328252d111ed9efaa7061e2323ccc2bdcb15831a9064fbd589fbcfd0e95",
+  "returncode": 1,
+  "timeout": false,
+  "worker_pid_state_after_exit": null,
+  "output_exists": false,
+  "completed_source_movies": 0,
+  "failure_location": "audit_source_inner.py:211 graph_and_receipt_gate: source19 <= EXP234 target175 image audit IDs",
+  "source_ids_in_target175_image_audit": 17,
+  "source_ids_missing_from_target175_image_audit": [
+    "44b6_f28707c6",
+    "44b6_341df25f"
+  ],
+  "source_geff_read_before_failure": false,
+  "reciprocal_target_labels_read": false,
+  "gpu_used": false,
+  "kaggle_post": false
+}

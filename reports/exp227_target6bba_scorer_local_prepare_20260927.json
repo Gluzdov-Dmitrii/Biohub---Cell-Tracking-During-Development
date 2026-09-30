@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_EXP227_TARGET6BBA_SCORER_LOCAL_ONLY",
+  "bundle": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development\\work\\exp227_target6bba_scorer_local_20260927",
+  "local_manifest_sha256": "dba8bdb533f671564b508ec4d6d2a049b3b316fc75829d70a813bcf983cef670",
+  "source_hashes": {
+    "assignment.json": "9e9f15ad5e3497cd74d3c91b10f19a53686deb8f16412d3b239c7455d9f749f4",
+    "exp223_config.json": "45af14b5a6922324941a5f1d91052c373b1db7d7308a02cb6e9534ed47fce973",
+    "score_exp214_paired.py": "04cf48b737980ae8a1c2d9cecbcf2e07d92cf53cab18ad9ef0787506fd4417c4",
+    "score_exp223_official.py": "3341f8675ab641aba7e92733730463633ded92505cc6d1b66acbe5237e56dab4",
+    "score_exp227_target6bba_official.py": "e8563458ed0d7910e4b173c878848dcadbe11a05c118e55710bd55c07d916241",
+    "selection.json": "27238678c3ad86cfa4d0a631a2f368d100cb51e12d720e1d90e413da3c049647"
+  },
+  "target_labels_read": false,
+  "remote_stage_created": false,
+  "remote_run_created": false,
+  "target_score_computed": false,
+  "evidence_class": "leakage-controlled reciprocal evaluation; historically exposed target labels"
+}

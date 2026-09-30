@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP205",
+  "recorded_at": "2026-09-11T11:15:00Z",
+  "status": "PREREGISTERED_BEFORE_SCORING",
+  "hypothesis": "Full-resolution local intensity centroids can correct sub-voxel detector localization without changing node count, improving official pooled edge matching after registered linking.",
+  "source_attribution": {
+    "source": "xiaoleilian/biohub-cell-tracking-classical-baseline",
+    "source_notebook_sha256": "ef193c8cd86c7faa7f5e9240b4ef72b8e5f3e8fbec3e8ba871ba0d8bd087e088",
+    "audit": "reports/open_classical_baseline_audit_20260911.json"
+  },
+  "parent": "EXP190 exact fixed complete-graph policy: registered translation linker plus minimum component length 8 forward and 3 reverse.",
+  "data_and_protocol": "Existing reciprocal embryo-disjoint 24-movie OOF detector-coordinate caches and corresponding raw image volumes. Both directions complete before comparison; no neural inference and no GPU.",
+  "fixed_candidate": "For every cached node, round to its raw-image voxel, crop radius z=2/y=5/x=5, subtract the crop minimum, and replace the coordinate with the positive-intensity weighted centroid. Preserve time and node count; recompute the exact registered translation linker and fixed direction-specific short-track pruning.",
+  "candidate_arms": ["translation", "intensity_centroid_r2_5_5"],
+  "selection": "None. One source-attributed fixed candidate is compared with the exact parent across all 24 movies.",
+  "evidence_rule": "Exact parent reproduction within 1e-12 is mandatory. A positive pooled delta is a useful exploratory result; robust promotion additionally requires nonnegative directional deltas and a positive lower 95 percent bound from 20,000 direction-stratified paired movie bootstrap draws.",
+  "interpretation_guard": "This already-open development cohort cannot modify the frozen EXP192/201/202 policies. A positive result may define a separately preregistered future confirmation only before its target metrics are opened.",
+  "implementation": {
+    "evaluator": {"path": "scripts/evaluate_cached_intensity_centroid_refinement.py", "sha256": "0f812c4b4af24cf8512c59cc1cbda6323e0c17f698f46a3b5621dd011971d04b"},
+    "evaluator_test": {"path": "tests/test_evaluate_cached_intensity_centroid_refinement.py", "sha256": "1f4088b34763c8832ac39f8febcb885a4b885c5270ccc7638e6588867cef5eac"},
+    "builder": {"path": "scripts/build_fixed_two_direction_comparison.py", "sha256": "50056002743d60acd0a2ee3c9199c7775b360c72a2848f9b8349d351264ce4f6"},
+    "builder_test": {"path": "tests/test_build_fixed_two_direction_comparison.py", "sha256": "1f3a73cef7844ccd80915f6ceb6f5298dc04a45e33f7bdb3663f8df13e38adb8"},
+    "launcher": {"path": "scripts/run_exp205_intensity_centroid_refinement.sh", "sha256": "277dec2d7c1fea6dc964839d4b23fdb80744ed85bac18bd75077771c7e8d8f9e"},
+    "tests": "5 passed",
+    "python_compile": "PASS",
+    "local_bash_check": "NOT_AVAILABLE: local WSL service returned E_ACCESSDENIED; remote bash -n is mandatory before execution."
+  },
+  "resource": "CPU-only on nsu-quadro: 8 threads, <=16 GiB RAM, <0.1 GiB output, no GPU lease. Input readiness is already established by prior 24-movie runs.",
+  "eligible_for_kaggle_submission": false
+}

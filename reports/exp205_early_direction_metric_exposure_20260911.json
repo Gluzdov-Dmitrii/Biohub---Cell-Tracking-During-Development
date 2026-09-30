@@ -1,0 +1,14 @@
+{
+  "experiment": "EXP205",
+  "recorded_at": "2026-09-11T11:22:00Z",
+  "status": "PROTOCOL_DEVIATION_EARLY_FORWARD_SUMMARY_EXPOSURE",
+  "event": "A progress-only tail command read the end of forward.log after forward completed and while reverse was already running. The output included the forward arm summaries.",
+  "timing_and_immutability": "The candidate, radii, code hashes, parent, both movie lists, both commands and promotion rule were frozen before launch. Reverse had already started under the same immutable launcher when the summary was exposed.",
+  "impact": "The final fixed 24-movie pooled comparison remains mechanically valid because there is no selection and the running reverse process cannot be changed. However, directional blinding was violated, so EXP205 must be described as an unblinded exploratory development ablation and cannot be elevated to untouched confirmation evidence.",
+  "containment": [
+    "Do not change or restart the running reverse evaluation.",
+    "Do not inspect any further metric-bearing log until the launcher exits.",
+    "Do not modify EXP192/201/202 based on EXP205."
+  ],
+  "eligible_for_kaggle_submission": false
+}

@@ -1,0 +1,10 @@
+{
+  "experiment": "EXP147",
+  "status": "FAILED_BEFORE_DATA_OR_SCORE",
+  "cause": "Isolated run root omitted evaluate_coordinate_consensus.py, which supplies the frozen registered_links function.",
+  "exception": "ModuleNotFoundError: No module named 'evaluate_coordinate_consensus'",
+  "failure_log_sha256": "c01f34c68c9e307340756affd079f5cc6c5263d651806e0a08d1c0dda40c538e",
+  "results_written": 0,
+  "fix_scope": "Stage the already verified dependency SHA-256 426b4ee3c6d07a90d1848c1dcd551352eafea8c27a4cf18b05a80d047865fad2; no candidate or gate change.",
+  "kaggle_slots_consumed": 0
+}
