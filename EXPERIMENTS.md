@@ -7034,3 +7034,8 @@ Completed normally after 8748.4s (about 2h26m), exit0, no hard timeout. Twelve v
 ## 2026-09-30 — competition closed and conservation authorized
 
 User requests postmortem, archive, Git preservation and project cleanup. All experimental queues are historical; no further training, Kaggle POST or notebook push is authorized by them. Current private snapshot: best available .917; Big Cells preliminary rank1082/4020 (down715). Horaz all199 E10 public/private .910/.887, E20 .908/.889; edge .955/.917, centered edge .956/.917. Full109-object API snapshot and postmortem are preserved in the standalone archive under Desktop/Kaggle/.archive/Biohub - Cell Tracking During Development. Both Biohub automations already PAUSED. See reports/POSTMORTEM_20260930_RU.md and eventual reports/CLOSEOUT_20260930.json for verified cleanup facts. Local recursive deletion was rejected by execution policy; do not claim local files removed.
+
+
+### Conservation closeout verified, 2026-09-30
+
+Standalone archive and Git branch codex/archive-biohub-20260930 preserved. Cluster Biohub root absent on both prepost/ngpu01 shared NFS; dataset/runs/models/cache/code/envs removed, Biohub queue records zero. Remote Windows PC project root also absent. Local raw data remain because automatic approval review rejected recursive removal as blocked by policy; source folder is safe for manual deletion now. Exact selected model bytes and user goals-log.txt preserved in archive, model binaries/user file excluded from public Git. No further experiment work authorized.

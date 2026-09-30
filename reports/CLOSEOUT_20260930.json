@@ -1,0 +1,70 @@
+{
+  "date_local": "2026-09-30",
+  "utc": "2026-09-30T04:48:22.585603+00:00",
+  "status": "CONSERVED_REMOTE_CLEANUP_COMPLETE_LOCAL_MANUAL_DELETE_REQUIRED",
+  "objective": "Conserve Biohub, document failure causes, preserve useful source/checkpoints and clean competition artifacts",
+  "archive_root": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\.archive\\Biohub - Cell Tracking During Development",
+  "git_branch": "codex/archive-biohub-20260930",
+  "initial_pushed_commit": "55f91c94ba5d99d1ccc7ef9ac1da7b5393277601",
+  "git_standalone": true,
+  "git_alternates_absent": true,
+  "private_result": {
+    "team": "Big Cells",
+    "rank_preliminary": 1082,
+    "teams": 4020,
+    "score": "0.917",
+    "places_lost": 715
+  },
+  "api_objects": 109,
+  "api_scored_private": 96,
+  "api_errors": 13,
+  "copy_checks": {
+    "local_files": 9245,
+    "remote_files_sha_verified": 4241,
+    "selected_local_model_files": 6,
+    "selected_remote_models": 4
+  },
+  "tests": {
+    "passed": 19,
+    "deselected": 1,
+    "deselected_reason": "Historical EXP212 checkpoint package intentionally not retained"
+  },
+  "cleanup": {
+    "windows_nsu_pc_root_absent_verified": true,
+    "linux_shared_root": "/home/scientists/gluz_d_s/kaggle/projects/biohub-cell-tracking-during-development",
+    "local_recursive_deletion": "AUTO_APPROVAL_REJECTED_BLOCKED_BY_POLICY; raw data and source root remain for manual deletion",
+    "local_source_root_retained": "C:\\Users\\Dmitry\\Desktop\\Kaggle\\Biohub - Cell Tracking During Development",
+    "source_root_can_be_manually_deleted_after_closeout": true,
+    "unrelated_user_file": "goals-log.txt preserved locally, excluded from public Git",
+    "linux_worker_completed": true,
+    "linux_shared_root_absent_verified": {
+      "prepost": true,
+      "ngpu01": true
+    },
+    "biohub_queue_records_remaining": 0,
+    "linux_owned_readonly_repairs": 144,
+    "linux_removed_size_du_before_GiB_approx": 107,
+    "linux_dataset_directory_removed": true,
+    "windows_removal_method": "Native PowerShell Remove-Item via authorized SSH command; no execution-policy changes",
+    "archive_scratch_moved_to_original_discard": true,
+    "additional_owned_name_scan": {
+      "linux_home_tmp_kagglehub_matches": [],
+      "nsu_pc_home_temp_matches": []
+    }
+  },
+  "automation_status": {
+    "horaz": "PAUSED",
+    "biohub-oof60-lb": "PAUSED"
+  },
+  "evidence_paths": [
+    "reports/POSTMORTEM_20260930_RU.md",
+    "reports/PUBLIC_FINAL_WRITEUPS_20260930.md",
+    "reports/CLOSEOUT_COPY_MANIFEST_20260930.json",
+    "reports/CLOSEOUT_REMOTE_MANIFEST_20260930.json",
+    "work/closeout-20260930/live_submissions.json",
+    "work/closeout-20260930/cleanup_after_timeout.json"
+  ],
+  "next_action": "User may delete the original Desktop Biohub folder now. Keep this standalone .archive checkout and its local-only model artifacts.",
+  "archive_size_MiB_approx": 447.8,
+  "ready_for_original_folder_manual_deletion": true
+}
